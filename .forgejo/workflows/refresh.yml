@@ -1,0 +1,44 @@
+# Forgejo Actions workflow: refresh dead M3U URLs from ParaTV main
+# Codeberg utilise Forgejo Actions (= compatible syntax GitHub Actions)
+name: refresh-m3u-urls
+
+on:
+  schedule:
+    # Toutes les 6h (UTC). Modifie le cron si tu veux changer la fréquence.
+    - cron: '0 */6 * * *'
+  # Permet aussi le déclenchement manuel via l'UI Codeberg
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: docker
+    container:
+      image: python:3-alpine
+    steps:
+      - name: Install git
+        run: apk add --no-cache git
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install Python deps
+        run: pip install --no-cache-dir requests
+
+      - name: Run refresh script
+        run: python scripts/refresh_urls.py
+
+      - name: Commit & push if changed
+        env:
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+        run: |
+          if [ -n "$(git status --porcelain data.m3u)" ]; then
+            git config user.email "ci@codeberg.org"
+            git config user.name "Codeberg CI"
+            git add data.m3u
+            git commit -m "Auto-refresh: dead URLs replaced [skip ci]"
+            git push https://xdata:$CODEBERG_TOKEN@codeberg.org/xdata/nx-data.git HEAD:main
+          else
+            echo "✓ No URL changes — nothing to commit"
+          fi
