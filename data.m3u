@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="TF1.fr" tvg-name="TF1" tvg-logo="https://tv4.life/tvlogos/tf1.png" group-title="Premium FR",TF1
 #EXTVLCOPT:http-user-agent=
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136875.m3u8
-#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M6_2020.svg/200px-M6_2020.svg.png" group-title="Premium FR",M6
+#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6" tvg-logo="https://tv4.life/tvlogos/m6.png" group-title="Premium FR",M6
 #EXTVLCOPT:http-user-agent=
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136871.m3u8
 #EXTINF:-1 tvg-id="W9.fr" tvg-name="W9" tvg-logo="" group-title="Premium FR",W9
@@ -596,7 +596,7 @@ http://live.aab1.top/live/odai/123321/1120.ts
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/hxdLuqIQzW4j/neN00kmTTKfBWAO.m3u8
-#EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" group-title="TNT France",France 2
+#EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="TNT France",France 2
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-2.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
@@ -604,7 +604,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 #EXTINF:-1 tvg-chno="40" tvg-id="CanalPlus.fr" epg-s="34" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_color.png?h=100" tvg-country="FR" group-title="TNT France",CANAL+ EN CLAIR 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/canalplusclair-hd-highest.m3u8
-#EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="TNT France",France 5
+#EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://tv4.life/tvlogos/france_5.png" group-title="TNT France",France 5
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-5.m3u8
 #EXTINF:-1 tvg-chno="1684" tvg-logo="https://picserve.netplus.ch/channels/m6hd.png" tvg-country="FR" group-title="TNT France",M6 HD [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
@@ -626,7 +626,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/l
 #EXTINF:-1 tvg-chno="43" tvg-id="PublicSenat2424.fr" epg-s="2013" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/publicsenat-100x100.png?h=100" tvg-country="FR" group-title="TNT France",Public Sénat 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/res/publicsenat-dm-highest.m3u8
-#EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="TNT France",France 4 HD (1080p)
+#EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://tv4.life/tvlogos/france_4.png" group-title="TNT France",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="BFMTV.fr" epg-s="481" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="TNT France",BFM TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
@@ -687,9 +687,9 @@ https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da6
 https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 #EXTINF:-1 tvg-id="CannesLerinsTV.fr@SD" tvg-logo="https://i.imgur.com/atlgnum.png" group-title="Généralistes",Cannes Lérins TV (1080p)
 https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
-#EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" group-title="Généralistes",France 2
+#EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="Généralistes",France 2
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-2.m3u8
-#EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="Généralistes",France 5
+#EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://tv4.life/tvlogos/france_5.png" group-title="Généralistes",France 5
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-5.m3u8
 #EXTINF:-1 tvg-id="FranceInter.fr@SD" tvg-logo="https://i.imgur.com/MgBeU52.png" group-title="Généralistes",France Inter (288p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8
@@ -1188,9 +1188,9 @@ https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg0
 https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
 #EXTINF:-1 tvg-id="DetectiveConan.us@France" tvg-logo="https://images.pluto.tv/channels/62f3e8ad2a8e8000077b013d/colorLogoPNG.png?w=512" group-title="Jeunesse",Detective Conan France (720p)
 https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8
-#EXTINF:-1 tvg-id="DisneyJr.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" group-title="Jeunesse",Disney Jr. (1080p)
+#EXTINF:-1 tvg-id="DisneyJr.fr@SD" tvg-logo="https://tv4.life/tvlogos/disney_junior.png" group-title="Jeunesse",Disney Jr. (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
-#EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Jeunesse",France 4 HD (1080p)
+#EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://tv4.life/tvlogos/france_4.png" group-title="Jeunesse",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-id="Gong.fr@SD" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="Jeunesse",Gong (1080p)
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
