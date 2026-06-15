@@ -1,55 +1,74 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/S1lh2pWmb1xNoC-highest.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" group-title="TNT France",France 2 (1080p)
 http://69.64.57.208/france2/mono.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/res/france3-highest.m3u8
 #EXTINF:-1 tvg-chno="40" tvg-id="CanalPlus.fr" epg-s="34" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_color.png?h=100" tvg-country="FR" group-title="TNT France",CANAL+ EN CLAIR 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/canalplusclair-hd-highest.m3u8
 #EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="TNT France",France 5 (1080p)
 http://69.64.57.208/france5/mono.m3u8
 #EXTINF:-1 tvg-chno="1684" tvg-logo="https://picserve.netplus.ch/channels/m6hd.png" tvg-country="FR" group-title="TNT France",M6 HD [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="TNT France",Arte (720p) 
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 tvg-chno="1701" tvg-logo="https://picserve.netplus.ch/channels/w9.png" tvg-country="FR" group-title="TNT France",W9 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
 #EXTINF:-1 tvg-chno="10" tvg-id="TMC.fr" epg-s="195" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="TNT France",TMC 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/uCFo65BrK1nnCvl-highest.m3u8
 #EXTINF:-1 tvg-chno="11" tvg-id="NT1.fr" epg-s="446" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="TNT France",TFX 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/TSN79DRFBqN7Y1wu-highest.m3u8
 #EXTINF:-1 tvg-chno="8" tvg-id="LaChaineParlementaire.fr" epg-s="234" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LCP100x100.png?h=100" tvg-country="FR" group-title="TNT France",LCP 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/lcp-public-senat-highest.m3u8
 #EXTINF:-1 tvg-chno="43" tvg-id="PublicSenat2424.fr" epg-s="2013" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/publicsenat-100x100.png?h=100" tvg-country="FR" group-title="TNT France",Public Sénat 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/res/publicsenat-dm-highest.m3u8
 #EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="TNT France",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="BFMTV.fr" epg-s="481" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="TNT France",BFM TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 #EXTINF:-1 tvg-chno="14" tvg-id="CNews.fr" epg-s="226" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CNews_color.png?h=100" tvg-country="FR" group-title="TNT France",C NEWS 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cnews-clair-hd-highest.m3u8
 #EXTINF:-1 tvg-chno="17" tvg-id="CStar.fr" epg-s="458" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="TNT France",CStar 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cstar-dm-highest.m3u8
 #EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-logo="https://i.imgur.com/kqYssbW.png" group-title="TNT France",Gulli
 https://test.946985.filegear-sg.me/proxy/7e0a9ae6a27eee96
 #EXTINF:-1 tvg-chno="20" tvg-id="TF1SeriesFilms.fr" epg-s="1404" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 Séries Films 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/Yw4x1xpWasn4Zsed-highest.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-id="LEquipe21.fr" epg-s="1401" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="TNT France",LA CHAÎNE L'ÉQUIPE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/res/la-chaine-l-equipe-en-direct-dm-highest.m3u8
 #EXTINF:-1 tvg-chno="23" tvg-id="Numero23.fr" epg-s="1402" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_STORY_color.png?h=100" tvg-country="FR" group-title="TNT France",RMC STORY 
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 #EXTINF:-1 tvg-chno="24" tvg-id="RMCDecouverte.fr" epg-s="1400" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Decouverte_color.png?h=100" tvg-country="FR" group-title="TNT France",RMC Découverte 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
 #EXTINF:-1 tvg-chno="1668" tvg-logo="https://picserve.netplus.ch/channels/cherie25.png" tvg-country="FR" group-title="TNT France",CHERIE 25 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="TNT France",LCI 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/vZftlkz4KO9ZUIR5-highest.m3u8
 #EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="TNT France",Franceinfo
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="TNT France",FRANCE 24 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-24-highest.m3u8
 #EXTINF:-1 tvg-chno="123" tvg-logo="https://i.imgur.com/b4ASOV2.png" tvg-country="FR" group-title="TNT France",TV5 MONDE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/tv5-monde-highest.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="Généralistes",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
@@ -101,6 +120,7 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8
 #EXTINF:-1 tvg-id="SudRadio.fr@SD" tvg-logo="https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png" group-title="Généralistes",Sud Radio (288p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8
 #EXTINF:-1 tvg-id="T18.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" group-title="Généralistes",T18 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 #EXTINF:-1 tvg-id="TeleGohelle.fr@SD" tvg-logo="https://i.imgur.com/Oa3Pwbf.png" group-title="Généralistes",TéléGohelle
 https://videas.agglo-lenslievin.fr/index.m3u8
@@ -131,110 +151,162 @@ https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 #EXTINF:-1 tvg-id="VosgesTV.fr@SD" tvg-logo="https://i.imgur.com/7y7ancc.png" group-title="Généralistes",Vosges Télévision (576p) 
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="Généralistes",TF1 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/S1lh2pWmb1xNoC-highest.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="Généralistes",France 3 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/res/france3-highest.m3u8
 #EXTINF:-1 tvg-chno="8" tvg-id="LaChaineParlementaire.fr" epg-s="234" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LCP100x100.png?h=100" tvg-country="FR" group-title="Généralistes",LCP 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/lcp-public-senat-highest.m3u8
 #EXTINF:-1 tvg-chno="51" tvg-id="LCP100.fr" tvg-logo="https://i.imgur.com/WK7fvqD.png" tvg-country="FR" group-title="Généralistes",LCP-AN 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lcp/lcp-dm.m3u8
 #EXTINF:-1 tvg-chno="43" tvg-id="PublicSenat2424.fr" epg-s="2013" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/publicsenat-100x100.png?h=100" tvg-country="FR" group-title="Généralistes",Public Sénat 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/res/publicsenat-dm-highest.m3u8
 #EXTINF:-1 tvg-chno="10" tvg-id="TMC.fr" epg-s="195" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="Généralistes",TMC 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/uCFo65BrK1nnCvl-highest.m3u8
 #EXTINF:-1 tvg-chno="11" tvg-id="NT1.fr" epg-s="446" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="Généralistes",TFX 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/TSN79DRFBqN7Y1wu-highest.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="BFMTV.fr" epg-s="481" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="Généralistes",BFM TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 #EXTINF:-1 tvg-chno="14" tvg-id="CNews.fr" epg-s="226" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CNews_color.png?h=100" tvg-country="FR" group-title="Généralistes",C NEWS 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cnews-clair-hd-highest.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="Généralistes",LCI 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/vZftlkz4KO9ZUIR5-highest.m3u8
 #EXTINF:-1 tvg-chno="16" tvg-id="FranceInfo.fr" epg-s="2111" tvg-logo="https://i.imgur.com/hwaz7xG.png" tvg-country="FR" group-title="Généralistes",France Info 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/franceinfo-highest.m3u8
 #EXTINF:-1 tvg-chno="17" tvg-id="CStar.fr" epg-s="458" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="Généralistes",CStar 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cstar-dm-highest.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="TF1SeriesFilms.fr" epg-s="1404" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="Généralistes",TF1 Séries Films 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/Yw4x1xpWasn4Zsed-highest.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-id="LEquipe21.fr" epg-s="1401" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="Généralistes",LA CHAÎNE L'ÉQUIPE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/res/la-chaine-l-equipe-en-direct-dm-highest.m3u8
 #EXTINF:-1 tvg-chno="23" tvg-id="Numero23.fr" epg-s="1402" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_STORY_color.png?h=100" tvg-country="FR" group-title="Généralistes",RMC STORY 
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 #EXTINF:-1 tvg-chno="24" tvg-id="RMCDecouverte.fr" epg-s="1400" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Decouverte_color.png?h=100" tvg-country="FR" group-title="Généralistes",RMC Découverte 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
 #EXTINF:-1 tvg-chno="34" tvg-id="ViaGrandParis.fr" epg-s="3768" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LEFIGARO100x100couleur.png?h=100" tvg-country="FR" group-title="Généralistes",LE FIGARO TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/figaro/res/tv-highest.m3u8
 #EXTINF:-1 tvg-chno="40" tvg-id="CanalPlus.fr" epg-s="34" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_color.png?h=100" tvg-country="FR" group-title="Généralistes",CANAL+ EN CLAIR 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/canalplusclair-hd-highest.m3u8
 #EXTINF:-1 tvg-chno="115" tvg-logo="https://i.imgur.com/KQmIjgs.png" tvg-country="FR" group-title="Généralistes",FRANCE TV DOCS 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/documentaire-highest.m3u8
 #EXTINF:-1 tvg-chno="116" tvg-logo="https://i.imgur.com/ESz1gbr.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SÉRIES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/serie-highest.m3u8
 #EXTINF:-1 tvg-chno="117" tvg-logo="https://i.imgur.com/IeiMuGI.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SPORT [SSAI]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/sport-highest.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="Généralistes",FRANCE 24 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-24-highest.m3u8
 #EXTINF:-1 tvg-chno="120" tvg-logo="https://i.imgur.com/pPpiZiQ.png" tvg-country="FR" group-title="Généralistes",INA [SSAI]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/ina-highest.m3u8
 #EXTINF:-1 tvg-chno="121" tvg-id="LaChaineParlementaire.fr" tvg-logo="https://i.imgur.com/oGNOOkO.png" tvg-country="FR" group-title="Généralistes",LCP - PUBLIC SÉNAT 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/lcp-public-senat-highest.m3u8
 #EXTINF:-1 tvg-chno="122" tvg-logo="https://i.imgur.com/X1g4fzg.png" tvg-country="FR" group-title="Généralistes",MIEUX 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/mieux-highest.m3u8
 #EXTINF:-1 tvg-chno="123" tvg-logo="https://i.imgur.com/b4ASOV2.png" tvg-country="FR" group-title="Généralistes",TV5 MONDE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/tv5-monde-highest.m3u8
 #EXTINF:-1 tvg-chno="124" tvg-logo="https://i.imgur.com/UpLgsLw.png" tvg-country="FR" group-title="Généralistes",CHAINE ROLAND-GARROS [SSAI]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/roland-garros-highest.m3u8
 #EXTINF:-1 tvg-chno="125" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 ALPES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-alpes-highest.m3u8
 #EXTINF:-1 tvg-chno="126" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 ALSACE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-alsace-highest.m3u8
 #EXTINF:-1 tvg-chno="127" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 AQUITAINE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-aquitaine-highest.m3u8
 #EXTINF:-1 tvg-chno="128" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 AUVERGNE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-auvergne-highest.m3u8
 #EXTINF:-1 tvg-chno="129" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 BASSE-NORMANDIE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-basse-normandie-highest.m3u8
 #EXTINF:-1 tvg-chno="130" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 BOURGOGNE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-bourgogne-highest.m3u8
 #EXTINF:-1 tvg-chno="131" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 BRETAGNE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-bretagne-highest.m3u8
 #EXTINF:-1 tvg-chno="132" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 CENTRE-VAL DE LOIRE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-centre-val-de-loire-highest.m3u8
 #EXTINF:-1 tvg-chno="133" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 CHAMPAGNE-ARDENNE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-champagne-ardenne-highest.m3u8
 #EXTINF:-1 tvg-chno="134" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 CORSE VIA STELLA 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-corse-via-stella-highest.m3u8
 #EXTINF:-1 tvg-chno="135" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 CÔTE D'AZUR 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-cote-d-azur-highest.m3u8
 #EXTINF:-1 tvg-chno="136" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 FRANCHE-COMTÉ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-franche-comte-highest.m3u8
 #EXTINF:-1 tvg-chno="137" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 HAUTE-NORMANDIE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-haute-normandie-highest.m3u8
 #EXTINF:-1 tvg-chno="138" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 LANGUEDOC-ROUSSILLON 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-languedoc-roussillon-highest.m3u8
 #EXTINF:-1 tvg-chno="139" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 LIMOUSIN 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-limousin-highest.m3u8
 #EXTINF:-1 tvg-chno="140" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 LORRAINE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-lorraine-highest.m3u8
 #EXTINF:-1 tvg-chno="141" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 MIDI-PYRÉNÉES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-midi-pyrenees-highest.m3u8
 #EXTINF:-1 tvg-chno="142" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",NOA 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-noa-highest.m3u8
 #EXTINF:-1 tvg-chno="143" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 NORD PAS-DE-CALAIS 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-nord-pas-de-calais-highest.m3u8
 #EXTINF:-1 tvg-chno="144" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 PARIS ILE-DE-FRANCE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-paris-ile-de-france-highest.m3u8
 #EXTINF:-1 tvg-chno="145" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 PAYS DE LA LOIRE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-pays-de-la-loire-highest.m3u8
 #EXTINF:-1 tvg-chno="146" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 PICARDIE 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-picardie-highest.m3u8
 #EXTINF:-1 tvg-chno="147" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 POITOU-CHARENTES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-poitou-charentes-highest.m3u8
 #EXTINF:-1 tvg-chno="148" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 PROVENCE ALPES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-provence-alpes-highest.m3u8
 #EXTINF:-1 tvg-chno="149" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 RHÔNE-ALPES 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-rhone-alpes-highest.m3u8
 #EXTINF:-1 tvg-chno="150" tvg-logo="https://i.imgur.com/M4mQ8iG.png" tvg-country="FR" group-title="Généralistes",OUTRE-MER EN CONTINU 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/playout-outre-mer-highest.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr@SD" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="Info",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
@@ -299,6 +371,7 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="CanalPlusFoot.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png" group-title="Sport",Canal+ Foot
 https://test.946985.filegear-sg.me/proxy/ef3174f16d4557d2
 #EXTINF:-1 tvg-id="Equidia.fr@SD" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="Sport",Equidia (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Sport",FIFA+ French (720p)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
@@ -314,62 +387,91 @@ https://cdndirector.dailymotion.com/cdn/live/video/x2lefik.m3u8?sec=3NKB0BxB8WD4
 #EXTINF:-1 tvg-chno="80" tvg-id="k5VKYQn5hAE4vfry927" group-title="Sport",My new video title
 https://cdndirector.dailymotion.com/cdn/live/video/x6qdjk7.m3u8?sec=2d26YM_zOBVSIfyfOBus1MongtpQ-oWBzv0x3NS5srsvp9d1t6ttqhRcHpMzOP08PtPvaV8KY810zFgoazZ0wILE_56H19q5ADcJXGUQ60U
 #EXTINF:-1 tvg-chno="81" tvg-id="k6c3A07yUljlAzwkvtL" group-title="Sport",Tennis Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://cdndirector.dailymotion.com/cdn/live/video/x7wff2p.m3u8?sec=gGmLQikrKQQfxRfwtftVjMRlq4pi70myAff0tHNtmcjnxQLoSAhBY4qMPx1sUN13oyfI-QzYVBs8UBjINRMhyO31XpUYapznBazXVZWZslE
 #EXTINF:-1 tvg-chno="300" tvg-logo="https://i.imgur.com/tM9y14c.png" tvg-country="FR" group-title="Sport",LE GRAND DIRECT 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/live2-highest.m3u8
 #EXTINF:-1 tvg-chno="301" tvg-logo="https://i.imgur.com/97ZUGVj.png" tvg-country="FR" group-title="Sport",RACING GALOP 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racinggalop-highest.m3u8
 #EXTINF:-1 tvg-chno="302" tvg-logo="https://i.imgur.com/pvVTk1r.png" tvg-country="FR" group-title="Sport",RACING MAG 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racingmag-highest.m3u8
 #EXTINF:-1 tvg-chno="303" tvg-logo="https://i.imgur.com/KiZp1nY.png" tvg-country="FR" group-title="Sport",RACING TROT 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racingtrot-highest.m3u8
 #EXTINF:-1 tvg-chno="311" tvg-logo="https://i.imgur.com/slLJJXj.png" tvg-country="FR" group-title="Sport",RACING 1 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing1-highest.m3u8
 #EXTINF:-1 tvg-chno="312" tvg-logo="https://i.imgur.com/DZXeQKu.png" tvg-country="FR" group-title="Sport",RACING 2 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing2-highest.m3u8
 #EXTINF:-1 tvg-chno="313" tvg-logo="https://i.imgur.com/c8wlnCf.png" tvg-country="FR" group-title="Sport",RACING 3 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing3-highest.m3u8
 #EXTINF:-1 tvg-chno="314" tvg-logo="https://i.imgur.com/u6j80kx.png" tvg-country="FR" group-title="Sport",RACING 4 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing4-highest.m3u8
 #EXTINF:-1 tvg-chno="315" tvg-logo="https://i.imgur.com/YU1cMYO.png" tvg-country="FR" group-title="Sport",RACING 5 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing5-highest.m3u8
 #EXTINF:-1 tvg-chno="316" tvg-logo="https://i.imgur.com/4xO7aRX.png" tvg-country="FR" group-title="Sport",RACING 6 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing6-highest.m3u8
 #EXTINF:-1 tvg-chno="317" tvg-country="FR" group-title="Sport",RACING 7 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing7-highest.m3u8
 #EXTINF:-1 tvg-chno="318" tvg-country="FR" group-title="Sport",RACING 8 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing8-highest.m3u8
 #EXTINF:-1 tvg-chno="321" tvg-country="FR" group-title="Sport",REGION 1 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region01-highest.m3u8
 #EXTINF:-1 tvg-chno="322" tvg-country="FR" group-title="Sport",REGION 2 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region02-highest.m3u8
 #EXTINF:-1 tvg-chno="323" tvg-country="FR" group-title="Sport",REGION 3 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region03-highest.m3u8
 #EXTINF:-1 tvg-chno="324" tvg-country="FR" group-title="Sport",REGION 4 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region04-highest.m3u8
 #EXTINF:-1 tvg-chno="325" tvg-country="FR" group-title="Sport",REGION 5 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region05-highest.m3u8
 #EXTINF:-1 tvg-chno="326" tvg-country="FR" group-title="Sport",REGION 6 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region06-highest.m3u8
 #EXTINF:-1 tvg-chno="327" tvg-country="FR" group-title="Sport",REGION 7 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region07-highest.m3u8
 #EXTINF:-1 tvg-chno="328" tvg-country="FR" group-title="Sport",REGION 8 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region08-highest.m3u8
 #EXTINF:-1 tvg-chno="329" tvg-country="FR" group-title="Sport",REGION 9 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region09-highest.m3u8
 #EXTINF:-1 tvg-chno="330" tvg-country="FR" group-title="Sport",REGION 10 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region10-highest.m3u8
 #EXTINF:-1 tvg-chno="331" tvg-country="FR" group-title="Sport",REGION 11 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region11-highest.m3u8
 #EXTINF:-1 tvg-chno="332" tvg-country="FR" group-title="Sport",REGION 12 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region12-highest.m3u8
 #EXTINF:-1 tvg-chno="333" tvg-country="FR" group-title="Sport",REGION 13 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region13-highest.m3u8
 #EXTINF:-1 tvg-chno="334" tvg-country="FR" group-title="Sport",REGION 14 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region14-highest.m3u8
 #EXTINF:-1 tvg-chno="335" tvg-country="FR" group-title="Sport",REGION 15 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region15-highest.m3u8
 #EXTINF:-1 tvg-chno="336" tvg-country="FR" group-title="Sport",REGION 16 [1080p-equidia.fr]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region16-highest.m3u8
 #EXTINF:-1 tvg-chno="354" tvg-id="BFMBusiness.fr" epg-s="1073" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_Business_color.png?h=100" tvg-country="FR" group-title="Sport",BFM Business 
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END
@@ -590,8 +692,10 @@ https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
 #EXTINF:-1 tvg-id="PublicSenat2424.fr@SD" tvg-logo="https://i.imgur.com/nHWWLBP.png" group-title="Politique",Public Senat 24/24
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8
 #EXTINF:-1 tvg-chno="65" epg-s="226" tvg-logo="https://i.imgur.com/viR1wZh.png" tvg-country="FR" group-title="Canal+",CNEWS PRIME 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cnewsprime-clair-hd-highest.m3u8
 #EXTINF:-1 tvg-chno="67" tvg-logo="https://s2.dmcdn.net/u/1W-uR1f7ntIfZU4bn/60x60" tvg-country="FR" group-title="Canal+",Europe 1 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/europe1tv-clair-hd-highest.m3u8
 #EXTINF:-1 tvg-chno="1002" tvg-id="FR1400003Y0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400003Y0_20241015T040216SQUARE.png" tvg-country="FR" group-title="Samsung TV+",BFM 2 
 https://jmp2.uk/stvp-FR1400003Y0
@@ -894,202 +998,300 @@ https://jmp2.uk/stvp-FR12000040D
 #EXTINF:-1 tvg-chno="1204" tvg-id="FR900002B4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR900002B4_20260528T055414SQUARE.png" tvg-country="FR" group-title="Samsung TV+",Motor Racing 
 https://jmp2.uk/stvp-FR900002B4
 #EXTINF:-1 tvg-chno="1205" tvg-id="FR44000015M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR44000015M_20260609T043411SQUARE.png" tvg-country="FR" group-title="Samsung TV+",Metal.Rocks 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://jmp2.uk/stvp-FR44000015M
 #EXTINF:-1 tvg-chno="1600" tvg-logo="https://picserve.netplus.ch/channels/3sathd.png" tvg-country="DE" group-title="NetPlus",3SAT HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8
 #EXTINF:-1 tvg-chno="1601" tvg-logo="https://picserve.netplus.ch/channels/bluezoomde.png" tvg-country="DE" group-title="NetPlus",BLUE ZOOM DE [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bluezoomde/browser-HLS8/bluezoomde.m3u8
 #EXTINF:-1 tvg-chno="1602" tvg-logo="https://picserve.netplus.ch/channels/bralpha.png" tvg-country="DE" group-title="NetPlus",BR ALPHA [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8
 #EXTINF:-1 tvg-chno="1603" tvg-logo="https://picserve.netplus.ch/channels/brhdsud.png" tvg-country="DE" group-title="NetPlus",BR HD SUD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8
 #EXTINF:-1 tvg-chno="1604" tvg-logo="https://picserve.netplus.ch/channels/daserstehd.png" tvg-country="DE" group-title="NetPlus",DAS ERSTE HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8
 #EXTINF:-1 tvg-chno="1605" tvg-logo="https://picserve.netplus.ch/channels/disneychannelde.png" tvg-country="DE" group-title="NetPlus",DISNEY CHANNEL DE [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
 #EXTINF:-1 tvg-chno="1606" tvg-logo="https://picserve.netplus.ch/channels/eurosportde.png" tvg-country="DE" group-title="NetPlus",EUROSPORT DE [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/eurosportde/browser-HLS8/eurosportde.m3u8
 #EXTINF:-1 tvg-chno="1607" tvg-logo="https://picserve.netplus.ch/channels/hr.png" tvg-country="DE" group-title="NetPlus",HR [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8
 #EXTINF:-1 tvg-chno="1608" tvg-logo="https://picserve.netplus.ch/channels/kanal9.png" tvg-country="DE" group-title="NetPlus",KANAL 9 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/kanal9/browser-HLS8/kanal9.m3u8
 #EXTINF:-1 tvg-chno="1609" tvg-logo="https://picserve.netplus.ch/channels/kikahd.png" tvg-country="DE" group-title="NetPlus",KIKA HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8
 #EXTINF:-1 tvg-chno="1610" tvg-logo="https://picserve.netplus.ch/channels/mdr.png" tvg-country="DE" group-title="NetPlus",MDR [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8
 #EXTINF:-1 tvg-chno="1611" tvg-logo="https://picserve.netplus.ch/channels/ndr.png" tvg-country="DE" group-title="NetPlus",NDR [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8
 #EXTINF:-1 tvg-chno="1612" tvg-logo="https://picserve.netplus.ch/channels/comedycentralnick.png" tvg-country="DE" group-title="NetPlus",NICK [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8
 #EXTINF:-1 tvg-chno="1613" tvg-logo="https://picserve.netplus.ch/channels/ntv.png" tvg-country="DE" group-title="NetPlus",N TV [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/ntv/browser-HLS8/ntv.m3u8
 #EXTINF:-1 tvg-chno="1614" tvg-logo="https://picserve.netplus.ch/channels/orf1.png" tvg-country="DE" group-title="NetPlus",ORF 1 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8
 #EXTINF:-1 tvg-chno="1615" tvg-logo="https://picserve.netplus.ch/channels/orf2.png" tvg-country="DE" group-title="NetPlus",ORF 2 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8
 #EXTINF:-1 tvg-chno="1616" tvg-logo="https://picserve.netplus.ch/channels/phoenixhd.png" tvg-country="DE" group-title="NetPlus",PHOENIX HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8
 #EXTINF:-1 tvg-chno="1617" tvg-logo="https://picserve.netplus.ch/channels/rtl.png" tvg-country="DE" group-title="NetPlus",RTL [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rtl/browser-HLS8/rtl.m3u8
 #EXTINF:-1 tvg-chno="1618" tvg-logo="https://picserve.netplus.ch/channels/rtl2.png" tvg-country="DE" group-title="NetPlus",RTL 2 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rtl2/browser-HLS8/rtl2.m3u8
 #EXTINF:-1 tvg-chno="1619" tvg-logo="https://picserve.netplus.ch/channels/rtlnitro.png" tvg-country="DE" group-title="NetPlus",RTL NITRO [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rtlnitro/browser-HLS8/rtlnitro.m3u8
 #EXTINF:-1 tvg-chno="1620" tvg-logo="https://picserve.netplus.ch/channels/sport1.png" tvg-country="DE" group-title="NetPlus",SPORT 1 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/sport1/browser-HLS8/sport1.m3u8
 #EXTINF:-1 tvg-chno="1621" tvg-logo="https://picserve.netplus.ch/channels/srf1hd.png" tvg-country="DE" group-title="NetPlus",SRF 1 HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8
 #EXTINF:-1 tvg-chno="1622" tvg-logo="https://picserve.netplus.ch/channels/srf2hd.png" tvg-country="DE" group-title="NetPlus",SRF 2 HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8
 #EXTINF:-1 tvg-chno="1623" tvg-logo="https://picserve.netplus.ch/channels/srfinfo.png" tvg-country="DE" group-title="NetPlus",SRF INFO [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8
 #EXTINF:-1 tvg-chno="1624" tvg-logo="https://picserve.netplus.ch/channels/superrtl.png" tvg-country="DE" group-title="NetPlus",SUPER RTL [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/superrtl/browser-HLS8/superrtl.m3u8
 #EXTINF:-1 tvg-chno="1625" tvg-logo="https://picserve.netplus.ch/channels/swrbw.png" tvg-country="DE" group-title="NetPlus",SWR BW [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8
 #EXTINF:-1 tvg-chno="1626" tvg-logo="https://picserve.netplus.ch/channels/tele5.png" tvg-country="DE" group-title="NetPlus",TELE 5 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tele5/browser-HLS8/tele5.m3u8
 #EXTINF:-1 tvg-chno="1627" tvg-logo="https://picserve.netplus.ch/channels/telebaern.png" tvg-country="DE" group-title="NetPlus",TELE BAERN [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/telebaern/browser-HLS8/telebaern.m3u8
 #EXTINF:-1 tvg-chno="1628" tvg-logo="https://picserve.netplus.ch/channels/telebielingue.png" tvg-country="DE" group-title="NetPlus",TELEBIELINGUE [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/telebielingue/browser-HLS8/telebielingue.m3u8
 #EXTINF:-1 tvg-chno="1629" tvg-logo="https://picserve.netplus.ch/channels/tv24.png" tvg-country="DE" group-title="NetPlus",TV24 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tv24/browser-HLS8/tv24.m3u8
 #EXTINF:-1 tvg-chno="1630" tvg-logo="https://picserve.netplus.ch/channels/vox.png" tvg-country="DE" group-title="NetPlus",VOX [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/vox/browser-HLS8/vox.m3u8
 #EXTINF:-1 tvg-chno="1631" tvg-logo="https://picserve.netplus.ch/channels/wdrhd.png" tvg-country="DE" group-title="NetPlus",WDR HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8
 #EXTINF:-1 tvg-chno="1632" tvg-logo="https://picserve.netplus.ch/channels/n24.png" tvg-country="DE" group-title="NetPlus",WELT [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/n24/browser-HLS8/n24.m3u8
 #EXTINF:-1 tvg-chno="1633" tvg-logo="https://picserve.netplus.ch/channels/zdfhd.png" tvg-country="DE" group-title="NetPlus",ZDF HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8
 #EXTINF:-1 tvg-chno="1634" tvg-logo="https://picserve.netplus.ch/channels/zdfinfohd.png" tvg-country="DE" group-title="NetPlus",ZDF INFO HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8
 #EXTINF:-1 tvg-chno="1635" tvg-logo="https://picserve.netplus.ch/channels/zdfneohd.png" tvg-country="DE" group-title="NetPlus",ZDF NEO HD [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8
 #EXTINF:-1 tvg-chno="1636" tvg-logo="https://picserve.netplus.ch/channels/bvn.png" tvg-country="DU" group-title="NetPlus",BVN [DU]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bvn/browser-HLS8/bvn.m3u8
 #EXTINF:-1 tvg-chno="1638" tvg-logo="https://picserve.netplus.ch/channels/bbc2.png" tvg-country="EN" group-title="NetPlus",BBC 2 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bbc2/browser-HLS8/bbc2.m3u8
 #EXTINF:-1 tvg-chno="1639" tvg-logo="https://picserve.netplus.ch/channels/bbc3cbbc.png" tvg-country="EN" group-title="NetPlus",BBC 3 CBBC [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 #EXTINF:-1 tvg-chno="1640" tvg-logo="https://picserve.netplus.ch/channels/bbc4cbeebies.png" tvg-country="EN" group-title="NetPlus",BBC 4 CBEEBIES [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8
 #EXTINF:-1 tvg-chno="1641" tvg-logo="https://picserve.netplus.ch/channels/bbcworld.png" tvg-country="EN" group-title="NetPlus",BBC WORLD [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bbcworld/browser-HLS8/bbcworld.m3u8
 #EXTINF:-1 tvg-chno="1642" tvg-logo="https://picserve.netplus.ch/channels/bloomberg.png" tvg-country="EN" group-title="NetPlus",BLOOMBERG [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bloomberg/browser-HLS8/bloomberg.m3u8
 #EXTINF:-1 tvg-chno="1643" tvg-logo="https://picserve.netplus.ch/channels/channel4.png" tvg-country="EN" group-title="NetPlus",CHANNEL 4 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
 #EXTINF:-1 tvg-chno="1644" tvg-logo="https://picserve.netplus.ch/channels/channel5.png" tvg-country="EN" group-title="NetPlus",CHANNEL 5 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
 #EXTINF:-1 tvg-chno="1645" tvg-logo="https://picserve.netplus.ch/channels/cnbc.png" tvg-country="EN" group-title="NetPlus",CNBC [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
 #EXTINF:-1 tvg-chno="1646" tvg-logo="https://picserve.netplus.ch/channels/cnn.png" tvg-country="EN" group-title="NetPlus",CNN [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/cnn/browser-HLS8/cnn.m3u8
 #EXTINF:-1 tvg-chno="1647" tvg-logo="https://picserve.netplus.ch/channels/fashiontv.png" tvg-country="EN" group-title="NetPlus",FASHION TV [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/fashiontv/browser-HLS8/fashiontv.m3u8
 #EXTINF:-1 tvg-chno="1648" tvg-logo="https://picserve.netplus.ch/channels/film4.png" tvg-country="EN" group-title="NetPlus",FILM 4 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
 #EXTINF:-1 tvg-chno="1649" tvg-logo="https://picserve.netplus.ch/channels/itv2.png" tvg-country="EN" group-title="NetPlus",ITV 2 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8
 #EXTINF:-1 tvg-chno="1650" tvg-logo="https://picserve.netplus.ch/channels/itv3.png" tvg-country="EN" group-title="NetPlus",ITV 3 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 #EXTINF:-1 tvg-chno="1651" tvg-logo="https://picserve.netplus.ch/channels/itv4.png" tvg-country="EN" group-title="NetPlus",ITV 4 [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
 #EXTINF:-1 tvg-chno="1652" tvg-logo="https://picserve.netplus.ch/channels/skynews.png" tvg-country="EN" group-title="NetPlus",SKY NEWS [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/skynews/browser-HLS8/skynews.m3u8
 #EXTINF:-1 tvg-chno="1653" tvg-logo="https://picserve.netplus.ch/channels/tveinternacional.png" tvg-country="ES" group-title="NetPlus",TVE INTERNACIONAL [ES]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tveinternacional/browser-HLS8/tveinternacional.m3u8
 #EXTINF:-1 tvg-chno="1654" tvg-logo="https://picserve.netplus.ch/channels/6ter.png" tvg-country="FR" group-title="NetPlus",6TER [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
 #EXTINF:-1 tvg-chno="1658" tvg-logo="https://picserve.netplus.ch/channels/bluezoomfr.png" tvg-country="FR" group-title="NetPlus",BLUE ZOOM FR [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bluezoomfr/browser-HLS8/bluezoomfr.m3u8
 #EXTINF:-1 tvg-chno="1659" tvg-logo="https://picserve.netplus.ch/channels/canal9.png" tvg-country="FR" group-title="NetPlus",CANAL 9 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canal9/browser-HLS8/canal9.m3u8
 #EXTINF:-1 tvg-chno="1660" tvg-logo="https://picserve.netplus.ch/channels/canalalphaju.png" tvg-country="FR" group-title="NetPlus",CANAL ALPHA JU [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canalalphaju/browser-HLS8/canalalphaju.m3u8
 #EXTINF:-1 tvg-chno="1661" tvg-logo="https://picserve.netplus.ch/channels/canalalphane.png" tvg-country="FR" group-title="NetPlus",CANAL ALPHA NE [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canalalphane/browser-HLS8/canalalphane.m3u8
 #EXTINF:-1 tvg-chno="1662" tvg-logo="https://picserve.netplus.ch/channels/itele.png" tvg-country="FR" group-title="NetPlus",CANALNEWS [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/itele/browser-HLS8/itele.m3u8
 #EXTINF:-1 tvg-chno="1663" tvg-logo="https://picserve.netplus.ch/channels/rougetv.png" tvg-country="FR" group-title="NetPlus",CARAC 1 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rougetv/browser-HLS8/rougetv.m3u8
 #EXTINF:-1 tvg-chno="1664" tvg-logo="https://picserve.netplus.ch/channels/onetv.png" tvg-country="FR" group-title="NetPlus",CARAC 2 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/onetv/browser-HLS8/onetv.m3u8
 #EXTINF:-1 tvg-chno="1665" tvg-logo="https://picserve.netplus.ch/channels/lfmtv.png" tvg-country="FR" group-title="NetPlus",CARAC 3 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/lfmtv/browser-HLS8/lfmtv.m3u8
 #EXTINF:-1 tvg-chno="1666" tvg-logo="https://picserve.netplus.ch/channels/tvsuisseplus.png" tvg-country="FR" group-title="NetPlus",CARAC 4 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tvsuisseplus/browser-HLS8/tvsuisseplus.m3u8
 #EXTINF:-1 tvg-chno="1667" tvg-logo="https://picserve.netplus.ch/channels/teleswizz.png" tvg-country="FR" group-title="NetPlus",CARAC 5 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/teleswizz/browser-HLS8/teleswizz.m3u8
 #EXTINF:-1 tvg-chno="1668" tvg-logo="https://picserve.netplus.ch/channels/cherie25.png" tvg-country="FR" group-title="NetPlus",CHERIE 25 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
 #EXTINF:-1 tvg-chno="1670" tvg-logo="https://picserve.netplus.ch/channels/euronews.png" tvg-country="FR" group-title="NetPlus",EURONEWS [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
 #EXTINF:-1 tvg-chno="1679" tvg-logo="https://picserve.netplus.ch/channels/latele.png" tvg-country="FR" group-title="NetPlus",LA TELE [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/latele/browser-HLS8/latele.m3u8
 #EXTINF:-1 tvg-chno="1682" tvg-logo="https://picserve.netplus.ch/channels/lemanbleu.png" tvg-country="FR" group-title="NetPlus",LEMAN BLEU [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8
 #EXTINF:-1 tvg-chno="1683" tvg-logo="https://picserve.netplus.ch/channels/lequipe21.png" tvg-country="FR" group-title="NetPlus",L EQUIPE [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
 #EXTINF:-1 tvg-chno="1684" tvg-logo="https://picserve.netplus.ch/channels/m6hd.png" tvg-country="FR" group-title="NetPlus",M6 HD [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
 #EXTINF:-1 tvg-chno="1685" tvg-logo="https://picserve.netplus.ch/channels/maxtv.png" tvg-country="FR" group-title="NetPlus",MAX TV [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/maxtv/browser-HLS8/maxtv.m3u8
 #EXTINF:-1 tvg-chno="1686" tvg-country="FR" group-title="NetPlus",NOVO 19 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/novo19/browser-HLS8/novo19.m3u8
 #EXTINF:-1 tvg-chno="1687" tvg-logo="https://picserve.netplus.ch/channels/nrtv.png" tvg-country="FR" group-title="NetPlus",NRTV [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8
 #EXTINF:-1 tvg-chno="1688" tvg-logo="https://picserve.netplus.ch/channels/rmcdecouverte.png" tvg-country="FR" group-title="NetPlus",RMC DECOUVERTE [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8
 #EXTINF:-1 tvg-chno="1690" tvg-logo="https://picserve.netplus.ch/channels/rts1hd.png" tvg-country="FR" group-title="NetPlus",RTS 1 HD [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
 #EXTINF:-1 tvg-chno="1691" tvg-logo="https://picserve.netplus.ch/channels/rts2hd.png" tvg-country="FR" group-title="NetPlus",RTS 2 HD [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
 #EXTINF:-1 tvg-chno="1694" tvg-logo="https://picserve.netplus.ch/channels/hd1.png" tvg-country="FR" group-title="NetPlus",TF1 SERIES [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8
 #EXTINF:-1 tvg-chno="1697" tvg-logo="https://picserve.netplus.ch/channels/tv5mondefbs.png" tvg-country="FR" group-title="NetPlus",TV5 MONDE FBS [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tv5mondefbs/browser-HLS8/tv5mondefbs.m3u8
 #EXTINF:-1 tvg-chno="1698" tvg-logo="https://picserve.netplus.ch/channels/tv8montblanc.png" tvg-country="FR" group-title="NetPlus",TV8 MONT BLANC [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tv8montblanc/browser-HLS8/tv8montblanc.m3u8
 #EXTINF:-1 tvg-chno="1699" tvg-logo="https://picserve.netplus.ch/channels/tvm3.png" tvg-country="FR" group-title="NetPlus",TVM3 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
 #EXTINF:-1 tvg-chno="1700" tvg-logo="https://picserve.netplus.ch/channels/valtv.png" tvg-country="FR" group-title="NetPlus",VAL TV [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/valtv/browser-HLS8/valtv.m3u8
 #EXTINF:-1 tvg-chno="1701" tvg-logo="https://picserve.netplus.ch/channels/w9.png" tvg-country="FR" group-title="NetPlus",W9 [FR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
 #EXTINF:-1 tvg-chno="1702" tvg-logo="https://picserve.netplus.ch/channels/canale5.png" tvg-country="IT" group-title="NetPlus",CANALE 5 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
 #EXTINF:-1 tvg-chno="1703" tvg-logo="https://picserve.netplus.ch/channels/italia1.png" tvg-country="IT" group-title="NetPlus",ITALIA 1 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
 #EXTINF:-1 tvg-chno="1704" tvg-logo="https://picserve.netplus.ch/channels/la7.png" tvg-country="IT" group-title="NetPlus",LA 7 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8
 #EXTINF:-1 tvg-chno="1705" tvg-logo="https://picserve.netplus.ch/channels/la7d.png" tvg-country="IT" group-title="NetPlus",LA7D [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-chno="1706" tvg-logo="https://picserve.netplus.ch/channels/rai1.png" tvg-country="IT" group-title="NetPlus",RAI 1 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 #EXTINF:-1 tvg-chno="1707" tvg-logo="https://picserve.netplus.ch/channels/rai2.png" tvg-country="IT" group-title="NetPlus",RAI 2 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8
 #EXTINF:-1 tvg-chno="1708" tvg-logo="https://picserve.netplus.ch/channels/rai3.png" tvg-country="IT" group-title="NetPlus",RAI 3 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
 #EXTINF:-1 tvg-chno="1709" tvg-logo="https://picserve.netplus.ch/channels/raigulp.png" tvg-country="IT" group-title="NetPlus",RAI GULP [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
 #EXTINF:-1 tvg-chno="1710" tvg-logo="https://picserve.netplus.ch/channels/rete4.png" tvg-country="IT" group-title="NetPlus",RETE 4 [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8
 #EXTINF:-1 tvg-chno="1711" tvg-logo="https://picserve.netplus.ch/channels/rsila1hd.png" tvg-country="IT" group-title="NetPlus",RSI LA 1 HD [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
 #EXTINF:-1 tvg-chno="1712" tvg-logo="https://picserve.netplus.ch/channels/rsila2hd.png" tvg-country="IT" group-title="NetPlus",RSI LA 2 HD [IT]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 #EXTINF:-1 tvg-chno="1713" tvg-logo="https://picserve.netplus.ch/channels/rederecordinternacional.png" tvg-country="POR" group-title="NetPlus",REDE RECORD INTERNACIONAL [POR]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8
 #EXTINF:-1 tvg-chno="1714" tvg-logo="https://picserve.netplus.ch/channels/rtpi.png" tvg-country="POR" group-title="NetPlus",RTPI [POR]
 https://viamotionhsi.netplus.ch/live/eds/rtpi/browser-HLS8/rtpi.m3u8
 #EXTINF:-1 tvg-chno="500" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/belgium/rtl-tvi-be.png" tvg-country="BE" group-title="Belgique",RTL tvi [1080p-rtlplay.be]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/res/rtltvi-highest.m3u8
 #EXTINF:-1 tvg-chno="501" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/belgium/bel-rtl-be.png" tvg-country="BE" group-title="Belgique",bel RTL 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/res/belrtl-highest.m3u8
 #EXTINF:-1 tvg-chno="502" tvg-logo="https://images.lesindesradios.fr/100x100/radios/contactfm/images/logo.png" tvg-country="BE" group-title="Belgique",Radio Contact 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/res/contact-highest.m3u8
 #EXTINF:-1 tvg-chno="511" tvg-id="RougeTV.ch" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/switzerland/carac1-ch.png" tvg-country="CH" group-title="Suisse",carac1 
 https://rougetv.vedge.infomaniak.com/livecast/ik:rougetv/manifest.m3u8
@@ -1100,6 +1302,7 @@ https://lfmmd.vedge.infomaniak.com/livecast/ik:lfmmd/manifest.m3u8
 #EXTINF:-1 tvg-chno="514" tvg-id="CARAC4.ch" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/switzerland/carac4-ch.png" tvg-country="CH" group-title="Suisse",carac4 
 https://lfmmd.vedge.infomaniak.com/livecast/ik:compack_media_1/manifest.m3u8
 #EXTINF:-1 tvg-chno="515" tvg-id="CARAC5.ch" tvg-country="CH" group-title="Suisse",carac5 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 #EXTINF:-1 group-title="Premium FR",CANAL+ FOOT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
