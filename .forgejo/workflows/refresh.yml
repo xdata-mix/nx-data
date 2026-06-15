@@ -11,7 +11,8 @@ on:
 
 jobs:
   refresh:
-    runs-on: codeberg-tiny
+    runs-on: codeberg-medium
+    timeout-minutes: 15
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
