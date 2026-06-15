@@ -11,13 +11,8 @@ on:
 
 jobs:
   refresh:
-    runs-on: docker
-    container:
-      image: python:3-alpine
+    runs-on: codeberg-tiny
     steps:
-      - name: Install git
-        run: apk add --no-cache git
-
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -40,5 +35,5 @@ jobs:
             git commit -m "Auto-refresh: dead URLs replaced [skip ci]"
             git push https://xdata:$CODEBERG_TOKEN@codeberg.org/xdata/nx-data.git HEAD:main
           else
-            echo "✓ No URL changes — nothing to commit"
+            echo "No URL changes - nothing to commit"
           fi
