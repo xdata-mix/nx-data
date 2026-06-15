@@ -1,18 +1,16 @@
 # Forgejo Actions workflow: refresh dead M3U URLs from ParaTV main
-# Codeberg utilise Forgejo Actions (= compatible syntax GitHub Actions)
+# v2: asyncio HEAD parallel (script tourne en 30-60s au lieu de 5+ min)
 name: refresh-m3u-urls
 
 on:
   schedule:
-    # Toutes les 6h (UTC). Modifie le cron si tu veux changer la fréquence.
     - cron: '0 */6 * * *'
-  # Permet aussi le déclenchement manuel via l'UI Codeberg
   workflow_dispatch:
 
 jobs:
   refresh:
     runs-on: codeberg-medium
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -20,7 +18,7 @@ jobs:
           fetch-depth: 1
 
       - name: Install Python deps
-        run: pip install --no-cache-dir --break-system-packages requests
+        run: pip install --no-cache-dir --break-system-packages aiohttp
 
       - name: Run refresh script
         run: python scripts/refresh_urls.py
