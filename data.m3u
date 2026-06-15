@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Test M6 prime-tv",M6 (real flux ~5h validity)
+#EXTVLCOPT:http-user-agent=
+http://off20.lynxcontents.click:2086/live/171348492752/5S6HGsea3j/136871.m3u8?data=wVpeI4HO3aakRtraMFQWHBgTcgQBP8s4iMq-6ToRGw6i_aftD5W84Y3H6-nFN78Ym1B0MGB0qs52Nf57OV0oN5pjU8peu8hXXWW4JO3VwrcCeZ42p2Zm_MhcRwtelvqfnIHR4P_g571dhM_w73m6Pw%3D%3D&expires=1781506414
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ESH0lz0PJ7Yd/res/S1lh2pWmb1xNoC-highest.m3u8
