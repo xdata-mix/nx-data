@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 1
 
       - name: Install Python deps
-        run: pip install --no-cache-dir requests
+        run: pip install --no-cache-dir --break-system-packages requests
 
       - name: Run refresh script
         run: python scripts/refresh_urls.py
