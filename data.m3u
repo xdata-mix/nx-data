@@ -100,7 +100,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 #EXTINF:-1 tvg-id="FranceInter.fr@SD" tvg-logo="https://i.imgur.com/MgBeU52.png" group-title="Généralistes",France Inter (288p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/france-inter-dm.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="Généralistes",Generations TV (576p)
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="iciElsass.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/69/Ici_Elsass.svg" group-title="Généralistes",ici Elsass (180p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icielsass.m3u8
 #EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Généralistes",ILTV (720p)
@@ -1450,9 +1450,9 @@ https://lives.digiteka.com/stream/c58028c2-a58b-4526-9ec8-389cad4a71e8/index.m3u
 
 # === Ajouts FR multi-sources : Musique ===
 #EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="Musique",BBLACK! AFRICA
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="Musique",BBLACK! CARIBBEAN
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackClassik.fr" group-title="Musique",BBLACK! CLASSIK
 https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="Musique",MADRAS FM TV
@@ -1462,7 +1462,7 @@ https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
 https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 #EXTINF:-1 tvg-id="FX2.fr" group-title="Nouveautés FR",FX2 Farsi
@@ -1849,3 +1849,35 @@ http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
 # === Ajouts FR multi-sources : Religion ===
 #EXTINF:-1 tvg-id="TVAlBayane.ci@SD" group-title="Religion",TV Al Bayane (360p)
 http://69.64.57.208/albayanetv/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+#EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
+https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
+#EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="AfricableTV.ml@SD" group-title="Généralistes",Africable TV (360p)
+http://69.64.57.208/africable/playlist.m3u8
+#EXTINF:-1 tvg-id="EquinoxeTV.cm@SD" group-title="Généralistes",Equinoxe TV (720p)
+http://69.64.57.208/equinoxtv/playlist.m3u8
+#EXTINF:-1 tvg-id="ORTBTV.bj@SD" group-title="Généralistes",ORTB TV (720p)
+http://69.64.57.208/ortb/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht@SD" group-title="Généralistes",Radio Tele Planet Compas (720p) [Not 24/7]
+https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="RTG1.gn@SD" group-title="Généralistes",RTG 1 (360p)
+http://69.64.57.208/rtg/playlist.m3u8
+#EXTINF:-1 tvg-id="RTNC.cd@SD" group-title="Généralistes",RTNC (540p)
+http://69.64.57.208/rtnc/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleCongo.cg@SD" group-title="Généralistes",Tele Congo (720p)
+http://69.64.57.208/telecongo/playlist.m3u8
+#EXTINF:-1 tvg-id="TM1TV.ml@SD" group-title="Généralistes",TM1 (360p) [Not 24/7]
+http://69.64.57.208/tm1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVT.tg@SD" group-title="Généralistes",TVT (720p) [Not 24/7]
+http://69.64.57.208/tvt/playlist.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="PlayTV.cm@SD" group-title="Musique",Play TV (720p) [Not 24/7]
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
