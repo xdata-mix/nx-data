@@ -19,7 +19,7 @@ LOCAL_M3U = os.environ.get("LOCAL_M3U", "data.m3u")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36")
 TIMEOUT = 8
-CONCURRENCY = 20  # HEAD requests parallèles. 20 = raisonnable, n'overload pas.
+CONCURRENCY = 8  # HEAD requehsts parallèles. 20 = raisonnable, n'overload pas.
 SKIP_HOSTS = ("185.160.192.14", "live.aab1.top", "off20.lynxcontents.click",
               "47.237.205.89")
 
