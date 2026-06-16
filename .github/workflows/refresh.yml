@@ -1,11 +1,13 @@
 # GitHub Actions workflow: refresh dead M3U URLs from ParaTV main.
 # DÃ©clenchement = ping externe (cron-job.org) via API workflow_dispatch,
-# tous les 1 h (stable, contrairement au scheduler GitHub natif).
+# toutes les 20 min (alignÃ© sur rotation ParaTV).
+# Auto-cleanup des vieux runs en fin pour Ã©viter accumulation.
 name: refresh-m3u-urls
 on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -29,3 +31,14 @@ jobs:
           git add data.m3u
           git diff --staged --quiet || git commit -m "auto: refresh m3u URLs"
           git push
+      # 2026-06-16 (user "on va en avoir des milliers, fais autosuppression") :
+      # supprime les vieux runs > 14 h (retain_days=1) pour Ã©viter accumulation.
+      # Garde 50 derniers par sÃ©curitÃ©. Tourne Ã  chaque run, donc cleanup continu.
+      - name: Auto-cleanup old workflow runs
+        if: always()
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 50
