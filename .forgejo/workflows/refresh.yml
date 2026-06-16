@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   refresh:
-    runs-on: codeberg-tiny
+    runs-on: codeberg-small
     timeout-minutes: 10
     steps:
       - name: Checkout repo
