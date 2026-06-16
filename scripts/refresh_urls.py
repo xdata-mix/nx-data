@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
-Auto-refresh data.m3u v3 (2026-06-15) : 
+Auto-refresh data.m3u v4 (2026-06-16) :
 - A. SMART CHECK des HLS .m3u8 : ouvre le contenu, valide #EXTM3U, descend dans
-     le 1er variant des master playlists pour détecter les CDN géo-bloqués
-     (= cas Canal+ en clair : master 200 OK mais variant CDN 403).
-- B. AUTO-ADD nouvelles chaînes ParaTV : compare notre data.m3u avec ParaTV main,
-     ajoute les chaînes manquantes dans la catégorie "Nouveautés ParaTV".
+     le 1er variant des master playlists pour détecter les CDN géo-bloqués.
+- B. AUTO-ADD nouvelles chaînes ParaTV → catégorie "Nouveautés ParaTV".
+- C. NEW Phase D : multi-sources FR (schumijo, iptv-org, bugsfreeweb, iptv-ch,
+     kilirushi). Pour chaque chaîne FR canonique qu'on a déjà : ajoute les URLs
+     alternatives dans une catégorie "France TV backup" (= si la principale
+     meurt un jour, on a des fallbacks). Pour chaque chaîne FR qu'on n'a pas :
+     ajoute dans sa catégorie d'origine normalisée (Info/Cinéma/Musique/Sport/
+     Jeunesse/Séries/Documentaire/Généralistes/Radio).
 
 Catégories protégées (URLs JAMAIS modifiées) :
   - Premium FR  → host 185.160.192.14    (= redirect off20 prime-tv)
@@ -28,38 +32,142 @@ CONCURRENCY = 8
 SKIP_HOSTS = ("185.160.192.14", "live.aab1.top", "off20.lynxcontents.click",
               "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv")
 
+# === Phase D NEW : sources externes FR ===
+EXTERNAL_FR_SOURCES = [
+    ("schumijo",     "https://raw.githubusercontent.com/schumijo/iptv/main/fr.m3u8"),
+    ("iptv-org-fr",  "https://iptv-org.github.io/iptv/countries/fr.m3u"),
+    ("iptv-org-fra", "https://iptv-org.github.io/iptv/languages/fra.m3u"),
+    ("bugsfreeweb",  "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/France/LiveTV.m3u"),
+    ("kilirushi",    "https://raw.githubusercontent.com/kilirushi/iptv/master/fr.m3u"),
+]
+
+# Chaînes FR canoniques (= si présentes dans une source externe, on les considère FR)
+FR_CANONICAL = [
+    "TF1", "TMC", "TFX", "TF1 SÉRIES FILMS", "TF1 SERIES FILMS", "LCI",
+    "FRANCE 2", "FRANCE 3", "FRANCE 4", "FRANCE 5", "FRANCEINFO", "FRANCE INFO", "FRANCE 24",
+    "M6", "W9", "6TER", "GULLI", "PARIS PREMIERE", "PARIS PREMIÈRE",
+    "CANAL+", "CANAL +", "C8", "CSTAR", "CNEWS", "BFM TV", "BFMTV", "BFM BUSINESS",
+    "RMC DECOUVERTE", "RMC DÉCOUVERTE", "RMC STORY",
+    "ARTE", "TV5 MONDE", "TV5MONDE",
+    "L'EQUIPE", "L'ÉQUIPE", "LEQUIPE", "EUROSPORT 1", "EUROSPORT 2",
+    "PUBLIC SENAT", "PUBLIC SÉNAT", "LCP",
+    "NRJ 12", "CHERIE 25", "CHÉRIE 25",
+]
+
+# Mapping catégorie source → catégorie cible (fusion + normalisation)
+CATEGORY_NORMALIZATIONS = [
+    # (matcher_lower, target) — ordre = priorite
+    ("informations", "Info"), ("information", "Info"), ("news", "Info"), ("actualité", "Info"), ("actualite", "Info"),
+    ("films", "Cinéma"), ("movies", "Cinéma"), ("movie", "Cinéma"), ("cinema", "Cinéma"), ("cinéma", "Cinéma"),
+    ("music", "Musique"), ("música", "Musique"), ("musica", "Musique"), ("musique", "Musique"),
+    ("kids", "Jeunesse"), ("children", "Jeunesse"), ("jeunesse", "Jeunesse"), ("enfants", "Jeunesse"),
+    ("sports", "Sport"), ("sport", "Sport"),
+    ("series", "Séries"), ("serie", "Séries"), ("séries", "Séries"), ("série", "Séries"),
+    ("documentary", "Documentaire"), ("docus", "Documentaire"), ("documentaire", "Documentaire"),
+    ("découverte", "Documentaire"), ("decouverte", "Documentaire"),
+    ("generaliste", "Généralistes"), ("généraliste", "Généralistes"), ("generalist", "Généralistes"), ("general", "Généralistes"),
+    ("tnt", "TNT France"),
+    ("style de vie", "Lifestyle"), ("lifestyle", "Lifestyle"), ("pratique", "Lifestyle"),
+    ("cooking", "Lifestyle"),
+    ("divertissement", "Divertissement"), ("entertainment", "Divertissement"), ("comedy", "Divertissement"),
+    ("radio", "Radio FR"),
+    ("religious", "Religion"), ("religion", "Religion"),
+    ("culture", "Culture"),
+    ("politique", "Politique"),
+    ("régionale", "Locale"), ("regionale", "Locale"), ("locale", "Locale"), ("local", "Locale"),
+    ("etrangère", "Internationale"), ("etrangere", "Internationale"), ("étrangère", "Internationale"),
+    ("international", "Internationale"),
+    ("undefined", "Nouveautés FR"),
+]
+
+
+def extract_channel_name(extinf_block: str) -> str:
+    """Extrait le nom de chaine d'un bloc EXTINF, en gerant correctement les
+    attributs quoted contenant des virgules (ex: tvg-logo='foo,bar.png')."""
+    first_line = extinf_block.split('\n', 1)[0]
+    # Trouve la derniere virgule HORS guillemets
+    in_quote = False
+    last_comma = -1
+    for i, c in enumerate(first_line):
+        if c == '"':
+            in_quote = not in_quote
+        elif c == ',' and not in_quote:
+            last_comma = i
+    if last_comma >= 0:
+        return first_line[last_comma+1:].strip()
+    return ""
+
 
 def normalize_name(s: str) -> str:
-    """Strip '1. ' prefix + '[1080p-france.tv]' suffix + qualité suffixe (HD/FHD/4K/...)."""
+    """Strip numero prefix, brackets, parens (qualite), accents, suffix qualite."""
+    import unicodedata
     s = re.sub(r'^\d+\.\s*', '', s)
     s = re.sub(r'\[.*?\]', '', s)
+    s = re.sub(r'\(.*?\)', '', s)  # strip "(1080p)" "(720p)" etc.
+    s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode('ascii')  # ascii fold
     s = s.upper().strip()
     s = re.sub(r'\s+(HD|FHD|UHD|4K|SD|1080P|720P|480P)\s*$', '', s)
-    return s.strip()
+    # Strip apostrophe variants
+    s = s.replace("'", "").replace('`', '').replace('-', ' ')
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
+
+
+def normalize_category(g: str) -> str:
+    g_clean = (g or '').strip()
+    if not g_clean:
+        return "Nouveautés FR"
+    g_lower = g_clean.lower()
+    for src, dst in CATEGORY_NORMALIZATIONS:
+        if src in g_lower:
+            return dst
+    return g_clean
+
+
+def is_french_content(name: str, group: str, tvg_id: str) -> bool:
+    """Détecte si une chaîne est française (TV, radio, films/séries FR)."""
+    n = (name or '').upper()
+    g = (group or '').upper()
+    t = (tvg_id or '').lower()
+    # Marqueurs FR forts
+    if 'FRANCE' in g or 'FRENCH' in g or 'FRANÇAIS' in g or 'FRANCAIS' in g:
+        return True
+    if t.endswith('.fr') or '.fr@' in t or 'fr@' in t:
+        return True
+    if 'FR' in n.split() or '[FR]' in n or 'FRANCE' in n or 'FRENCH' in n:
+        return True
+    # Chaîne FR canonique
+    for c in FR_CANONICAL:
+        if c in n:
+            return True
+    # Radios FR connues
+    fr_radios = ['NRJ', 'RTL', 'EUROPE 1', 'EUROPE 2', 'FRANCE INTER',
+                 'FRANCE CULTURE', 'SKYROCK', 'FUN RADIO', 'RADIO FRANCE',
+                 'RIRE ET CHANSONS', 'CHERIE FM', 'CHÉRIE FM', 'MFM', 'OUI FM',
+                 'NOSTALGIE', 'VIRGIN RADIO']
+    for r in fr_radios:
+        if r in n:
+            return True
+    return False
 
 
 async def fetch_paratv_index(session) -> dict:
-    """Index simple {nom_norm: url} pour les remplacements."""
     async with session.get(PARATV_MAIN, headers={"User-Agent": UA},
                            timeout=aiohttp.ClientTimeout(total=TIMEOUT)) as r:
         text = await r.text()
     index = {}
     blocks = re.split(r'(?=#EXTINF)', text)
     for b in blocks:
-        name_m = re.search(r',([^,\n]+)', b)
+        name_raw = extract_channel_name(b)
         url_m = re.search(r'\n(https?://\S+)', b)
-        if name_m and url_m:
-            name = normalize_name(name_m.group(1))
+        if name_raw and url_m:
+            name = normalize_name(name_raw)
             url = url_m.group(1).strip()
             index.setdefault(name, url)
     return index
 
 
 async def fetch_paratv_full(session) -> list:
-    """
-    Phase B : récupère TOUS les blocs ParaTV avec name + url + group_title + bloc EXTINF complet.
-    Retourne list[(name, url, group, full_block_text)].
-    """
     async with session.get(PARATV_MAIN, headers={"User-Agent": UA},
                            timeout=aiohttp.ClientTimeout(total=TIMEOUT)) as r:
         text = await r.text()
@@ -68,16 +176,49 @@ async def fetch_paratv_full(session) -> list:
     for b in blocks:
         if not b.startswith('#EXTINF'):
             continue
-        name_m = re.search(r',([^,\n]+)', b)
+        name_raw = extract_channel_name(b)
         url_m = re.search(r'\n(https?://\S+)', b)
         group_m = re.search(r'group-title="([^"]*)"', b)
-        if name_m and url_m:
+        if name_raw and url_m:
             result.append((
-                name_m.group(1).strip(),
+                name_raw,
                 url_m.group(1).strip(),
                 group_m.group(1) if group_m else "",
                 b
             ))
+    return result
+
+
+async def fetch_external_source(session, label: str, url: str) -> list:
+    """Fetch une source externe et retourne list[(name, url, group, tvg_id, full_block)]."""
+    try:
+        async with session.get(url, headers={"User-Agent": UA},
+                               timeout=aiohttp.ClientTimeout(total=TIMEOUT)) as r:
+            text = await r.text()
+    except Exception as e:
+        print(f"  [{label}] fetch error: {e}")
+        return []
+    if not text.lstrip().startswith('#EXTM3U'):
+        print(f"  [{label}] not a valid m3u")
+        return []
+    result = []
+    blocks = re.split(r'(?=#EXTINF)', text)
+    for b in blocks:
+        if not b.startswith('#EXTINF'):
+            continue
+        name_raw = extract_channel_name(b)
+        url_m = re.search(r'\n(https?://\S+)', b)
+        group_m = re.search(r'group-title="([^"]*)"', b)
+        tvgid_m = re.search(r'tvg-id="([^"]*)"', b)
+        if name_raw and url_m:
+            result.append((
+                name_raw,
+                url_m.group(1).strip(),
+                group_m.group(1) if group_m else "",
+                tvgid_m.group(1) if tvgid_m else "",
+                b.rstrip()
+            ))
+    print(f"  [{label}] {len(result)} chaines parsées")
     return result
 
 
@@ -87,18 +228,11 @@ def skip_url(url: str) -> bool:
 
 
 async def is_alive_smart(session, sem, url: str) -> bool:
-    """
-    Phase A : check SMART (vs HEAD bête).
-    - .m3u8 : GET (limite 8KB), valide #EXTM3U, descend dans 1er variant si master.
-    - Autres : HEAD classique (+ fallback GET sur 405).
-    """
     async with sem:
         try:
             url_no_q = url.split('?')[0].lower()
             is_m3u8 = url_no_q.endswith('.m3u8')
-            
             if is_m3u8:
-                # GET le master/playlist, max 8KB pour rester rapide
                 async with session.get(url, headers={"User-Agent": UA},
                                        timeout=aiohttp.ClientTimeout(total=TIMEOUT),
                                        allow_redirects=True) as r:
@@ -109,24 +243,18 @@ async def is_alive_smart(session, sem, url: str) -> bool:
                         text = chunk.decode('utf-8', errors='replace')
                     except Exception:
                         return False
-                
-                # Valide signature HLS
                 if not text.lstrip().startswith('#EXTM3U'):
-                    # Body invalide (Access denied / HTML / etc.) → mort
                     return False
-                
-                # Master playlist : trouve le 1er variant et le check aussi
                 if '#EXT-X-STREAM-INF' in text:
                     lines = text.splitlines()
                     variant_url = None
                     for j, line in enumerate(lines):
                         if line.startswith('#EXT-X-STREAM-INF'):
-                            # La ligne suivante (skip blanches) est le variant
-                            for k in range(j + 1, min(j + 4, len(lines))):
-                                if lines[k].strip() and not lines[k].startswith('#'):
-                                    variant_url = lines[k].strip()
+                            if j+1 < len(lines):
+                                cand = lines[j+1].strip()
+                                if cand and not cand.startswith('#'):
+                                    variant_url = cand
                                     break
-                            break
                     if variant_url:
                         if not variant_url.startswith('http'):
                             variant_url = urljoin(url, variant_url)
@@ -139,7 +267,6 @@ async def is_alive_smart(session, sem, url: str) -> bool:
                                                            timeout=aiohttp.ClientTimeout(total=TIMEOUT),
                                                            allow_redirects=True) as vg:
                                         chunk2 = await vg.content.read(2048)
-                                        # Si body trop court ou contient "denied"/"forbidden" → mort
                                         body2 = chunk2.decode('utf-8', errors='replace').lower()
                                         if 'denied' in body2 or 'forbidden' in body2 or vg.status >= 400:
                                             return False
@@ -148,10 +275,8 @@ async def is_alive_smart(session, sem, url: str) -> bool:
                                     return False
                         except Exception:
                             return False
-                
                 return True
             else:
-                # Non-HLS : HEAD classique
                 async with session.head(url, headers={"User-Agent": UA},
                                         timeout=aiohttp.ClientTimeout(total=TIMEOUT),
                                         allow_redirects=True) as r:
@@ -165,15 +290,32 @@ async def is_alive_smart(session, sem, url: str) -> bool:
             return False
 
 
+def build_m3u_block(name: str, url: str, group: str, tvg_id: str = "", logo: str = "") -> str:
+    """Construit un bloc EXTINF + URL standard pour ajouter au M3U."""
+    attrs = []
+    if tvg_id:
+        attrs.append(f'tvg-id="{tvg_id}"')
+    if logo:
+        attrs.append(f'tvg-logo="{logo}"')
+    attrs.append(f'group-title="{group}"')
+    attr_str = " ".join(attrs)
+    return f'#EXTINF:-1 {attr_str},{name}\n{url}'
+
+
 async def main_async():
-    print(f"=== Auto-refresh {LOCAL_M3U} (v3 smart-check + auto-add, concurrency={CONCURRENCY}) ===")
+    print(f"=== Auto-refresh {LOCAL_M3U} v4 (multi-sources FR, concurrency={CONCURRENCY}) ===")
     conn = aiohttp.TCPConnector(limit=CONCURRENCY * 2, ssl=False)
     async with aiohttp.ClientSession(connector=conn) as session:
-        print(f"Fetching ParaTV index from {PARATV_MAIN}...")
+        # === Sources : ParaTV (principal) + externes FR ===
+        print(f"\n--- Fetch sources ---")
         paratv_simple = await fetch_paratv_index(session)
-        print(f"  -> {len(paratv_simple)} channels indexed (simple)")
         paratv_full = await fetch_paratv_full(session)
-        print(f"  -> {len(paratv_full)} channels indexed (full = pour auto-add)")
+        print(f"  ParaTV: {len(paratv_full)} chaines")
+
+        external_data = {}  # label -> list of (name, url, group, tvg_id, block)
+        for label, src_url in EXTERNAL_FR_SOURCES:
+            chans = await fetch_external_source(session, label, src_url)
+            external_data[label] = chans
 
         with open(LOCAL_M3U, encoding='utf-8') as f:
             content = f.read()
@@ -183,21 +325,20 @@ async def main_async():
         for i, b in enumerate(blocks[1:], 1):
             if not b.startswith('#EXTINF'):
                 continue
-            name_m = re.search(r',([^,\n]+)', b)
+            name_raw = extract_channel_name(b)
             url_m = re.search(r'\n(https?://\S+)', b)
-            if not name_m or not url_m:
+            if not name_raw or not url_m:
                 continue
-            name = name_m.group(1).strip()
+            name = name_raw
             url = url_m.group(1).strip()
             if skip_url(url):
                 continue
             entries.append((i, name, url))
 
-        print(f"  -> {len(entries)} URLs to check (skip-list filtered)")
-
+        print(f"\n  -> {len(entries)} URLs to check (skip-list filtered)")
         sem = asyncio.Semaphore(CONCURRENCY)
-        
-        # === Phase 1 : check vivants/morts (SMART) ===
+
+        # === Phase 1 : check alive ===
         alive_results = await asyncio.gather(
             *(is_alive_smart(session, sem, e[2]) for e in entries),
             return_exceptions=True
@@ -205,81 +346,181 @@ async def main_async():
         dead_entries = [(i, name, url) for (i, name, url), alive in zip(entries, alive_results)
                         if alive is False or isinstance(alive, Exception)]
         n_alive = len(alive_results) - len(dead_entries)
-        print(f"\nAlive: {n_alive}  Dead: {len(dead_entries)}")
-        
-        # === Phase 2 : remplacer les morts par ParaTV index ===
+        print(f"  Alive: {n_alive}  Dead: {len(dead_entries)}")
+
+        # === Phase 2 : remplacer morts par ParaTV (puis fallback sources externes) ===
         candidates = []
         for i, name, url in dead_entries:
             new_url = paratv_simple.get(normalize_name(name))
             if new_url and new_url != url:
-                candidates.append((i, name, url, new_url))
+                candidates.append((i, name, url, new_url, "ParaTV"))
+                continue
+            # Fallback : cherche dans sources externes
+            for label, chans in external_data.items():
+                for nm, u, gp, tid, blk in chans:
+                    if normalize_name(nm) == normalize_name(name) and u != url:
+                        candidates.append((i, name, url, u, label))
+                        break
+                else:
+                    continue
+                break
+
         candidate_alives = await asyncio.gather(
             *(is_alive_smart(session, sem, c[3]) for c in candidates),
             return_exceptions=True
         )
         n_replaced = 0
-        for (i, name, url, new_url), alive in zip(candidates, candidate_alives):
-            if alive is True:
+        replaced_indices = set()
+        for (i, name, url, new_url, src), alive in zip(candidates, candidate_alives):
+            if alive is True and i not in replaced_indices:
                 blocks[i] = blocks[i].replace(url, new_url)
                 n_replaced += 1
-                print(f"  OK {name[:35]:35} -> {new_url[-45:]}")
-        
-        replaced_indices = {c[0] for (c, a) in zip(candidates, candidate_alives) if a is True}
+                replaced_indices.add(i)
+                print(f"  OK [{src}] {name[:30]:30} -> {new_url[-45:]}")
+
         for i, name, url in dead_entries:
             if i not in replaced_indices:
-                print(f"  KO {name[:35]:35} dead, no replacement found")
+                print(f"  KO {name[:30]:30} dead, no replacement found")
 
         new_content = ''.join(blocks)
-        
+
         # === Phase 3 : AUTO-ADD nouvelles chaînes ParaTV ===
-        # On normalise nos noms (post-replacement) pour ne pas dupliquer
         our_names_norm = set()
+        our_urls = set()
         for b in re.split(r'(?=#EXTINF)', new_content):
             if not b.startswith('#EXTINF'):
                 continue
-            name_m = re.search(r',([^,\n]+)', b)
-            if name_m:
-                our_names_norm.add(normalize_name(name_m.group(1).strip()))
-        
-        new_candidates = []
-        for (name, url, group, full_block) in paratv_full:
-            if normalize_name(name) not in our_names_norm:
-                new_candidates.append((name, url, group, full_block))
-        
+            name_raw = extract_channel_name(b)
+            url_m = re.search(r'\n(https?://\S+)', b)
+            if name_raw:
+                our_names_norm.add(normalize_name(name_raw))
+            if url_m:
+                our_urls.add(url_m.group(1).strip())
+
+        new_paratv = [(n,u,g,b) for (n,u,g,b) in paratv_full
+                      if normalize_name(n) not in our_names_norm]
+
         n_added = 0
-        if new_candidates:
-            print(f"\n=== {len(new_candidates)} chaînes ParaTV non présentes chez nous — check vivantes ===")
+        added_blocks = []
+        if new_paratv:
+            print(f"\n=== {len(new_paratv)} chaines ParaTV pas chez nous — check vivantes ===")
             new_alives = await asyncio.gather(
-                *(is_alive_smart(session, sem, c[1]) for c in new_candidates),
+                *(is_alive_smart(session, sem, c[1]) for c in new_paratv),
                 return_exceptions=True
             )
-            alive_new = [c for c, a in zip(new_candidates, new_alives) if a is True]
-            print(f"  -> {len(alive_new)}/{len(new_candidates)} vivantes à ajouter")
-            
+            alive_new = [c for c, a in zip(new_paratv, new_alives) if a is True]
+            print(f"  -> {len(alive_new)}/{len(new_paratv)} vivantes")
             if alive_new:
-                # Construire les blocs à ajouter dans "Nouveautés ParaTV"
-                addition_lines = []
-                addition_lines.append("\n# === Nouveautés ParaTV (auto-ajouté par refresh_urls.py) ===\n")
+                added_blocks.append("\n# === Nouveautes ParaTV (auto-ajoute) ===\n")
                 for (name, url, group, full_block) in alive_new:
                     modified = full_block.rstrip()
                     if 'group-title=' in modified:
                         modified = re.sub(r'group-title="[^"]*"',
-                                          'group-title="Nouveautés ParaTV"', modified)
+                                          'group-title="Nouveautes ParaTV"', modified)
                     else:
                         modified = re.sub(r'#EXTINF:([-\d.]+)',
-                                          r'#EXTINF:\1 group-title="Nouveautés ParaTV"', modified, count=1)
-                    addition_lines.append(modified + "\n")
+                                          r'#EXTINF:\1 group-title="Nouveautes ParaTV"', modified, count=1)
+                    added_blocks.append(modified + "\n")
                     print(f"  + {name[:50]}")
                     n_added += 1
-                
-                # Append au new_content
-                new_content = new_content.rstrip() + "\n" + "".join(addition_lines)
-        else:
-            print(f"\n=== Aucune nouvelle chaîne ParaTV (notre liste est à jour) ===")
+                # Recompute our_urls/names with new ParaTV adds
+                for (name, url, group, full_block) in alive_new:
+                    our_names_norm.add(normalize_name(name))
+                    our_urls.add(url)
+
+        # === Phase 4 NEW : multi-sources FR ===
+        print(f"\n=== Phase 4 : multi-sources FR (backups + ajouts manquants) ===")
+
+        # 4a. "France TV backup" : URLs alternatives pour chaînes FR canoniques qu'on a déjà
+        backup_entries = []  # (name, url, source_label)
+        n_backup_added = 0
+        for label, chans in external_data.items():
+            for nm, u, gp, tid, blk in chans:
+                if not is_french_content(nm, gp, tid):
+                    continue
+                if u in our_urls:
+                    continue
+                # Si on a cette chaîne déjà, on l'ajoute en backup
+                if normalize_name(nm) in our_names_norm:
+                    backup_entries.append((nm, u, label, tid))
+
+        if backup_entries:
+            # Check vivants
+            print(f"  4a. {len(backup_entries)} URLs backup candidates — check vivantes")
+            bk_alives = await asyncio.gather(
+                *(is_alive_smart(session, sem, e[1]) for e in backup_entries),
+                return_exceptions=True
+            )
+            alive_bk = [e for e, a in zip(backup_entries, bk_alives) if a is True]
+            print(f"      -> {len(alive_bk)}/{len(backup_entries)} vivantes")
+            if alive_bk:
+                added_blocks.append("\n# === France TV backup (URLs alternatives — auto-multi-sources) ===\n")
+                seen_pair = set()
+                for nm, u, label, tid in alive_bk:
+                    # Dedup par (nom normalisé, URL)
+                    key = (normalize_name(nm), u)
+                    if key in seen_pair:
+                        continue
+                    seen_pair.add(key)
+                    pretty = f"{nm} [{label}]"
+                    block = build_m3u_block(pretty, u, "France TV backup", tid)
+                    added_blocks.append(block + "\n")
+                    our_urls.add(u)
+                    n_backup_added += 1
+                print(f"      + {n_backup_added} ajoutées dans France TV backup")
+
+        # 4b. Ajouts chaînes FR manquantes — par catégorie normalisée
+        missing_by_cat = {}  # categorie_normalisée -> list (name, url, label, tvg_id)
+        for label, chans in external_data.items():
+            for nm, u, gp, tid, blk in chans:
+                if not is_french_content(nm, gp, tid):
+                    continue
+                if u in our_urls:
+                    continue
+                if normalize_name(nm) in our_names_norm:
+                    continue  # déjà traité en 4a
+                cat = normalize_category(gp)
+                missing_by_cat.setdefault(cat, []).append((nm, u, label, tid))
+
+        total_missing = sum(len(v) for v in missing_by_cat.values())
+        print(f"  4b. {total_missing} chaines FR manquantes dans {len(missing_by_cat)} categories")
+
+        n_new_added = 0
+        if missing_by_cat:
+            # Dedup par nom normalisé + URL (= certaines chaînes peuvent être dans plusieurs sources)
+            global_seen = set()
+            for cat in sorted(missing_by_cat.keys()):
+                chans = missing_by_cat[cat]
+                # Check alive en batch
+                cat_alives = await asyncio.gather(
+                    *(is_alive_smart(session, sem, c[1]) for c in chans),
+                    return_exceptions=True
+                )
+                alive_in_cat = [c for c, a in zip(chans, cat_alives) if a is True]
+                if not alive_in_cat:
+                    continue
+                added_blocks.append(f"\n# === Ajouts FR multi-sources : {cat} ===\n")
+                cat_count = 0
+                for nm, u, label, tid in alive_in_cat:
+                    key = (normalize_name(nm), u)
+                    if key in global_seen:
+                        continue
+                    global_seen.add(key)
+                    block = build_m3u_block(nm, u, cat, tid)
+                    added_blocks.append(block + "\n")
+                    our_urls.add(u)
+                    cat_count += 1
+                    n_new_added += 1
+                print(f"      + {cat:25s}: {cat_count} chaines")
+
+        # Append all additions
+        if added_blocks:
+            new_content = new_content.rstrip() + "\n" + "".join(added_blocks)
 
     # === Stats finales ===
     print(f"\n=== Stats ===")
-    print(f"Checked: {len(entries)}  Alive: {n_alive}  Dead: {len(dead_entries)}  Replaced: {n_replaced}  Added: {n_added}")
+    print(f"Checked: {len(entries)}  Alive: {n_alive}  Dead: {len(dead_entries)}  Replaced: {n_replaced}")
+    print(f"ParaTV ajoutes: {n_added}  | FR backup: {n_backup_added}  | FR nouveaux: {n_new_added}")
 
     if new_content == content:
         print("\n-> No change, exiting.")
@@ -287,7 +528,7 @@ async def main_async():
 
     with open(LOCAL_M3U, 'w', encoding='utf-8') as f:
         f.write(new_content)
-    print(f"\n-> {LOCAL_M3U} updated ({n_replaced} replaced, {n_added} added)")
+    print(f"\n-> {LOCAL_M3U} updated")
 
 
 def main():
