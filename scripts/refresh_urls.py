@@ -12,6 +12,9 @@ Catégories protégées (URLs JAMAIS modifiées) :
   - Live Canal  → host live.aab1.top     (= Xtream Codes statique)
   - prime-tv    → host off20.lynxcontents.click
   - PocketBase  → host 47.237.205.89
+  - iptv-org M6 → host jmp2.uk           (= redirect Pluto TV M6 FAST)
+  - iptv-org W9 → host filegear-sg.me    (= proxy W9 FAST)
+  - Pluto TV    → host pluto.tv          (= chaîne FAST destination jmp2)
 """
 import os, re, sys, asyncio, aiohttp
 from urllib.parse import urlparse, urljoin
@@ -23,7 +26,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TIMEOUT = 8
 CONCURRENCY = 8
 SKIP_HOSTS = ("185.160.192.14", "live.aab1.top", "off20.lynxcontents.click",
-              "47.237.205.89")
+              "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv")
 
 
 def normalize_name(s: str) -> str:
