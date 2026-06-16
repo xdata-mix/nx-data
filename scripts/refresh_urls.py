@@ -419,9 +419,11 @@ async def main_async():
                 continue
             block = blocks[i]
             # Test si c'est dans "Live Canal" et URL aab1.top morte
-            if 'group-title="Live Canal"' in block and 'aab1.top' in url:
+            if 'group-title="Live Canal"' in block:
+                # Toute URL morte du groupe Live Canal est supprimée (pas juste aab1)
+                # car ce groupe doit rester PROPRE : que des chaines qui marchent
                 to_remove_indices.add(i)
-                print(f"  RM {name[:30]:30} (Live Canal aab1 mort, suppr)")
+                print(f"  RM {name[:30]:30} (Live Canal mort, suppr)")
             else:
                 print(f"  KO {name[:30]:30} dead, no replacement found")
         if to_remove_indices:
