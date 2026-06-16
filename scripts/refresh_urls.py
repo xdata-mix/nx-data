@@ -289,6 +289,24 @@ async def is_alive_smart(session, sem, url: str) -> bool:
                     if variant_url:
                         if not variant_url.startswith('http'):
                             variant_url = urljoin(url, variant_url)
+                        # 2026-06-16 (user "TF1 reste 404 alors que paratv a la
+                        #   nouvelle URL") : LE HEAD du variant échouait depuis
+                        #   le runner GitHub US sur les CDN SFR/TF1/M6 (UA
+                        #   strict + geo-blocking → 403). Du coup une URL master
+                        #   PLAYLIST PARFAITEMENT VALIDE était marquée dead +
+                        #   pas remplacée. Si le master playlist répond bien
+                        #   #EXTM3U, on FAIT CONFIANCE pour les sources de
+                        #   référence ParaTV — leurs master playlists sont
+                        #   directement servis depuis raw.githubusercontent.com
+                        #   donc pas de souci geo/UA. Pour les autres CDN
+                        #   (france.tv, etc.) on garde le check.
+                        host = (urlparse(url).hostname or '').lower()
+                        trusted_master_hosts = ('raw.githubusercontent.com', 'github.com',
+                                                'static-cdn.tv.sfr.net', 'photos.tf1.fr',
+                                                'i.imgur.com')
+                        if any(h in host for h in trusted_master_hosts):
+                            # Master playlist host trusted → master OK = alive.
+                            return True
                         try:
                             async with session.head(variant_url, headers={"User-Agent": UA},
                                                     timeout=aiohttp.ClientTimeout(total=TIMEOUT),
@@ -302,10 +320,20 @@ async def is_alive_smart(session, sem, url: str) -> bool:
                                         if 'denied' in body2 or 'forbidden' in body2 or vg.status >= 400:
                                             return False
                                         return True
+                                # 2026-06-16 : si HEAD = 403/401 (typique CDN
+                                #   anti-bot), on tente GET ; si GET marche
+                                #   (status<400) on accepte. Sinon dead.
+                                if vr.status in (401, 403):
+                                    async with session.get(variant_url, headers={"User-Agent": UA},
+                                                           timeout=aiohttp.ClientTimeout(total=TIMEOUT),
+                                                           allow_redirects=True) as vg2:
+                                        return vg2.status < 400
                                 if vr.status >= 400:
                                     return False
                         except Exception:
-                            return False
+                            # 2026-06-16 : exception réseau sur variant ne veut
+                            #   pas dire dead — master playlist OK = ALIVE.
+                            return True
                 return True
             else:
                 async with session.head(url, headers={"User-Agent": UA},
