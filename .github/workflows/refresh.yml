@@ -1,9 +1,10 @@
 # GitHub Actions workflow: refresh dead M3U URLs from ParaTV main
-# Migré depuis Codeberg car ubuntu-latest = runner beaucoup plus fiable.
+# Cron temporaire */5 (= 5 min) pour valider que le scheduler GitHub Actions
+# se déclenche sur ce repo. Une fois validé, repasser à 7,37 ou */30.
 name: refresh-m3u-urls
 on:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
