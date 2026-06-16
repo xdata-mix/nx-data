@@ -90,7 +90,7 @@ https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
 #EXTINF:-1 tvg-id="Caillou.fr@SD" tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="Généralistes",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-id="Canal32.fr@SD" tvg-logo="https://i.imgur.com/lAsE6kN.png" group-title="Généralistes",Canal 32 (1080p)
-https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 #EXTINF:-1 tvg-id="CannesLerinsTV.fr@SD" tvg-logo="https://i.imgur.com/atlgnum.png" group-title="Généralistes",Cannes Lérins TV (1080p)
 https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="Généralistes",France 2
@@ -98,7 +98,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 #EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://tv4.life/tvlogos/france_5.png" group-title="Généralistes",France 5
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-5.m3u8
 #EXTINF:-1 tvg-id="FranceInter.fr@SD" tvg-logo="https://i.imgur.com/MgBeU52.png" group-title="Généralistes",France Inter (288p)
-https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/france-inter-dm.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="Généralistes",Generations TV (576p)
 https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="iciElsass.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/69/Ici_Elsass.svg" group-title="Généralistes",ici Elsass (180p)
@@ -106,7 +106,7 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icie
 #EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Généralistes",ILTV (720p)
 https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-logo="https://i.imgur.com/a8RuRUQ.png" group-title="Généralistes",Le Figaro IDF (1080p)
-https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
+https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="MDL.fr@SD" tvg-logo="https://i.imgur.com/REN30bx.png" group-title="Généralistes",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MensUPTV.fr@SD" tvg-logo="https://i.imgur.com/5BZwRFs.png" group-title="Généralistes",Men's UP TV (288p)
@@ -118,7 +118,7 @@ https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radi
 #EXTINF:-1 tvg-id="RFMTV.fr@SD" tvg-logo="https://i.imgur.com/FVDTJxW.png" group-title="Généralistes",RFM TV 
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8
 #EXTINF:-1 tvg-id="SudRadio.fr@SD" tvg-logo="https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png" group-title="Généralistes",Sud Radio (288p)
-https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/sud-radio-dm.m3u8
 #EXTINF:-1 tvg-id="T18.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" group-title="Généralistes",T18 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
@@ -199,7 +199,7 @@ https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
 #EXTINF:-1 tvg-chno="34" tvg-id="ViaGrandParis.fr" epg-s="3768" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LEFIGARO100x100couleur.png?h=100" tvg-country="FR" group-title="Généralistes",LE FIGARO TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/figaro/res/tv-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/figaro/tv.m3u8
 #EXTINF:-1 tvg-chno="40" tvg-id="CanalPlus.fr" epg-s="34" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_color.png?h=100" tvg-country="FR" group-title="Généralistes",CANAL+ EN CLAIR 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/canalplusclair-hd-highest.m3u8
@@ -1140,7 +1140,7 @@ https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
 https://viamotionhsi.netplus.ch/live/eds/cnn/browser-HLS8/cnn.m3u8
 #EXTINF:-1 tvg-chno="1647" tvg-logo="https://picserve.netplus.ch/channels/fashiontv.png" tvg-country="EN" group-title="NetPlus",FASHION TV [EN]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/fashiontv/browser-HLS8/fashiontv.m3u8
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-chno="1648" tvg-logo="https://picserve.netplus.ch/channels/film4.png" tvg-country="EN" group-title="NetPlus",FILM 4 [EN]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
@@ -1179,16 +1179,16 @@ https://viamotionhsi.netplus.ch/live/eds/canalalphane/browser-HLS8/canalalphane.
 https://viamotionhsi.netplus.ch/live/eds/itele/browser-HLS8/itele.m3u8
 #EXTINF:-1 tvg-chno="1663" tvg-logo="https://picserve.netplus.ch/channels/rougetv.png" tvg-country="FR" group-title="NetPlus",CARAC 1 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/rougetv/browser-HLS8/rougetv.m3u8
+https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8
 #EXTINF:-1 tvg-chno="1664" tvg-logo="https://picserve.netplus.ch/channels/onetv.png" tvg-country="FR" group-title="NetPlus",CARAC 2 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/onetv/browser-HLS8/onetv.m3u8
+https://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8
 #EXTINF:-1 tvg-chno="1665" tvg-logo="https://picserve.netplus.ch/channels/lfmtv.png" tvg-country="FR" group-title="NetPlus",CARAC 3 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/lfmtv/browser-HLS8/lfmtv.m3u8
+https://lfmhd.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
 #EXTINF:-1 tvg-chno="1666" tvg-logo="https://picserve.netplus.ch/channels/tvsuisseplus.png" tvg-country="FR" group-title="NetPlus",CARAC 4 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/tvsuisseplus/browser-HLS8/tvsuisseplus.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
 #EXTINF:-1 tvg-chno="1667" tvg-logo="https://picserve.netplus.ch/channels/teleswizz.png" tvg-country="FR" group-title="NetPlus",CARAC 5 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/teleswizz/browser-HLS8/teleswizz.m3u8
@@ -1209,7 +1209,7 @@ https://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8
 https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
 #EXTINF:-1 tvg-chno="1684" tvg-logo="https://picserve.netplus.ch/channels/m6hd.png" tvg-country="FR" group-title="NetPlus",M6 HD [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h/index-hd720.m3u8
 #EXTINF:-1 tvg-chno="1685" tvg-logo="https://picserve.netplus.ch/channels/maxtv.png" tvg-country="FR" group-title="NetPlus",MAX TV [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/maxtv/browser-HLS8/maxtv.m3u8
@@ -1224,10 +1224,10 @@ https://viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8
 https://viamotionhsi.netplus.ch/live/eds/rmcdecouverte/browser-HLS8/rmcdecouverte.m3u8
 #EXTINF:-1 tvg-chno="1690" tvg-logo="https://picserve.netplus.ch/channels/rts1hd.png" tvg-country="FR" group-title="NetPlus",RTS 1 HD [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
+http://69.64.57.208/rts1/playlist.m3u8
 #EXTINF:-1 tvg-chno="1691" tvg-logo="https://picserve.netplus.ch/channels/rts2hd.png" tvg-country="FR" group-title="NetPlus",RTS 2 HD [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
+http://69.64.57.208/rts2/playlist.m3u8
 #EXTINF:-1 tvg-chno="1694" tvg-logo="https://picserve.netplus.ch/channels/hd1.png" tvg-country="FR" group-title="NetPlus",TF1 SERIES [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8
@@ -1245,7 +1245,7 @@ https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
 https://viamotionhsi.netplus.ch/live/eds/valtv/browser-HLS8/valtv.m3u8
 #EXTINF:-1 tvg-chno="1701" tvg-logo="https://picserve.netplus.ch/channels/w9.png" tvg-country="FR" group-title="NetPlus",W9 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
 #EXTINF:-1 tvg-chno="1702" tvg-logo="https://picserve.netplus.ch/channels/canale5.png" tvg-country="IT" group-title="NetPlus",CANALE 5 [IT]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
@@ -1662,3 +1662,117 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/mis
 #SAMSUNGTVPLUSFR (169)
 #EXTINF:-1 tvg-chno="1141" tvg-id="FR3600005C7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3600005C7_20251125T101554SQUARE.png" tvg-country="FR" group-title="Nouveautés ParaTV",1141. Voyages & Saveurs [1080p-samsungtvplus]
 https://jmp2.uk/stvp-FR3600005C7
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr" group-title="France TV backup",LCI [schumijo]
+https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
+#EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
+#EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+#EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr" group-title="France TV backup",TRACE LATINA [schumijo]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8
+#EXTINF:-1 tvg-id="RTLTVI.be" group-title="France TV backup",RTL TVI [schumijo]
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-id="BelRTLTV.be" group-title="France TV backup",BEL RTL [schumijo]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/belrtl.m3u8
+#EXTINF:-1 tvg-id="Canal32.fr@SD" group-title="France TV backup",Canal 32 (1080p) [iptv-org-fr]
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+#EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
+http://69.64.57.208/france2/mono.m3u8
+#EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (1080p) [iptv-org-fr]
+http://69.64.57.208/france5/mono.m3u8
+#EXTINF:-1 tvg-id="BelRTL.be@SD" group-title="France TV backup",Bel RTL (1080p) [iptv-org-fra]
+https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
+https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
+#EXTINF:-1 tvg-id="Africa24.fr" group-title="France TV backup",Africa 24 (540p) [kilirushi]
+https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-id="Africa24English.fr" group-title="France TV backup",Africa 24 English (1080p) [kilirushi]
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="Africa24Sport.fr" group-title="France TV backup",Africa 24 Sport (1080p) [kilirushi]
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
+#EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
+https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+#EXTINF:-1 tvg-id="TV3V.fr" group-title="France TV backup",TV3V (720p) [kilirushi]
+https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
+#EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="RTLZwee.lu@SD" group-title="Généralistes",RTL Zwee (1080p)
+https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="PublicSenat2424.fr" group-title="Info",PUBLIC-SÉNAT 24H
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8
+#EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" group-title="Info",Africanews French (720p)
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+
+# === Ajouts FR multi-sources : Lifestyle ===
+#EXTINF:-1 tvg-id="TV5MONDEChefs.fr@SD" group-title="Lifestyle",TV5MONDE Chefs (1080p)
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+
+# === Ajouts FR multi-sources : Locale ===
+#EXTINF:-1 tvg-id="Weo.fr" group-title="Locale",WÉO TV
+https://lives.digiteka.com/stream/c58028c2-a58b-4526-9ec8-389cad4a71e8/index.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="Musique",BBLACK! AFRICA
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+#EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="Musique",BBLACK! CARIBBEAN
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+#EXTINF:-1 tvg-id="BBlackClassik.fr" group-title="Musique",BBLACK! CLASSIK
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+#EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="Musique",MADRAS FM TV
+https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+
+# === Ajouts FR multi-sources : Nouveautés FR ===
+#EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+#EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+#EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+#EXTINF:-1 tvg-id="FX2.fr" group-title="Nouveautés FR",FX2 Farsi
+https://toonixhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaLatino.fr" group-title="Nouveautés FR",Persiana Latino (720p)
+https://latinohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTwo.fr" group-title="Nouveautés FR",Persiana Two (720p)
+https://twohls.persiana.live/hls/stream.m3u8
+
+# === Ajouts FR multi-sources : Religion ===
+#EXTINF:-1 tvg-id="3ABNFrench.us@SD" group-title="Religion",3ABN French
+https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="LMTVFrench.ci@SD" group-title="Religion",LMTV French (720p) [Not 24/7]
+https://video1.getstreamhosting.com:1936/8282/8282/playlist.m3u8
+
+# === Ajouts FR multi-sources : Sport ===
+#EXTINF:-1 tvg-id="InfosportPlus.fr" group-title="Sport",INFOSPORT+
+http://212.102.60.80/Infosport/index.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacingTrot.fr" group-title="Sport",EQUIDIA RACING TROT
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racingtrot.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacingGalop.fr" group-title="Sport",EQUIDIA RACING GALOP
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racinggalop.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacingMag.fr" group-title="Sport",EQUIDIA RACING MAG
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racingmag.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing1.fr" group-title="Sport",EQUIDIA RACING 1
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing1.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing2.fr" group-title="Sport",EQUIDIA RACING 2
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing2.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing3.fr" group-title="Sport",EQUIDIA RACING 3
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing3.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing4.fr" group-title="Sport",EQUIDIA RACING 4
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing4.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing5.fr" group-title="Sport",EQUIDIA RACING 5
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing5.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing6.fr" group-title="Sport",EQUIDIA RACING 6
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing6.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing7.fr" group-title="Sport",EQUIDIA RACING 7
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing7.m3u8
+#EXTINF:-1 tvg-id="EquidiaRacing8.fr" group-title="Sport",EQUIDIA RACING 8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-racing8.m3u8
