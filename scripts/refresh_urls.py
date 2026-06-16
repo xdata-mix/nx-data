@@ -33,12 +33,15 @@ SKIP_HOSTS = ("185.160.192.14", "live.aab1.top", "off20.lynxcontents.click",
               "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv")
 
 # === Phase D NEW : sources externes FR ===
+# Source FR : (label, url, source_is_fr) — si True, toutes les chaines sont
+# considerees FR par defaut sauf si un marqueur etranger (USA/Italy/etc) figure
+# dans le group-title.
 EXTERNAL_FR_SOURCES = [
-    ("schumijo",     "https://raw.githubusercontent.com/schumijo/iptv/main/fr.m3u8"),
-    ("iptv-org-fr",  "https://iptv-org.github.io/iptv/countries/fr.m3u"),
-    ("iptv-org-fra", "https://iptv-org.github.io/iptv/languages/fra.m3u"),
-    ("bugsfreeweb",  "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/France/LiveTV.m3u"),
-    ("kilirushi",    "https://raw.githubusercontent.com/kilirushi/iptv/master/fr.m3u"),
+    ("schumijo",     "https://raw.githubusercontent.com/schumijo/iptv/main/fr.m3u8", True),
+    ("iptv-org-fr",  "https://iptv-org.github.io/iptv/countries/fr.m3u", True),
+    ("iptv-org-fra", "https://iptv-org.github.io/iptv/languages/fra.m3u", True),
+    ("bugsfreeweb",  "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/France/LiveTV.m3u", True),
+    ("kilirushi",    "https://raw.githubusercontent.com/kilirushi/iptv/master/fr.m3u", True),
 ]
 
 # Chaînes FR canoniques (= si présentes dans une source externe, on les considère FR)
@@ -58,7 +61,7 @@ FR_CANONICAL = [
 CATEGORY_NORMALIZATIONS = [
     # (matcher_lower, target) — ordre = priorite
     ("informations", "Info"), ("information", "Info"), ("news", "Info"), ("actualité", "Info"), ("actualite", "Info"),
-    ("films", "Cinéma"), ("movies", "Cinéma"), ("movie", "Cinéma"), ("cinema", "Cinéma"), ("cinéma", "Cinéma"),
+    ("films", "Cinéma"), ("movies", "Cinéma"), ("movie", "Cinéma"), ("cinema", "Cinéma"), ("cinéma", "Cinéma"), ("vod", "VOD"), ("replay", "Replay"),
     ("music", "Musique"), ("música", "Musique"), ("musica", "Musique"), ("musique", "Musique"),
     ("kids", "Jeunesse"), ("children", "Jeunesse"), ("jeunesse", "Jeunesse"), ("enfants", "Jeunesse"),
     ("sports", "Sport"), ("sport", "Sport"),
@@ -124,17 +127,36 @@ def normalize_category(g: str) -> str:
     return g_clean
 
 
-def is_french_content(name: str, group: str, tvg_id: str) -> bool:
-    """Détecte si une chaîne est française (TV, radio, films/séries FR)."""
+def is_french_content(name: str, group: str, tvg_id: str, source_is_fr: bool = False) -> bool:
+    """Détecte si une chaîne est française (TV, radio, films/séries FR).
+    source_is_fr=True : la source est étiquetée FR (= toutes ses chaînes sont FR
+    sauf marqueur explicite étranger)."""
     n = (name or '').upper()
     g = (group or '').upper()
     t = (tvg_id or '').lower()
+    # Marqueurs étranger forts (= override : on rejette même si source FR)
+    foreign_groups = ['ITALY', 'SPAIN', 'GERMANY', 'PORTUGAL', 'RUSSIA', 'JAPAN',
+                      'CHINA', 'KOREA', 'USA', 'UK', 'HAITI', 'GREECE', 'ARAB',
+                      'TURKEY', 'BRAZIL']
+    if any(fg in g for fg in foreign_groups):
+        return False
+    # Si la source est étiquetée FR, on accepte par défaut
+    if source_is_fr:
+        return True
     # Marqueurs FR forts
     if 'FRANCE' in g or 'FRENCH' in g or 'FRANÇAIS' in g or 'FRANCAIS' in g:
         return True
     if t.endswith('.fr') or '.fr@' in t or 'fr@' in t:
         return True
     if 'FR' in n.split() or '[FR]' in n or 'FRANCE' in n or 'FRENCH' in n:
+        return True
+    # Catégories en français = très bon signal FR
+    fr_categories_markers = ['CINÉMA', 'SÉRIES', 'DOCUMENTAIRE', 'JEUNESSE',
+                              'GÉNÉRALISTE', 'DIVERTISSEMENT', 'MUSIQUE',
+                              'INFORMATION', 'ACTUALITÉ', 'RELIGION', 'CULTURE',
+                              'POLITIQUE', 'STYLE DE VIE', 'RÉGIONALE', 'LOCALE',
+                              'NOUVEAUTÉS', 'DÉCOUVERTE']
+    if any(fc in g for fc in fr_categories_markers):
         return True
     # Chaîne FR canonique
     for c in FR_CANONICAL:
@@ -313,9 +335,9 @@ async def main_async():
         print(f"  ParaTV: {len(paratv_full)} chaines")
 
         external_data = {}  # label -> list of (name, url, group, tvg_id, block)
-        for label, src_url in EXTERNAL_FR_SOURCES:
+        for label, src_url, src_is_fr in EXTERNAL_FR_SOURCES:
             chans = await fetch_external_source(session, label, src_url)
-            external_data[label] = chans
+            external_data[label] = (chans, src_is_fr)
 
         with open(LOCAL_M3U, encoding='utf-8') as f:
             content = f.read()
@@ -356,7 +378,7 @@ async def main_async():
                 candidates.append((i, name, url, new_url, "ParaTV"))
                 continue
             # Fallback : cherche dans sources externes
-            for label, chans in external_data.items():
+            for label, (chans, _) in external_data.items():
                 for nm, u, gp, tid, blk in chans:
                     if normalize_name(nm) == normalize_name(name) and u != url:
                         candidates.append((i, name, url, u, label))
@@ -434,9 +456,9 @@ async def main_async():
         # 4a. "France TV backup" : URLs alternatives pour chaînes FR canoniques qu'on a déjà
         backup_entries = []  # (name, url, source_label)
         n_backup_added = 0
-        for label, chans in external_data.items():
+        for label, (chans, src_is_fr) in external_data.items():
             for nm, u, gp, tid, blk in chans:
-                if not is_french_content(nm, gp, tid):
+                if not is_french_content(nm, gp, tid, source_is_fr=src_is_fr):
                     continue
                 if u in our_urls:
                     continue
@@ -471,9 +493,9 @@ async def main_async():
 
         # 4b. Ajouts chaînes FR manquantes — par catégorie normalisée
         missing_by_cat = {}  # categorie_normalisée -> list (name, url, label, tvg_id)
-        for label, chans in external_data.items():
+        for label, (chans, src_is_fr) in external_data.items():
             for nm, u, gp, tid, blk in chans:
-                if not is_french_content(nm, gp, tid):
+                if not is_french_content(nm, gp, tid, source_is_fr=src_is_fr):
                     continue
                 if u in our_urls:
                     continue
