@@ -17,18 +17,18 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136877.m3u8
 #EXTINF:-1 tvg-id="Gulli.fr" tvg-name="Gulli" tvg-logo="" group-title="Premium FR",Gulli
 #EXTVLCOPT:http-user-agent=
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136867.m3u8
-#EXTINF:-1 tvg-id="France4(àconfirmer).fr" tvg-name="France 4 (à confirmer)" tvg-logo="" group-title="Premium FR",France 4 (à confirmer)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-4.m3u8
+#EXTINF:-1 tvg-id="France4.fr" tvg-name="France 4" tvg-logo="" group-title="Premium FR",France 4
+#EXTVLCOPT:http-user-agent=
+http://185.160.192.14/live/171348492752/5S6HGsea3j/136865.m3u8
 #EXTINF:-1 tvg-id="franceinfo.fr" tvg-name="franceinfo" tvg-logo="" group-title="Premium FR",franceinfo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
+#EXTVLCOPT:http-user-agent=
+http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 #EXTINF:-1 tvg-id="CNEWS.fr" tvg-name="CNEWS" tvg-logo="" group-title="Premium FR",CNEWS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
+#EXTVLCOPT:http-user-agent=
+http://185.160.192.14/live/171348492752/5S6HGsea3j/136859.m3u8
 #EXTINF:-1 tvg-id="PublicSénat.fr" tvg-name="Public Sénat" tvg-logo="" group-title="Premium FR",Public Sénat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8
+#EXTVLCOPT:http-user-agent=
+http://185.160.192.14/live/171348492752/5S6HGsea3j/136870.m3u8
 #EXTINF:-1 tvg-id="RMCStory.fr" tvg-name="RMC Story" tvg-logo="" group-title="Premium FR",RMC Story
 #EXTVLCOPT:http-user-agent=
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136861.m3u8
