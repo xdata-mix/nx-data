@@ -1203,7 +1203,7 @@ https://viamotionhsi.netplus.ch/live/eds/euronews/browser-HLS8/euronews.m3u8
 https://viamotionhsi.netplus.ch/live/eds/latele/browser-HLS8/latele.m3u8
 #EXTINF:-1 tvg-chno="1682" tvg-logo="https://picserve.netplus.ch/channels/lemanbleu.png" tvg-country="FR" group-title="NetPlus",LEMAN BLEU [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8
+http://livevideo.infomaniak.com/streaming/livecast/naxoo/playlist.m3u8
 #EXTINF:-1 tvg-chno="1683" tvg-logo="https://picserve.netplus.ch/channels/lequipe21.png" tvg-country="FR" group-title="NetPlus",L EQUIPE [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
@@ -1454,13 +1454,13 @@ http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="Musique",BBLACK! CARIBBEAN
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackClassik.fr" group-title="Musique",BBLACK! CLASSIK
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="Musique",MADRAS FM TV
 https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
 https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
@@ -1836,7 +1836,7 @@ https://video1.getstreamhosting.com:1936/8494/8494/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="France TV backup",Bblack! Caribbean (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 
 # === Ajouts FR multi-sources : Culture ===
 #EXTINF:-1 tvg-id="APlusIvoire.ci@SD" group-title="Culture",A+ Ivoire (720p)
@@ -1852,7 +1852,7 @@ http://69.64.57.208/albayanetv/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
@@ -1884,7 +1884,7 @@ http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="France TV backup",Bblack! Africa (1080p) [kilirushi]
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr" group-title="France TV backup",Le Figaro IDF (1080p) [kilirushi]
 https://static.lefigaro.fr/secom/tnt.m3u8
 
@@ -1892,4 +1892,12 @@ https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
 https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
 https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+
+# === Ajouts FR multi-sources : Documentaire ===
+#EXTINF:-1 tvg-id="LEspritSorcier.fr" group-title="Documentaire",L'ÉSPRIT SORCIER TV
+https://edge17.vedge.infomaniak.com/livecast/ik:bazikafrica/manifest.m3u8
