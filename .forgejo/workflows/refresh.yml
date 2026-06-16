@@ -11,9 +11,6 @@ on:
 # Concurrency : un seul run actif à la fois.
 # Si un nouveau run démarre (cron ou manuel), annule celui en cours/queue.
 # Évite l'empilement quand le runner codeberg-medium est saturé.
-concurrency:
-  group: refresh-m3u-urls
-  cancel-in-progress: true
 
 jobs:
   refresh:
