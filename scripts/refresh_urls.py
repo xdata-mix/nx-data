@@ -29,8 +29,15 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36")
 TIMEOUT = 8
 CONCURRENCY = 8
-SKIP_HOSTS = ("185.160.192.14", "live.aab1.top", "off20.lynxcontents.click",
+SKIP_HOSTS = ("185.160.192.14", "off20.lynxcontents.click",
               "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv")
+# 2026-06-16 : live.aab1.top RETIRE de SKIP_HOSTS car ~90% de ses URLs sont
+# mortes (testees 6/60 vivantes). Mais on veut garder M6 (1059) + W9 (1083)
+# pour TNT France. Donc on les protege individuellement via SKIP_URLS.
+SKIP_URLS = (
+    "http://live.aab1.top/live/odai/123321/1059.ts",  # M6 TNT France
+    "http://live.aab1.top/live/odai/123321/1083.ts",  # W9 TNT France
+)
 
 # === Phase D NEW : sources externes FR ===
 # Source FR : (label, url, source_is_fr) — si True, toutes les chaines sont
@@ -245,6 +252,8 @@ async def fetch_external_source(session, label: str, url: str) -> list:
 
 
 def skip_url(url: str) -> bool:
+    if url in SKIP_URLS:
+        return True
     host = (urlparse(url).hostname or "").lower()
     return any(s in host for s in SKIP_HOSTS)
 
@@ -400,11 +409,28 @@ async def main_async():
                 replaced_indices.add(i)
                 print(f"  OK [{src}] {name[:30]:30} -> {new_url[-45:]}")
 
+        # === Suppression des URLs mortes sans replacement (= Live Canal aab1 morts) ===
+        # On supprime UNIQUEMENT les chaines du groupe "Live Canal" mortes (= aab1.top
+        # qui sont en train de mourir massivement). Les autres groupes : on garde le
+        # bloc en cas de revenir-vivant futur.
+        to_remove_indices = set()
         for i, name, url in dead_entries:
-            if i not in replaced_indices:
+            if i in replaced_indices:
+                continue
+            block = blocks[i]
+            # Test si c'est dans "Live Canal" et URL aab1.top morte
+            if 'group-title="Live Canal"' in block and 'aab1.top' in url:
+                to_remove_indices.add(i)
+                print(f"  RM {name[:30]:30} (Live Canal aab1 mort, suppr)")
+            else:
                 print(f"  KO {name[:30]:30} dead, no replacement found")
-
-        new_content = ''.join(blocks)
+        if to_remove_indices:
+            # Construit new_content en sautant les blocs supprimés
+            kept_blocks = [b for i, b in enumerate(blocks) if i not in to_remove_indices]
+            new_content = ''.join(kept_blocks)
+            print(f"\n=== {len(to_remove_indices)} blocs mortes supprimes (Live Canal aab1) ===")
+        else:
+            new_content = ''.join(blocks)
 
         # === Phase 3 : AUTO-ADD nouvelles chaînes ParaTV ===
         our_names_norm = set()
