@@ -1940,3 +1940,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france24
 # === Ajouts FR multi-sources : Lifestyle ===
 #EXTINF:-1 group-title="Lifestyle",MIEUX TV
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/mieux.m3u8
+
+# === Ajouts FR multi-sources : Religion ===
+#EXTINF:-1 tvg-id="CNA.dz@SD" group-title="Religion",CNA (360p) [Not 24/7]
+https://live.creacast.com/cna/stream/playlist.m3u8
