@@ -1941,3 +1941,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/mieux.m3
 # === Ajouts FR multi-sources : Religion ===
 #EXTINF:-1 tvg-id="CNA.dz@SD" group-title="Religion",CNA (360p) [Not 24/7]
 https://live.creacast.com/cna/stream/playlist.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="TelePam.us@SD" group-title="Généralistes",Tele Pam (1080p)
+https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
