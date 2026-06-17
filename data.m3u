@@ -1981,3 +1981,11 @@ https://edge14.vedge.infomaniak.com/livecast/ik:rhonetv/manifest.m3u8
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="Canal9.ch@SD" group-title="Nouveautés FR",Canal 9 en Français (1080p)
 https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CinebyPlutoTV.de@FR" group-title="Cinéma",Ciné by Pluto TV
+https://jmp2.uk/plu-5f8ed0f17564a300082b676a.m3u8
+
+# === Ajouts FR multi-sources : Jeunesse ===
+#EXTINF:-1 tvg-id="PlutoTVKidsClub.de@FR" group-title="Jeunesse",Pluto TV Kids Club
+https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
