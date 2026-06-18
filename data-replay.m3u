@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-8d7db5ff-96d3-49d5-957c-42afd0c0dcf6" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" group-title="Replay France 2",L'événement — Émission du jeudi 18 juin 2026
+francetv://8d7db5ff-96d3-49d5-957c-42afd0c0dcf6
 #EXTINF:-1 tvg-id="francetv-eb221c86-900c-43d2-b927-27de73865fd7" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" group-title="Replay France 2",Drag Race France — Meet the Queens
 francetv://eb221c86-900c-43d2-b927-27de73865fd7
 #EXTINF:-1 tvg-id="francetv-e6585567-71c1-4413-af8e-a7caaf921fde" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" group-title="Replay France 2",Danse ta vie
@@ -21,8 +23,6 @@ francetv://f2fe449f-0697-486a-bcd9-9827aadc5bc7
 francetv://51ed425f-e8d7-47e9-bf25-6ff8254276f5
 #EXTINF:-1 tvg-id="francetv-8d7f2918-2690-460c-8bb3-678c94e32025" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" group-title="Replay France 2",Infrarouge — Crush, nos premières fois
 francetv://8d7f2918-2690-460c-8bb3-678c94e32025
-#EXTINF:-1 tvg-id="francetv-628c8c93-4485-406b-bd4c-9a786b1d7cd0" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" group-title="Replay France 2",Infrarouge — Détecteurs de mythos, à l'attaque des fake news
-francetv://628c8c93-4485-406b-bd4c-9a786b1d7cd0
 #EXTINF:-1 tvg-id="francetv-0b2640a9-5901-4163-b5ca-ea1500faead5" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="Replay France 3",La fulgurée
 francetv://0b2640a9-5901-4163-b5ca-ea1500faead5
 #EXTINF:-1 tvg-id="francetv-608bf3b6-89c1-4167-a293-44dab8ace2d3" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="Replay France 3",Des Racines et Des Ailes — Passion patrimoine : terroirs d'excellence dans les Alpes provençales
@@ -47,6 +47,8 @@ francetv://f44737a9-3324-4f7c-9144-dce119b4cad6
 francetv://893e91dc-45d2-4e8e-bf5b-3848a932f829
 #EXTINF:-1 tvg-id="francetv-2722d1b8-8373-44dd-acde-457b6a857276" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="Replay France 3",Un si grand soleil — Épisode du mercredi 17 juin 2026
 francetv://2722d1b8-8373-44dd-acde-457b6a857276
+#EXTINF:-1 tvg-id="francetv-a76365ce-0d95-41cb-93d9-f63f564f0389" tvg-logo="https://i.imgur.com/wEsxQLP.png" tvg-country="FR" group-title="Replay France 4",A l'ombre des filles
+francetv://a76365ce-0d95-41cb-93d9-f63f564f0389
 #EXTINF:-1 tvg-id="francetv-bb7d94d5-ed7f-4aaf-8456-b7f1bb0c2c83" tvg-logo="https://i.imgur.com/wEsxQLP.png" tvg-country="FR" group-title="Replay France 4",Les Victoires du Jazz 2026
 francetv://bb7d94d5-ed7f-4aaf-8456-b7f1bb0c2c83
 #EXTINF:-1 tvg-id="francetv-41c14a41-376b-4369-a739-bd58d081342b" tvg-logo="https://i.imgur.com/wEsxQLP.png" tvg-country="FR" group-title="Replay France 4",Arrête avec tes mensonges
@@ -69,8 +71,6 @@ francetv://455c927c-1560-4ffb-8c86-73c9803e5e89
 francetv://9a3f2db5-86d1-4023-a96c-f811693b9b74
 #EXTINF:-1 tvg-id="francetv-b12b5ee1-c46a-469f-bcf3-8f052d89fb54" tvg-logo="https://i.imgur.com/wEsxQLP.png" tvg-country="FR" group-title="Replay France 4",Aux arts et cætera — Team JuL
 francetv://b12b5ee1-c46a-469f-bcf3-8f052d89fb54
-#EXTINF:-1 tvg-id="francetv-282f08d5-93a0-445b-8678-5d1083907df6" tvg-logo="https://i.imgur.com/wEsxQLP.png" tvg-country="FR" group-title="Replay France 4",La Famille Asada
-francetv://282f08d5-93a0-445b-8678-5d1083907df6
 #EXTINF:-1 tvg-id="francetv-9fdca411-503b-4b8b-b179-313ad1f590ce" tvg-logo="https://i.imgur.com/X4Y5jKR.png" tvg-country="FR" group-title="Replay France 5",La grande librairie — Émission du mercredi 17 juin 2026
 francetv://9fdca411-503b-4b8b-b179-313ad1f590ce
 #EXTINF:-1 tvg-id="francetv-147c6873-db97-44b1-900a-a7b02c2f05c1" tvg-logo="https://i.imgur.com/X4Y5jKR.png" tvg-country="FR" group-title="Replay France 5",Science grand format — Premières notes
@@ -105,17 +105,17 @@ francetv://c84e9c52-6565-11f1-8728-19616fa871f9
 francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 #EXTINF:-1 tvg-id="francetv-07240417-4994-4398-af6b-660126b1fa66" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Hantavirus, la semaine de tous les dangers
 francetv://07240417-4994-4398-af6b-660126b1fa66
+#EXTINF:-1 tvg-id="francetv-dba2ba8c-5a85-42c5-af7a-5fca31ab27d0" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Tout est politique — Émission du jeudi 18 juin 2026
+francetv://dba2ba8c-5a85-42c5-af7a-5fca31ab27d0
+#EXTINF:-1 tvg-id="francetv-f3665808-3e0f-48da-8dd0-f4e7ca0d1c11" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",C'est toute la question — Émission du jeudi 18 juin 2026
+francetv://f3665808-3e0f-48da-8dd0-f4e7ca0d1c11
 #EXTINF:-1 tvg-id="francetv-e28d9904-6b2a-11f1-846c-957ddefc544d" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 18/06/2026 - C'est toute la question
 francetv://e28d9904-6b2a-11f1-846c-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-68d63351-55b4-4983-876e-de54955a6184" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Le fil info — Émission du jeudi 18 juin 2026
+francetv://68d63351-55b4-4983-876e-de54955a6184
 #EXTINF:-1 tvg-id="francetv-5205bcb8-6b2a-11f1-872f-19616fa871f9" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 18/06/2026 - Le fil info
 francetv://5205bcb8-6b2a-11f1-872f-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-17e07cfa-6afb-11f1-872f-19616fa871f9" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 18/06/2026 - Le 11h/13h
 francetv://17e07cfa-6afb-11f1-872f-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-7fc83def-5393-4b9b-b88d-74082b693511" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",Le 11h/13h — Émission du jeudi 18 juin 2026
 francetv://7fc83def-5393-4b9b-b88d-74082b693511
-#EXTINF:-1 tvg-id="francetv-be28e73a-b72c-4ef2-88b2-da5865f6a1ea" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",L'info s'éclaire — Émission du jeudi 18 juin 2026
-francetv://be28e73a-b72c-4ef2-88b2-da5865f6a1ea
-#EXTINF:-1 tvg-id="francetv-ea96800a-7f3b-4043-bfda-3d46a65eaa96" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",L'invité politique — Émission du jeudi 18 juin 2026
-francetv://ea96800a-7f3b-4043-bfda-3d46a65eaa96
-#EXTINF:-1 tvg-id="francetv-86e6859c-6c72-4e5d-be8b-2db6a3a27a32" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
-francetv://86e6859c-6c72-4e5d-be8b-2db6a3a27a32
