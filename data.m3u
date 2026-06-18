@@ -1872,7 +1872,7 @@ http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="France TV backup",Bblack! Africa (1080p) [kilirushi]
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr" group-title="France TV backup",Le Figaro IDF (1080p) [kilirushi]
 https://static.lefigaro.fr/secom/tnt.m3u8
 
