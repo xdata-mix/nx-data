@@ -1512,7 +1512,7 @@ https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-r
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup",Madras FM TV (1080p) [iptv-org-fra]
 https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="RadioContact.be@SD" group-title="France TV backup",Radio Contact (1080p) [iptv-org-fra]
-https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/contact.m3u8
 #EXTINF:-1 tvg-id="TNTV.pf@SD" group-title="France TV backup",TNTV (1080p) [iptv-org-fra]
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
@@ -2125,3 +2125,11 @@ https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8
 # === Ajouts FR multi-sources : Jeunesse ===
 #EXTINF:-1 tvg-id="PlutoTVSuperKids.de@FR" group-title="Jeunesse",Pluto TV Super Kids
 https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="PlutoTVPolar.de@FR" group-title="France TV backup",Pluto TV Polar [iptv-org-fr]
+https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8
+#EXTINF:-1 tvg-id="RadioContact.be@SD" group-title="France TV backup",Radio Contact (1080p) [iptv-org-fra]
+https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-id="Yaquelaveritequicompte.us@France" group-title="France TV backup",Y'a que la vérité qui compte [iptv-org-fra]
+https://jmp2.uk/plu-612e044c970e6f00083bcf3b.m3u8
