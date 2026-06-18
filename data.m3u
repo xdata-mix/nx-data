@@ -1394,7 +1394,7 @@ https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
 #EXTINF:-1 tvg-id="BelRTLTV.be" group-title="France TV backup",BEL RTL [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/belrtl.m3u8
 #EXTINF:-1 tvg-id="Canal32.fr@SD" group-title="France TV backup",Canal 32 (1080p) [iptv-org-fr]
-https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (1080p) [iptv-org-fr]
@@ -2169,3 +2169,7 @@ https://lnmlive.com/live/lnmtv.m3u8
 # === Nouveautes ParaTV (auto-ajoute) ===
 #EXTINF:-1 tvg-chno="33" tvg-id="SportEnFrance.fr" tvg-logo="https://s1.dmcdn.net/u/8Dz9c1exwxFnyVPBm/60x60" tvg-country="FR" group-title="Nouveautes ParaTV",33. Sport en France [1080p-dailymotion.com]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/sport-en-france-dm.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Canal32.fr@SD" group-title="France TV backup",Canal 32 (1080p) [iptv-org-fr]
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
