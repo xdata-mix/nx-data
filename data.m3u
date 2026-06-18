@@ -2133,3 +2133,13 @@ https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8
 https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
 #EXTINF:-1 tvg-id="Yaquelaveritequicompte.us@France" group-title="France TV backup",Y'a que la vérité qui compte [iptv-org-fra]
 https://jmp2.uk/plu-612e044c970e6f00083bcf3b.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CineCatastrophebyPlutoTV.de@FR" group-title="Cinéma",Ciné Catastrophe by Pluto TV
+https://jmp2.uk/plu-65a69ef53af63d000825e0ee.m3u8
+
+# === Ajouts FR multi-sources : Séries ===
+#EXTINF:-1 tvg-id="PlutoTVSeriesFantastiques.de@FR" group-title="Séries",Pluto TV Séries Fantastiques
+https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8
+#EXTINF:-1 tvg-id="InstantSaga.us@US" group-title="Séries",Instant Saga
+https://jmp2.uk/plu-60549e98061b5f000776866a.m3u8
