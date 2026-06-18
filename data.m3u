@@ -2147,3 +2147,13 @@ https://jmp2.uk/plu-60549e98061b5f000776866a.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="PlutoTVToons.de@FR" group-title="France TV backup",Pluto TV Toons (720p) [iptv-org-fr]
 https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CineThrillersbyPlutoTV.de@FR" group-title="Cinéma",Ciné Thrillers by Pluto TV
+https://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8
+
+# === Ajouts FR multi-sources : Jeunesse ===
+#EXTINF:-1 tvg-id="PlutoTVJunior.de@FR" group-title="Jeunesse",Pluto TV Junior (720p)
+https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@US" group-title="Jeunesse",Babyfirst
+https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
