@@ -2093,3 +2093,7 @@ https://jmp2.uk/plu-66e1978babec540008ce41ac.m3u8
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="PlutoTVFrenchCollection.de@FR" group-title="Divertissement",Pluto TV French Collection
 https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8
+
+# === Nouveautes ParaTV (auto-ajoute) ===
+#EXTINF:-1 tvg-chno="1073" tvg-id="FR1200001N2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1200001N2_20260616T034222SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1073. Top Action [1080p-samsungtvplus]
+https://jmp2.uk/stvp-FR1200001N2
