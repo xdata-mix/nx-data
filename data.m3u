@@ -2047,3 +2047,31 @@ https://jmp2.uk/plu-6092544e7639460007d4835e.m3u8
 # === Ajouts FR multi-sources : Cinéma ===
 #EXTINF:-1 group-title="Cinéma",Ciné Sci-Fi by Pluto TV
 https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="AlAoula.ma@SD" group-title="France TV backup",Al Aoula (480p) [iptv-org-fra]
+https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CanalPlusCinemas.fr@SD" group-title="Cinéma",Canal+ Cinemas (720p)
+http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
+
+# === Ajouts FR multi-sources : Divertissement ===
+#EXTINF:-1 tvg-id="CanalPlus.fr@SD" group-title="Divertissement",Canal+ (1080p)
+http://151.80.18.177:86/Canal+_HD/index.m3u8
+
+# === Ajouts FR multi-sources : Family ===
+#EXTINF:-1 tvg-id="CanalPlusFamily.fr@SD" group-title="Family",Canal+ Family (720p)
+http://151.80.18.177:86/Canal+_Family_HD/index.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="LaayouneTV.ma@SD" group-title="Généralistes",Laayoune TV (480p)
+https://snrtworker.kharazbelaid.workers.dev/?id=laayoune.m3u8
+
+# === Ajouts FR multi-sources : Religion ===
+#EXTINF:-1 tvg-id="Assadissa.ma@SD" group-title="Religion",Assadissa (480p)
+https://snrtworker.kharazbelaid.workers.dev/?id=assadisa.m3u8
+
+# === Ajouts FR multi-sources : Sport ===
+#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" group-title="Sport",Canal+ Sport (1080p)
+http://151.80.18.177:86/Canal+_sport_HD/index.m3u8
