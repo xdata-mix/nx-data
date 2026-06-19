@@ -346,11 +346,15 @@ def generate_m3u(output_path):
         time.sleep(0.5)
 
     # v2 (gain marginal) : catégories /programmes-tv/* (sport, reportages, etc.)
+    #   Route chaque prog vers SA chaîne (= "Replay TF1", "Replay TMC", etc.)
+    #   pour bénéficier de la card connexion TF1+ existante.
     print("\n=== TF1+ /programmes-tv/* (gain marginal) ===")
     tf1_cat_seen = set()
     for chan_slug, _, _ in TF1_CHANNELS:
         for p in tf1plus_channel_programs(chan_slug):
             tf1_cat_seen.add(p["si_id"])
+    # Map chan_slug → (label, logo)
+    chan_meta = {c[0]: (c[1], c[2]) for c in TF1_CHANNELS}
     for cat_slug, cat_label in TF1_CATEGORIES:
         progs = tf1_category_programs(cat_slug)
         added = 0
@@ -358,11 +362,17 @@ def generate_m3u(output_path):
             if p["si_id"] in tf1_cat_seen:
                 continue
             tf1_cat_seen.add(p["si_id"])
+            # Extract chan depuis si_id "chan/slug"
+            chan = p["si_id"].split("/")[0]
+            meta = chan_meta.get(chan)
+            if not meta:
+                continue
+            chan_label, chan_logo = meta
             extinf = (
                 f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}" '
-                f'tvg-logo="" '
+                f'tvg-logo="{chan_logo}" '
                 f'tvg-country="FR" '
-                f'group-title="Replay TF1+",{p["title"]}'
+                f'group-title="Replay {chan_label}",{p["title"]}'
             )
             lines.append(extinf)
             lines.append(f'tf1plus://{p["si_id"]}')
