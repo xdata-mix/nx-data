@@ -575,6 +575,16 @@ arte://128834-006-A
 arte://RC-014710
 #EXTINF:-1 tvg-id="arte-RC-027900" tvg-logo="https://static-cdn.arte.tv/static/artevp/13.0.31/img/og-arte-tv.png" tvg-country="FR" group-title="Arte Arts",The Hack Sur Ecoute
 arte://RC-027900
+#EXTINF:-1 tvg-id="tf1live-tf1" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" group-title="Live TF1+",TF1 Direct
+tf1live://tf1
+#EXTINF:-1 tvg-id="tf1live-tmc" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" group-title="Live TF1+",TMC Direct
+tf1live://tmc
+#EXTINF:-1 tvg-id="tf1live-tfx" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" group-title="Live TF1+",TFX Direct
+tf1live://tfx
+#EXTINF:-1 tvg-id="tf1live-tf1-series-films" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" group-title="Live TF1+",TF1 Séries Films Direct
+tf1live://tf1-series-films
+#EXTINF:-1 tvg-id="tf1live-lci" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" group-title="Live TF1+",LCI Direct
+tf1live://lci
 #EXTINF:-1 tvg-id="tf1plus-tf1/good-american-family" tvg-logo="https://photos.tf1.fr/1280/720/program-card-landscape-a50ae1-c98d94-0@1x.jpg" tvg-country="FR" group-title="Replay TF1",Good American Family
 tf1plus://tf1/good-american-family
 #EXTINF:-1 tvg-id="tf1plus-tf1/plus-belle-la-vie" tvg-logo="https://photos.tf1.fr/1280/720/flux-program-card-landscape-jpg-53d86b-5196b7-49d2d5-0@1x.jpg" tvg-country="FR" group-title="Replay TF1",Plus belle la vie, encore plus belle
