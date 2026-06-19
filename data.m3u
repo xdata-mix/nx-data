@@ -1207,9 +1207,6 @@ http://livevideo.infomaniak.com/streaming/livecast/naxoo/playlist.m3u8
 #EXTINF:-1 tvg-chno="1683" tvg-logo="https://picserve.netplus.ch/channels/lequipe21.png" tvg-country="FR" group-title="NetPlus",L EQUIPE [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
-#EXTINF:-1 tvg-chno="1684" tvg-logo="https://picserve.netplus.ch/channels/m6hd.png" tvg-country="FR" group-title="NetPlus",M6 HD [FR]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h/index-hd720.m3u8
 #EXTINF:-1 tvg-chno="1685" tvg-logo="https://picserve.netplus.ch/channels/maxtv.png" tvg-country="FR" group-title="NetPlus",MAX TV [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/maxtv/browser-HLS8/maxtv.m3u8
@@ -1243,9 +1240,6 @@ https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
 #EXTINF:-1 tvg-chno="1700" tvg-logo="https://picserve.netplus.ch/channels/valtv.png" tvg-country="FR" group-title="NetPlus",VAL TV [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/valtv/browser-HLS8/valtv.m3u8
-#EXTINF:-1 tvg-chno="1701" tvg-logo="https://picserve.netplus.ch/channels/w9.png" tvg-country="FR" group-title="NetPlus",W9 [FR]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-http://185.160.192.14/live/171348492752/5S6HGsea3j/136879.m3u8
 #EXTINF:-1 tvg-chno="1702" tvg-logo="https://picserve.netplus.ch/channels/canale5.png" tvg-country="IT" group-title="NetPlus",CANALE 5 [IT]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
@@ -1305,12 +1299,6 @@ https://lfmmd.vedge.infomaniak.com/livecast/ik:compack_media_1/manifest.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 
-#EXTINF:-1 tvg-name="M6" tvg-logo="https://tv4.life/tvlogos/m6.png" group-title="Live Canal",M6 [TNT FR]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-http://185.160.192.14/live/171348492752/5S6HGsea3j/136871.m3u8
-#EXTINF:-1 tvg-name="W9" tvg-logo="https://tv4.life/tvlogos/w9.png" group-title="Live Canal",W9 [TNT FR]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-http://185.160.192.14/live/171348492752/5S6HGsea3j/136879.m3u8
 #EXTINF:-1 tvg-name="CNEWS" tvg-logo="https://tv4.life/tvlogos/cnews.png" group-title="Live Canal",CNEWS [Canal+]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136859.m3u8
@@ -2001,10 +1989,6 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="le-meilleur-d-arthur" group-title="France TV backup",LE MEILLEUR D'ARTHUR [schumijo]
 https://amg02393-awpg-amg02393c2-rakuten-uk-2464.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdarthur-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="W9.fr@SD" group-title="France TV backup",W9 (720p) [iptv-org-fr]
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
-
-# === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 
