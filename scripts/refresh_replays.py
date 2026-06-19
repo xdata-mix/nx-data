@@ -447,10 +447,17 @@ def generate_m3u(output_path):
         print(f"  {chan_label}: {len(progs)} programmes")
         for p in progs:
             ilogo = p.get("logo") or chan_logo
+            # 2026-06-19 : tvg-type heuristique pour TF1+. Chaîne tf1seriesfilms
+            #   ou path contenant "film" → movie. Sinon series (= valeur par défaut
+            #   car la majorité des replays TF1+ sont séries/émissions).
+            si_path = (p.get("si_id") or "").lower()
+            is_film = chan_slug == "tf1seriesfilms" or "film" in si_path or "/cinema/" in si_path
+            tvg_type = "movie" if is_film else "series"
             extinf = (
                 f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"]}" '
                 f'tvg-logo="{ilogo}" '
                 f'tvg-country="FR" '
+                f'tvg-type="{tvg_type}" '
                 f'group-title="Replay {chan_label}",{p["title"]}'
             )
             lines.append(extinf)
@@ -481,10 +488,14 @@ def generate_m3u(output_path):
             if not meta:
                 continue
             chan_label, chan_logo = meta
+            si_path = (p.get("si_id") or "").lower()
+            is_film = "film" in si_path or "/cinema/" in si_path
+            tvg_type = "movie" if is_film else "series"
             extinf = (
                 f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}" '
                 f'tvg-logo="{chan_logo}" '
                 f'tvg-country="FR" '
+                f'tvg-type="{tvg_type}" '
                 f'group-title="Replay {chan_label}",{p["title"]}'
             )
             lines.append(extinf)
