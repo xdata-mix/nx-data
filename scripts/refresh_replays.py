@@ -156,6 +156,8 @@ def francetv_channel_programs(channel_path):
 # ───── Arte+7 ─────
 
 ARTE_HREF_RE = re.compile(r"href=\"/fr/videos/([^/\"]+)/([^\"#]+?)/\"")
+# v3 : filtre PID Arte valide pour exclure les slugs catégorie (culture-et-pop, etc.)
+ARTE_PID_VALID = re.compile(r"^(\d{6}-\d{3}-[A-Z]|RC-[A-Za-z0-9]+)$")
 
 def slug_to_title(slug):
     SHORT = {"et", "le", "la", "les", "de", "du", "des", "un", "une", "à"}
@@ -179,6 +181,9 @@ def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
     for m in ARTE_HREF_RE.finditer(raw):
         pid = m.group(1)
         slug = m.group(2)
+        # v3 : exclut les slugs catégorie (= ne sont pas des PIDs valides)
+        if not ARTE_PID_VALID.match(pid):
+            continue
         if pid in seen:
             continue
         seen.add(pid)
