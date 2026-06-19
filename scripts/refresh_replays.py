@@ -332,7 +332,7 @@ M6_CHANNELS = [
     ("tevareplay",            "Téva",            "https://i.imgur.com/HuLNVjC.png"),
     ("parispremierereplay",   "Paris Première",  "https://i.imgur.com/oCBzd0e.png"),
 ]
-MAX_ITEMS_PER_M6_CHAN = 50
+MAX_ITEMS_PER_M6_CHAN = 200
 
 def m6_channel_programs(service_id, max_items=MAX_ITEMS_PER_M6_CHAN):
     """Liste les programmes (= émissions/séries) disponibles pour une chaîne M6+
