@@ -180,7 +180,7 @@ def arte_check_available(pid):
     d'erreur ERROR_NO_RIGHTS). Timeout 6s pour ne pas plomber le scrape."""
     try:
         raw = http_get(ARTE_API_CFG.format(pid),
-                       headers={"Accept": "application/json"}, timeout=6)
+                       headers={"Accept": "application/json"})
         j = json.loads(raw)
         data = j.get("data") or {}
         attrs = data.get("attributes") or {}
