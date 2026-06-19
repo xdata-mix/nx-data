@@ -169,6 +169,34 @@ def slug_to_title(slug):
             words.append(w)
     return ' '.join(words)
 
+# v4 (2026-06-19) : check de disponibilité du stream avant d'ajouter un PID
+#   au M3U. L'API Arte renvoie ERROR_NO_RIGHTS sur les contenus retirés du
+#   catalogue (= droits expirés, ex: Spartacus). On les filtre ici pour
+#   éviter qu'ils traînent dans la liste sans pouvoir être joués.
+ARTE_API_CFG = "https://api.arte.tv/api/player/v2/config/fr/{}"
+
+def arte_check_available(pid):
+    """Retourne True si le stream est jouable (= streams non-vide, pas
+    d'erreur ERROR_NO_RIGHTS). Timeout 6s pour ne pas plomber le scrape."""
+    try:
+        raw = http_get(ARTE_API_CFG.format(pid),
+                       headers={"Accept": "application/json"}, timeout=6)
+        j = json.loads(raw)
+        data = j.get("data") or {}
+        attrs = data.get("attributes") or {}
+        streams = attrs.get("streams") or []
+        if not streams:
+            return False
+        # double check : si error block présent → indispo
+        err = attrs.get("error") or data.get("error")
+        if err and isinstance(err, dict) and err.get("code"):
+            return False
+        return True
+    except Exception:
+        # Sur timeout/erreur réseau on garde par défaut (= pas pénaliser)
+        return True
+
+
 def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
     url = f"https://www.arte.tv/fr/videos/{category_slug}/"
     try:
@@ -177,7 +205,7 @@ def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
         print(f"[!] Arte fetch error {category_slug}: {e}", file=sys.stderr)
         return []
     seen = set()
-    out = []
+    candidates = []
     for m in ARTE_HREF_RE.finditer(raw):
         pid = m.group(1)
         slug = m.group(2)
@@ -190,9 +218,19 @@ def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
         title = slug_to_title(slug)[:140]
         if not title:
             continue
-        out.append({"program_id": pid, "title": title})
-        if len(out) >= max_items:
+        candidates.append({"program_id": pid, "title": title})
+        # Surdimensionne (×2) pour absorber les futurs filtrés indispo
+        if len(candidates) >= max_items * 2:
             break
+    # v4 : check parallèle de disponibilité (ThreadPool=8) — on garde les
+    #   programmes dont le stream Arte est encore actif.
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        availability = list(ex.map(lambda c: arte_check_available(c["program_id"]), candidates))
+    out = [c for c, ok in zip(candidates, availability) if ok][:max_items]
+    dropped = sum(1 for ok in availability if not ok)
+    if dropped:
+        print(f"[arte] {category_slug}: {dropped} programmes filtrés (ERROR_NO_RIGHTS)", file=sys.stderr)
     return out
 
 
