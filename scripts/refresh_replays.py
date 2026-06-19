@@ -365,7 +365,11 @@ def m6_channel_programs(service_id, max_items=MAX_ITEMS_PER_M6_CHAN):
         imgs = p.get("images") or []
         if imgs and isinstance(imgs, list):
             img = imgs[0].get("external_key", "") if isinstance(imgs[0], dict) else ""
-        out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id})
+        # 2026-06-19 : classification série vs film/unitaire via program_type_wording.code
+        ptype = (p.get("program_type_wording") or {}).get("code", "")
+        is_series = ptype in {"episode", "emission", "magazine", "journal", "dessin-anime"}
+        tvg_type = "series" if is_series else "movie"
+        out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id, "tvg_type": tvg_type})
     return out
 
 
@@ -494,6 +498,7 @@ def generate_m3u(output_path):
                 f'#EXTINF:-1 tvg-id="m6plus-{p["program_id"]}" '
                 f'tvg-logo="{ilogo}" '
                 f'tvg-country="FR" '
+                f'tvg-type="{p.get("tvg_type", "series")}" '
                 f'group-title="Replay {chan_label}",{p["title"]}'
             )
             lines.append(extinf)
