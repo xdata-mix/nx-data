@@ -57,6 +57,22 @@ TF1_CHANNELS = [
     ("tf1-series-films", "TF1 Séries Films", "https://i.imgur.com/3OZdMb9.png"),
     ("lci",              "LCI",              "https://i.imgur.com/jVxzNHL.png"),
 ]
+
+# v2 (gain marginal) : catégories /programmes-tv/* pour récupérer programmes
+#   qui ne sont pas dans /<chan>/replay (ex: sport, reportages, jeunesse)
+TF1_CATEGORIES = [
+    ("sport",                "Sport"),
+    ("reportages",           "Reportages"),
+    ("telefilms",            "Téléfilms"),
+    ("people-43944072",      "People"),
+    ("podcasts-70045207",    "Podcasts"),
+    ("impact",               "Impact"),
+    ("jeunesse",             "Jeunesse"),
+    ("divertissement",       "Divertissement"),
+    ("films",                "Films"),
+    ("info",                 "Info"),
+]
+
 TF1_REPLAY_URL = "https://www.tf1.fr/{slug}/replay"
 
 # Live TF1 (5 chaînes directes). Résolution côté ONYX via `tf1live://<slug>`
@@ -224,6 +240,39 @@ def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
     return out
 
 
+
+TF1_CAT_HREF_RE = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
+
+def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
+    """Scrape /programmes-tv/<cat>. Format : hrefs `/(chan)/(slug)`.
+    Retourne liste programmes avec si_id `<chan>/<slug>`. Pas de logo/title précis,
+    on prendra ceux qu'on trouvera via fetch ultérieur ou on laissera vide."""
+    url = f"https://www.tf1.fr/programmes-tv/{category_slug}"
+    try:
+        raw = http_get(url, headers={"Accept": "text/html"})
+    except Exception as e:
+        print(f"[!] TF1 cat fetch error {category_slug}: {e}", file=sys.stderr)
+        return []
+    out = []
+    seen = set()
+    # Liens exclus = pages réservées (replay, direct, news, videos, programmes-tv)
+    excluded = {"replay", "direct", "news", "videos", "programmes-tv"}
+    for m in TF1_CAT_HREF_RE.finditer(raw):
+        chan = m.group(1)
+        slug = m.group(2)
+        if slug in excluded:
+            continue
+        si_id = f"{chan}/{slug}"
+        if si_id in seen:
+            continue
+        seen.add(si_id)
+        title = slug_to_title(slug)[:140]
+        out.append({"si_id": si_id, "title": title, "logo": ""})
+        if len(out) >= max_items:
+            break
+    return out
+
+
 # ───── Generation ─────
 
 def generate_m3u(output_path):
@@ -295,6 +344,32 @@ def generate_m3u(output_path):
             lines.append(f'tf1plus://{p["si_id"]}')
             total += 1
         time.sleep(0.5)
+
+    # v2 (gain marginal) : catégories /programmes-tv/* (sport, reportages, etc.)
+    print("\n=== TF1+ /programmes-tv/* (gain marginal) ===")
+    tf1_cat_seen = set()
+    for chan_slug, _, _ in TF1_CHANNELS:
+        for p in tf1plus_channel_programs(chan_slug):
+            tf1_cat_seen.add(p["si_id"])
+    for cat_slug, cat_label in TF1_CATEGORIES:
+        progs = tf1_category_programs(cat_slug)
+        added = 0
+        for p in progs:
+            if p["si_id"] in tf1_cat_seen:
+                continue
+            tf1_cat_seen.add(p["si_id"])
+            extinf = (
+                f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}" '
+                f'tvg-logo="" '
+                f'tvg-country="FR" '
+                f'group-title="Replay TF1+",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'tf1plus://{p["si_id"]}')
+            added += 1
+            total += 1
+        print(f"  {cat_label}: +{added} nouveaux")
+        time.sleep(0.3)
 
     lines.append("")
     Path(output_path).write_text("\n".join(lines), encoding="utf-8")
