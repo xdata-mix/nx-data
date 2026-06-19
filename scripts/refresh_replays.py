@@ -316,6 +316,59 @@ def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
     return out
 
 
+# ───── M6+ Replay (2026-06-19) ─────
+# API publique pc.middleware.6play.fr (= equiv web du middleware Android qui ne
+#   marche plus). Pas besoin d'auth Gigya pour le CATALOGUE — seul le PLAYBACK
+#   exige Widevine + Gigya. Chaque chaîne M6+ a son propre service_id :
+#     M6=m6replay, W9=w9replay, 6ter=6terreplay, Gulli=gulli,
+#     Téva=tevareplay, Paris Première=parispremierereplay.
+M6_BASE = "https://pc.middleware.6play.fr/6play/v2/platforms/m6group_web/services"
+# (service_id, chan_label, logo_url)
+M6_CHANNELS = [
+    ("m6replay",              "M6",              "https://i.imgur.com/4lhxLPB.png"),
+    ("w9replay",              "W9",              "https://i.imgur.com/oFGn1On.png"),
+    ("6terreplay",            "6ter",            "https://i.imgur.com/M7vGd6Y.png"),
+    ("gulli",                 "Gulli",           "https://i.imgur.com/tFNzQQM.png"),
+    ("tevareplay",            "Téva",            "https://i.imgur.com/HuLNVjC.png"),
+    ("parispremierereplay",   "Paris Première",  "https://i.imgur.com/oCBzd0e.png"),
+]
+MAX_ITEMS_PER_M6_CHAN = 50
+
+def m6_channel_programs(service_id, max_items=MAX_ITEMS_PER_M6_CHAN):
+    """Liste les programmes (= émissions/séries) disponibles pour une chaîne M6+
+    via /services/{svc}/programs?limit=N&offset=0&csa=6. Retourne une liste de
+    dicts {program_id, title, image}. Le code (slug) est utilisé comme title
+    fallback car le champ name est souvent vide."""
+    url = f"{M6_BASE}/{service_id}/programs?limit={max_items}&offset=0&csa=6"
+    try:
+        raw = http_get(url, headers={"Accept": "application/json"})
+    except Exception as e:
+        print(f"[!] M6 fetch error {service_id}: {e}", file=sys.stderr)
+        return []
+    try:
+        arr = json.loads(raw)
+    except Exception as e:
+        print(f"[!] M6 JSON parse error {service_id}: {e}", file=sys.stderr)
+        return []
+    out = []
+    for p in arr:
+        pid = p.get("id")
+        if not pid:
+            continue
+        code = (p.get("code") or "").strip()
+        name = (p.get("name") or "").strip()
+        title = name if name else slug_to_title(code)
+        if not title:
+            continue
+        # image preview (img[0].external_key) si dispo
+        img = ""
+        imgs = p.get("images") or []
+        if imgs and isinstance(imgs, list):
+            img = imgs[0].get("external_key", "") if isinstance(imgs[0], dict) else ""
+        out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id})
+    return out
+
+
 # ───── Generation ─────
 
 def generate_m3u(output_path):
@@ -425,6 +478,29 @@ def generate_m3u(output_path):
         time.sleep(0.3)
 
     lines.append("")
+    # M6+ Replay (2026-06-19) — login compte M6 requis pour PLAYBACK (Widevine
+    #   DRM). Le catalogue est public. Une catégorie M3U par chaîne (= 6 cards
+    #   "🔓 Connexion 6play" côté LiveTvHubProvider quand non loggé).
+    print("\n=== M6+ Replay ===")
+    for service_id, chan_label, chan_logo in M6_CHANNELS:
+        progs = m6_channel_programs(service_id)
+        print(f"  {chan_label}: {len(progs)} programmes")
+        for p in progs:
+            ilogo = p.get("image") or chan_logo
+            # Si image = external_key d'images.6play.fr, construire URL CDN
+            if ilogo and not ilogo.startswith("http"):
+                ilogo = f"https://images.6play.fr/v1/images/{ilogo}/raw"
+            extinf = (
+                f'#EXTINF:-1 tvg-id="m6plus-{p["program_id"]}" '
+                f'tvg-logo="{ilogo}" '
+                f'tvg-country="FR" '
+                f'group-title="Replay {chan_label}",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'm6play://{p["program_id"]}')
+            total += 1
+        time.sleep(0.4)
+
     Path(output_path).write_text("\n".join(lines), encoding="utf-8")
     print(f"\n[OK] Wrote {total} replay programs to {output_path}")
     return total
