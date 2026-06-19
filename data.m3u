@@ -2167,3 +2167,9 @@ http://99.27.51.147:8080/CineFrisson/index.m3u8
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="Syfy.fr@SD" group-title="Nouveautés FR",Syfy
 http://99.27.51.147:8080/SYFY/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@SD" group-title="France TV backup",M6 SD (720p) [iptv-org-fr]
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h/index-hd720.m3u8
+#EXTINF:-1 tvg-id="W9.fr@SD" group-title="France TV backup",W9 (720p) [iptv-org-fr]
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
