@@ -2181,3 +2181,7 @@ https://stream.berosat.live:19360/baraka-hd/baraka-hd.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="BurkinaInfoTV.bf@SD" group-title="Info",Burkina Info TV (540p)
+http://69.64.57.208/burkinainfo/index.m3u8
