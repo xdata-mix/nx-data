@@ -22,8 +22,8 @@ from pathlib import Path
 UA = ("Mozilla/5.0 (Linux; Android 14; AndroidTV) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 TIMEOUT = 15
-MAX_ITEMS_PER_CHAN = 50
-MAX_ITEMS_PER_ARTE_CAT = 30
+MAX_ITEMS_PER_CHAN = 200      # TF1+ ItemList = 96, France.tv jusqu'à ~80
+MAX_ITEMS_PER_ARTE_CAT = 100  # Arte page catégorie typiquement 40-60
 
 # ───── Catalogues ─────
 
