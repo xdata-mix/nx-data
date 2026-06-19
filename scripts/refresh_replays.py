@@ -22,8 +22,8 @@ from pathlib import Path
 UA = ("Mozilla/5.0 (Linux; Android 14; AndroidTV) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 TIMEOUT = 15
-MAX_ITEMS_PER_CHAN = 12
-MAX_ITEMS_PER_ARTE_CAT = 12
+MAX_ITEMS_PER_CHAN = 50
+MAX_ITEMS_PER_ARTE_CAT = 30
 
 # ───── Catalogues ─────
 
