@@ -497,7 +497,10 @@ def generate_m3u(output_path):
                 f'group-title="Replay {chan_label}",{p["title"]}'
             )
             lines.append(extinf)
-            lines.append(f'm6play://{p["program_id"]}')
+            # v2 : URL inclut le service (= chaîne API) pour que M6Resolver
+            #   sache quel endpoint /services/{service}/... appeler côté Kotlin
+            #   sans devoir essayer les 6 services à chaque clic.
+            lines.append(f'm6play://{service_id}/{p["program_id"]}')
             total += 1
         time.sleep(0.4)
 
