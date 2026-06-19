@@ -386,10 +386,16 @@ def generate_m3u(output_path):
         print(f"  {channel_label}: {len(progs)} programmes")
         for p in progs:
             logo = p["logo"] or channel_logo
+            # 2026-06-19 : classification basique pour France TV. p peut avoir
+            #   un champ "program_type" si parsé. Sinon on garde "series" par
+            #   défaut (= les Replay France TV sont surtout des émissions
+            #   régulières / journaux / magazines).
+            tvg_type = p.get("tvg_type", "series")
             extinf = (
                 f'#EXTINF:-1 tvg-id="francetv-{p["si_id"]}" '
                 f'tvg-logo="{logo}" '
                 f'tvg-country="FR" '
+                f'tvg-type="{tvg_type}" '
                 f'group-title="Replay {channel_label}",{p["title"]}'
             )
             lines.append(extinf)
@@ -399,14 +405,21 @@ def generate_m3u(output_path):
 
     # Arte+7
     print("\n=== Arte+7 ===")
+    # 2026-06-19 : classification par catégorie Arte. Films/Documentaires sont
+    #   des unitaires ; Séries et fictions sont des séries ; les autres
+    #   catégories (Arts, Culture, Histoire, Sciences) sont surtout des
+    #   programmes one-shot → movie par défaut.
+    ARTE_SERIES_CATS = {"series-et-fictions"}  # par slug
     for cat_slug, cat_label in ARTE_CATEGORIES:
         progs = arte_category_programs(cat_slug)
         print(f"  {cat_label}: {len(progs)} programmes")
+        tvg_type = "series" if cat_slug in ARTE_SERIES_CATS else "movie"
         for p in progs:
             extinf = (
                 f'#EXTINF:-1 tvg-id="arte-{p["program_id"]}" '
                 f'tvg-logo="{ARTE_LOGO}" '
                 f'tvg-country="FR" '
+                f'tvg-type="{tvg_type}" '
                 f'group-title="Arte {cat_label}",{p["title"]}'
             )
             lines.append(extinf)
