@@ -2173,3 +2173,13 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/mis
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Canal32.fr@SD" group-title="France TV backup",Canal 32 (1080p) [iptv-org-fr]
 https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CinePlusClassic.fr@SD" group-title="Cinéma",Cine+ Classic
+http://99.27.51.147/CineClassic/index.m3u8
+#EXTINF:-1 tvg-id="CinePlusFrisson.fr@SD" group-title="Cinéma",Cine+ Frisson (1080p)
+http://99.27.51.147:8080/CineFrisson/index.m3u8
+
+# === Ajouts FR multi-sources : Nouveautés FR ===
+#EXTINF:-1 tvg-id="Syfy.fr@SD" group-title="Nouveautés FR",Syfy
+http://99.27.51.147:8080/SYFY/index.m3u8
