@@ -45,7 +45,7 @@ ARTE_CATEGORIES = [
     ("arts",                "Arts"),
     ("societe",             "Société"),
 ]
-ARTE_LOGO = ("https://static-cdn.arte.tv/static/artevp/13.0.31/img/og-arte-tv.png")
+ARTE_LOGO = ("https://i.imgur.com/ecXMjNl.png")
 
 # TF1+ : 5 chaînes du groupe. Logins compte TF1 requis pour résoudre les
 #   streams. Côté script on liste les programmes (= page replay scrapée via
