@@ -59,6 +59,16 @@ TF1_CHANNELS = [
 ]
 TF1_REPLAY_URL = "https://www.tf1.fr/{slug}/replay"
 
+# Live TF1 (5 chaînes directes). Résolution côté ONYX via `tf1live://<slug>`
+#   → mediainfo.tf1.fr/mediainfocombo/L_<CHAN_ID>. Login compte TF1 requis.
+TF1_LIVE_CHANNELS = [
+    ("tf1",              "TF1 Direct",              "https://i.imgur.com/qkOSt0o.png"),
+    ("tmc",              "TMC Direct",              "https://i.imgur.com/RY3iEMb.png"),
+    ("tfx",              "TFX Direct",              "https://i.imgur.com/JJVZJqL.png"),
+    ("tf1-series-films", "TF1 Séries Films Direct", "https://i.imgur.com/3OZdMb9.png"),
+    ("lci",              "LCI Direct",              "https://i.imgur.com/jVxzNHL.png"),
+]
+
 
 # ───── HTTP helper ─────
 
@@ -255,8 +265,21 @@ def generate_m3u(output_path):
             total += 1
         time.sleep(0.5)
 
-    # TF1+ (login compte TF1 requis pour la résolution côté app)
-    print("\n=== TF1+ ===")
+    # TF1 Live (chaînes directes, 1 entrée par chaîne)
+    print("\n=== TF1 Live ===")
+    for chan_slug, chan_label, chan_logo in TF1_LIVE_CHANNELS:
+        extinf = (
+            f'#EXTINF:-1 tvg-id="tf1live-{chan_slug}" '
+            f'tvg-logo="{chan_logo}" '
+            f'tvg-country="FR" '
+            f'group-title="Live TF1+",{chan_label}'
+        )
+        lines.append(extinf)
+        lines.append(f'tf1live://{chan_slug}')
+        total += 1
+
+    # TF1+ Replay (login compte TF1 requis pour la résolution côté app)
+    print("\n=== TF1+ Replay ===")
     for chan_slug, chan_label, chan_logo in TF1_CHANNELS:
         progs = tf1plus_channel_programs(chan_slug)
         print(f"  {chan_label}: {len(progs)} programmes")
