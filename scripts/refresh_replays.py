@@ -275,7 +275,10 @@ def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
             if path in seen:
                 continue
             seen.add(path)
+            # 2026-06-19 : capture @type JSON-LD (TVSeries/Movie/TVEpisode/etc.)
+            item_type = item.get("@type", "")
             out.append({
+                "tf1_type": item_type,
                 "si_id": path,
                 "title": name.strip()[:140],
                 "logo": image,
@@ -447,12 +450,15 @@ def generate_m3u(output_path):
         print(f"  {chan_label}: {len(progs)} programmes")
         for p in progs:
             ilogo = p.get("logo") or chan_logo
-            # 2026-06-19 : tvg-type heuristique pour TF1+. Chaîne tf1seriesfilms
-            #   ou path contenant "film" → movie. Sinon series (= valeur par défaut
-            #   car la majorité des replays TF1+ sont séries/émissions).
+            # 2026-06-19 v2 : classification JSON-LD @type d'abord, heuristique en fallback.
+            #   TVSeries/TVSeason → series ; Movie/CreativeWork/Episode → movie selon context.
             si_path = (p.get("si_id") or "").lower()
-            is_film = chan_slug == "tf1seriesfilms" or "film" in si_path or "/cinema/" in si_path
-            tvg_type = "movie" if is_film else "series"
+            tf1_type = (p.get("tf1_type") or "").lower()
+            tvg_type = (
+                "series" if tf1_type in ("tvseries", "tvseason") else
+                "movie" if tf1_type == "movie" else
+                ("movie" if (chan_slug == "tf1seriesfilms" or "film" in si_path or "/cinema/" in si_path) else "series")
+            )
             extinf = (
                 f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"]}" '
                 f'tvg-logo="{ilogo}" '
