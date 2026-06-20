@@ -2207,3 +2207,7 @@ http://99.27.51.147:8080/MTV/index.m3u8
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="RTL9.lu@SD" group-title="Divertissement",RTL9 (720p)
 http://rezofoot.tv/rtl-9/index.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="PressTVFrench.ir@SD" group-title="Info",Press TV French (1080p)
+https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
