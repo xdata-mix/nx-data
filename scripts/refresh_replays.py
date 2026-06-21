@@ -466,44 +466,52 @@ M6_CHANNELS = [
     ("tevareplay",            "Téva",            "https://i.imgur.com/HuLNVjC.png"),
     ("parispremierereplay",   "Paris Première",  "https://i.imgur.com/oCBzd0e.png"),
 ]
-MAX_ITEMS_PER_M6_CHAN = 999
+M6_PAGE_SIZE = 100  # API caps à 100 par requête, pagination obligatoire
 
-def m6_channel_programs(service_id, max_items=MAX_ITEMS_PER_M6_CHAN):
+def m6_channel_programs(service_id, max_items=2000):
     """Liste les programmes (= émissions/séries) disponibles pour une chaîne M6+
-    via /services/{svc}/programs?limit=N&offset=0&csa=6. Retourne une liste de
-    dicts {program_id, title, image}. Le code (slug) est utilisé comme title
-    fallback car le champ name est souvent vide."""
-    url = f"{M6_BASE}/{service_id}/programs?limit={max_items}&offset=0&csa=6"
-    try:
-        raw = http_get(url, headers={"Accept": "application/json"})
-    except Exception as e:
-        print(f"[!] M6 fetch error {service_id}: {e}", file=sys.stderr)
-        return []
-    try:
-        arr = json.loads(raw)
-    except Exception as e:
-        print(f"[!] M6 JSON parse error {service_id}: {e}", file=sys.stderr)
-        return []
+    via /services/{svc}/programs?limit=100&offset=N&csa=6 avec PAGINATION.
+    L'API M6 refuse limit>100 (retourne [] ou cap silencieux). On pagine
+    par tranches de 100 jusqu'à épuisement. Retourne une liste de dicts
+    {program_id, title, image, service, tvg_type}."""
     out = []
-    for p in arr:
-        pid = p.get("id")
-        if not pid:
-            continue
-        code = (p.get("code") or "").strip()
-        name = (p.get("name") or "").strip()
-        title = name if name else slug_to_title(code)
-        if not title:
-            continue
-        # image preview (img[0].external_key) si dispo
-        img = ""
-        imgs = p.get("images") or []
-        if imgs and isinstance(imgs, list):
-            img = imgs[0].get("external_key", "") if isinstance(imgs[0], dict) else ""
-        # 2026-06-19 : classification série vs film/unitaire via program_type_wording.code
-        ptype = (p.get("program_type_wording") or {}).get("code", "")
-        is_series = ptype in {"episode", "emission", "magazine", "journal", "dessin-anime"}
-        tvg_type = "series" if is_series else "movie"
-        out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id, "tvg_type": tvg_type})
+    offset = 0
+    while offset < max_items:
+        url = f"{M6_BASE}/{service_id}/programs?limit={M6_PAGE_SIZE}&offset={offset}&csa=6"
+        try:
+            raw = http_get(url, headers={"Accept": "application/json"})
+        except Exception as e:
+            print(f"[!] M6 fetch error {service_id} offset={offset}: {e}", file=sys.stderr)
+            break
+        try:
+            arr = json.loads(raw)
+        except Exception as e:
+            print(f"[!] M6 JSON parse error {service_id} offset={offset}: {e}", file=sys.stderr)
+            break
+        if not isinstance(arr, list) or len(arr) == 0:
+            break
+        for p in arr:
+            pid = p.get("id")
+            if not pid:
+                continue
+            code = (p.get("code") or "").strip()
+            name = (p.get("name") or "").strip()
+            title = name if name else slug_to_title(code)
+            if not title:
+                continue
+            # image preview (img[0].external_key) si dispo
+            img = ""
+            imgs = p.get("images") or []
+            if imgs and isinstance(imgs, list):
+                img = imgs[0].get("external_key", "") if isinstance(imgs[0], dict) else ""
+            # 2026-06-19 : classification série vs film/unitaire via program_type_wording.code
+            ptype = (p.get("program_type_wording") or {}).get("code", "")
+            is_series = ptype in {"episode", "emission", "magazine", "journal", "dessin-anime"}
+            tvg_type = "series" if is_series else "movie"
+            out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id, "tvg_type": tvg_type})
+        if len(arr) < M6_PAGE_SIZE:
+            break  # dernière page
+        offset += M6_PAGE_SIZE
     return out
 
 
