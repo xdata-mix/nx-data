@@ -544,9 +544,11 @@ def m6_channel_programs(service_id, max_items=2000):
 
 def bfm_channel_programs(channel_key, max_items=500):
     """Liste les programmes replay pour une chaîne BFM/RMC via l'API Gaia-core CDN.
-    Étape 1 : fetch le menu de la chaîne → cherche le spot "Tous les replays".
-    Étape 2 : pagine le contenu du spot (tiles avec productId/title/images).
-    Retourne une liste de dicts {product_id, title, image, tvg_type}."""
+    Récupère les programmes depuis :
+      1. Les tiles thématiques (railThematic → /tile/{id}/content par catégorie)
+      2. Les spots éditoriaux (displayContentList → /spot/{id}/content)
+    Chaque programme reçoit un champ 'category' utilisé comme sous-catégorie M3U.
+    Dédup par productId. Retourne [{product_id, title, image, tvg_type, category}]."""
 
     # Step 1 : menu structure
     menu_url = f"{BFM_CDN}/menu/RefMenuItem::rmcgo_home_{channel_key}/structure"
@@ -561,69 +563,138 @@ def bfm_channel_programs(channel_key, max_items=500):
         print(f"[!] BFM menu JSON error {channel_key}", file=sys.stderr)
         return []
 
-    # Step 2 : find "Tous les replays" spot
-    replay_spot_id = None
-    for spot in menu.get("spots", []):
-        title = (spot.get("title") or "").strip().lower()
-        if "replays" in title:
-            replay_spot_id = spot.get("id")
-            break
-    if not replay_spot_id:
-        print(f"[!] BFM no 'replays' spot for {channel_key}", file=sys.stderr)
-        return []
-
-    # Step 3 : paginate spot content
     out = []
     seen = set()
-    page = 0
-    while len(out) < max_items:
-        content_url = f"{BFM_CDN}/spot/{replay_spot_id}/content?page={page}&size={BFM_SPOT_PAGE_SIZE}"
-        try:
-            raw = http_get(content_url, headers={"Accept": "application/json"})
-        except Exception as e:
-            print(f"[!] BFM spot fetch error {channel_key} page={page}: {e}", file=sys.stderr)
-            break
-        try:
-            data = json.loads(raw)
-        except Exception:
-            break
-        tiles = data.get("tiles", [])
-        if not tiles:
-            break
-        for tile in tiles:
-            product_id_raw = tile.get("productId") or ""
-            # Strip "Product::" prefix → raw ID for bfmplay:// URL
-            product_id = product_id_raw.replace("Product::", "")
-            if not product_id or product_id in seen:
-                continue
-            seen.add(product_id)
-            title = (tile.get("title") or "").strip()
-            if not title:
-                continue
-            # Image : prefer 2/3 ratio without title overlay
-            image = ""
-            for img in (tile.get("images") or []):
-                fmt = img.get("format", "")
-                url = img.get("url", "")
-                wt = img.get("withTitle", False)
-                if fmt == "2/3" and not wt and url:
-                    image = url
-                    break
-                if not image and url and not wt:
-                    image = url
-            # Content type → tvg_type
-            ct = tile.get("contentType", "")
-            tvg_type = "series" if ct in ("Season", "Series") else "movie"
 
-            out.append({
-                "product_id": product_id,
-                "title": title[:140],
-                "image": image,
-                "tvg_type": tvg_type,
-            })
-        if len(tiles) < BFM_SPOT_PAGE_SIZE:
-            break
-        page += 1
+    def _extract_image_tile(tile_or_item):
+        """Extract best image URL from a tile or item."""
+        image = ""
+        for img in (tile_or_item.get("images") or []):
+            fmt = img.get("format", "")
+            url = img.get("url", "")
+            wt = img.get("withTitle", False)
+            if fmt in ("2/3", "16/9") and not wt and url:
+                return url
+            if not image and url and not wt:
+                image = url
+        return image
+
+    # Step 2 : thematic tiles (railThematic → /tile/{id}/content)
+    for spot in menu.get("spots", []):
+        spot_title_raw = (spot.get("title") or "").strip()
+        if spot.get("layout") == "railThematic" and "matique" in spot_title_raw.lower():
+            thematic_spot_id = spot.get("id")
+            if not thematic_spot_id:
+                continue
+            try:
+                traw = http_get(
+                    f"{BFM_CDN}/spot/{thematic_spot_id}/content?page=0&size=50",
+                    headers={"Accept": "application/json"})
+                tdata = json.loads(traw)
+            except Exception as e:
+                print(f"[!] BFM thematic spot fetch error {channel_key}: {e}",
+                      file=sys.stderr)
+                continue
+            for tile in tdata.get("tiles", []):
+                tile_title = (tile.get("title") or "").strip()
+                tile_id = tile.get("id")
+                if not tile_title or not tile_id:
+                    continue
+                # Paginate tile content
+                page = 0
+                tile_count = 0
+                while len(out) < max_items:
+                    try:
+                        iraw = http_get(
+                            f"{BFM_CDN}/tile/{tile_id}/content"
+                            f"?page={page}&size={BFM_SPOT_PAGE_SIZE}",
+                            headers={"Accept": "application/json"})
+                        idata = json.loads(iraw)
+                    except Exception:
+                        break
+                    items = idata.get("items", [])
+                    if not items:
+                        break
+                    for item in items:
+                        pid_raw = item.get("productId") or ""
+                        pid = pid_raw.replace("Product::", "")
+                        if not pid or pid in seen:
+                            continue
+                        seen.add(pid)
+                        title = (item.get("title") or "").strip()
+                        if not title:
+                            continue
+                        image = _extract_image_tile(item)
+                        ct = item.get("contentType", "")
+                        tvg_type = "series" if ct in (
+                            "Season", "Series", "Episode") else "movie"
+                        out.append({
+                            "product_id": pid,
+                            "title": title[:140],
+                            "image": image,
+                            "tvg_type": tvg_type,
+                            "category": tile_title,
+                        })
+                        tile_count += 1
+                    if len(items) < BFM_SPOT_PAGE_SIZE:
+                        break
+                    page += 1
+                    time.sleep(0.2)
+                if tile_count:
+                    print(f"    [{channel_key}] {tile_title}: {tile_count}",
+                          file=sys.stderr)
+
+    # Step 3 : editorial spots (displayContentList → /spot/{id}/content)
+    for spot in menu.get("spots", []):
+        action = spot.get("action") or {}
+        if action.get("actionType") != "displayContentList":
+            continue
+        spot_id = (action.get("actionIds") or {}).get("spotId")
+        spot_title = (spot.get("title") or "").strip()
+        if not spot_id or not spot_title:
+            continue
+        page = 0
+        spot_count = 0
+        while len(out) < max_items:
+            try:
+                sraw = http_get(
+                    f"{BFM_CDN}/spot/{spot_id}/content"
+                    f"?page={page}&size={BFM_SPOT_PAGE_SIZE}",
+                    headers={"Accept": "application/json"})
+                sdata = json.loads(sraw)
+            except Exception:
+                break
+            tiles = sdata.get("tiles", [])
+            if not tiles:
+                break
+            for tile in tiles:
+                pid_raw = tile.get("productId") or ""
+                pid = pid_raw.replace("Product::", "")
+                if not pid or pid in seen:
+                    continue
+                seen.add(pid)
+                title = (tile.get("title") or "").strip()
+                if not title:
+                    continue
+                image = _extract_image_tile(tile)
+                ct = tile.get("contentType", "")
+                tvg_type = "series" if ct in ("Season", "Series") else "movie"
+                out.append({
+                    "product_id": pid,
+                    "title": title[:140],
+                    "image": image,
+                    "tvg_type": tvg_type,
+                    "category": spot_title,
+                })
+                spot_count += 1
+            if len(tiles) < BFM_SPOT_PAGE_SIZE:
+                break
+            page += 1
+            time.sleep(0.2)
+        if spot_count:
+            print(f"    [{channel_key}] {spot_title}: {spot_count}",
+                  file=sys.stderr)
+
     return out[:max_items]
 
 
@@ -853,12 +924,14 @@ def generate_m3u(output_path):
         print(f"  {chan_label}: {len(progs)} programmes")
         for p in progs:
             ilogo = p.get("image") or chan_logo
+            category = p.get("category", "")
+            group = f"Replay {chan_label} - {category}" if category else f"Replay {chan_label}"
             extinf = (
                 f'#EXTINF:-1 tvg-id="bfmplay-{p["product_id"]}" '
                 f'tvg-logo="{ilogo}" '
                 f'tvg-country="FR" '
                 f'tvg-type="{p.get("tvg_type", "series")}" '
-                f'group-title="Replay {chan_label}",{p["title"]}'
+                f'group-title="{group}",{p["title"]}'
             )
             lines.append(extinf)
             lines.append(f'bfmplay://{p["product_id"]}')
