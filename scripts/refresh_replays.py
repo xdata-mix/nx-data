@@ -28,11 +28,15 @@ MAX_ITEMS_PER_ARTE_CAT = 500  # Arte page catégorie typiquement 40-60
 # ───── Catalogues ─────
 
 FRANCETV_CHANNELS = [
-    ("france-2",   "France 2",   "https://i.imgur.com/sJZBuY4.png"),
-    ("france-3",   "France 3",   "https://i.imgur.com/PWbIICf.png"),
-    ("france-4",   "France 4",   "https://i.imgur.com/wEsxQLP.png"),
-    ("france-5",   "France 5",   "https://i.imgur.com/X4Y5jKR.png"),
-    ("franceinfo", "Franceinfo", "https://i.imgur.com/eITXz6A.png"),
+    ("france-2",   "France 2",        "https://i.imgur.com/sJZBuY4.png"),
+    ("france-3",   "France 3",        "https://i.imgur.com/PWbIICf.png"),
+    ("france-4",   "France 4",        "https://i.imgur.com/wEsxQLP.png"),
+    ("france-5",   "France 5",        "https://i.imgur.com/X4Y5jKR.png"),
+    ("franceinfo", "Franceinfo",      "https://i.imgur.com/eITXz6A.png"),
+    ("slash",      "Slash",           "https://i.imgur.com/sJZBuY4.png"),
+    ("sport",      "FranceTV Sport",  "https://i.imgur.com/sJZBuY4.png"),
+    ("france-24",  "France 24",       "https://i.imgur.com/yAiTedt.png"),
+    ("france-o",   "France Ô",        "https://i.imgur.com/sJZBuY4.png"),
 ]
 
 ARTE_CATEGORIES = [
