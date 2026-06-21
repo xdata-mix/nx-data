@@ -133,15 +133,64 @@ TF1_LIVE_FAST = [
 
 
 # ───── VPN / Proxy (Cloudflare WARP) ─────
-# Sur GitHub Actions, WARP est installé en mode proxy SOCKS5 (port 40000).
-# Le script détecte la variable WARP_PROXY et l'utilise pour les requêtes
-# tf1.fr qui bloquent les IPs datacenter (403). En local (ta machine),
-# pas de proxy = accès direct résidentiel, ça marche tel quel.
-WARP_PROXY = os.environ.get("WARP_PROXY", "")  # ex: "socks5h://127.0.0.1:40000"
+# tf1.fr bloque les IPs datacenter (GitHub Actions → 403). Sur CI, le script
+# installe Cloudflare WARP (VPN gratuit) et l'utilise comme proxy SOCKS5.
+# En local (IP résidentielle), pas de VPN = accès direct, ça marche tel quel.
+import subprocess, shutil
+
+WARP_PROXY = ""  # set dynamiquement par setup_warp() si besoin
+
+def setup_warp():
+    """Installe + démarre Cloudflare WARP en mode proxy SOCKS5 (port 40000).
+    Appelé uniquement quand tf1.fr retourne 403 (= IP datacenter détectée)."""
+    global WARP_PROXY
+    if WARP_PROXY:
+        return True  # déjà setup
+    if shutil.which("warp-cli"):
+        # WARP déjà installé (ex: pré-installé dans le workflow)
+        pass
+    elif os.path.exists("/etc/os-release"):
+        # Linux (GitHub Actions = ubuntu-latest)
+        print("[VPN] Installation de Cloudflare WARP...", file=sys.stderr)
+        cmds = [
+            "curl -fsSL https://pkg.cloudflarewarp.com/pubkey.gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg",
+            'echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflarewarp.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list',
+            "sudo apt-get update -qq && sudo apt-get install -y -qq cloudflare-warp",
+        ]
+        for c in cmds:
+            r = subprocess.run(c, shell=True, capture_output=True)
+            if r.returncode != 0:
+                print(f"[VPN] Install échouée: {r.stderr.decode()[:200]}", file=sys.stderr)
+                return False
+    else:
+        print("[VPN] OS non supporté pour WARP auto-install", file=sys.stderr)
+        return False
+    # Enregistrer + mode proxy + connecter
+    for cmd in [
+        ["warp-cli", "--accept-tos", "registration", "new"],
+        ["warp-cli", "--accept-tos", "mode", "proxy"],
+        ["warp-cli", "--accept-tos", "connect"],
+    ]:
+        r = subprocess.run(cmd, capture_output=True)
+        if r.returncode != 0:
+            # registration new peut échouer si déjà enregistré, on continue
+            pass
+    import time; time.sleep(5)
+    # Vérifier que le proxy SOCKS5 est actif
+    test = subprocess.run(
+        ["curl", "-s", "-x", "socks5h://127.0.0.1:40000",
+         "--max-time", "10", "https://ipinfo.io/ip"],
+        capture_output=True)
+    if test.returncode == 0 and test.stdout.strip():
+        WARP_PROXY = "socks5h://127.0.0.1:40000"
+        print(f"[VPN] WARP OK — IP proxy: {test.stdout.decode().strip()}", file=sys.stderr)
+        return True
+    print("[VPN] WARP proxy non fonctionnel", file=sys.stderr)
+    return False
+
 
 def http_get_via_proxy(url, headers=None):
     """Fetch URL via curl + SOCKS5 proxy (Cloudflare WARP)."""
-    import subprocess
     cmd = ["curl", "-sL", "-x", WARP_PROXY,
            "-A", UA, "--max-time", str(TIMEOUT)]
     if headers:
@@ -152,7 +201,6 @@ def http_get_via_proxy(url, headers=None):
     if result.returncode != 0:
         raise Exception(f"curl proxy error (rc={result.returncode}): {result.stderr.decode()}")
     raw = result.stdout
-    # curl -sL suit les redirects et décompresse gzip automatiquement
     return raw.decode("utf-8", errors="replace")
 
 
@@ -172,13 +220,15 @@ def http_get(url, headers=None):
 
 
 def http_get_tf1(url, headers=None):
-    """Accès tf1.fr : direct d'abord, VPN si 403."""
+    """Accès tf1.fr : direct d'abord, VPN auto si 403."""
     try:
         return http_get(url, headers=headers)
     except Exception as e:
-        if ("403" in str(e) or "Forbidden" in str(e)) and WARP_PROXY:
-            print(f"  [VPN] 403 direct → retry via WARP...", file=sys.stderr)
-            return http_get_via_proxy(url, headers=headers)
+        if "403" in str(e) or "Forbidden" in str(e):
+            # IP datacenter bloquée → installer WARP et retenter
+            if setup_warp() and WARP_PROXY:
+                print(f"  [VPN] 403 direct → retry via WARP...", file=sys.stderr)
+                return http_get_via_proxy(url, headers=headers)
         raise
 
 
@@ -668,6 +718,10 @@ def generate_m3u(output_path):
 if __name__ == "__main__":
     out = os.environ.get("OUTPUT", "data-replay.m3u")
     n = generate_m3u(out)
+    # Cleanup WARP si on l'a démarré
+    if WARP_PROXY:
+        subprocess.run(["warp-cli", "disconnect"], capture_output=True)
+        print("[VPN] WARP déconnecté", file=sys.stderr)
     if n == 0:
         print("[!] No replays found, exiting with error", file=sys.stderr)
         sys.exit(1)
