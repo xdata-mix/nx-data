@@ -132,6 +132,30 @@ TF1_LIVE_FAST = [
 ]
 
 
+# ───── VPN / Proxy (Cloudflare WARP) ─────
+# Sur GitHub Actions, WARP est installé en mode proxy SOCKS5 (port 40000).
+# Le script détecte la variable WARP_PROXY et l'utilise pour les requêtes
+# tf1.fr qui bloquent les IPs datacenter (403). En local (ta machine),
+# pas de proxy = accès direct résidentiel, ça marche tel quel.
+WARP_PROXY = os.environ.get("WARP_PROXY", "")  # ex: "socks5h://127.0.0.1:40000"
+
+def http_get_via_proxy(url, headers=None):
+    """Fetch URL via curl + SOCKS5 proxy (Cloudflare WARP)."""
+    import subprocess
+    cmd = ["curl", "-sL", "-x", WARP_PROXY,
+           "-A", UA, "--max-time", str(TIMEOUT)]
+    if headers:
+        for k, v in headers.items():
+            cmd += ["-H", f"{k}: {v}"]
+    cmd.append(url)
+    result = subprocess.run(cmd, capture_output=True)
+    if result.returncode != 0:
+        raise Exception(f"curl proxy error (rc={result.returncode}): {result.stderr.decode()}")
+    raw = result.stdout
+    # curl -sL suit les redirects et décompresse gzip automatiquement
+    return raw.decode("utf-8", errors="replace")
+
+
 # ───── HTTP helper ─────
 
 def http_get(url, headers=None):
@@ -145,6 +169,17 @@ def http_get(url, headers=None):
         if r.headers.get("Content-Encoding") == "gzip":
             raw = gzip.decompress(raw)
         return raw.decode("utf-8", errors="replace")
+
+
+def http_get_tf1(url, headers=None):
+    """Accès tf1.fr : direct d'abord, VPN si 403."""
+    try:
+        return http_get(url, headers=headers)
+    except Exception as e:
+        if ("403" in str(e) or "Forbidden" in str(e)) and WARP_PROXY:
+            print(f"  [VPN] 403 direct → retry via WARP...", file=sys.stderr)
+            return http_get_via_proxy(url, headers=headers)
+        raise
 
 
 # ───── France.tv ─────
@@ -286,7 +321,7 @@ def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
     """Scrape la page replay TF1+. Extrait les programmes via JSON-LD."""
     url = TF1_REPLAY_URL.format(slug=channel_slug)
     try:
-        raw = http_get(url, headers={"Accept": "text/html"})
+        raw = http_get_tf1(url, headers={"Accept": "text/html"})
     except Exception as e:
         print(f"[!] TF1+ fetch error {channel_slug}: {e}", file=sys.stderr)
         return []
@@ -341,7 +376,7 @@ def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
     on prendra ceux qu'on trouvera via fetch ultérieur ou on laissera vide."""
     url = f"https://www.tf1.fr/programmes-tv/{category_slug}"
     try:
-        raw = http_get(url, headers={"Accept": "text/html"})
+        raw = http_get_tf1(url, headers={"Accept": "text/html"})
     except Exception as e:
         print(f"[!] TF1 cat fetch error {category_slug}: {e}", file=sys.stderr)
         return []
