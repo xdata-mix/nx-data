@@ -443,6 +443,15 @@ def generate_m3u(output_path):
         lines.append(f'tf1live://{chan_slug}')
         total += 1
 
+    # Pré-scan /programmes-tv/telefilms pour savoir quels si_id sont des
+    # téléfilms (= unitaires TV, ni films ni séries). On construit un set
+    # AVANT la boucle per-channel pour tagger correctement dès le 1er pass.
+    print("\n=== TF1+ pré-scan /telefilms ===")
+    tf1_telefilm_ids = set()
+    for p in tf1_category_programs("telefilms"):
+        tf1_telefilm_ids.add(p["si_id"])
+    print(f"  {len(tf1_telefilm_ids)} téléfilms identifiés")
+
     # TF1+ Replay (login compte TF1 requis pour la résolution côté app)
     print("\n=== TF1+ Replay ===")
     for chan_slug, chan_label, chan_logo in TF1_CHANNELS:
@@ -455,6 +464,7 @@ def generate_m3u(output_path):
             si_path = (p.get("si_id") or "").lower()
             tf1_type = (p.get("tf1_type") or "").lower()
             tvg_type = (
+                "telefilm" if p.get("si_id", "") in tf1_telefilm_ids else
                 "series" if tf1_type in ("tvseries", "tvseason") else
                 "movie" if tf1_type == "movie" else
                 ("movie" if (chan_slug == "tf1seriesfilms" or "film" in si_path or "/cinema/" in si_path) else "series")
@@ -495,8 +505,11 @@ def generate_m3u(output_path):
                 continue
             chan_label, chan_logo = meta
             si_path = (p.get("si_id") or "").lower()
-            is_film = "film" in si_path or "/cinema/" in si_path
-            tvg_type = "movie" if is_film else "series"
+            if cat_slug == "telefilms":
+                tvg_type = "telefilm"
+            else:
+                is_film = "film" in si_path or "/cinema/" in si_path
+                tvg_type = "movie" if is_film else "series"
             extinf = (
                 f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}" '
                 f'tvg-logo="{chan_logo}" '
