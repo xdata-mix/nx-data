@@ -36,14 +36,15 @@ FRANCETV_CHANNELS = [
 ]
 
 ARTE_CATEGORIES = [
-    ("cinema",              "Cinéma"),
-    ("series-et-fictions",  "Séries et fictions"),
-    ("documentaires",       "Documentaires"),
-    ("sciences",            "Sciences"),
-    ("culture-et-pop",      "Culture et pop"),
-    ("histoire",            "Histoire"),
-    ("arts",                "Arts"),
-    ("societe",             "Société"),
+    ("cinema",                       "Cinéma"),
+    ("series-et-fictions",           "Séries et fictions"),
+    ("documentaires-et-reportages",  "Documentaires"),
+    ("sciences",                     "Sciences"),
+    ("culture-et-pop",               "Culture et pop"),
+    ("histoire",                     "Histoire"),
+    ("arts",                         "Arts"),
+    ("info-et-societe",              "Info et société"),
+    ("voyages-et-decouvertes",       "Voyages et découvertes"),
 ]
 ARTE_LOGO = ("https://i.imgur.com/ecXMjNl.png")
 
