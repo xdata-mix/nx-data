@@ -6,15 +6,21 @@ Plateformes supportées :
   - France.tv (France 2/3/4/5/Info)   → URLs francetv://<si_id>
   - Arte+7 (Cinéma/Séries/Docus/…)    → URLs arte://<programId>
   - TF1+ (TF1/TMC/TFX/TF1SF/LCI)      → URLs tf1plus://<chan>/<program-slug>
+  - M6+ (M6/W9/6ter/Gulli/Téva/PP)    → URLs m6play://<service>/<programId>
+  - BFM/RMC Play (BFMTV/RMC Story/…)  → URLs bfmplay://<productId> + bfmlive://<chan>
 
 Les URLs spéciales sont résolues à la lecture par l'app ONYX :
   - FrancetvResolver (k7.ftven.fr + hdfauth.ftven.fr)
   - ArteResolver (api.arte.tv/api/player/v2/config)
   - TF1Resolver (mediainfo.tf1.fr/mediainfocombo) — login compte TF1 requis
+  - M6Resolver (drm.6cloud.fr upfront-token) — login Gigya OAuth requis
+  - BfmResolver (ws-backendtv.rmcbfmplay.com replay/play) — login OIDC requis
 
 ⚠️ Auth/JWT signés sur IP cliente FR : résolution OBLIGATOIRE côté app FR.
 ⚠️ TF1+ : le token de session est obtenu via WebView de login dans ONYX
    (= LoginWebViewActivity → cookies Gigya capturés → TF1Auth.saveToken).
+⚠️ BFM : le token SSO est obtenu via WebView OIDC (sso.rmcbfmplay.com)
+   → fragment #access_token=BFM_xxx capturé dans LoginWebViewActivity.
 """
 import os, sys, json, time, re, urllib.request, gzip
 from pathlib import Path
@@ -473,6 +479,22 @@ M6_CHANNELS = [
 ]
 M6_PAGE_SIZE = 100  # API caps à 100 par requête, pagination obligatoire
 
+# ───── BFM / RMC Play (2026-06-21) ─────
+# API CDN publique Gaia-core. Chaque chaîne a une page menu avec un spot
+#   "Tous les replays" paginé (tiles = programmes avec productId).
+# Login BFM requis pour PLAYBACK (Widevine DRM). Catalogue = public.
+BFM_CDN = "https://ws-cdn.tv.sfr.net/gaia-core/rest/api/web/v1"
+BFM_LOGO_BASE = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france"
+# (channel_key, chan_label, logo_url)
+BFM_CHANNELS = [
+    ("bfmtv",         "BFM TV",          f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
+    ("rmcstory",      "RMC Story",       f"{BFM_LOGO_BASE}/rmc-story-fr.png"),
+    ("rmcdecouverte", "RMC Découverte",  f"{BFM_LOGO_BASE}/rmc-decouverte-fr.png"),
+    ("bfmbusiness",   "BFM Business",    f"{BFM_LOGO_BASE}/bfm-business-fr.png"),
+    ("rmclife",       "RMC Life",        f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),  # pas de logo dédié
+]
+BFM_SPOT_PAGE_SIZE = 50
+
 def m6_channel_programs(service_id, max_items=2000):
     """Liste les programmes (= émissions/séries) disponibles pour une chaîne M6+
     via /services/{svc}/programs?limit=100&offset=N&csa=6 avec PAGINATION.
@@ -518,6 +540,91 @@ def m6_channel_programs(service_id, max_items=2000):
             break  # dernière page
         offset += M6_PAGE_SIZE
     return out
+
+
+def bfm_channel_programs(channel_key, max_items=500):
+    """Liste les programmes replay pour une chaîne BFM/RMC via l'API Gaia-core CDN.
+    Étape 1 : fetch le menu de la chaîne → cherche le spot "Tous les replays".
+    Étape 2 : pagine le contenu du spot (tiles avec productId/title/images).
+    Retourne une liste de dicts {product_id, title, image, tvg_type}."""
+
+    # Step 1 : menu structure
+    menu_url = f"{BFM_CDN}/menu/RefMenuItem::rmcgo_home_{channel_key}/structure"
+    try:
+        raw = http_get(menu_url, headers={"Accept": "application/json"})
+    except Exception as e:
+        print(f"[!] BFM menu fetch error {channel_key}: {e}", file=sys.stderr)
+        return []
+    try:
+        menu = json.loads(raw)
+    except Exception:
+        print(f"[!] BFM menu JSON error {channel_key}", file=sys.stderr)
+        return []
+
+    # Step 2 : find "Tous les replays" spot
+    replay_spot_id = None
+    for spot in menu.get("spots", []):
+        title = (spot.get("title") or "").strip().lower()
+        if "replays" in title:
+            replay_spot_id = spot.get("id")
+            break
+    if not replay_spot_id:
+        print(f"[!] BFM no 'replays' spot for {channel_key}", file=sys.stderr)
+        return []
+
+    # Step 3 : paginate spot content
+    out = []
+    seen = set()
+    page = 0
+    while len(out) < max_items:
+        content_url = f"{BFM_CDN}/spot/{replay_spot_id}/content?page={page}&size={BFM_SPOT_PAGE_SIZE}"
+        try:
+            raw = http_get(content_url, headers={"Accept": "application/json"})
+        except Exception as e:
+            print(f"[!] BFM spot fetch error {channel_key} page={page}: {e}", file=sys.stderr)
+            break
+        try:
+            data = json.loads(raw)
+        except Exception:
+            break
+        tiles = data.get("tiles", [])
+        if not tiles:
+            break
+        for tile in tiles:
+            product_id_raw = tile.get("productId") or ""
+            # Strip "Product::" prefix → raw ID for bfmplay:// URL
+            product_id = product_id_raw.replace("Product::", "")
+            if not product_id or product_id in seen:
+                continue
+            seen.add(product_id)
+            title = (tile.get("title") or "").strip()
+            if not title:
+                continue
+            # Image : prefer 2/3 ratio without title overlay
+            image = ""
+            for img in (tile.get("images") or []):
+                fmt = img.get("format", "")
+                url = img.get("url", "")
+                wt = img.get("withTitle", False)
+                if fmt == "2/3" and not wt and url:
+                    image = url
+                    break
+                if not image and url and not wt:
+                    image = url
+            # Content type → tvg_type
+            ct = tile.get("contentType", "")
+            tvg_type = "series" if ct in ("Season", "Series") else "movie"
+
+            out.append({
+                "product_id": product_id,
+                "title": title[:140],
+                "image": image,
+                "tvg_type": tvg_type,
+            })
+        if len(tiles) < BFM_SPOT_PAGE_SIZE:
+            break
+        page += 1
+    return out[:max_items]
 
 
 # ───── Generation ─────
@@ -695,7 +802,6 @@ def generate_m3u(output_path):
         print(f"  {cat_label}: +{added} nouveaux")
         time.sleep(0.3)
 
-    lines.append("")
     # M6+ Replay (2026-06-19) — login compte M6 requis pour PLAYBACK (Widevine
     #   DRM). Le catalogue est public. Une catégorie M3U par chaîne (= 6 cards
     #   "🔓 Connexion 6play" côté LiveTvHubProvider quand non loggé).
@@ -720,6 +826,42 @@ def generate_m3u(output_path):
             #   sache quel endpoint /services/{service}/... appeler côté Kotlin
             #   sans devoir essayer les 6 services à chaque clic.
             lines.append(f'm6play://{service_id}/{p["program_id"]}')
+            total += 1
+        time.sleep(0.4)
+
+    # BFM / RMC Play Live (2026-06-21)
+    print("\n=== BFM / RMC Play Live ===")
+    for chan_key, chan_label, chan_logo in BFM_CHANNELS:
+        extinf = (
+            f'#EXTINF:-1 tvg-id="bfmlive-{chan_key}" '
+            f'tvg-logo="{chan_logo}" '
+            f'tvg-country="FR" '
+            f'group-title="Live BFM Play",{chan_label} Direct'
+        )
+        lines.append(extinf)
+        lines.append(f'bfmlive://{chan_key}')
+        total += 1
+    print(f"  {len(BFM_CHANNELS)} chaînes live")
+
+    # BFM / RMC Play Replay (2026-06-21) — login compte BFM requis pour PLAYBACK
+    #   (Widevine DRM). Le catalogue est public. Une catégorie M3U par chaîne
+    #   (= cards "🔓 Connexion RMC BFM Play" côté LiveTvHubProvider quand non
+    #   loggé, comme pour M6+ et TF1+).
+    print("\n=== BFM / RMC Play Replay ===")
+    for chan_key, chan_label, chan_logo in BFM_CHANNELS:
+        progs = bfm_channel_programs(chan_key)
+        print(f"  {chan_label}: {len(progs)} programmes")
+        for p in progs:
+            ilogo = p.get("image") or chan_logo
+            extinf = (
+                f'#EXTINF:-1 tvg-id="bfmplay-{p["product_id"]}" '
+                f'tvg-logo="{ilogo}" '
+                f'tvg-country="FR" '
+                f'tvg-type="{p.get("tvg_type", "series")}" '
+                f'group-title="Replay {chan_label}",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'bfmplay://{p["product_id"]}')
             total += 1
         time.sleep(0.4)
 
