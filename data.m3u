@@ -1392,7 +1392,7 @@ https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
 https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr" group-title="France TV backup",Africa 24 (540p) [kilirushi]
-https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24English.fr" group-title="France TV backup",Africa 24 English (1080p) [kilirushi]
 https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24Sport.fr" group-title="France TV backup",Africa 24 Sport (1080p) [kilirushi]
@@ -1436,7 +1436,7 @@ https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
