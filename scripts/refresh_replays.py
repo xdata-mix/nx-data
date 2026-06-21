@@ -75,14 +75,60 @@ TF1_CATEGORIES = [
 
 TF1_REPLAY_URL = "https://www.tf1.fr/{slug}/replay"
 
-# Live TF1 (5 chaînes directes). Résolution côté ONYX via `tf1live://<slug>`
+# Live TF1 (36 chaînes directes TF1+). Résolution côté ONYX via `tf1live://<slug>`
 #   → mediainfo.tf1.fr/mediainfocombo/L_<CHAN_ID>. Login compte TF1 requis.
+#   Toutes les chaînes sont BASIC = gratuites (pas de Premium requis).
+
+# Traditionnelles (slug → LIVE_CHANNEL_IDS map dans TF1Resolver.kt)
 TF1_LIVE_CHANNELS = [
     ("tf1",              "TF1 Direct",              "https://i.imgur.com/qkOSt0o.png"),
     ("tmc",              "TMC Direct",              "https://i.imgur.com/RY3iEMb.png"),
     ("tfx",              "TFX Direct",              "https://i.imgur.com/JJVZJqL.png"),
     ("tf1-series-films", "TF1 Séries Films Direct", "https://i.imgur.com/3OZdMb9.png"),
     ("lci",              "LCI Direct",              "https://i.imgur.com/jVxzNHL.png"),
+]
+
+# Chaînes externes gratuites sur TF1+ Direct (slug → map)
+TF1_LIVE_EXTERNAL = [
+    ("arte",             "ARTE",               "https://i.imgur.com/qkOSt0o.png"),
+    ("l-equipe",         "L'Equipe",            "https://i.imgur.com/qkOSt0o.png"),
+    ("lcp-public-senat", "LCP / Public Sénat",  "https://i.imgur.com/qkOSt0o.png"),
+    ("le-figaro",        "Le Figaro TV",        "https://i.imgur.com/qkOSt0o.png"),
+    ("novo19",           "Paris Première",      "https://i.imgur.com/qkOSt0o.png"),
+    ("redbulltv",        "Red Bull TV",         "https://i.imgur.com/qkOSt0o.png"),
+]
+
+# Chaînes FAST TF1+ (replay 24/7). ID direct L_FAST_* passthrough dans TF1Resolver
+# Format: (channel_id, display_name, group_suffix)
+TF1_LIVE_FAST = [
+    # Fictions
+    ("L_FAST_v2l-ad-demain-nous-appartient-38296145", "Demain nous appartient 24/7",  "Fictions FAST"),
+    ("L_FAST_v2l-ad-ici-tout-commence-53671915",      "Ici tout commence 24/7",       "Fictions FAST"),
+    ("L_FAST_v2l-ad-plus-belle-la-vie-86242005",      "Plus belle la vie 24/7",       "Fictions FAST"),
+    ("L_FAST_v2l-ad-comedie-fiction-25247701",         "Comédie & Fiction 24/7",       "Fictions FAST"),
+    ("L_FAST_v2l-ad-pas-de-ca-entre-nous-33100936",   "Pas de ça entre nous 24/7",    "Fictions FAST"),
+    ("L_FAST_v2l-ad-chante-69061019",                  "Chanté ! 24/7",                "Fictions FAST"),
+    ("L_FAST_v2l-ad-sous-le-soleil-18693784",          "Sous le soleil 24/7",          "Fictions FAST"),
+    ("L_FAST_v2l-ad-foudre-27131861",                  "Foudre 24/7",                  "Fictions FAST"),
+    ("L_FAST_v2l-ad-camping-paradis-42908515",         "Camping Paradis 24/7",         "Fictions FAST"),
+    ("L_FAST_v2l-ad-josephine-ange-gardien-04343471",  "Joséphine ange gardien 24/7",  "Fictions FAST"),
+    ("L_FAST_v2l-ad-les-mysteres-de-lamour-99639599",  "Les Mystères de l'amour 24/7", "Fictions FAST"),
+    ("L_FAST_v2l-ad-les-bracelets-rouges-18062915",    "Les Bracelets rouges 24/7",    "Fictions FAST"),
+    ("L_FAST_v2l-ad-je-te-promets-34143660",           "Je te promets 24/7",           "Fictions FAST"),
+    ("L_FAST_v2l-ad-alice-nevers-78424271",             "Alice Nevers 24/7",             "Fictions FAST"),
+    ("L_FAST_v2l-ad-le-destin-de-lisa-90714215",        "Le Destin de Lisa 24/7",        "Fictions FAST"),
+    # Divertissement
+    ("L_FAST_v2l-ad-mamans-and-celebres-08240458",     "Mamans & Célèbres 24/7",       "Divertissement FAST"),
+    ("L_FAST_v2l-ad-star-academy-70671668",             "Star Academy 24/7",             "Divertissement FAST"),
+    ("L_FAST_v2l-ad-danse-avec-les-stars-00457635",     "Danse avec les stars 24/7",     "Divertissement FAST"),
+    ("L_FAST_v2l-ad-lolywood-16739451",                 "Lolywood 24/7",                 "Divertissement FAST"),
+    ("L_FAST_v2l-ad-revivez-lintegral-mask-singer-91828794", "Mask Singer 24/7",         "Divertissement FAST"),
+    ("L_FAST_v2l-ad-super-nanny-14977255",              "Super Nanny 24/7",              "Divertissement FAST"),
+    ("L_FAST_v2l-ad-baby-boom-88288927",                "Baby Boom 24/7",                "Divertissement FAST"),
+    ("L_FAST_v2l-ad-les-enfoires-35654015",             "Les Enfoirés 24/7",             "Divertissement FAST"),
+    ("L_FAST_v2l-ad-les-restos-du-coeur-59894021",     "Les Restos du cœur 24/7",      "Divertissement FAST"),
+    # Jeunesse
+    ("L_FAST_v2l-ad-mighty-express-44092248",            "Mighty Express 24/7",           "Jeunesse FAST"),
 ]
 
 
@@ -441,6 +487,33 @@ def generate_m3u(output_path):
         )
         lines.append(extinf)
         lines.append(f'tf1live://{chan_slug}')
+        total += 1
+
+    # TF1+ Live — chaînes externes (ARTE, L'Equipe, etc.)
+    print("\n=== TF1+ Live Chaînes externes ===")
+    for chan_slug, chan_label, chan_logo in TF1_LIVE_EXTERNAL:
+        extinf = (
+            f'#EXTINF:-1 tvg-id="tf1live-{chan_slug}" '
+            f'tvg-logo="{chan_logo}" '
+            f'tvg-country="FR" '
+            f'group-title="Live TF1+ Chaînes",{chan_label}'
+        )
+        lines.append(extinf)
+        lines.append(f'tf1live://{chan_slug}')
+        total += 1
+
+    # TF1+ Live — chaînes FAST (replay 24/7)
+    print("\n=== TF1+ Live FAST ===")
+    for chan_id, chan_label, group_suffix in TF1_LIVE_FAST:
+        extinf = (
+            f'#EXTINF:-1 tvg-id="tf1live-fast-{chan_id}" '
+            f'tvg-logo="https://i.imgur.com/qkOSt0o.png" '
+            f'tvg-country="FR" '
+            f'group-title="Live TF1+ {group_suffix}",{chan_label}'
+        )
+        lines.append(extinf)
+        # ID direct L_FAST_* : passthrough dans TF1Resolver
+        lines.append(f'tf1live://{chan_id}')
         total += 1
 
     # Pré-scan /programmes-tv/telefilms pour savoir quels si_id sont des
