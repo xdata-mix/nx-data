@@ -2267,3 +2267,7 @@ https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+
+# === Ajouts FR multi-sources : Documentaire ===
+#EXTINF:-1 group-title="Documentaire",Pluto TV Aventure
+https://jmp2.uk/plu-611e7811eb9daf000764cbfd.m3u8
