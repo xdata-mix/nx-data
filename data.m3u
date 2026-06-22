@@ -2287,3 +2287,27 @@ https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" group-title="France TV backup",Haiti News Channel (1080p) [iptv-org-fra]
+https://cdn.haititivi.com/website/haitinews/index.m3u8
+
+# === Ajouts FR multi-sources : Divertissement ===
+#EXTINF:-1 tvg-id="LaUne.be@SD" group-title="Divertissement",La Une (720p)
+http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="EvasionTV.gn@SD" group-title="Généralistes",Evasion TV
+https://kali.vdopanel.com:3090/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="LaTrois.be@SD" group-title="Généralistes",La Trois (720p)
+http://193.111.198.85:8589/stream/mstv/rtbflatroislive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="7Info.ci@SD" group-title="Info",7 Info
+https://video1.getstreamhosting.com:1936/8042/8042/playlist.m3u8
+#EXTINF:-1 tvg-id="AfrikInfoTV.gn@SD" group-title="Info",Afrik Info TV
+https://kali.vdopanel.com:3119/hybrid/play.m3u8
+
+# === Ajouts FR multi-sources : Nouveautés FR ===
+#EXTINF:-1 tvg-id="Tipik.be@SD" group-title="Nouveautés FR",Tipik (720p)
+http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d
