@@ -918,24 +918,33 @@ def generate_m3u(output_path):
     #   (Widevine DRM). Le catalogue est public. Une catégorie M3U par chaîne
     #   (= cards "🔓 Connexion RMC BFM Play" côté LiveTvHubProvider quand non
     #   loggé, comme pour M6+ et TF1+).
+    #   Dedup GLOBAL cross-channel : un même productId ne doit apparaître qu'1×
+    #   dans le M3U (première chaîne qui le contient gagne).
     print("\n=== BFM / RMC Play Replay ===")
+    bfm_global_seen = set()
     for chan_key, chan_label, chan_logo in BFM_CHANNELS:
         progs = bfm_channel_programs(chan_key)
-        print(f"  {chan_label}: {len(progs)} programmes")
+        added = 0
         for p in progs:
+            pid = p["product_id"]
+            if pid in bfm_global_seen:
+                continue
+            bfm_global_seen.add(pid)
             ilogo = p.get("image") or chan_logo
             category = p.get("category", "")
             group = f"Replay {chan_label} - {category}" if category else f"Replay {chan_label}"
             extinf = (
-                f'#EXTINF:-1 tvg-id="bfmplay-{p["product_id"]}" '
+                f'#EXTINF:-1 tvg-id="bfmplay-{pid}" '
                 f'tvg-logo="{ilogo}" '
                 f'tvg-country="FR" '
                 f'tvg-type="{p.get("tvg_type", "series")}" '
                 f'group-title="{group}",{p["title"]}'
             )
             lines.append(extinf)
-            lines.append(f'bfmplay://{p["product_id"]}')
+            lines.append(f'bfmplay://{pid}')
             total += 1
+            added += 1
+        print(f"  {chan_label}: {len(progs)} programmes, {added} uniques ajoutés")
         time.sleep(0.4)
 
     Path(output_path).write_text("\n".join(lines), encoding="utf-8")
