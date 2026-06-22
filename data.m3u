@@ -2315,3 +2315,7 @@ http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?u=Oleg&p=967e
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24English.fr@SD" group-title="France TV backup",Africa 24 English (1080p) [iptv-org-fr]
 https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="LifeTV.ci@SD" group-title="Généralistes",Life TV (1080p)
+https://strhls.streamakaci.tv/str_lifetv_lifetv/str_lifetv_multi/playlist.m3u8
