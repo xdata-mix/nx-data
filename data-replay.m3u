@@ -99,6 +99,8 @@ francetv://a5d25721-e543-4a11-bf10-1b8e02544833
 francetv://7d0a0daf-fe57-4ec2-818f-d6627df726bc
 #EXTINF:-1 tvg-id="francetv-9157526c-cba2-4362-9042-e19293b5f3a5" tvg-logo="https://i.imgur.com/sJZBuY4.png" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Infrarouge — 13 novembre, nos vies en éclats
 francetv://9157526c-cba2-4362-9042-e19293b5f3a5
+#EXTINF:-1 tvg-id="francetv-12a2ae19-6b92-45cf-8f8d-5fca8c986587" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La chance de ma vie
+francetv://12a2ae19-6b92-45cf-8f8d-5fca8c986587
 #EXTINF:-1 tvg-id="francetv-6c5c7885-ab98-4b3a-bb8d-f4936cc2d8d2" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Outremer.ledoc — Shatta, une génération, deux notes
 francetv://6c5c7885-ab98-4b3a-bb8d-f4936cc2d8d2
 #EXTINF:-1 tvg-id="francetv-fb3c34b8-b156-4f69-ad5d-990dab993896" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La France en vrai - Grand Est — Les nouveaux darons (ou pas)
@@ -117,8 +119,8 @@ francetv://f5ab1898-4fac-4c3d-bda5-349369729e3e
 francetv://f00ec381-8b83-48e4-b022-bd2b30ab4843
 #EXTINF:-1 tvg-id="francetv-dc3a1154-6ef2-4767-ba55-e19ebc26622b" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",REPLAY. Arrivée de la Vendée Arctique et hommage à Charlie Dalin
 francetv://dc3a1154-6ef2-4767-ba55-e19ebc26622b
-#EXTINF:-1 tvg-id="francetv-f390f596-0ec2-4b9c-998d-a2e08dceb160" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 22 juin 2026
-francetv://f390f596-0ec2-4b9c-998d-a2e08dceb160
+#EXTINF:-1 tvg-id="francetv-27472adc-8679-430f-98e3-c65628dba3e1" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 22 juin 2026
+francetv://27472adc-8679-430f-98e3-c65628dba3e1
 #EXTINF:-1 tvg-id="francetv-eeae7e74-ba81-4e8b-a3cc-12465f4921bf" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 23 juin 2026
 francetv://eeae7e74-ba81-4e8b-a3cc-12465f4921bf
 #EXTINF:-1 tvg-id="francetv-a9b02e9d-f42f-4858-8af1-3212da81ddc3" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mercredi 24 juin 2026
@@ -1555,6 +1557,8 @@ tf1plus://tf1-series-films/piege-blanc
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films/peres-meres-et-supporters" tvg-logo="https://photos.tf1.fr/1280/720/flux-program-card-landscape-7fd6cd-1dc94d-271bf9-0@1x.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Pères, Mères et supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films/banlieue-13-ultimatum" tvg-logo="https://photos.tf1.fr/1280/720/flux-program-card-landscape-7ca13a-10d016-28e0ce-0@1x.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Banlieue 13 : Ultimatum
+tf1plus://tf1-series-films/banlieue-13-ultimatum
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films/citizen-b" tvg-logo="https://photos.tf1.fr/1280/720/flux-program-card-landscape-6e7bda-f0416f-cbf200-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1 Séries Films",Citizen B
 tf1plus://tf1-series-films/citizen-b
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films/tous-en-salles" tvg-logo="https://photos.tf1.fr/1280/720/program-card-landscape-6d7252-ddb246-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1 Séries Films",Tous en salles !
@@ -3009,10 +3013,12 @@ tf1plus://tmc/monacoscope
 tf1plus://tmc/les-documentaires-de-tatiana-silva
 #EXTINF:-1 tvg-id="tf1plus-tf1-resto-du-coeur-et-enfoires-sur-les-terres-doccitanie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Resto du Coeur et Enfoires Sur les Terres Doccitanie
 tf1plus://tf1/resto-du-coeur-et-enfoires-sur-les-terres-doccitanie
-#EXTINF:-1 tvg-id="tf1plus-tf1-qu-est-ce-qu-on-a-encore-fait-au-bon-dieu" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qu Est Ce Qu On A Encore Fait Au Bon Dieu
-tf1plus://tf1/qu-est-ce-qu-on-a-encore-fait-au-bon-dieu
+#EXTINF:-1 tvg-id="tf1plus-tf1-camping-2" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Camping 2
+tf1plus://tf1/camping-2
 #EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Dirty Dancing
 tf1plus://tf1/dirty-dancing
+#EXTINF:-1 tvg-id="tf1plus-tf1-qu-est-ce-qu-on-a-encore-fait-au-bon-dieu" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qu Est Ce Qu On A Encore Fait Au Bon Dieu
+tf1plus://tf1/qu-est-ce-qu-on-a-encore-fait-au-bon-dieu
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-demain-sur-la-lune" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Demain Sur la Lune
 tf1plus://tf1/a-demain-sur-la-lune
 #EXTINF:-1 tvg-id="tf1plus-tf1-stray-kids-the-dominate-experience" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Stray Kids The Dominate Experience
@@ -3217,8 +3223,6 @@ tf1plus://tf1/michel-vaillant
 tf1plus://tf1/le-combattant
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-traversee-059" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Traversee 059
 tf1plus://tf1/la-traversee-059
-#EXTINF:-1 tvg-id="tf1plus-tf1-irenas-vow" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Irenas Vow
-tf1plus://tf1/irenas-vow
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-cavalier-de-laube" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Cavalier de Laube
 tf1plus://tf1/le-cavalier-de-laube
 #EXTINF:-1 tvg-id="tf1plus-tf1-tom-le-heros" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tom le Heros
@@ -3231,14 +3235,14 @@ tf1plus://tf1/chloe-and-theo
 tf1plus://tf1/un-homme-et-son-chien
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-pigeon" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Pigeon
 tf1plus://tf1/le-pigeon
-#EXTINF:-1 tvg-id="tf1plus-tf1-beaute-fatale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Beaute Fatale
-tf1plus://tf1/beaute-fatale
 #EXTINF:-1 tvg-id="tf1plus-tf1-good-kids" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Good Kids
 tf1plus://tf1/good-kids
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-legende-de-barney-thomson" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Legende de Barney Thomson
 tf1plus://tf1/la-legende-de-barney-thomson
 #EXTINF:-1 tvg-id="tf1plus-tf1-money-plane" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Money Plane
 tf1plus://tf1/money-plane
+#EXTINF:-1 tvg-id="tf1plus-tf1-beaute-fatale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Beaute Fatale
+tf1plus://tf1/beaute-fatale
 #EXTINF:-1 tvg-id="tf1plus-tf1-mutant-legacy" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mutant Legacy
 tf1plus://tf1/mutant-legacy
 #EXTINF:-1 tvg-id="tf1plus-tf1-premier-contact" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Premier Contact
@@ -3351,30 +3355,30 @@ m6play://m6replay/25485
 m6play://m6replay/1380
 #EXTINF:-1 tvg-id="m6plus-6204" tvg-logo="https://images.6play.fr/v1/images/4435544/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Une Ambition Intime
 m6play://m6replay/6204
-#EXTINF:-1 tvg-id="m6plus-854" tvg-logo="https://images.6play.fr/v1/images/4241247/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",E M6
-m6play://m6replay/854
 #EXTINF:-1 tvg-id="m6plus-19986" tvg-logo="https://images.6play.fr/v1/images/4242448/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Appel A Temoins
 m6play://m6replay/19986
 #EXTINF:-1 tvg-id="m6plus-25792" tvg-logo="https://images.6play.fr/v1/images/4254756/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Des Blouses Pas Si Blanches Enquete Sur les V
 m6play://m6replay/25792
 #EXTINF:-1 tvg-id="m6plus-1056" tvg-logo="https://images.6play.fr/v1/images/934194/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Le 1245
 m6play://m6replay/1056
+#EXTINF:-1 tvg-id="m6plus-854" tvg-logo="https://images.6play.fr/v1/images/4241247/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",E M6
+m6play://m6replay/854
 #EXTINF:-1 tvg-id="m6plus-1058" tvg-logo="https://images.6play.fr/v1/images/920710/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Le 1945
 m6play://m6replay/1058
 #EXTINF:-1 tvg-id="m6plus-884" tvg-logo="https://images.6play.fr/v1/images/4242364/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Turbo
 m6play://m6replay/884
-#EXTINF:-1 tvg-id="m6plus-26053" tvg-logo="https://images.6play.fr/v1/images/4289293/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",The United Way
-m6play://m6replay/26053
 #EXTINF:-1 tvg-id="m6plus-25908" tvg-logo="https://images.6play.fr/v1/images/4261376/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Balance Tes Reseaux Enquete Sur le Sexisme En
 m6play://m6replay/25908
+#EXTINF:-1 tvg-id="m6plus-26053" tvg-logo="https://images.6play.fr/v1/images/4289293/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",The United Way
+m6play://m6replay/26053
 #EXTINF:-1 tvg-id="m6plus-825" tvg-logo="https://images.6play.fr/v1/images/941176/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",66 Minutes
 m6play://m6replay/825
 #EXTINF:-1 tvg-id="m6plus-24897" tvg-logo="https://images.6play.fr/v1/images/4249014/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Familles de Paysans 100 Ans Dhistoire
 m6play://m6replay/24897
-#EXTINF:-1 tvg-id="m6plus-25706" tvg-logo="https://images.6play.fr/v1/images/4243970/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Au Coeur du College un An A Jean Vilar
-m6play://m6replay/25706
 #EXTINF:-1 tvg-id="m6plus-25643" tvg-logo="https://images.6play.fr/v1/images/4359618/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",La Grande Semaine
 m6play://m6replay/25643
+#EXTINF:-1 tvg-id="m6plus-25706" tvg-logo="https://images.6play.fr/v1/images/4243970/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Au Coeur du College un An A Jean Vilar
+m6play://m6replay/25706
 #EXTINF:-1 tvg-id="m6plus-831" tvg-logo="https://images.6play.fr/v1/images/4242106/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Enquete Exclusive
 m6play://m6replay/831
 #EXTINF:-1 tvg-id="m6plus-845" tvg-logo="https://images.6play.fr/v1/images/4242092/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Zone Interdite
@@ -3383,10 +3387,10 @@ m6play://m6replay/845
 m6play://m6replay/860
 #EXTINF:-1 tvg-id="m6plus-22355" tvg-logo="https://images.6play.fr/v1/images/4241236/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Le Chateau de Mes Reves
 m6play://m6replay/22355
-#EXTINF:-1 tvg-id="m6plus-27339" tvg-logo="https://images.6play.fr/v1/images/4699508/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Celine Dion Raconte Deux
-m6play://m6replay/27339
 #EXTINF:-1 tvg-id="m6plus-28134" tvg-logo="https://images.6play.fr/v1/images/4922969/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Un Ptit Truc En Plus Bien Plus Quun Film
 m6play://m6replay/28134
+#EXTINF:-1 tvg-id="m6plus-27339" tvg-logo="https://images.6play.fr/v1/images/4699508/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Celine Dion Raconte Deux
+m6play://m6replay/27339
 #EXTINF:-1 tvg-id="m6plus-20308" tvg-logo="https://images.6play.fr/v1/images/4242158/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Arnaques
 m6play://m6replay/20308
 #EXTINF:-1 tvg-id="m6plus-26052" tvg-logo="https://images.6play.fr/v1/images/4289231/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Maradona Par Kusturica
@@ -3415,30 +3419,30 @@ m6play://m6replay/18647
 m6play://m6replay/20901
 #EXTINF:-1 tvg-id="m6plus-15589" tvg-logo="https://images.6play.fr/v1/images/4113657/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Noel Dans la Prairie
 m6play://m6replay/15589
-#EXTINF:-1 tvg-id="m6plus-15315" tvg-logo="https://images.6play.fr/v1/images/4084984/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Les Souliers de Noelle
-m6play://m6replay/15315
-#EXTINF:-1 tvg-id="m6plus-22813" tvg-logo="https://images.6play.fr/v1/images/4119703/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Joyeuse Pagaille A Noel 2
-m6play://m6replay/22813
 #EXTINF:-1 tvg-id="m6plus-18835" tvg-logo="https://images.6play.fr/v1/images/4257716/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Un Noel Pour Se Retrouver Encore
 m6play://m6replay/18835
 #EXTINF:-1 tvg-id="m6plus-21184" tvg-logo="https://images.6play.fr/v1/images/4119674/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Noel Sur la 5e Avenue
 m6play://m6replay/21184
+#EXTINF:-1 tvg-id="m6plus-15315" tvg-logo="https://images.6play.fr/v1/images/4084984/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Les Souliers de Noelle
+m6play://m6replay/15315
+#EXTINF:-1 tvg-id="m6plus-22813" tvg-logo="https://images.6play.fr/v1/images/4119703/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Joyeuse Pagaille A Noel 2
+m6play://m6replay/22813
 #EXTINF:-1 tvg-id="m6plus-18387" tvg-logo="https://images.6play.fr/v1/images/4127983/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Notre Conte de Noel
 m6play://m6replay/18387
 #EXTINF:-1 tvg-id="m6plus-15741" tvg-logo="https://images.6play.fr/v1/images/4444316/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Noel Au Palais Royal
 m6play://m6replay/15741
-#EXTINF:-1 tvg-id="m6plus-25165" tvg-logo="https://images.6play.fr/v1/images/4135881/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",12 Defis Pour Noel
-m6play://m6replay/25165
 #EXTINF:-1 tvg-id="m6plus-25161" tvg-logo="https://images.6play.fr/v1/images/4135921/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Cap Sur Noel
 m6play://m6replay/25161
+#EXTINF:-1 tvg-id="m6plus-25165" tvg-logo="https://images.6play.fr/v1/images/4135881/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",12 Defis Pour Noel
+m6play://m6replay/25165
 #EXTINF:-1 tvg-id="m6plus-15487" tvg-logo="https://images.6play.fr/v1/images/4113645/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Un Noel D Amour et D Amitie
 m6play://m6replay/15487
+#EXTINF:-1 tvg-id="m6plus-20912" tvg-logo="https://images.6play.fr/v1/images/3621494/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Pour Te Retrouver
+m6play://m6replay/20912
 #EXTINF:-1 tvg-id="m6plus-18259" tvg-logo="https://images.6play.fr/v1/images/3904735/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Le Fabuleux Bal des Neiges
 m6play://m6replay/18259
 #EXTINF:-1 tvg-id="m6plus-18843" tvg-logo="https://images.6play.fr/v1/images/4131371/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Sous le Charme de Noel
 m6play://m6replay/18843
-#EXTINF:-1 tvg-id="m6plus-20912" tvg-logo="https://images.6play.fr/v1/images/3621494/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Pour Te Retrouver
-m6play://m6replay/20912
 #EXTINF:-1 tvg-id="m6plus-857" tvg-logo="https://images.6play.fr/v1/images/4461552/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",L Amour Est Dans le Pre
 m6play://m6replay/857
 #EXTINF:-1 tvg-id="m6plus-4360" tvg-logo="https://images.6play.fr/v1/images/4266994/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Madam Secretary
@@ -3953,10 +3957,10 @@ m6play://m6replay/27981
 m6play://m6replay/27038
 #EXTINF:-1 tvg-id="m6plus-27978" tvg-logo="https://images.6play.fr/v1/images/4847305/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Marseille Capitale Rap
 m6play://m6replay/27978
-#EXTINF:-1 tvg-id="m6plus-27864" tvg-logo="https://images.6play.fr/v1/images/4818942/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Bitten
-m6play://m6replay/27864
 #EXTINF:-1 tvg-id="m6plus-25787" tvg-logo="https://images.6play.fr/v1/images/4244966/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Wolf Pack
 m6play://m6replay/25787
+#EXTINF:-1 tvg-id="m6plus-27864" tvg-logo="https://images.6play.fr/v1/images/4818942/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Bitten
+m6play://m6replay/27864
 #EXTINF:-1 tvg-id="m6plus-27991" tvg-logo="https://images.6play.fr/v1/images/4846942/raw" tvg-country="FR" tvg-type="movie" group-title="Replay M6",Assange le Prix de la Verite
 m6play://m6replay/27991
 #EXTINF:-1 tvg-id="m6plus-27987" tvg-logo="https://images.6play.fr/v1/images/4846006/raw" tvg-country="FR" tvg-type="series" group-title="Replay M6",Atlantis
@@ -5201,154 +5205,150 @@ m6play://tevareplay/24626
 m6play://tevareplay/24670
 #EXTINF:-1 tvg-id="m6plus-25532" tvg-logo="https://images.6play.fr/v1/images/4242119/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Des Enfants Non Merci le Debat
 m6play://tevareplay/25532
+#EXTINF:-1 tvg-id="m6plus-26419" tvg-logo="https://images.6play.fr/v1/images/4369144/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Tu Seras un Homme Mon Fils
+m6play://tevareplay/26419
 #EXTINF:-1 tvg-id="m6plus-24469" tvg-logo="https://images.6play.fr/v1/images/4059634/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Ecole En Finir Avec le Harcelement Scolaire
 m6play://tevareplay/24469
 #EXTINF:-1 tvg-id="m6plus-26037" tvg-logo="https://images.6play.fr/v1/images/4296300/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Greffer la Vie
 m6play://tevareplay/26037
 #EXTINF:-1 tvg-id="m6plus-26136" tvg-logo="https://images.6play.fr/v1/images/4309158/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Chacune Cherche Sa Culotte
 m6play://tevareplay/26136
-#EXTINF:-1 tvg-id="m6plus-26419" tvg-logo="https://images.6play.fr/v1/images/4369144/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Tu Seras un Homme Mon Fils
-m6play://tevareplay/26419
-#EXTINF:-1 tvg-id="m6plus-26047" tvg-logo="https://images.6play.fr/v1/images/4436470/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Au Coeur du Crime
-m6play://tevareplay/26047
-#EXTINF:-1 tvg-id="m6plus-24709" tvg-logo="https://images.6play.fr/v1/images/4083399/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Separes Mais Ensemble
-m6play://tevareplay/24709
-#EXTINF:-1 tvg-id="m6plus-25961" tvg-logo="https://images.6play.fr/v1/images/4281366/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",En Mode Badass
-m6play://tevareplay/25961
 #EXTINF:-1 tvg-id="m6plus-23602" tvg-logo="https://images.6play.fr/v1/images/4249560/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Conge Paternite Pour Tous
 m6play://tevareplay/23602
 #EXTINF:-1 tvg-id="m6plus-24625" tvg-logo="https://images.6play.fr/v1/images/4072906/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Lost In Transition
 m6play://tevareplay/24625
+#EXTINF:-1 tvg-id="m6plus-24709" tvg-logo="https://images.6play.fr/v1/images/4083399/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Separes Mais Ensemble
+m6play://tevareplay/24709
+#EXTINF:-1 tvg-id="m6plus-26047" tvg-logo="https://images.6play.fr/v1/images/4436470/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Au Coeur du Crime
+m6play://tevareplay/26047
+#EXTINF:-1 tvg-id="m6plus-25961" tvg-logo="https://images.6play.fr/v1/images/4281366/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",En Mode Badass
+m6play://tevareplay/25961
 #EXTINF:-1 tvg-id="m6plus-26420" tvg-logo="https://images.6play.fr/v1/images/4369576/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Tu Seras un Homme Mon Fils le Debat
 m6play://tevareplay/26420
 #EXTINF:-1 tvg-id="m6plus-26500" tvg-logo="https://images.6play.fr/v1/images/4388496/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Lachez Nous les Rides
 m6play://tevareplay/26500
 #EXTINF:-1 tvg-id="m6plus-26515" tvg-logo="https://images.6play.fr/v1/images/4402789/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Police des Mineurs Au Secours de Linnocence E
 m6play://tevareplay/26515
-#EXTINF:-1 tvg-id="m6plus-24871" tvg-logo="https://images.6play.fr/v1/images/4098784/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Sur Mesure la Mode Au Defi du Handicap
-m6play://tevareplay/24871
+#EXTINF:-1 tvg-id="m6plus-25531" tvg-logo="https://images.6play.fr/v1/images/4249537/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Des Enfants Non Merci
+m6play://tevareplay/25531
 #EXTINF:-1 tvg-id="m6plus-26255" tvg-logo="https://images.6play.fr/v1/images/4334827/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Fausses Couches la Fin Dun Tabou
 m6play://tevareplay/26255
 #EXTINF:-1 tvg-id="m6plus-26316" tvg-logo="https://images.6play.fr/v1/images/4353574/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Grandes Ces Femmes Qui Depassent le Metre
 m6play://tevareplay/26316
+#EXTINF:-1 tvg-id="m6plus-24871" tvg-logo="https://images.6play.fr/v1/images/4098784/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Sur Mesure la Mode Au Defi du Handicap
+m6play://tevareplay/24871
+#EXTINF:-1 tvg-id="m6plus-24896" tvg-logo="https://images.6play.fr/v1/images/4264376/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Violences Conjugales Ce Fleau Qui Tue
+m6play://tevareplay/24896
 #EXTINF:-1 tvg-id="m6plus-18007" tvg-logo="https://images.6play.fr/v1/images/4362058/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Piquantes
 m6play://tevareplay/18007
 #EXTINF:-1 tvg-id="m6plus-22715" tvg-logo="https://images.6play.fr/v1/images/4365979/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Orgasmiq
 m6play://tevareplay/22715
-#EXTINF:-1 tvg-id="m6plus-24896" tvg-logo="https://images.6play.fr/v1/images/4264376/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Violences Conjugales Ce Fleau Qui Tue
-m6play://tevareplay/24896
-#EXTINF:-1 tvg-id="m6plus-25531" tvg-logo="https://images.6play.fr/v1/images/4249537/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Des Enfants Non Merci
-m6play://tevareplay/25531
+#EXTINF:-1 tvg-id="m6plus-26735" tvg-logo="https://images.6play.fr/v1/images/4487352/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Amours Infideles
+m6play://tevareplay/26735
 #EXTINF:-1 tvg-id="m6plus-26879" tvg-logo="https://images.6play.fr/v1/images/4537470/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Belles Meres la Place Empoisonnee
 m6play://tevareplay/26879
 #EXTINF:-1 tvg-id="m6plus-27468" tvg-logo="https://images.6play.fr/v1/images/4750095/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Mes Seins Ne Me Tueront Pas
 m6play://tevareplay/27468
-#EXTINF:-1 tvg-id="m6plus-26735" tvg-logo="https://images.6play.fr/v1/images/4487352/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Amours Infideles
-m6play://tevareplay/26735
 #EXTINF:-1 tvg-id="m6plus-27157" tvg-logo="https://images.6play.fr/v1/images/4648515/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Soumission Chimique un Fleau Silencieux
 m6play://tevareplay/27157
 #EXTINF:-1 tvg-id="m6plus-28217" tvg-logo="https://images.6play.fr/v1/images/4950200/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Filles et Fils Daddicts
 m6play://tevareplay/28217
+#EXTINF:-1 tvg-id="m6plus-26926" tvg-logo="https://images.6play.fr/v1/images/4558307/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Autistes Ou Trisomiques Differents et Heureux
+m6play://tevareplay/26926
 #EXTINF:-1 tvg-id="m6plus-27071" tvg-logo="https://images.6play.fr/v1/images/4613902/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Au Pouvoir et Enceinte le Tabou
 m6play://tevareplay/27071
 #EXTINF:-1 tvg-id="m6plus-27158" tvg-logo="https://images.6play.fr/v1/images/4648857/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Soumission Chimique un Crime Presque Parfait
 m6play://tevareplay/27158
 #EXTINF:-1 tvg-id="m6plus-27203" tvg-logo="https://images.6play.fr/v1/images/4655403/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Coparentalite Reinventer la Famille
 m6play://tevareplay/27203
+#EXTINF:-1 tvg-id="m6plus-27472" tvg-logo="https://images.6play.fr/v1/images/4743416/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",En Quete Dovocytes
+m6play://tevareplay/27472
 #EXTINF:-1 tvg-id="m6plus-27497" tvg-logo="https://images.6play.fr/v1/images/4760615/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",En Quete Dovocytes le Debat
 m6play://tevareplay/27497
 #EXTINF:-1 tvg-id="m6plus-28041" tvg-logo="https://images.6play.fr/v1/images/4874985/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Briser le Silence Se Reconstruire Apres le Scouarnec
 m6play://tevareplay/28041
 #EXTINF:-1 tvg-id="m6plus-28063" tvg-logo="https://images.6play.fr/v1/images/4893907/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Endometriose le Combat Invisible
 m6play://tevareplay/28063
-#EXTINF:-1 tvg-id="m6plus-26926" tvg-logo="https://images.6play.fr/v1/images/4558307/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Autistes Ou Trisomiques Differents et Heureux
-m6play://tevareplay/26926
-#EXTINF:-1 tvg-id="m6plus-27472" tvg-logo="https://images.6play.fr/v1/images/4743416/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",En Quete Dovocytes
-m6play://tevareplay/27472
 #EXTINF:-1 tvg-id="m6plus-28218" tvg-logo="https://images.6play.fr/v1/images/4950222/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Filles et Fils Daddicts le Debat
 m6play://tevareplay/28218
-#EXTINF:-1 tvg-id="m6plus-26933" tvg-logo="https://images.6play.fr/v1/images/4562550/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Affaire Pelicot les Femmes de Mazan
-m6play://tevareplay/26933
-#EXTINF:-1 tvg-id="m6plus-28051" tvg-logo="https://images.6play.fr/v1/images/4893484/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Joel le Scouarnec un Monstre En Blouse Blanche
-m6play://tevareplay/28051
-#EXTINF:-1 tvg-id="m6plus-28232" tvg-logo="https://images.6play.fr/v1/images/4952196/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Ex Wives Undercover Mefiez Vous de Brandon
-m6play://tevareplay/28232
 #EXTINF:-1 tvg-id="m6plus-26848" tvg-logo="https://images.6play.fr/v1/images/4523573/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Avortement le Combat Continue
 m6play://tevareplay/26848
+#EXTINF:-1 tvg-id="m6plus-26933" tvg-logo="https://images.6play.fr/v1/images/4562550/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Affaire Pelicot les Femmes de Mazan
+m6play://tevareplay/26933
 #EXTINF:-1 tvg-id="m6plus-27002" tvg-logo="https://images.6play.fr/v1/images/4588342/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Drague Moi Si Tu Peux
 m6play://tevareplay/27002
 #EXTINF:-1 tvg-id="m6plus-27327" tvg-logo="https://images.6play.fr/v1/images/4701643/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Toutes Tatouees
 m6play://tevareplay/27327
+#EXTINF:-1 tvg-id="m6plus-28051" tvg-logo="https://images.6play.fr/v1/images/4893484/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Joel le Scouarnec un Monstre En Blouse Blanche
+m6play://tevareplay/28051
 #EXTINF:-1 tvg-id="m6plus-28058" tvg-logo="https://images.6play.fr/v1/images/4893897/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Hollywood Stories Meryl Streep
 m6play://tevareplay/28058
+#EXTINF:-1 tvg-id="m6plus-28232" tvg-logo="https://images.6play.fr/v1/images/4952196/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Ex Wives Undercover Mefiez Vous de Brandon
+m6play://tevareplay/28232
 #EXTINF:-1 tvg-id="m6plus-28276" tvg-logo="https://images.6play.fr/v1/images/4958576/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Mamans Solos Seules Pour Faire Face
 m6play://tevareplay/28276
 #EXTINF:-1 tvg-id="m6plus-27182" tvg-logo="https://images.6play.fr/v1/images/4655902/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Mysteres des Majorettes
 m6play://tevareplay/27182
 #EXTINF:-1 tvg-id="m6plus-23023" tvg-logo="https://images.6play.fr/v1/images/4138480/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Pour Que Noel Brille A Nouveau
 m6play://tevareplay/23023
-#EXTINF:-1 tvg-id="m6plus-25422" tvg-logo="https://images.6play.fr/v1/images/4250352/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Constance Pot Pourri
-m6play://tevareplay/25422
 #EXTINF:-1 tvg-id="m6plus-28126" tvg-logo="https://images.6play.fr/v1/images/4923171/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Lea Lando Dame de Coeur
 m6play://tevareplay/28126
+#EXTINF:-1 tvg-id="m6plus-25422" tvg-logo="https://images.6play.fr/v1/images/4250352/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Constance Pot Pourri
+m6play://tevareplay/25422
+#EXTINF:-1 tvg-id="m6plus-25864" tvg-logo="https://images.6play.fr/v1/images/4263232/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Laura Domenge Bonne Mere
+m6play://tevareplay/25864
 #EXTINF:-1 tvg-id="m6plus-26976" tvg-logo="https://images.6play.fr/v1/images/4579192/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Vanessa Kayo le Dernier Boulet
 m6play://tevareplay/26976
 #EXTINF:-1 tvg-id="m6plus-27103" tvg-logo="https://images.6play.fr/v1/images/4626597/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Le Cas Pucine Main Mise
 m6play://tevareplay/27103
-#EXTINF:-1 tvg-id="m6plus-25864" tvg-logo="https://images.6play.fr/v1/images/4263232/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Laura Domenge Bonne Mere
-m6play://tevareplay/25864
+#EXTINF:-1 tvg-id="m6plus-26799" tvg-logo="https://images.6play.fr/v1/images/4510579/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Christine Berrou Trop
+m6play://tevareplay/26799
 #EXTINF:-1 tvg-id="m6plus-8793" tvg-logo="https://images.6play.fr/v1/images/4362066/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Teva Comedy Show
 m6play://tevareplay/8793
 #EXTINF:-1 tvg-id="m6plus-18339" tvg-logo="https://images.6play.fr/v1/images/4250123/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Batch Cooking
 m6play://tevareplay/18339
-#EXTINF:-1 tvg-id="m6plus-24931" tvg-logo="https://images.6play.fr/v1/images/4254926/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Une Nuit Avec Laura Domenge
-m6play://tevareplay/24931
-#EXTINF:-1 tvg-id="m6plus-26799" tvg-logo="https://images.6play.fr/v1/images/4510579/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Christine Berrou Trop
-m6play://tevareplay/26799
 #EXTINF:-1 tvg-id="m6plus-21405" tvg-logo="https://images.6play.fr/v1/images/4250397/raw" tvg-country="FR" tvg-type="series" group-title="Replay Téva",Deco Ou Nego
 m6play://tevareplay/21405
+#EXTINF:-1 tvg-id="m6plus-24931" tvg-logo="https://images.6play.fr/v1/images/4254926/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Une Nuit Avec Laura Domenge
+m6play://tevareplay/24931
 #EXTINF:-1 tvg-id="m6plus-26569" tvg-logo="https://images.6play.fr/v1/images/4418348/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Le Patchwork de Noel
 m6play://tevareplay/26569
 #EXTINF:-1 tvg-id="m6plus-18079" tvg-logo="https://images.6play.fr/v1/images/3588230/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",La Fiancee de Mon Frere
 m6play://tevareplay/18079
-#EXTINF:-1 tvg-id="m6plus-26919" tvg-logo="https://images.6play.fr/v1/images/4544158/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",La Collection Mary Higgins Clark
-m6play://tevareplay/26919
 #EXTINF:-1 tvg-id="m6plus-21320" tvg-logo="https://images.6play.fr/v1/images/4261020/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Aurora Teagarden Meurtre Au Bord du Lac
 m6play://tevareplay/21320
 #EXTINF:-1 tvg-id="m6plus-26265" tvg-logo="https://images.6play.fr/v1/images/4338263/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Pieges
 m6play://tevareplay/26265
-#EXTINF:-1 tvg-id="m6plus-20897" tvg-logo="https://images.6play.fr/v1/images/4360593/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Aurora Teagarden les Secrets Oublies
-m6play://tevareplay/20897
+#EXTINF:-1 tvg-id="m6plus-26919" tvg-logo="https://images.6play.fr/v1/images/4544158/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",La Collection Mary Higgins Clark
+m6play://tevareplay/26919
 #EXTINF:-1 tvg-id="m6plus-25165" tvg-logo="https://images.6play.fr/v1/images/4135881/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",12 Defis Pour Noel
 m6play://tevareplay/25165
 #EXTINF:-1 tvg-id="m6plus-25161" tvg-logo="https://images.6play.fr/v1/images/4135921/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Cap Sur Noel
 m6play://tevareplay/25161
-#EXTINF:-1 tvg-id="m6plus-21415" tvg-logo="https://images.6play.fr/v1/images/3638306/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Lile Aux Mysteres la Femme Qui En Savait Trop
-m6play://tevareplay/21415
+#EXTINF:-1 tvg-id="m6plus-20897" tvg-logo="https://images.6play.fr/v1/images/4360593/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Aurora Teagarden les Secrets Oublies
+m6play://tevareplay/20897
 #EXTINF:-1 tvg-id="m6plus-26950" tvg-logo="https://images.6play.fr/v1/images/4560125/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",100 Bio
 m6play://tevareplay/26950
+#EXTINF:-1 tvg-id="m6plus-21415" tvg-logo="https://images.6play.fr/v1/images/3638306/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Lile Aux Mysteres la Femme Qui En Savait Trop
+m6play://tevareplay/21415
+#EXTINF:-1 tvg-id="m6plus-26363" tvg-logo="https://images.6play.fr/v1/images/4358712/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Maddy Etcheban
+m6play://tevareplay/26363
 #EXTINF:-1 tvg-id="m6plus-27001" tvg-logo="https://images.6play.fr/v1/images/4588354/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Spinning Man
 m6play://tevareplay/27001
+#EXTINF:-1 tvg-id="m6plus-27017" tvg-logo="https://images.6play.fr/v1/images/4595453/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Le Mort de la Plage
+m6play://tevareplay/27017
 #EXTINF:-1 tvg-id="m6plus-27476" tvg-logo="https://images.6play.fr/v1/images/4748941/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Mysteres de la Chorale
 m6play://tevareplay/27476
 #EXTINF:-1 tvg-id="m6plus-27914" tvg-logo="https://images.6play.fr/v1/images/4842378/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Le Sang des Iles Dor
 m6play://tevareplay/27914
-#EXTINF:-1 tvg-id="m6plus-26363" tvg-logo="https://images.6play.fr/v1/images/4358712/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Maddy Etcheban
-m6play://tevareplay/26363
-#EXTINF:-1 tvg-id="m6plus-27017" tvg-logo="https://images.6play.fr/v1/images/4595453/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Le Mort de la Plage
-m6play://tevareplay/27017
 #EXTINF:-1 tvg-id="m6plus-5686" tvg-logo="https://images.6play.fr/v1/images/3468468/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Ambulance B
 m6play://tevareplay/5686
 #EXTINF:-1 tvg-id="m6plus-9119" tvg-logo="https://images.6play.fr/v1/images/1320855/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Abonnee Au Crime
 m6play://tevareplay/9119
-#EXTINF:-1 tvg-id="m6plus-27006" tvg-logo="https://images.6play.fr/v1/images/4589455/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Secrets du Chateau
-m6play://tevareplay/27006
-#EXTINF:-1 tvg-id="m6plus-27078" tvg-logo="https://images.6play.fr/v1/images/4611895/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Run
-m6play://tevareplay/27078
-#EXTINF:-1 tvg-id="m6plus-27301" tvg-logo="https://images.6play.fr/v1/images/4691351/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime En Lozere
-m6play://tevareplay/27301
-#EXTINF:-1 tvg-id="m6plus-27438" tvg-logo="https://images.6play.fr/v1/images/4745861/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime Dans le Larzac
-m6play://tevareplay/27438
+#EXTINF:-1 tvg-id="m6plus-27404" tvg-logo="https://images.6play.fr/v1/images/4722956/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime A Martigues
+m6play://tevareplay/27404
+#EXTINF:-1 tvg-id="m6plus-27458" tvg-logo="https://images.6play.fr/v1/images/4749923/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime A Ramatuelle
+m6play://tevareplay/27458
 #EXTINF:-1 tvg-id="m6plus-27477" tvg-logo="https://images.6play.fr/v1/images/4752279/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Mysteres de Lecole de Gendarmerie
 m6play://tevareplay/27477
 #EXTINF:-1 tvg-id="m6plus-27489" tvg-logo="https://images.6play.fr/v1/images/4752375/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Mysteres de la Duchesse
@@ -5359,10 +5359,14 @@ m6play://tevareplay/27724
 m6play://tevareplay/27965
 #EXTINF:-1 tvg-id="m6plus-26960" tvg-logo="https://images.6play.fr/v1/images/4575766/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",La Mort Est Dans le Pre
 m6play://tevareplay/26960
-#EXTINF:-1 tvg-id="m6plus-27404" tvg-logo="https://images.6play.fr/v1/images/4722956/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime A Martigues
-m6play://tevareplay/27404
-#EXTINF:-1 tvg-id="m6plus-27458" tvg-logo="https://images.6play.fr/v1/images/4749923/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime A Ramatuelle
-m6play://tevareplay/27458
+#EXTINF:-1 tvg-id="m6plus-27006" tvg-logo="https://images.6play.fr/v1/images/4589455/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Secrets du Chateau
+m6play://tevareplay/27006
+#EXTINF:-1 tvg-id="m6plus-27078" tvg-logo="https://images.6play.fr/v1/images/4611895/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Run
+m6play://tevareplay/27078
+#EXTINF:-1 tvg-id="m6plus-27301" tvg-logo="https://images.6play.fr/v1/images/4691351/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime En Lozere
+m6play://tevareplay/27301
+#EXTINF:-1 tvg-id="m6plus-27438" tvg-logo="https://images.6play.fr/v1/images/4745861/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Crime Dans le Larzac
+m6play://tevareplay/27438
 #EXTINF:-1 tvg-id="m6plus-27946" tvg-logo="https://images.6play.fr/v1/images/4847292/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Les Secrets du Finistere
 m6play://tevareplay/27946
 #EXTINF:-1 tvg-id="m6plus-5348" tvg-logo="https://images.6play.fr/v1/images/3468926/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Téva",Espoir Mortel
@@ -5411,10 +5415,10 @@ m6play://tevareplay/27427
 m6play://tevareplay/25736
 #EXTINF:-1 tvg-id="m6plus-21578" tvg-logo="https://images.6play.fr/v1/images/3951159/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Les Tetes Brulees
 m6play://parispremierereplay/21578
-#EXTINF:-1 tvg-id="m6plus-23068" tvg-logo="https://images.6play.fr/v1/images/4255065/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tanguy Pastureau Nest Pas Celebre
-m6play://parispremierereplay/23068
 #EXTINF:-1 tvg-id="m6plus-24031" tvg-logo="https://images.6play.fr/v1/images/4255426/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",La Fine Equipe
 m6play://parispremierereplay/24031
+#EXTINF:-1 tvg-id="m6plus-23068" tvg-logo="https://images.6play.fr/v1/images/4255065/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tanguy Pastureau Nest Pas Celebre
+m6play://parispremierereplay/23068
 #EXTINF:-1 tvg-id="m6plus-24971" tvg-logo="https://images.6play.fr/v1/images/4255400/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Coucou
 m6play://parispremierereplay/24971
 #EXTINF:-1 tvg-id="m6plus-25074" tvg-logo="https://images.6play.fr/v1/images/4246694/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Jeanfi Janssens et Cecile Djunga Font le Tour
@@ -5427,20 +5431,20 @@ m6play://parispremierereplay/24660
 m6play://parispremierereplay/21077
 #EXTINF:-1 tvg-id="m6plus-24450" tvg-logo="https://images.6play.fr/v1/images/4255385/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Grand Gala de Lhumour Politique 2023
 m6play://parispremierereplay/24450
-#EXTINF:-1 tvg-id="m6plus-25996" tvg-logo="https://images.6play.fr/v1/images/4285629/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Berlin Berlin
-m6play://parispremierereplay/25996
-#EXTINF:-1 tvg-id="m6plus-26303" tvg-logo="https://images.6play.fr/v1/images/4351949/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Grand Gala de Lhumour Politique 2024
-m6play://parispremierereplay/26303
 #EXTINF:-1 tvg-id="m6plus-25565" tvg-logo="https://images.6play.fr/v1/images/4195830/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Theatre des Deux Anes Ya du Macron A Se Faire
 m6play://parispremierereplay/25565
+#EXTINF:-1 tvg-id="m6plus-26303" tvg-logo="https://images.6play.fr/v1/images/4351949/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Grand Gala de Lhumour Politique 2024
+m6play://parispremierereplay/26303
+#EXTINF:-1 tvg-id="m6plus-25996" tvg-logo="https://images.6play.fr/v1/images/4285629/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Berlin Berlin
+m6play://parispremierereplay/25996
 #EXTINF:-1 tvg-id="m6plus-25366" tvg-logo="https://images.6play.fr/v1/images/4255597/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Giroud et Stotz Fetent Leurs 10 Ans Dage Ment
 m6play://parispremierereplay/25366
 #EXTINF:-1 tvg-id="m6plus-26509" tvg-logo="https://images.6play.fr/v1/images/4390510/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Poiret Serrault Extraits Extra
 m6play://parispremierereplay/26509
-#EXTINF:-1 tvg-id="m6plus-25919" tvg-logo="https://images.6play.fr/v1/images/4278589/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Mon Voisin Nu
-m6play://parispremierereplay/25919
 #EXTINF:-1 tvg-id="m6plus-22154" tvg-logo="https://images.6play.fr/v1/images/3926420/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Jai Envie de Toi
 m6play://parispremierereplay/22154
+#EXTINF:-1 tvg-id="m6plus-25919" tvg-logo="https://images.6play.fr/v1/images/4278589/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Mon Voisin Nu
+m6play://parispremierereplay/25919
 #EXTINF:-1 tvg-id="m6plus-25995" tvg-logo="https://images.6play.fr/v1/images/4278984/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Ave Cesar
 m6play://parispremierereplay/25995
 #EXTINF:-1 tvg-id="m6plus-26330" tvg-logo="https://images.6play.fr/v1/images/4355760/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Un Culot Monstre
@@ -5451,164 +5455,164 @@ m6play://parispremierereplay/26547
 m6play://parispremierereplay/26570
 #EXTINF:-1 tvg-id="m6plus-26747" tvg-logo="https://images.6play.fr/v1/images/4484724/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Caroline Vigneaux Faut Il Toujours Dire la Ve
 m6play://parispremierereplay/26747
-#EXTINF:-1 tvg-id="m6plus-27441" tvg-logo="https://images.6play.fr/v1/images/4741616/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Cest Pour Rire Coluche A Lelysee Montmartre
-m6play://parispremierereplay/27441
 #EXTINF:-1 tvg-id="m6plus-27784" tvg-logo="https://images.6play.fr/v1/images/4809648/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Rupture A Domicile
 m6play://parispremierereplay/27784
 #EXTINF:-1 tvg-id="m6plus-26583" tvg-logo="https://images.6play.fr/v1/images/4428989/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Michel Sardou Je Me Souviens Dun Adieu
 m6play://parispremierereplay/26583
+#EXTINF:-1 tvg-id="m6plus-27441" tvg-logo="https://images.6play.fr/v1/images/4741616/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Cest Pour Rire Coluche A Lelysee Montmartre
+m6play://parispremierereplay/27441
 #EXTINF:-1 tvg-id="m6plus-851" tvg-logo="https://images.6play.fr/v1/images/4241171/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",La Revue de Presse
 m6play://parispremierereplay/851
 #EXTINF:-1 tvg-id="m6plus-25364" tvg-logo="https://images.6play.fr/v1/images/4429803/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Elodie Poux Se Marie
 m6play://parispremierereplay/25364
-#EXTINF:-1 tvg-id="m6plus-27070" tvg-logo="https://images.6play.fr/v1/images/4613685/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tout Va Tres Bien
-m6play://parispremierereplay/27070
 #EXTINF:-1 tvg-id="m6plus-26863" tvg-logo="https://images.6play.fr/v1/images/4539246/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Ma Version de Lhistoire
 m6play://parispremierereplay/26863
+#EXTINF:-1 tvg-id="m6plus-27070" tvg-logo="https://images.6play.fr/v1/images/4613685/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tout Va Tres Bien
+m6play://parispremierereplay/27070
 #EXTINF:-1 tvg-id="m6plus-27459" tvg-logo="https://images.6play.fr/v1/images/4749876/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Lamour Chez les Autres
 m6play://parispremierereplay/27459
 #EXTINF:-1 tvg-id="m6plus-5960" tvg-logo="https://images.6play.fr/v1/images/4254869/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Raymond Devos A L Olympia
 m6play://parispremierereplay/5960
-#EXTINF:-1 tvg-id="m6plus-25158" tvg-logo="https://images.6play.fr/v1/images/4253996/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Numero un Raymond Devos
-m6play://parispremierereplay/25158
 #EXTINF:-1 tvg-id="m6plus-15515" tvg-logo="https://images.6play.fr/v1/images/2590978/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",L Ordre des Choses
 m6play://parispremierereplay/15515
+#EXTINF:-1 tvg-id="m6plus-25158" tvg-logo="https://images.6play.fr/v1/images/4253996/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Numero un Raymond Devos
+m6play://parispremierereplay/25158
+#EXTINF:-1 tvg-id="m6plus-26990" tvg-logo="https://images.6play.fr/v1/images/4586650/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Inavouable
+m6play://parispremierereplay/26990
 #EXTINF:-1 tvg-id="m6plus-27641" tvg-logo="https://images.6play.fr/v1/images/4786282/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Miss Univers 2025 74e Edition
 m6play://parispremierereplay/27641
-#EXTINF:-1 tvg-id="m6plus-27968" tvg-logo="https://images.6play.fr/v1/images/4857120/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Je Me Souviendrai de Presque Tout
-m6play://parispremierereplay/27968
 #EXTINF:-1 tvg-id="m6plus-28018" tvg-logo="https://images.6play.fr/v1/images/4861786/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",La Valse des Pingouins
 m6play://parispremierereplay/28018
 #EXTINF:-1 tvg-id="m6plus-13429" tvg-logo="https://images.6play.fr/v1/images/3715567/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Non A L Argent
 m6play://parispremierereplay/13429
-#EXTINF:-1 tvg-id="m6plus-26990" tvg-logo="https://images.6play.fr/v1/images/4586650/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Inavouable
-m6play://parispremierereplay/26990
+#EXTINF:-1 tvg-id="m6plus-27968" tvg-logo="https://images.6play.fr/v1/images/4857120/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Je Me Souviendrai de Presque Tout
+m6play://parispremierereplay/27968
 #EXTINF:-1 tvg-id="m6plus-13501" tvg-logo="https://images.6play.fr/v1/images/2852370/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",C Est Encore Mieux L Apres Midi
 m6play://parispremierereplay/13501
 #EXTINF:-1 tvg-id="m6plus-16199" tvg-logo="https://images.6play.fr/v1/images/3920098/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Sommelier
 m6play://parispremierereplay/16199
-#EXTINF:-1 tvg-id="m6plus-25286" tvg-logo="https://images.6play.fr/v1/images/4254024/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Sellig A Lolympia Episode 6
-m6play://parispremierereplay/25286
 #EXTINF:-1 tvg-id="m6plus-25483" tvg-logo="https://images.6play.fr/v1/images/4255143/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Nuit Divresse
 m6play://parispremierereplay/25483
 #EXTINF:-1 tvg-id="m6plus-27882" tvg-logo="https://images.6play.fr/v1/images/4836352/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tout Bascule
 m6play://parispremierereplay/27882
-#EXTINF:-1 tvg-id="m6plus-27818" tvg-logo="https://images.6play.fr/v1/images/4815639/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",25 Ans de Laurent Gerra A la Radio
-m6play://parispremierereplay/27818
 #EXTINF:-1 tvg-id="m6plus-27917" tvg-logo="https://images.6play.fr/v1/images/4844516/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Lompret Barre Woke Me Up
 m6play://parispremierereplay/27917
+#EXTINF:-1 tvg-id="m6plus-25286" tvg-logo="https://images.6play.fr/v1/images/4254024/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Sellig A Lolympia Episode 6
+m6play://parispremierereplay/25286
+#EXTINF:-1 tvg-id="m6plus-27818" tvg-logo="https://images.6play.fr/v1/images/4815639/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",25 Ans de Laurent Gerra A la Radio
+m6play://parispremierereplay/27818
 #EXTINF:-1 tvg-id="m6plus-27948" tvg-logo="https://images.6play.fr/v1/images/4845478/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Arnaud Demanche Faut Quon Parle
 m6play://parispremierereplay/27948
+#EXTINF:-1 tvg-id="m6plus-26965" tvg-logo="https://images.6play.fr/v1/images/4579234/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Largent de la Vieille
+m6play://parispremierereplay/26965
 #EXTINF:-1 tvg-id="m6plus-13761" tvg-logo="https://images.6play.fr/v1/images/2210820/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Fernand Raynaud Au Casino Theatre de Geneve
 m6play://parispremierereplay/13761
 #EXTINF:-1 tvg-id="m6plus-18187" tvg-logo="https://images.6play.fr/v1/images/4083377/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Le Credit
 m6play://parispremierereplay/18187
-#EXTINF:-1 tvg-id="m6plus-26965" tvg-logo="https://images.6play.fr/v1/images/4579234/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Largent de la Vieille
-m6play://parispremierereplay/26965
 #EXTINF:-1 tvg-id="m6plus-27726" tvg-logo="https://images.6play.fr/v1/images/4805506/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Marianne James Tout Est Dans la Voix
 m6play://parispremierereplay/27726
 #EXTINF:-1 tvg-id="m6plus-28067" tvg-logo="https://images.6play.fr/v1/images/4910087/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Bernard Mabille A la Nouvelle Eve
 m6play://parispremierereplay/28067
-#EXTINF:-1 tvg-id="m6plus-14841" tvg-logo="https://images.6play.fr/v1/images/4434664/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",The Humanity Bureau Menace Sur L Humanite
-m6play://parispremierereplay/14841
 #EXTINF:-1 tvg-id="m6plus-20193" tvg-logo="https://images.6play.fr/v1/images/4261054/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Elite Squad
 m6play://parispremierereplay/20193
+#EXTINF:-1 tvg-id="m6plus-14841" tvg-logo="https://images.6play.fr/v1/images/4434664/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",The Humanity Bureau Menace Sur L Humanite
+m6play://parispremierereplay/14841
 #EXTINF:-1 tvg-id="m6plus-5818" tvg-logo="https://images.6play.fr/v1/images/654574/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Bus 657
 m6play://parispremierereplay/5818
 #EXTINF:-1 tvg-id="m6plus-20451" tvg-logo="https://images.6play.fr/v1/images/3510641/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Dead Rising Endgame
 m6play://parispremierereplay/20451
-#EXTINF:-1 tvg-id="m6plus-25566" tvg-logo="https://images.6play.fr/v1/images/4360603/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Toulouse
-m6play://parispremierereplay/25566
 #EXTINF:-1 tvg-id="m6plus-25611" tvg-logo="https://images.6play.fr/v1/images/4214731/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Shark Bay
 m6play://parispremierereplay/25611
+#EXTINF:-1 tvg-id="m6plus-25566" tvg-logo="https://images.6play.fr/v1/images/4360603/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Toulouse
+m6play://parispremierereplay/25566
 #EXTINF:-1 tvg-id="m6plus-20219" tvg-logo="https://images.6play.fr/v1/images/4297959/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Temoin Genant
 m6play://parispremierereplay/20219
-#EXTINF:-1 tvg-id="m6plus-24383" tvg-logo="https://images.6play.fr/v1/images/4250170/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Operation Wolf Hound
-m6play://parispremierereplay/24383
 #EXTINF:-1 tvg-id="m6plus-24528" tvg-logo="https://images.6play.fr/v1/images/4250259/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Maneater Requin Tueur
 m6play://parispremierereplay/24528
 #EXTINF:-1 tvg-id="m6plus-26216" tvg-logo="https://images.6play.fr/v1/images/4325071/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Sur les Iles du Frioul
 m6play://parispremierereplay/26216
-#EXTINF:-1 tvg-id="m6plus-26463" tvg-logo="https://images.6play.fr/v1/images/4373705/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Cult Killer
-m6play://parispremierereplay/26463
+#EXTINF:-1 tvg-id="m6plus-24383" tvg-logo="https://images.6play.fr/v1/images/4250170/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Operation Wolf Hound
+m6play://parispremierereplay/24383
 #EXTINF:-1 tvg-id="m6plus-26267" tvg-logo="https://images.6play.fr/v1/images/4339026/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Collioure
 m6play://parispremierereplay/26267
-#EXTINF:-1 tvg-id="m6plus-26448" tvg-logo="https://images.6play.fr/v1/images/4368422/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Survivre la Vengeance Ne Dort Jamais
-m6play://parispremierereplay/26448
+#EXTINF:-1 tvg-id="m6plus-26463" tvg-logo="https://images.6play.fr/v1/images/4373705/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Cult Killer
+m6play://parispremierereplay/26463
 #EXTINF:-1 tvg-id="m6plus-26585" tvg-logo="https://images.6play.fr/v1/images/4415795/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Fortress
 m6play://parispremierereplay/26585
 #EXTINF:-1 tvg-id="m6plus-26587" tvg-logo="https://images.6play.fr/v1/images/4415813/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Fortress 2
 m6play://parispremierereplay/26587
-#EXTINF:-1 tvg-id="m6plus-27104" tvg-logo="https://images.6play.fr/v1/images/4624363/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres En Martinique
-m6play://parispremierereplay/27104
-#EXTINF:-1 tvg-id="m6plus-27717" tvg-logo="https://images.6play.fr/v1/images/4796204/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",La Reine du Crime la Malediction Dishtar
-m6play://parispremierereplay/27717
+#EXTINF:-1 tvg-id="m6plus-26448" tvg-logo="https://images.6play.fr/v1/images/4368422/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Survivre la Vengeance Ne Dort Jamais
+m6play://parispremierereplay/26448
 #EXTINF:-1 tvg-id="m6plus-26957" tvg-logo="https://images.6play.fr/v1/images/4572463/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",The Requin
 m6play://parispremierereplay/26957
+#EXTINF:-1 tvg-id="m6plus-27717" tvg-logo="https://images.6play.fr/v1/images/4796204/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",La Reine du Crime la Malediction Dishtar
+m6play://parispremierereplay/27717
+#EXTINF:-1 tvg-id="m6plus-27104" tvg-logo="https://images.6play.fr/v1/images/4624363/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres En Martinique
+m6play://parispremierereplay/27104
 #EXTINF:-1 tvg-id="m6plus-27320" tvg-logo="https://images.6play.fr/v1/images/4695304/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Assassin Club
 m6play://parispremierereplay/27320
+#EXTINF:-1 tvg-id="m6plus-26577" tvg-logo="https://images.6play.fr/v1/images/4415773/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Deadlock
+m6play://parispremierereplay/26577
 #EXTINF:-1 tvg-id="m6plus-26839" tvg-logo="https://images.6play.fr/v1/images/4523564/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Day Of The Dead Bloodline
 m6play://parispremierereplay/26839
+#EXTINF:-1 tvg-id="m6plus-27127" tvg-logo="https://images.6play.fr/v1/images/4639174/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Au Mont St Michel
+m6play://parispremierereplay/27127
 #EXTINF:-1 tvg-id="m6plus-27324" tvg-logo="https://images.6play.fr/v1/images/4695139/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Aix En Provence
 m6play://parispremierereplay/27324
 #EXTINF:-1 tvg-id="m6plus-27480" tvg-logo="https://images.6play.fr/v1/images/4750761/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Belle Ile
 m6play://parispremierereplay/27480
-#EXTINF:-1 tvg-id="m6plus-26577" tvg-logo="https://images.6play.fr/v1/images/4415773/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Deadlock
-m6play://parispremierereplay/26577
-#EXTINF:-1 tvg-id="m6plus-27127" tvg-logo="https://images.6play.fr/v1/images/4639174/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Au Mont St Michel
-m6play://parispremierereplay/27127
-#EXTINF:-1 tvg-id="m6plus-27345" tvg-logo="https://images.6play.fr/v1/images/4711491/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Dans le Jura
-m6play://parispremierereplay/27345
-#EXTINF:-1 tvg-id="m6plus-27534" tvg-logo="https://images.6play.fr/v1/images/4772387/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Lille
-m6play://parispremierereplay/27534
 #EXTINF:-1 tvg-id="m6plus-27590" tvg-logo="https://images.6play.fr/v1/images/4774393/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Pont Aven
 m6play://parispremierereplay/27590
 #EXTINF:-1 tvg-id="m6plus-27619" tvg-logo="https://images.6play.fr/v1/images/4780898/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Sarlat
 m6play://parispremierereplay/27619
+#EXTINF:-1 tvg-id="m6plus-27345" tvg-logo="https://images.6play.fr/v1/images/4711491/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Dans le Jura
+m6play://parispremierereplay/27345
+#EXTINF:-1 tvg-id="m6plus-27534" tvg-logo="https://images.6play.fr/v1/images/4772387/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Lille
+m6play://parispremierereplay/27534
+#EXTINF:-1 tvg-id="m6plus-26584" tvg-logo="https://images.6play.fr/v1/images/4426961/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",American Siege
+m6play://parispremierereplay/26584
 #EXTINF:-1 tvg-id="m6plus-26784" tvg-logo="https://images.6play.fr/v1/images/4505109/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Stephen King Cell Phone
 m6play://parispremierereplay/26784
 #EXTINF:-1 tvg-id="m6plus-26902" tvg-logo="https://images.6play.fr/v1/images/4540379/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Bullet Head
 m6play://parispremierereplay/26902
 #EXTINF:-1 tvg-id="m6plus-27063" tvg-logo="https://images.6play.fr/v1/images/4612206/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Ghosts Of War
 m6play://parispremierereplay/27063
-#EXTINF:-1 tvg-id="m6plus-27645" tvg-logo="https://images.6play.fr/v1/images/4785747/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",High Heat
-m6play://parispremierereplay/27645
-#EXTINF:-1 tvg-id="m6plus-26584" tvg-logo="https://images.6play.fr/v1/images/4426961/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",American Siege
-m6play://parispremierereplay/26584
 #EXTINF:-1 tvg-id="m6plus-27310" tvg-logo="https://images.6play.fr/v1/images/4689469/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Strasbourg
 m6play://parispremierereplay/27310
 #EXTINF:-1 tvg-id="m6plus-27406" tvg-logo="https://images.6play.fr/v1/images/4720027/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A la Ciotat
 m6play://parispremierereplay/27406
+#EXTINF:-1 tvg-id="m6plus-27645" tvg-logo="https://images.6play.fr/v1/images/4785747/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",High Heat
+m6play://parispremierereplay/27645
 #EXTINF:-1 tvg-id="m6plus-27522" tvg-logo="https://images.6play.fr/v1/images/4760793/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A la Pointe du Raz
 m6play://parispremierereplay/27522
-#EXTINF:-1 tvg-id="m6plus-27727" tvg-logo="https://images.6play.fr/v1/images/4802347/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Aux Iles de Lerins
-m6play://parispremierereplay/27727
-#EXTINF:-1 tvg-id="m6plus-27809" tvg-logo="https://images.6play.fr/v1/images/4805599/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Laffaire Florence Nightingale
-m6play://parispremierereplay/27809
-#EXTINF:-1 tvg-id="m6plus-28115" tvg-logo="https://images.6play.fr/v1/images/4917313/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres En Pays Doleron
-m6play://parispremierereplay/28115
-#EXTINF:-1 tvg-id="m6plus-28221" tvg-logo="https://images.6play.fr/v1/images/4946410/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Winnie Lourson du Sang et du Miel 2
-m6play://parispremierereplay/28221
 #EXTINF:-1 tvg-id="m6plus-27418" tvg-logo="https://images.6play.fr/v1/images/4727722/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Muzzle
 m6play://parispremierereplay/27418
-#EXTINF:-1 tvg-id="m6plus-27654" tvg-logo="https://images.6play.fr/v1/images/4784798/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Dans les Landes
-m6play://parispremierereplay/27654
+#EXTINF:-1 tvg-id="m6plus-27727" tvg-logo="https://images.6play.fr/v1/images/4802347/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Aux Iles de Lerins
+m6play://parispremierereplay/27727
+#EXTINF:-1 tvg-id="m6plus-28115" tvg-logo="https://images.6play.fr/v1/images/4917313/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres En Pays Doleron
+m6play://parispremierereplay/28115
 #EXTINF:-1 tvg-id="m6plus-28128" tvg-logo="https://images.6play.fr/v1/images/4923163/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Pont Leveque
 m6play://parispremierereplay/28128
+#EXTINF:-1 tvg-id="m6plus-28221" tvg-logo="https://images.6play.fr/v1/images/4946410/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Winnie Lourson du Sang et du Miel 2
+m6play://parispremierereplay/28221
+#EXTINF:-1 tvg-id="m6plus-27654" tvg-logo="https://images.6play.fr/v1/images/4784798/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres Dans les Landes
+m6play://parispremierereplay/27654
+#EXTINF:-1 tvg-id="m6plus-27809" tvg-logo="https://images.6play.fr/v1/images/4805599/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Laffaire Florence Nightingale
+m6play://parispremierereplay/27809
 #EXTINF:-1 tvg-id="m6plus-10525" tvg-logo="https://images.6play.fr/v1/images/3468965/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Vengeance
 m6play://parispremierereplay/10525
-#EXTINF:-1 tvg-id="m6plus-27089" tvg-logo="https://images.6play.fr/v1/images/4618092/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Avignon
-m6play://parispremierereplay/27089
-#EXTINF:-1 tvg-id="m6plus-28091" tvg-logo="https://images.6play.fr/v1/images/4912287/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Etretat
-m6play://parispremierereplay/28091
 #EXTINF:-1 tvg-id="m6plus-27319" tvg-logo="https://images.6play.fr/v1/images/4691278/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Quand Sort la Recluse
 m6play://parispremierereplay/27319
-#EXTINF:-1 tvg-id="m6plus-27332" tvg-logo="https://images.6play.fr/v1/images/4701671/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Cayenne
-m6play://parispremierereplay/27332
 #EXTINF:-1 tvg-id="m6plus-27496" tvg-logo="https://images.6play.fr/v1/images/4757321/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Grasse
 m6play://parispremierereplay/27496
-#EXTINF:-1 tvg-id="m6plus-27678" tvg-logo="https://images.6play.fr/v1/images/4787896/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Acts Of Vengeance
-m6play://parispremierereplay/27678
+#EXTINF:-1 tvg-id="m6plus-27707" tvg-logo="https://images.6play.fr/v1/images/4797663/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Porquerolles
+m6play://parispremierereplay/27707
+#EXTINF:-1 tvg-id="m6plus-27716" tvg-logo="https://images.6play.fr/v1/images/4796212/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",La Reine du Crime les Meurtres de Minuit
+m6play://parispremierereplay/27716
+#EXTINF:-1 tvg-id="m6plus-28065" tvg-logo="https://images.6play.fr/v1/images/4903016/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Granville
+m6play://parispremierereplay/28065
+#EXTINF:-1 tvg-id="m6plus-27089" tvg-logo="https://images.6play.fr/v1/images/4618092/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Avignon
+m6play://parispremierereplay/27089
 #EXTINF:-1 tvg-id="m6plus-27319" tvg-logo="https://images.6play.fr/v1/images/4691278/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Quand Sort la Recluse
 m6play://parispremierereplay/27319
 #EXTINF:-1 tvg-id="m6plus-27332" tvg-logo="https://images.6play.fr/v1/images/4701671/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Meurtres A Cayenne
@@ -5809,14 +5813,14 @@ m6play://parispremierereplay/28293
 m6play://parispremierereplay/18867
 #EXTINF:-1 tvg-id="m6plus-7904" tvg-logo="https://images.6play.fr/v1/images/4248793/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Bernard Mabille Sous Toutes les Coutures
 m6play://parispremierereplay/7904
-#EXTINF:-1 tvg-id="m6plus-26862" tvg-logo="https://images.6play.fr/v1/images/4837117/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Hollywood Stories Gene Hackman
-m6play://parispremierereplay/26862
-#EXTINF:-1 tvg-id="m6plus-28056" tvg-logo="https://images.6play.fr/v1/images/4875965/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Paris A Prendre
-m6play://parispremierereplay/28056
 #EXTINF:-1 tvg-id="m6plus-28127" tvg-logo="https://images.6play.fr/v1/images/4923152/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Tchernobyl les 48 Heures Qui Ont Change le Monde
 m6play://parispremierereplay/28127
 #EXTINF:-1 tvg-id="m6plus-28244" tvg-logo="https://images.6play.fr/v1/images/4954073/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Collaro Ce Mec Est Trop
 m6play://parispremierereplay/28244
+#EXTINF:-1 tvg-id="m6plus-26862" tvg-logo="https://images.6play.fr/v1/images/4837117/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Hollywood Stories Gene Hackman
+m6play://parispremierereplay/26862
+#EXTINF:-1 tvg-id="m6plus-28056" tvg-logo="https://images.6play.fr/v1/images/4875965/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Paris A Prendre
+m6play://parispremierereplay/28056
 #EXTINF:-1 tvg-id="m6plus-28245" tvg-logo="https://images.6play.fr/v1/images/4954108/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Stephane Collaro les Plus Grands Sketchs
 m6play://parispremierereplay/28245
 #EXTINF:-1 tvg-id="m6plus-28020" tvg-logo="https://images.6play.fr/v1/images/4866172/raw" tvg-country="FR" tvg-type="movie" group-title="Replay Paris Première",Ave Laccent
@@ -5869,10 +5873,10 @@ m6play://parispremierereplay/26639
 m6play://parispremierereplay/24420
 #EXTINF:-1 tvg-id="m6plus-1018" tvg-logo="https://images.6play.fr/v1/images/154308/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Camera Cafe
 m6play://parispremierereplay/1018
-#EXTINF:-1 tvg-id="m6plus-27911" tvg-logo="https://images.6play.fr/v1/images/4842365/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Les Invisibles
-m6play://parispremierereplay/27911
 #EXTINF:-1 tvg-id="m6plus-26977" tvg-logo="https://images.6play.fr/v1/images/4574442/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Agatha Christie Associes Contre le Crime
 m6play://parispremierereplay/26977
+#EXTINF:-1 tvg-id="m6plus-27911" tvg-logo="https://images.6play.fr/v1/images/4842365/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Les Invisibles
+m6play://parispremierereplay/27911
 #EXTINF:-1 tvg-id="m6plus-28048" tvg-logo="https://images.6play.fr/v1/images/4887356/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Bellefond
 m6play://parispremierereplay/28048
 #EXTINF:-1 tvg-id="m6plus-26634" tvg-logo="https://images.6play.fr/v1/images/4427455/raw" tvg-country="FR" tvg-type="series" group-title="Replay Paris Première",Agatha Christie Abc Contre Poirot
@@ -6145,6 +6149,8 @@ bfmplay://NEUF_BFMBUSINESS_BUMP4349683
 bfmplay://NEUF_BFMRADIO_BRA_SUPERMOSCATOSHOW
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRAP4349664" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/6/6/0e7761fe4621b9d08b32cdc1a9076f4a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné
 bfmplay://NEUF_BFMRADIO_BRAP4349664
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM_BOURSE_01" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/0/_/bbbf2504d107953bc726b72530a50d90_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",BFM Bourse
+bfmplay://NEUF_BFMBUSINESS_BUM_BOURSE_01
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUMP4338358" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/8/5/3/ed2f5dd60910a5ab73c421c530b8131e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",BFM Crypto
 bfmplay://NEUF_BFMBUSINESS_BUMP4338358
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUMP4347059" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/9/5/0/f1130578642844d641639e8a30d5a6b9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les experts de l'immo
@@ -6173,8 +6179,6 @@ bfmplay://NEUF_BFMBUSINESS_BUMP4340061
 bfmplay://NEUF_BFMBUSINESS_BUM_VOTREARGENT_01
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUMP4349800" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/0/8/42fa94c725e826b5c0d8a5a022c81b50_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les experts sans frontières
 bfmplay://NEUF_BFMBUSINESS_BUMP4349800
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM_BOURSE_01" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/0/_/bbbf2504d107953bc726b72530a50d90_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",BFM Bourse
-bfmplay://NEUF_BFMBUSINESS_BUM_BOURSE_01
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BFM_LAFRANCE_01" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/0/_/0614a2be7034dd08ff2e04bb03fbd59f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La France a tout pour réussir
 bfmplay://NEUF_BFMBUSINESS_BFM_LAFRANCE_01
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23574434561527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/e14e990e1dc140273bea152b1ef08d3d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Estelle Midi
@@ -6479,6 +6483,8 @@ bfmplay://NEUF_BFMAVOD_BAV_706555291527
 bfmplay://NEUF_NUM23_N231020926166697
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020936079250" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/2/fdb616dfc7cfdb936ad5e38a96113578_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Toujours disponible sur RMC BFM play",Europa-Park Rulantica : plongeon dans le parc aquatique XXL
 bfmplay://NEUF_NUM23_N231020936079250
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915961777" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/7/7/155de14f8f86dd4e40ef40f168c51c11_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",Les secrets du porte-avions Charles de Gaulle
+bfmplay://NEUF_RMCDEC_RMC1020915961777
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S979298098527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2328d2b45bd0c39fe0de9f6ef9651105_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska
 bfmplay://NEUF_RMCDEC_RMC_S979298098527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S937207767527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c940374eed82a84365133312bfd08ac7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Top Mecanic : 5 jours pour restaurer une épave
@@ -6505,8 +6511,6 @@ bfmplay://NEUF_RMCDEC_RMC966734122527
 bfmplay://NEUF_RMCDEC_RMC1020909391889
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023393112" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/1/0698f19eec18caf4f63dfbf9e9c416fb_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",L'odyssée d'Ulysse, le premier héros
 bfmplay://NEUF_RMCDEC_RMC1021023393112
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980261704527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/99f8ac945b6329f6c2194384b17c40e7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",Cauchemars sur le téléphérique
-bfmplay://NEUF_RMCDEC_RMC980261704527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23P4353329" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/2/3/0685bc23ec9b87c0d4ff892f87802cf9_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Ce mois-ci sur RMC Story",Direction Bangkok pour le père Maximin
 bfmplay://NEUF_NUM23_N23P4353329
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23P4353332" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/3/3/19cb37d8c0b40552d48f86f894c21577_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Ce mois-ci sur RMC Story",Quatre soldats, un char : catastrophes en série pour les Bidasses
@@ -6625,6 +6629,8 @@ bfmplay://NEUF_RMCDEC_RMC987647378527
 bfmplay://NEUF_RMCDEC_RMC_S1021034493714
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021020907412" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/4/d20cf05604198971990c8eea5c4f40c6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Téléphériques urbains : la techno au-dessus des villes
 bfmplay://NEUF_RMCDEC_RMC1021020907412
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980261704527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/99f8ac945b6329f6c2194384b17c40e7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Cauchemars sur le téléphérique
+bfmplay://NEUF_RMCDEC_RMC980261704527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917653253" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/5/2/e414c5b08eb79825691be194a6ef4273_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Millau, le viaduc de l'impossible
 bfmplay://NEUF_RMCDEC_RMC1020917653253
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020936075189" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/8/1/a1eddc496c40bdc2c95791c837789907_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Tchernobyl, déjà 40 ans : scénario de la pire catastrophe nucléaire
@@ -6825,14 +6831,14 @@ bfmplay://NEUF_NUM23_N23988621768527
 bfmplay://NEUF_NUM23_N231020963009902
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020983238872" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/7/8/2a8f55eb8271ae042a35bfadd47eb209_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les docs en plus",Chine, le nouvel empire de la tech
 bfmplay://NEUF_BFMTV_BFM1020983238872
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM613033691527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/WiztiviStore/posters/NEUF_BFMTV/7/2/5/BFM613033691527_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Les enquêtes de la rédac
-bfmplay://NEUF_BFMTV_BFM613033691527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMP4349650" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/5/6/b56b5462c7e82f2c97f185839b702a97_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",60 minutes Fauvelle
 bfmplay://NEUF_BFMTV_BFMP4349650
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMP4349646" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/4/6/568d4a40e9fadb2751a0f1fed37a8dae_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Marschall Truchot
 bfmplay://NEUF_BFMTV_BFMP4349646
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMP4349643" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/4/6/e2d26f9b4a1cb1c87a4a1253349ea7c2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",BFM Non Stop
 bfmplay://NEUF_BFMTV_BFMP4349643
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM613033691527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/WiztiviStore/posters/NEUF_BFMTV/7/2/5/BFM613033691527_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Les enquêtes de la rédac
+bfmplay://NEUF_BFMTV_BFM613033691527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021062998632" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/3/6/508a8d8b27c53b6c4e49822dfa0f2b4e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les grands reportages BFM TV",Affaire Epstein, au coeur de l'enquête
 bfmplay://NEUF_BFMTV_BFM1021062998632
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021026169062" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/6/0/a6d73f53ff5042ac85d30edbe051d4fa_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les grands reportages BFM TV",Corée du Nord, le redoutable clan des Kim
@@ -7205,8 +7211,6 @@ bfmplay://NEUF_NUM23_N23_1021026808387
 bfmplay://NEUF_RMCDEC_RMC1020917973497
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021126119874" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/7/8/377f8df06212c75e168f58d2078246d0_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les titans de l'ingénierie",Gustave Eiffel, la technologie derrière le génie
 bfmplay://NEUF_RMCDEC_RMC1021126119874
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021112046776" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/7/7/38332f4f1a84f99baf7a1acebf320b9f_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les titans de l'ingénierie",Sagrada Familia : l'achèvement de l'église la plus haute du monde
-bfmplay://NEUF_RMCDEC_RMC1021112046776
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23978714206527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/1a11a21ddb418dc1d89043fc9cacf8ab_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Percer tous les mystères",Titanic : le naufrage aurait-il pu être évité ?
 bfmplay://NEUF_NUM23_N23978714206527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00109064" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/4/6/0/a66df9101ad4016a0faccc6cf958dad6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Percer tous les mystères",Hors de contrôle : l'ouragan Irma
@@ -7753,6 +7757,8 @@ bfmplay://NEUF_RMCDEC_RMCP4352148
 bfmplay://NEUF_RMCDEC_RMCP4352033
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMCP4352017" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/1/0/0c170eb113eb5fe88617a325ab457488_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Top Mecanic - Dans les coulisses du garage",Top Mecanic revient pour une septième saison !
 bfmplay://NEUF_RMCDEC_RMCP4352017
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021112046776" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/7/7/38332f4f1a84f99baf7a1acebf320b9f_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% DOCS - Le Top des docs",Sagrada Familia : l'achèvement de l'église la plus haute du monde
+bfmplay://NEUF_RMCDEC_RMC1021112046776
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1020936436168" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/6/1/f684a2d806047954ab30081e9af35f0d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay 100% DOCS - Le Top des docs",Camions XXL : les rois du convoi exceptionnel
 bfmplay://NEUF_NUM23_N23_1020936436168
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S1021134028170" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/7/1/6f821171e8fa8dfbbb383c44c2d6619b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay 100% DOCS - Le Top des docs",Catastrophes naturelles : piégés au cœur du chaos
