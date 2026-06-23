@@ -2282,7 +2282,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="France TV backup",Al Aoula (1080p) [iptv-org-fra]
-https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
+https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
@@ -2510,3 +2510,7 @@ http://69.64.57.208/france5/mono.m3u8
 https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTeen.de@FR" group-title="Jeunesse",Pluto TV Teen (720p)
 https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="France TV backup",Al Aoula (1080p) [iptv-org-fra]
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
