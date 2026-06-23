@@ -361,63 +361,6 @@ def build_m3u_block(name: str, url: str, group: str, tvg_id: str = "", logo: str
     return f'#EXTINF:-1 {attr_str},{name}\n{url}'
 
 
-# 2026-06-23 : scraping TF1+ Live channels (TNT + externes + FAST replay 24/7)
-# à ajouter à data.m3u. Permet aux chaînes TF1+ d'être disponibles dans le
-# provider World Live + auto-refresh toutes les ~30 min via cron-job.org.
-TF1_FAST_URL = "https://www.tf1.fr/chaines-tv/direct"
-TF1_LOGO = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png"
-TF1_LIVE_KNOWN = {
-    "L_TF1":               ("TF1",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png"),
-    "L_TMC":               ("TMC",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tmc-fr.png"),
-    "L_TFX":               ("TFX",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tfx-fr.png"),
-    "L_TF1-SERIES-FILMS":  ("TF1 Séries Films", "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-series-films-fr.png"),
-    "L_LCI":               ("LCI",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lci-fr.png"),
-    "L_ARTE":              ("ARTE",             "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png"),
-    "L_L-EQUIPE":          ("L'Equipe",         "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lequipe-fr.png"),
-    "L_LCP-PUBLIC-SENAT":  ("LCP / Public Sénat","https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lcp-an-fr.png"),
-    "L_LE-FIGARO":         ("Le Figaro TV",     TF1_LOGO),
-    "L_NOVO19":            ("Paris Première",   "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/paris-premiere-fr.png"),
-    "L_REDBULLTV":         ("Red Bull TV",      TF1_LOGO),
-}
-def _fast_to_human(fid):
-    import re as _re
-    slug = fid.replace("L_FAST_v2l-ad-", "")
-    slug = _re.sub(r'-\d+$', '', slug)
-    return slug.replace("-", " ").replace("_", " ").title().replace("And", "&").strip()
-
-async def fetch_tf1_fast_channels(session):
-    """Scrape tf1.fr/chaines-tv/direct → liste de blocs M3U pour TOUTES les
-    chaînes Live TF1+ : 11 fixes (TF1/TMC/TFX/TF1-Séries-Films/LCI + ARTE/
-    L'Equipe/LCP/Le Figaro/Paris Première/Red Bull TV) + 25 FAST replay 24/7."""
-    import re as _re
-    try:
-        async with session.get(TF1_FAST_URL, headers={"User-Agent": "Mozilla/5.0"}, timeout=10) as r:
-            if r.status != 200:
-                return []
-            html = await r.text()
-    except Exception as e:
-        print(f"[!] TF1 Live scrape error: {e}")
-        return []
-    blocks = []
-    for kid, (label, logo) in TF1_LIVE_KNOWN.items():
-        if kid in html:
-            blocks.append(
-                f'#EXTINF:-1 tvg-id="tf1live-{kid}" tvg-logo="{logo}" tvg-country="FR" '
-                f'group-title="Live TF1+",{label}\n'
-                f'tf1live://{kid}\n'
-            )
-    fast_ids = sorted(set(_re.findall(r'L_FAST_v2l-ad-[a-z0-9\-]+-\d+', html)))
-    for fid in fast_ids:
-        label = _fast_to_human(fid)
-        blocks.append(
-            f'#EXTINF:-1 tvg-id="tf1live-{fid}" tvg-logo="{TF1_LOGO}" tvg-country="FR" '
-            f'group-title="Live TF1+",{label}\n'
-            f'tf1live://{fid}\n'
-        )
-    print(f"[+] TF1 Live scraped: {len(blocks)} chaînes ({len(fast_ids)} FAST + {len(blocks)-len(fast_ids)} fixes)")
-    return blocks
-
-
 async def main_async():
     print(f"=== Auto-refresh {LOCAL_M3U} v4 (multi-sources FR, concurrency={CONCURRENCY}) ===")
     conn = aiohttp.TCPConnector(limit=CONCURRENCY * 2, ssl=False)
@@ -656,32 +599,6 @@ async def main_async():
     print(f"\n=== Stats ===")
     print(f"Checked: {len(entries)}  Alive: {n_alive}  Dead: {len(dead_entries)}  Replaced: {n_replaced}")
     print(f"ParaTV ajoutes: {n_added}  | FR backup: {n_backup_added}  | FR nouveaux: {n_new_added}")
-
-    # 2026-06-23 : Append TF1+ FAST channels (replay 24/7) à la fin du m3u
-    try:
-        import aiohttp as _aio
-        async with _aio.ClientSession() as _sess:
-            fast_blocks = await fetch_tf1_fast_channels(_sess)
-            if fast_blocks:
-                # Retire les anciennes entrées "tf1live://" du content existant pour
-                # éviter les doublons quand on relance le scraping
-                lines = new_content.split("\n")
-                cleaned = []
-                skip_next = False
-                for ln in lines:
-                    if skip_next:
-                        skip_next = False
-                        continue
-                    if 'group-title="Live TF1+"' in ln and "L_FAST" in ln:
-                        skip_next = True
-                        continue
-                    if ln.strip().startswith("tf1live://L_FAST"):
-                        continue
-                    cleaned.append(ln)
-                new_content = "\n".join(cleaned).rstrip() + "\n\n" + "".join(fast_blocks)
-                print(f"[+] Ajouté {len(fast_blocks)} TF1+ FAST channels à data.m3u")
-    except Exception as e:
-        print(f"[!] TF1+ FAST append skipped: {e}")
 
     if new_content == content:
         print("\n-> No change, exiting.")
