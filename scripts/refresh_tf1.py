@@ -3,10 +3,6 @@
 
 Scraping JSON-LD ItemList sur tf1.fr/{chan}/replay + programmes-tv/{cat}.
 SKIP /a-la-carte (= 100% payant : Sans pub 0,69€, Avant-premières, VOD Cinéma).
-
-2026-06-23 : ajout Live TF1+ FAST channels scraping (= 25 chaînes replay 24/7
-+ 6 chaînes externes Red Bull TV/Arte/L'Equipe/LCP/Le Figaro/Paris Première
-au lieu d'être hardcoded dans l'app).
 """
 import json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(__file__))
@@ -21,52 +17,6 @@ TF1_CHANNELS = [
     ("tf1-series-films", "TF1 Séries Films", "https://i.imgur.com/3OZdMb9.png"),
     ("lci",              "LCI",              "https://i.imgur.com/jVxzNHL.png"),
 ]
-
-# 2026-06-23 : Live TF1+ — scrapé depuis tf1.fr/chaines-tv/direct
-# Mapping fixe des ID L_<XXX> connus → (titre, logo).
-# Les ID L_FAST_v2l-ad-... sont dynamiques (25 chaînes replay 24/7).
-TF1_LIVE_DIRECT_URL = "https://www.tf1.fr/chaines-tv/direct"
-TF1_LIVE_KNOWN = {
-    "L_TF1":               ("TF1",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png"),
-    "L_TMC":               ("TMC",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tmc-fr.png"),
-    "L_TFX":               ("TFX",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tfx-fr.png"),
-    "L_TF1-SERIES-FILMS":  ("TF1 Séries Films", "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-series-films-fr.png"),
-    "L_LCI":               ("LCI",              "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lci-fr.png"),
-    "L_ARTE":              ("ARTE",             "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png"),
-    "L_L-EQUIPE":          ("L'Equipe",         "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lequipe-fr.png"),
-    "L_LCP-PUBLIC-SENAT":  ("LCP / Public Sénat","https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lcp-an-fr.png"),
-    "L_LE-FIGARO":         ("Le Figaro TV",     "https://i.imgur.com/qkOSt0o.png"),
-    "L_NOVO19":            ("Paris Première",   "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/paris-premiere-fr.png"),
-    "L_REDBULLTV":         ("Red Bull TV",      "https://i.imgur.com/qkOSt0o.png"),
-}
-
-
-def _fast_id_to_human(fast_id):
-    """L_FAST_v2l-ad-demain-nous-appartient-38296145 → 'Demain nous appartient'."""
-    slug = fast_id.replace("L_FAST_v2l-ad-", "")
-    slug = re.sub(r'-\d+$', '', slug)
-    return slug.replace("-", " ").replace("_", " ").title().replace("And", "&").strip()
-
-
-def scrape_tf1_live_channels():
-    """Scrape tf1.fr/chaines-tv/direct → liste de (id, titre, logo).
-    Returne tous les channels Live TF1+ (TNT + externes + FAST).
-    """
-    try:
-        html = http_get_tf1(TF1_LIVE_DIRECT_URL)
-    except Exception as e:
-        print(f"[!] TF1 live scrape error: {e}", file=sys.stderr)
-        return []
-    fast_ids = sorted(set(re.findall(r'L_FAST_v2l-ad-[a-z0-9\-]+-\d+', html)))
-    chans = []
-    for kid, (label, logo) in TF1_LIVE_KNOWN.items():
-        if kid in html:
-            chans.append((kid, label, logo))
-    for fid in fast_ids:
-        chans.append((fid, _fast_id_to_human(fid), "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png"))
-    return chans
-
-
 # 2026-06-22 : ajout "series" (= 295 progs uniques, la plus grosse catégorie).
 # Skip "a-la-carte" qui est 100% payant.
 TF1_CATEGORIES = [
@@ -157,19 +107,6 @@ def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
 def generate(output_path):
     lines = ["#EXTM3U"]
     total = 0
-
-    print("\n=== Live TF1+ (scrapé tf1.fr/chaines-tv/direct) ===")
-    live_chans = scrape_tf1_live_channels()
-    print(f"  {len(live_chans)} chaînes Live TF1+ trouvées")
-    for chan_id, chan_label, chan_logo in live_chans:
-        lines.append(
-            f'#EXTINF:-1 tvg-id="tf1live-{chan_id}" '
-            f'tvg-logo="{chan_logo}" tvg-country="FR" '
-            f'group-title="Live TF1+",{chan_label}'
-        )
-        # URL custom — résolu par TF1Resolver côté app
-        lines.append(f'tf1live://{chan_id}')
-        total += 1
 
     print("\n=== TF1+ Replay (5 chaînes JSON-LD) ===")
     for chan_slug, chan_label, chan_logo in TF1_CHANNELS:
