@@ -2374,6 +2374,29 @@ tf1live://L_LE-FIGARO
 tf1live://L_NOVO19
 #EXTINF:-1 tvg-id="tf1live-L_REDBULLTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Red Bull TV
 tf1live://L_REDBULLTV
+
+#EXTINF:-1 tvg-id="tf1live-L_TF1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",TF1
+tf1live://L_TF1
+#EXTINF:-1 tvg-id="tf1live-L_TMC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tmc-fr.png" tvg-country="FR" group-title="Live TF1+",TMC
+tf1live://L_TMC
+#EXTINF:-1 tvg-id="tf1live-L_TFX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tfx-fr.png" tvg-country="FR" group-title="Live TF1+",TFX
+tf1live://L_TFX
+#EXTINF:-1 tvg-id="tf1live-L_TF1-SERIES-FILMS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-series-films-fr.png" tvg-country="FR" group-title="Live TF1+",TF1 Séries Films
+tf1live://L_TF1-SERIES-FILMS
+#EXTINF:-1 tvg-id="tf1live-L_LCI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lci-fr.png" tvg-country="FR" group-title="Live TF1+",LCI
+tf1live://L_LCI
+#EXTINF:-1 tvg-id="tf1live-L_ARTE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png" tvg-country="FR" group-title="Live TF1+",ARTE
+tf1live://L_ARTE
+#EXTINF:-1 tvg-id="tf1live-L_L-EQUIPE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lequipe-fr.png" tvg-country="FR" group-title="Live TF1+",L'Equipe
+tf1live://L_L-EQUIPE
+#EXTINF:-1 tvg-id="tf1live-L_LCP-PUBLIC-SENAT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/lcp-an-fr.png" tvg-country="FR" group-title="Live TF1+",LCP / Public Sénat
+tf1live://L_LCP-PUBLIC-SENAT
+#EXTINF:-1 tvg-id="tf1live-L_LE-FIGARO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Le Figaro TV
+tf1live://L_LE-FIGARO
+#EXTINF:-1 tvg-id="tf1live-L_NOVO19" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/paris-premiere-fr.png" tvg-country="FR" group-title="Live TF1+",Paris Première
+tf1live://L_NOVO19
+#EXTINF:-1 tvg-id="tf1live-L_REDBULLTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Red Bull TV
+tf1live://L_REDBULLTV
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-alice-nevers-78424271" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Alice Nevers
 tf1live://L_FAST_v2l-ad-alice-nevers-78424271
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-baby-boom-88288927" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Baby Boom
@@ -2382,8 +2405,6 @@ tf1live://L_FAST_v2l-ad-baby-boom-88288927
 tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
-#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-danse-avec-les-stars-00457635" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Danse Avec Les Stars
-tf1live://L_FAST_v2l-ad-danse-avec-les-stars-00457635
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-demain-nous-appartient-38296145" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Demain Nous Appartient
 tf1live://L_FAST_v2l-ad-demain-nous-appartient-38296145
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
