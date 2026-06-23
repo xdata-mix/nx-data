@@ -8,7 +8,7 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: refresh-replays-pipeline
+  group: refresh-tf1-only
   cancel-in-progress: false
 jobs:
   refresh:
@@ -36,7 +36,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "auto: refresh data-replay-tf1.m3u (TF1+)"
-            # Récupère les pushs concurrents AVANT le push (refresh.yml cron 30min, autres workflows split)
+            # Récupère les pushs concurrents AVANT le push (autres workflows en parallèle)
             git pull --rebase origin main || git rebase --abort
             git push
           fi
