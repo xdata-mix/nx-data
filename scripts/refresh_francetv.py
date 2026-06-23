@@ -56,16 +56,26 @@ def _parse_yatta_response(data):
                 title = f"{program_title} — {title}"
             if not title:
                 continue
+            # 2026-06-23 : extract image from "images" array (= list of
+            # {urls: {"w:265": ..., "w:400": ...}, type: "background_16x9"|"vignette"})
+            # Prefer vignette (portrait) for posters, fallback background_16x9.
             logo = ""
-            for k in ("image_url", "background_url"):
-                v = item.get(k)
-                if v and isinstance(v, str):
-                    logo = v
-                    break
-            if not logo:
-                imgs = item.get("media_image") or {}
-                if isinstance(imgs, dict):
-                    logo = imgs.get("url", "")
+            imgs = item.get("images") or []
+            if isinstance(imgs, list):
+                # Priority : vignette portrait (= les vrais posters de séries)
+                portrait_img = next((i for i in imgs if i.get("type", "").startswith("vignette")), None)
+                bg_img = next((i for i in imgs if i.get("type", "").startswith("background")), None)
+                chosen = portrait_img or bg_img or (imgs[0] if imgs else None)
+                if chosen:
+                    urls = chosen.get("urls", {}) or {}
+                    # Prefer ~400-800px for jaquettes (optimal taille app)
+                    for size_key in ("w:400", "w:300", "w:800", "w:265", "w:1024", "w:2500"):
+                        if urls.get(size_key):
+                            logo = urls[size_key]
+                            break
+                    # Fallback : 1st URL trouvée
+                    if not logo and urls:
+                        logo = next(iter(urls.values()))
             out.append({"si_id": si, "title": title[:140], "logo": logo})
             if len(out) >= MAX_ITEMS_PER_CHAN:
                 break
