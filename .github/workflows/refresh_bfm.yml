@@ -31,14 +31,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Rebase pour éviter conflits entre workflows concurrents (concurrency
-          # group nous protège déjà, mais ceinture+bretelle)
-          git pull --rebase origin main || true
           git add data-replay-bfm.m3u data-replay.m3u
           if git diff --staged --quiet; then
             echo "No changes"
           else
             git commit -m "auto: refresh data-replay-bfm.m3u (BFM/RMC)"
+            # Récupère les pushs concurrents AVANT le push (refresh.yml cron 30min, autres workflows split)
+            git pull --rebase origin main || git rebase --abort
             git push
           fi
       - name: Auto-cleanup old workflow runs
