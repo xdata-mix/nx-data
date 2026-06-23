@@ -1828,7 +1828,7 @@ http://69.64.57.208/albayanetv/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
