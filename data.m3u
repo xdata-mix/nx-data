@@ -2504,3 +2504,9 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 http://69.64.57.208/france2/mono.m3u8
 #EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (1080p) [iptv-org-fr]
 http://69.64.57.208/france5/mono.m3u8
+
+# === Ajouts FR multi-sources : Jeunesse ===
+#EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@FR" group-title="Jeunesse",Pluto TV Kids Classics (720p)
+https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTeen.de@FR" group-title="Jeunesse",Pluto TV Teen (720p)
+https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8
