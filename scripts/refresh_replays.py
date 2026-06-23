@@ -72,6 +72,10 @@ TF1_CHANNELS = [
 # v2 (gain marginal) : catégories /programmes-tv/* pour récupérer programmes
 #   qui ne sont pas dans /<chan>/replay (ex: sport, reportages, jeunesse)
 TF1_CATEGORIES = [
+    # 2026-06-22 (user "tout prendre, pas que les saisons") : ajout "series"
+    #   (= 295 programmes uniques sur /programmes-tv/series, la plus grosse
+    #   catégorie de TF1+ et MANQUAIT du script).
+    ("series",               "Séries"),
     ("sport",                "Sport"),
     ("reportages",           "Reportages"),
     ("telefilms",            "Téléfilms"),
@@ -479,6 +483,25 @@ M6_CHANNELS = [
 ]
 M6_PAGE_SIZE = 100  # API caps à 100 par requête, pagination obligatoire
 
+# 2026-06-22 (user "tout prendre comme BFM") : 9 catégories TRANSVERSES M6+
+#   (= menu "Catégories" du site m6.fr). Endpoint :
+#     /services/m6replay/folders/{folder_id}/programs?limit=100
+#   IMPORTANT : les folders sont CROSS-CHAÎNE — un même appel récupère TOUS
+#   les programmes d'une catégorie peu importe le service. 1 seul appel
+#   suffit par folder. Filtre M6+MAX premium si marker (subscriptions).
+M6_FOLDERS = [
+    (10,   "Divertissement"),
+    (232,  "Séries réalité"),
+    (8,    "Séries"),
+    (58,   "Sport"),
+    (12,   "Infos & Société"),
+    (907,  "Cinéma"),
+    (70,   "Téléfilms"),
+    (52,   "Jeunesse"),
+    (2996, "Podcasts"),
+]
+M6_LOGO_GENERIC = "https://i.imgur.com/4lhxLPB.png"
+
 # ───── BFM / RMC Play (2026-06-21) ─────
 # API CDN publique Gaia-core. Chaque chaîne a une page menu avec un spot
 #   "Tous les replays" paginé (tiles = programmes avec productId).
@@ -518,6 +541,31 @@ BFM_BROKEN_PREFIXES = [
     "NEUF_VIRGIN17", "NEUF_UNIVERSAL", "NEUF_KITCHEN_MANIA",
     "NEUF_USHUAIA", "NEUF_FILMDAFRIQUE",
 ]
+
+# Thématiques transverses BFM/RMC (= menu "Thématiques" du site rmcbfmplay.com).
+#   14 thématiques découvertes via probe DOM 2026-06-22. Chaque thématique = un
+#   themeId RefTile qui retourne des Saisons cross-chaîne. Endpoint :
+#     /tile/RefTile::<themeId>/content?app=bfmrmc&...&page=0&size=200
+# Le param size=200 débloque le cap par défaut (= 10). Certaines thématiques
+# retournent jusqu'à 150 items (= probablement cap interne API). Tester
+# régulièrement si BFM en ajoute.
+BFM_THEMES = [
+    ("crime-investigation",          "02179209-fc21-4001-8593-d2d8b7696788", "Crime & Investigation"),
+    ("cinema-fiction",               "f2e897a0-76d8-40c9-89f4-148411aca185", "Cinéma & Fiction"),
+    ("moteur-mecanique",             "8055d4b0-47b1-42b8-8686-a6861cd8ea9b", "Moteur & Mécanique"),
+    ("aventure-survie",              "09cbd302-808a-4724-a591-18a17d17455f", "Aventure & Survie"),
+    ("divertissement",               "1fba40d2-820d-470e-ad70-5e1be1cb2f4c", "Divertissement"),
+    ("documentaire",                 "5fc555aa-4f58-4372-ba6e-2a1a3ab2707c", "Documentaire"),
+    ("mystere-etrange",              "4d5db435-cfce-4024-9580-b0b21331a5d0", "Mystère & Étrange"),
+    ("histoire-civilisation",        "91e978e9-bc32-4f56-9bc3-1028c333fd20", "Histoire & Civilisation"),
+    ("science-technologie",          "a296a74f-7bd0-45f9-aceb-bbb7609d5dba", "Science & Technologie"),
+    ("societe-immersion",            "d4fd74f7-2587-4eba-a26e-3f00e4ae992f", "Société & Immersion"),
+    ("docu-realite",                 "2d39f387-9593-414c-9089-01e3b6ef7b1e", "Docu-Réalité"),
+    ("sport-combat",                 "5af91e75-a280-454b-beef-6fdba4f81598", "Sport & Combat"),
+    ("info-talk",                    "bf31206d-3bdb-40d6-b5f2-475032d7797b", "Info & Talk"),
+    ("grand-reportage-ligne-rouge",  "d952ba56-c92c-4114-981b-2a68c53cf5b6", "Grand Reportage"),
+]
+
 
 def m6_channel_programs(service_id, max_items=2000):
     """Liste les programmes (= émissions/séries) disponibles pour une chaîne M6+
@@ -562,6 +610,65 @@ def m6_channel_programs(service_id, max_items=2000):
             out.append({"program_id": pid, "title": title[:140], "image": img, "service": service_id, "tvg_type": tvg_type})
         if len(arr) < M6_PAGE_SIZE:
             break  # dernière page
+        offset += M6_PAGE_SIZE
+    return out
+
+
+
+
+def m6_folder_programs(folder_id, folder_label, max_items=2000):
+    """2026-06-22 — scrape une catégorie transverse M6+ (= folder cross-chaîne).
+    Endpoint /services/m6replay/folders/{fid}/programs avec pagination.
+    Le service est inchangé (= m6replay) car les folders sont transverses :
+    on récupère TOUS les programmes de la catégorie peu importe la chaîne.
+    Filtre les contenus M6+MAX premium (marqueur 'is_subscription' ou
+    'subscriptions' non vide). Retourne list[{program_id,title,image,
+    tvg_type,folder_label}]."""
+    out = []
+    offset = 0
+    while offset < max_items:
+        url = (f"{M6_BASE}/m6replay/folders/{folder_id}/programs"
+               f"?limit={M6_PAGE_SIZE}&offset={offset}&csa=6")
+        try:
+            raw = http_get(url, headers={"Accept": "application/json"})
+        except Exception as e:
+            print(f"[!] M6 folder {folder_id} offset={offset}: {e}", file=sys.stderr)
+            break
+        try:
+            arr = json.loads(raw)
+        except Exception:
+            break
+        if not isinstance(arr, list) or len(arr) == 0:
+            break
+        for p in arr:
+            pid = p.get("id")
+            if not pid:
+                continue
+            # Filtre M6+MAX premium
+            if p.get("subscriptions") or p.get("is_subscription"):
+                continue
+            code = (p.get("code") or "").strip()
+            name = (p.get("name") or "").strip()
+            title = name if name else slug_to_title(code)
+            if not title:
+                continue
+            img = ""
+            imgs = p.get("images") or []
+            if imgs and isinstance(imgs, list):
+                img = imgs[0].get("external_key", "") if isinstance(imgs[0], dict) else ""
+            ptype = (p.get("program_type_wording") or {}).get("code", "")
+            is_series = ptype in {"episode", "emission", "magazine", "journal", "dessin-anime"}
+            tvg_type = "series" if is_series else "movie"
+            out.append({
+                "program_id": pid,
+                "title": title[:140],
+                "image": img,
+                "service": "m6replay",
+                "tvg_type": tvg_type,
+                "folder_label": folder_label,
+            })
+        if len(arr) < M6_PAGE_SIZE:
+            break
         offset += M6_PAGE_SIZE
     return out
 
@@ -653,6 +760,119 @@ def bfm_channel_programs(menu_id, max_items=500):
         time.sleep(0.15)
 
     return out[:max_items]
+
+
+
+def bfm_fetch_episodes(content_id):
+    """2026-06-22 — pour une Saison BFM (= 1 émission/série), récupère tous
+    ses épisodes individuels via l'endpoint /content/{id}/episodes du Gaia CDN.
+    Sans token requis (= endpoint public).
+    Retourne liste de dicts {product_id, title, image, tvg_type, paid}.
+    Filtre auto les épisodes avec svodId non vide (= payant SVOD)."""
+    url = (f"{BFM_CDN}/content/Product::{content_id}/episodes"
+           f"?universe=PROVIDER&accountTypes=NEXTTV&operators=NEXTTV"
+           f"&noTracking=false&page=0&size=1000")
+    try:
+        raw = http_get(url, headers={"Accept": "application/json"})
+        data = json.loads(raw)
+    except Exception:
+        return []
+    items = data.get("content", [])
+    out = []
+    for ep in items:
+        # contentId de l'épisode (action.actionIds.contentId, fallback id direct)
+        ep_pid_raw = (ep.get("action") or {}).get("actionIds", {}).get("contentId", "")
+        if not ep_pid_raw:
+            ep_pid_raw = ep.get("id", "") or ep.get("productId", "")
+        ep_pid = ep_pid_raw.replace("Product::", "")
+        if not ep_pid:
+            continue
+        # Filtre payant (svodId rempli = abonnement requis)
+        if ep.get("svodId"):
+            continue
+        if any(ep_pid.startswith(pfx) for pfx in BFM_BROKEN_PREFIXES):
+            continue
+        title = (ep.get("title") or "").strip()
+        if not title:
+            continue
+        # Image : prefer 16/9 ou 2/3 sans titre overlay
+        image = ""
+        for img in (ep.get("images") or []):
+            fmt = img.get("format", "")
+            u = img.get("url", "")
+            wt = img.get("withTitle", False)
+            if fmt in ("16/9", "2/3") and not wt and u:
+                image = u
+                break
+            if not image and u and not wt:
+                image = u
+        ct = ep.get("contentType", "")
+        tvg_type = "movie" if ct == "Movie" else "series"
+        out.append({
+            "product_id": ep_pid,
+            "title": title[:140],
+            "image": image,
+            "tvg_type": tvg_type,
+        })
+    return out
+
+
+def bfm_theme_programs(theme_id, theme_label, max_items=500):
+    """2026-06-22 — scrape une thématique transverse BFM/RMC (= page
+    /thematiques/<slug>?themeId=RefTile::xxx du site). Le param size=200
+    débloque le cap par défaut (= 10 sinon).
+    Retourne liste de dicts {product_id, title, image, tvg_type, theme_label}.
+    Filtre svodId payant."""
+    url = (f"{BFM_CDN}/tile/RefTile::{theme_id}/content"
+           f"?{BFM_PARAMS}&page=0&size=200")
+    try:
+        raw = http_get(url, headers={"Accept": "application/json"})
+        data = json.loads(raw)
+    except Exception as e:
+        print(f"[!] BFM theme error {theme_label}: {e}", file=sys.stderr)
+        return []
+    items = data.get("items", [])
+    out = []
+    seen = set()
+    for tile in items:
+        if tile.get("svodId"):
+            continue
+        pid_raw = tile.get("productId") or ""
+        if not pid_raw:
+            aids = (tile.get("action") or {}).get("actionIds") or {}
+            pid_raw = aids.get("contentId", "")
+        pid = pid_raw.replace("Product::", "")
+        if not pid or "NEUF_" not in pid or pid in seen:
+            continue
+        if any(pid.startswith(pfx) for pfx in BFM_BROKEN_PREFIXES):
+            continue
+        seen.add(pid)
+        title = (tile.get("title") or "").strip()
+        if not title:
+            continue
+        image = ""
+        for img in (tile.get("images") or []):
+            fmt = img.get("format", "")
+            u = img.get("url", "")
+            wt = img.get("withTitle", False)
+            if fmt in ("2/3", "16/9") and not wt and u:
+                image = u
+                break
+            if not image and u and not wt:
+                image = u
+        ct = tile.get("contentType", "")
+        tvg_type = "series" if ct in ("Season", "Series", "Episode") else "movie"
+        out.append({
+            "product_id": pid,
+            "title": title[:140],
+            "image": image,
+            "tvg_type": tvg_type,
+            "theme_label": theme_label,
+        })
+        if len(out) >= max_items:
+            break
+    return out[:max_items]
+
 
 
 # ───── Generation ─────
@@ -857,6 +1077,51 @@ def generate_m3u(output_path):
             total += 1
         time.sleep(0.4)
 
+    # 2026-06-22 — NOUVEAU : M6+ Thématiques transverses (9 catégories
+    #   cross-chaîne : Divertissement, Séries réalité, Séries, Sport,
+    #   Infos & Société, Cinéma, Téléfilms, Jeunesse, Podcasts).
+    #   Dossier dédié "Thématiques M6+" côté app (FolderDef regex
+    #   ^Thématique M6\+ - .* dans LiveTvHubProvider).
+    #   Dedup global : un programme déjà dans une chaîne M6+ ne sera pas
+    #   re-ajouté dans la thématique (= évite doublons UI).
+    print("\n=== M6+ Thématiques transverses ===")
+    m6_themes_seen = set()
+    # Récupère IDs déjà vus dans les chaînes M6+ pour dedup
+    for line in lines:
+        if line.startswith('m6play://'):
+            try:
+                pid_already = line.split('/')[-1]
+                m6_themes_seen.add(pid_already)
+            except Exception:
+                pass
+    for folder_id, folder_label in M6_FOLDERS:
+        progs = m6_folder_programs(folder_id, folder_label)
+        added = 0
+        group = f"Thématique M6+ - {folder_label}"
+        for p in progs:
+            pid = p["program_id"]
+            if pid in m6_themes_seen:
+                continue
+            m6_themes_seen.add(pid)
+            ilogo = p.get("image") or M6_LOGO_GENERIC
+            if ilogo and not ilogo.startswith("http"):
+                ilogo = f"https://images.6play.fr/v1/images/{ilogo}/raw"
+            extinf = (
+                f'#EXTINF:-1 tvg-id="m6plus-{pid}" '
+                f'tvg-logo="{ilogo}" '
+                f'tvg-country="FR" '
+                f'tvg-type="{p.get("tvg_type", "series")}" '
+                f'group-title="{group}",{p["title"]}'
+            )
+            lines.append(extinf)
+            # service par défaut m6replay (= les folders sont cross-chaîne,
+            #   M6Resolver côté Kotlin sait gérer en essayant les services).
+            lines.append(f'm6play://m6replay/{pid}')
+            total += 1
+            added += 1
+        print(f"  Théma {folder_label}: {len(progs)} progs → {added} nouveaux (dedup)")
+        time.sleep(0.3)
+
     # BFM / RMC Play Live (2026-06-21)
     print("\n=== BFM / RMC Play Live ===")
     for chan_key, chan_label, chan_logo in BFM_LIVE_CHANNELS:
@@ -878,31 +1143,116 @@ def generate_m3u(output_path):
     #   Dedup GLOBAL cross-channel : un même productId ne doit apparaître qu'1×
     #   dans le M3U (première chaîne qui le contient gagne).
     print("\n=== BFM / RMC Play Replay ===")
+    # 2026-06-22 (user "il faut tout prendre, pas juste les saisons") :
+    #   Pour chaque Saison récupérée, on appelle /content/{id}/episodes
+    #   pour récupérer les épisodes individuels datés. Si la saison renvoie
+    #   ≥1 épisode, on PUSH les épisodes ET PAS la saison (= évite doublon).
+    #   Si /episodes retourne 0 (= ce n'est pas une vraie série), on garde
+    #   le bloc saison comme avant.
     bfm_global_seen = set()
     for menu_id, chan_slug, chan_label, chan_logo in BFM_REPLAY_CHANNELS:
         progs = bfm_channel_programs(menu_id)
-        added = 0
+        added_seasons = 0
+        added_episodes = 0
         for p in progs:
-            pid = p["product_id"]
-            if pid in bfm_global_seen:
+            season_pid = p["product_id"]
+            if season_pid in bfm_global_seen:
                 continue
-            bfm_global_seen.add(pid)
-            ilogo = p.get("image") or chan_logo
+            bfm_global_seen.add(season_pid)
+            ilogo_season = p.get("image") or chan_logo
             category = p.get("category", "")
             group = f"Replay {chan_label} - {category}" if category else f"Replay {chan_label}"
-            extinf = (
-                f'#EXTINF:-1 tvg-id="bfmplay-{pid}" '
-                f'tvg-logo="{ilogo}" '
-                f'tvg-country="FR" '
-                f'tvg-type="{p.get("tvg_type", "series")}" '
-                f'group-title="{group}",{p["title"]}'
-            )
-            lines.append(extinf)
-            lines.append(f'bfmplay://{pid}')
-            total += 1
-            added += 1
-        print(f"  {chan_label}: {len(progs)} programmes, {added} uniques ajoutés")
+            # Tente fetch épisodes pour cette saison
+            episodes = bfm_fetch_episodes(season_pid)
+            if episodes:
+                # Pousser les épisodes datés
+                for ep in episodes:
+                    ep_pid = ep["product_id"]
+                    if ep_pid in bfm_global_seen:
+                        continue
+                    bfm_global_seen.add(ep_pid)
+                    ep_logo = ep.get("image") or ilogo_season
+                    ep_title = f'{p["title"]} - {ep["title"]}' if ep["title"] != p["title"] else p["title"]
+                    lines.append(
+                        f'#EXTINF:-1 tvg-id="bfmplay-{ep_pid}" '
+                        f'tvg-logo="{ep_logo}" '
+                        f'tvg-country="FR" '
+                        f'tvg-type="{ep.get("tvg_type", "series")}" '
+                        f'group-title="{group}",{ep_title[:200]}'
+                    )
+                    lines.append(f'bfmplay://{ep_pid}')
+                    total += 1
+                    added_episodes += 1
+                time.sleep(0.05)
+            else:
+                # Pas d'épisodes → push la saison telle quelle (fallback)
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="bfmplay-{season_pid}" '
+                    f'tvg-logo="{ilogo_season}" '
+                    f'tvg-country="FR" '
+                    f'tvg-type="{p.get("tvg_type", "series")}" '
+                    f'group-title="{group}",{p["title"]}'
+                )
+                lines.append(f'bfmplay://{season_pid}')
+                total += 1
+                added_seasons += 1
+        print(f"  {chan_label}: {len(progs)} saisons, {added_episodes} épisodes + {added_seasons} saisons fallback ajoutés")
         time.sleep(0.4)
+
+    # 2026-06-22 — NOUVEAU : Thématiques transverses BFM/RMC (14 thématiques
+    #   cross-chaîne : Crime, Cinéma, Moteur, Aventure, Divertissement, Docu,
+    #   Mystère, Histoire, Science, Société, Docu-Réalité, Sport, Info & Talk,
+    #   Grand Reportage). Endpoint /tile/RefTile::xxx/content?size=200.
+    #   Dossier dédié "Thématiques BFM Play" côté app (FolderDef regex
+    #   ^Thématique BFM Play - .* dans LiveTvHubProvider).
+    print("\n=== BFM/RMC Thématiques transverses ===")
+    bfm_themes_global_seen = set()
+    for slug, theme_id, theme_label in BFM_THEMES:
+        progs = bfm_theme_programs(theme_id, theme_label)
+        added_episodes = 0
+        added_seasons = 0
+        group = f"Thématique BFM Play - {theme_label}"
+        for p in progs:
+            season_pid = p["product_id"]
+            # Dedup global cross-théma ET cross-chaîne (= un programme dans
+            #   "Documentaire" thématique pourrait être déjà dans Replay BFM TV).
+            if season_pid in bfm_global_seen or season_pid in bfm_themes_global_seen:
+                continue
+            bfm_themes_global_seen.add(season_pid)
+            ilogo_season = p.get("image") or f"{BFM_LOGO_BASE}/bfm-tv-fr.png"
+            episodes = bfm_fetch_episodes(season_pid)
+            if episodes:
+                for ep in episodes:
+                    ep_pid = ep["product_id"]
+                    if ep_pid in bfm_global_seen or ep_pid in bfm_themes_global_seen:
+                        continue
+                    bfm_themes_global_seen.add(ep_pid)
+                    ep_logo = ep.get("image") or ilogo_season
+                    ep_title = f'{p["title"]} - {ep["title"]}' if ep["title"] != p["title"] else p["title"]
+                    lines.append(
+                        f'#EXTINF:-1 tvg-id="bfmplay-{ep_pid}" '
+                        f'tvg-logo="{ep_logo}" '
+                        f'tvg-country="FR" '
+                        f'tvg-type="{ep.get("tvg_type", "series")}" '
+                        f'group-title="{group}",{ep_title[:200]}'
+                    )
+                    lines.append(f'bfmplay://{ep_pid}')
+                    total += 1
+                    added_episodes += 1
+                time.sleep(0.05)
+            else:
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="bfmplay-{season_pid}" '
+                    f'tvg-logo="{ilogo_season}" '
+                    f'tvg-country="FR" '
+                    f'tvg-type="{p.get("tvg_type", "series")}" '
+                    f'group-title="{group}",{p["title"]}'
+                )
+                lines.append(f'bfmplay://{season_pid}')
+                total += 1
+                added_seasons += 1
+        print(f"  Thématique {theme_label}: {len(progs)} saisons → {added_episodes} épisodes + {added_seasons} saisons ajoutés")
+        time.sleep(0.3)
 
     Path(output_path).write_text("\n".join(lines), encoding="utf-8")
     print(f"\n[OK] Wrote {total} replay programs to {output_path}")
