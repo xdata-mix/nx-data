@@ -1484,7 +1484,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-r
 #EXTINF:-1 tvg-id="le-meilleur-d-arthur" group-title="France TV backup",LE MEILLEUR D'ARTHUR [schumijo]
 https://jmp2.uk/stvp-FRBD1900006NA
 #EXTINF:-1 tvg-id="enquetes-de-choc-fast-media" group-title="France TV backup",ENQUÊTES DE CHOC [schumijo]
-https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
+https://jmp2.uk/stvp-FRBC90000220
 #EXTINF:-1 tvg-id="FRBB340000115" group-title="France TV backup",EMOTION'L [schumijo]
 https://amg00711-zylo-france-zylo-emotional-rakuten-frukp.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-emotional-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="FRBC800001X0" group-title="France TV backup",FREQUENCE NOVELAS [schumijo]
@@ -2347,3 +2347,7 @@ https://edge11.vedge.infomaniak.com/livecast/ik:impacttv-2/manifest.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
 https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="enquetes-de-choc-fast-media" group-title="France TV backup",ENQUÊTES DE CHOC [schumijo]
+https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
