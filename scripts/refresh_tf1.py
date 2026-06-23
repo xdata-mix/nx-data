@@ -102,6 +102,50 @@ def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
     return out
 
 
+def tf1_category_sections(category_slug, max_items=MAX_ITEMS_PER_CHAN):
+    """Scrape /programmes-tv/<cat> en PRÉSERVANT les sections thématiques
+    (= les rails "Top 10", "Les films populaires en ce moment", "Action",
+    "Comédies", etc. tels qu'affichés sur le site).
+    Retourne [(section_name, [{si_id, title}]), ...] dans l'ordre du site.
+    """
+    try:
+        raw = http_get_tf1(f"https://www.tf1.fr/programmes-tv/{category_slug}")
+    except Exception as e:
+        print(f"[!] TF1 cat sections fetch error {category_slug}: {e}", file=sys.stderr)
+        return []
+    sec_re = re.compile(r'<h2 class="headline-5[^"]*"[^>]*>([^<]+)</h2>')
+    sections_pos = [(m.start(), m.group(1)) for m in sec_re.finditer(raw)]
+    def decode_sec(s):
+        return (s.replace('&#x27;', "'").replace('&apos;', "'")
+                 .replace('&amp;', '&').replace('&#x2F;', '/').strip())
+    sections_pos = [(p, decode_sec(n)) for p, n in sections_pos]
+    SKIP_SECTIONS = {"Tout l'univers", "Tous les films avec", "Sagas à prix doux"}
+    href_re = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
+    excluded = {"replay", "direct", "news", "videos", "programmes-tv", "a-la-carte"}
+    out = []
+    for i, (start, name) in enumerate(sections_pos):
+        if name in SKIP_SECTIONS:
+            continue
+        end = sections_pos[i+1][0] if i+1 < len(sections_pos) else len(raw)
+        chunk = raw[start:end]
+        seen = set()
+        items = []
+        for chan, slug in href_re.findall(chunk):
+            if slug in excluded:
+                continue
+            si_id = f"{chan}/{slug}"
+            if si_id in seen:
+                continue
+            seen.add(si_id)
+            title = slug_to_title(slug)[:140]
+            items.append({"si_id": si_id, "title": title, "logo": ""})
+            if len(items) >= max_items:
+                break
+        if items:
+            out.append((name, items))
+    return out
+
+
 def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
     """Scrape /programmes-tv/<cat>. Format : hrefs /(chan)/(slug)."""
     try:
@@ -174,6 +218,33 @@ def generate(output_path):
             tf1_cat_seen.add(p["si_id"])
     chan_meta = {c[0]: (c[1], c[2]) for c in TF1_CHANNELS}
     for cat_slug, cat_label in TF1_CATEGORIES:
+        # 2026-06-23 : Films et Séries → scrape par SECTIONS thématiques
+        if cat_slug in ("films", "series"):
+            sections = tf1_category_sections(cat_slug)
+            group_prefix = "Replay TF1+ Films" if cat_slug == "films" else "Replay TF1+ Séries"
+            section_added = 0
+            for sec_name, items in sections:
+                for p in items:
+                    chan = p["si_id"].split("/")[0]
+                    meta = chan_meta.get(chan)
+                    if not meta:
+                        continue
+                    chan_label_sec, chan_logo_sec = meta
+                    si_path = (p.get("si_id") or "").lower()
+                    is_film = "film" in si_path or "/cinema/" in si_path or cat_slug == "films"
+                    tvg_type = "movie" if is_film else "series"
+                    lines.append(
+                        f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}-{sec_name.replace(chr(32), chr(45)).lower()}" '
+                        f'tvg-logo="{chan_logo_sec}" tvg-country="FR" '
+                        f'tvg-type="{tvg_type}" '
+                        f'group-title="{group_prefix} - {sec_name}",{p["title"]}'
+                    )
+                    lines.append(f'tf1plus://{p["si_id"]}')
+                    section_added += 1
+                    total += 1
+            print(f"  {cat_label}: +{section_added} entries via {len(sections)} sections")
+            time.sleep(0.3)
+            continue
         progs = tf1_category_programs(cat_slug)
         added = 0
         for p in progs:
