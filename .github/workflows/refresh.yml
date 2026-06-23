@@ -9,7 +9,7 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: refresh-replays-pipeline
+  group: refresh-m3u-urls-only
   cancel-in-progress: false
 jobs:
   refresh:
