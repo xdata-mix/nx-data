@@ -127,6 +127,9 @@ def tf1_category_sections(category_slug, max_items=MAX_ITEMS_PER_CHAN):
     sections_pos = [(p, decode_sec(n)) for p, n in sections_pos]
     SKIP_SECTIONS = {"Tout l'univers", "Tous les films avec", "Sagas à prix doux"}
     href_re = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
+    # 2026-06-23 : extract poster from <picture><source srcSet="..."> near each
+    # <article> card → utilisé comme jaquette dans l'app au lieu du logo chaîne.
+    poster_re = re.compile(r'srcSet="(https://photos\.tf1\.fr/[^"]+?\.(?:avif|webp|jpg))')
     excluded = {"replay", "direct", "news", "videos", "programmes-tv", "a-la-carte"}
     out = []
     for i, (start, name) in enumerate(sections_pos):
@@ -136,15 +139,22 @@ def tf1_category_sections(category_slug, max_items=MAX_ITEMS_PER_CHAN):
         chunk = raw[start:end]
         seen = set()
         items = []
-        for chan, slug in href_re.findall(chunk):
+        # Split par <article : chaque card a 1 poster + 1 href
+        for part in chunk.split('<article')[1:]:
+            href_m = href_re.search(part)
+            if not href_m:
+                continue
+            chan, slug = href_m.group(1), href_m.group(2)
             if slug in excluded:
                 continue
             si_id = f"{chan}/{slug}"
             if si_id in seen:
                 continue
             seen.add(si_id)
+            poster_m = poster_re.search(part)
+            poster = poster_m.group(1) if poster_m else ""
             title = slug_to_title(slug)[:140]
-            items.append({"si_id": si_id, "title": title, "logo": ""})
+            items.append({"si_id": si_id, "title": title, "logo": poster})
             if len(items) >= max_items:
                 break
         if items:
@@ -236,12 +246,14 @@ def generate(output_path):
                     if not meta:
                         continue
                     chan_label_sec, chan_logo_sec = meta
+                    # 2026-06-23 : utilise le poster du film si extracté (jaquettes), sinon logo chaîne
+                    poster = p.get("logo") or chan_logo_sec
                     si_path = (p.get("si_id") or "").lower()
                     is_film = "film" in si_path or "/cinema/" in si_path or cat_slug == "films"
                     tvg_type = "movie" if is_film else "series"
                     lines.append(
                         f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}-{sec_name.replace(chr(32), chr(45)).lower()}" '
-                        f'tvg-logo="{chan_logo_sec}" tvg-country="FR" '
+                        f'tvg-logo="{poster}" tvg-country="FR" '
                         f'tvg-type="{tvg_type}" '
                         f'group-title="{group_prefix} - {sec_name}",{p["title"]}'
                     )
