@@ -12407,8 +12407,6 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
-tf1plus://tf1/le-grand-concours
 #EXTINF:-1 tvg-id="tf1plus-tmc-mahaut-drama-queen" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Mahaut Drama Queen
 tf1plus://tmc/mahaut-drama-queen
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-voice" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Voice
@@ -12477,6 +12475,8 @@ tf1plus://tf1/nrj-music-awards
 tf1plus://tf1/2025-le-grand-feu-dartifice
 #EXTINF:-1 tvg-id="tf1plus-tf1-dream-team" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Dream Team
 tf1plus://tf1/dream-team
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
+tf1plus://tf1/le-grand-concours
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
 tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
@@ -12619,8 +12619,6 @@ tf1plus://tfx/five
 tf1plus://tf1-series-films/shall-we-dance
 #EXTINF:-1 tvg-id="tf1plus-tmc-radin-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-radin-8631b5-0f4c3f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Radin
 tf1plus://tmc/radin
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-vengeance-dans-la-peau-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-jason-bourne-la-vengeance-dans-la-peau-aed2dd-474a69-922c90-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",La Vengeance Dans la Peau
 tf1plus://tf1-series-films/la-vengeance-dans-la-peau
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-cookie-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-ecf711-a81612-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Cookie
@@ -12633,6 +12631,8 @@ tf1plus://tfx/tout-sauf-toi
 tf1plus://tf1/tokarev
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Roulez Jeunesse
 tf1plus://tf1-series-films/roulez-jeunesse
+#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Dirty Dancing
+tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-demain-sur-la-lune-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4993c7-62ce90-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",A Demain Sur la Lune
 tf1plus://tf1/a-demain-sur-la-lune
 #EXTINF:-1 tvg-id="tf1plus-tf1-stray-kids-the-dominate-experience-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-63fdb6-153a45-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Stray Kids The Dominate Experience
@@ -12673,8 +12673,6 @@ tf1plus://tf1/mission-pere-noel
 tf1plus://tf1/mektoub-my-love-canto-due
 #EXTINF:-1 tvg-id="tf1plus-tf1-wicked-partie-2-071-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-852352-41699b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Wicked Partie 2 071
 tf1plus://tf1/wicked-partie-2-071
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-memoire-dans-la-peau-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-jason-bourne-la-memoire-dans-la-peau-f060b6-405a14-2883a8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",La Memoire Dans la Peau
 tf1plus://tf1-series-films/la-memoire-dans-la-peau
 #EXTINF:-1 tvg-id="tf1plus-tfx-apprentis-parents-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-8599c3-3534f1-d29303-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Apprentis Parents
@@ -12713,8 +12711,6 @@ tf1plus://tfx/la-mecanique-de-lombre
 tf1plus://tf1/the-yacht
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-memoire-dans-la-peau-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-jason-bourne-la-memoire-dans-la-peau-f060b6-405a14-2883a8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",La Memoire Dans la Peau
 tf1plus://tf1-series-films/la-memoire-dans-la-peau
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-action" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-jiu-jitsu-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-a75222-97e0e4-2dea54-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Jiu Jitsu
 tf1plus://tf1/jiu-jitsu
 #EXTINF:-1 tvg-id="tf1plus-tf1-kickboxer-lheritage-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-e8c645-be5482-cc2099-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Kickboxer Lheritage
@@ -12729,6 +12725,8 @@ tf1plus://tf1/king-rising-au-nom-du-roi
 tf1plus://tf1/wake-up
 #EXTINF:-1 tvg-id="tf1plus-tf1-creed-lheritage-de-rocky-balboa-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-211b3e-9647f1-ea5edf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Creed Lheritage de Rocky Balboa
 tf1plus://tf1/creed-lheritage-de-rocky-balboa
+#EXTINF:-1 tvg-id="tf1plus-tf1-creed-ii-376-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-af557a-c075bb-2b4903-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Creed Ii 376
+tf1plus://tf1/creed-ii-376
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-sens-de-la-fete-comédies-à-prix-complètement-barrés" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b0214f-cd58b7-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies à prix complètement barrés",Le Sens de la Fete
 tf1plus://tf1/le-sens-de-la-fete
 #EXTINF:-1 tvg-id="tf1plus-tf1-super-heros-malgre-lui-091-comédies-à-prix-complètement-barrés" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-2b8ab3-13b6e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies à prix complètement barrés",Super Heros Malgre Lui 091
@@ -12781,8 +12779,6 @@ tf1plus://tfx/apprentis-parents
 tf1plus://tmc/retour-vers-le-futur-3
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-didier-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1_didier-33bb92-8378b4-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Didier
 tf1plus://tf1-series-films/didier
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-sous-doues-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-472567-ac531a-b46c92-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Les Sous Doues
 tf1plus://tmc/les-sous-doues
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-grand-restaurant-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-c58b53-17f1c8-f74336-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Le Grand Restaurant
@@ -13019,8 +13015,6 @@ tf1plus://tf1/king-rising-au-nom-du-roi
 tf1plus://tf1/king-rising-2-les-deux-mondes
 #EXTINF:-1 tvg-id="tf1plus-tmc-retour-vers-le-futur-3-aventure" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-2e8d44-ae5f08-f1e4f3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Retour Vers le Futur 3
 tf1plus://tmc/retour-vers-le-futur-3
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-aventure" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-michel-vaillant-aventure" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-michelvaill-4dbc17-4f4579-76e76b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Michel Vaillant
 tf1plus://tf1/michel-vaillant
 #EXTINF:-1 tvg-id="tf1plus-tf1-tintin-et-le-mystere-de-la-toison-dor-aventure" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a6b3d3-6f5742-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Tintin et le Mystere de la Toison Dor
@@ -13175,8 +13169,6 @@ tf1plus://tf1/beaute-fatale
 tf1plus://tf1/titanic
 #EXTINF:-1 tvg-id="tf1plus-tmc-to-catch-a-killer-misanthrope-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-0c01d4-a80daa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",To Catch A Killer Misanthrope
 tf1plus://tmc/to-catch-a-killer-misanthrope
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-tell-it-like-a-woman-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-ok-2a5b69-f984e7-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Tell It Like A Woman
 tf1plus://tf1/tell-it-like-a-woman
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-kings-daughter-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-32fac9-79fec5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",The Kings Daughter
@@ -13209,8 +13201,6 @@ tf1plus://tf1/the-recall
 tf1plus://tf1/mutant-legacy
 #EXTINF:-1 tvg-id="tf1plus-tf1-premier-contact-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-00ba27-283ef8-3da783-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",Premier Contact
 tf1plus://tf1/premier-contact
-#EXTINF:-1 tvg-id="tf1plus-tmc-valerian-et-la-cite-des-mille-planetes-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-valerian-et-la-cite-des-mille-planetes-f1db23-3b932a-fe75e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",Valerian et la Cite des Mille Planetes
-tf1plus://tmc/valerian-et-la-cite-des-mille-planetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-tentation-du-panda-roux-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-db9462-bdc86a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",La Tentation du Panda Roux
 tf1plus://tf1-series-films/la-tentation-du-panda-roux
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-effeuillage-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-effeuillage-6f06a8-a072dd-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Effeuillage
