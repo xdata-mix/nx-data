@@ -1,169 +1,187 @@
 #!/usr/bin/env python3
-"""refresh_arte.py — génère data-replay-arte.m3u.
+"""refresh_arte.py — génère data-replay-arte.m3u (Arte replay catalog).
 
-HTML scraping de arte.tv/fr/videos/<cat>/ + /fr/p/<slug>/ (= Concert + thèmes).
-Check disponibilité via api.arte.tv/api/player/v2/config/ pour filtrer les
-programmes avec droits expirés (= ERROR_NO_RIGHTS).
+2026-06-23 : MIGRATION COMPLÈTE vers l'API JSON Arte EMAC v4.
+  Avant : HTML scraping limité (~5 films Cinéma, ~10 séries — total ~250 items)
+  Maintenant : API JSON officielle → toutes les zones/sections/programmes
+  exhaustifs des pages CIN/SER/DEC/SCI/HIS/FAM/etc. avec pagination complète.
+
+Pipeline :
+  1. Fetch /api/emac/v4/fr/web/pages/{CODE} → liste des zones (= rails) de la page
+  2. Pour chaque zone, fetch /zones/{id}/content/?page=N (pagination jusqu'à 5p)
+  3. Pour chaque item (kind=SHOW ou COLLECTION ou EVENT) → entry m3u avec poster
 """
-import json, os, re, sys, time
+import json, os, sys, time, re
 sys.path.insert(0, os.path.dirname(__file__))
-from utils import http_get, slug_to_title
+from utils import http_get
 
-MAX_ITEMS_PER_ARTE_CAT = 500
+ARTE_API_BASE = "https://api.arte.tv/api/emac/v4/fr/web"
+ARTE_LOGO_FALLBACK = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png"
+MAX_PAGES_PER_ZONE = 5
 
-ARTE_LOGO = "https://i.imgur.com/ecXMjNl.png"
-ARTE_HREF_RE = re.compile(r"href=\"/fr/videos/([^/\"]+)/([^\"#]+?)/\"")
-ARTE_PID_VALID = re.compile(r"^(\d{6}-\d{3}-[A-Z]|RC-[A-Za-z0-9]+)$")
-ARTE_API_CFG = "https://api.arte.tv/api/player/v2/config/fr/{}"
-
-ARTE_CATEGORIES = [
-    ("cinema",                       "Cinéma"),
-    ("series-et-fictions",           "Séries et fictions"),
-    ("documentaires-et-reportages",  "Documentaires et reportages"),
-    ("sciences",                     "Sciences"),
-    ("culture-et-pop",               "Culture et pop"),
-    ("histoire",                     "Histoire"),
-    ("info-et-societe",              "Info et société"),
-    ("voyages-et-decouvertes",       "Voyages et découvertes"),
-    ("emissions",                    "Émissions"),
+# Pages Arte (= catégories top-level). Code → label affiché.
+ARTE_PAGES = [
+    ("CIN", "Cinéma"),
+    ("SER", "Séries et fictions"),
+    ("FIC", "Fictions"),
+    ("DEC", "Voyages et découvertes"),
+    ("SCI", "Sciences"),
+    ("HIS", "Histoire"),
+    ("FAM", "À voir en famille"),
+    ("ACT", "Actualité et société"),
+    ("ART", "Arts"),
+    ("POP", "Culture et pop"),
 ]
-ARTE_CONCERT_GENRES = [
-    ("pop-rock",                "Pop & Rock"),
-    ("classique",               "Classique"),
-    ("musiques-electroniques",  "Électro"),
-    ("jazz",                    "Jazz"),
-    ("arts-de-la-scene",        "Arts de la scène"),
-    ("hip-hop",                 "Hip-hop"),
-    ("metal",                   "Metal"),
-    ("opera",                   "Opéra"),
-    ("world",                   "World"),
-    ("musique-baroque",         "Baroque"),
+
+# Concert Arte : pages séparées (= musique). Folder distinct dans l'app.
+ARTE_CONCERT_PAGES = [
+    ("CMU_RPO", "Pop & Rock"),
+    ("CMU_ELE", "Électro"),
+    ("CMU_JAZ", "Jazz"),
+    ("CMU_CLA", "Classique"),
+    ("CMU_HIP", "Hip-hop"),
+    ("CMU_WLD", "World"),
+    ("CMU_MET", "Metal"),
+    ("CMU_BAR", "Baroque"),
+    ("CMU_OPE", "Opéra"),
+    ("CMU_SCN", "Arts de la scène"),
 ]
-ARTE_THEMED_PAGES = [
-    ("a-voir-en-famille",       "À voir en famille"),
-]
-ARTE_SERIES_CATS = {"series-et-fictions"}
 
 
-def arte_check_available(pid):
-    """True si streams ≠ vide (= droits actifs)."""
+def arte_fetch_page(page_code):
+    """Récupère /pages/{code} → liste des zones."""
+    url = f"{ARTE_API_BASE}/pages/{page_code}"
     try:
-        j = json.loads(http_get(ARTE_API_CFG.format(pid), headers={"Accept": "application/json"}))
-        data = j.get("data") or {}
-        attrs = data.get("attributes") or {}
-        if not (attrs.get("streams") or []):
-            return False
-        err = attrs.get("error") or data.get("error")
-        if err and isinstance(err, dict) and err.get("code"):
-            return False
-        return True
-    except Exception:
-        return True  # tolérant sur timeout/réseau
-
-
-def _scrape_arte_html(url, max_items):
-    """Helper commun pour /fr/videos/<cat>/ et /fr/p/<slug>/."""
-    try:
-        raw = http_get(url, headers={"Accept": "text/html"})
+        d = json.loads(http_get(url, headers={"Accept": "application/json"}))
+        return d.get("zones") or []
     except Exception as e:
-        print(f"[!] Arte fetch error {url}: {e}", file=sys.stderr)
+        print(f"[!] Arte page {page_code}: {e}", file=sys.stderr)
         return []
-    seen = set()
-    candidates = []
-    for m in ARTE_HREF_RE.finditer(raw):
-        pid = m.group(1)
-        slug = m.group(2)
-        if not ARTE_PID_VALID.match(pid) or pid in seen:
-            continue
-        seen.add(pid)
-        title = slug_to_title(slug)[:140]
-        if not title:
-            continue
-        candidates.append({"program_id": pid, "title": title})
-        if len(candidates) >= max_items * 2:
+
+
+def arte_fetch_zone(zone, max_pages=MAX_PAGES_PER_ZONE):
+    """Récupère TOUS les items d'une zone :
+    1. Items inline déjà dans zone.content.data (= 1ère page)
+    2. Pagination via API si pages > 1 (utilise UUID dédoublé)."""
+    items = []
+    inline_content = zone.get("content") or {}
+    inline_data = inline_content.get("data") or []
+    if isinstance(inline_data, list):
+        items.extend(inline_data)
+    pagination = inline_content.get("pagination") or {}
+    total_pages = pagination.get("pages", 1) or 1
+    if total_pages <= 1:
+        return items
+    zone_id = zone.get("id") or ""
+    parts = zone_id.split("_")
+    api_id = parts[0]
+    for page in range(2, min(total_pages + 1, max_pages + 1)):
+        url = f"{ARTE_API_BASE}/zones/{api_id}/content/?page={page}"
+        try:
+            d = json.loads(http_get(url, headers={"Accept": "application/json"}))
+        except Exception:
             break
-    from concurrent.futures import ThreadPoolExecutor
-    with ThreadPoolExecutor(max_workers=8) as ex:
-        availability = list(ex.map(lambda c: arte_check_available(c["program_id"]), candidates))
-    out = [c for c, ok in zip(candidates, availability) if ok][:max_items]
-    return out
+        data = d.get("data") or []
+        if not isinstance(data, list) or not data:
+            break
+        items.extend(data)
+    return items
 
 
-def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
-    return _scrape_arte_html(f"https://www.arte.tv/fr/videos/{category_slug}/", max_items)
-
-
-def arte_p_page_programs(slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
-    return _scrape_arte_html(f"https://www.arte.tv/fr/p/{slug}/", max_items)
+def arte_item_to_program(item):
+    """Extrait (program_id, title, poster, kind) depuis un item zone."""
+    kind_obj = item.get("kind") or {}
+    kind_code = (kind_obj.get("code") or "").upper() if isinstance(kind_obj, dict) else str(kind_obj).upper()
+    if kind_code not in ("SHOW", "COLLECTION", "EVENT", "PROGRAM"):
+        return None
+    title = (item.get("title") or "").strip()
+    subtitle = (item.get("subtitle") or "").strip()
+    if title and subtitle and subtitle.lower() not in title.lower():
+        title = f"{title} — {subtitle}"
+    if not title:
+        return None
+    url = item.get("url") or ""
+    pid_match = re.search(r"/videos/([0-9]{6}-[0-9]{3}-[A-Z]|RC-[A-Za-z0-9]+)/", url)
+    if not pid_match:
+        return None
+    pid = pid_match.group(1)
+    poster = ""
+    main_img = item.get("mainImage") or {}
+    if isinstance(main_img, dict):
+        img_url = main_img.get("url") or ""
+        if img_url:
+            poster = img_url.replace("__SIZE__", "400x225")
+    return {"pid": pid, "title": title[:140], "poster": poster, "kind": kind_code}
 
 
 def generate(output_path):
     lines = ["#EXTM3U"]
     total = 0
+    seen_pids = set()
 
-    print("\n=== Arte+7 (9 catégories principales) ===")
-    for cat_slug, cat_label in ARTE_CATEGORIES:
-        progs = arte_category_programs(cat_slug)
-        print(f"  {cat_label}: {len(progs)} programmes")
-        tvg_type = "series" if cat_slug in ARTE_SERIES_CATS else "movie"
-        for p in progs:
-            lines.append(
-                f'#EXTINF:-1 tvg-id="arte-{p["program_id"]}" '
-                f'tvg-logo="{ARTE_LOGO}" tvg-country="FR" '
-                f'tvg-type="{tvg_type}" '
-                f'group-title="Arte {cat_label}",{p["title"]}'
-            )
-            lines.append(f'arte://{p["program_id"]}')
-            total += 1
-        time.sleep(0.5)
-
-    print("\n=== Arte Concert (10 sous-genres musique) ===")
-    arte_seen = set()
-    for line in lines:
-        if line.startswith('arte://'):
-            arte_seen.add(line.replace('arte://', '').strip())
-    for genre_slug, genre_label in ARTE_CONCERT_GENRES:
-        progs = arte_p_page_programs(genre_slug)
-        added = 0
-        group = f"Arte Concert - {genre_label}"
-        for p in progs:
-            pid = p["program_id"]
-            if pid in arte_seen:
+    print("\n=== Arte pages thématiques via API EMAC v4 ===")
+    for page_code, page_label in ARTE_PAGES:
+        zones = arte_fetch_page(page_code)
+        page_added = 0
+        zone_count = 0
+        for zone in zones:
+            zone_title = (zone.get("title") or "").strip()
+            zone_id = zone.get("id") or ""
+            if not zone_id or not zone_title:
                 continue
-            arte_seen.add(pid)
-            lines.append(
-                f'#EXTINF:-1 tvg-id="arte-{pid}" '
-                f'tvg-logo="{ARTE_LOGO}" tvg-country="FR" tvg-type="movie" '
-                f'group-title="{group}",{p["title"]}'
-            )
-            lines.append(f'arte://{pid}')
-            total += 1
-            added += 1
-        print(f"  {genre_label}: {len(progs)} → {added} nouveaux")
-        time.sleep(0.3)
-
-    print("\n=== Arte Pages Thématiques ===")
-    for page_slug, page_label in ARTE_THEMED_PAGES:
-        progs = arte_p_page_programs(page_slug)
-        added = 0
-        group = f"Arte Thématique - {page_label}"
-        for p in progs:
-            pid = p["program_id"]
-            if pid in arte_seen:
+            if zone_title.lower() in {"ma liste", "reprendre la lecture", "vos favoris",
+                                       "à ne pas manquer", "en ce moment", "incontournables",
+                                       "les incontournables", "parcourir les genres"}:
                 continue
-            arte_seen.add(pid)
-            lines.append(
-                f'#EXTINF:-1 tvg-id="arte-{pid}" '
-                f'tvg-logo="{ARTE_LOGO}" tvg-country="FR" tvg-type="movie" '
-                f'group-title="{group}",{p["title"]}'
-            )
-            lines.append(f'arte://{pid}')
-            total += 1
-            added += 1
-        print(f"  {page_label}: {len(progs)} → {added} nouveaux")
-        time.sleep(0.3)
+            items = arte_fetch_zone(zone)
+            if not items:
+                continue
+            zone_count += 1
+            tvg_type = "series" if page_code in ("SER", "FIC") else "movie"
+            for item in items:
+                prog = arte_item_to_program(item)
+                if not prog or prog["pid"] in seen_pids:
+                    continue
+                seen_pids.add(prog["pid"])
+                logo = prog["poster"] or ARTE_LOGO_FALLBACK
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="arte-{prog["pid"]}" '
+                    f'tvg-logo="{logo}" tvg-country="FR" tvg-type="{tvg_type}" '
+                    f'group-title="Arte {page_label} - {zone_title}",{prog["title"]}'
+                )
+                lines.append(f'arte://{prog["pid"]}')
+                total += 1
+                page_added += 1
+        print(f"  {page_label} ({page_code}): {zone_count} zones, {page_added} programmes")
+        time.sleep(0.4)
 
-    with open(output_path, 'w', encoding='utf-8') as f:
+    print("\n=== Arte Concert (10 genres musicaux) ===")
+    for page_code, genre_label in ARTE_CONCERT_PAGES:
+        zones = arte_fetch_page(page_code)
+        genre_added = 0
+        for zone in zones:
+            zone_id = zone.get("id") or ""
+            if not zone_id:
+                continue
+            items = arte_fetch_zone(zone, max_pages=3)
+            for item in items:
+                prog = arte_item_to_program(item)
+                if not prog or prog["pid"] in seen_pids:
+                    continue
+                seen_pids.add(prog["pid"])
+                logo = prog["poster"] or ARTE_LOGO_FALLBACK
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="arte-{prog["pid"]}" '
+                    f'tvg-logo="{logo}" tvg-country="FR" tvg-type="movie" '
+                    f'group-title="Arte Concert - {genre_label}",{prog["title"]}'
+                )
+                lines.append(f'arte://{prog["pid"]}')
+                total += 1
+                genre_added += 1
+        print(f"  Concert {genre_label}: {genre_added} programmes")
+        time.sleep(0.4)
+
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"\n[OK] Wrote {total} Arte programs to {output_path}")
     return total
