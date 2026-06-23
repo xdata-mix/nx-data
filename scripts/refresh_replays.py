@@ -45,16 +45,37 @@ FRANCETV_CHANNELS = [
     ("france-o",   "France Ô",        "https://i.imgur.com/sJZBuY4.png"),
 ]
 
+# 2026-06-22 (user "tout prendre comme BFM") : 10 catégories TRANSVERSES France.tv
+#   (= menu "Catégories" du site france.tv). Endpoint identique aux chaînes :
+#     /apps/categories/{slug}?platform=apps → même structure JSON.
+#   FRANCE.TV est 100% gratuit public → pas de marker payant à filtrer.
+FRANCETV_CATEGORIES = [
+    ("series-et-fictions",      "Séries et fictions",  "https://i.imgur.com/sJZBuY4.png"),
+    ("documentaires",           "Documentaires",       "https://i.imgur.com/sJZBuY4.png"),
+    ("films",                   "Cinéma",              "https://i.imgur.com/sJZBuY4.png"),
+    ("societe",                 "Société",             "https://i.imgur.com/sJZBuY4.png"),
+    ("info",                    "Info",                "https://i.imgur.com/eITXz6A.png"),
+    ("spectacles-et-culture",   "Arts et spectacles",  "https://i.imgur.com/sJZBuY4.png"),
+    ("sport",                   "Sport",               "https://i.imgur.com/sJZBuY4.png"),
+    ("jeux-et-divertissements", "Divertissement",      "https://i.imgur.com/sJZBuY4.png"),
+    ("enfants",                 "Enfants",             "https://i.imgur.com/wEsxQLP.png"),
+    ("podcasts",                "Podcasts",            "https://i.imgur.com/sJZBuY4.png"),
+]
+
 ARTE_CATEGORIES = [
+    # 2026-06-22 (user "tout prendre comme BFM") : audit menu arte.tv complet.
+    #   Corrections : "documentaires" → "documentaires-et-reportages" (URL réelle),
+    #   "societe" → "info-et-societe", "arts" supprimé (n'existe plus dans le menu).
+    #   Ajouts : "voyages-et-decouvertes" et "emissions" (émissions TV régulières).
     ("cinema",                       "Cinéma"),
     ("series-et-fictions",           "Séries et fictions"),
-    ("documentaires-et-reportages",  "Documentaires"),
+    ("documentaires-et-reportages",  "Documentaires et reportages"),
     ("sciences",                     "Sciences"),
     ("culture-et-pop",               "Culture et pop"),
     ("histoire",                     "Histoire"),
-    ("arts",                         "Arts"),
     ("info-et-societe",              "Info et société"),
     ("voyages-et-decouvertes",       "Voyages et découvertes"),
+    ("emissions",                    "Émissions"),
 ]
 ARTE_LOGO = ("https://i.imgur.com/ecXMjNl.png")
 
@@ -320,6 +341,64 @@ def slug_to_title(slug):
 #   catalogue (= droits expirés, ex: Spartacus). On les filtre ici pour
 #   éviter qu'ils traînent dans la liste sans pouvoir être joués.
 ARTE_API_CFG = "https://api.arte.tv/api/player/v2/config/fr/{}"
+
+def francetv_category_programs(category_slug):
+    """2026-06-22 — variante de francetv_channel_programs() pour les catégories
+    transverses (Séries, Cinéma, Documentaires, etc.). Endpoint similaire mais
+    /apps/categories/{slug} au lieu de /apps/channels/{path}. Même format JSON
+    (collections + items)."""
+    url = (f"https://api-mobile.yatta.francetv.fr/apps/categories/{category_slug}"
+           f"?platform=apps")
+    try:
+        raw = http_get(url)
+    except Exception as e:
+        print(f"[!] Fetch error category {category_slug}: {e}", file=sys.stderr)
+        return []
+    try:
+        data = json.loads(raw)
+    except Exception:
+        return []
+    seen = set()
+    out = []
+    for coll in data.get("collections", []):
+        if coll.get("type") in ("live", "link"):
+            continue
+        for item in coll.get("items", []):
+            si = item.get("si_id")
+            if not si or si in seen:
+                continue
+            seen.add(si)
+            title = (item.get("title") or "").strip()
+            program = item.get("program") or {}
+            program_title = program.get("label") or program.get("title") or ""
+            if not title:
+                title = program_title
+            elif program_title and program_title.lower() not in title.lower():
+                title = f"{program_title} — {title}"
+            if not title:
+                continue
+            logo = ""
+            for k in ("image_url", "background_url"):
+                v = item.get(k)
+                if v and isinstance(v, str):
+                    logo = v
+                    break
+            if not logo:
+                imgs = item.get("media_image") or {}
+                if isinstance(imgs, dict):
+                    logo = imgs.get("url", "")
+            out.append({
+                "si_id": si,
+                "title": title[:140],
+                "logo": logo,
+            })
+            if len(out) >= MAX_ITEMS_PER_CHAN:
+                break
+        if len(out) >= MAX_ITEMS_PER_CHAN:
+            break
+    return out
+
+
 
 def arte_check_available(pid):
     """Retourne True si le stream est jouable (= streams non-vide, pas
@@ -904,6 +983,41 @@ def generate_m3u(output_path):
             lines.append(f'francetv://{p["si_id"]}')
             total += 1
         time.sleep(0.4)
+
+    # 2026-06-22 — NOUVEAU : France.tv Thématiques transverses (10 catégories
+    #   cross-chaîne : Séries, Docs, Cinéma, Société, Info, Arts, Sport,
+    #   Divertissement, Enfants, Podcasts). Dedup vs les chaînes.
+    print("\n=== France.tv Thématiques transverses ===")
+    ftv_themes_seen = set()
+    for line in lines:
+        if line.startswith('francetv://'):
+            try:
+                ftv_themes_seen.add(line.replace('francetv://', '').strip())
+            except Exception:
+                pass
+    for cat_slug, cat_label, cat_logo in FRANCETV_CATEGORIES:
+        progs = francetv_category_programs(cat_slug)
+        added = 0
+        group = f"Thématique France TV - {cat_label}"
+        for p in progs:
+            si = p["si_id"]
+            if si in ftv_themes_seen:
+                continue
+            ftv_themes_seen.add(si)
+            logo = p["logo"] or cat_logo
+            extinf = (
+                f'#EXTINF:-1 tvg-id="francetv-{si}" '
+                f'tvg-logo="{logo}" '
+                f'tvg-country="FR" '
+                f'tvg-type="series" '
+                f'group-title="{group}",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'francetv://{si}')
+            total += 1
+            added += 1
+        print(f"  Théma {cat_label}: {len(progs)} progs → {added} nouveaux (dedup)")
+        time.sleep(0.3)
 
     # Arte+7
     print("\n=== Arte+7 ===")
