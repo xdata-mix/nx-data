@@ -17,8 +17,6 @@ TF1_CHANNELS = [
     ("tf1-series-films", "TF1 Séries Films", "https://i.imgur.com/3OZdMb9.png"),
     ("lci",              "LCI",              "https://i.imgur.com/jVxzNHL.png"),
 ]
-# 2026-06-22 : ajout "series" (= 295 progs uniques, la plus grosse catégorie).
-# Skip "a-la-carte" qui est 100% payant.
 TF1_CATEGORIES = [
     ("series",               "Séries"),
     ("sport",                "Sport"),
@@ -34,6 +32,32 @@ TF1_CATEGORIES = [
 ]
 TF1_REPLAY_URL = "https://www.tf1.fr/{slug}/replay"
 TF1_CAT_HREF_RE = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
+
+# 2026-06-23 : scrape SEULEMENT les FAST channels (= L_FAST_v2l-ad-*-NNNNNNNN).
+# Les chaînes FIXES (TF1/TMC/TFX/TF1 Séries Films/LCI + ARTE/L'Equipe/LCP/
+# Le Figaro/Paris Première/Red Bull TV) sont gérées en hardcode dans
+# LiveTvHubProvider.kt côté app (= stables, jamais retirées, pas besoin de
+# scrape). Seules les FAST (replay 24/7) changent → on les scrape ici.
+TF1_LIVE_DIRECT_URL = "https://www.tf1.fr/chaines-tv/direct"
+TF1_LOGO = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png"
+
+
+def _fast_to_human(fid):
+    """L_FAST_v2l-ad-demain-nous-appartient-38296145 → 'Demain Nous Appartient'."""
+    slug = fid.replace("L_FAST_v2l-ad-", "")
+    slug = re.sub(r'-\d+$', '', slug)
+    return slug.replace("-", " ").replace("_", " ").title().replace("And", "&").strip()
+
+
+def scrape_tf1_fast_channels():
+    """Scrape tf1.fr/chaines-tv/direct → liste des IDs L_FAST_*."""
+    try:
+        html = http_get_tf1(TF1_LIVE_DIRECT_URL)
+    except Exception as e:
+        print(f"[!] TF1 FAST scrape error: {e}", file=sys.stderr)
+        return []
+    fast_ids = sorted(set(re.findall(r'L_FAST_v2l-ad-[a-z0-9\-]+-\d+', html)))
+    return [(fid, _fast_to_human(fid)) for fid in fast_ids]
 
 
 def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
@@ -107,6 +131,18 @@ def tf1_category_programs(category_slug, max_items=MAX_ITEMS_PER_CHAN):
 def generate(output_path):
     lines = ["#EXTM3U"]
     total = 0
+
+    print("\n=== Live TF1+ FAST (scrapé tf1.fr/chaines-tv/direct) ===")
+    fast_chans = scrape_tf1_fast_channels()
+    print(f"  {len(fast_chans)} chaînes FAST trouvées")
+    for fid, label in fast_chans:
+        lines.append(
+            f'#EXTINF:-1 tvg-id="tf1live-{fid}" '
+            f'tvg-logo="{TF1_LOGO}" tvg-country="FR" '
+            f'group-title="Live TF1+",{label}'
+        )
+        lines.append(f'tf1live://{fid}')
+        total += 1
 
     print("\n=== TF1+ Replay (5 chaînes JSON-LD) ===")
     for chan_slug, chan_label, chan_logo in TF1_CHANNELS:
