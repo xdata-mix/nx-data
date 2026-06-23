@@ -1404,7 +1404,7 @@ https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr" group-title="France TV backup",TV3V (720p) [kilirushi]
 https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
-https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="RTLZwee.lu@SD" group-title="Généralistes",RTL Zwee (1080p)
@@ -2343,3 +2343,7 @@ http://54.37.19.157:80/TV5MONDE/index.m3u8
 # === Ajouts FR multi-sources : Religion ===
 #EXTINF:-1 tvg-id="ImpactTV.bf@SD" group-title="Religion",Impact TV
 https://edge11.vedge.infomaniak.com/livecast/ik:impacttv-2/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
