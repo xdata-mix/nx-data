@@ -5,7 +5,7 @@ Endpoint pc.middleware.6play.fr (= équiv web du middleware). Pas besoin d'auth
 Gigya pour le catalogue. L'auth M6 (Widevine DRM) est utilisée par l'app Onyx
 au moment du PLAYBACK. Filtre subscriptions/is_subscription (M6+MAX premium).
 """
-import json, os, sys, time
+import json, os, sys, time, urllib.request, re
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import http_get, slug_to_title
 
@@ -20,8 +20,6 @@ M6_CHANNELS = [
     ("tevareplay",            "Téva",            "https://i.imgur.com/HuLNVjC.png"),
     ("parispremierereplay",   "Paris Première",  "https://i.imgur.com/oCBzd0e.png"),
 ]
-# 2026-06-22 : 9 catégories transverses M6+ via /folders/{fid}/programs.
-# Les folders sont CROSS-CHAÎNE — 1 seul appel suffit par folder.
 M6_FOLDERS = [
     (10,   "Divertissement"),
     (232,  "Séries réalité"),
@@ -34,6 +32,104 @@ M6_FOLDERS = [
     (2996, "Podcasts"),
 ]
 M6_LOGO_GENERIC = "https://i.imgur.com/4lhxLPB.png"
+
+# 2026-06-23 : scrape M6+ SECTIONS THÉMATIQUES via __dehydratedState
+# (= store Redux sérialisé dans le HTML de m6.fr/m6plus/<slug>-m6-f_<fid>).
+# Permet d'avoir "Drame", "Comédie", "Romance", "Action", "Nouveautés", etc.
+# pour Cinéma (907), Séries (8), Téléfilms (70). No token nécessaire.
+M6_PLUS_HOME = "https://www.m6.fr/m6plus"
+M6_PLUS_UA = "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 Chrome/148 Safari/537.36"
+
+
+def m6plus_fetch_state(fid, slug):
+    url = f"{M6_PLUS_HOME}/{slug}-m6-f_{fid}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": M6_PLUS_UA})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"[!] M6+ fetch error {fid}/{slug}: {e}", file=sys.stderr)
+        return None
+    m = re.search(r'root\.__dehydratedState\s*=\s*"((?:\\.|[^"\\])*)"', html)
+    if not m:
+        return None
+    try:
+        return json.loads(json.loads('"' + m.group(1) + '"'))
+    except Exception:
+        return None
+
+
+def m6plus_extract_sections(fid, slug):
+    """Retourne [(section_title, [{title, poster, seo, ucid}])]."""
+    state = m6plus_fetch_state(fid, slug)
+    if not state:
+        return []
+    folder = state.get("layout", {}).get("layouts", {}).get("main", {}).get("folder", {}).get(str(fid), {})
+    blocks = folder.get("blocks", [])
+    sections = []
+    sub_folders = []
+    for block in blocks:
+        if block.get("type") == "parallax":
+            continue
+        block_title = (block.get("analytics", {}) or {}).get("tealium", {}).get("block_title") or ""
+        items_raw = (block.get("content", {}) or {}).get("items", [])
+        programs = []
+        for item in items_raw:
+            ic = item.get("itemContent") or {}
+            tgt = (ic.get("action") or {}).get("target") or {}
+            val = tgt.get("value_layout") or {}
+            if not isinstance(val, dict):
+                continue
+            if val.get("type") == "program":
+                title = ic.get("title") or (val.get("seo") or "").replace("-", " ").title()
+                poster = (ic.get("image") or {}).get("src", "")
+                seo = val.get("seo") or ""
+                ucid = item.get("ucid") or ""
+                programs.append({"title": title[:140], "poster": poster, "seo": seo, "ucid": ucid})
+            elif val.get("type") == "folder":
+                sub_fid = val.get("id")
+                sub_seo = val.get("seo") or ""
+                if sub_fid and not re.match(r"^top-\d+-", sub_seo):
+                    sub_folders.append((sub_fid, sub_seo))
+        if programs and block_title:
+            sections.append((block_title, programs))
+    seen = set()
+    for sub_fid, sub_seo in sub_folders:
+        if sub_fid in seen:
+            continue
+        seen.add(sub_fid)
+        time.sleep(0.3)
+        sub_state = m6plus_fetch_state(sub_fid, sub_seo)
+        if not sub_state:
+            continue
+        sub_folder = sub_state.get("layout", {}).get("layouts", {}).get("main", {}).get("folder", {}).get(str(sub_fid), {})
+        sub_blocks = sub_folder.get("blocks", [])
+        sub_name = (sub_seo.replace("-cinema-m6", "").replace("-series-m6", "")
+                          .replace("-telefilms-m6", "").replace("-", " ").title())
+        all_progs = []
+        for sb in sub_blocks:
+            if sb.get("type") == "parallax":
+                continue
+            for it in (sb.get("content") or {}).get("items", []):
+                ic2 = it.get("itemContent") or {}
+                tgt2 = (ic2.get("action") or {}).get("target") or {}
+                val2 = tgt2.get("value_layout") or {}
+                if isinstance(val2, dict) and val2.get("type") == "program":
+                    title2 = ic2.get("title") or (val2.get("seo") or "").replace("-", " ").title()
+                    poster2 = (ic2.get("image") or {}).get("src", "")
+                    seo2 = val2.get("seo") or ""
+                    ucid2 = it.get("ucid") or ""
+                    all_progs.append({"title": title2[:140], "poster": poster2, "seo": seo2, "ucid": ucid2})
+        if all_progs:
+            sections.append((sub_name, all_progs))
+    return sections
+
+
+M6_PLUS_SECTION_FOLDERS = [
+    (907, "cinema",    "Films",     "movie"),
+    (8,   "series",    "Séries",    "series"),
+    (70,  "telefilms", "Téléfilms", "movie"),
+]
 
 
 def m6_channel_programs(service_id, max_items=2000):
@@ -54,7 +150,7 @@ def m6_channel_programs(service_id, max_items=2000):
             if not pid:
                 continue
             if p.get("subscriptions") or p.get("is_subscription"):
-                continue  # M6+MAX premium
+                continue
             code = (p.get("code") or "").strip()
             name = (p.get("name") or "").strip()
             title = name if name else slug_to_title(code)
@@ -76,7 +172,6 @@ def m6_channel_programs(service_id, max_items=2000):
 
 
 def m6_folder_programs(folder_id, folder_label, max_items=2000):
-    """Catégorie transverse cross-chaîne (1 seul appel suffit)."""
     out = []
     offset = 0
     while offset < max_items:
@@ -137,6 +232,27 @@ def generate(output_path):
             lines.append(f'm6play://{service_id}/{p["program_id"]}')
             total += 1
         time.sleep(0.4)
+
+    print("\n=== M6+ Sections thématiques via __dehydratedState ===")
+    for sec_fid, sec_slug, kind, tvg_type in M6_PLUS_SECTION_FOLDERS:
+        secs = m6plus_extract_sections(sec_fid, sec_slug)
+        n_films_in_sections = 0
+        for sec_name, progs in secs:
+            for p in progs:
+                logo = p.get("poster") or M6_LOGO_GENERIC
+                sec_slug_kebab = re.sub(r"\s+", "-", sec_name.strip()).lower()
+                ident = p.get("ucid") or p.get("seo") or ""
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="m6plus-{ident}-{sec_slug_kebab}" '
+                    f'tvg-logo="{logo}" tvg-country="FR" '
+                    f'tvg-type="{tvg_type}" '
+                    f'group-title="Replay M6+ {kind} - {sec_name}",{p["title"]}'
+                )
+                lines.append(f'm6play://{p.get("seo") or p.get("ucid")}')
+                n_films_in_sections += 1
+                total += 1
+        print(f"  {kind} ({sec_fid}/{sec_slug}): {len(secs)} sections, {n_films_in_sections} entries")
+        time.sleep(0.3)
 
     print("\n=== M6+ Thématiques transverses (9 catégories) ===")
     m6_themes_seen = set()
