@@ -79,6 +79,28 @@ ARTE_CATEGORIES = [
 ]
 ARTE_LOGO = ("https://i.imgur.com/ecXMjNl.png")
 
+# 2026-06-22 (user "y a du boulot sur Arte, fouille partout") : sous-genres
+#   musique d'ARTE Concert. Endpoint /fr/p/<slug>/ (PAS /fr/videos/<slug>/).
+#   10 sous-genres × ~20 items = ~200 items supplémentaires.
+ARTE_CONCERT_GENRES = [
+    ("pop-rock",                "Pop & Rock"),
+    ("classique",               "Classique"),
+    ("musiques-electroniques",  "Électro"),
+    ("jazz",                    "Jazz"),
+    ("arts-de-la-scene",        "Arts de la scène"),
+    ("hip-hop",                 "Hip-hop"),
+    ("metal",                   "Metal"),
+    ("opera",                   "Opéra"),
+    ("world",                   "World"),
+    ("musique-baroque",         "Baroque"),
+]
+# Pages thématiques bonus curées par Arte sur la home /fr/p/<slug>/
+ARTE_THEMED_PAGES = [
+    ("a-voir-en-famille",       "À voir en famille"),
+    # 'a-venir' = "Bientôt en ligne" — exclu car les vidéos ne sont pas encore
+    #   disponibles (= clics retournent 404 jusqu'à la diffusion).
+]
+
 # TF1+ : 5 chaînes du groupe. Logins compte TF1 requis pour résoudre les
 #   streams. Côté script on liste les programmes (= page replay scrapée via
 #   JSON-LD ItemList Schema.org).
@@ -460,6 +482,41 @@ def arte_category_programs(category_slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
 
 
 # ───── TF1+ ─────
+
+def arte_p_page_programs(slug, max_items=MAX_ITEMS_PER_ARTE_CAT):
+    """2026-06-22 — variante pour pages thématiques /fr/p/<slug>/ d'Arte
+    (= ARTE Concert sous-genres, "À voir en famille", etc.). Même format HTML
+    scraping que arte_category_programs, juste URL différente."""
+    url = f"https://www.arte.tv/fr/p/{slug}/"
+    try:
+        raw = http_get(url, headers={"Accept": "text/html"})
+    except Exception as e:
+        print(f"[!] Arte /p/ fetch error {slug}: {e}", file=sys.stderr)
+        return []
+    seen = set()
+    candidates = []
+    for m in ARTE_HREF_RE.finditer(raw):
+        pid = m.group(1)
+        sub_slug = m.group(2)
+        if not ARTE_PID_VALID.match(pid):
+            continue
+        if pid in seen:
+            continue
+        seen.add(pid)
+        title = slug_to_title(sub_slug)[:140]
+        if not title:
+            continue
+        candidates.append({"program_id": pid, "title": title})
+        if len(candidates) >= max_items * 2:
+            break
+    # Check disponibilité (= filtre ERROR_NO_RIGHTS)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        availability = list(ex.map(lambda c: arte_check_available(c["program_id"]), candidates))
+    out = [c for c, ok in zip(candidates, availability) if ok][:max_items]
+    return out
+
+
 
 def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
     """Scrape la page replay TF1+. Extrait les programmes via JSON-LD."""
@@ -1042,6 +1099,60 @@ def generate_m3u(output_path):
             lines.append(f'arte://{p["program_id"]}')
             total += 1
         time.sleep(0.5)
+
+    # 2026-06-22 — NOUVEAU : Arte Concert (10 sous-genres musique) + pages
+    #   thématiques curées par Arte. Endpoint /fr/p/<slug>/.
+    print("\n=== Arte Concert (sous-genres musique) ===")
+    arte_concert_seen = set()
+    for line in lines:
+        if line.startswith('arte://'):
+            arte_concert_seen.add(line.replace('arte://', '').strip())
+    for genre_slug, genre_label in ARTE_CONCERT_GENRES:
+        progs = arte_p_page_programs(genre_slug)
+        added = 0
+        group = f"Arte Concert - {genre_label}"
+        for p in progs:
+            pid = p["program_id"]
+            if pid in arte_concert_seen:
+                continue
+            arte_concert_seen.add(pid)
+            extinf = (
+                f'#EXTINF:-1 tvg-id="arte-{pid}" '
+                f'tvg-logo="{ARTE_LOGO}" '
+                f'tvg-country="FR" '
+                f'tvg-type="movie" '
+                f'group-title="{group}",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'arte://{pid}')
+            total += 1
+            added += 1
+        print(f"  {genre_label}: {len(progs)} progs → {added} nouveaux")
+        time.sleep(0.3)
+
+    print("\n=== Arte Pages Thématiques ===")
+    for page_slug, page_label in ARTE_THEMED_PAGES:
+        progs = arte_p_page_programs(page_slug)
+        added = 0
+        group = f"Arte Thématique - {page_label}"
+        for p in progs:
+            pid = p["program_id"]
+            if pid in arte_concert_seen:
+                continue
+            arte_concert_seen.add(pid)
+            extinf = (
+                f'#EXTINF:-1 tvg-id="arte-{pid}" '
+                f'tvg-logo="{ARTE_LOGO}" '
+                f'tvg-country="FR" '
+                f'tvg-type="movie" '
+                f'group-title="{group}",{p["title"]}'
+            )
+            lines.append(extinf)
+            lines.append(f'arte://{pid}')
+            total += 1
+            added += 1
+        print(f"  {page_label}: {len(progs)} progs → {added} nouveaux")
+        time.sleep(0.3)
 
     # TF1 Live (chaînes directes, 1 entrée par chaîne)
     print("\n=== TF1 Live ===")
