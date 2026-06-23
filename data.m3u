@@ -2470,3 +2470,7 @@ tf1live://L_FAST_v2l-ad-sous-le-soleil-18693784
 tf1live://L_FAST_v2l-ad-star-academy-70671668
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-super-nanny-14977255" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Super Nanny
 tf1live://L_FAST_v2l-ad-super-nanny-14977255
+
+# === Ajouts FR multi-sources : Nouveautés FR ===
+#EXTINF:-1 tvg-id="Francophonie24.fr" group-title="Nouveautés FR",Francophonie (360p)
+http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8
