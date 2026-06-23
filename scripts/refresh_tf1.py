@@ -97,6 +97,12 @@ def tf1plus_channel_programs(channel_slug, max_items=MAX_ITEMS_PER_CHAN):
                 continue
             seen.add(path)
             item_type = item.get("@type", "")
+            # 2026-06-23 : Movies/TvSeries/TvSeason → ces items viennent maintenant
+            # via le scrape par SECTIONS thématiques (phase 2 tf1_category_sections
+            # sur /programmes-tv/films + /series). On les skip ici pour éviter
+            # les doublons "Replay TF1 - Films" + "Replay TF1+ Films - Top 10".
+            if item_type in ("Movie", "TVSeries", "TVSeason", "TvSeries", "TvSeason"):
+                continue
             out.append({"tf1_type": item_type, "si_id": path,
                         "title": name.strip()[:140], "logo": image})
     return out
