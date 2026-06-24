@@ -1570,7 +1570,7 @@ https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8
 #EXTINF:-1 tvg-id="AfroturkTV.tr@SD" group-title="Généralistes",Afroturk TV (1080p)
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="Généralistes",Al Aoula (1080p)
-https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 #EXTINF:-1 tvg-id="AlAoula.ma@InterHD" group-title="Généralistes",Al Aoula Inter (1080p)
 https://stream-lb.livemediama.com/alaoula/hls/master.m3u8
 #EXTINF:-1 tvg-id="CAM10TV.cm@SD" group-title="Généralistes",CAM 10 TV (720p)
@@ -2034,7 +2034,7 @@ https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlAoula.ma@SD" group-title="France TV backup",Al Aoula (480p) [iptv-org-fra]
-https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 
 # === Ajouts FR multi-sources : Cinéma ===
 #EXTINF:-1 tvg-id="CanalPlusCinemas.fr@SD" group-title="Cinéma",Canal+ Cinemas (720p)
@@ -2282,7 +2282,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="France TV backup",Al Aoula (1080p) [iptv-org-fra]
-https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
