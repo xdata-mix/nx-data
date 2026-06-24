@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """refresh_arte.py — génère data-replay-arte.m3u (Arte replay catalog).
 
-2026-06-23 v3 : SCRAPE via les VRAIES URLs catégorie du site Arte :
-  /fr/videos/films/, /fr/videos/series/, /fr/videos/documentaires-et-reportages/,
-  /fr/videos/info-et-societe/, /fr/videos/sciences/, etc.
+2026-06-24 v4 : AUDIT COMPLET arte.tv via menu hamburger officiel.
+  Fix slugs fantômes (films/series/arts/fictions retournaient 1 zone chacun)
+  → vrais slugs cinema (23 zones), series-et-fictions (20 zones).
+  Famille → path /fr/p/a-voir-en-famille/ (au lieu de /fr/videos/famille/ = 404).
+  Concert hub /fr/arte-concert/ ajouté (21 zones globales) + retrait
+  electro/baroque (404 sur leur page genre individuelle).
 
 Pipeline :
-  1. Fetch HTML /fr/videos/<slug>/ → extract zone UUIDs (= rails de la page)
+  1. Fetch HTML <base_url><slug>/ → extract zone UUIDs (= rails de la page)
   2. Pour chaque zone, fetch /api/emac/v4/fr/web/zones/{uuid}/content/?page=N
      → liste de programmes avec posters
   3. Génère m3u avec group-title="Arte <Label>" + jaquette
@@ -19,31 +22,31 @@ ARTE_API_BASE = "https://api.arte.tv/api/emac/v4/fr/web"
 ARTE_LOGO_FALLBACK = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png"
 MAX_PAGES_PER_ZONE = 5
 
+# (path_prefix, slug, label, tvg_type) — path_prefix = "/fr/videos/" pour
+# catégories standard ou "/fr/p/" pour pages spéciales type "À voir en famille".
 ARTE_CATEGORIES = [
-    ("films",                       "Cinéma",                       "movie"),
-    ("series",                      "Séries et fictions",           "series"),
-    ("documentaires-et-reportages", "Documentaires et reportages",  "movie"),
-    ("info-et-societe",             "Info et société",              "movie"),
-    ("culture-et-pop",              "Culture et pop",               "movie"),
-    ("sciences",                    "Sciences",                     "movie"),
-    ("voyages-et-decouvertes",      "Voyages et découvertes",       "movie"),
-    ("histoire",                    "Histoire",                     "movie"),
-    ("emissions",                   "Émissions",                    "series"),
-    ("arts",                        "Arts",                         "movie"),
-    ("fictions",                    "Fictions",                     "series"),
-    ("famille",                     "À voir en famille",            "movie"),
+    ("/fr/videos/", "cinema",                       "Cinéma",                       "movie"),
+    ("/fr/videos/", "series-et-fictions",           "Séries et fictions",           "series"),
+    ("/fr/videos/", "documentaires-et-reportages",  "Documentaires et reportages",  "movie"),
+    ("/fr/videos/", "info-et-societe",              "Info et société",              "movie"),
+    ("/fr/videos/", "culture-et-pop",               "Culture et pop",               "movie"),
+    ("/fr/videos/", "sciences",                     "Sciences",                     "movie"),
+    ("/fr/videos/", "voyages-et-decouvertes",       "Voyages et découvertes",       "movie"),
+    ("/fr/videos/", "histoire",                     "Histoire",                     "movie"),
+    ("/fr/videos/", "emissions",                    "Émissions",                    "series"),
+    ("/fr/p/",      "a-voir-en-famille",            "À voir en famille",            "movie"),
 ]
 
+# Concert : 8 genres (electro et baroque = 404 sur leurs pages dédiées,
+# leur contenu se retrouve dans le hub global ci-dessous).
 ARTE_CONCERT_GENRES = [
-    ("pop-rock",      "Pop & Rock"),
-    ("electro",       "Électro"),
-    ("jazz",          "Jazz"),
-    ("classique",     "Classique"),
-    ("hip-hop",       "Hip-hop"),
-    ("world",         "World"),
-    ("metal",         "Metal"),
-    ("baroque",       "Baroque"),
-    ("opera",         "Opéra"),
+    ("pop-rock",         "Pop & Rock"),
+    ("jazz",             "Jazz"),
+    ("classique",        "Classique"),
+    ("hip-hop",          "Hip-hop"),
+    ("world",            "World"),
+    ("metal",            "Metal"),
+    ("opera",            "Opéra"),
     ("arts-de-la-scene", "Arts de la scène"),
 ]
 
@@ -112,12 +115,12 @@ def generate(output_path):
     seen_pids = set()
 
     print("\n=== Arte catégories via URL slugs ===")
-    for slug, label, tvg_type_default in ARTE_CATEGORIES:
-        url = f"https://www.arte.tv/fr/videos/{slug}/"
+    for path_prefix, slug, label, tvg_type_default in ARTE_CATEGORIES:
+        url = f"https://www.arte.tv{path_prefix}{slug}/"
         zones = arte_html_scrape_zones(url)
         added = 0
         for zone_uuid in zones:
-            items = arte_zone_fetch_content(zone_uuid, max_pages=2)
+            items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
             for item in items:
                 prog = arte_item_to_program(item)
                 if not prog or prog["pid"] in seen_pids:
@@ -135,13 +138,38 @@ def generate(output_path):
         print(f"  {label} ({slug}): {len(zones)} zones, {added} programmes")
         time.sleep(0.4)
 
-    print("\n=== Arte Concert (10 genres) ===")
+    # Hub Arte Concert global (= 21 zones de TOUS les concerts mélangés).
+    # Items dispatchés sous group-title "Arte Concert" (= page hub).
+    print("\n=== Arte Concert hub global ===")
+    hub_url = "https://www.arte.tv/fr/arte-concert/"
+    hub_zones = arte_html_scrape_zones(hub_url)
+    hub_added = 0
+    for zone_uuid in hub_zones:
+        items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
+        for item in items:
+            prog = arte_item_to_program(item)
+            if not prog or prog["pid"] in seen_pids:
+                continue
+            seen_pids.add(prog["pid"])
+            logo = prog["poster"] or ARTE_LOGO_FALLBACK
+            lines.append(
+                f'#EXTINF:-1 tvg-id="arte-{prog["pid"]}" '
+                f'tvg-logo="{logo}" tvg-country="FR" tvg-type="movie" '
+                f'group-title="Arte Concert - Tous les concerts",{prog["title"]}'
+            )
+            lines.append(f'arte://{prog["pid"]}')
+            total += 1
+            hub_added += 1
+    print(f"  Concert hub: {len(hub_zones)} zones, {hub_added} programmes")
+    time.sleep(0.4)
+
+    print("\n=== Arte Concert genres (8) ===")
     for genre_slug, genre_label in ARTE_CONCERT_GENRES:
-        url = f"https://www.arte.tv/fr/p/{genre_slug}/"
+        url = f"https://www.arte.tv/fr/arte-concert/{genre_slug}/"
         zones = arte_html_scrape_zones(url)
         added = 0
-        for zone_uuid in zones[:5]:
-            items = arte_zone_fetch_content(zone_uuid, max_pages=2)
+        for zone_uuid in zones:
+            items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
             for item in items:
                 prog = arte_item_to_program(item)
                 if not prog or prog["pid"] in seen_pids:
@@ -156,7 +184,7 @@ def generate(output_path):
                 lines.append(f'arte://{prog["pid"]}')
                 total += 1
                 added += 1
-        print(f"  Concert {genre_label}: {added} programmes")
+        print(f"  Concert {genre_label}: {len(zones)} zones, {added} programmes")
         time.sleep(0.3)
 
     with open(output_path, "w", encoding="utf-8") as f:
