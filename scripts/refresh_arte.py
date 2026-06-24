@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 """refresh_arte.py — génère data-replay-arte.m3u (Arte replay catalog).
 
-2026-06-24 v4 : AUDIT COMPLET arte.tv via menu hamburger officiel.
-  Fix slugs fantômes (films/series/arts/fictions retournaient 1 zone chacun)
-  → vrais slugs cinema (23 zones), series-et-fictions (20 zones).
-  Famille → path /fr/p/a-voir-en-hfamille/ (au lieu de /fr/videos/famille/ = 404).
-  Concert hub /fr/arte-concert/ ajouté (21 zones globales) + retrait
-  electro/baroque (404 sur leur page genre individuelle).
-
-Pipeline :
-  1. Fetch HTML <base_url><slug>/ → extract zone UUIDs (= rails de la page)
-  2. Pour chaque zone, fetch /api/emac/v4/fr/web/zones/{uuid}/content/?page=N
-     → liste de programmes avec posters
-  3. Génère m3u avec group-title="Arte <Label>" + jaquette
+2026-06-24 v6 : DÉDUPLICATION PAR CATÉGORIE (seen_pids reset à chaque
+  itération). Avant : dédup globale → Cinéma (1er) consommait les PIDs
+  TV_SERIES partagés → Séries n'avait que 10 items au lieu des 61 dispo.
+  Maintenant : chaque catégorie a son contenu complet, même si certains
+  items apparaissent dans plusieurs catégories (= comportement Arte natif).
 """
 import json, os, sys, time, re
 sys.path.insert(0, os.path.dirname(__file__))
@@ -22,8 +15,6 @@ ARTE_API_BASE = "https://api.arte.tv/api/emac/v4/fr/web"
 ARTE_LOGO_FALLBACK = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/arte-fr.png"
 MAX_PAGES_PER_ZONE = 5
 
-# (path_prefix, slug, label, tvg_type) — path_prefix = "/fr/videos/" pour
-# catégories standard ou "/fr/p/" pour pages spéciales type "À voir en famille".
 ARTE_CATEGORIES = [
     ("/fr/videos/", "cinema",                       "Cinéma",                       "movie"),
     ("/fr/videos/", "series-et-fictions",           "Séries et fictions",           "series"),
@@ -37,8 +28,6 @@ ARTE_CATEGORIES = [
     ("/fr/p/",      "a-voir-en-famille",            "À voir en famille",            "movie"),
 ]
 
-# Concert : 8 genres (electro et baroque = 404 sur leurs pages dédiées,
-# leur contenu se retrouve dans le hub global ci-dessous).
 ARTE_CONCERT_GENRES = [
     ("pop-rock",         "Pop & Rock"),
     ("jazz",             "Jazz"),
@@ -55,7 +44,6 @@ ARTE_VIDEO_PID_RE = re.compile(r"/videos/([0-9]{6}-[0-9]{3}-[A-Z]|RC-[A-Za-z0-9]
 
 
 def arte_html_scrape_zones(url):
-    """Fetch URL HTML + extract zone UUIDs uniques."""
     try:
         html = http_get(url, headers={"Accept": "text/html"})
     except Exception as e:
@@ -65,7 +53,6 @@ def arte_html_scrape_zones(url):
 
 
 def arte_zone_fetch_content(zone_id, max_pages=MAX_PAGES_PER_ZONE):
-    """Fetch /zones/{uuid}/content/?page=N avec pagination."""
     items = []
     for page in range(1, max_pages + 1):
         url = f"{ARTE_API_BASE}/zones/{zone_id}/content/?page={page}"
@@ -84,7 +71,6 @@ def arte_zone_fetch_content(zone_id, max_pages=MAX_PAGES_PER_ZONE):
 
 
 def arte_item_to_program(item):
-    """Extrait (program_id, title, poster, kind) depuis un item zone."""
     kind_obj = item.get("kind") or {}
     kind_code = (kind_obj.get("code") or "").upper() if isinstance(kind_obj, dict) else str(kind_obj).upper()
     if kind_code not in ("SHOW", "COLLECTION", "EVENT", "PROGRAM", "TV_SERIES", "MAGAZINE"):
@@ -112,12 +98,13 @@ def arte_item_to_program(item):
 def generate(output_path):
     lines = ["#EXTM3U"]
     total = 0
-    seen_pids = set()
 
     print("\n=== Arte catégories via URL slugs ===")
     for path_prefix, slug, label, tvg_type_default in ARTE_CATEGORIES:
         url = f"https://www.arte.tv{path_prefix}{slug}/"
         zones = arte_html_scrape_zones(url)
+        # v6 : seen_pids PAR CATÉGORIE (= reset à chaque itération)
+        seen_pids = set()
         added = 0
         for zone_uuid in zones:
             items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
@@ -138,11 +125,11 @@ def generate(output_path):
         print(f"  {label} ({slug}): {len(zones)} zones, {added} programmes")
         time.sleep(0.4)
 
-    # Hub Arte Concert global (= 21 zones de TOUS les concerts mélangés).
-    # Items dispatchés sous group-title "Arte Concert" (= page hub).
+    # Hub Arte Concert global
     print("\n=== Arte Concert hub global ===")
     hub_url = "https://www.arte.tv/fr/arte-concert/"
     hub_zones = arte_html_scrape_zones(hub_url)
+    seen_pids = set()  # v6 : reset
     hub_added = 0
     for zone_uuid in hub_zones:
         items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
@@ -167,6 +154,7 @@ def generate(output_path):
     for genre_slug, genre_label in ARTE_CONCERT_GENRES:
         url = f"https://www.arte.tv/fr/arte-concert/{genre_slug}/"
         zones = arte_html_scrape_zones(url)
+        seen_pids = set()  # v6 : reset par genre
         added = 0
         for zone_uuid in zones:
             items = arte_zone_fetch_content(zone_uuid, max_pages=MAX_PAGES_PER_ZONE)
