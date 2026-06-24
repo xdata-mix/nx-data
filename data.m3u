@@ -2513,7 +2513,7 @@ https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="France TV backup",Al Aoula (1080p) [iptv-org-fra]
-https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
+https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
 
 # === Ajouts FR multi-sources : Culture ===
 #EXTINF:-1 tvg-id="KemetTV.cm@SD" group-title="Culture",Kemet TV
@@ -2526,3 +2526,7 @@ https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlAoula.ma@SD" group-title="France TV backup",Al Aoula (480p) [iptv-org-fra]
 https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="AlAoula.ma@HD" group-title="France TV backup",Al Aoula (1080p) [iptv-org-fra]
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
