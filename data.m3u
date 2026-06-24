@@ -1335,9 +1335,6 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/belrtl.
 #EXTINF:-1 tvg-name="GONG" tvg-logo="https://tv4.life/tvlogos/gong.png" group-title="Live Canal",GONG [TNT FR]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
-#EXTINF:-1 tvg-name="MYZEN TV" tvg-logo="https://tv4.life/tvlogos/myzen_tv.png" group-title="Live Canal",MYZEN TV [TNT FR]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 #EXTINF:-1 tvg-name="TNTV" tvg-logo="https://tv4.life/tvlogos/tntv.png" group-title="Live Canal",TNTV [TNT FR]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
