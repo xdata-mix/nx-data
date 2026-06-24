@@ -4,7 +4,7 @@
 2026-06-24 v4 : AUDIT COMPLET arte.tv via menu hamburger officiel.
   Fix slugs fantômes (films/series/arts/fictions retournaient 1 zone chacun)
   → vrais slugs cinema (23 zones), series-et-fictions (20 zones).
-  Famille → path /fr/p/a-voir-en-famille/ (au lieu de /fr/videos/famille/ = 404).
+  Famille → path /fr/p/a-voir-en-hfamille/ (au lieu de /fr/videos/famille/ = 404).
   Concert hub /fr/arte-concert/ ajouté (21 zones globales) + retrait
   electro/baroque (404 sur leur page genre individuelle).
 
@@ -87,7 +87,7 @@ def arte_item_to_program(item):
     """Extrait (program_id, title, poster, kind) depuis un item zone."""
     kind_obj = item.get("kind") or {}
     kind_code = (kind_obj.get("code") or "").upper() if isinstance(kind_obj, dict) else str(kind_obj).upper()
-    if kind_code not in ("SHOW", "COLLECTION", "EVENT", "PROGRAM"):
+    if kind_code not in ("SHOW", "COLLECTION", "EVENT", "PROGRAM", "TV_SERIES", "MAGAZINE"):
         return None
     title = (item.get("title") or "").strip()
     subtitle = (item.get("subtitle") or "").strip()
