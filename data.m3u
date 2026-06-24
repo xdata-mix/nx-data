@@ -2606,8 +2606,12 @@ http://85.14.32.26:8800/udp/239.100.10.144:5000
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 http://69.64.57.208/france2/mono.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
