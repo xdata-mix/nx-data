@@ -1,4 +1,4 @@
-h#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 refresh_fast.py — Fetch FAST channel playlists (Samsung TV+, Pluto TV, Plex TV,
 LG Channels, Rakuten TV, Sony One) and write data-fast.m3u (STANDALONE).
