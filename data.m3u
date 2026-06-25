@@ -1049,7 +1049,7 @@ https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 #EXTINF:-1 tvg-chno="18" tvg-id="T18.fr" epg-s="4139" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/T18100x100.png?h=100" tvg-country="FR" group-title="Nouveautés ParaTV",18. T18 [1080p-dailymotion.com]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 #EXTINF:-1 tvg-chno="32" tvg-id="Canal32.fr" epg-s="534" tvg-logo="https://zupimages.net/up/26/11/8c0t.jpeg" tvg-country="FR" group-title="Nouveautés ParaTV",32. Canal 32 [1080p-canal32.fr]
-https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 #EXTINF:-1 tvg-chno="601" tvg-logo="https://s2.dmcdn.net/u/HT2x1f7nt3DClNfe/60x60" tvg-country="FR" group-title="Nouveautés ParaTV",601. France Inter [1080p-dailymotion.com]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/france-inter-dm.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
