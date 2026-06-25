@@ -1980,7 +1980,7 @@ https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" group-title="France TV backup",Haiti News Channel (1080p) [iptv-org-fra]
@@ -2008,7 +2008,7 @@ http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?u=Oleg&p=967e
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24English.fr@SD" group-title="France TV backup",Africa 24 English (1080p) [iptv-org-fr]
-https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="LifeTV.ci@SD" group-title="Généralistes",Life TV (1080p)
