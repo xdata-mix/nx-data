@@ -2171,7 +2171,7 @@ http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24Sport.fr@SD" group-title="France TV backup",Africa 24 Sport (1080p) [iptv-org-fr]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
@@ -3860,3 +3860,7 @@ https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [iptv-org-fr]
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Africa24Sport.fr@SD" group-title="France TV backup",Africa 24 Sport (1080p) [iptv-org-fr]
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
