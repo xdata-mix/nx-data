@@ -2320,6 +2320,94 @@ https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
 https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+
+# === Nouveautes ParaTV (auto-ajoute) ===
+#EXTINF:-1 tvg-chno="1116" tvg-id="FRBD2900001M3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD2900001M3_20241015T040416SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1116. World Poker Tour [1080p-samsungtvplus]
+https://jmp2.uk/stvp-FRBD2900001M3
+#EXTINF:-1 tvg-chno="1196" tvg-id="FR7000053L" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR7000053L_20260528T055407SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1196. Metallica Takeover [1080p-samsungtvplus]
+https://jmp2.uk/stvp-FR7000053L
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="FR3600003DS" group-title="France TV backup",100% Comedy [schumijo]
+https://jmp2.uk/stvp-FR3600003DS
+#EXTINF:-1 tvg-id="FR34000032F" group-title="France TV backup",ça Chauffe en Cuisine [schumijo]
+https://jmp2.uk/stvp-FR34000032F
+#EXTINF:-1 tvg-id="FRBD4100001DF" group-title="France TV backup",Les Anges [schumijo]
+https://jmp2.uk/stvp-FRBD4100001DF
+#EXTINF:-1 tvg-id="FRBD3900005MB" group-title="France TV backup",Le Meilleur de la TV Réalité [schumijo]
+https://jmp2.uk/stvp-FRBD3900005MB
+#EXTINF:-1 tvg-id="FRAJ38000050Z" group-title="France TV backup",MTV Catfish [schumijo]
+https://jmp2.uk/stvp-FRAJ38000050Z
+#EXTINF:-1 tvg-id="FR3600004UH" group-title="France TV backup",Le Meilleur des Jeux TV [schumijo]
+https://jmp2.uk/stvp-FR3600004UH
+#EXTINF:-1 tvg-id="FRBD1900007PQ" group-title="France TV backup",Qui veut gagner des millions ? [schumijo]
+https://jmp2.uk/stvp-FRBD1900007PQ
+#EXTINF:-1 tvg-id="FRBD1900005BA" group-title="France TV backup",Les Z'amours [schumijo]
+https://jmp2.uk/stvp-FRBD1900005BA
+#EXTINF:-1 tvg-id="FRBB490000412" group-title="France TV backup",Motus [schumijo]
+https://jmp2.uk/stvp-FRBB490000412
+#EXTINF:-1 tvg-id="FR3600002W2" group-title="France TV backup",Familles en Scène [schumijo]
+https://jmp2.uk/stvp-FR3600002W2
+#EXTINF:-1 tvg-id="FR7000045E" group-title="France TV backup",Yu-Gi-Oh! [schumijo]
+https://jmp2.uk/stvp-FR7000045E
+#EXTINF:-1 tvg-id="FRBD41000051L" group-title="France TV backup",Wasabi [schumijo]
+https://jmp2.uk/stvp-FRBD41000051L
+#EXTINF:-1 tvg-id="FRAJ3800004CC" group-title="France TV backup",MTV Classics [schumijo]
+https://jmp2.uk/stvp-FRAJ3800004CC
+#EXTINF:-1 tvg-id="FRBD110000181" group-title="France TV backup",Culture Pub [schumijo]
+https://jmp2.uk/stvp-FRBD110000181
+#EXTINF:-1 tvg-id="FRBD41000124S" group-title="France TV backup",K-Drama+ [schumijo]
+https://jmp2.uk/stvp-FRBD41000124S
+#EXTINF:-1 tvg-id="FR90000160" group-title="France TV backup",Mr Bean Animated [schumijo]
+https://jmp2.uk/stvp-FR90000160
+#EXTINF:-1 tvg-id="FRBB49000033R" group-title="France TV backup",Homicide [schumijo]
+https://jmp2.uk/stvp-FRBB49000033R
+#EXTINF:-1 tvg-id="FRBD43000016D" group-title="France TV backup",Love Crime & History [schumijo]
+https://jmp2.uk/stvp-FRBD43000016D
+#EXTINF:-1 tvg-id="FRBD39000064E" group-title="France TV backup",100% Docs Crime [schumijo]
+https://jmp2.uk/stvp-FRBD39000064E
+#EXTINF:-1 tvg-id="FRBD410000436" group-title="France TV backup",Les secrets de nos régions [schumijo]
+https://jmp2.uk/stvp-FRBD410000436
+#EXTINF:-1 tvg-id="FRBD11000038N" group-title="France TV backup",L'effet papillon [schumijo]
+https://jmp2.uk/stvp-FRBD11000038N
+#EXTINF:-1 tvg-id="FR3200001NQ" group-title="France TV backup",BBC Earth [schumijo]
+https://jmp2.uk/stvp-FR3200001NQ
+#EXTINF:-1 tvg-id="FRBB4900002D4" group-title="France TV backup",NatureTime [schumijo]
+https://jmp2.uk/stvp-FRBB4900002D4
+#EXTINF:-1 tvg-id="FRBC3900004DS" group-title="France TV backup",Cap Terre [schumijo]
+https://jmp2.uk/stvp-FRBC3900004DS
+#EXTINF:-1 tvg-id="FRBC3500002E4" group-title="France TV backup",Echappées belles & co [schumijo]
+https://jmp2.uk/stvp-FRBC3500002E4
+#EXTINF:-1 tvg-id="FR23000013B" group-title="France TV backup",Al Jazeera [schumijo]
+https://jmp2.uk/stvp-FR23000013B
+#EXTINF:-1 tvg-id="FRBD490000195" group-title="France TV backup",Reuters [schumijo]
+https://jmp2.uk/stvp-FRBD490000195
+#EXTINF:-1 tvg-id="FR2400001TP" group-title="France TV backup",Top Gear [schumijo]
+https://jmp2.uk/stvp-FR2400001TP
+#EXTINF:-1 tvg-id="FRBD3600001BQ" group-title="France TV backup",Drive TV [schumijo]
+https://jmp2.uk/stvp-FRBD3600001BQ
+#EXTINF:-1 tvg-id="FR1700002OZ" group-title="France TV backup",NEW KPOP [schumijo]
+https://jmp2.uk/stvp-FR1700002OZ
+#EXTINF:-1 tvg-id="FRBC900001LB" group-title="France TV backup",Emotion [schumijo]
+https://jmp2.uk/stvp-FRBC900001LB
+#EXTINF:-1 tvg-id="FRBA3300046W4" group-title="France TV backup",Tortues Ninja [schumijo]
+https://jmp2.uk/stvp-FRBA3300046W4
+#EXTINF:-1 tvg-id="FRAJ3800010QO" group-title="France TV backup",Bob L'eponge [schumijo]
+https://jmp2.uk/stvp-FRAJ3800010QO
+#EXTINF:-1 tvg-id="FRAJ38000035M" group-title="France TV backup",Pluto TV Toons [schumijo]
+https://jmp2.uk/stvp-FRAJ38000035M
+#EXTINF:-1 tvg-id="FRAJ38000061J" group-title="France TV backup",iCarly [schumijo]
+https://jmp2.uk/stvp-FRAJ38000061J
+#EXTINF:-1 tvg-id="FR13000020W" group-title="France TV backup",100% Cinema [schumijo]
+https://jmp2.uk/stvp-FR13000020W
+#EXTINF:-1 tvg-id="FRBA2200010VN" group-title="France TV backup",MyTime Movie Network [schumijo]
+https://jmp2.uk/stvp-FRBA2200010VN
+#EXTINF:-1 tvg-id="FRAJ3800002W5" group-title="France TV backup",Pluto TV Ciné [schumijo]
+https://jmp2.uk/stvp-FRAJ3800002W5
+#EXTINF:-1 tvg-id="FRBC9000041F" group-title="France TV backup",Trailers [schumijo]
+https://jmp2.uk/stvp-FRBC9000041F
+#EXTINF:-1 tvg-id="FR4600001FK" group-title="France TV backup",Top Sci-Fi [schumijo]
+https://jmp2.uk/stvp-FR4600001FK
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100001DF_20260113T032403SQUARE.png" group-title="Samsung TV+ - Tele realite",Les Anges
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBD4100001DF
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD3900005MB_20250805T005519SQUARE.png" group-title="Samsung TV+ - Tele realite",Le Meilleur de la TV Realite
@@ -3764,91 +3852,3 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00405-rakutentv-cnnfastlg-rakuten-l
 https://live-cdn-bfmtv-lg-fr-euw1.bfmtv.bct.nextradiotv.com/master.m3u8?position=midroll&content_livestream=1&channel_name=BFMTV_all-LG_smartTV-Live&ads.devicemodel=[DEVICE_MODEL]&content_id=bfmtv_live_24_7&gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&env=smarttv&device_type=[DEVICE_TYPE]&did=[DEVICE_ID]&userid=[IFA]&ip=[IP]&app_bundle=[APP_BUNDLE]&app_name=[APP_NAME]&appVersion=[APP_VERSION]&ua=[UA]&url=[APP_STOREURL]&fck=[FCK]&viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-logo="https://lge-static.ottera.tv/prod/lge/linear_channel/logo/1600x400/lg1_800x200_white_6.png" group-title="LG Channels - Autres",LG 1 +1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=12780&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_fr&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]&keep_scte=1
-
-# === Nouveautes ParaTV (auto-ajoute) ===
-#EXTINF:-1 tvg-chno="1116" tvg-id="FRBD2900001M3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD2900001M3_20241015T040416SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1116. World Poker Tour [1080p-samsungtvplus]
-https://jmp2.uk/stvp-FRBD2900001M3
-#EXTINF:-1 tvg-chno="1196" tvg-id="FR7000053L" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR7000053L_20260528T055407SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1196. Metallica Takeover [1080p-samsungtvplus]
-https://jmp2.uk/stvp-FR7000053L
-
-# === France TV backup (URLs alternatives — auto-multi-sources) ===
-#EXTINF:-1 tvg-id="FR3600003DS" group-title="France TV backup",100% Comedy [schumijo]
-https://jmp2.uk/stvp-FR3600003DS
-#EXTINF:-1 tvg-id="FR34000032F" group-title="France TV backup",ça Chauffe en Cuisine [schumijo]
-https://jmp2.uk/stvp-FR34000032F
-#EXTINF:-1 tvg-id="FRBD4100001DF" group-title="France TV backup",Les Anges [schumijo]
-https://jmp2.uk/stvp-FRBD4100001DF
-#EXTINF:-1 tvg-id="FRBD3900005MB" group-title="France TV backup",Le Meilleur de la TV Réalité [schumijo]
-https://jmp2.uk/stvp-FRBD3900005MB
-#EXTINF:-1 tvg-id="FRAJ38000050Z" group-title="France TV backup",MTV Catfish [schumijo]
-https://jmp2.uk/stvp-FRAJ38000050Z
-#EXTINF:-1 tvg-id="FR3600004UH" group-title="France TV backup",Le Meilleur des Jeux TV [schumijo]
-https://jmp2.uk/stvp-FR3600004UH
-#EXTINF:-1 tvg-id="FRBD1900007PQ" group-title="France TV backup",Qui veut gagner des millions ? [schumijo]
-https://jmp2.uk/stvp-FRBD1900007PQ
-#EXTINF:-1 tvg-id="FRBD1900005BA" group-title="France TV backup",Les Z'amours [schumijo]
-https://jmp2.uk/stvp-FRBD1900005BA
-#EXTINF:-1 tvg-id="FRBB490000412" group-title="France TV backup",Motus [schumijo]
-https://jmp2.uk/stvp-FRBB490000412
-#EXTINF:-1 tvg-id="FR3600002W2" group-title="France TV backup",Familles en Scène [schumijo]
-https://jmp2.uk/stvp-FR3600002W2
-#EXTINF:-1 tvg-id="FR7000045E" group-title="France TV backup",Yu-Gi-Oh! [schumijo]
-https://jmp2.uk/stvp-FR7000045E
-#EXTINF:-1 tvg-id="FRBD41000051L" group-title="France TV backup",Wasabi [schumijo]
-https://jmp2.uk/stvp-FRBD41000051L
-#EXTINF:-1 tvg-id="FRAJ3800004CC" group-title="France TV backup",MTV Classics [schumijo]
-https://jmp2.uk/stvp-FRAJ3800004CC
-#EXTINF:-1 tvg-id="FRBD110000181" group-title="France TV backup",Culture Pub [schumijo]
-https://jmp2.uk/stvp-FRBD110000181
-#EXTINF:-1 tvg-id="FRBD41000124S" group-title="France TV backup",K-Drama+ [schumijo]
-https://jmp2.uk/stvp-FRBD41000124S
-#EXTINF:-1 tvg-id="FR90000160" group-title="France TV backup",Mr Bean Animated [schumijo]
-https://jmp2.uk/stvp-FR90000160
-#EXTINF:-1 tvg-id="FRBB49000033R" group-title="France TV backup",Homicide [schumijo]
-https://jmp2.uk/stvp-FRBB49000033R
-#EXTINF:-1 tvg-id="FRBD43000016D" group-title="France TV backup",Love Crime & History [schumijo]
-https://jmp2.uk/stvp-FRBD43000016D
-#EXTINF:-1 tvg-id="FRBD39000064E" group-title="France TV backup",100% Docs Crime [schumijo]
-https://jmp2.uk/stvp-FRBD39000064E
-#EXTINF:-1 tvg-id="FRBD410000436" group-title="France TV backup",Les secrets de nos régions [schumijo]
-https://jmp2.uk/stvp-FRBD410000436
-#EXTINF:-1 tvg-id="FRBD11000038N" group-title="France TV backup",L'effet papillon [schumijo]
-https://jmp2.uk/stvp-FRBD11000038N
-#EXTINF:-1 tvg-id="FR3200001NQ" group-title="France TV backup",BBC Earth [schumijo]
-https://jmp2.uk/stvp-FR3200001NQ
-#EXTINF:-1 tvg-id="FRBB4900002D4" group-title="France TV backup",NatureTime [schumijo]
-https://jmp2.uk/stvp-FRBB4900002D4
-#EXTINF:-1 tvg-id="FRBC3900004DS" group-title="France TV backup",Cap Terre [schumijo]
-https://jmp2.uk/stvp-FRBC3900004DS
-#EXTINF:-1 tvg-id="FRBC3500002E4" group-title="France TV backup",Echappées belles & co [schumijo]
-https://jmp2.uk/stvp-FRBC3500002E4
-#EXTINF:-1 tvg-id="FR23000013B" group-title="France TV backup",Al Jazeera [schumijo]
-https://jmp2.uk/stvp-FR23000013B
-#EXTINF:-1 tvg-id="FRBD490000195" group-title="France TV backup",Reuters [schumijo]
-https://jmp2.uk/stvp-FRBD490000195
-#EXTINF:-1 tvg-id="FR2400001TP" group-title="France TV backup",Top Gear [schumijo]
-https://jmp2.uk/stvp-FR2400001TP
-#EXTINF:-1 tvg-id="FRBD3600001BQ" group-title="France TV backup",Drive TV [schumijo]
-https://jmp2.uk/stvp-FRBD3600001BQ
-#EXTINF:-1 tvg-id="FR1700002OZ" group-title="France TV backup",NEW KPOP [schumijo]
-https://jmp2.uk/stvp-FR1700002OZ
-#EXTINF:-1 tvg-id="FRBC900001LB" group-title="France TV backup",Emotion [schumijo]
-https://jmp2.uk/stvp-FRBC900001LB
-#EXTINF:-1 tvg-id="FRBA3300046W4" group-title="France TV backup",Tortues Ninja [schumijo]
-https://jmp2.uk/stvp-FRBA3300046W4
-#EXTINF:-1 tvg-id="FRAJ3800010QO" group-title="France TV backup",Bob L'eponge [schumijo]
-https://jmp2.uk/stvp-FRAJ3800010QO
-#EXTINF:-1 tvg-id="FRAJ38000035M" group-title="France TV backup",Pluto TV Toons [schumijo]
-https://jmp2.uk/stvp-FRAJ38000035M
-#EXTINF:-1 tvg-id="FRAJ38000061J" group-title="France TV backup",iCarly [schumijo]
-https://jmp2.uk/stvp-FRAJ38000061J
-#EXTINF:-1 tvg-id="FR13000020W" group-title="France TV backup",100% Cinema [schumijo]
-https://jmp2.uk/stvp-FR13000020W
-#EXTINF:-1 tvg-id="FRBA2200010VN" group-title="France TV backup",MyTime Movie Network [schumijo]
-https://jmp2.uk/stvp-FRBA2200010VN
-#EXTINF:-1 tvg-id="FRAJ3800002W5" group-title="France TV backup",Pluto TV Ciné [schumijo]
-https://jmp2.uk/stvp-FRAJ3800002W5
-#EXTINF:-1 tvg-id="FRBC9000041F" group-title="France TV backup",Trailers [schumijo]
-https://jmp2.uk/stvp-FRBC9000041F
-#EXTINF:-1 tvg-id="FR4600001FK" group-title="France TV backup",Top Sci-Fi [schumijo]
-https://jmp2.uk/stvp-FR4600001FK
