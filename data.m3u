@@ -2343,7 +2343,7 @@ https://edge11.vedge.infomaniak.com/livecast/ik:impacttv-2/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
-https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="enquetes-de-choc-fast-media" group-title="France TV backup",ENQUÊTES DE CHOC [schumijo]
@@ -2619,3 +2619,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/p
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="GMSTV.sn@SD" group-title="Généralistes",GMS TV
 https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
