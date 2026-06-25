@@ -1088,7 +1088,7 @@ https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u
 #EXTINF:-1 tvg-id="Africa24.fr" group-title="France TV backup",Africa 24 (540p) [kilirushi]
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24English.fr" group-title="France TV backup",Africa 24 English (1080p) [kilirushi]
-https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24Sport.fr" group-title="France TV backup",Africa 24 Sport (1080p) [kilirushi]
 https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
@@ -1130,7 +1130,7 @@ https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
@@ -3852,3 +3852,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00405-rakutentv-cnnfastlg-rakuten-l
 https://live-cdn-bfmtv-lg-fr-euw1.bfmtv.bct.nextradiotv.com/master.m3u8?position=midroll&content_livestream=1&channel_name=BFMTV_all-LG_smartTV-Live&ads.devicemodel=[DEVICE_MODEL]&content_id=bfmtv_live_24_7&gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&env=smarttv&device_type=[DEVICE_TYPE]&did=[DEVICE_ID]&userid=[IFA]&ip=[IP]&app_bundle=[APP_BUNDLE]&app_name=[APP_NAME]&appVersion=[APP_VERSION]&ua=[UA]&url=[APP_STOREURL]&fck=[FCK]&viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-logo="https://lge-static.ottera.tv/prod/lge/linear_channel/logo/1600x400/lg1_800x200_white_6.png" group-title="LG Channels - Autres",LG 1 +1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=12780&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_fr&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]&keep_scte=1
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Africa24English.fr@SD" group-title="France TV backup",Africa 24 English (1080p) [iptv-org-fr]
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
