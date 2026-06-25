@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+h#!/usr/bin/env python3
 """
 refresh_fast.py — Fetch FAST channel playlists (Samsung TV+, Pluto TV, Plex TV,
 LG Channels, Rakuten TV, Sony One) and write data-fast.m3u (STANDALONE).
@@ -17,7 +17,7 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari
 # -- Source URLs --
 SAMSUNG_URL = "https://textup.fr/902510Ao?filetype=txt"
 PLUTO_URL   = "https://textup.fr/902266T0?filetype=txt"
-PLEX_URL    = "https://textup.fr/902513mk?filetype=txt"
+PLEX_URL    = "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_fr.m3u"
 LG_URL      = "https://www.apsattv.com/frlg.m3u"
 RAKUTEN_URL = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/fr_rakuten.m3u"
 
