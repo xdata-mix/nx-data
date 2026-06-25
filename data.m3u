@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/t
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="Généralistes",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="Généralistes",Alpe d’Huez TV (720p) 
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="AngersTele.fr@SD" tvg-logo="https://i.imgur.com/CMKKbaP.png" group-title="Généralistes",Angers Tele (180p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="Généralistes",Antenne Réunion (720p) 
@@ -3856,3 +3856,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=12780&avod=1&coppa=0&td=6&
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24English.fr@SD" group-title="France TV backup",Africa 24 English (1080p) [iptv-org-fr]
 https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [iptv-org-fr]
+https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
