@@ -3876,3 +3876,7 @@ https://amg02393-awpg-amg02393c2-rakuten-uk-2464.playouts.now.amagi.tv/playlist/
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="ATV.gn@SD" group-title="Généralistes",ATV (400p) [Not 24/7]
 https://guineetvdirect.online:3320/live/atvguineelive.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TraceUrban.fr@HD" group-title="France TV backup",Trace Urban HD [iptv-org-fr]
+https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
