@@ -32,6 +32,16 @@ SONY_ONE = [
     ("Sony One Blacklist",       "https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8",  ""),
 ]
 
+# Mapping source key -> group-title prefix in data-fast.m3u
+_SOURCE_PREFIXES = {
+    "samsung": "Samsung TV+",
+    "pluto":   "Pluto TV",
+    "plex":    "Plex TV",
+    "lg":      "LG Channels",
+    "rakuten": "Rakuten TV",
+    "sony":    "Sony One",
+}
+
 
 def fetch(url, timeout=20):
     try:
@@ -46,6 +56,31 @@ def fetch(url, timeout=20):
 def _attr(line, name):
     m = re.search(rf'{name}="([^"]*?)"', line)
     return m.group(1) if m else ""
+
+
+def read_existing_m3u(path):
+    """Read existing M3U file and return list of (name, url, group, logo) entries."""
+    entries = []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        return entries
+    i = 0
+    while i < len(lines):
+        ln = lines[i].strip()
+        if ln.startswith("#EXTINF:") and i + 1 < len(lines):
+            ul = lines[i + 1].strip()
+            if ul and ul.startswith("http") and not ul.startswith("#"):
+                logo = _attr(ln, "tvg-logo")
+                gt = _attr(ln, "group-title")
+                nm = ln[ln.rfind(",") + 1:].strip() if "," in ln else ""
+                if nm:
+                    entries.append((nm, ul, gt, logo))
+            i += 2
+            continue
+        i += 1
+    return entries
 
 
 # ---------- Samsung TV+ (JSON) ----------
@@ -128,7 +163,7 @@ def parse_lg(body):
                 logo = _attr(ln, "tvg-logo")
                 raw = ln[ln.rfind(",") + 1:].strip() if "," in ln else ""
                 if raw:
-                    nm = re.sub(r"^\\d+\\s+", "", raw)
+                    nm = re.sub(r"^\d+\s+", "", raw)
                     entries.append((nm or raw, ul, f"LG Channels - {_clf(nm)}", logo))
             i += 2
             continue
@@ -160,6 +195,7 @@ def main():
             bodies[futs[f]] = f.result()
 
     all_e = []
+    failed = set()
 
     # --- Samsung TV+ ---
     samsung_body = bodies.get("samsung")
@@ -169,6 +205,7 @@ def main():
         all_e.extend(e)
     else:
         print("  Samsung TV+: FAILED")
+        failed.add("samsung")
 
     # --- Pluto TV (avec fallback jmp2.uk si textup.fr fail) ---
     pluto_body = bodies.get("pluto")
@@ -181,6 +218,7 @@ def main():
         all_e.extend(e)
     else:
         print("  Pluto TV: FAILED (primary + fallback)")
+        failed.add("pluto")
 
     # --- Plex TV ---
     plex_body = bodies.get("plex")
@@ -190,6 +228,7 @@ def main():
         all_e.extend(e)
     else:
         print("  Plex TV: FAILED")
+        failed.add("plex")
 
     # --- LG Channels ---
     lg_body = bodies.get("lg")
@@ -199,6 +238,7 @@ def main():
         all_e.extend(e)
     else:
         print("  LG Channels: FAILED")
+        failed.add("lg")
 
     # --- Rakuten TV ---
     rakuten_body = bodies.get("rakuten")
@@ -208,11 +248,27 @@ def main():
         all_e.extend(e)
     else:
         print("  Rakuten TV: FAILED")
+        failed.add("rakuten")
 
-    # Sony One (hardcoded)
+    # --- Sony One (hardcoded, never fails) ---
     for name, url, logo in SONY_ONE:
         all_e.append((name, url, "Sony One", logo))
     print(f"  Sony One: {len(SONY_ONE)} channels")
+
+    # --- Keep old channels for failed sources ---
+    if failed:
+        old = read_existing_m3u(OUTPUT)
+        kept = 0
+        for name, url, group, logo in old:
+            for src, prefix in _SOURCE_PREFIXES.items():
+                if src in failed and group.startswith(prefix):
+                    all_e.append((name, url, group, logo))
+                    kept += 1
+                    break
+        if kept:
+            print(f"  Kept {kept} old channels for failed sources: {', '.join(sorted(failed))}")
+        else:
+            print(f"  No old channels found for failed sources: {', '.join(sorted(failed))}")
 
     print(f"  Total: {len(all_e)} FAST channels")
     if not all_e:
