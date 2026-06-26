@@ -3884,3 +3884,7 @@ https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24.fr@SD" group-title="France TV backup",Africa 24 (1080p) [iptv-org-fr]
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="PlutoTVDating.de@FR" group-title="France TV backup",Pluto TV Dating (720p) [iptv-org-fr]
+https://jmp2.uk/plu-682318568e6c0f2f6c6e0038.m3u8
