@@ -17,7 +17,8 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari
 # -- Source URLs --
 SAMSUNG_URL = "https://textup.fr/902510Ao?filetype=txt"
 PLUTO_URL   = "https://textup.fr/902266T0?filetype=txt"
-PLEX_URL    = "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_fr.m3u"
+PLUTO_FALLBACK_URL = "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_fr.m3u"
+PLEX_URL    = "https://textup.fr/902513mk?filetype=txt"
 LG_URL      = "https://www.apsattv.com/frlg.m3u"
 RAKUTEN_URL = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/fr_rakuten.m3u"
 
@@ -159,19 +160,54 @@ def main():
             bodies[futs[f]] = f.result()
 
     all_e = []
-    for svc, parser, body in [
-        ("Samsung TV+", parse_samsung, bodies.get("samsung")),
-        ("Pluto TV", lambda b: parse_m3u(b, "Pluto TV"), bodies.get("pluto")),
-        ("Plex TV", lambda b: parse_m3u(b, "Plex TV"), bodies.get("plex")),
-        ("LG Channels", parse_lg, bodies.get("lg")),
-        ("Rakuten TV", parse_rakuten, bodies.get("rakuten")),
-    ]:
-        if body:
-            e = parser(body)
-            print(f"  {svc}: {len(e)} channels")
-            all_e.extend(e)
-        else:
-            print(f"  {svc}: FAILED")
+
+    # --- Samsung TV+ ---
+    samsung_body = bodies.get("samsung")
+    if samsung_body:
+        e = parse_samsung(samsung_body)
+        print(f"  Samsung TV+: {len(e)} channels")
+        all_e.extend(e)
+    else:
+        print("  Samsung TV+: FAILED")
+
+    # --- Pluto TV (avec fallback jmp2.uk si textup.fr fail) ---
+    pluto_body = bodies.get("pluto")
+    if not pluto_body:
+        print("  Pluto TV: textup.fr failed, trying fallback jmp2.uk...")
+        pluto_body = fetch(PLUTO_FALLBACK_URL)
+    if pluto_body:
+        e = parse_m3u(pluto_body, "Pluto TV")
+        print(f"  Pluto TV: {len(e)} channels")
+        all_e.extend(e)
+    else:
+        print("  Pluto TV: FAILED (primary + fallback)")
+
+    # --- Plex TV ---
+    plex_body = bodies.get("plex")
+    if plex_body:
+        e = parse_m3u(plex_body, "Plex TV")
+        print(f"  Plex TV: {len(e)} channels")
+        all_e.extend(e)
+    else:
+        print("  Plex TV: FAILED")
+
+    # --- LG Channels ---
+    lg_body = bodies.get("lg")
+    if lg_body:
+        e = parse_lg(lg_body)
+        print(f"  LG Channels: {len(e)} channels")
+        all_e.extend(e)
+    else:
+        print("  LG Channels: FAILED")
+
+    # --- Rakuten TV ---
+    rakuten_body = bodies.get("rakuten")
+    if rakuten_body:
+        e = parse_rakuten(rakuten_body)
+        print(f"  Rakuten TV: {len(e)} channels")
+        all_e.extend(e)
+    else:
+        print("  Rakuten TV: FAILED")
 
     # Sony One (hardcoded)
     for name, url, logo in SONY_ONE:
