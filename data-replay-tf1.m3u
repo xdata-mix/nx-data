@@ -971,6 +971,8 @@ tf1plus://tf1/monsieur-parizot
 tf1plus://tf1/r-i-p-aimons-nous-vivants
 #EXTINF:-1 tvg-id="tf1plus-tf1-ghosts-fantomes-a-la-maison-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-ghosts-fantomes-a-la-maison-png-a85dfd-8109b8-64736e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Ghosts Fantomes A la Maison
 tf1plus://tf1/ghosts-fantomes-a-la-maison
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-feux-de-l-amour-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-d0af9e-eeb3a3-eb3bc6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Feux de L Amour
+tf1plus://tf1/les-feux-de-l-amour
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
 tf1plus://tf1/indefendable
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-miel-et-les-abeilles-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-0f609b-fd2233-3dc7db-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Le Miel et les Abeilles
@@ -993,8 +995,6 @@ tf1plus://tf1/les-freres-scott
 tf1plus://tf1/plus-belle-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tfx-madame-est-servie-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-47eb6f-6de85f-c82053-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Madame Est Servie
 tf1plus://tfx/madame-est-servie
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-feux-de-l-amour-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-d0af9e-eeb3a3-eb3bc6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Feux de L Amour
-tf1plus://tf1/les-feux-de-l-amour
 #EXTINF:-1 tvg-id="tf1plus-tf1-jikulumessu-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4f21d4-4f38b5-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Jikulumessu
 tf1plus://tf1/jikulumessu
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-moderna-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-la-moderna-bceea1-489a3c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",La Moderna
@@ -3627,22 +3627,22 @@ tf1plus://tf1-series-films/que-du-bonheur
 tf1plus://tf1-series-films/peres-meres-et-supporters
 #EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
 tf1plus://tf1/top-info
-#EXTINF:-1 tvg-id="tf1plus-lci-edition-speciale-lci" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Edition Speciale Lci
-tf1plus://lci/edition-speciale-lci
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
-tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
 tf1plus://tf1/jt-13h
 #EXTINF:-1 tvg-id="tf1plus-lci-bonjour-la-matinale-tf1" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Bonjour la Matinale Tf1
 tf1plus://lci/bonjour-la-matinale-tf1
+#EXTINF:-1 tvg-id="tf1plus-lci-edition-speciale-lci" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Edition Speciale Lci
+tf1plus://lci/edition-speciale-lci
 #EXTINF:-1 tvg-id="tf1plus-lci-24h-pujadas-l-info-en-questions" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",24h Pujadas L Info En Questions
 tf1plus://lci/24h-pujadas-l-info-en-questions
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
 tf1plus://lci/la-matinale-618
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
+tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-lci-meteo" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Meteo
 tf1plus://lci/meteo
 #EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",18h Darius Rochebin
