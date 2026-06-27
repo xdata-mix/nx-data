@@ -2,7 +2,12 @@
 """refresh_francetv.py — génère data-replay-francetv.m3u.
 
 API publique api-mobile.yatta.francetv.fr/apps/. Pas de payant côté France.tv
-(= 100% gratuit). URLs francetv://<si_id> résolues côté app par FrancetvResolver.
+(= 100% gratuit).
+
+Deux types d'entrées :
+  - VIDÉO directe : francetv://<si_id>            (= film / doc / épisode unique)
+  - PROGRAMME     : francetv://program/<path>     (= série → dépliée en épisodes
+                    côté app via /apps/program/<path>, collection playlist_video)
 """
 import json, os, sys, time
 sys.path.insert(0, os.path.dirname(__file__))
@@ -35,21 +40,7 @@ FRANCETV_CATEGORIES = [
 ]
 
 
-def _extract_item(item, seen):
-    """Extrait {si_id,title,logo} d'un item yatta. None si invalide/déjà vu."""
-    si = item.get("si_id")
-    if not si or si in seen:
-        return None
-    seen.add(si)
-    title = (item.get("title") or "").strip()
-    program = item.get("program") or {}
-    program_title = program.get("label") or program.get("title") or ""
-    if not title:
-        title = program_title
-    elif program_title and program_title.lower() not in title.lower():
-        title = f"{program_title} — {title}"
-    if not title:
-        return None
+def _extract_logo(item):
     logo = ""
     imgs = item.get("images") or []
     if isinstance(imgs, list):
@@ -64,12 +55,46 @@ def _extract_item(item, seen):
                     break
             if not logo and urls:
                 logo = next(iter(urls.values()))
-    return {"si_id": si, "title": title[:140], "logo": logo}
+    return logo
+
+
+def _extract_item(item, seen):
+    """Retourne {kind,ref,title,logo} ou None.
+    kind='video' (si_id direct = jouable) ou 'program' (path = série à déplier)."""
+    si = item.get("si_id")
+    path = item.get("program_path")
+    key = si or (("prog:" + path) if path else None)
+    if not key or key in seen:
+        return None
+    seen.add(key)
+    title = (item.get("title") or "").strip()
+    program = item.get("program") or {}
+    program_title = program.get("label") or program.get("title") or ""
+    if not title:
+        title = program_title
+    elif program_title and program_title.lower() not in title.lower():
+        title = f"{program_title} — {title}"
+    if not title:
+        title = (item.get("label") or "").strip()
+    if not title:
+        return None
+    logo = _extract_logo(item)
+    if si:
+        return {"kind": "video", "ref": si, "title": title[:140], "logo": logo}
+    if path:
+        return {"kind": "program", "ref": path, "title": title[:140], "logo": logo}
+    return None
+
+
+def _emit(p):
+    """(src_url, tvg_id) selon le type d'entrée."""
+    if p["kind"] == "program":
+        return f"francetv://program/{p['ref']}", f"francetv-prog-{p['ref']}"
+    return f"francetv://{p['ref']}", f"francetv-{p['ref']}"
 
 
 def _parse_yatta_response(data):
-    """Helper commun pour /apps/channels/<path> et /apps/categories/<slug>.
-    Aplati toutes les collections en une seule liste (= usage chaînes)."""
+    """Aplati toutes les collections en une seule liste (= usage chaînes)."""
     seen = set()
     out = []
     for coll in data.get("collections", []):
@@ -88,8 +113,7 @@ def _parse_yatta_response(data):
 
 
 def _parse_yatta_sections(data):
-    """Comme _parse_yatta_response mais PRÉSERVE les rayons (collections).
-    Retourne [(rail_title, [{si_id,title,logo}]), ...] dans l'ordre du site.
+    """PRÉSERVE les rayons (collections). Retourne [(rail_title, [items]), ...].
     Skip les rayons live/link/navigation (playlist_sous_categories)."""
     skip_types = {"live", "link", "playlist_sous_categories"}
     out = []
@@ -138,36 +162,36 @@ def generate(output_path):
         print(f"  {channel_label}: {len(progs)} programmes")
         for p in progs:
             logo = p["logo"] or channel_logo
+            src, tvgid = _emit(p)
             lines.append(
-                f'#EXTINF:-1 tvg-id="francetv-{p["si_id"]}" '
+                f'#EXTINF:-1 tvg-id="{tvgid}" '
                 f'tvg-logo="{logo}" tvg-country="FR" tvg-type="series" '
                 f'group-title="Replay {channel_label}",{p["title"]}'
             )
-            lines.append(f'francetv://{p["si_id"]}')
+            lines.append(src)
             total += 1
         time.sleep(0.4)
 
     print("\n=== France.tv Catégories + sous-rayons (10 catégories) ===")
     # 2026-06-26 : on PRÉSERVE les rayons (3-5 ans, Séries animées, Comédie...)
-    #   de chaque catégorie et on émet un group-title par rayon :
-    #     "Thématique France TV - <Catégorie> - <Rayon>"
-    #   PLUS de déduplication contre les chaînes : les 9 chaînes scrapent tout
-    #   le catalogue, donc dédupliquer vidait les catégories (notamment Enfants/
-    #   Okoo = dessins animés). Chaque rayon est complet, comme sur france.tv.
+    #   et on émet par item soit une vidéo (si_id) soit un PROGRAMME (série, via
+    #   francetv://program/<path>). PLUS de dédup contre les chaînes : les 9
+    #   chaînes scrapent tout, ce qui vidait les catégories (Enfants/Okoo =
+    #   dessins animés). Chaque rayon est complet, comme sur france.tv.
     for cat_slug, cat_label, cat_logo in FRANCETV_CATEGORIES:
         sections = francetv_category_sections(cat_slug)
         added = 0
         for rail_name, items in sections:
             group = f"Thématique France TV - {cat_label} - {rail_name}"
             for p in items:
-                si = p["si_id"]
                 logo = p["logo"] or cat_logo
+                src, tvgid = _emit(p)
                 lines.append(
-                    f'#EXTINF:-1 tvg-id="francetv-{si}" '
+                    f'#EXTINF:-1 tvg-id="{tvgid}" '
                     f'tvg-logo="{logo}" tvg-country="FR" tvg-type="series" '
                     f'group-title="{group}",{p["title"]}'
                 )
-                lines.append(f'francetv://{si}')
+                lines.append(src)
                 total += 1
                 added += 1
         print(f"  {cat_label}: {len(sections)} rayons, {added} entrées")
