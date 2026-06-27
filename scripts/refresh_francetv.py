@@ -35,52 +35,78 @@ FRANCETV_CATEGORIES = [
 ]
 
 
+def _extract_item(item, seen):
+    """Extrait {si_id,title,logo} d'un item yatta. None si invalide/déjà vu."""
+    si = item.get("si_id")
+    if not si or si in seen:
+        return None
+    seen.add(si)
+    title = (item.get("title") or "").strip()
+    program = item.get("program") or {}
+    program_title = program.get("label") or program.get("title") or ""
+    if not title:
+        title = program_title
+    elif program_title and program_title.lower() not in title.lower():
+        title = f"{program_title} — {title}"
+    if not title:
+        return None
+    logo = ""
+    imgs = item.get("images") or []
+    if isinstance(imgs, list):
+        portrait_img = next((i for i in imgs if i.get("type", "").startswith("vignette")), None)
+        bg_img = next((i for i in imgs if i.get("type", "").startswith("background")), None)
+        chosen = portrait_img or bg_img or (imgs[0] if imgs else None)
+        if chosen:
+            urls = chosen.get("urls", {}) or {}
+            for size_key in ("w:400", "w:300", "w:800", "w:265", "w:1024", "w:2500"):
+                if urls.get(size_key):
+                    logo = urls[size_key]
+                    break
+            if not logo and urls:
+                logo = next(iter(urls.values()))
+    return {"si_id": si, "title": title[:140], "logo": logo}
+
+
 def _parse_yatta_response(data):
-    """Helper commun pour /apps/channels/<path> et /apps/categories/<slug>."""
+    """Helper commun pour /apps/channels/<path> et /apps/categories/<slug>.
+    Aplati toutes les collections en une seule liste (= usage chaînes)."""
     seen = set()
     out = []
     for coll in data.get("collections", []):
         if coll.get("type") in ("live", "link"):
             continue
         for item in coll.get("items", []):
-            si = item.get("si_id")
-            if not si or si in seen:
+            it = _extract_item(item, seen)
+            if it is None:
                 continue
-            seen.add(si)
-            title = (item.get("title") or "").strip()
-            program = item.get("program") or {}
-            program_title = program.get("label") or program.get("title") or ""
-            if not title:
-                title = program_title
-            elif program_title and program_title.lower() not in title.lower():
-                title = f"{program_title} — {title}"
-            if not title:
-                continue
-            # 2026-06-23 : extract image from "images" array (= list of
-            # {urls: {"w:265": ..., "w:400": ...}, type: "background_16x9"|"vignette"})
-            # Prefer vignette (portrait) for posters, fallback background_16x9.
-            logo = ""
-            imgs = item.get("images") or []
-            if isinstance(imgs, list):
-                # Priority : vignette portrait (= les vrais posters de séries)
-                portrait_img = next((i for i in imgs if i.get("type", "").startswith("vignette")), None)
-                bg_img = next((i for i in imgs if i.get("type", "").startswith("background")), None)
-                chosen = portrait_img or bg_img or (imgs[0] if imgs else None)
-                if chosen:
-                    urls = chosen.get("urls", {}) or {}
-                    # Prefer ~400-800px for jaquettes (optimal taille app)
-                    for size_key in ("w:400", "w:300", "w:800", "w:265", "w:1024", "w:2500"):
-                        if urls.get(size_key):
-                            logo = urls[size_key]
-                            break
-                    # Fallback : 1st URL trouvée
-                    if not logo and urls:
-                        logo = next(iter(urls.values()))
-            out.append({"si_id": si, "title": title[:140], "logo": logo})
+            out.append(it)
             if len(out) >= MAX_ITEMS_PER_CHAN:
                 break
         if len(out) >= MAX_ITEMS_PER_CHAN:
             break
+    return out
+
+
+def _parse_yatta_sections(data):
+    """Comme _parse_yatta_response mais PRÉSERVE les rayons (collections).
+    Retourne [(rail_title, [{si_id,title,logo}]), ...] dans l'ordre du site.
+    Skip les rayons live/link/navigation (playlist_sous_categories)."""
+    skip_types = {"live", "link", "playlist_sous_categories"}
+    out = []
+    for coll in data.get("collections", []):
+        if coll.get("type") in skip_types:
+            continue
+        rail = (coll.get("title") or coll.get("label") or "").strip()
+        if not rail:
+            continue
+        seen = set()
+        items = []
+        for item in coll.get("items", []):
+            it = _extract_item(item, seen)
+            if it is not None:
+                items.append(it)
+        if items:
+            out.append((rail, items))
     return out
 
 
@@ -93,10 +119,10 @@ def francetv_channel_programs(channel_path):
         return []
 
 
-def francetv_category_programs(category_slug):
+def francetv_category_sections(category_slug):
     url = f"https://api-mobile.yatta.francetv.fr/apps/categories/{category_slug}?platform=apps"
     try:
-        return _parse_yatta_response(json.loads(http_get(url)))
+        return _parse_yatta_sections(json.loads(http_get(url)))
     except Exception as e:
         print(f"[!] FTV cat {category_slug}: {e}", file=sys.stderr)
         return []
@@ -121,30 +147,30 @@ def generate(output_path):
             total += 1
         time.sleep(0.4)
 
-    print("\n=== France.tv Thématiques (10 catégories) ===")
-    ftv_seen = set()
-    for line in lines:
-        if line.startswith('francetv://'):
-            ftv_seen.add(line.replace('francetv://', '').strip())
+    print("\n=== France.tv Catégories + sous-rayons (10 catégories) ===")
+    # 2026-06-26 : on PRÉSERVE les rayons (3-5 ans, Séries animées, Comédie...)
+    #   de chaque catégorie et on émet un group-title par rayon :
+    #     "Thématique France TV - <Catégorie> - <Rayon>"
+    #   PLUS de déduplication contre les chaînes : les 9 chaînes scrapent tout
+    #   le catalogue, donc dédupliquer vidait les catégories (notamment Enfants/
+    #   Okoo = dessins animés). Chaque rayon est complet, comme sur france.tv.
     for cat_slug, cat_label, cat_logo in FRANCETV_CATEGORIES:
-        progs = francetv_category_programs(cat_slug)
+        sections = francetv_category_sections(cat_slug)
         added = 0
-        group = f"Thématique France TV - {cat_label}"
-        for p in progs:
-            si = p["si_id"]
-            if si in ftv_seen:
-                continue
-            ftv_seen.add(si)
-            logo = p["logo"] or cat_logo
-            lines.append(
-                f'#EXTINF:-1 tvg-id="francetv-{si}" '
-                f'tvg-logo="{logo}" tvg-country="FR" tvg-type="series" '
-                f'group-title="{group}",{p["title"]}'
-            )
-            lines.append(f'francetv://{si}')
-            total += 1
-            added += 1
-        print(f"  Théma {cat_label}: {len(progs)} → {added} nouveaux")
+        for rail_name, items in sections:
+            group = f"Thématique France TV - {cat_label} - {rail_name}"
+            for p in items:
+                si = p["si_id"]
+                logo = p["logo"] or cat_logo
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="francetv-{si}" '
+                    f'tvg-logo="{logo}" tvg-country="FR" tvg-type="series" '
+                    f'group-title="{group}",{p["title"]}'
+                )
+                lines.append(f'francetv://{si}')
+                total += 1
+                added += 1
+        print(f"  {cat_label}: {len(sections)} rayons, {added} entrées")
         time.sleep(0.3)
 
     with open(output_path, 'w', encoding='utf-8') as f:
