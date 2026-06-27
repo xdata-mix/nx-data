@@ -176,6 +176,38 @@ def parse_rakuten(body):
     return parse_m3u(body, "Rakuten TV")
 
 
+def fetch_plex_lineup():
+    """2026-06-26 : Plex free live TV via API officielle (token anonyme + lineup).
+    Emet plex://<channelId> = ref stable resolue a la lecture par l'app (PlexTvResolver).
+    Remplace l'ancien m3u jmp2.uk mort (session Plex perimee -> 404)."""
+    import uuid as _u, json as _j
+    cid = str(_u.uuid4())
+    try:
+        req = Request("https://plex.tv/api/v2/users/anonymous", data=b"",
+                      headers={"Accept": "application/json",
+                               "X-Plex-Product": "Plex Mediaverse",
+                               "X-Plex-Client-Identifier": cid})
+        tok = _j.loads(urlopen(req, timeout=20).read().decode("utf-8")).get("authToken", "")
+        if not tok:
+            return []
+        lu = ("https://epg.provider.plex.tv/lineups/plex/channels"
+              "?X-Plex-Token=" + tok + "&X-Plex-Client-Identifier=" + cid)
+        data = _j.loads(urlopen(Request(lu, headers={"Accept": "application/json"}), timeout=20).read().decode("utf-8"))
+        chans = (data.get("MediaContainer", data).get("Channel") or [])
+        out = []
+        for ch in chans:
+            cid2 = ch.get("id", "")
+            title = (ch.get("title") or "").strip()
+            if not cid2 or not title:
+                continue
+            logo = ch.get("coverPoster") or ch.get("thumb") or ch.get("art") or ""
+            out.append((title, "plex://" + cid2, "Plex TV - France", logo))
+        return out
+    except Exception as e:
+        print("  WARN plex lineup: " + str(e), file=sys.stderr)
+        return []
+
+
 # ---------- Main ----------
 def main():
     print("refresh_fast.py: fetching FAST playlists...")
@@ -220,14 +252,13 @@ def main():
         print("  Pluto TV: FAILED (primary + fallback)")
         failed.add("pluto")
 
-    # --- Plex TV ---
-    plex_body = bodies.get("plex")
-    if plex_body:
-        e = parse_m3u(plex_body, "Plex TV")
-        print(f"  Plex TV: {len(e)} channels")
+    # --- Plex TV (2026-06-26 : API officielle, token anonyme + lineup -> plex://<id>) ---
+    e = fetch_plex_lineup()
+    if e:
+        print(f"  Plex TV: {len(e)} channels (API officielle)")
         all_e.extend(e)
     else:
-        print("  Plex TV: FAILED")
+        print("  Plex TV: FAILED (lineup API)")
         failed.add("plex")
 
     # --- LG Channels ---
