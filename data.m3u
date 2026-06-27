@@ -1578,7 +1578,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Séries ===
 #EXTINF:-1 tvg-id="SerieMax.ci@SD" group-title="Séries",Serie Max
@@ -1674,7 +1674,7 @@ https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup",Madras FM TV (1080p) [iptv-org-fra]
-https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
@@ -3888,3 +3888,9 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="PlutoTVDating.de@FR" group-title="France TV backup",Pluto TV Dating (720p) [iptv-org-fr]
 https://jmp2.uk/plu-682318568e6c0f2f6c6e0038.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="France TV backup",MADRAS FM TV [schumijo]
+https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+#EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
+https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
