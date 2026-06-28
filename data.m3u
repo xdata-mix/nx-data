@@ -629,7 +629,7 @@ https://test.946985.filegear-sg.me/proxy/803c517b325bfafc
 #EXTINF:-1 tvg-id="Melody.fr@SD" tvg-logo="https://i.imgur.com/9GVyQ6x.png" group-title="Musique",Melody (288p)
 https://live.creacast.com/telemelody/smil:telemelody-yjvCxE7x.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Mezzo.fr@SD" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="Musique",Mezzo (576p)
-http://tmptv.sunduk.tv/CH97/index.m3u8
+https://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="Musique",Mezzo Live
 https://test.946985.filegear-sg.me/proxy/749755700e4ed9c6
 #EXTINF:-1 tvg-id="MouvTV.fr@SD" tvg-logo="https://i.imgur.com/64nzKEu.jpg" group-title="Musique",Mouv' TV (288p)
@@ -3906,3 +3906,21 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/series.m
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="enquetes-de-choc-fast-media" group-title="France TV backup",ENQUÊTES DE CHOC [schumijo]
 https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Gulli.fr@HD" group-title="France TV backup",Gulli HD (720p) [iptv-org-fr]
+http://41.205.77.102/GULLI/index.m3u8
+#EXTINF:-1 tvg-id="RMCDecouverte.fr@SD" group-title="France TV backup",RMC Decouverte (576p) [iptv-org-fr]
+http://41.205.77.102/RMCDECOUVERTE/index.m3u8
+#EXTINF:-1 tvg-id="RMCLife.fr@SD" group-title="France TV backup",RMC Life (720p) [iptv-org-fr]
+http://41.205.77.102/CHERIE25/index.m3u8
+
+# === Ajouts FR multi-sources : Documentaire ===
+#EXTINF:-1 tvg-id="NationalGeographicWild.fr@SD" group-title="Documentaire",National Geographic Wild (720p)
+http://41.205.77.102/NATGEO-WILD/index.m3u8
+
+# === Ajouts FR multi-sources : Jeunesse ===
+#EXTINF:-1 tvg-id="CanalJ.fr@HD" group-title="Jeunesse",Canal J HD (720p)
+http://41.205.77.102/CANALJ/index.m3u8
+#EXTINF:-1 tvg-id="TiJi.fr@HD" group-title="Jeunesse",TiJi HD (720p)
+http://41.205.77.102/TIJI/index.m3u8
