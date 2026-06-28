@@ -7,7 +7,7 @@ fetch chaque page, extrait le m3u8, et genere data-stream4free.m3u.
 2 groupes :
   - "Stream4Free - Emissions TV"  (trouves sur /tv-show-series)
   - "Stream4Free - TV en direct"  (trouves sur /tv-live-france)
-  - Si un slug est sur les deux ou aucun -> "Stream4Free - Emissions TV"
+  - Si un slug n'est PAS sur /tv-live-france -> "Stream4Free - Emissions TV"
 
 Utilise cloudscraper pour contourner la protection Cloudflare.
 Heberge dans xdata-mix/nx-data, execute par GitHub Actions (refresh_stream4free.yml).
@@ -123,6 +123,12 @@ def extract_info(html, slug):
                 " Stream", " HD", " Live"]:
         if title.endswith(sep):
             title = title[:-len(sep)].strip()
+    # Prefixes a nettoyer
+    for pfx in ["Stream4free Live - ", "Stream4Free Live - ",
+                "Stream4free live - ", "Regarder "]:
+        if title.startswith(pfx):
+            title = title[len(pfx):].strip()
+            break
     if title.lower().startswith("regarder "):
         title = title[9:].strip()
     if title:
@@ -167,9 +173,9 @@ def main():
             failed.append(slug)
             continue
 
-        # Categoriser : si trouve UNIQUEMENT sur /tv-live-france -> live
+        # Categoriser : si trouve sur /tv-live-france -> live
         # Sinon -> emission (defaut)
-        if slug in live_slugs and slug not in show_slugs:
+        if slug in live_slugs:
             group = "Stream4Free - TV en direct"
         else:
             group = "Stream4Free - Emissions TV"
