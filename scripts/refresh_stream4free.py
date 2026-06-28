@@ -5,22 +5,24 @@ Génère data-stream4free.m3u avec 2 groupes :
   - "Stream4Free - Émissions TV"  (24/7 loops de séries/émissions)
   - "Stream4Free - TV en direct"  (chaînes françaises live)
 
+Utilise cloudscraper pour contourner la protection Cloudflare.
 Hébergé dans xdata-mix/nx-data, exécuté par GitHub Actions (refresh_stream4free.yml).
 """
 
 import os
 import re
 import sys
-import urllib.request
-import urllib.error
-import ssl
 import json
 from collections import OrderedDict
 
-# ── Bypass SSL (certains CDN ont des certs flaky) ──
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
+try:
+    import cloudscraper
+    scraper = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'linux', 'desktop': True}
+    )
+except ImportError:
+    # Fallback si cloudscraper pas installé (dev local)
+    scraper = None
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
@@ -103,7 +105,7 @@ TV_EN_DIRECT = [
 ]
 
 # ── Regex pour extraire le m3u8 du HTML ──
-M3U8_RE = re.compile(r'https://sv\d+\.data-stream\.top/[a-f0-9]+/hls/[\w._-]+\.m3u8')
+M3U8_RE = re.compile(r'https://sv\d+\.data-stream\.top(?::\d+)?/[a-f0-9]+/hls/[\w._-]+\.m3u8(?:\?[^"\'<\s]+)?')
 TITLE_RE = re.compile(r'<title[^>]*>([^<]+)</title>', re.IGNORECASE)
 OG_IMAGE_RE = re.compile(r'<meta\s+property=["\']og:image["\']\s+content=["\']([^"\']+)["\']', re.IGNORECASE)
 # Fallback : og:image peut aussi être content avant property
@@ -115,10 +117,24 @@ BASE_URL = "https://www.stream4free.tv"
 def fetch_page(slug):
     """Fetch une page channel et retourne (html, None) ou (None, erreur)."""
     url = f"{BASE_URL}/{slug}"
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
-        with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
-            return resp.read().decode("utf-8", errors="replace"), None
+        if scraper:
+            # cloudscraper gère le challenge Cloudflare automatiquement
+            resp = scraper.get(url, timeout=20)
+            if resp.status_code == 200:
+                return resp.text, None
+            else:
+                return None, f"HTTP {resp.status_code}"
+        else:
+            # Fallback urllib (sans bypass CF)
+            import urllib.request
+            import ssl
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
+                return resp.read().decode("utf-8", errors="replace"), None
     except Exception as e:
         return None, str(e)
 
@@ -156,7 +172,8 @@ def main():
     entries = []  # list of (group, title, m3u8_url, logo)
     failed = []
 
-    print(f"Stream4Free scraper — {len(EMISSIONS_TV)} émissions + {len(TV_EN_DIRECT)} live", file=sys.stderr)
+    mode = "cloudscraper" if scraper else "urllib (pas de bypass CF)"
+    print(f"Stream4Free scraper [{mode}] — {len(EMISSIONS_TV)} émissions + {len(TV_EN_DIRECT)} live", file=sys.stderr)
 
     for group_label, slugs in [
         ("Stream4Free - Émissions TV", EMISSIONS_TV),
