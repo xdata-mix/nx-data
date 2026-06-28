@@ -1,0 +1,42 @@
+name: Refresh Stream4Free
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # toutes les 6h
+  workflow_dispatch:          # trigger manuel
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Stream4Free scraper
+        run: python scripts/refresh_stream4free.py
+
+      - name: Combine into data-replay.m3u (if combine script exists)
+        run: |
+          if [ -f scripts/combine_replays.py ]; then
+            python scripts/combine_replays.py
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data-stream4free.m3u
+          if [ -f data-replay.m3u ]; then git add data-replay.m3u; fi
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: refresh stream4free"
+            git push
+          fi
