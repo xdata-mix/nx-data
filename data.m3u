@@ -277,7 +277,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/f
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-limousin-highest.m3u8
 #EXTINF:-1 tvg-chno="140" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 LORRAINE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-lorraine-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-lorraine.m3u8
 #EXTINF:-1 tvg-chno="141" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 MIDI-PYRÉNÉES 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-midi-pyrenees-highest.m3u8
@@ -415,7 +415,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/ra
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing4-highest.m3u8
 #EXTINF:-1 tvg-chno="315" tvg-logo="https://i.imgur.com/YU1cMYO.png" tvg-country="FR" group-title="Sport",RACING 5 [1080p-equidia.fr]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing5-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/racing5.m3u8
 #EXTINF:-1 tvg-chno="316" tvg-logo="https://i.imgur.com/4xO7aRX.png" tvg-country="FR" group-title="Sport",RACING 6 [1080p-equidia.fr]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/racing6-highest.m3u8
@@ -3936,3 +3936,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 http://69.64.57.208/france2/mono.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
