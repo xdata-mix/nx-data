@@ -19,6 +19,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install cloudscraper
+
       - name: Run Stream4Free scraper
         run: python scripts/refresh_stream4free.py
 
