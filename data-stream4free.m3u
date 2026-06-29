@@ -1,6 +1,22 @@
 #EXTM3U
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/sunny.jpg",Always Sunny
+stream4free://always-sunny-in-philadelphia
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/american_dad.gif",American Dad
+stream4free://american-dad-hd
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/aqua.jpg",Aqua Teen
+stream4free://aqua-teen-hunger-force
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/archer.jpg",Archer
+stream4free://archer
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/bobs.jpg",Bob's Burgers
+stream4free://bobs-burgers
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/bb.jpg",Breaking Bad
+stream4free://breaking-bad
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/cameracafe.jpg",Camera Cafe
 stream4free://camera-cafe-stream
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/cleveland.jpg",Cleveland Show
+stream4free://the-cleveland-show
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/community.jpg",Community
+stream4free://greendale-college
 #EXTINF:-1 group-title="Stream4Free - Television en direct",DDC
 stream4free://ddc
 #EXTINF:-1 group-title="Stream4Free - Television en direct",Docs Divers
@@ -9,20 +25,46 @@ stream4free://divers-docs
 stream4free://dragonball-dbz
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/specialinvestigation.jpg",Enquete Exclusive
 stream4free://enquete-exclusive
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/family.jpg",Family Guy
+stream4free://family-guy-hd
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/france3.png",France 3
 stream4free://france-3-live
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/france4.png",France 4
 stream4free://france-4
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/friends.jpg",Friends
+stream4free://friends-live
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/futurama.jpg",Futurama
+stream4free://futurama
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/game-of-thrones-logo.png",Game of Thrones
+stream4free://game-of-thrones-hd
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/h.jpg",H Integrale
 stream4free://h-integrale
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/himym.jpg",HIMYM
+stream4free://himym
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/house.jpg",House MD
+stream4free://house-md
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/kaamelott.jpg",Kaamelott
 stream4free://kaamelott-hd
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/kinghill.jpg",King of the Hill
+stream4free://king-of-the-hill
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/univers.jpg",L'Univers
 stream4free://l-univers-et-ses-mysteres
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/simpsons.jpg",Les Simpsons VF
 stream4free://simpsons-vf
+#EXTINF:-1 group-title="Stream4Free - Television en direct",Poker
+stream4free://poker-stream
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/rickmorty.jpg",Rick and Morty
+stream4free://rick-and-morty
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/scrubs.jpg",Scrubs
+stream4free://scrubs
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/seinfeld.jpg",Seinfeld
+stream4free://seinfeld
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/soa.jpg",Sons of Anarchy
+stream4free://sons-of-anarchy
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/southpark.jpg",South Park FR
 stream4free://south-park-fr
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/southpark.jpg",South Park US
+stream4free://south-park-us
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/specialinvestigation.jpg",Special Investigation
 stream4free://special-investigation
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/stargate.jpg",Stargate
@@ -31,9 +73,17 @@ stream4free://stargate-sg1-sga
 stream4free://tf1-live-streaming
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/70show.jpg",That 70s Show
 stream4free://70-show
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/TBBT.jpg",The Big Bang Theory
+stream4free://the-big-bang-theory
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/theoffice.jpg",The Office
+stream4free://the-office
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/simpsons.jpg",The Simpsons
+stream4free://the-simpsons
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/twd.jpg",The Walking Dead
 stream4free://the-walking-dead
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/triptank.jpg",Triptank
 stream4free://triptank
 #EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/science.jpg",TV Sciences
 stream4free://tv-sciences
+#EXTINF:-1 group-title="Stream4Free - Television en direct" tvg-logo="https://www.stream4free.tv/images/avatars/workaholics.jpg",Workaholics
+stream4free://workaholics
