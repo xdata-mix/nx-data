@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-refresh_stream4free.py — Scraper AUTO-DISCOVERY pour stream4free.tv
+refresh_stream4free.py â Scraper AUTO-DISCOVERY pour stream4free.tv
 Aucune liste hardcodee. Le script scrape le site + sitemap.xml,
 decouvre TOUS les slugs, fetch chaque page, extrait le m3u8,
 et genere data-stream4free.m3u. TOUT est pris, sans exception.
 
 2 groupes :
-  - "Stream4Free - Emissions TV"  (trouves sur /tv-live-france = series/emissions)
-  - "Stream4Free - TV en direct"  (tout le reste = chaines live/replay)
+  - "Stream4Free - TV en direct"  (chaines live = ~53 chaines francaises)
+  - "Stream4Free - Emissions TV"  (series/shows = tout le reste)
 
 Utilise cloudscraper pour contourner la protection Cloudflare.
 Heberge dans xdata-mix/nx-data, execute par GitHub Actions.
@@ -29,7 +29,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
      "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 BASE_URL = "https://www.stream4free.tv"
 
-# Pages de navigation PURE — pas de contenu video
+# Pages de navigation PURE â pas de contenu video
 NAV_PAGES = {
     "login", "register", "register-account", "lost-password",
     "contact", "privacy-policy", "terms-of-service", "about", "dmca",
@@ -56,6 +56,22 @@ OG_IMAGE_RE2 = re.compile(
     re.IGNORECASE
 )
 LINK_RE = re.compile(r'href=["\']\/([a-z0-9][a-z0-9_-]*)\/?["\']', re.IGNORECASE)
+
+# Marqueurs de noms de chaines TV connues (pour categorisation robuste)
+# Si un slug CONTIENT un de ces marqueurs â c'est une chaine live, pas une serie
+CHANNEL_MARKERS = [
+    "tf1", "france", "m6", "arte", "bfm", "cnews", "cstar", "w9",
+    "tmc", "tfx", "lci", "euronews", "eurosport", "rmc", "rtl9",
+    "tv5", "nrj", "gulli", "c8", "6ter", "lequipe", "public-senat",
+    "histoire", "nat-geo", "national-geo", "t18", "cherie25",
+    "planete", "paris-premiere", "numero23",
+]
+
+
+def is_likely_channel(slug):
+    """Heuristique : le slug ressemble-t-il a une chaine TV francaise ?"""
+    s = slug.lower()
+    return any(m in s for m in CHANNEL_MARKERS)
 
 
 def fetch(url):
@@ -110,7 +126,7 @@ def discover_slugs():
             target_set |= found
         print(f"  discover {label}: {len(found)} slugs", file=sys.stderr)
 
-    # 2) Sitemap.xml — souvent PLUS de pages que les navs
+    # 2) Sitemap.xml â souvent PLUS de pages que les navs
     for sm_url in [f"{BASE_URL}/sitemap.xml", f"{BASE_URL}/sitemap_index.xml"]:
         html, err = fetch(sm_url)
         if not html:
@@ -208,12 +224,17 @@ def main():
             continue
 
         # CATEGORISATION :
-        # Slugs trouves sur /tv-live-france -> Emissions TV (series/emissions)
-        # Le reste -> TV en direct (chaines live/replay)
-        if slug in live_slugs:
-            group = "Stream4Free - Emissions TV"
-        else:
+        # Chaines TV live â "TV en direct" (53 chaines connues)
+        # Series/emissions â "Emissions TV" (tout le reste)
+        # Priorite : page exclusive > heuristique nom de chaine
+        if slug in live_slugs and slug not in show_slugs:
             group = "Stream4Free - TV en direct"
+        elif slug in show_slugs and slug not in live_slugs:
+            group = "Stream4Free - Emissions TV"
+        elif is_likely_channel(slug):
+            group = "Stream4Free - TV en direct"
+        else:
+            group = "Stream4Free - Emissions TV"
 
         entries.append((group, title, m3u8_url, logo))
         print(f"  OK {slug} -> {title} [{group.split(' - ')[1]}]",
@@ -223,7 +244,7 @@ def main():
     if extra_slugs:
         to_process = extra_slugs - processed
         if to_process:
-            print(f"\n  +{len(to_process)} slugs supplementaires (crawl)",
+            print(f"\n  +{ len(to_process)} slugs supplementaires (crawl)",
                   file=sys.stderr)
             for slug in sorted(to_process):
                 processed.add(slug)
@@ -237,10 +258,14 @@ def main():
                     print(f"  WARN {slug}: no m3u8", file=sys.stderr)
                     failed.append(slug)
                     continue
-                if slug in live_slugs:
-                    group = "Stream4Free - Emissions TV"
-                else:
+                if slug in live_slugs and slug not in show_slugs:
                     group = "Stream4Free - TV en direct"
+                elif slug in show_slugs and slug not in live_slugs:
+                    group = "Stream4Free - Emissions TV"
+                elif is_likely_channel(slug):
+                    group = "Stream4Free - TV en direct"
+                else:
+                    group = "Stream4Free - Emissions TV"
                 entries.append((group, title, m3u8_url, logo))
                 print(f"  OK {slug} -> {title} [{group.split(' - ')[1]}] "
                       f"(crawl)", file=sys.stderr)
