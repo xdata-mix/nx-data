@@ -4110,3 +4110,7 @@ https://jmp2.uk/plu-6683b680efa2a10008e8a393.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 group-title="France TV backup",Turbo (720p) [bugsfreeweb]
+https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8
