@@ -1094,7 +1094,7 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr" group-title="France TV backup",TV3V (720p) [kilirushi]
 https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
@@ -1526,7 +1526,7 @@ https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="AfricableTV.ml@SD" group-title="Généralistes",Africable TV (360p)
@@ -1566,7 +1566,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Documentaire ===
 #EXTINF:-1 tvg-id="LEspritSorcier.fr" group-title="Documentaire",L'ÉSPRIT SORCIER TV
@@ -1578,7 +1578,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Séries ===
 #EXTINF:-1 tvg-id="SerieMax.ci@SD" group-title="Séries",Serie Max
