@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-refresh_stream4free.py  -  Scraper pour stream4free.tv
+refresh_stream4free.py - Scraper pour stream4free.tv
 Decouvre AUTOMATIQUEMENT les chaines depuis les pages du site
 (plus de listes hardcodees - suit les changements du site en temps reel).
 
-Genere data-stream4free.m3u avec 2 groupes :
-  - "Stream4Free - Television en direct"   (chaines francaises live)
-  - "Stream4Free - Emission de television"  (24/7 loops series/emissions/docs)
+Genere data-stream4free.m3u — TOUTES les chaines en un seul groupe
+"Stream4Free - Television en direct" (live TV + emissions 24/7 = tout est du live).
 
 Heberge dans xdata-mix/nx-data, execute par GitHub Actions (refresh_stream4free.yml).
 """
@@ -59,9 +58,9 @@ SEED_SLUGS = {
     "histoire", "l-equipe-21", "lci-chaine-info-direct",
     "m6-live-streaming", "national-geographic", "novo19",
     "public-senat", "rmc-decouverte", "rmc-life", "rmc-story",
-    "rtl9", "t18-live", "tf1-live-streaming", "tf1-series-films",
-    "tfx", "tmc", "tv5-hd", "w9-france",
-    # Emissions / Series en boucle
+    "rtl9", "sex-live-stream", "t18-live", "tf1-live-streaming",
+    "tf1-series-films", "tfx", "tmc", "tv5-hd", "w9-france",
+    # Emissions / Series en boucle (24/7 live)
     "70-show", "american-dad-hd", "aqua-teen-hunger-force", "archer",
     "bobs-burgers", "breaking-bad", "camera-cafe-stream", "ddc",
     "divers-docs", "dragonball-dbz", "enquete-exclusive",
@@ -77,32 +76,6 @@ SEED_SLUGS = {
     "the-walking-dead", "tv-sciences", "un-gars-une-fille",
     "workaholics",
 }
-
-# -- Heuristique de classification --
-# Mots-cles qui identifient une VRAIE chaine TV francaise (pas une emission)
-CHANNEL_MARKERS = [
-    "tf1", "france-2", "france-3", "france-4", "france-5",
-    "france-24", "france-info", "m6", "arte", "bfm", "cnews",
-    "cstar", "c8", "w9", "tmc", "tfx", "lci", "euronews",
-    "eurosport", "rmc", "rtl9", "tv5", "nrj", "gulli", "6ter",
-    "l-equipe", "lequipe", "public-senat", "histoire", "nat-geo",
-    "national-geo", "t18", "cherie25", "planete", "paris-premiere",
-    "novo19", "rmc-story", "rmc-decouverte", "rmc-life",
-]
-
-# Slugs qui contiennent un marker MAIS ne sont PAS des chaines TV
-NOT_CHANNELS = {
-    "family-guy-france", "futurama-france", "the-simpsons-france",
-}
-
-
-def is_likely_channel(slug):
-    """Heuristique : le slug ressemble-t-il a une chaine TV francaise ?"""
-    s = slug.lower()
-    if s in NOT_CHANNELS:
-        return False
-    return any(m in s for m in CHANNEL_MARKERS)
-
 
 # -- HTTP helper --
 # Essaie cloudscraper (bypass Cloudflare), fallback urllib
@@ -126,14 +99,12 @@ except ImportError:
             return resp.read().decode("utf-8", errors="replace")
     print("  [info] cloudscraper absent, fallback urllib", file=sys.stderr)
 
-
 def fetch(url):
     """Fetch URL, retourne (html, None) ou (None, erreur)."""
     try:
         return _fetch(url), None
     except Exception as e:
         return None, str(e)
-
 
 # -- Regex --
 HREF_RE = re.compile(
@@ -151,7 +122,6 @@ OG_IMAGE_RE2 = re.compile(
     re.IGNORECASE,
 )
 
-
 def discover_slugs():
     """Scrape les pages listing pour decouvrir tous les slugs de contenu."""
     all_slugs = set()
@@ -167,7 +137,6 @@ def discover_slugs():
         print("  Decouverte %s: %d slugs cumules" % (page_url, len(all_slugs)),
               file=sys.stderr)
     return all_slugs
-
 
 def extract_info(html, slug):
     """Extrait m3u8 URL, titre, logo d'un HTML de page channel."""
@@ -199,11 +168,10 @@ def extract_info(html, slug):
     logo = ""
     if og:
         logo = og.group(1).strip()
-    if logo and not logo.startswith("http"):
-        logo = (BASE_URL + logo) if logo.startswith("/") else (BASE_URL + "/" + logo)
+        if logo and not logo.startswith("http"):
+            logo = (BASE_URL + logo) if logo.startswith("/") else (BASE_URL + "/" + logo)
 
     return m3u8_url, title, logo
-
 
 def main():
     print("Stream4Free scraper - auto-decouverte depuis %d pages" % len(DISCOVER_PAGES),
@@ -226,11 +194,12 @@ def main():
 
     print("  Total slugs (decouverts + seeds) : %d" % len(slugs), file=sys.stderr)
 
-    # -- Phase 2 : classification + fetch m3u8 --
-    GROUP_LIVE = u"Stream4Free - TÃ©lÃ©vision en direct"
-    GROUP_SHOW = u"Stream4Free - Ãmission de tÃ©lÃ©vision"
+    # -- Phase 2 : fetch m3u8 pour chaque slug --
+    # TOUT est "Television en direct" (live TV + emissions 24/7 = tout est du live)
+    GROUP_LIVE = u"Stream4Free - T\u00e9l\u00e9vision en direct"
 
     entries = []
+    seen_urls = set()   # dedup par URL m3u8
     failed = []
 
     for slug in sorted(slugs):
@@ -246,18 +215,21 @@ def main():
             failed.append(slug)
             continue
 
-        group = GROUP_LIVE if is_likely_channel(slug) else GROUP_SHOW
+        # Dedup par URL m3u8 (ex: simpsons-vf et the-simpsons-france = meme flux)
+        if m3u8_url in seen_urls:
+            print("  SKIP %s: doublon m3u8 %s" % (slug, m3u8_url.split("/")[-1]),
+                  file=sys.stderr)
+            continue
+        seen_urls.add(m3u8_url)
 
-        entries.append((group, title, m3u8_url, logo))
-        short_grp = "TV" if group == GROUP_LIVE else "Emission"
-        print("  OK %s -> %s [%s]" % (slug, title, short_grp), file=sys.stderr)
-
+        entries.append((GROUP_LIVE, title, m3u8_url, logo))
+        print("  OK %s -> %s" % (slug, title), file=sys.stderr)
 
         # Politesse : petit delai entre les requetes
         time.sleep(0.3)
 
     # -- Phase 3 : generer le M3U --
-    entries.sort(key=lambda e: (0 if e[0] == GROUP_LIVE else 1, e[1].lower()))
+    entries.sort(key=lambda e: e[1].lower())
 
     lines = ["#EXTM3U"]
     for group, title, url, logo in entries:
@@ -283,13 +255,10 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    live_count = sum(1 for e in entries if e[0] == GROUP_LIVE)
-    show_count = total - live_count
-    print("\nResultat : %d chaines (%d TV en direct + %d Emissions)" % (
-        total, live_count, show_count), file=sys.stderr)
+    print("\nResultat : %d chaines (tout en Television en direct)" % total,
+          file=sys.stderr)
     if failed:
         print("  %d echecs : %s" % (len(failed), ", ".join(failed)), file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()
