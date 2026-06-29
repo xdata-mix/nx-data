@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-refresh_stream4free.py â Scraper AUTO-DISCOVERY pour stream4free.tv
-Aucune liste hardcodee. Le script scrape le site, decouvre TOUS les slugs,
-fetch chaque page, extrait le m3u8, et genere data-stream4free.m3u.
+refresh_stream4free.py — Scraper AUTO-DISCOVERY pour stream4free.tv
+Aucune liste hardcodee. Le script scrape le site + sitemap.xml,
+decouvre TOUS les slugs, fetch chaque page, extrait le m3u8,
+et genere data-stream4free.m3u. TOUT est pris, sans exception.
 
 2 groupes :
-  - "Stream4Free - Emissions TV"  (trouves sur /tv-show-series)
-  - "Stream4Free - TV en direct"  (trouves sur /tv-live-france)
-  - Si un slug n'est PAS sur /tv-live-france -> "Stream4Free - Emissions TV"
+  - "Stream4Free - Emissions TV"  (trouves sur /tv-live-france = series/emissions)
+  - "Stream4Free - TV en direct"  (tout le reste = chaines live/replay)
 
 Utilise cloudscraper pour contourner la protection Cloudflare.
-Heberge dans xdata-mix/nx-data, execute par GitHub Actions (refresh_stream4free.yml).
+Heberge dans xdata-mix/nx-data, execute par GitHub Actions.
 """
 
 import os
@@ -25,26 +25,26 @@ try:
 except ImportError:
     scraper = None
 
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
+     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 BASE_URL = "https://www.stream4free.tv"
 
-# Pages de navigation a NE PAS traiter comme des chaines
+# Pages de navigation PURE — pas de contenu video
 NAV_PAGES = {
-    "login", "register", "register-account", "lost-password", "contact",
-    "privacy-policy", "terms-of-service", "about", "dmca", "forum",
+    "login", "register", "register-account", "lost-password",
+    "contact", "privacy-policy", "terms-of-service", "about", "dmca",
+    "forum",
     "tv-live-france", "tv-replay", "tv-show-series",
-    "sex-live-stream",
-    "setup-vod-american-dad-jwplayer-and-nimble",
+    # Alias nav trouves dans le sitemap
+    "log-in", "create-an-account", "forum-discussion", "lost-user-name",
 }
 
-# Regex pour extraire le m3u8 du HTML
-# Primaire : URLs data-stream.top (majorite des chaines)
+# Regex m3u8
 M3U8_RE = re.compile(
     r'https://sv\d+\.data-stream\.top(?::\d+)?/[a-f0-9]+/hls/[\w._-]+\.m3u8'
     r'(?:\?[^"\'<\s]+)?'
 )
-# Fallback : n'importe quelle URL .m3u8 (euronews via rakuten, etc.)
-M3U8_FALLBACK_RE = re.compile(r'https?://[^\s"\'<>]+\.m3u8(?:\?[^\s"\'<>]*)?')
+M3U88_FALLBACK_RE = re.compile(r'https?://[^\s"\'<>]+\.m3u8(?:\?[^\s"\'<>]*)?')
 
 TITLE_RE = re.compile(r'<title[^>]*>([^<]+)</title>', re.IGNORECASE)
 OG_IMAGE_RE = re.compile(
@@ -78,33 +78,56 @@ def fetch(url):
         return None, str(e)
 
 
+def extract_slugs_from_html(html):
+    """Extrait tous les slugs internes d'un HTML."""
+    found = set(LINK_RE.findall(html))
+    found -= NAV_PAGES
+    return {s for s in found if len(s) >= 2 and not s.startswith("_")}
+
+
 def discover_slugs():
-    """Scrape les pages index du site pour decouvrir TOUS les slugs de chaines.
-    Retourne (all_slugs: set, live_slugs: set, show_slugs: set)."""
+    """Decouvre TOUS les slugs : 4 pages de nav + sitemap.xml + crawl.
+    Retourne (all_slugs, live_slugs, show_slugs)."""
     all_slugs = set()
     live_slugs = set()
     show_slugs = set()
 
+    # 1) Pages de navigation
     pages = [
-        ("index",      f"{BASE_URL}/",               None),
-        ("live",       f"{BASE_URL}/tv-live-france",  live_slugs),
-        ("shows",      f"{BASE_URL}/tv-show-series",  show_slugs),
-        ("replay",     f"{BASE_URL}/tv-replay",       None),
+        ("index",  f"{BASE_URL}/",              None),
+        ("live",   f"{BASE_URL}/tv-live-france", live_slugs),
+        ("shows",  f"{BASE_URL}/tv-show-series", show_slugs),
+        ("replay", f"{BASE_URL}/tv-replay",      None),
     ]
-
     for label, url, target_set in pages:
         html, err = fetch(url)
         if html is None:
             print(f"  WARN discover {label}: {err}", file=sys.stderr)
             continue
-
-        found = set(LINK_RE.findall(html))
-        found -= NAV_PAGES
-        found = {s for s in found if len(s) >= 2 and not s.startswith("_")}
+        found = extract_slugs_from_html(html)
         all_slugs |= found
         if target_set is not None:
             target_set |= found
         print(f"  discover {label}: {len(found)} slugs", file=sys.stderr)
+
+    # 2) Sitemap.xml — souvent PLUS de pages que les navs
+    for sm_url in [f"{BASE_URL}/sitemap.xml", f"{BASE_URL}/sitemap_index.xml"]:
+        html, err = fetch(sm_url)
+        if not html:
+            continue
+        locs = re.findall(r'<loc>([^<]+)</loc>', html, re.IGNORECASE)
+        sm_slugs = set()
+        for loc in locs:
+            m = re.search(r'stream4free\.tv/([a-z0-9][a-z0-9_-]*)\/?$', loc, re.I)
+            if m:
+                s = m.group(1)
+                if s not in NAV_PAGES and len(s) >= 2 and not s.startswith("_"):
+                    sm_slugs.add(s)
+        new = sm_slugs - all_slugs
+        if sm_slugs:
+            print(f"  discover sitemap: {len(sm_slugs)} slugs "
+                  f"(+{len(new)} nouveaux)", file=sys.stderr)
+            all_slugs |= sm_slugs
 
     return all_slugs, live_slugs, show_slugs
 
@@ -117,27 +140,29 @@ def extract_info(html, slug):
     m3u8_url = m3u8_match.group(0) if m3u8_match else None
 
     title_match = TITLE_RE.search(html)
-    title = title_match.group(1).strip() if title_match else slug.replace("-", " ").title()
+    raw = title_match.group(1).strip() if title_match else \
+        slug.replace("-", " ").title()
+    # Nettoyage suffixes
     for sep in [" - Stream4Free", " | Stream4Free", " en streaming gratuit",
-                " en direct gratuit", " en streaming", " en direct", " Live Streaming",
-                " Stream", " HD", " Live"]:
-        if title.endswith(sep):
-            title = title[:-len(sep)].strip()
-    # Prefixes a nettoyer
+                " en direct gratuit", " en streaming", " en direct",
+                " Live Streaming", " Stream", " HD", " Live"]:
+        if raw.endswith(sep):
+            raw = raw[:-len(sep)].strip()
+    # Nettoyage prefixes
     for pfx in ["Stream4free Live - ", "Stream4Free Live - ",
                 "Stream4free live - ", "Regarder "]:
-        if title.startswith(pfx):
-            title = title[len(pfx):].strip()
+        if raw.startswith(pfx):
+            raw = raw[len(pfx):].strip()
             break
-    if title.lower().startswith("regarder "):
-        title = title[9:].strip()
-    if title:
-        title = title[0].upper() + title[1:]
+    if raw.lower().startswith("regarder "):
+        raw = raw[9:].strip()
+    title = (raw[0].upper() + raw[1:]) if raw else slug.replace("-", " ").title()
 
     logo_match = OG_IMAGE_RE.search(html) or OG_IMAGE_RE2.search(html)
     logo = logo_match.group(1).strip() if logo_match else ""
     if logo and not logo.startswith("http"):
-        logo = f"{BASE_URL}{logo}" if logo.startswith("/") else f"{BASE_URL}/{logo}"
+        logo = f"{BASE_URL}{logo}" if logo.startswith("/") else \
+            f"{BASE_URL}/{logo}"
 
     return m3u8_url, title, logo
 
@@ -156,16 +181,25 @@ def main():
             sys.exit(0)
         sys.exit(1)
 
-    # Phase 2 : fetch chaque slug, extraire le m3u8
-    entries = []  # (group, title, m3u8_url, logo)
+    # Phase 2 : fetch chaque slug et extraire le m3u8
+    entries = []
     failed = []
+    extra_slugs = set()
+    processed = set()
 
     for slug in sorted(all_slugs):
+        processed.add(slug)
         html, err = fetch(f"{BASE_URL}/{slug}")
         if html is None:
             print(f"  WARN {slug}: {err}", file=sys.stderr)
             failed.append(slug)
             continue
+
+        # Decouvrir des slugs supplementaires via crawl
+        page_slugs = extract_slugs_from_html(html)
+        new_found = page_slugs - all_slugs - extra_slugs
+        if new_found:
+            extra_slugs |= new_found
 
         m3u8_url, title, logo = extract_info(html, slug)
         if not m3u8_url:
@@ -173,15 +207,43 @@ def main():
             failed.append(slug)
             continue
 
-        # Categoriser : si trouve sur /tv-live-france -> live
-        # Sinon -> emission (defaut)
+        # CATEGORISATION :
+        # Slugs trouves sur /tv-live-france -> Emissions TV (series/emissions)
+        # Le reste -> TV en direct (chaines live/replay)
         if slug in live_slugs:
-            group = "Stream4Free - TV en direct"
-        else:
             group = "Stream4Free - Emissions TV"
+        else:
+            group = "Stream4Free - TV en direct"
 
         entries.append((group, title, m3u8_url, logo))
-        print(f"  OK {slug} -> {title} [{group.split(' - ')[1]}]", file=sys.stderr)
+        print(f"  OK {slug} -> {title} [{group.split(' - ')[1]}]",
+              file=sys.stderr)
+
+    # Phase 2b : slugs supplementaires decouverts via crawl des pages
+    if extra_slugs:
+        to_process = extra_slugs - processed
+        if to_process:
+            print(f"\n  +{len(to_process)} slugs supplementaires (crawl)",
+                  file=sys.stderr)
+            for slug in sorted(to_process):
+                processed.add(slug)
+                html, err = fetch(f"{BASE_URL}/{slug}")
+                if html is None:
+                    print(f"  WARN {slug}: {err}", file=sys.stderr)
+                    failed.append(slug)
+                    continue
+                m3u8_url, title, logo = extract_info(html, slug)
+                if not m3u8_url:
+                    print(f"  WARN {slug}: no m3u8", file=sys.stderr)
+                    failed.append(slug)
+                    continue
+                if slug in live_slugs:
+                    group = "Stream4Free - Emissions TV"
+                else:
+                    group = "Stream4Free - TV en direct"
+                entries.append((group, title, m3u8_url, logo))
+                print(f"  OK {slug} -> {title} [{group.split(' - ')[1]}] "
+                      f"(crawl)", file=sys.stderr)
 
     # Phase 3 : generer le M3U
     entries.sort(key=lambda e: (0 if "Emissions" in e[0] else 1, e[1].lower()))
@@ -196,21 +258,25 @@ def main():
     out_path = "data-stream4free.m3u"
     total = len(entries)
 
-    # Garde-fou keep-old-on-failure
     if total == 0:
         if os.path.exists(out_path):
             print(f"\n0 chaines avec m3u8 -> on GARDE l'ancien {out_path}.",
                   file=sys.stderr)
             sys.exit(0)
-        print("ERREUR : 0 chaines et pas de fichier existant !", file=sys.stderr)
+        print("ERREUR : 0 chaines et pas de fichier existant !",
+              file=sys.stderr)
         sys.exit(1)
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    print(f"\nResultat : {total} chaines ecrites dans {out_path}", file=sys.stderr)
+    em = sum(1 for e in entries if "Emissions" in e[0])
+    dr = sum(1 for e in entries if "direct" in e[0])
+    print(f"\nResultat : {total} chaines ({em} Emissions + {dr} TV en direct)"
+          f" ecrites dans {out_path}", file=sys.stderr)
     if failed:
-        print(f"  {len(failed)} echecs : {', '.join(failed)}", file=sys.stderr)
+        print(f"  {len(failed)} echecs : {', '.join(failed)}",
+              file=sys.stderr)
 
 
 if __name__ == "__main__":
