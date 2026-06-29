@@ -52,12 +52,30 @@ SKIP_SLUGS = {
 # cloudscraper ne les voit pas car le site les injecte cote client.
 # Mis a jour depuis le DOM navigateur le 2026-06-28.
 SEED_SLUGS = {
-    "6ter-france", "70-show", "family-guy-france", "friends-live",
-    "futurama", "futurama-france", "game-of-thrones-hd",
-    "greendale-college", "himym", "house-md", "j-irai-dormir-chez-vous",
-    "king-of-the-hill", "sex-live-stream", "the-big-bang-theory",
-    "the-cleveland-show", "the-office", "the-simpsons-france",
-    "the-walking-dead", "tv5-hd", "un-gars-une-fille",
+    # Chaines TV live
+    "6ter-france", "arte", "bfm-tv", "cnews", "cstar",
+    "euronews-france", "eurosport", "france-3-live", "france-4",
+    "france-5-live", "france-24", "france-info-tv",
+    "histoire", "l-equipe-21", "lci-chaine-info-direct",
+    "m6-live-streaming", "national-geographic", "novo19",
+    "public-senat", "rmc-decouverte", "rmc-life", "rmc-story",
+    "rtl9", "t18-live", "tf1-live-streaming", "tf1-series-films",
+    "tfx", "tmc", "tv5-hd", "w9-france",
+    # Emissions / Series en boucle
+    "70-show", "american-dad-hd", "aqua-teen-hunger-force", "archer",
+    "bobs-burgers", "breaking-bad", "camera-cafe-stream", "ddc",
+    "divers-docs", "dragonball-dbz", "enquete-exclusive",
+    "family-guy-france", "family-guy-hd", "finance-et-mondialisme",
+    "friends-live", "futurama", "futurama-france",
+    "game-of-thrones-hd", "greendale-college", "h-integrale",
+    "himym", "house-md", "j-irai-dormir-chez-vous", "kaamelott-hd",
+    "king-of-the-hill", "l-univers-et-ses-mysteres", "nature-hd",
+    "scrubs", "seinfeld", "simpsons-vf", "soda", "sons-of-anarchy",
+    "south-park-fr", "south-park-us", "special-investigation",
+    "stargate-sg1-sga", "the-big-bang-theory", "the-cleveland-show",
+    "the-office", "the-simpsons", "the-simpsons-france",
+    "the-walking-dead", "tv-sciences", "un-gars-une-fille",
+    "workaholics",
 }
 
 # -- Heuristique de classification --
@@ -209,8 +227,8 @@ def main():
     print("  Total slugs (decouverts + seeds) : %d" % len(slugs), file=sys.stderr)
 
     # -- Phase 2 : classification + fetch m3u8 --
-    GROUP_LIVE = u"Stream4Free - Télévision en direct"
-    GROUP_SHOW = u"Stream4Free - Émission de télévision"
+    GROUP_LIVE = u"Stream4Free - TÃ©lÃ©vision en direct"
+    GROUP_SHOW = u"Stream4Free - Ãmission de tÃ©lÃ©vision"
 
     entries = []
     failed = []
