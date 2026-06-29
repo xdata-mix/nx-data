@@ -209,8 +209,8 @@ def main():
     print("  Total slugs (decouverts + seeds) : %d" % len(slugs), file=sys.stderr)
 
     # -- Phase 2 : classification + fetch m3u8 --
-    GROUP_LIVE = u"Stream4Free - TÃ©lÃ©vision en direct"
-    GROUP_SHOW = u"Stream4Free - Ãmission de tÃ©lÃ©vision"
+    GROUP_LIVE = u"Stream4Free - Télévision en direct"
+    GROUP_SHOW = u"Stream4Free - Émission de télévision"
 
     entries = []
     failed = []
@@ -234,3 +234,44 @@ def main():
         short_grp = "TV" if group == GROUP_LIVE else "Emission"
         print("  OK %s -> %s [%s]" % (slug, title, short_grp), file=sys.stderr)
 
+
+        # Politesse : petit delai entre les requetes
+        time.sleep(0.3)
+
+    # -- Phase 3 : generer le M3U --
+    entries.sort(key=lambda e: (0 if e[0] == GROUP_LIVE else 1, e[1].lower()))
+
+    lines = ["#EXTM3U"]
+    for group, title, url, logo in entries:
+        logo_attr = ' tvg-logo="%s"' % logo if logo else ""
+        lines.append('#EXTINF:-1 group-title="%s"%s,%s' % (group, logo_attr, title))
+        lines.append(url)
+
+    m3u_content = "\n".join(lines) + "\n"
+    total = len(entries)
+
+    out_path = "data-stream4free.m3u"
+
+    if total == 0:
+        if os.path.exists(out_path):
+            print("\nATTENTION : 0 chaines recuperees, on GARDE l'ancien %s." % out_path,
+                  file=sys.stderr)
+            sys.exit(0)
+        else:
+            print("ERREUR : aucune chaine recuperee et pas de fichier existant !",
+                  file=sys.stderr)
+            sys.exit(1)
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+
+    live_count = sum(1 for e in entries if e[0] == GROUP_LIVE)
+    show_count = total - live_count
+    print("\nResultat : %d chaines (%d TV en direct + %d Emissions)" % (
+        total, live_count, show_count), file=sys.stderr)
+    if failed:
+        print("  %d echecs : %s" % (len(failed), ", ".join(failed)), file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
