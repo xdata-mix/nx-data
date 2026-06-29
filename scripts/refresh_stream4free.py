@@ -224,14 +224,11 @@ def main():
             continue
 
         # CATEGORISATION :
-        # Chaines TV live â "TV en direct" (53 chaines connues)
+        # Chaines TV live â "TV en direct"
         # Series/emissions â "Emissions TV" (tout le reste)
-        # Priorite : page exclusive > heuristique nom de chaine
-        if slug in live_slugs and slug not in show_slugs:
-            group = "Stream4Free - TV en direct"
-        elif slug in show_slugs and slug not in live_slugs:
-            group = "Stream4Free - Emissions TV"
-        elif is_likely_channel(slug):
+        # Priorite : heuristique nom de chaine PRIME sur le membership page
+        # (le site melange chaines et emissions sur ses pages)
+        if is_likely_channel(slug):
             group = "Stream4Free - TV en direct"
         else:
             group = "Stream4Free - Emissions TV"
@@ -244,7 +241,7 @@ def main():
     if extra_slugs:
         to_process = extra_slugs - processed
         if to_process:
-            print(f"\n  +{ len(to_process)} slugs supplementaires (crawl)",
+            print(f"\n  +{len(to_process)} slugs supplementaires (crawl)",
                   file=sys.stderr)
             for slug in sorted(to_process):
                 processed.add(slug)
@@ -258,11 +255,7 @@ def main():
                     print(f"  WARN {slug}: no m3u8", file=sys.stderr)
                     failed.append(slug)
                     continue
-                if slug in live_slugs and slug not in show_slugs:
-                    group = "Stream4Free - TV en direct"
-                elif slug in show_slugs and slug not in live_slugs:
-                    group = "Stream4Free - Emissions TV"
-                elif is_likely_channel(slug):
+                if is_likely_channel(slug):
                     group = "Stream4Free - TV en direct"
                 else:
                     group = "Stream4Free - Emissions TV"
