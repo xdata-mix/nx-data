@@ -44,7 +44,7 @@ M3U8_RE = re.compile(
     r'https://sv\d+\.data-stream\.top(?::\d+)?/[a-f0-9]+/hls/[\w._-]+\.m3u8'
     r'(?:\?[^"\'<\s]+)?'
 )
-M3U88_FALLBACK_RE = re.compile(r'https?://[^\s"\'<>]+\.m3u8(?:\?[^\s"\'<>]*)?')
+M3U8_FALLBACK_RE = re.compile(r'https?://[^\s"\'<>]+\.m3u8(?:\?[^\s"\'<>]*)?')
 
 TITLE_RE = re.compile(r'<title[^>]*>([^<]+)</title>', re.IGNORECASE)
 OG_IMAGE_RE = re.compile(
