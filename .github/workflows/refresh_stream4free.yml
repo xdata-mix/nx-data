@@ -2,11 +2,12 @@ name: Refresh Stream4Free
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # toutes les 6h
-  workflow_dispatch:          # trigger manuel
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   refresh:
@@ -25,22 +26,24 @@ jobs:
       - name: Run Stream4Free scraper
         run: python scripts/refresh_stream4free.py
 
-      - name: Combine into data-replay.m3u (if combine script exists)
-        run: |
-          if [ -f scripts/combine_replays.py ]; then
-            python scripts/combine_replays.py
-          fi
-
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data-stream4free.m3u
-          if [ -f data-replay.m3u ]; then git add data-replay.m3u; fi
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "auto: refresh stream4free"
-            git pull --rebase origin main
+            git pull --rebase origin main || git rebase --abort
             git push
           fi
+
+      - name: Auto-cleanup old workflow runs
+        if: always()
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 10
