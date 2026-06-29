@@ -7,6 +7,9 @@ Decouvre AUTOMATIQUEMENT les chaines depuis les pages du site
 Genere data-stream4free.m3u — TOUTES les chaines en un seul groupe
 "Stream4Free - Television en direct" (live TV + emissions 24/7 = tout est du live).
 
+IMPORTANT : le m3u stocke des URLs stream4free://<slug> (stables).
+L'app ONYX resout le vrai flux m3u8 a la lecture via Stream4FreeResolver.
+
 Heberge dans xdata-mix/nx-data, execute par GitHub Actions (refresh_stream4free.yml).
 """
 
@@ -34,21 +37,15 @@ DISCOVER_PAGES = [
 # -- Slugs a ignorer (pages de navigation, pas du contenu) --
 SKIP_SLUGS = {
     "go-to-profile", "change-avatar", "linkvideo", "edit-profile",
-    "edit-details", "privacy", "preferences", "editpage", "inbox",
-    "friends", "search", "advanced-search", "invite-friends",
-    "pending-my-approval", "sent", "group", "photos", "videos",
-    "events", "tv-live-france", "tv-show-series", "communaute",
-    "forum", "setup-vod-american-dad-jwplayer-and-nimble",
-    "tv-replay",
-    # Pages de navigation detectees en run (404/403/no content)
-    "change-profile-picture", "change-profile-video", "customize-my-page",
-    "favicons", "modules", "templates", "lost-password", "media",
-    "pending-approval", "privacy-policy", "profile", "register-account",
-    "request-sent", "community", "groups", "gmqklfym6",
+    "tv-live-france", "tv-show-series", "tv-live-usa", "tv-live-uk",
+    "live-sport", "tv-shows", "privacy-policy", "terms-of-service",
+    "contact", "about", "register", "login", "dmca", "faq",
+    "tv-live", "pack-emissions",
 }
 
-# -- Seeds : slugs charges par JavaScript, invisibles dans le HTML brut --
-# cloudscraper ne les voit pas car le site les injecte cote client.
+# -- Slugs connus (seeds) --
+# Seeds = slugs charges par JavaScript, invisibles dans le HTML brut
+# (le cloudscraper ne les voit pas car le site les injecte cote client).
 # Mis a jour depuis le DOM navigateur le 2026-06-28.
 SEED_SLUGS = {
     # Chaines TV live
@@ -64,40 +61,35 @@ SEED_SLUGS = {
     "70-show", "american-dad-hd", "aqua-teen-hunger-force", "archer",
     "bobs-burgers", "breaking-bad", "camera-cafe-stream", "ddc",
     "divers-docs", "dragonball-dbz", "enquete-exclusive",
-    "family-guy-france", "family-guy-hd", "finance-et-mondialisme",
-    "friends-live", "futurama", "futurama-france",
+    "family-guy-hd", "friends-live", "futurama",
     "game-of-thrones-hd", "greendale-college", "h-integrale",
-    "himym", "house-md", "j-irai-dormir-chez-vous", "kaamelott-hd",
-    "king-of-the-hill", "l-univers-et-ses-mysteres", "nature-hd",
-    "scrubs", "seinfeld", "simpsons-vf", "soda", "sons-of-anarchy",
-    "south-park-fr", "south-park-us", "special-investigation",
-    "stargate-sg1-sga", "the-big-bang-theory", "the-cleveland-show",
-    "the-office", "the-simpsons", "the-simpsons-france",
-    "the-walking-dead", "tv-sciences", "un-gars-une-fille",
-    "workaholics",
+    "himym", "house-md", "kaamelott-hd", "king-of-the-hill",
+    "l-univers-et-ses-mysteres", "poker-stream",
+    "rick-and-morty", "scrubs", "seinfeld", "simpsons-vf",
+    "sons-of-anarchy", "south-park-fr", "south-park-us",
+    "special-investigation", "stargate-sg1-sga",
+    "the-big-bang-theory", "the-cleveland-show", "the-office",
+    "the-simpsons", "the-walking-dead", "triptank",
+    "tv-sciences", "workaholics",
+    "always-sunny-in-philadelphia",
 }
 
-# -- HTTP helper --
-# Essaie cloudscraper (bypass Cloudflare), fallback urllib
+GROUP_LIVE = "Stream4Free - Television en direct"
+
+# ---- helpers reseau ----
 try:
-    import cloudscraper
-    _scraper = cloudscraper.create_scraper(
-        browser={"browser": "chrome", "platform": "windows", "mobile": False}
-    )
-
-    def _fetch(url):
-        resp = _scraper.get(url, timeout=20)
-        resp.raise_for_status()
-        return resp.text
-    print("  [info] cloudscraper disponible", file=sys.stderr)
-except ImportError:
     import urllib.request
-
     def _fetch(url):
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=20, context=ctx) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    print("  [info] cloudscraper absent, fallback urllib", file=sys.stderr)
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UA,
+            "Accept": "text/html,application/xhtml+xml,*/*",
+            "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.5",
+        })
+        with urllib.request.urlopen(req, timeout=15, context=ctx) as r:
+            return r.read().decode("utf-8", errors="replace")
+except ImportError:
+    print("ERREUR: urllib manquant", file=sys.stderr)
+    sys.exit(1)
 
 def fetch(url):
     """Fetch URL, retourne (html, None) ou (None, erreur)."""
@@ -114,38 +106,19 @@ HREF_RE = re.compile(
 M3U8_RE = re.compile(r'https?://[a-z0-9]+\.data-stream\.top/[a-f0-9]+/hls/[\w._-]+\.m3u8')
 TITLE_RE = re.compile(r'<title[^>]*>([^<]+)</title>', re.IGNORECASE)
 OG_IMAGE_RE = re.compile(
-    r'<meta\s+property=["\']og:image["\']\s+content=["\']([^"\']+)["\']',
-    re.IGNORECASE,
-)
-OG_IMAGE_RE2 = re.compile(
-    r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:image["\']',
+    r'<meta\s+(?:property=["\']og:image["\']\s+content=["\']([^"\']+)["\']'
+    r'|content=["\']([^"\']+)["\']\s+property=["\']og:image["\'])',
     re.IGNORECASE,
 )
 
-def discover_slugs():
-    """Scrape les pages listing pour decouvrir tous les slugs de contenu."""
-    all_slugs = set()
-    for page_url in DISCOVER_PAGES:
-        html, err = fetch(page_url)
-        if html is None:
-            print("  WARN decouverte %s: %s" % (page_url, err), file=sys.stderr)
-            continue
-        for m in HREF_RE.finditer(html):
-            slug = m.group(1).lower().rstrip("/")
-            if slug not in SKIP_SLUGS and len(slug) > 2 and "/" not in slug:
-                all_slugs.add(slug)
-        print("  Decouverte %s: %d slugs cumules" % (page_url, len(all_slugs)),
-              file=sys.stderr)
-    return all_slugs
 
 def extract_info(html, slug):
     """Extrait m3u8 URL, titre, logo d'un HTML de page channel."""
-    m3u8_match = M3U8_RE.search(html)
-    m3u8_url = m3u8_match.group(0) if m3u8_match else None
+    m3u8 = M3U8_RE.search(html)
+    m3u8_url = m3u8.group(0) if m3u8 else None
 
-    title_match = TITLE_RE.search(html)
-    title = title_match.group(1).strip() if title_match else slug.replace("-", " ").title()
-    # Nettoyer les suffixes
+    tm = TITLE_RE.search(html)
+    title = tm.group(1).strip() if tm else slug.replace("-", " ").title()
     for sep in [
         " - Stream4Free", " | Stream4Free", " en streaming gratuit",
         " en direct gratuit", " en streaming", " en direct",
@@ -153,53 +126,52 @@ def extract_info(html, slug):
     ]:
         if title.endswith(sep):
             title = title[: -len(sep)].strip()
-    # Nettoyer les prefixes
     for prefix in [
         "Stream4free Live - ", "Stream4Free Live - ",
         "Regarder ", "regarder ",
     ]:
         if title.startswith(prefix):
-            title = title[len(prefix):].strip()
-    # Capitaliser la premiere lettre
+            title = title[len(prefix) :].strip()
     if title:
         title = title[0].upper() + title[1:]
 
-    og = OG_IMAGE_RE.search(html) or OG_IMAGE_RE2.search(html)
-    logo = ""
-    if og:
-        logo = og.group(1).strip()
-        if logo and not logo.startswith("http"):
-            logo = (BASE_URL + logo) if logo.startswith("/") else (BASE_URL + "/" + logo)
+    og = OG_IMAGE_RE.search(html)
+    logo = (og.group(1) or og.group(2) or "").strip() if og else ""
+    if logo and not logo.startswith("http"):
+        logo = (BASE_URL + logo) if logo.startswith("/") else (BASE_URL + "/" + logo)
 
     return m3u8_url, title, logo
 
+
+def discover_slugs():
+    """Decouvre des slugs depuis les pages d'index du site."""
+    found = set()
+    for page_url in DISCOVER_PAGES:
+        html, err = fetch(page_url)
+        if html is None:
+            print("  WARN discover %s: %s" % (page_url, err), file=sys.stderr)
+            continue
+        for m in HREF_RE.finditer(html):
+            s = m.group(1).lower().strip("/")
+            if s and s not in SKIP_SLUGS and len(s) > 2:
+                found.add(s)
+        print("  Discover %s: %d liens" % (page_url.split("/")[-1], len(found)),
+              file=sys.stderr)
+    return found
+
+
 def main():
-    print("Stream4Free scraper - auto-decouverte depuis %d pages" % len(DISCOVER_PAGES),
-          file=sys.stderr)
+    print("Stream4Free scraper (auto-discovery + stream4free:// URLs)", file=sys.stderr)
 
-    # -- Phase 1 : decouverte + merge seeds --
-    slugs = discover_slugs()
-    # Merge avec les seeds (slugs JS-loaded invisibles dans le HTML brut)
-    slugs |= SEED_SLUGS
-    # Retirer les skips (au cas ou un seed serait aussi dans SKIP)
-    slugs -= SKIP_SLUGS
+    # Phase 1 : decouvrir les slugs
+    discovered = discover_slugs()
+    slugs = SEED_SLUGS | discovered
+    print("  Total slugs: %d (seeds %d + discovered %d)" % (
+        len(slugs), len(SEED_SLUGS), len(discovered)), file=sys.stderr)
 
-    if not slugs:
-        print("ERREUR : 0 slugs apres merge (site bloque ?)", file=sys.stderr)
-        out_path = "data-stream4free.m3u"
-        if os.path.exists(out_path):
-            print("  On GARDE l'ancien %s intact." % out_path, file=sys.stderr)
-            sys.exit(0)
-        sys.exit(1)
-
-    print("  Total slugs (decouverts + seeds) : %d" % len(slugs), file=sys.stderr)
-
-    # -- Phase 2 : fetch m3u8 pour chaque slug --
-    # TOUT est "Television en direct" (live TV + emissions 24/7 = tout est du live)
-    GROUP_LIVE = u"Stream4Free - T\u00e9l\u00e9vision en direct"
-
+    # Phase 2 : fetcher chaque page
     entries = []
-    seen_urls = set()   # dedup par URL m3u8
+    seen_urls = set()
     failed = []
 
     for slug in sorted(slugs):
@@ -215,20 +187,19 @@ def main():
             failed.append(slug)
             continue
 
-        # Dedup par URL m3u8 (ex: simpsons-vf et the-simpsons-france = meme flux)
         if m3u8_url in seen_urls:
             print("  SKIP %s: doublon m3u8 %s" % (slug, m3u8_url.split("/")[-1]),
                   file=sys.stderr)
             continue
         seen_urls.add(m3u8_url)
 
-        entries.append((GROUP_LIVE, title, m3u8_url, logo))
+        # CLE : stream4free://<slug> au lieu du m3u8 direct
+        entries.append((GROUP_LIVE, title, "stream4free://" + slug, logo))
         print("  OK %s -> %s" % (slug, title), file=sys.stderr)
 
-        # Politesse : petit delai entre les requetes
         time.sleep(0.3)
 
-    # -- Phase 3 : generer le M3U --
+    # Phase 3 : generer le M3U
     entries.sort(key=lambda e: e[1].lower())
 
     lines = ["#EXTM3U"]
@@ -238,27 +209,26 @@ def main():
         lines.append(url)
 
     m3u_content = "\n".join(lines) + "\n"
-    total = len(entries)
 
     out_path = "data-stream4free.m3u"
+    total = len(entries)
 
     if total == 0:
         if os.path.exists(out_path):
-            print("\nATTENTION : 0 chaines recuperees, on GARDE l'ancien %s." % out_path,
+            print("\nATTENTION : 0 chaines recuperees, on GARDE l'ancien %s intact." % out_path,
                   file=sys.stderr)
             sys.exit(0)
         else:
-            print("ERREUR : aucune chaine recuperee et pas de fichier existant !",
-                  file=sys.stderr)
+            print("ERREUR : aucune chaine et pas de fichier existant !", file=sys.stderr)
             sys.exit(1)
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    print("\nResultat : %d chaines (tout en Television en direct)" % total,
-          file=sys.stderr)
+    print("\nResultat : %d chaines ecrites dans %s" % (total, out_path), file=sys.stderr)
     if failed:
         print("  %d echecs : %s" % (len(failed), ", ".join(failed)), file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()
