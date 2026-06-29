@@ -41,6 +41,23 @@ SKIP_SLUGS = {
     "events", "tv-live-france", "tv-show-series", "communaute",
     "forum", "setup-vod-american-dad-jwplayer-and-nimble",
     "tv-replay",
+    # Pages de navigation detectees en run (404/403/no content)
+    "change-profile-picture", "change-profile-video", "customize-my-page",
+    "favicons", "modules", "templates", "lost-password", "media",
+    "pending-approval", "privacy-policy", "profile", "register-account",
+    "request-sent", "community", "groups", "gmqklfym6",
+}
+
+# -- Seeds : slugs charges par JavaScript, invisibles dans le HTML brut --
+# cloudscraper ne les voit pas car le site les injecte cote client.
+# Mis a jour depuis le DOM navigateur le 2026-06-28.
+SEED_SLUGS = {
+    "6ter-france", "70-show", "family-guy-france", "friends-live",
+    "futurama", "futurama-france", "game-of-thrones-hd",
+    "greendale-college", "himym", "house-md", "j-irai-dormir-chez-vous",
+    "king-of-the-hill", "sex-live-stream", "the-big-bang-theory",
+    "the-cleveland-show", "the-office", "the-simpsons-france",
+    "the-walking-dead", "tv5-hd", "un-gars-une-fille",
 }
 
 # -- Heuristique de classification --
@@ -141,6 +158,7 @@ def extract_info(html, slug):
 
     title_match = TITLE_RE.search(html)
     title = title_match.group(1).strip() if title_match else slug.replace("-", " ").title()
+    # Nettoyer les suffixes
     for sep in [
         " - Stream4Free", " | Stream4Free", " en streaming gratuit",
         " en direct gratuit", " en streaming", " en direct",
@@ -148,8 +166,14 @@ def extract_info(html, slug):
     ]:
         if title.endswith(sep):
             title = title[: -len(sep)].strip()
-    if title.lower().startswith("regarder "):
-        title = title[9:].strip()
+    # Nettoyer les prefixes
+    for prefix in [
+        "Stream4free Live - ", "Stream4Free Live - ",
+        "Regarder ", "regarder ",
+    ]:
+        if title.startswith(prefix):
+            title = title[len(prefix):].strip()
+    # Capitaliser la premiere lettre
     if title:
         title = title[0].upper() + title[1:]
 
@@ -167,21 +191,26 @@ def main():
     print("Stream4Free scraper - auto-decouverte depuis %d pages" % len(DISCOVER_PAGES),
           file=sys.stderr)
 
-    # -- Phase 1 : decouverte --
+    # -- Phase 1 : decouverte + merge seeds --
     slugs = discover_slugs()
+    # Merge avec les seeds (slugs JS-loaded invisibles dans le HTML brut)
+    slugs |= SEED_SLUGS
+    # Retirer les skips (au cas ou un seed serait aussi dans SKIP)
+    slugs -= SKIP_SLUGS
+
     if not slugs:
-        print("ERREUR : 0 slugs decouverts (site bloque ?)", file=sys.stderr)
+        print("ERREUR : 0 slugs apres merge (site bloque ?)", file=sys.stderr)
         out_path = "data-stream4free.m3u"
         if os.path.exists(out_path):
             print("  On GARDE l'ancien %s intact." % out_path, file=sys.stderr)
             sys.exit(0)
         sys.exit(1)
 
-    print("  Total slugs decouverts : %d" % len(slugs), file=sys.stderr)
+    print("  Total slugs (decouverts + seeds) : %d" % len(slugs), file=sys.stderr)
 
     # -- Phase 2 : classification + fetch m3u8 --
-    GROUP_LIVE = u"Stream4Free - Télévision en direct"
-    GROUP_SHOW = u"Stream4Free - Émission de télévision"
+    GROUP_LIVE = u"Stream4Free - TÃ©lÃ©vision en direct"
+    GROUP_SHOW = u"Stream4Free - Ãmission de tÃ©lÃ©vision"
 
     entries = []
     failed = []
@@ -205,43 +234,3 @@ def main():
         short_grp = "TV" if group == GROUP_LIVE else "Emission"
         print("  OK %s -> %s [%s]" % (slug, title, short_grp), file=sys.stderr)
 
-        # Politesse : petit delai entre les requetes
-        time.sleep(0.3)
-
-    # -- Phase 3 : generer le M3U --
-    entries.sort(key=lambda e: (0 if e[0] == GROUP_LIVE else 1, e[1].lower()))
-
-    lines = ["#EXTM3U"]
-    for group, title, url, logo in entries:
-        logo_attr = ' tvg-logo="%s"' % logo if logo else ""
-        lines.append('#EXTINF:-1 group-title="%s"%s,%s' % (group, logo_attr, title))
-        lines.append(url)
-
-    m3u_content = "\n".join(lines) + "\n"
-    total = len(entries)
-
-    out_path = "data-stream4free.m3u"
-
-    if total == 0:
-        if os.path.exists(out_path):
-            print("\nATTENTION : 0 chaines recuperees, on GARDE l'ancien %s." % out_path,
-                  file=sys.stderr)
-            sys.exit(0)
-        else:
-            print("ERREUR : aucune chaine recuperee et pas de fichier existant !",
-                  file=sys.stderr)
-            sys.exit(1)
-
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(m3u_content)
-
-    live_count = sum(1 for e in entries if e[0] == GROUP_LIVE)
-    show_count = total - live_count
-    print("\nResultat : %d chaines (%d TV en direct + %d Emissions)" % (
-        total, live_count, show_count), file=sys.stderr)
-    if failed:
-        print("  %d echecs : %s" % (len(failed), ", ".join(failed)), file=sys.stderr)
-
-
-if __name__ == "__main__":
-    main()
