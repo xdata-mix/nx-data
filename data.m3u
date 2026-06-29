@@ -4098,3 +4098,7 @@ https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 http://69.64.57.208/france2/mono.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
