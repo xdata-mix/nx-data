@@ -1574,11 +1574,11 @@ https://edge17.vedge.infomaniak.com/livecast/ik:bazikafrica/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Séries ===
 #EXTINF:-1 tvg-id="SerieMax.ci@SD" group-title="Séries",Serie Max
@@ -3893,7 +3893,7 @@ https://jmp2.uk/plu-682318568e6c0f2f6c6e0038.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="France TV backup",MADRAS FM TV [schumijo]
 https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="FranceTVSeries.fr" group-title="France TV backup",FRANCE TV SÉRIES [schumijo]
@@ -4212,3 +4212,7 @@ https://jmp2.uk/plu-69c2ae0d1f1accd54916c825.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
+https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
