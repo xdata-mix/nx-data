@@ -311,7 +311,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/p
 #EXTINF:-1 tvg-id="Africa24.fr@SD" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="Info",Africa 24 (1080p)
 https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24English.fr@SD" tvg-logo="https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png" group-title="Info",Africa 24 English (1080p)
-https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="Info",BFM2 (1080p)
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 #EXTINF:-1 tvg-id="BFMBusiness.fr@SD" tvg-logo="https://i.imgur.com/psqIHn4.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Info",BFM Business (1080p)
@@ -1506,7 +1506,7 @@ https://video1.getstreamhosting.com:1936/8494/8494/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="France TV backup",Bblack! Caribbean (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 
 # === Ajouts FR multi-sources : Culture ===
 #EXTINF:-1 tvg-id="APlusIvoire.ci@SD" group-title="Culture",A+ Ivoire (720p)
@@ -1560,9 +1560,9 @@ https://static.lefigaro.fr/secom/tnt.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
@@ -1574,7 +1574,7 @@ https://edge17.vedge.infomaniak.com/livecast/ik:bazikafrica/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
@@ -1908,7 +1908,7 @@ https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [iptv-org-fra]
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
