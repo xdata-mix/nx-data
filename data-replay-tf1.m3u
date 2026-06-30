@@ -1121,8 +1121,6 @@ tf1plus://tf1/une-affaire-francaise
 tf1plus://tf1/le-daron
 #EXTINF:-1 tvg-id="tf1plus-tf1-enquete-en-famille-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-enquete-en-famille-b63fa4-0003e0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",Enquete En Famille
 tf1plus://tf1/enquete-en-famille
-#EXTINF:-1 tvg-id="tf1plus-tf1-grand-hotel-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-grand-hotel-a2d9b2-e6adbe-620d4b-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",Grand Hotel
-tf1plus://tf1/grand-hotel
 #EXTINF:-1 tvg-id="tf1plus-tf1-section-de-recherches-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-section-de-recherches-neige-sang-c8ef1c-c18406-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",Section de Recherches
 tf1plus://tf1/section-de-recherches
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-recrue-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-33da58-106351-8d12e8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",La Recrue
@@ -1143,6 +1141,8 @@ tf1plus://tf1/gloria
 tf1plus://tf1/les-edelweiss
 #EXTINF:-1 tvg-id="tf1plus-tf1-i3p-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-9ea143-856080-92ec7a-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",I3p
 tf1plus://tf1/i3p
+#EXTINF:-1 tvg-id="tf1plus-tf1-erica-créations-tf1" tvg-logo="https://photos.tf1.fr/217/289/vignette-immersive-6-38c054-336c4a-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Créations TF1",Erica
+tf1plus://tf1/erica
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-dessous-de-palm-beach-les-séries-cultes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-0afb60-bee231-698b28-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Les séries cultes",Les Dessous de Palm Beach
 tf1plus://tf1/les-dessous-de-palm-beach
 #EXTINF:-1 tvg-id="tf1plus-tf1-highlander-les-séries-cultes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4141d2-b67b79-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Les séries cultes",Highlander
@@ -3023,6 +3023,8 @@ tf1plus://tf1-series-films/banlieue-13
 tf1plus://tmc/les-sous-doues-en-vacances
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-proposition-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-589b20-9c69eb-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",La Proposition
 tf1plus://tf1-series-films/la-proposition
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Rrrrrrr
+tf1plus://tf1-series-films/rrrrrrr
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Et Lhomme Crea la Femme
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-shall-we-dance-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-eeeb2f-28a618-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Shall We Dance
@@ -3057,8 +3059,6 @@ tf1plus://tmc/les-sous-doues
 tf1plus://tf1/camping
 #EXTINF:-1 tvg-id="tf1plus-tmc-radin-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-radin-8631b5-0f4c3f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Radin
 tf1plus://tmc/radin
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-vengeance-dans-la-peau-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-jason-bourne-la-vengeance-dans-la-peau-aed2dd-474a69-922c90-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",La Vengeance Dans la Peau
-tf1plus://tf1-series-films/la-vengeance-dans-la-peau
 #EXTINF:-1 tvg-id="tf1plus-tf1-its-never-over-jeff-buckley-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5a13c1-597c67-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Its Never Over Jeff Buckley
 tf1plus://tf1/its-never-over-jeff-buckley
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-reve-americain-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-fc9c18-ec80bd-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Le Reve Americain
