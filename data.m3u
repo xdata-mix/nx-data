@@ -4164,3 +4164,7 @@ http://69.64.57.208/france2/mono.m3u8
 https://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8
 #EXTINF:-1 tvg-id="MacGyver.de@FR" group-title="France TV backup",MacGyver [iptv-org-fra]
 https://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
