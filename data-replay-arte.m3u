@@ -49,7 +49,7 @@ arte://124752-000-A
 arte://RC-014095
 #EXTINF:-1 tvg-id="arte-130913-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fRr4ULh5KbZ8NPdBS9aNMU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les alchimistes du cinéma — Alfonso Cuarón et Michael Seresin
 arte://130913-001-A
-#EXTINF:-1 tvg-id="arte-130432-046-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/YHyP2vB9cfKD7hbR45vYkb/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les B.O. d'Henry Mancini — Blow up
+#EXTINF:-1 tvg-id="arte-130432-046-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/te7nqGn49oAYFkpTeMhPUD/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Hommage à Henry Mancini — Blow up
 arte://130432-046-A
 #EXTINF:-1 tvg-id="arte-130432-045-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/DAsFKmvPrGcbFfeQkuGNTh/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les génériques de Marjane Satrapi — Blow up
 arte://130432-045-A
@@ -357,6 +357,8 @@ arte://RC-025421
 arte://RC-025019
 #EXTINF:-1 tvg-id="arte-RC-023562" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SAoASjit79V8tL463iiGN8/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Canis Familiaris — Comédie canine un poil farfelue
 arte://RC-023562
+#EXTINF:-1 tvg-id="arte-RC-022798" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Upauhxn7BU3ZhBjTKf7ZFX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",_Underscore — Immersion dans les tréfonds de l'Internet créatif
+arte://RC-022798
 #EXTINF:-1 tvg-id="arte-RC-025220" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5w4t7eoCv7FEPpqgNssAvC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Bestialement photogénique — Série documentaire
 arte://RC-025220
 #EXTINF:-1 tvg-id="arte-RC-027366" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CLQmoKJ5QRkT5oCQ2ybRMC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Origines, un conte de la lumière — Une série immersive sur la genèse de l'univers
@@ -365,8 +367,6 @@ arte://RC-027366
 arte://RC-025898
 #EXTINF:-1 tvg-id="arte-RC-021773" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qs3fAHbt8ErJM4PH63huag/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Merveilles de la nature — Des écosystèmes uniques au monde à préserver
 arte://RC-021773
-#EXTINF:-1 tvg-id="arte-RC-022798" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Upauhxn7BU3ZhBjTKf7ZFX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",_Underscore — Immersion dans les tréfonds de l'Internet créatif
-arte://RC-022798
 #EXTINF:-1 tvg-id="arte-RC-020449" tvg-logo="https://api-cdn.arte.tv/img/v2/image/yY8QvwwkzhJcX97RkqEYeU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Psycho — La série qui ausculte nos maux du quotidien
 arte://RC-020449
 #EXTINF:-1 tvg-id="arte-121620-136-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fWY66L8ZtDqUNiQykX3Z4B/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",L'Europe face au scénario d'une France RN — Comment l'UE se prépare-t-elle à l'éventuelle arrivée au pouvoir du RN en France en 2027 ?
@@ -713,18 +713,20 @@ arte://RC-023176
 arte://RC-013956
 #EXTINF:-1 tvg-id="arte-129042-129-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qBEz5QHQuDYWVhLgZ7Gp8B/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal - 29/06/2026 — L'Afrique du sud face aux violences xénophobes
 arte://129042-129-A
+#EXTINF:-1 tvg-id="arte-129042-130-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/StueXrANGhZxPpVzLHwRzR/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal - 30/06/2026 — Allemagne : alerte sur la montée des extrémismes
+arte://129042-130-A
+#EXTINF:-1 tvg-id="arte-126925-101-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/iTJDRNi8ozCoTLN4rLpZTE/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Crimée : la stratégie de l'étouffement
+arte://126925-101-A
 #EXTINF:-1 tvg-id="arte-126925-098-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/hyBqwgQUwjPdRNAFYoaZYK/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Royaume-Uni : quelle instabilité ?
 arte://126925-098-A
-#EXTINF:-1 tvg-id="arte-124239-064-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EbADCjLqwFnUpCngf8aL4Z/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Reportage — Côte d’Ivoire / Liban
-arte://124239-064-A
-#EXTINF:-1 tvg-id="arte-126925-097-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SBBEfdHkaN7uVyYcgWpu9d/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Amérique latine : l'extrême droite progresse
-arte://126925-097-A
 #EXTINF:-1 tvg-id="arte-120712-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Y5ZXpw6AApcD3AQggYwxEA/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Inde : vivre sous 50 degrés
 arte://120712-000-A
-#EXTINF:-1 tvg-id="arte-130395-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/H3UFKf7Zwb8YfWJpYriQLi/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Fixers : sur la ligne de front — Liban : Charbel Chérif
-arte://130395-000-A
+#EXTINF:-1 tvg-id="arte-126925-097-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SBBEfdHkaN7uVyYcgWpu9d/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Amérique latine : l'extrême droite progresse
+arte://126925-097-A
 #EXTINF:-1 tvg-id="arte-091140-022-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/mn5wHBfkKGAaoAjNeeCiyX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Karambolage — La nationale 7 / Manger au restaurant / Le club Mickey
 arte://091140-022-A
+#EXTINF:-1 tvg-id="arte-130395-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/H3UFKf7Zwb8YfWJpYriQLi/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Fixers : sur la ligne de front — Liban : Charbel Chérif
+arte://130395-000-A
 #EXTINF:-1 tvg-id="arte-108958-022-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/KKKyNREfEkFK8yrqj9J74U/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Karambolage — Cabine de plage / Attirer une poule / Souvenirs de colo
 arte://108958-022-A
 #EXTINF:-1 tvg-id="arte-126925-096-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tfFWwwDxBXmHpjpPxvamVc/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Tech américaine : les Européens dépendants ?
@@ -1769,7 +1771,7 @@ arte://132692-015-A
 arte://132692-006-A
 #EXTINF:-1 tvg-id="arte-132692-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/AhrHrqv4RU6CPo98GwY48o/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",The Plot in You — Hellfest 2026
 arte://132692-010-A
-#EXTINF:-1 tvg-id="arte-132692-046-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/PoiARP3n4orC3kbavTCuu9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Napalm Death — Hellfest 2026
+#EXTINF:-1 tvg-id="arte-132692-046-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/7yjQBMMbPnVgUo7SmMe8AM/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Napalm Death — Hellfest 2026
 arte://132692-046-A
 #EXTINF:-1 tvg-id="arte-RC-014432" tvg-logo="https://api-cdn.arte.tv/img/v2/image/LUxozSUKshUxMsYoUkECLW/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Prix de Lausanne — Revivez le prestigieux concours
 arte://RC-014432
