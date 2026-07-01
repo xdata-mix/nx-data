@@ -2583,10 +2583,10 @@ tf1plus://tfx/tricheurs
 tf1plus://tfx/mamans-et-celebres
 #EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
 tf1plus://tfx/time-to-love
-#EXTINF:-1 tvg-id="tf1plus-tfx-hillary-et-giovanni-le-mariage" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Hillary et Giovanni le Mariage
-tf1plus://tfx/hillary-et-giovanni-le-mariage
 #EXTINF:-1 tvg-id="tf1plus-tf1-million-dollar-weekend" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Million Dollar Weekend
 tf1plus://tf1/million-dollar-weekend
+#EXTINF:-1 tvg-id="tf1plus-tfx-hillary-et-giovanni-le-mariage" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Hillary et Giovanni le Mariage
+tf1plus://tfx/hillary-et-giovanni-le-mariage
 #EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres-fetent-noel" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres Fetent Noel
 tf1plus://tfx/mamans-et-celebres-fetent-noel
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-20-ans-de-la-telerealite" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les 20 Ans de la Telerealite
@@ -3661,8 +3661,6 @@ tf1plus://tf1/kung-foudre
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-peres-meres-et-supporters-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a3bb44-87f894-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Peres Meres et Supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
-#EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
-tf1plus://lci/le-grand-entretien
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
@@ -3671,6 +3669,8 @@ tf1plus://tf1/jt-13h
 tf1plus://lci/bonjour-la-matinale-tf1
 #EXTINF:-1 tvg-id="tf1plus-lci-24h-pujadas-l-info-en-questions" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",24h Pujadas L Info En Questions
 tf1plus://lci/24h-pujadas-l-info-en-questions
+#EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
+tf1plus://lci/le-grand-entretien
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
 tf1plus://lci/la-matinale-618
 #EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
