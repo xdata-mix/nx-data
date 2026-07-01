@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-48d48d53-4292-478e-8a7b-84bb7ee6722b" tvg-logo="https://medias.france.tv/bNiBQns8lzzMm7OsO35Oh1pOS34/400x0/filters:quality(85)/r/q/l/phpppxlqr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un château en Espagne
+francetv://48d48d53-4292-478e-8a7b-84bb7ee6722b
 #EXTINF:-1 tvg-id="francetv-prog-france-2_l-amerique-et-nous" tvg-logo="https://medias.france.tv/7lCdQM1FVSsqHrByF_HasQBCr9E/400x0/filters:quality(85)/a/t/w/phpqwlwta.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",L'Amérique et nous
 francetv://program/france-2_l-amerique-et-nous
 #EXTINF:-1 tvg-id="francetv-b72d97a8-41f4-4bfc-9821-6f1c74ec12ee" tvg-logo="https://medias.france.tv/_jB0gmb70u5ML5-8Qq9LxTRksCY/400x0/filters:quality(85)/9/a/0/9c3fbf1086bd409ca54b64353492c0a9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard par Domingo — Domingo s'empare du Fort
@@ -9,8 +11,6 @@ francetv://program/france-2_meurtres-au-paradis
 francetv://5d91dc70-bed0-4f22-a95b-2bb2bf58fcb2
 #EXTINF:-1 tvg-id="francetv-054289cf-80c4-4217-9eed-86c8f5d69e32" tvg-logo="https://medias.france.tv/fpVRl3k2u9_2NVv4PNGQUDIp02g/400x0/filters:quality(85)/k/i/m/phpkkxmik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Affaires sensibles — Le mystère des noyés de la Deûle
 francetv://054289cf-80c4-4217-9eed-86c8f5d69e32
-#EXTINF:-1 tvg-id="francetv-48d48d53-4292-478e-8a7b-84bb7ee6722b" tvg-logo="https://medias.france.tv/bNiBQns8lzzMm7OsO35Oh1pOS34/400x0/filters:quality(85)/r/q/l/phpppxlqr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un château en Espagne
-francetv://48d48d53-4292-478e-8a7b-84bb7ee6722b
 #EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Capitaine Marleau
 francetv://program/france-2_capitaine-marleau
 #EXTINF:-1 tvg-id="francetv-b3a7eaf6-e756-497d-b426-644bf3f219fe" tvg-logo="https://medias.france.tv/IdtG_cATFWT77J-r2RLmXzsyjic/400x0/filters:quality(85)/c/y/k/phpytjkyc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Cash Investigation — Aliments ultratransformés : dans les arrière-cuisines des industriels
@@ -161,6 +161,8 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
+#EXTINF:-1 tvg-id="francetv-cd11c93a-e289-44a1-b367-feb748765e1b" tvg-logo="https://medias.france.tv/nx4IZvyilvCjW3r-ZV9x86ZRj84/400x0/filters:quality(85)/2/d/v/phphd8vd2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Secrets d'Histoire — Les amants tragiques de Mayerling
+francetv://cd11c93a-e289-44a1-b367-feb748765e1b
 #EXTINF:-1 tvg-id="francetv-ee0b65b9-65ee-45a1-99f8-3595d310d9f2" tvg-logo="https://medias.france.tv/XuF2zhpfHySX9raNuxNzCB9PhwU/400x0/filters:quality(85)/l/4/j/phpr1sj4l.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",En attendant Bojangles
 francetv://ee0b65b9-65ee-45a1-99f8-3595d310d9f2
 #EXTINF:-1 tvg-id="francetv-f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b" tvg-logo="https://medias.france.tv/vZ09h6xo0dbvHyKCuc5wdFgFw08/400x0/filters:quality(85)/g/w/f/phphvgfwg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",A qui profite le doute ?
@@ -1361,20 +1363,22 @@ francetv://program/france-3_les-temoins-d-outre-mer
 francetv://program/france-o_passion-outre-mer
 #EXTINF:-1 tvg-id="francetv-48d48d53-4292-478e-8a7b-84bb7ee6722b" tvg-logo="https://medias.france.tv/bNiBQns8lzzMm7OsO35Oh1pOS34/400x0/filters:quality(85)/r/q/l/phpppxlqr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Un château en Espagne
 francetv://48d48d53-4292-478e-8a7b-84bb7ee6722b
+#EXTINF:-1 tvg-id="francetv-f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b" tvg-logo="https://medias.france.tv/vZ09h6xo0dbvHyKCuc5wdFgFw08/400x0/filters:quality(85)/g/w/f/phphvgfwg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",A qui profite le doute ?
+francetv://f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b
 #EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Meurtres au paradis
 francetv://program/france-2_meurtres-au-paradis
 #EXTINF:-1 tvg-id="francetv-47eacc28-d911-4c39-9f43-ecd0fc564e09" tvg-logo="https://medias.france.tv/SKnChmxWYpj2zkiKS40EQL2hZco/400x0/filters:quality(85)/8/f/i/phpyk8if8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les oubliés du Delta
 francetv://47eacc28-d911-4c39-9f43-ecd0fc564e09
-#EXTINF:-1 tvg-id="francetv-f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b" tvg-logo="https://medias.france.tv/vZ09h6xo0dbvHyKCuc5wdFgFw08/400x0/filters:quality(85)/g/w/f/phphvgfwg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",A qui profite le doute ?
-francetv://f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b
+#EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/oyXpPByai7T3y9jlqCpz4MY0038/400x0/filters:quality(85)/r/5/j/phpionj5r.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Dix pour Cent
+francetv://program/france-2_dix-pour-cent
+#EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Made in France
+francetv://program/france-2_made-in-france
+#EXTINF:-1 tvg-id="francetv-prog-slash_p-tain-de-soiree" tvg-logo="https://medias.france.tv/wfG6EvQI1YObZSxYrexuLEIBmxE/400x0/filters:quality(85)/a/d/w/phpykqwda.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",P*tain de soirée
+francetv://program/slash_p-tain-de-soiree
 #EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Sous pression
 francetv://program/france-2_sous-pression
 #EXTINF:-1 tvg-id="francetv-prog-arte_the-split_saison-1_saison-1" tvg-logo="https://medias.france.tv/MaIy1LBrAb-8A9Cp03jXtk9c4CQ/400x0/filters:quality(85)/c/f/2/1abed2b8fd344041ac9a4b4ed47d42fc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",The Split
 francetv://program/arte_the-split_saison-1_saison-1
-#EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Made in France
-francetv://program/france-2_made-in-france
-#EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/oyXpPByai7T3y9jlqCpz4MY0038/400x0/filters:quality(85)/r/5/j/phpionj5r.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Dix pour Cent
-francetv://program/france-2_dix-pour-cent
 #EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
 francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-3_hudson-et-rex" tvg-logo="https://medias.france.tv/nqifKW33u9wQWugk4BMRQi1zlRI/400x0/filters:quality(85)/y/r/y/phph8dyry.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Hudson et Rex
@@ -1391,8 +1395,6 @@ francetv://296e9746-e547-4fe3-80b2-4279c4bb9656
 francetv://0818d275-054f-4b3f-965f-b6051afba8b6
 #EXTINF:-1 tvg-id="francetv-dab7e680-bea7-498d-8c56-2feebc727dd6" tvg-logo="https://medias.france.tv/V6G5Ik_vK_8lPFUjsrpnvwl3fbs/400x0/filters:quality(85)/e/j/u/phpoyeuje.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 3 juillet 2026
 francetv://dab7e680-bea7-498d-8c56-2feebc727dd6
-#EXTINF:-1 tvg-id="francetv-5e41a9e8-b4c2-41c3-87af-c56abfef1f25" tvg-logo="https://medias.france.tv/MdVNA6fKdGvRsb8g3lPVG5oCNuc/400x0/filters:quality(85)/z/4/b/php4k7b4z.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Inès et Yvan, l'amour sur un fil
-francetv://5e41a9e8-b4c2-41c3-87af-c56abfef1f25
 #EXTINF:-1 tvg-id="francetv-c273e1d7-341d-4013-9533-2a1186f997a4" tvg-logo="https://medias.france.tv/n1S53o2nWgWuGcTQ6XLbO2hcObU/400x0/filters:quality(85)/4/s/c/phpjilcs4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Meurtres à... — Meurtres à Cayenne
 francetv://c273e1d7-341d-4013-9533-2a1186f997a4
 #EXTINF:-1 tvg-id="francetv-e8d986a2-bcf8-44b7-82c7-fddb8a7d1a5c" tvg-logo="https://medias.france.tv/Vz-SSdBvkOZyRyzkhShcF97142Q/400x0/filters:quality(85)/f/5/m/phpppum5f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",L'archer noir
@@ -1401,6 +1403,8 @@ francetv://e8d986a2-bcf8-44b7-82c7-fddb8a7d1a5c
 francetv://47eacc28-d911-4c39-9f43-ecd0fc564e09
 #EXTINF:-1 tvg-id="francetv-prog-france-2_il-etait-deux-fois" tvg-logo="https://medias.france.tv/YEf2PJ9mt5ObGi-GZ_cgL083zxg/400x0/filters:quality(85)/4/n/r/phpqplrn4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Il était deux fois
 francetv://program/france-2_il-etait-deux-fois
+#EXTINF:-1 tvg-id="francetv-f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b" tvg-logo="https://medias.france.tv/vZ09h6xo0dbvHyKCuc5wdFgFw08/400x0/filters:quality(85)/g/w/f/phphvgfwg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",A qui profite le doute ?
+francetv://f8ce615f-4f8c-4e85-aa9d-bbabe76c2b7b
 #EXTINF:-1 tvg-id="francetv-prog-arte_mystery-road-les-origines" tvg-logo="https://medias.france.tv/0he0tDn9sKShTGR46j98LeCA6Vs/400x0/filters:quality(85)/h/n/k/php7juknh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Mystery Road : les origines
 francetv://program/arte_mystery-road-les-origines
 #EXTINF:-1 tvg-id="francetv-prog-france-2_je-sais-pas" tvg-logo="https://medias.france.tv/slc-zPh8XcmVo3DpsEQFEd1wBuk/400x0/filters:quality(85)/g/k/y/php2wxykg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Je sais pas
@@ -1817,8 +1821,6 @@ francetv://program/france-2_abysses
 francetv://program/france-2_dix-pour-cent
 #EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Made in France
 francetv://program/france-2_made-in-france
-#EXTINF:-1 tvg-id="francetv-5e41a9e8-b4c2-41c3-87af-c56abfef1f25" tvg-logo="https://medias.france.tv/MdVNA6fKdGvRsb8g3lPVG5oCNuc/400x0/filters:quality(85)/z/4/b/php4k7b4z.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Inès et Yvan, l'amour sur un fil
-francetv://5e41a9e8-b4c2-41c3-87af-c56abfef1f25
 #EXTINF:-1 tvg-id="francetv-eb1ed1c4-593f-48dd-a572-7bad6dadf192" tvg-logo="https://medias.france.tv/SOK1lA4xeX3Yif7bnEoIsETo1yA/400x0/filters:quality(85)/c/6/7/45d0f31507b544fe83d082795c74399f23cf0927102f19a81da3e4cc98daf76c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Les Histoires d'Anouk
 francetv://eb1ed1c4-593f-48dd-a572-7bad6dadf192
 #EXTINF:-1 tvg-id="francetv-prog-arte_lovesick" tvg-logo="https://medias.france.tv/UI4s1YYUrEvrtQlKdpLUS_0Qodg/400x0/filters:quality(85)/8/m/d/phpusadm8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Lovesick
@@ -1977,28 +1979,28 @@ francetv://program/enfants_six-huit-ans_tinka
 francetv://program/enfants_neuf-douze-ans_zombie-lars
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_fifi-brindacier" tvg-logo="https://medias.france.tv/SsNfFOkY2h0PcAc0PDQCiWMHXUA/400x0/filters:quality(85)/i/q/z/phpxlazqi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries Okoo",Fifi Brindacier
 francetv://program/enfants_six-huit-ans_fifi-brindacier
-#EXTINF:-1 tvg-id="francetv-03e42ab0-a7e1-4e8b-8246-37bf807a0465" tvg-logo="https://medias.france.tv/nRL5E4YsQiKCFbg5nEuQY1rvFfk/400x0/filters:quality(85)/0/w/g/phpbx5gw0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",L'âge d'or des corsaires et des pirates
-francetv://03e42ab0-a7e1-4e8b-8246-37bf807a0465
+#EXTINF:-1 tvg-id="francetv-cd11c93a-e289-44a1-b367-feb748765e1b" tvg-logo="https://medias.france.tv/nx4IZvyilvCjW3r-ZV9x86ZRj84/400x0/filters:quality(85)/2/d/v/phphd8vd2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Secrets d'Histoire — Les amants tragiques de Mayerling
+francetv://cd11c93a-e289-44a1-b367-feb748765e1b
+#EXTINF:-1 tvg-id="francetv-1dfbfccf-4a0a-435b-9307-4c72f2b5f6db" tvg-logo="https://medias.france.tv/HBhwJZ80qQknlk4ND_JQRz0vclY/400x0/filters:quality(85)/w/j/w/phpozxwjw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Enquête de santé — Ces gestes qui sauvent votre été
+francetv://1dfbfccf-4a0a-435b-9307-4c72f2b5f6db
 #EXTINF:-1 tvg-id="francetv-prog-france-2_l-amerique-et-nous" tvg-logo="https://medias.france.tv/7lCdQM1FVSsqHrByF_HasQBCr9E/400x0/filters:quality(85)/a/t/w/phpqwlwta.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",L'Amérique et nous
 francetv://program/france-2_l-amerique-et-nous
-#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
-francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
-#EXTINF:-1 tvg-id="francetv-d8949c19-f826-4a43-8b34-e1c0a4d3386b" tvg-logo="https://medias.france.tv/NiHjBr4NjAyhy4Gr4fUiZwle6LI/400x0/filters:quality(85)/o/x/t/php08btxo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",En tension au Mexique avec HugoDécrypte
-francetv://d8949c19-f826-4a43-8b34-e1c0a4d3386b
 #EXTINF:-1 tvg-id="francetv-58d8dcca-c217-43ac-ba3f-4631ec934437" tvg-logo="https://medias.france.tv/8G4vJv4N_cBf3LAJEOOjxRrmO2E/400x0/filters:quality(85)/h/n/8/phputk8nh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Lucie en Thaïlande
 francetv://58d8dcca-c217-43ac-ba3f-4631ec934437
+#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
+francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
+#EXTINF:-1 tvg-id="francetv-03e42ab0-a7e1-4e8b-8246-37bf807a0465" tvg-logo="https://medias.france.tv/nRL5E4YsQiKCFbg5nEuQY1rvFfk/400x0/filters:quality(85)/0/w/g/phpbx5gw0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",L'âge d'or des corsaires et des pirates
+francetv://03e42ab0-a7e1-4e8b-8246-37bf807a0465
 #EXTINF:-1 tvg-id="francetv-59dca436-3175-490c-bddb-4bd3cb533132" tvg-logo="https://medias.france.tv/zH9aDc0brZUIAflkg-VgzD5XMAo/400x0/filters:quality(85)/k/q/4/phpl0s4qk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Échappées belles — Pyrénées-Atlantiques, entre deux terres
 francetv://59dca436-3175-490c-bddb-4bd3cb533132
+#EXTINF:-1 tvg-id="francetv-d8949c19-f826-4a43-8b34-e1c0a4d3386b" tvg-logo="https://medias.france.tv/NiHjBr4NjAyhy4Gr4fUiZwle6LI/400x0/filters:quality(85)/o/x/t/php08btxo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",En tension au Mexique avec HugoDécrypte
+francetv://d8949c19-f826-4a43-8b34-e1c0a4d3386b
 #EXTINF:-1 tvg-id="francetv-f4c13623-363f-4f8b-81f6-2675c62e514a" tvg-logo="https://medias.france.tv/cBhUtFd5y4QcgNvatfz2L26eQvo/400x0/filters:quality(85)/f/g/q/phplgmqgf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",La case du siècle — On les appelle cowboys
 francetv://f4c13623-363f-4f8b-81f6-2675c62e514a
 #EXTINF:-1 tvg-id="francetv-1f60723a-84c4-4c7b-a2e9-7f81dc103d97" tvg-logo="https://medias.france.tv/BqLLePAZyOHzdcmDwYPmy0dCH8c/400x0/filters:quality(85)/u/c/q/php6dlqcu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Instinct animal — Avec Gil Alma
 francetv://1f60723a-84c4-4c7b-a2e9-7f81dc103d97
-#EXTINF:-1 tvg-id="francetv-ed892180-a0db-4884-8a60-e497663c9f0b" tvg-logo="https://medias.france.tv/1hu3a0fc_oqBTO_YeNpwmyq7FmQ/400x0/filters:quality(85)/r/y/a/phpmpnayr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Collection Documentaire Via Stella — Moi, Michel Rocard, j'irai dormir en Corse
-francetv://ed892180-a0db-4884-8a60-e497663c9f0b
-#EXTINF:-1 tvg-id="francetv-1365fea7-6093-4318-90c9-2a0be4686854" tvg-logo="https://medias.france.tv/wOHGhJ9kM05_7w_NjGtyhgS_ctk/400x0/filters:quality(85)/0/1/e/d2a9dce28fa74189b2b20d0b5ec80e10.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",L'armée de l'ombre de Poutine
-francetv://1365fea7-6093-4318-90c9-2a0be4686854
-#EXTINF:-1 tvg-id="francetv-prog-arte_music-queer" tvg-logo="https://medias.france.tv/sbbMdHG0ctsryKBLJ_4YZObnV7k/400x0/filters:quality(85)/9/d/4/9bec990c6a5e4fda8cc66a1bddbd44d9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Music Queer
-francetv://program/arte_music-queer
+#EXTINF:-1 tvg-id="francetv-629e4434-3620-4e3d-a166-dacec8359e12" tvg-logo="https://medias.france.tv/YnKM4Up42AnIrmzM7-LzbOKm8Ag/400x0/filters:quality(85)/3/3/0/f5c10343860f4cd98bf8548018581033.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection","Opération dragon", la révolution Bruce Lee
+francetv://629e4434-3620-4e3d-a166-dacec8359e12
 #EXTINF:-1 tvg-id="francetv-c3609c6a-4353-419a-9d25-b1e2f8b67ebe" tvg-logo="https://medias.france.tv/xUUohqL0-RT2-UlY5kZtDjJ1Mww/400x0/filters:quality(85)/y/j/i/php6q0ijy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Une planète face au changement climatique",Le monde de Jamy — Des feux extrêmes en France : sommes-nous prêts ?
 francetv://c3609c6a-4353-419a-9d25-b1e2f8b67ebe
 #EXTINF:-1 tvg-id="francetv-f0a5ab6a-f69f-4821-9468-5609e3c5b47b" tvg-logo="https://medias.france.tv/se13QK8xKfyAzaZfPxQ9s-cIF9A/400x0/filters:quality(85)/p/c/l/php2f7lcp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Une planète face au changement climatique",Sur le front — Coraux : l'incroyable voyage
@@ -3061,28 +3063,28 @@ francetv://bc5df088-396d-11f1-ade3-57a09c50f7ce
 francetv://e6a04552-3969-11f1-ade3-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-c478740e-2839-11f1-835a-957ddefc544d" tvg-logo="https://medias.france.tv/2fP1wGstPaXhtCxLcQS-4je2jVs/400x0/filters:quality(85)/9/6/9/7e27f61b04594007aa89c17b1fd05969.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les films du moment","L'avenir" : Son mari lui fait une annonce difficile
 francetv://c478740e-2839-11f1-835a-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-b3a7eaf6-e756-497d-b426-644bf3f219fe" tvg-logo="https://medias.france.tv/IdtG_cATFWT77J-r2RLmXzsyjic/400x0/filters:quality(85)/c/y/k/phpytjkyc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Cash Investigation — Aliments ultratransformés : dans les arrière-cuisines des industriels
-francetv://b3a7eaf6-e756-497d-b426-644bf3f219fe
+#EXTINF:-1 tvg-id="francetv-6dcfab44-02cd-41b7-8fed-403942715d53" tvg-logo="https://medias.france.tv/aej5br3zQI0N9ZqLrGhMBszhQ90/400x0/filters:quality(85)/w/2/4/phpqvb42w.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Enquête de santé — Un été en toute sécurité
+francetv://6dcfab44-02cd-41b7-8fed-403942715d53
+#EXTINF:-1 tvg-id="francetv-31e1fb91-43ef-4efe-9275-51926446a623" tvg-logo="https://medias.france.tv/FFclwt_gUzXMPx62mFafNNec5oU/400x0/filters:quality(85)/2/d/4/9ed8804d4ecf4d21acf8d5b8e867b1eafdb660d6e71b19b6cbf6caa7f6b714d2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Mascus, les hommes qui détestent les femmes - Le documentaire
+francetv://31e1fb91-43ef-4efe-9275-51926446a623
 #EXTINF:-1 tvg-id="francetv-c3609c6a-4353-419a-9d25-b1e2f8b67ebe" tvg-logo="https://medias.france.tv/xUUohqL0-RT2-UlY5kZtDjJ1Mww/400x0/filters:quality(85)/y/j/i/php6q0ijy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Le monde de Jamy — Des feux extrêmes en France : sommes-nous prêts ?
 francetv://c3609c6a-4353-419a-9d25-b1e2f8b67ebe
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
 francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_ca-commence-aujourd-hui" tvg-logo="https://medias.france.tv/6sDpIrs6TyUw1Zore4-pUwKRV4A/400x0/filters:quality(85)/a/2/p/phpasop2a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Ça commence aujourd'hui
 francetv://program/france-2_ca-commence-aujourd-hui
+#EXTINF:-1 tvg-id="francetv-b3a7eaf6-e756-497d-b426-644bf3f219fe" tvg-logo="https://medias.france.tv/IdtG_cATFWT77J-r2RLmXzsyjic/400x0/filters:quality(85)/c/y/k/phpytjkyc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Cash Investigation — Aliments ultratransformés : dans les arrière-cuisines des industriels
+francetv://b3a7eaf6-e756-497d-b426-644bf3f219fe
+#EXTINF:-1 tvg-id="francetv-1951f15d-11c2-49bf-b6d8-9e1249e58545" tvg-logo="https://medias.france.tv/Y8Wfh6e3diUxSNY29BKbgjCph6Y/400x0/filters:quality(85)/4/2/6/e9ca5b38e9154f969e3581c812984624.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Maires ruraux à l'épreuve du réel
+francetv://1951f15d-11c2-49bf-b6d8-9e1249e58545
+#EXTINF:-1 tvg-id="francetv-71203368-c2f6-4bff-aced-53eb22302830" tvg-logo="https://medias.france.tv/A7DN7QMqG-WnNQjT3D4DBp2m2pg/400x0/filters:quality(85)/9/4/b/ca0c9f5783df474fbe62ac6222071b49.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Elle l'a bien cherché
+francetv://71203368-c2f6-4bff-aced-53eb22302830
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_peaux-noires-quel-heritage" tvg-logo="https://medias.france.tv/6Q3QCUX_2NvaqLWP9fdwx3hkgTA/400x0/filters:quality(85)/d/0/e/ccc7a7daf32e4b72b7a7f8149a436e0d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Peaux noires : quel héritage ?
 francetv://program/tv5-monde_peaux-noires-quel-heritage
-#EXTINF:-1 tvg-id="francetv-05818de1-160a-4521-a69c-dd6638477d17" tvg-logo="https://medias.france.tv/NsO9QHNDxsCYMIQxHVzeZ8u2Uqw/400x0/filters:quality(85)/8/2/1/da454371a64346e3b61ab09ff5fd8128.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",En découdre : la mode de demain - Le documentaire
-francetv://05818de1-160a-4521-a69c-dd6638477d17
-#EXTINF:-1 tvg-id="francetv-77f8e3d9-1408-40da-9553-71f7b2403e50" tvg-logo="https://medias.france.tv/-yNKRuS39Fs8GA9gbo0WR7F4CJ4/400x0/filters:quality(85)/9/8/b/184738d8b67f4fc0bb7995cfa282bb89.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Les questions qui fâchent — La consommation durable : un privilège de riches ?
-francetv://77f8e3d9-1408-40da-9553-71f7b2403e50
-#EXTINF:-1 tvg-id="francetv-b5f35857-87f5-47ef-a1d5-32a55b9070f3" tvg-logo="https://medias.france.tv/OVSilXF_4mGY6TElM_IUULw8RRE/400x0/filters:quality(85)/h/v/b/phpon2bvh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Sénat en action — Prix de l'alimentation, scandale dans nos rayons
-francetv://b5f35857-87f5-47ef-a1d5-32a55b9070f3
-#EXTINF:-1 tvg-id="francetv-ff5c7635-daf8-4921-bfa0-99104586535e" tvg-logo="https://medias.france.tv/NF-xMH_WlxXcKA9-TJonq6ZlmuU/400x0/filters:quality(85)/e/b/q/php8w3qbe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Mémoire, la grande expérience
-francetv://ff5c7635-daf8-4921-bfa0-99104586535e
 #EXTINF:-1 tvg-id="francetv-d39ea2bd-c780-4b1f-837a-430f469257fe" tvg-logo="https://medias.france.tv/izV2NVTkkHE5RAHouQpMo9531VM/400x0/filters:quality(85)/k/p/j/php8rhjpk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Si j'étais sage-femme
 francetv://d39ea2bd-c780-4b1f-837a-430f469257fe
-#EXTINF:-1 tvg-id="francetv-bdbb808b-b207-46bd-b126-523c4ec82c3b" tvg-logo="https://medias.france.tv/7ATlvnenyMKMapY1PGGFQ8vcYWs/400x0/filters:quality(85)/8/3/8/phpp5m838.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Le camping, un siècle de bonheur français
-francetv://bdbb808b-b207-46bd-b126-523c4ec82c3b
+#EXTINF:-1 tvg-id="francetv-05818de1-160a-4521-a69c-dd6638477d17" tvg-logo="https://medias.france.tv/NsO9QHNDxsCYMIQxHVzeZ8u2Uqw/400x0/filters:quality(85)/8/2/1/da454371a64346e3b61ab09ff5fd8128.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",En découdre : la mode de demain - Le documentaire
+francetv://05818de1-160a-4521-a69c-dd6638477d17
 #EXTINF:-1 tvg-id="francetv-8c81d3cc-ecc7-45ee-b048-adbc8633472c" tvg-logo="https://medias.france.tv/BytSOwiIw4pm8sHVgo0j_TvpCQc/400x0/filters:quality(85)/n/p/i/php1gjipn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Des regards sur notre société",Canicule : le grand basculement
 francetv://8c81d3cc-ecc7-45ee-b048-adbc8633472c
 #EXTINF:-1 tvg-id="francetv-afe6c982-5e1c-4062-bed1-8edeea769fb9" tvg-logo="https://medias.france.tv/e8JKq_L0UOIpNFiaAGcA5AQcb1g/400x0/filters:quality(85)/x/9/d/php3jfd9x.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Des regards sur notre société",France, il était une fois demain
