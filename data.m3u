@@ -4298,3 +4298,7 @@ https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="PlutoTVTelerealiteFrance.de@FR" group-title="Divertissement",Pluto TV Téléréalité France
 https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
