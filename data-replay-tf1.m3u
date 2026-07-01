@@ -49,16 +49,18 @@ tf1live://L_FAST_v2l-ad-sous-le-soleil-18693784
 tf1live://L_FAST_v2l-ad-star-academy-70671668
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-super-nanny-14977255" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Super Nanny
 tf1live://L_FAST_v2l-ad-super-nanny-14977255
-#EXTINF:-1 tvg-id="tf1plus-tf1-camping-paradis-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cc3913-73e9c3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Camping Paradis
-tf1plus://tf1/camping-paradis
 #EXTINF:-1 tvg-id="tf1plus-tf1-zodiaque-176-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait_zodiaque_12-fe6cf1-4882ed-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Zodiaque 176
 tf1plus://tf1/zodiaque-176
+#EXTINF:-1 tvg-id="tf1plus-tf1-camping-paradis-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cc3913-73e9c3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Camping Paradis
+tf1plus://tf1/camping-paradis
+#EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-f6797c-939b6c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",All Her Fault
+tf1plus://tf1/all-her-fault
+#EXTINF:-1 tvg-id="tf1plus-tf1-une-mere-parfaite-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-une-mere-parfaite-c32b1d-a91118-d2126d-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Une Mere Parfaite
+tf1plus://tf1/une-mere-parfaite
 #EXTINF:-1 tvg-id="tf1plus-tf1-most-wanted-criminals-top-10" tvg-logo="https://photos.tf1.fr/217/289/07-167172-6f848c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Most Wanted Criminals
 tf1plus://tf1/most-wanted-criminals
 #EXTINF:-1 tvg-id="tf1plus-tf1-good-american-family-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-0678a2-c1753e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Good American Family
 tf1plus://tf1/good-american-family
-#EXTINF:-1 tvg-id="tf1plus-tf1-une-mere-parfaite-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-une-mere-parfaite-c32b1d-a91118-d2126d-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Une Mere Parfaite
-tf1plus://tf1/une-mere-parfaite
 #EXTINF:-1 tvg-id="tf1plus-tf1-falco-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-falco-2026-a2e6df-609418-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Falco
 tf1plus://tf1/falco
 #EXTINF:-1 tvg-id="tf1plus-tf1-jai-menti-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-jpg-a4d04d-94fcf4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Jai Menti
@@ -67,8 +69,6 @@ tf1plus://tf1/jai-menti
 tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-swat-top-10" tvg-logo="https://photos.tf1.fr/217/289/variant-06-cb3b49-637205-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Swat
 tf1plus://tf1/swat
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-vie-a-tout-prix-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-801f84-b5a2a8-fefb14-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",La Vie A Tout Prix
-tf1plus://tf1/la-vie-a-tout-prix
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-paradis-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cc3913-73e9c3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Camping Paradis
 tf1plus://tf1/camping-paradis
 #EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-f6797c-939b6c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",All Her Fault
@@ -1375,18 +1375,12 @@ tf1plus://tf1/koh-lanta
 tf1plus://tf1/mask-singer
 #EXTINF:-1 tvg-id="tf1plus-tf1-jeux-concours-nos-bons-plans-de-la-semaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jeux Concours Nos Bons Plans de la Semaine
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
-#EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-10-ans-de-mariage-pour-tous" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias 10 Ans de Mariage Pour Tous
-tf1plus://tmc/21h-medias-10-ans-de-mariage-pour-tous
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
-#EXTINF:-1 tvg-id="tf1plus-tmc-festival-hellfest-4-jours-denfer" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Festival Hellfest 4 Jours Denfer
-tf1plus://tmc/festival-hellfest-4-jours-denfer
-#EXTINF:-1 tvg-id="tf1plus-tmc-spice-girls-30-ans-de-secrets-de-rumeurs-et-de-scandales" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Spice Girls 30 Ans de Secrets de Rumeurs et de Scandales
-tf1plus://tmc/spice-girls-30-ans-de-secrets-de-rumeurs-et-de-scandales
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-on-fait-quoi-si-cest-la-guerre" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill On Fait Quoi Si Cest la Guerre
 tf1plus://tmc/les-reportages-de-martin-weill-on-fait-quoi-si-cest-la-guerre
 #EXTINF:-1 tvg-id="tf1plus-tmc-mefiez-vous-de-zuckerberg" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Mefiez Vous de Zuckerberg
 tf1plus://tmc/mefiez-vous-de-zuckerberg
+#EXTINF:-1 tvg-id="tf1plus-tmc-spice-girls-30-ans-de-secrets-de-rumeurs-et-de-scandales" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Spice Girls 30 Ans de Secrets de Rumeurs et de Scandales
+tf1plus://tmc/spice-girls-30-ans-de-secrets-de-rumeurs-et-de-scandales
 #EXTINF:-1 tvg-id="tf1plus-tmc-mon-coluche-a-moi-michel-colucci-par-michel-denisot" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Mon Coluche A Moi Michel Colucci Par Michel Denisot
 tf1plus://tmc/mon-coluche-a-moi-michel-colucci-par-michel-denisot
 #EXTINF:-1 tvg-id="tf1plus-tmc-90-enquetes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",90 Enquetes
@@ -1399,6 +1393,8 @@ tf1plus://tf1/chroniques-criminelles
 tf1plus://tf1/lyceenne-assassinee-la-verite-est-dans-la-tombe
 #EXTINF:-1 tvg-id="tf1plus-tfx-camping-cars-les-vacances-de-leur-vie" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Camping Cars les Vacances de Leur Vie
 tf1plus://tfx/camping-cars-les-vacances-de-leur-vie
+#EXTINF:-1 tvg-id="tf1plus-tmc-festival-hellfest-4-jours-denfer" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Festival Hellfest 4 Jours Denfer
+tf1plus://tmc/festival-hellfest-4-jours-denfer
 #EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
 tf1plus://tf1/grands-reportages
 #EXTINF:-1 tvg-id="tf1plus-tmc-terres-durgence" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Terres Durgence
@@ -1495,6 +1491,8 @@ tf1plus://tmc/21h-medias-5-ans-de-metoo
 tf1plus://tmc/21h-medias-janvier-2015-lhorreur-en-france
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-et-les-nouveaux-gourous" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill et les Nouveaux Gourous
 tf1plus://tmc/martin-weill-et-les-nouveaux-gourous
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
 tf1plus://tf1/50-mn-inside
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-xavier-dupont-de-ligonnes-la-chasse-au-scoop" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias Xavier Dupont de Ligonnes la Chasse Au Scoop
@@ -1627,6 +1625,8 @@ tf1plus://tmc/desir-au-coeur-du-sexe-feminin
 tf1plus://tmc/vous-saurez-tout-sur-le-penis
 #EXTINF:-1 tvg-id="tf1plus-tmc-desir-ce-que-veulent-les-femmes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Desir Ce Que Veulent les Femmes
 tf1plus://tmc/desir-ce-que-veulent-les-femmes
+#EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-10-ans-de-mariage-pour-tous" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias 10 Ans de Mariage Pour Tous
+tf1plus://tmc/21h-medias-10-ans-de-mariage-pour-tous
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias
 tf1plus://tmc/21h-medias
 #EXTINF:-1 tvg-id="tf1plus-tfx-endometriose-le-combat-continue-avec-laetitia-milot" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Endometriose le Combat Continue Avec Laetitia Milot
@@ -1665,14 +1665,14 @@ tf1plus://tmc/cest-pour-demain
 tf1plus://tmc/21h-medias-le-tsunami-du-siecle
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-11-septembre-2001" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le 11 Septembre 2001
 tf1plus://tmc/21h-medias-le-11-septembre-2001
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-enfants-maudits" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Enfants Maudits
+tf1plus://tf1/les-enfants-maudits
 #EXTINF:-1 tvg-id="tf1plus-tf1-coach-en-mariage-et-celibataire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coach En Mariage et Celibataire
 tf1plus://tf1/coach-en-mariage-et-celibataire
 #EXTINF:-1 tvg-id="tf1plus-tf1-dangereuse-influence" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Dangereuse Influence
 tf1plus://tf1/dangereuse-influence
 #EXTINF:-1 tvg-id="tf1plus-tf1-lautre-mere-de-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lautre Mere de Ma Fille
 tf1plus://tf1/lautre-mere-de-ma-fille
-#EXTINF:-1 tvg-id="tf1plus-tf1-ma-fille-disparue-apres-une-soiree-etudiante" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Fille Disparue Apres une Soiree Etudiante
-tf1plus://tf1/ma-fille-disparue-apres-une-soiree-etudiante
 #EXTINF:-1 tvg-id="tf1plus-tf1-maman-ne-te-fera-aucun-mal" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Maman Ne Te Fera Aucun Mal
 tf1plus://tf1/maman-ne-te-fera-aucun-mal
 #EXTINF:-1 tvg-id="tf1plus-tf1-last-moment-of-clarity" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Last Moment Of Clarity
@@ -1683,6 +1683,8 @@ tf1plus://tf1/sous-lemprise-du-peche
 tf1plus://tf1/confessions-dune-mythomane
 #EXTINF:-1 tvg-id="tf1plus-tf1-seule-enceinte-et-piegee" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Seule Enceinte et Piegee
 tf1plus://tf1/seule-enceinte-et-piegee
+#EXTINF:-1 tvg-id="tf1plus-tf1-ma-fille-disparue-apres-une-soiree-etudiante" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Fille Disparue Apres une Soiree Etudiante
+tf1plus://tf1/ma-fille-disparue-apres-une-soiree-etudiante
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-secrets-de-la-famille-murdaugh" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Secrets de la Famille Murdaugh
 tf1plus://tf1/les-secrets-de-la-famille-murdaugh
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-cauchemar-de-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Cauchemar de Ma Fille
@@ -2449,8 +2451,6 @@ tf1plus://tf1/les-derniers-mots-de-kate
 tf1plus://tf1/impitoyable
 #EXTINF:-1 tvg-id="tf1plus-tf1-nuit-de-cauchemar-a-laeroport" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nuit de Cauchemar A Laeroport
 tf1plus://tf1/nuit-de-cauchemar-a-laeroport
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-enfants-maudits" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Enfants Maudits
-tf1plus://tf1/les-enfants-maudits
 #EXTINF:-1 tvg-id="tf1plus-tf1-yes-god-yes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Yes God Yes
 tf1plus://tf1/yes-god-yes
 #EXTINF:-1 tvg-id="tf1plus-tf1-bachelor-night" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bachelor Night
@@ -3647,6 +3647,10 @@ tf1plus://tf1/kung-foudre
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-peres-meres-et-supporters-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a3bb44-87f894-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Peres Meres et Supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
+#EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
+tf1plus://lci/le-grand-entretien
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
+tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
@@ -3655,16 +3659,12 @@ tf1plus://tf1/jt-13h
 tf1plus://lci/bonjour-la-matinale-tf1
 #EXTINF:-1 tvg-id="tf1plus-lci-24h-pujadas-l-info-en-questions" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",24h Pujadas L Info En Questions
 tf1plus://lci/24h-pujadas-l-info-en-questions
-#EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
-tf1plus://lci/le-grand-entretien
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
 tf1plus://lci/la-matinale-618
 #EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
 tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
-tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-lci-meteo" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Meteo
 tf1plus://lci/meteo
 #EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",18h Darius Rochebin
