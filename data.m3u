@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/t
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="Généralistes",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="Généralistes",Alpe d’Huez TV (720p) 
-https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
+https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="AngersTele.fr@SD" tvg-logo="https://i.imgur.com/CMKKbaP.png" group-title="Généralistes",Angers Tele (180p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="Généralistes",Antenne Réunion (720p) 
@@ -90,7 +90,7 @@ https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
 #EXTINF:-1 tvg-id="Caillou.fr@SD" tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="Généralistes",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-id="Canal32.fr@SD" tvg-logo="https://i.imgur.com/lAsE6kN.png" group-title="Généralistes",Canal 32 (1080p)
-https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
 #EXTINF:-1 tvg-id="CannesLerinsTV.fr@SD" tvg-logo="https://i.imgur.com/atlgnum.png" group-title="Généralistes",Cannes Lérins TV (1080p)
 https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="Généralistes",France 2
@@ -100,7 +100,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 #EXTINF:-1 tvg-id="FranceInter.fr@SD" tvg-logo="https://i.imgur.com/MgBeU52.png" group-title="Généralistes",France Inter (288p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/france-inter-dm.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="Généralistes",Generations TV (576p)
-https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="iciElsass.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/69/Ici_Elsass.svg" group-title="Généralistes",ici Elsass (180p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/icielsass.m3u8
 #EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Généralistes",ILTV (720p)
@@ -4290,3 +4290,7 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-s
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Canal32.fr@SD" group-title="France TV backup",Canal 32 (1080p) [iptv-org-fr]
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
