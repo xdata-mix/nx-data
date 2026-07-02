@@ -159,6 +159,8 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
+#EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/P1GuWBYjrbPj3VoXINUfAx6pe_E/400x0/filters:quality(85)/t/y/j/phpplmjyt.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La Stagiaire
+francetv://program/france-3_la-stagiaire
 #EXTINF:-1 tvg-id="francetv-cd11c93a-e289-44a1-b367-feb748765e1b" tvg-logo="https://medias.france.tv/nx4IZvyilvCjW3r-ZV9x86ZRj84/400x0/filters:quality(85)/2/d/v/phphd8vd2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Secrets d'Histoire — Les amants tragiques de Mayerling
 francetv://cd11c93a-e289-44a1-b367-feb748765e1b
 #EXTINF:-1 tvg-id="francetv-ee0b65b9-65ee-45a1-99f8-3595d310d9f2" tvg-logo="https://medias.france.tv/XuF2zhpfHySX9raNuxNzCB9PhwU/400x0/filters:quality(85)/l/4/j/phpr1sj4l.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",En attendant Bojangles
@@ -253,8 +255,6 @@ francetv://program/france-3_tom-et-lola
 francetv://program/france-3_le-voyageur
 #EXTINF:-1 tvg-id="francetv-prog-france-3_face-a-face" tvg-logo="https://medias.france.tv/1Jy9XNTH_MLruEq0N5yu7ur74GE/400x0/filters:quality(85)/g/t/w/phpxwxwtg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Face à face
 francetv://program/france-3_face-a-face
-#EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/P1GuWBYjrbPj3VoXINUfAx6pe_E/400x0/filters:quality(85)/t/y/j/phpplmjyt.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La Stagiaire
-francetv://program/france-3_la-stagiaire
 #EXTINF:-1 tvg-id="francetv-prog-france-3_meurtres-a" tvg-logo="https://medias.france.tv/o3H6Icogqoevrtgq05VNzKZdS8Q/400x0/filters:quality(85)/b/1/r/php29sr1b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Meurtres à...
 francetv://program/france-3_meurtres-a
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-sport_tony-vairelles-d-or-et-de-sang" tvg-logo="https://medias.france.tv/Sc7zM28INNkxFtFHpRuFENjL0Pg/400x0/filters:quality(85)/u/3/q/php6q1q3u.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Tony Vairelles, d'Or et de sang
@@ -547,6 +547,8 @@ francetv://bd422e1e-bc5c-46db-840e-38ef95dd48d6
 francetv://2ccafa1b-afe1-4e40-9f37-a9c02dcd05b5
 #EXTINF:-1 tvg-id="francetv-58d8dcca-c217-43ac-ba3f-4631ec934437" tvg-logo="https://medias.france.tv/8G4vJv4N_cBf3LAJEOOjxRrmO2E/400x0/filters:quality(85)/h/n/8/phputk8nh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Lucie en Thaïlande
 francetv://58d8dcca-c217-43ac-ba3f-4631ec934437
+#EXTINF:-1 tvg-id="francetv-7e8981c8-45c6-4a57-9f95-5aa8097c5cbb" tvg-logo="https://medias.france.tv/qXjzxA035P_tNBl_swvx9gM12To/400x0/filters:quality(85)/b/x/k/phppgfkxb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Science grand format — Lutèce, sur les traces des Parisii
+francetv://7e8981c8-45c6-4a57-9f95-5aa8097c5cbb
 #EXTINF:-1 tvg-id="francetv-6dcfab44-02cd-41b7-8fed-403942715d53" tvg-logo="https://medias.france.tv/aej5br3zQI0N9ZqLrGhMBszhQ90/400x0/filters:quality(85)/w/2/4/phpqvb42w.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Enquête de santé — Un été en toute sécurité
 francetv://6dcfab44-02cd-41b7-8fed-403942715d53
 #EXTINF:-1 tvg-id="francetv-d8949c19-f826-4a43-8b34-e1c0a4d3386b" tvg-logo="https://medias.france.tv/NiHjBr4NjAyhy4Gr4fUiZwle6LI/400x0/filters:quality(85)/o/x/t/php08btxo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",En tension au Mexique avec HugoDécrypte
@@ -5481,16 +5483,14 @@ francetv://program/enfants_trois-cinq-ans_animanimals
 francetv://program/enfants_six-huit-ans_okoo-koo
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_capitaine-jim" tvg-logo="https://medias.france.tv/EQnZwZ4b3lN_g6Td2ntPF672qa0/400x0/filters:quality(85)/7/h/v/php0ybvh7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Capitaine Jim
 francetv://program/enfants_six-huit-ans_capitaine-jim
-#EXTINF:-1 tvg-id="francetv-9e3f23fa-e12c-4f03-bf35-3fec6800d6d0" tvg-logo="https://medias.france.tv/IeW-Udde_m2PWO2VMVtB4kSjpJ4/400x0/filters:quality(85)/k/o/e/phpc58eok.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Zarafa
-francetv://9e3f23fa-e12c-4f03-bf35-3fec6800d6d0
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_idefix-et-les-irreductibles" tvg-logo="https://medias.france.tv/OVp3tcUQpevdB5ZBKg2cxIEGzxU/400x0/filters:quality(85)/d/e/f/phpxmwfed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Idéfix et les irréductibles
+francetv://program/enfants_six-huit-ans_idefix-et-les-irreductibles
 #EXTINF:-1 tvg-id="francetv-prog-france-3_lolirock" tvg-logo="https://medias.france.tv/1_VeAXpqZj1ShXqjjrEOPWtvqPY/400x0/filters:quality(85)/o/w/l/phpjzalwo.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Lolirock
 francetv://program/france-3_lolirock
 #EXTINF:-1 tvg-id="francetv-prog-france-4_mission-info" tvg-logo="https://medias.france.tv/g50CYL4raEOl1sVlBGV8eGOkb9I/400x0/filters:quality(85)/5/m/y/phpcasym5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Mission info
 francetv://program/france-4_mission-info
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_au-galop" tvg-logo="https://medias.france.tv/4JhjSfkj1HS1TL4THnaO7iIyCHc/400x0/filters:quality(85)/e/9/g/phpfbzg9e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Au galop !
-francetv://program/enfants_six-huit-ans_au-galop
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_idefix-et-les-irreductibles" tvg-logo="https://medias.france.tv/OVp3tcUQpevdB5ZBKg2cxIEGzxU/400x0/filters:quality(85)/d/e/f/phpxmwfed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Idéfix et les irréductibles
-francetv://program/enfants_six-huit-ans_idefix-et-les-irreductibles
+#EXTINF:-1 tvg-id="francetv-9e3f23fa-e12c-4f03-bf35-3fec6800d6d0" tvg-logo="https://medias.france.tv/IeW-Udde_m2PWO2VMVtB4kSjpJ4/400x0/filters:quality(85)/k/o/e/phpc58eok.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Zarafa
+francetv://9e3f23fa-e12c-4f03-bf35-3fec6800d6d0
 #EXTINF:-1 tvg-id="francetv-prog-france-4_t-es-au-top" tvg-logo="https://medias.france.tv/gucOvffxJG01p5xHSfyF54Ists4/400x0/filters:quality(85)/y/o/u/php0aauoy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",T'es au TOP
 francetv://program/france-4_t-es-au-top
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_trotro-zaza" tvg-logo="https://medias.france.tv/D4q24kXD4Q_UjeBDKIN8hKpEHpc/400x0/filters:quality(85)/j/6/n/phprvsn6j.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - 3-5 ans",Trotro et Zaza
