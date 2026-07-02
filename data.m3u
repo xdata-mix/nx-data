@@ -4353,4 +4353,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungb
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
-http://99.27.51.147:8080/M6/index.m3u8
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-short-hd.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="BabyFirst.us@US" group-title="France TV backup",BabyFirst (720p) [iptv-org-fra]
+http://206.212.244.63/639/index.m3u8
