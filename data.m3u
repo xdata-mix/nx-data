@@ -1120,7 +1120,7 @@ https://lives.digiteka.com/stream/c58028c2-a58b-4526-9ec8-389cad4a71e8/index.m3u
 
 # === Ajouts FR multi-sources : Musique ===
 #EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="Musique",BBLACK! AFRICA
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="Musique",BBLACK! CARIBBEAN
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackClassik.fr" group-title="Musique",BBLACK! CLASSIK
@@ -4405,4 +4405,4 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-s
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
-http://99.27.51.147:8080/M6/index.m3u8
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-short-hd.m3u8
