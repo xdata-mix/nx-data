@@ -383,6 +383,8 @@ arte://066311-005-A
 arte://132692-041-A
 #EXTINF:-1 tvg-id="arte-RC-023562" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SAoASjit79V8tL463iiGN8/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Canis Familiaris — Comédie canine un poil farfelue
 arte://RC-023562
+#EXTINF:-1 tvg-id="arte-RC-021773" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qs3fAHbt8ErJM4PH63huag/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Merveilles de la nature — Des écosystèmes uniques au monde à préserver
+arte://RC-021773
 #EXTINF:-1 tvg-id="arte-RC-022798" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Upauhxn7BU3ZhBjTKf7ZFX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",_Underscore — Immersion dans les tréfonds de l'Internet créatif
 arte://RC-022798
 #EXTINF:-1 tvg-id="arte-RC-025220" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5w4t7eoCv7FEPpqgNssAvC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Bestialement photogénique — Série documentaire
@@ -391,18 +393,16 @@ arte://RC-025220
 arte://RC-027366
 #EXTINF:-1 tvg-id="arte-RC-025898" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CUEXV33dgUKREvPCHj95E3/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Silicon Fucking Valley — Visite guidée de la vallée de la tech
 arte://RC-025898
-#EXTINF:-1 tvg-id="arte-RC-021773" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qs3fAHbt8ErJM4PH63huag/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Merveilles de la nature — Des écosystèmes uniques au monde à préserver
-arte://RC-021773
 #EXTINF:-1 tvg-id="arte-RC-020449" tvg-logo="https://api-cdn.arte.tv/img/v2/image/yY8QvwwkzhJcX97RkqEYeU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Psycho — La série qui ausculte nos maux du quotidien
 arte://RC-020449
 #EXTINF:-1 tvg-id="arte-125506-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/K34mRsBjN8cmBu28teWvHW/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Cuba : une île dans la tourmente — Raul Castro inculpé par les États-Unis : Cuba au bord de l'effondrement
 arte://125506-000-A
+#EXTINF:-1 tvg-id="arte-130388-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fmQTQEsEXJeTJGoswpJEeF/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Liban — Les enfants, la guerre et moi
+arte://130388-000-A
 #EXTINF:-1 tvg-id="arte-125533-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TSM4JDUG9eBDWH2SxoBpbF/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Drones — La guerre a changé
 arte://125533-014-A
 #EXTINF:-1 tvg-id="arte-121620-142-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/LQ46UeEkyrAKN4hvDMGxmj/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",L'Otan en crise — Les regards se tournent vers la Turquie
 arte://121620-142-A
-#EXTINF:-1 tvg-id="arte-130388-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fmQTQEsEXJeTJGoswpJEeF/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Liban — Les enfants, la guerre et moi
-arte://130388-000-A
 #EXTINF:-1 tvg-id="arte-121620-136-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fWY66L8ZtDqUNiQykX3Z4B/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",L'Europe face au scénario d'une France RN — Comment l'UE se prépare-t-elle à l'éventuelle arrivée au pouvoir du RN en France en 2027 ?
 arte://121620-136-A
 #EXTINF:-1 tvg-id="arte-127323-012-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/9tMSotWrAXMRTmXYpQH39k/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",L'IA au service de la guerre — Jusqu'où peut-on aller ?
@@ -435,10 +435,10 @@ arte://110246-015-A
 arte://130579-000-A
 #EXTINF:-1 tvg-id="arte-132015-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/9p4DNMC2UJ9faA6hiFXSqR/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Ukraine — Des civils aux portes de l’enfer
 arte://132015-000-A
-#EXTINF:-1 tvg-id="arte-120712-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/7Thn8gP6bzqV9kPxDCwPjN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Inde — Vivre sous 50 degrés
-arte://120712-000-A
 #EXTINF:-1 tvg-id="arte-130395-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tYixZRhRnDmYnMLrpERgim/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Fixers : sur la ligne de front — Immersion au Liban avec Charles Villa et Charbel Chérif
 arte://130395-000-A
+#EXTINF:-1 tvg-id="arte-120712-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/7Thn8gP6bzqV9kPxDCwPjN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Inde — Vivre sous 50 degrés
+arte://120712-000-A
 #EXTINF:-1 tvg-id="arte-127400-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/2wMUjEHiWMb9jG94D7iTPQ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",En Europe, les armées recrutent des jeunes — Service volontaire ou militaire ?
 arte://127400-001-A
 #EXTINF:-1 tvg-id="arte-126037-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/N5LxHjyUas7fWZwYQWqRAV/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Birmanie clandestine : chronique d'un pays en ruines — ARTE Reportage
@@ -499,10 +499,6 @@ arte://116857-000-A
 arte://RC-027741
 #EXTINF:-1 tvg-id="arte-127454-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EhRro5y9VjFjpnHLeNtDH9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Les messages secrets qui ont changé le monde — Est-il vrai que...?
 arte://127454-004-A
-#EXTINF:-1 tvg-id="arte-127454-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/NQRQxzipUrkcafN3uCqNYZ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Les ultra-riches rendent-ils le monde meilleur ? — Est-il vrai que...
-arte://127454-003-A
-#EXTINF:-1 tvg-id="arte-115014-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/xD64jZEiBAjqW5icwExWFa/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Arved Fuchs, l’explorateur des glaces — Premier homme à atteindre à pied les deux pôles
-arte://115014-000-A
 #EXTINF:-1 tvg-id="arte-110284-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/q9bRwYrqFTJUqkcjY62b4C/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Les Pirates de lʼedelweiss — Une jeunesse contre Hitler
 arte://110284-000-A
 #EXTINF:-1 tvg-id="arte-108981-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EnT43mCmW9WoTn4udRwZ8j/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Lʹannée des dimanches sans voiture — En Allemagne, la création des dimanches sans voiture
@@ -613,10 +609,10 @@ arte://104840-013-A
 arte://108338-006-A
 #EXTINF:-1 tvg-id="arte-095070-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/HbVD5eUxKKN4oSJmn4ZiHA/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Pesticides : l’hypocrisie européenne — Comment l'Europe exporte ses pesticides interdits au Brésil
 arte://095070-000-A
-#EXTINF:-1 tvg-id="arte-109816-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/83DJANyzo7nfeNwz38nub9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Le hasard existe-t-il ? — La loi des grands nombres : la destinée à l'épreuve des probabilités
-arte://109816-002-A
 #EXTINF:-1 tvg-id="arte-113576-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/E5FxRVrb6F3WTrvSRta4VL/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",La main d'Arja — L'histoire d'une greffe
 arte://113576-000-A
+#EXTINF:-1 tvg-id="arte-109816-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/83DJANyzo7nfeNwz38nub9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Le hasard existe-t-il ? — La loi des grands nombres : la destinée à l'épreuve des probabilités
+arte://109816-002-A
 #EXTINF:-1 tvg-id="arte-127323-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Zd4n4gxTMKXqev5B3DMsg6/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Le TDAH, handicap ou atout ? — Les questions qui fâchent
 arte://127323-002-A
 #EXTINF:-1 tvg-id="arte-098068-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/vS9xsvmPJY9mctpSCeL7Ya/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Le mystère des tourbières — Des pièges à carbone menacés par la fonte du permafrost
@@ -1011,12 +1007,12 @@ arte://RC-014424
 arte://RC-023176
 #EXTINF:-1 tvg-id="arte-RC-017300" tvg-logo="https://api-cdn.arte.tv/img/v2/image/RxrLufHCbCGds8y7ooeJe5/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Culture et pop",Gymnastique — La culture qui donne la forme
 arte://RC-017300
-#EXTINF:-1 tvg-id="arte-109816-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/83DJANyzo7nfeNwz38nub9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",Le hasard existe-t-il ? — La loi des grands nombres : la destinée à l'épreuve des probabilités
-arte://109816-002-A
 #EXTINF:-1 tvg-id="arte-113576-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/E5FxRVrb6F3WTrvSRta4VL/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",La main d'Arja — L'histoire d'une greffe
 arte://113576-000-A
 #EXTINF:-1 tvg-id="arte-RC-027366" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TGuNWa7jhcnNiwGPgdGpsh/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",Origines, un conte de la lumière — Une série immersive sur la genèse de l'univers
 arte://RC-027366
+#EXTINF:-1 tvg-id="arte-109816-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/83DJANyzo7nfeNwz38nub9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",Le hasard existe-t-il ? — La loi des grands nombres : la destinée à l'épreuve des probabilités
+arte://109816-002-A
 #EXTINF:-1 tvg-id="arte-127323-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Zd4n4gxTMKXqev5B3DMsg6/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",Le TDAH, handicap ou atout ? — Les questions qui fâchent
 arte://127323-002-A
 #EXTINF:-1 tvg-id="arte-098068-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/vS9xsvmPJY9mctpSCeL7Ya/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Sciences",Le mystère des tourbières — Des pièges à carbone menacés par la fonte du permafrost
@@ -1353,10 +1349,6 @@ arte://116857-000-A
 arte://RC-027741
 #EXTINF:-1 tvg-id="arte-127454-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EhRro5y9VjFjpnHLeNtDH9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Les messages secrets qui ont changé le monde — Est-il vrai que...?
 arte://127454-004-A
-#EXTINF:-1 tvg-id="arte-127454-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/NQRQxzipUrkcafN3uCqNYZ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Les ultra-riches rendent-ils le monde meilleur ? — Est-il vrai que...
-arte://127454-003-A
-#EXTINF:-1 tvg-id="arte-115014-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/xD64jZEiBAjqW5icwExWFa/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Arved Fuchs, l’explorateur des glaces — Premier homme à atteindre à pied les deux pôles
-arte://115014-000-A
 #EXTINF:-1 tvg-id="arte-110284-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/q9bRwYrqFTJUqkcjY62b4C/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Les Pirates de lʼedelweiss — Une jeunesse contre Hitler
 arte://110284-000-A
 #EXTINF:-1 tvg-id="arte-108981-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EnT43mCmW9WoTn4udRwZ8j/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Lʹannée des dimanches sans voiture — En Allemagne, la création des dimanches sans voiture
@@ -1371,6 +1363,8 @@ arte://103434-001-A
 arte://123428-014-A
 #EXTINF:-1 tvg-id="arte-128119-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/MDFrpcqHxEaxAEQTLauzkE/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Mobutu - Maître du jeu (2/4) — Authenticité
 arte://128119-002-A
+#EXTINF:-1 tvg-id="arte-115014-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fxTSREnr3Y5D6z9833yXQN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Arved Fuchs, l’explorateur des glaces
+arte://115014-000-A
 #EXTINF:-1 tvg-id="arte-107397-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/VuvA9h8gyWskNrcHvqXK4o/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Duels d'Histoire — Marie-Antoinette vs Maximilien Robespierre
 arte://107397-010-A
 #EXTINF:-1 tvg-id="arte-122709-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/rnVhjNDTTjKoA8UgzX46ja/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Money (1/12) — L'invention de la monnaie
@@ -1395,6 +1389,8 @@ arte://107397-008-A
 arte://107397-009-A
 #EXTINF:-1 tvg-id="arte-122709-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/QTpCjbNnXxtohZTikHpigc/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Money (4/12) — Le roi dollar
 arte://122709-004-A
+#EXTINF:-1 tvg-id="arte-127454-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/dkjAvg7JB6ZvLHj3mGYC8o/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Est-il vrai que les ultra-riches rendent le monde meilleur ?
+arte://127454-003-A
 #EXTINF:-1 tvg-id="arte-122709-006-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/oML7bZTom3GHXPNTaBtGxK/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Money (6/12) — Inflation, la grande peur
 arte://122709-006-A
 #EXTINF:-1 tvg-id="arte-122709-005-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/4jYKk5HsA6XMfksBYG9GCg/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Money (5/12) — Monnaie magique
