@@ -793,6 +793,8 @@ francetv://c84e9c52-6565-11f1-8728-19616fa871f9
 francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 #EXTINF:-1 tvg-id="francetv-07240417-4994-4398-af6b-660126b1fa66" tvg-logo="https://medias.france.tv/_M0f9a8Nw_BR9-4DvaERZL6nVTQ/400x0/filters:quality(85)/c/r/a/phpfl6arc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Hantavirus, la semaine de tous les dangers
 francetv://07240417-4994-4398-af6b-660126b1fa66
+#EXTINF:-1 tvg-id="francetv-46cdc490-76dc-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/_4xPVfbDNPD-AsvMRLllB_Mi1ms/400x0/filters:quality(85)/b/4/5/ce03184861f2489dad657d76fc31a54b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 03/07/2026 - Le 11h/13h
+francetv://46cdc490-76dc-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-2cf981a3-8f70-476b-a63f-be3b6e2e3ac0" tvg-logo="https://medias.france.tv/MejlR7LHLPUt5-0CA2z-z0cgnfU/400x0/filters:quality(85)/c/c/2/5d1e306c994e4b66b43b9b2ec677b2cc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'info s'éclaire — Émission du vendredi 3 juillet 2026
 francetv://2cf981a3-8f70-476b-a63f-be3b6e2e3ac0
 #EXTINF:-1 tvg-id="francetv-e738dd35-c58e-422f-bb5b-8ee287bbfc81" tvg-logo="https://medias.france.tv/ZIh9VvSr4_GQP1cPyQ7PL9Zf1V0/400x0/filters:quality(85)/9/c/9/389c257638f44671b467aecab17c39c9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du vendredi 3 juillet 2026
@@ -831,8 +833,6 @@ francetv://178ed22d-ce9b-40d3-adad-d2e0f29694dc
 francetv://812a2ef5-8efc-4506-99b6-c48e30cb92b6
 #EXTINF:-1 tvg-id="francetv-62abe2a6-7564-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ja1ddwNr7Z-idqWQP16yXshHllk/400x0/filters:quality(85)/c/8/5/be8db86a76524b66b93273d01330a58c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 01/07/2026 - C'est toute la question
 francetv://62abe2a6-7564-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-2dea73a3-52b0-48fe-a686-e385e3382c14" tvg-logo="https://medias.france.tv/b-7_TlFYh9X9fc4a92BbaJhXDCc/400x0/filters:quality(85)/6/d/1/6bf465edc27c4f73a6684a4a98bad1d6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",C'est toute la question — Émission du mercredi 1 juillet 2026
-francetv://2dea73a3-52b0-48fe-a686-e385e3382c14
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -2467,16 +2467,18 @@ francetv://f5ab1898-4fac-4c3d-bda5-349369729e3e
 francetv://f239daaf-3e63-4074-9f4f-8d3bc43907ec
 #EXTINF:-1 tvg-id="francetv-79462d60-faef-4d2e-a727-06c471e5195d" tvg-logo="https://medias.france.tv/LSwnUqgcKmI86P6eE5XTWGnp9HA/400x0/filters:quality(85)/1/8/7/f4cce47a589d4766a81fd82a68454781.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Entre les murs
 francetv://79462d60-faef-4d2e-a727-06c471e5195d
-#EXTINF:-1 tvg-id="francetv-f239daaf-3e63-4074-9f4f-8d3bc43907ec" tvg-logo="https://medias.france.tv/wQF1Og4GJRlLosGB74BiIShbyoI/400x0/filters:quality(85)/f/1/0/694456fd1a964a978cce92106c9e001f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Mon idole
-francetv://f239daaf-3e63-4074-9f4f-8d3bc43907ec
+#EXTINF:-1 tvg-id="francetv-3e853ca4-8164-4af8-b993-a4a6bcd6b74c" tvg-logo="https://medias.france.tv/vM_YE9GAXC6fU_HRbwmNDAIU1Qc/400x0/filters:quality(85)/5/d/0/98549160ac0947d0a24d21d98079d0d5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",À perdre la raison
+francetv://3e853ca4-8164-4af8-b993-a4a6bcd6b74c
+#EXTINF:-1 tvg-id="francetv-d5b7da98-61f6-4ef5-90a4-00a1aa68a5f7" tvg-logo="https://medias.france.tv/pzLceCcg9LT2Ll4zUiR23O1KBqY/400x0/filters:quality(85)/7/e/1/31eda37fe6334a449e51c33d81f7f1e7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Sidonie au Japon
+francetv://d5b7da98-61f6-4ef5-90a4-00a1aa68a5f7
 #EXTINF:-1 tvg-id="francetv-233ecbcc-ca68-4e1e-b186-f70dddacb86e" tvg-logo="https://medias.france.tv/IuEXE093PJP8j_PGcsEK20sgZkg/400x0/filters:quality(85)/4/n/5/php2cy5n4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Douleur et gloire
 francetv://233ecbcc-ca68-4e1e-b186-f70dddacb86e
 #EXTINF:-1 tvg-id="francetv-b12cff89-45a3-4297-af64-4454594a104f" tvg-logo="https://medias.france.tv/OecKwCNWi15C1NDhPzxlmobE3Is/400x0/filters:quality(85)/j/f/e/phpte2efj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Énorme
 francetv://b12cff89-45a3-4297-af64-4454594a104f
 #EXTINF:-1 tvg-id="francetv-88359f21-bdb5-47e2-a305-dd3808baf6a8" tvg-logo="https://medias.france.tv/_gf9XZrmsHy1tH_TaPFPuaj5fbQ/400x0/filters:quality(85)/r/f/7/phptjy7fr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Sky
 francetv://88359f21-bdb5-47e2-a305-dd3808baf6a8
-#EXTINF:-1 tvg-id="francetv-d5b7da98-61f6-4ef5-90a4-00a1aa68a5f7" tvg-logo="https://medias.france.tv/pzLceCcg9LT2Ll4zUiR23O1KBqY/400x0/filters:quality(85)/7/e/1/31eda37fe6334a449e51c33d81f7f1e7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Sidonie au Japon
-francetv://d5b7da98-61f6-4ef5-90a4-00a1aa68a5f7
+#EXTINF:-1 tvg-id="francetv-f239daaf-3e63-4074-9f4f-8d3bc43907ec" tvg-logo="https://medias.france.tv/wQF1Og4GJRlLosGB74BiIShbyoI/400x0/filters:quality(85)/f/1/0/694456fd1a964a978cce92106c9e001f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Mon idole
+francetv://f239daaf-3e63-4074-9f4f-8d3bc43907ec
 #EXTINF:-1 tvg-id="francetv-47eb9c89-0438-4e75-bc57-11d31b70f7d6" tvg-logo="https://medias.france.tv/SiAgSE8wTusSKlAY-RgqfqKGa-Y/400x0/filters:quality(85)/l/a/z/phpnahzal.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Victoria
 francetv://47eb9c89-0438-4e75-bc57-11d31b70f7d6
 #EXTINF:-1 tvg-id="francetv-ee0b65b9-65ee-45a1-99f8-3595d310d9f2" tvg-logo="https://medias.france.tv/XuF2zhpfHySX9raNuxNzCB9PhwU/400x0/filters:quality(85)/l/4/j/phpr1sj4l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",En attendant Bojangles
@@ -2489,6 +2491,8 @@ francetv://a76365ce-0d95-41cb-93d9-f63f564f0389
 francetv://f5ab1898-4fac-4c3d-bda5-349369729e3e
 #EXTINF:-1 tvg-id="francetv-58731b46-d25e-4fa0-8eb9-bb118ab20acf" tvg-logo="https://medias.france.tv/EWtBPEaShHggkzhk_YP4pnpZPyw/400x0/filters:quality(85)/a/0/4/vodvignette16x9cad659851bdb20881ce0aaabe1d54109130d404fe02a3ae6a327e858b2c0640a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Gazon maudit
 francetv://58731b46-d25e-4fa0-8eb9-bb118ab20acf
+#EXTINF:-1 tvg-id="francetv-7071dd5b-e0a7-45cd-9be0-647cc3e2546f" tvg-logo="https://medias.france.tv/A2gLfLQpB1JFNFR_97bGHuLlZZE/400x0/filters:quality(85)/f/e/2/aa208d9aad954229a35418dfe448a2ef.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Rire et châtiment
+francetv://7071dd5b-e0a7-45cd-9be0-647cc3e2546f
 #EXTINF:-1 tvg-id="francetv-7d8a6037-3384-4023-84d3-4a0028092c0c" tvg-logo="https://medias.france.tv/hxcux9n_mGJUBx8EBU1PE-X8vBE/400x0/filters:quality(85)/4/a/6/112218a38b2c426b88bd23d424a466a4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Le plein de super
 francetv://7d8a6037-3384-4023-84d3-4a0028092c0c
 #EXTINF:-1 tvg-id="francetv-d585d779-ca25-4dfc-9231-535c1a310979" tvg-logo="https://medias.france.tv/3Hw0QGAl6WGHaQDUwpSi1dXxk3w/400x0/filters:quality(85)/i/s/w/phpsgewsi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Mères et filles
@@ -2499,12 +2503,8 @@ francetv://34b6b401-b7a7-4f26-96a9-3f0c3f1e88d0
 francetv://455c927c-1560-4ffb-8c86-73c9803e5e89
 #EXTINF:-1 tvg-id="francetv-d9705f29-c46f-45d8-9471-d21cb5a6483f" tvg-logo="https://medias.france.tv/XDjkqXgsxePQzOTroCHKbojLtTo/400x0/filters:quality(85)/c/4/9/cc59d8226ccd469bb876b83b5368094c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Tout va bien ! The Kids are all right
 francetv://d9705f29-c46f-45d8-9471-d21cb5a6483f
-#EXTINF:-1 tvg-id="francetv-7071dd5b-e0a7-45cd-9be0-647cc3e2546f" tvg-logo="https://medias.france.tv/A2gLfLQpB1JFNFR_97bGHuLlZZE/400x0/filters:quality(85)/f/e/2/aa208d9aad954229a35418dfe448a2ef.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Rire et châtiment
-francetv://7071dd5b-e0a7-45cd-9be0-647cc3e2546f
 #EXTINF:-1 tvg-id="francetv-203795d6-3115-47cf-968c-3be9b31f3821" tvg-logo="https://medias.france.tv/s0CUCWBCQ34x1fkQV2F2z3dm9r4/400x0/filters:quality(85)/b/a/4/7e99bdd6a67c453d96f0bc776fcf94ab.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",The Yards
 francetv://203795d6-3115-47cf-968c-3be9b31f3821
-#EXTINF:-1 tvg-id="francetv-3e853ca4-8164-4af8-b993-a4a6bcd6b74c" tvg-logo="https://medias.france.tv/vM_YE9GAXC6fU_HRbwmNDAIU1Qc/400x0/filters:quality(85)/5/d/0/98549160ac0947d0a24d21d98079d0d5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",À perdre la raison
-francetv://3e853ca4-8164-4af8-b993-a4a6bcd6b74c
 #EXTINF:-1 tvg-id="francetv-cc8187a9-7bf6-45a0-9c1e-445a9fbee7ae" tvg-logo="https://medias.france.tv/XBnOeVMzhtg2D79tD7FCMo9y7cs/400x0/filters:quality(85)/0/b/5/vodvignette16x94f3be6b067ab8766845e88823ea6a3abaf1a23331913f586de3afc91266ef5b0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Toi et moi
 francetv://cc8187a9-7bf6-45a0-9c1e-445a9fbee7ae
 #EXTINF:-1 tvg-id="francetv-2ca29dfb-0bd5-4aeb-9cfb-c34cbea943ef" tvg-logo="https://medias.france.tv/gr67MjdqaQXQs674CzPw4LCjKwg/400x0/filters:quality(85)/c/7/c/d110f9b34cfd411fb82282ed050c6c7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Des hommes et des dieux
@@ -2535,16 +2535,16 @@ francetv://2ca29dfb-0bd5-4aeb-9cfb-c34cbea943ef
 francetv://ef942af0-e7d3-479e-b7b9-1f7c16457b0e
 #EXTINF:-1 tvg-id="francetv-455c927c-1560-4ffb-8c86-73c9803e5e89" tvg-logo="https://medias.france.tv/QGcZWwQt26Y2oIZJ4kC6JjGKmoc/400x0/filters:quality(85)/e/4/6/705358a7d5574de99b98c1eff331a64e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Cinéma primé",La Haine
 francetv://455c927c-1560-4ffb-8c86-73c9803e5e89
-#EXTINF:-1 tvg-id="francetv-e0807e61-514d-4edf-9b90-e7c174de3b85" tvg-logo="https://medias.france.tv/HPkHtpYQ-KQigaMXlXYBu-ZfGWA/400x0/filters:quality(85)/0/c/e/c015fc2ee7344e1d9b98740277bbfec0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",The Host
-francetv://e0807e61-514d-4edf-9b90-e7c174de3b85
+#EXTINF:-1 tvg-id="francetv-282f08d5-93a0-445b-8678-5d1083907df6" tvg-logo="https://medias.france.tv/5NsfXg2Xd77CiRvvGUTOfFP-Ps0/400x0/filters:quality(85)/2/w/9/phpimj9w2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",La Famille Asada
+francetv://282f08d5-93a0-445b-8678-5d1083907df6
 #EXTINF:-1 tvg-id="francetv-f9ab8dd6-e59a-49bf-92a7-7b2689989898" tvg-logo="https://medias.france.tv/aYllfqZjWGCeIl9nDQhfzHsz_uA/400x0/filters:quality(85)/7/a/6/fec73ac0000d45be99b0c636009176a7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",Memories of Murder
 francetv://f9ab8dd6-e59a-49bf-92a7-7b2689989898
+#EXTINF:-1 tvg-id="francetv-e0807e61-514d-4edf-9b90-e7c174de3b85" tvg-logo="https://medias.france.tv/HPkHtpYQ-KQigaMXlXYBu-ZfGWA/400x0/filters:quality(85)/0/c/e/c015fc2ee7344e1d9b98740277bbfec0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",The Host
+francetv://e0807e61-514d-4edf-9b90-e7c174de3b85
 #EXTINF:-1 tvg-id="francetv-169beb98-706e-439c-ba44-d284ad3ad3d9" tvg-logo="https://medias.france.tv/8RO6OqRrCn9a1CoLJ2PQnTMcZVg/400x0/filters:quality(85)/c/9/0/176e3606595c4cd9a0dd669cc0cbf09c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",Blow up - Bong Joon-ho par Johanna Vaude
 francetv://169beb98-706e-439c-ba44-d284ad3ad3d9
 #EXTINF:-1 tvg-id="francetv-f833909a-e554-4dfe-95a9-8baf4e396dc5" tvg-logo="https://medias.france.tv/80RvaHs_GsPf0F6BlMk8B88GTnE/400x0/filters:quality(85)/a/f/c/6664b37b4f6a49feb1280f7ac1960cfa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",Icônes — 2016 : Park Chan-Wook, figure du cinéma coréen
 francetv://f833909a-e554-4dfe-95a9-8baf4e396dc5
-#EXTINF:-1 tvg-id="francetv-282f08d5-93a0-445b-8678-5d1083907df6" tvg-logo="https://medias.france.tv/5NsfXg2Xd77CiRvvGUTOfFP-Ps0/400x0/filters:quality(85)/2/w/9/phpimj9w2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",La Famille Asada
-francetv://282f08d5-93a0-445b-8678-5d1083907df6
 #EXTINF:-1 tvg-id="francetv-96dca55e-dc56-4bd4-b8f2-59588a17d074" tvg-logo="https://medias.france.tv/2z1B3jLdXFHdmtbLw_SN4ORJv_8/400x0/filters:quality(85)/8/f/b/d33038e998794e859c46ba74bf8c9bf8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",La lune s'est levée
 francetv://96dca55e-dc56-4bd4-b8f2-59588a17d074
 #EXTINF:-1 tvg-id="francetv-6e7f439f-da6a-456e-9ce9-9df19c84db92" tvg-logo="https://medias.france.tv/TGJObGr6FIsMUNZQX8pLFdpuP2c/400x0/filters:quality(85)/7/e/9/b62fb14d03ba466c815b80c6dd3889e7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",Lettre d'amour
@@ -2559,40 +2559,6 @@ francetv://e4435d7a-b78f-4f32-be7e-1e18fb3c66e3
 francetv://638741e1-a545-4acf-b61e-3d04d2863377
 #EXTINF:-1 tvg-id="francetv-prog-slash_anime-une-epopee-japonaise" tvg-logo="https://medias.france.tv/Xgrz_GvTUmKeETPYpW5oteuwQFA/400x0/filters:quality(85)/u/j/w/php0crwju.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Le cinéma asiatique",Anime, une épopée japonaise
 francetv://program/slash_anime-une-epopee-japonaise
-#EXTINF:-1 tvg-id="francetv-7e1e646c-fca6-47ba-9dc2-e18af1707128" tvg-logo="https://medias.france.tv/nQSvX4CckHCMHWvO8qqxvhNJGDY/400x0/filters:quality(85)/4/2/0/865ed876d965455a8a49ae7023f36024.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Gomorra
-francetv://7e1e646c-fca6-47ba-9dc2-e18af1707128
-#EXTINF:-1 tvg-id="francetv-bc1a1077-cedf-40bf-bc03-e0521a6c42b4" tvg-logo="https://medias.france.tv/hD2GnHxJcial7Il7raZ-T_UkSIg/400x0/filters:quality(85)/q/b/p/phphbjpbq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",La zone d'intérêt
-francetv://bc1a1077-cedf-40bf-bc03-e0521a6c42b4
-#EXTINF:-1 tvg-id="francetv-34b6b401-b7a7-4f26-96a9-3f0c3f1e88d0" tvg-logo="https://medias.france.tv/u1W9LFmTukTMyecbapOEYxsaVAE/400x0/filters:quality(85)/4/f/e/da65d8a55a44401e820ab4680afe6ef4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Le tout nouveau testament
-francetv://34b6b401-b7a7-4f26-96a9-3f0c3f1e88d0
-#EXTINF:-1 tvg-id="francetv-da90b90c-a2bc-4d33-ad42-7261e5337101" tvg-logo="https://medias.france.tv/J1Q5JXJSBCJ7WeiR6dT74xcQykc/400x0/filters:quality(85)/h/b/i/phpfuyibh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Le retour
-francetv://da90b90c-a2bc-4d33-ad42-7261e5337101
-#EXTINF:-1 tvg-id="francetv-8b5d4e90-29d8-4002-8357-fc9e63cc2de5" tvg-logo="https://medias.france.tv/gHsS2NUsLoq5esPGLnHUCVGhG2U/400x0/filters:quality(85)/7/5/3/6339357046d44c60839e51e15aa0c357.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",La Leçon de piano
-francetv://8b5d4e90-29d8-4002-8357-fc9e63cc2de5
-#EXTINF:-1 tvg-id="francetv-233ecbcc-ca68-4e1e-b186-f70dddacb86e" tvg-logo="https://medias.france.tv/IuEXE093PJP8j_PGcsEK20sgZkg/400x0/filters:quality(85)/4/n/5/php2cy5n4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Douleur et gloire
-francetv://233ecbcc-ca68-4e1e-b186-f70dddacb86e
-#EXTINF:-1 tvg-id="francetv-8cb13d33-f76f-4534-9d76-62e4dae05bb8" tvg-logo="https://medias.france.tv/O-4jvvkvjRjH_RP8x2Vhms0vKZc/400x0/filters:quality(85)/2/9/7/e78eb5f8d65346d9bdad09ab23b0a792.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Rodeo
-francetv://8cb13d33-f76f-4534-9d76-62e4dae05bb8
-#EXTINF:-1 tvg-id="francetv-3f49d98a-9bf3-4515-8b2c-f9bcb5a4327f" tvg-logo="https://medias.france.tv/XeEzORAlIz0AqwWKvc4fhHecZQI/400x0/filters:quality(85)/5/6/o/php5nwo65.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Rosetta
-francetv://3f49d98a-9bf3-4515-8b2c-f9bcb5a4327f
-#EXTINF:-1 tvg-id="francetv-82277431-1a9d-4271-adef-72dd9782851d" tvg-logo="https://medias.france.tv/CqBLcP2b95_imo3FaTyi1GpFTdo/400x0/filters:quality(85)/7/9/d/5d5e78e7840b4f4783ed43628e02dd97.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Aftersun
-francetv://82277431-1a9d-4271-adef-72dd9782851d
-#EXTINF:-1 tvg-id="francetv-3685596d-52a3-49af-bae8-1d8b8e92339b" tvg-logo="https://medias.france.tv/nWzrg39hmleGU-SA9bEvnBs4q-E/400x0/filters:quality(85)/k/u/i/php1sriuk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Precious
-francetv://3685596d-52a3-49af-bae8-1d8b8e92339b
-#EXTINF:-1 tvg-id="francetv-997bd48c-3582-4519-ba91-7997a93cb7a3" tvg-logo="https://medias.france.tv/pFFhPOa9zp_TkuDZcWvIWKaWda4/400x0/filters:quality(85)/4/7/8/093ed7f285134b928c397fcc65116874.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",La mauvaise éducation
-francetv://997bd48c-3582-4519-ba91-7997a93cb7a3
-#EXTINF:-1 tvg-id="francetv-5e06705f-13c5-43b9-9923-b49cd44fc7fa" tvg-logo="https://medias.france.tv/g6hemBQJdg7kGVHBsJvVcGxARrA/400x0/filters:quality(85)/b/e/6/b90ed1fa3daf44b39fd5bbdc885646eb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Les géants
-francetv://5e06705f-13c5-43b9-9923-b49cd44fc7fa
-#EXTINF:-1 tvg-id="francetv-455c927c-1560-4ffb-8c86-73c9803e5e89" tvg-logo="https://medias.france.tv/QGcZWwQt26Y2oIZJ4kC6JjGKmoc/400x0/filters:quality(85)/e/4/6/705358a7d5574de99b98c1eff331a64e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",La Haine
-francetv://455c927c-1560-4ffb-8c86-73c9803e5e89
-#EXTINF:-1 tvg-id="francetv-2ca29dfb-0bd5-4aeb-9cfb-c34cbea943ef" tvg-logo="https://medias.france.tv/gr67MjdqaQXQs674CzPw4LCjKwg/400x0/filters:quality(85)/c/7/c/d110f9b34cfd411fb82282ed050c6c7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Des hommes et des dieux
-francetv://2ca29dfb-0bd5-4aeb-9cfb-c34cbea943ef
-#EXTINF:-1 tvg-id="francetv-56b17c15-316e-4477-9e57-0043380438d4" tvg-logo="https://medias.france.tv/aZoZgEwal5Tg489d93kUZvsrPw0/400x0/filters:quality(85)/d/d/g/phpdntgdd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Chouf
-francetv://56b17c15-316e-4477-9e57-0043380438d4
-#EXTINF:-1 tvg-id="francetv-e49e6da3-9dc8-4c2e-9fd8-1d6f14bda081" tvg-logo="https://medias.france.tv/f3lcrWkelEnKouuxJTT-gEHwy_g/400x0/filters:quality(85)/1/6/e/92186fb8a5534e87860cf09ce4499e61.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Le salaire de la peur
-francetv://e49e6da3-9dc8-4c2e-9fd8-1d6f14bda081
-#EXTINF:-1 tvg-id="francetv-c5f57173-e1a9-4ddb-a1fb-21048a60fbe0" tvg-logo="https://medias.france.tv/xhM6195ruO54nkQo-Bo0duXbq0Q/400x0/filters:quality(85)/0/3/8/69d98ce6d9774320bf500b56a1356830.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films qui ont illuminé Cannes",Papa est en voyage d'affaires
-francetv://c5f57173-e1a9-4ddb-a1fb-21048a60fbe0
 #EXTINF:-1 tvg-id="francetv-e95d568c-a17c-409a-bda9-5b347302925a" tvg-logo="https://medias.france.tv/8Q9lgeZ88Q5FFoOoTnwhzYroVmM/400x0/filters:quality(85)/e/0/9/c90bdf0958934d25b66c1ed3ee62c90e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les coulisses du cinéma",Jean-Louis Trintignant : Mystérieux et insaisissable
 francetv://e95d568c-a17c-409a-bda9-5b347302925a
 #EXTINF:-1 tvg-id="francetv-2517550b-ccb6-4405-9b5c-c61cb77b4e20" tvg-logo="https://medias.france.tv/OJC3tAuLc6D6_qT_YckGj2CH3rk/400x0/filters:quality(85)/3/1/5/71de34217e594b63aa51df864aac2513.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les coulisses du cinéma",Javier Bardem, l'acteur aux mille visages
@@ -2639,6 +2605,8 @@ francetv://830e3836-4804-11ee-b6d8-6333d9bb07b1
 francetv://23a5704c-dab5-4f17-9ad5-37d83be61b3b
 #EXTINF:-1 tvg-id="francetv-prog-arte_blow-up" tvg-logo="https://medias.france.tv/03Dz4IqzAtjfM00bJsyUOfRqiHQ/400x0/filters:quality(85)/4/1/2/9248db17ef514371b57810ec2b274214.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les coulisses du cinéma",Blow up
 francetv://program/arte_blow-up
+#EXTINF:-1 tvg-id="francetv-a62ca0c4-76d6-11f1-94ff-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/GeLYve2KH_x__-n8T57ePpi_rwI/400x0/filters:quality(85)/m/i/o/phpw4doim.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - L'actu cinéma",Rencontre(s)... — Aloïse Sauvage présente "Miss Mermaid"
+francetv://a62ca0c4-76d6-11f1-94ff-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-1d2dac00-746f-11f1-ae38-57a09c50f7ce" tvg-logo="https://medias.france.tv/cXqZrNUNmS0gFs7LeGVjnLm0Ojg/400x0/filters:quality(85)/n/l/i/phprhciln.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - L'actu cinéma",Rencontre(s)... — Phuong Mai Nguyen et AJ Dungo présentent "In waves"
 francetv://1d2dac00-746f-11f1-ae38-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-de36a47b-d171-44e6-a793-3ac1424ce742" tvg-logo="https://medias.france.tv/cSR7l2_pyk3CVxTFIJ9iinEaPc4/400x0/filters:quality(85)/u/c/u/phpoykucu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - L'actu cinéma",À l'Affiche ! — Cinéma : "In Waves", des vagues d'amour malgré la douleur
@@ -3417,12 +3385,14 @@ francetv://a2e20e8a-f4cd-4be0-841a-709a8967608b
 francetv://5d48cf25-96d2-48c6-a02b-99bab06f4aae
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaire-histoire_l-affaire-boulin" tvg-logo="https://medias.france.tv/YwKdG0Wk9bYO4K4fZPZf5U32jpk/400x0/filters:quality(85)/m/t/i/phprhsitm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Affaire Boulin : les bas-fonds de la République
 francetv://program/documentaires_documentaire-histoire_l-affaire-boulin
-#EXTINF:-1 tvg-id="francetv-e73fc819-2bd5-44c6-928f-f8a39e6bd462" tvg-logo="https://medias.france.tv/9OzTs40-DuQs-nJQAWXXFp5THn8/400x0/filters:quality(85)/b/4/2/2dc75a0097a0458fa831be0532ccf24b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Au bout de l'enquête, la fin du crime parfait ? — Best of : Ils avaient commis le crime parfait (Marchand + Pichon)
-francetv://e73fc819-2bd5-44c6-928f-f8a39e6bd462
+#EXTINF:-1 tvg-id="francetv-9242f028-f5ba-417f-bb2d-4df802bc0f1d" tvg-logo="https://medias.france.tv/x1YRfrLoTvaQpoBd6A3ay03O1B4/400x0/filters:quality(85)/0/a/a/3a18ae9e067048ba8409df75ca725aa0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Au bout de l'enquête, la fin du crime parfait ? — Affaire Audrey Jouannet : Un cri dans la nuit
+francetv://9242f028-f5ba-417f-bb2d-4df802bc0f1d
 #EXTINF:-1 tvg-id="francetv-49ae208d-0e00-4688-8fc6-138647943406" tvg-logo="https://medias.france.tv/pa2GipbkhtT0d86o6PQn41gKtcA/400x0/filters:quality(85)/w/u/z/phpukvzuw.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Dimanche en politique - Bretagne — Xavier Dupont de Ligonnès : un mystère sans fin
 francetv://49ae208d-0e00-4688-8fc6-138647943406
 #EXTINF:-1 tvg-id="francetv-prog-france-2_colonna-une-tragedie-corse" tvg-logo="https://medias.france.tv/PiBVKaVkVxUAyNvShFjPF8W0Paw/400x0/filters:quality(85)/l/1/w/phpwrxw1l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Colonna, une tragédie corse
 francetv://program/france-2_colonna-une-tragedie-corse
+#EXTINF:-1 tvg-id="francetv-e73fc819-2bd5-44c6-928f-f8a39e6bd462" tvg-logo="https://medias.france.tv/9OzTs40-DuQs-nJQAWXXFp5THn8/400x0/filters:quality(85)/b/4/2/2dc75a0097a0458fa831be0532ccf24b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Au bout de l'enquête, la fin du crime parfait ? — Best of : Ils avaient commis le crime parfait (Marchand + Pichon)
+francetv://e73fc819-2bd5-44c6-928f-f8a39e6bd462
 #EXTINF:-1 tvg-id="francetv-5e065253-8d0d-4b65-9824-949cd2ab9b77" tvg-logo="https://medias.france.tv/r8nJk9xxg27Lwq-wCpUR0A_bd94/400x0/filters:quality(85)/m/x/u/php5rmuxm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",La ligne bleue — La recluse de Saint-Flour : contre-enquête
 francetv://5e065253-8d0d-4b65-9824-949cd2ab9b77
 #EXTINF:-1 tvg-id="francetv-319bafef-27e2-45da-9156-3c66dbe92ea4" tvg-logo="https://medias.france.tv/6rYN5r9F6iE7ZXL8YWusmmkqAwQ/400x0/filters:quality(85)/1/b/4/1a2e19bdf5a443e79a537af009bde4b1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",L'INA éclaire l'actu — Georges Abdallah : retour sur la condamnation du plus ancien détenu de France
