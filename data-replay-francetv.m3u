@@ -791,6 +791,8 @@ francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 francetv://07240417-4994-4398-af6b-660126b1fa66
 #EXTINF:-1 tvg-id="francetv-eb3ceefc-76fa-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/MHVyie7bqXWUEElCcGwuNPU_XOU/400x0/filters:quality(85)/0/3/8/d5392f597eaa41a6afbaa58e5421c830.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 03/07/2026 - Le 16h/18h
 francetv://eb3ceefc-76fa-11f1-8479-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-f240c1ac-f642-40ce-b9c3-60c34f9efe70" tvg-logo="https://medias.france.tv/dKqQ9ImHkCKhdSdmfF9hP4dcSs8/400x0/filters:quality(85)/4/4/2/370500e7f3564386b3c693c94ad67244.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 16h/18h du vendredi 3 juillet 2026
+francetv://f240c1ac-f642-40ce-b9c3-60c34f9efe70
 #EXTINF:-1 tvg-id="francetv-2bbe91f4-76e9-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/OTouv_5lV1h8-OsuqPx2LA_vR0Y/400x0/filters:quality(85)/0/1/2/31033ac4f87c4ca98cb11be49d57d210.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - 03/07/2026 - Le 14h/16h
 francetv://2bbe91f4-76e9-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-f6736a32-0976-4727-b5e6-ba13c52f187b" tvg-logo="https://medias.france.tv/QD7O0G2Df5B48VFbMcOf7VCJ0Ko/400x0/filters:quality(85)/f/5/0/cbefb4c4f6614259918e5bb304dfc05f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 14h/16h du vendredi 3 juillet 2026
@@ -827,8 +829,6 @@ francetv://743c7681-9968-47c7-b48e-68550e5ade49
 francetv://846bc84f-0ccf-434f-a1c6-dc51e0f98490
 #EXTINF:-1 tvg-id="francetv-dace5dd0-03cf-4c6c-a289-36bbe4d93d01" tvg-logo="https://medias.france.tv/kaYm7p_kWa8q96ucngvXUl9Z__s/400x0/filters:quality(85)/5/e/1/f2aaf219fdcb4fdb93071777d4f0a1e5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du jeudi 2 juillet 2026
 francetv://dace5dd0-03cf-4c6c-a289-36bbe4d93d01
-#EXTINF:-1 tvg-id="francetv-f8ef20ce-85ff-4a84-bb41-822d2972d2dc" tvg-logo="https://medias.france.tv/lycwUHRPzMY-Lte_Al2-cytIszg/400x0/filters:quality(85)/c/b/8/5863008b1e924a0bbc8d3b7cf7cd18bc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
-francetv://f8ef20ce-85ff-4a84-bb41-822d2972d2dc
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -1205,14 +1205,28 @@ francetv://0819a39f-34ee-4a70-83b5-86134363a13d
 francetv://90bf3a52-84ea-44b9-8eb3-943862fff3dc
 #EXTINF:-1 tvg-id="francetv-prog-france-3_occitanie_route-d-occitanie" tvg-logo="https://medias.france.tv/XNKUSVX7-PCXh5spPaKx6eoS9Gc/400x0/filters:quality(85)/6/f/n/phph1gnf6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",La Route d'Occitanie CIC
 francetv://program/france-3_occitanie_route-d-occitanie
-#EXTINF:-1 tvg-id="francetv-536671d0-0213-4808-9242-e4b36e2aa392" tvg-logo="https://medias.france.tv/DbZdG4FxO4Jayek9oZyrE5WGmqw/400x0/filters:quality(85)/p/e/n/phpzxtnep.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Immigration : l’Espagne à contre-courant
-francetv://536671d0-0213-4808-9242-e4b36e2aa392
+#EXTINF:-1 tvg-id="francetv-73da0e0f-441f-4718-9653-ea4526ab82d4" tvg-logo="https://medias.france.tv/HEyMbMxZaZSIfziSK5OoitL3kSY/400x0/filters:quality(85)/d/o/6/phpv0d6od.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Italie, l'effet Giorgia Meloni
+francetv://73da0e0f-441f-4718-9653-ea4526ab82d4
 #EXTINF:-1 tvg-id="francetv-39d8e7dd-ccfd-4f48-968e-3fcef6b0a37c" tvg-logo="https://medias.france.tv/AlWKKxMM7DzOJxHA15_4Pi55qJY/400x0/filters:quality(85)/e/a/8/phpt6n8ae.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Le monde dans tous ses États — Macron-Meloni, le grand rapprochement ?
 francetv://39d8e7dd-ccfd-4f48-968e-3fcef6b0a37c
-#EXTINF:-1 tvg-id="francetv-57ab6b48-0297-454e-8fe8-244ab98862e8" tvg-logo="https://medias.france.tv/n-R6raTxJJLM6PNpfsuyVlgeDfc/400x0/filters:quality(85)/w/a/1/php1ml1aw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Côte d’Ivoire - Burkina Faso : une frontière sous tension
-francetv://57ab6b48-0297-454e-8fe8-244ab98862e8
+#EXTINF:-1 tvg-id="francetv-63d8ffff-58bd-48bb-a8e2-28276af914ec" tvg-logo="https://medias.france.tv/EkIksl4EBwuSvwJY7-RgayKn_pY/400x0/filters:quality(85)/i/q/o/phpyf3oqi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Billet retour — L'Amérique de Trump : 250 ans d'histoire revisités
+francetv://63d8ffff-58bd-48bb-a8e2-28276af914ec
+#EXTINF:-1 tvg-id="francetv-85322d62-ab83-4dd5-9812-030fc97505b8" tvg-logo="https://medias.france.tv/WH5-29YcCIF4qavVzDpj-bos5JI/400x0/filters:quality(85)/t/c/a/phpq2aact.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Parlons-en, les invités — La canicule qui peut tout changer ? Parlons-en avec Selma Huart et Philippe Drobinski
+francetv://85322d62-ab83-4dd5-9812-030fc97505b8
 #EXTINF:-1 tvg-id="francetv-f16ffacf-c3a1-4cdd-b7fe-1dfaa8c4ac11" tvg-logo="https://medias.france.tv/VbvuIaq0CdCtuDUZN35HzVlPePc/400x0/filters:quality(85)/z/w/b/phpx0obwz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — La climatisation est-elle diabolisée à tort, comme l'affirme le RN ?
 francetv://f16ffacf-c3a1-4cdd-b7fe-1dfaa8c4ac11
+#EXTINF:-1 tvg-id="francetv-536671d0-0213-4808-9242-e4b36e2aa392" tvg-logo="https://medias.france.tv/2nq9KL8oxxPFs_2lcgjDpEl3Vhk/400x0/filters:quality(85)/y/2/y/phpa40y2y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Immigration : l’Espagne à contre-courant
+francetv://536671d0-0213-4808-9242-e4b36e2aa392
+#EXTINF:-1 tvg-id="francetv-57ab6b48-0297-454e-8fe8-244ab98862e8" tvg-logo="https://medias.france.tv/n-R6raTxJJLM6PNpfsuyVlgeDfc/400x0/filters:quality(85)/w/a/1/php1ml1aw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Côte d’Ivoire - Burkina Faso : une frontière sous tension
+francetv://57ab6b48-0297-454e-8fe8-244ab98862e8
+#EXTINF:-1 tvg-id="francetv-6fd870f6-2e0f-4426-b3b8-3ef1eb938acf" tvg-logo="https://medias.france.tv/lUcxzrgvgzZbg6bigpqm2tVn5Cs/400x0/filters:quality(85)/a/f/b/phpux5bfa.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Parlons-en, les invités — Afrique du Sud: le rêve arc-en-ciel à l'épreuve? Avec T. Vircoulon, D. Delos, C. Dumay et M. Gbaffou
+francetv://6fd870f6-2e0f-4426-b3b8-3ef1eb938acf
+#EXTINF:-1 tvg-id="francetv-70981163-0658-4f90-b875-71ad903053c7" tvg-logo="https://medias.france.tv/26ElP5mex6-BANlstXQTEpDyeT8/400x0/filters:quality(85)/x/z/i/phpyrxizx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — Afrique du Sud : vent d'infox anti-migrants
+francetv://70981163-0658-4f90-b875-71ad903053c7
+#EXTINF:-1 tvg-id="francetv-a9669ff2-278b-4438-a215-bb5f03e54d3e" tvg-logo="https://medias.france.tv/LV1KLMs9ksKrQt7k96MzwV21w98/400x0/filters:quality(85)/h/q/u/phpdkfuqh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Nigeria, les gourous de la crypto
+francetv://a9669ff2-278b-4438-a215-bb5f03e54d3e
+#EXTINF:-1 tvg-id="francetv-44f32735-84c0-48bb-b67c-5f3a82d76373" tvg-logo="https://medias.france.tv/JhdarV36-E11OscZE5kooICq_3k/400x0/filters:quality(85)/a/8/s/phpoxos8a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Le monde dans tous ses États — Amérique latine : le virage radical à droite
+francetv://44f32735-84c0-48bb-b67c-5f3a82d76373
 #EXTINF:-1 tvg-id="francetv-72a49965-ee28-4522-9f77-8b3ec8c48460" tvg-logo="https://medias.france.tv/n2dsqEUmpt4kL2SrU3JA3p9wZOs/400x0/filters:quality(85)/y/t/o/phpwhhoty.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — Comment la désinformation sexiste a envahi la Coupe du monde
 francetv://72a49965-ee28-4522-9f77-8b3ec8c48460
 #EXTINF:-1 tvg-id="francetv-42c0c715-a813-44b8-ad89-1f9ea034bafb" tvg-logo="https://medias.france.tv/OGoQzJVP5OasmfE3ebv7R8uN7pw/400x0/filters:quality(85)/k/a/x/php2oxxak.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Billet retour — Le Brexit : dix ans de chaos et de regrets ?
@@ -1221,26 +1235,12 @@ francetv://42c0c715-a813-44b8-ad89-1f9ea034bafb
 francetv://adb22dd2-aeba-40ae-9f52-23badf84f239
 #EXTINF:-1 tvg-id="francetv-3fc2087a-53e3-4d27-8682-53d37179f4db" tvg-logo="https://medias.france.tv/VsNH8E9Sse5DlszgGXl7goX8caU/400x0/filters:quality(85)/y/e/g/phppdtgey.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — "Messi est l'ennemi d'Allah" : des supporters algériens ont-ils scandé ce chant aux États-Unis ?
 francetv://3fc2087a-53e3-4d27-8682-53d37179f4db
-#EXTINF:-1 tvg-id="francetv-44cdb298-93db-418c-a044-8e7992871609" tvg-logo="https://medias.france.tv/povzFzpDmArKvf3p1tI5Yshb70w/400x0/filters:quality(85)/f/z/1/phpow21zf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Le monde dans tous ses États — Mondial de foot selon Donald Trump : vous n'êtes pas les bienvenus
-francetv://44cdb298-93db-418c-a044-8e7992871609
-#EXTINF:-1 tvg-id="francetv-a671a6e3-bd04-40b2-a89e-d26f2cd51350" tvg-logo="https://medias.france.tv/tK0ZaRl07ImaIFuXYjr8zPomUEY/400x0/filters:quality(85)/e/2/c/phpmuec2e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — Non, Kylian Mbappé n'a pas été harcelé par Emmanuel Macron
-francetv://a671a6e3-bd04-40b2-a89e-d26f2cd51350
 #EXTINF:-1 tvg-id="francetv-abc49b8d-eb6a-4d5f-aafc-84283075db32" tvg-logo="https://medias.france.tv/vXAGY9lRfEVIMbIUy9Ptfah1Nrw/400x0/filters:quality(85)/p/t/i/phpsnfitp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",C'est en France — Qui est Didier Deschamps, l'homme fort des Bleus en quête d'une troisième étoile ?
 francetv://abc49b8d-eb6a-4d5f-aafc-84283075db32
-#EXTINF:-1 tvg-id="francetv-e1ebdc20-b339-4476-8fd2-449128f39487" tvg-logo="https://medias.france.tv/4wKtOwfkvGR7zSEuVLyw4pvcMbk/400x0/filters:quality(85)/a/f/h/phpztdhfa.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Parlons-en, les invités — Mondial 2026 : la clef Deschamps ? Parlons-en avec T. M'Bo, D. Rouch, R. Molina et A. Dupuis
-francetv://e1ebdc20-b339-4476-8fd2-449128f39487
-#EXTINF:-1 tvg-id="francetv-41a9d3b1-410b-4f0f-9fb5-231202a189ae" tvg-logo="https://medias.france.tv/lRfk43uYUDLniPc7sHM6R8zaCqs/400x0/filters:quality(85)/z/t/1/phpoi31tz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Info ou intox — France - Sénégal : un commentateur argentin raciste ?
-francetv://41a9d3b1-410b-4f0f-9fb5-231202a189ae
-#EXTINF:-1 tvg-id="francetv-1cb8f617-0d0a-4351-b690-3e83a7ed2150" tvg-logo="https://medias.france.tv/JiwefKnA-QyT86zJhmScy_wexR0/400x0/filters:quality(85)/n/r/s/phpxdasrn.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Parlons-en, les invités — Lyhanna : le #MeToo des enfants ? Parlons-En avec V. Bousardo, R. Debruyne, L. Boyet et M. Schuster
-francetv://1cb8f617-0d0a-4351-b690-3e83a7ed2150
-#EXTINF:-1 tvg-id="francetv-3b65f6d5-715c-469e-9f0f-074579f9efa9" tvg-logo="https://medias.france.tv/jyINPG1sLT88xYZLyqgBGm5av7g/400x0/filters:quality(85)/g/v/o/phpswlovg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",C'est en France — Violences dans le périscolaire : les parents face à l’insoutenable
-francetv://3b65f6d5-715c-469e-9f0f-074579f9efa9
-#EXTINF:-1 tvg-id="francetv-a9669ff2-278b-4438-a215-bb5f03e54d3e" tvg-logo="https://medias.france.tv/LV1KLMs9ksKrQt7k96MzwV21w98/400x0/filters:quality(85)/h/q/u/phpdkfuqh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Nigeria, les gourous de la crypto
-francetv://a9669ff2-278b-4438-a215-bb5f03e54d3e
-#EXTINF:-1 tvg-id="francetv-4f18f59d-b2ea-4493-b0b9-ba903be401db" tvg-logo="https://medias.france.tv/qy2iGDXoGbqooYeBfUMeHV-DKaA/400x0/filters:quality(85)/f/x/e/phpk1kexf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",C'est en France — Naître sous pesticides : le scandale des enfants contaminés
-francetv://4f18f59d-b2ea-4493-b0b9-ba903be401db
 #EXTINF:-1 tvg-id="francetv-1eab0115-b6bb-4fc6-8dbb-4aa217a830e6" tvg-logo="https://medias.france.tv/K517rUWb89IE3XUskrfHfZgnDRI/400x0/filters:quality(85)/o/h/h/phpv0chho.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Au Canada, les "Maple Maga" de l'Alberta rêvent d'indépendance
 francetv://1eab0115-b6bb-4fc6-8dbb-4aa217a830e6
+#EXTINF:-1 tvg-id="francetv-3b65f6d5-715c-469e-9f0f-074579f9efa9" tvg-logo="https://medias.france.tv/jyINPG1sLT88xYZLyqgBGm5av7g/400x0/filters:quality(85)/g/v/o/phpswlovg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",C'est en France — Violences dans le périscolaire : les parents face à l’insoutenable
+francetv://3b65f6d5-715c-469e-9f0f-074579f9efa9
 #EXTINF:-1 tvg-id="francetv-17a7d5b9-7e42-4e7a-a608-0a0e67be48d5" tvg-logo="https://medias.france.tv/eevaNxOcGIImIvt3sBxzFeC2qEc/400x0/filters:quality(85)/m/j/j/phpczrjjm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Cisjordanie, au pied du mur : enquête sur les travailleurs palestiniens de l’ombre
 francetv://17a7d5b9-7e42-4e7a-a608-0a0e67be48d5
 #EXTINF:-1 tvg-id="francetv-aa1f3f06-1a08-4706-a5b2-2b2c5849ba43" tvg-logo="https://medias.france.tv/kDsgaGQFNH1sRKxH8pC9btduzQM/400x0/filters:quality(85)/p/9/i/phpcy9i9p.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 24",Reporters — Trafiquants d'espoirs : enquête sur la mafia du foot au Sénégal
