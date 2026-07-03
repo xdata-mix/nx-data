@@ -1522,7 +1522,7 @@ http://69.64.57.208/albayanetv/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
@@ -1674,7 +1674,7 @@ https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup",Madras FM TV (1080p) [iptv-org-fra]
-https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
@@ -4528,3 +4528,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/VTz1xSEqQPMD/s
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
