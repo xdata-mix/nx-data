@@ -4488,3 +4488,7 @@ http://46.32.176.50/mcmtop/index.m3u8
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="AcerfiTV.cm@SD" group-title="Généralistes",Acerfi TV
 https://streamtv.acerfi.net/hls/acerfitv/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
