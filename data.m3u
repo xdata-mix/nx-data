@@ -1588,11 +1588,11 @@ https://video1.getstreamhosting.com:1936/8330/8330/playlist.m3u8
 #EXTINF:-1 tvg-id="France2.fr" group-title="France TV backup",FRANCE 2 [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.m3u8
 #EXTINF:-1 tvg-id="France3.fr" group-title="France TV backup",FRANCE 3 [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france3.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france3.m3u8
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136865.m3u8
 #EXTINF:-1 tvg-id="France5.fr" group-title="France TV backup",FRANCE 5 [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france5.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8
 #EXTINF:-1 tvg-id="Arte.fr" group-title="France TV backup",ARTE [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/arte.m3u8
 #EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
@@ -4556,3 +4556,7 @@ https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France5.fr" group-title="France TV backup",FRANCE 5 [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france5.m3u8
