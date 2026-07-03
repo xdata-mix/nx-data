@@ -1307,10 +1307,10 @@ tf1plus://tf1/premiere-selection
 tf1plus://tmc/les-baskets-et-nous
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-phenomene-mbappe" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Phenomene Mbappe
 tf1plus://tf1/le-phenomene-mbappe
-#EXTINF:-1 tvg-id="tf1plus-tf1-demain-nous-appartient" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Demain Nous Appartient
-tf1plus://tf1/demain-nous-appartient
 #EXTINF:-1 tvg-id="tf1plus-tf1-ici-tout-commence" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ici Tout Commence
 tf1plus://tf1/ici-tout-commence
+#EXTINF:-1 tvg-id="tf1plus-tf1-demain-nous-appartient" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Demain Nous Appartient
+tf1plus://tf1/demain-nous-appartient
 #EXTINF:-1 tvg-id="tf1plus-tf1-zodiaque-176" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Zodiaque 176
 tf1plus://tf1/zodiaque-176
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-choix-de-juana" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Choix de Juana
@@ -1337,14 +1337,14 @@ tf1plus://tf1/good-american-family
 tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-sadie-sparks" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sadie Sparks
 tf1plus://tf1/sadie-sparks
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
+tf1plus://tf1/les-douze-coups-de-midi
+#EXTINF:-1 tvg-id="tf1plus-tf1-esprits-criminels" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Esprits Criminels
+tf1plus://tf1/esprits-criminels
 #EXTINF:-1 tvg-id="tf1plus-tf1-riviere-perdue" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Riviere Perdue
 tf1plus://tf1/riviere-perdue
 #EXTINF:-1 tvg-id="tf1plus-tf1-amours-coupables" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amours Coupables
 tf1plus://tf1/amours-coupables
-#EXTINF:-1 tvg-id="tf1plus-tfx-excape-island-coinces-avec-nos-exs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Excape Island Coinces Avec Nos Exs
-tf1plus://tfx/excape-island-coinces-avec-nos-exs
-#EXTINF:-1 tvg-id="tf1plus-tf1-camping-paradis" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Camping Paradis
-tf1plus://tf1/camping-paradis
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -1803,6 +1803,8 @@ tf1plus://tf1/trop-jeune-pour-moi
 tf1plus://tf1/panique-au-grand-magasin
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-trois-cest-mieux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Trois Cest Mieux
 tf1plus://tf1/a-trois-cest-mieux
+#EXTINF:-1 tvg-id="tf1plus-tf1-a-dix-minutes-des-naturistes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Dix Minutes des Naturistes
+tf1plus://tf1/a-dix-minutes-des-naturistes
 #EXTINF:-1 tvg-id="tf1plus-tf1-entre-ses-mains" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Entre Ses Mains
 tf1plus://tf1/entre-ses-mains
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-jaipur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Jaipur
@@ -1811,8 +1813,6 @@ tf1plus://tf1/coup-de-foudre-a-jaipur
 tf1plus://tf1/superpapa
 #EXTINF:-1 tvg-id="tf1plus-tf1-mabandonne-pas" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mabandonne Pas
 tf1plus://tf1/mabandonne-pas
-#EXTINF:-1 tvg-id="tf1plus-tf1-a-dix-minutes-des-naturistes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Dix Minutes des Naturistes
-tf1plus://tf1/a-dix-minutes-des-naturistes
 #EXTINF:-1 tvg-id="tf1plus-tf1-tout-le-bleu-du-ciel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tout le Bleu du Ciel
 tf1plus://tf1/tout-le-bleu-du-ciel
 #EXTINF:-1 tvg-id="tf1plus-tf1-belle-belle-belle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Belle Belle Belle
@@ -2569,12 +2569,14 @@ tf1plus://tmc/mika-a-laccor-arena-le-concert-evenement
 tf1plus://tf1/star-academy-le-concert-evenement
 #EXTINF:-1 tvg-id="tf1plus-tfx-que-sont-ils-devenus" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Que Sont Ils Devenus
 tf1plus://tfx/que-sont-ils-devenus
+#EXTINF:-1 tvg-id="tf1plus-tfx-excape-island-coinces-avec-nos-exs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Excape Island Coinces Avec Nos Exs
+tf1plus://tfx/excape-island-coinces-avec-nos-exs
 #EXTINF:-1 tvg-id="tf1plus-tf1-koh-lanta" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Koh Lanta
 tf1plus://tf1/koh-lanta
-#EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-couples" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Couples
-tf1plus://tfx/la-bataille-des-couples
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-villa-des-coeurs-brises" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Villa des Coeurs Brises
 tf1plus://tfx/la-villa-des-coeurs-brises
+#EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-couples" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Couples
+tf1plus://tfx/la-bataille-des-couples
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-clans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Clans
 tf1plus://tfx/la-bataille-des-clans
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-vacances-des-anges" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Les Vacances des Anges
@@ -2861,8 +2863,6 @@ tf1plus://tf1/vip-pets
 tf1plus://tf1/petit-spirou
 #EXTINF:-1 tvg-id="tf1plus-tf1-mask-singer" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mask Singer
 tf1plus://tf1/mask-singer
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
-tf1plus://tf1/les-douze-coups-de-midi
 #EXTINF:-1 tvg-id="tf1plus-tf1-4-mariages-pour-une-lune-de-miel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",4 Mariages Pour une Lune de Miel
 tf1plus://tf1/4-mariages-pour-une-lune-de-miel
 #EXTINF:-1 tvg-id="tf1plus-tfx-cleaners-les-experts-du-menage-821" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Cleaners les Experts du Menage 821
@@ -2999,8 +2999,6 @@ tf1plus://tf1/baby-boom
 tf1plus://tfx/super-nanny
 #EXTINF:-1 tvg-id="tf1plus-tf1-mamans-ados-le-defi-de-leur-vie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mamans Ados le Defi de Leur Vie
 tf1plus://tf1/mamans-ados-le-defi-de-leur-vie
-#EXTINF:-1 tvg-id="tf1plus-tmc-noel-la-passion-des-francais-chanson-telefilm-et-patisserie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="movie" group-title="Replay TMC",Noel la Passion des Francais Chanson Telefilm et Patisserie
-tf1plus://tmc/noel-la-passion-des-francais-chanson-telefilm-et-patisserie
 #EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tf1 50 Ans Ensemble
 tf1plus://tf1/tf1-50-ans-ensemble
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
