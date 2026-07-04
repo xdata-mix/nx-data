@@ -4587,7 +4587,7 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (720p) [iptv-org-fr]
 http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-http://151.80.18.177:86/TMC/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vRQVxBni4Uj/IZggN6e2iuT8WnI.m3u8
 #EXTINF:-1 tvg-id="RTS1.ch@SD" group-title="France TV backup",RTS 1 (720p) [iptv-org-fra]
 http://41.205.70.146/RTSUN/index.m3u8
 
@@ -4623,4 +4623,8 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-s
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
-http://99.27.51.147:8080/M6/index.m3u8
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-short-hd.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
+http://151.80.18.177:86/TMC/index.m3u8
