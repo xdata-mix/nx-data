@@ -979,6 +979,8 @@ tf1plus://tf1/r-i-p-aimons-nous-vivants
 tf1plus://tf1/ghosts-fantomes-a-la-maison
 #EXTINF:-1 tvg-id="tf1plus-tf1-joseph-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-4edd87-9cdad6-dc84eb-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Joseph
 tf1plus://tf1/joseph
+#EXTINF:-1 tvg-id="tf1plus-tfx-nicky-larson-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nicky-larson-e12172-47b714-f2cfaf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Nicky Larson
+tf1plus://tfx/nicky-larson
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
 tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-demain-nous-appartient-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a4fb72-a4441c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Demain Nous Appartient
@@ -3013,10 +3015,10 @@ tf1plus://tf1/barbecue
 tf1plus://tf1/le-nouveau-stagiaire
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-2-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-copie-44665a-3fea04-86d5ed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Camping 2
 tf1plus://tf1/camping-2
-#EXTINF:-1 tvg-id="tf1plus-tfx-flashdance-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-09cd25-99a4e2-e60df3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Flashdance
-tf1plus://tfx/flashdance
-#EXTINF:-1 tvg-id="tf1plus-tfx-premieres-vacances-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-premieres-vacances-bcbbef-957a9b-495be3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Premieres Vacances
-tf1plus://tfx/premieres-vacances
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-proposition-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-589b20-9c69eb-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",La Proposition
+tf1plus://tf1-series-films/la-proposition
+#EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Connasse Princesse des Coeurs
+tf1plus://tfx/connasse-princesse-des-coeurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-ou-chantent-les-ecrevisses-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-f33bfd-c8527a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",La Ou Chantent les Ecrevisses
 tf1plus://tf1-series-films/la-ou-chantent-les-ecrevisses
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-program-card-portrait-1-b658ef-dee41d-44a1d1-0f5622-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Banlieue 13
