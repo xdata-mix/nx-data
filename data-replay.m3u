@@ -559,6 +559,8 @@ bfmplay://NEUF_BFMTV_BFM1021061494476
 bfmplay://NEUF_BFMTV_BFM1021025456660
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021080915562" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/6/5/5cde427198e61f36545f43cd319de39d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Le violeur au tournevis retrouvé après 10 ans
 bfmplay://NEUF_BFMTV_BFM1021080915562
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000286" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/6/8/2/c03f49aed7a96c20442a304022c6281a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Evaluation complète des stars de la Coupe du Monde
+bfmplay://NEUF_BFMRADIO_BRA50000000000286
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000275" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/7/2/1b91c1cfd1007abad8fa65c5badc81b7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le Portugal cherche des motifs d’espoirs avant de défier la Croatie - Partie 2
 bfmplay://NEUF_BFMRADIO_BRA50000000000275
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000274" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/7/2/fd6994d19b04f1c69d89396c8f535e89_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Debrief d’Espagne / Autriche - Partie 1
@@ -3177,10 +3179,8 @@ bfmplay://NEUF_NUM23_N231020926204736
 bfmplay://NEUF_RMC_LIFE_RIF964164380527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF957242591527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/672974bd125047bf734e2e2728b10b83_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les secours - S1E4 - SAMU de Toulouse - Épisode 2
 bfmplay://NEUF_RMC_LIFE_RIF957242591527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC683345016527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/a1b956400344b15a4b92e0f72eebbd24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes de Béziers - S1E2 - Épisode 2
-bfmplay://NEUF_RMCDEC_RMC683345016527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC683344971527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/09a4feeb47540b192ce4a80d30cb8916_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes de Béziers - S1E1 - Episode 1
-bfmplay://NEUF_RMCDEC_RMC683344971527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC965980938527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f477407d08e49ca20ffe9f30b5f7b6ee_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S1E4 - Police nationale de Nîmes - Episode 1
+bfmplay://NEUF_RMCDEC_RMC965980938527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1013999007527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8617afa1c664afc624d6898ad3c75cbc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S2E19 - Police nationale de Laon -  épisode 2
 bfmplay://NEUF_RMCDEC_RMC1013999007527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020963621621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/2/6/349cd80e50657c610b430df040654110_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S2E40 - Gendarmes des autoroutes du Sud - Episode 2
@@ -3229,6 +3229,10 @@ bfmplay://NEUF_RMCDEC_RMC1020963621645
 bfmplay://NEUF_RMCDEC_RMC1009526683527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020927816469" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/6/4/5b8b38cdbf202ca5cf0098f1908228cb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S2E27 - Au coeur des CRS - épisode 2
 bfmplay://NEUF_RMCDEC_RMC1020927816469
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC683345016527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/a1b956400344b15a4b92e0f72eebbd24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes de Béziers - S1E2 - Épisode 2
+bfmplay://NEUF_RMCDEC_RMC683345016527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC683344971527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/09a4feeb47540b192ce4a80d30cb8916_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes de Béziers - S1E1 - Episode 1
+bfmplay://NEUF_RMCDEC_RMC683344971527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC853911209527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/99d7f25ad61c991b47f3d7f77ed25b54_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes du Médoc - S1E1 - Épisode 1
 bfmplay://NEUF_RMCDEC_RMC853911209527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC853911411527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/b406570e28483b0d7ec4170e0760358a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours avec les gendarmes du Médoc - S1E4 - Épisode 4
@@ -3399,8 +3403,8 @@ bfmplay://NEUF_RMCDEC_RMC1020911942522
 bfmplay://NEUF_RMCDEC_RMC1020911942560
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020911942453" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/5/4/bade5b99acba8e5692169e22f506dea1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Vintage Mecanic - S9E1 - Dodge Viper GTS
 bfmplay://NEUF_RMCDEC_RMC1020911942453
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281810527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/e04c57d925ceb33a889ffe6375214107_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E17 - Alaska : enneigé
-bfmplay://NEUF_RMCDEC_RMC984281810527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281760527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2228573bb21093f84863fc0413dcd4f4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E12 - Alaska : haute voltige
+bfmplay://NEUF_RMCDEC_RMC984281760527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020921613087" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/8/0/0dd5f463fe59f17c1ac93c93c89df692_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S13E11 - Endurance
 bfmplay://NEUF_RMCDEC_RMC1020921613087
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020921613074" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/7/0/6a279b93a91bb7bcdf67d624e4914769_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S13E10 - Affronter l'ours
@@ -3595,8 +3599,6 @@ bfmplay://NEUF_RMCDEC_RMC984281820527
 bfmplay://NEUF_RMCDEC_RMC984281800527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281790527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/6796dff02b8ff3b8fde95e7123e65c4d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E15 - Alaska : expédition grand froid
 bfmplay://NEUF_RMCDEC_RMC984281790527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281760527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2228573bb21093f84863fc0413dcd4f4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E12 - Alaska : haute voltige
-bfmplay://NEUF_RMCDEC_RMC984281760527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC981394281527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f7f57c0ea24f06c3218be7b42810b53d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S11E13 - Face à face final
 bfmplay://NEUF_RMCDEC_RMC981394281527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC981394271527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8c04d877e93647cf1eb1f5fccad033d9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S11E12 - Retournement de situation
@@ -4641,8 +4643,6 @@ bfmplay://NEUF_RMCDEC_RMC1020931968831
 bfmplay://NEUF_RMCDEC_RMC1020931968844
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020931968857" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/5/8/7942b1fd8808f7cdc638b3aa5b8c83f7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Top Mecanic : 5 jours pour restaurer une épave - S5E60 - La Finale - Vince Contre Les Frères Bretons
 bfmplay://NEUF_RMCDEC_RMC1020931968857
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383299527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/be575c4384918ac14e7bf7c31f155e43_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E5 - Morsures atroces
-bfmplay://NEUF_RMCDEC_RMC556383299527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383311527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ec37fc572968845472b76595873295a8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E6 - Violent combattant
 bfmplay://NEUF_RMCDEC_RMC556383311527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389175527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/dfea6d9f488231b68788e9d13e50b72e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S3E6 - Le fantôme du récif
