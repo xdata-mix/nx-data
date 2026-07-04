@@ -888,7 +888,7 @@ https://lfmhd.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
 #EXTINF:-1 tvg-chno="1667" tvg-logo="https://picserve.netplus.ch/channels/teleswizz.png" tvg-country="FR" group-title="NetPlus",CARAC 5 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/teleswizz/browser-HLS8/teleswizz.m3u8
+https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 #EXTINF:-1 tvg-chno="1668" tvg-logo="https://picserve.netplus.ch/channels/cherie25.png" tvg-country="FR" group-title="NetPlus",CHERIE 25 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
@@ -4576,3 +4576,31 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h_N1/hls-s
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="CNews.fr@SD" group-title="France TV backup",CNews (1080p) [iptv-org-fr]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
+#EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
+#EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (720p) [iptv-org-fr]
+http://151.80.18.177:86/TF1_HD/index.m3u8
+#EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
+http://151.80.18.177:86/TMC/index.m3u8
+#EXTINF:-1 tvg-id="RTS1.ch@SD" group-title="France TV backup",RTS 1 (720p) [iptv-org-fra]
+http://41.205.70.146/RTSUN/index.m3u8
+
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="WanguRTV.cd@SD" group-title="Généralistes",Wangu RTV
+https://stream.berosat.live/hls/wangu-tv/wangu-tv.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="CRTVNews.cm@SD" group-title="Info",CRTV News
+https://live1.acangroup.org:1929/publiclive/crtv_news/playlist.m3u8
+
+# === Ajouts FR multi-sources : Sport ===
+#EXTINF:-1 tvg-id="NWSport1.tg@SD" group-title="Sport",NW Sport 1 (1080p)
+http://41.205.70.146/BEINSPORT1/index.m3u8
+#EXTINF:-1 tvg-id="NWSport2.tg@SD" group-title="Sport",NW Sport 2 (1080p)
+http://41.205.70.146/M6/index.m3u8
