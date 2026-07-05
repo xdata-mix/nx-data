@@ -2689,8 +2689,8 @@ tf1plus://tf1/chica-vampiro
 tf1plus://tf1/les-schtroumpfs
 #EXTINF:-1 tvg-id="tf1plus-tf1-barbapapa" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Barbapapa
 tf1plus://tf1/barbapapa
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-chapardeurs" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Chapardeurs
-tf1plus://tf1/les-chapardeurs
+#EXTINF:-1 tvg-id="tf1plus-tf1-robin-des-bois" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Robin des Bois
+tf1plus://tf1/robin-des-bois
 #EXTINF:-1 tvg-id="tf1plus-tf1-gus-le-chevalier-minus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Gus le Chevalier Minus
 tf1plus://tf1/gus-le-chevalier-minus
 #EXTINF:-1 tvg-id="tf1plus-tf1-santiago-des-mers" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Santiago des Mers
@@ -2701,6 +2701,8 @@ tf1plus://tf1/azuro
 tf1plus://tf1/les-enquetes-sauvages
 #EXTINF:-1 tvg-id="tf1plus-tf1-oggy-et-les-cafards" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Oggy et les Cafards
 tf1plus://tf1/oggy-et-les-cafards
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-chapardeurs" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Chapardeurs
+tf1plus://tf1/les-chapardeurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-molang" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Molang
 tf1plus://tf1/molang
 #EXTINF:-1 tvg-id="tf1plus-tf1-miraculous-chibi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Miraculous Chibi
@@ -2721,8 +2723,6 @@ tf1plus://tf1/winx-club
 tf1plus://tf1/le-ranch
 #EXTINF:-1 tvg-id="tf1plus-tf1-sadie-sparks" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sadie Sparks
 tf1plus://tf1/sadie-sparks
-#EXTINF:-1 tvg-id="tf1plus-tf1-robin-des-bois" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Robin des Bois
-tf1plus://tf1/robin-des-bois
 #EXTINF:-1 tvg-id="tf1plus-tf1-trotro" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Trotro
 tf1plus://tf1/trotro
 #EXTINF:-1 tvg-id="tf1plus-tf1-heidi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Heidi
@@ -2997,10 +2997,10 @@ tf1plus://tf1/tf1-50-ans-ensemble
 tf1plus://tf1-series-films/clap
 #EXTINF:-1 tvg-id="tf1plus-tmc-indochine-arena-tour-le-concert-evenement" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Indochine Arena Tour le Concert Evenement
 tf1plus://tmc/indochine-arena-tour-le-concert-evenement
-#EXTINF:-1 tvg-id="tf1plus-tfx-pop-le-magazine-des-pratiques-culturelles-des-15-35-ans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Pop le Magazine des Pratiques Culturelles des 15 35 Ans
-tf1plus://tfx/pop-le-magazine-des-pratiques-culturelles-des-15-35-ans
 #EXTINF:-1 tvg-id="tf1plus-tmc-monacoscope" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Monacoscope
 tf1plus://tmc/monacoscope
+#EXTINF:-1 tvg-id="tf1plus-tfx-pop-le-magazine-des-pratiques-culturelles-des-15-35-ans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Pop le Magazine des Pratiques Culturelles des 15 35 Ans
+tf1plus://tfx/pop-le-magazine-des-pratiques-culturelles-des-15-35-ans
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-documentaires-de-tatiana-silva" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Documentaires de Tatiana Silva
 tf1plus://tmc/les-documentaires-de-tatiana-silva
 #EXTINF:-1 tvg-id="tf1plus-tf1-resto-du-coeur-et-enfoires-sur-les-terres-doccitanie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Resto du Coeur et Enfoires Sur les Terres Doccitanie
@@ -3645,10 +3645,10 @@ tf1plus://tf1/kung-foudre
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-peres-meres-et-supporters-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a3bb44-87f894-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Peres Meres et Supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
+#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
+tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
 tf1plus://lci/le-grand-entretien
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
-tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
@@ -3659,10 +3659,10 @@ tf1plus://lci/bonjour-la-matinale-tf1
 tf1plus://lci/24h-pujadas-l-info-en-questions
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
 tf1plus://lci/la-matinale-618
-#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
-tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
+tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-lci-meteo" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Meteo
 tf1plus://lci/meteo
 #EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",18h Darius Rochebin
