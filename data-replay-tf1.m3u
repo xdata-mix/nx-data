@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-alice-nevers-78424271" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Alice Nevers
 tf1live://L_FAST_v2l-ad-alice-nevers-78424271
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-baby-boom-88288927" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Baby Boom
+tf1live://L_FAST_v2l-ad-baby-boom-88288927
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-camping-paradis-42908515" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Camping Paradis
+tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
@@ -1271,10 +1275,10 @@ tf1plus://tf1/highlander
 tf1plus://tf1/farscape
 #EXTINF:-1 tvg-id="tf1plus-tf1-secret-story" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Secret Story
 tf1plus://tf1/secret-story
-#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
-tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
+#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
+tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
@@ -3247,6 +3251,8 @@ tf1plus://tfx/pop-redemption
 tf1plus://tfx/five
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-nouveau-stagiaire-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-le-nouveau-stagiaire-afe9a6-e406f3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Le Nouveau Stagiaire
 tf1plus://tf1/le-nouveau-stagiaire
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-cactus-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-86b14a-8f064b-7dd95d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Le Cactus
+tf1plus://tf1-series-films/le-cactus
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Rrrrrrr
 tf1plus://tf1-series-films/rrrrrrr
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Et Lhomme Crea la Femme
@@ -3267,8 +3273,6 @@ tf1plus://tfx/wasabi
 tf1plus://tfx/le-boulet
 #EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",For Love Or Money
 tf1plus://tf1/for-love-or-money
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-merveilleux-jardin-secret-de-bella-brown-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-12c380-50d927-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Le Merveilleux Jardin Secret de Bella Brown
-tf1plus://tf1/le-merveilleux-jardin-secret-de-bella-brown
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-comte-de-monte-cristo-099-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-403b30-f90235-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Le Comte de Monte Cristo 099
 tf1plus://tf1/le-comte-de-monte-cristo-099
 #EXTINF:-1 tvg-id="tf1plus-tf1-intouchables-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-c040da-3e51e2-9a1a9d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Intouchables
@@ -3501,6 +3505,8 @@ tf1plus://tmc/les-sous-doues-en-vacances
 tf1plus://tfx/pop-redemption
 #EXTINF:-1 tvg-id="tf1plus-tfx-wasabi-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-wasabi-0c012a-f5d84b-818261-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Wasabi
 tf1plus://tfx/wasabi
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-cactus-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-86b14a-8f064b-7dd95d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Le Cactus
+tf1plus://tf1-series-films/le-cactus
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Roulez Jeunesse
 tf1plus://tf1-series-films/roulez-jeunesse
 #EXTINF:-1 tvg-id="tf1plus-tfx-five-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-085b37-0fed00-85424c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Five
