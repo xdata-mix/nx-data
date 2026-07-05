@@ -4723,3 +4723,7 @@ http://cdn.haititivi.com/PARIS-PREMIERE/index.m3u8
 # === Ajouts FR multi-sources : Info ===
 #EXTINF:-1 tvg-id="LeMondeen24h.cd@SD" group-title="Info",Le Monde en 24h
 https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
+http://99.27.51.147:8080/M6/index.m3u8
