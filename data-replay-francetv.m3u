@@ -207,8 +207,8 @@ francetv://program/france-3_outremer-story
 francetv://program/documentaires_le-brame-du-cerf
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/_VSpmwIkO2H9iqh3uftLrbORY98/400x0/filters:quality(85)/t/1/4/phpzge41t.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-4bbaa4e2-d803-4cf5-b389-ec0399e9c774" tvg-logo="https://medias.france.tv/YU4MlSIO9XSjNzg6_gjDquLypUc/400x0/filters:quality(85)/w/t/9/phpsee9tw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 6 juillet 2026
-francetv://4bbaa4e2-d803-4cf5-b389-ec0399e9c774
+#EXTINF:-1 tvg-id="francetv-420c6c06-b93b-4656-a10f-99d4c4a9329b" tvg-logo="https://medias.france.tv/YU4MlSIO9XSjNzg6_gjDquLypUc/400x0/filters:quality(85)/w/t/9/phpsee9tw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 6 juillet 2026
+francetv://420c6c06-b93b-4656-a10f-99d4c4a9329b
 #EXTINF:-1 tvg-id="francetv-d2edbaeb-45cb-4cee-8850-e7404ac25f7a" tvg-logo="https://medias.france.tv/Z5-QRVI1G6yMzhe5ljhUocHSkAE/400x0/filters:quality(85)/0/s/x/phpe40xs0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 7 juillet 2026
 francetv://d2edbaeb-45cb-4cee-8850-e7404ac25f7a
 #EXTINF:-1 tvg-id="francetv-1cf46684-08a4-4b7b-9e44-47a03407c06b" tvg-logo="https://medias.france.tv/ZeQqBAMNrktF0lvgMYMozieklwI/400x0/filters:quality(85)/s/3/f/phpharf3s.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mercredi 8 juillet 2026
@@ -835,10 +835,10 @@ francetv://bb20b4df-4e33-4e3e-8a31-8ee220c7ace6
 francetv://e5b65f88-77bb-11f1-9501-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-74d47129-6331-408e-ab73-33c09144722d" tvg-logo="https://medias.france.tv/zmT7QrFBL5gNMngfPk8HjsHpLhE/400x0/filters:quality(85)/2/a/5/364a06043798484ebf780e5ca5c215a2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 16h/18h — Émission du samedi 4 juillet 2026
 francetv://74d47129-6331-408e-ab73-33c09144722d
-#EXTINF:-1 tvg-id="francetv-baffb59d-ed6f-477b-9533-1f8cc82cf676" tvg-logo="https://medias.france.tv/PGit3a8VSeg0S5WMxzkAIlLneBU/400x0/filters:quality(85)/0/e/3/300595f4423d4ebe8bf7cdb0fc3ab3e0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 14h/16h — Émission du samedi 4 juillet 2026
-francetv://baffb59d-ed6f-477b-9533-1f8cc82cf676
 #EXTINF:-1 tvg-id="francetv-3c72aad6-77ab-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/AqUZB01noE6X1CsN0gdgR7inPlc/400x0/filters:quality(85)/a/7/9/507deb3dcb2245248c8ff40ac575c97a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le JT en LSF — JT en LSF - le 04/07/2026 - le14h/16h
 francetv://3c72aad6-77ab-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-baffb59d-ed6f-477b-9533-1f8cc82cf676" tvg-logo="https://medias.france.tv/PGit3a8VSeg0S5WMxzkAIlLneBU/400x0/filters:quality(85)/0/e/3/300595f4423d4ebe8bf7cdb0fc3ab3e0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 14h/16h — Émission du samedi 4 juillet 2026
+francetv://baffb59d-ed6f-477b-9533-1f8cc82cf676
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -1103,32 +1103,20 @@ francetv://9f6c77bc-7002-11f1-ae33-57a09c50f7ce
 francetv://d9aee638-77bb-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-3_championnats-de-france-de-bmx" tvg-logo="https://medias.france.tv/TcEnHLD8tNTCFI3DM6W3qXkVMO4/400x0/filters:quality(85)/k/s/a/phpyioask.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Championnats de France de BMX
 francetv://program/france-3_championnats-de-france-de-bmx
+#EXTINF:-1 tvg-id="francetv-8fb94a70-789f-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/AQNnHucoawyvj2gj_ZmoHIB8stA/400x0/filters:quality(85)/y/r/u/php10hury.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France : Paul Seixas, le tourbillon médiatique
+francetv://8fb94a70-789f-11f1-8479-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-48a0d33a-789d-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/geXVIJi9fbMZgZDqTE2HanPp0RU/400x0/filters:quality(85)/2/e/8/bc62711956c2449d8b0ced0252ee58e2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France : le cadeau de Tadej Pogacar à Isaac Del Toro
+francetv://48a0d33a-789d-11f1-ae3a-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-1d048c8e-789e-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/a_-7wMeQ-WvQw-EQ9pcnTU0xU9I/400x0/filters:quality(85)/5/e/b/0c57f4a8dd154eb5be7083efdf394be5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Tennis - Wimbledon : Novak Djokovic, la dernière chance ?
+francetv://1d048c8e-789e-11f1-9501-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-9b6afa76-77d2-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/GO0ytfDV36odgTTv2la6mtMy1_c/400x0/filters:quality(85)/3/a/8/0db934c8b9c148829651630c618458a3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Rugby - Championnat des nations : on y a cru pour les Bleus
 francetv://9b6afa76-77d2-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-4a362cf2-d57e-46e6-89bf-c2cb82ce276c" tvg-logo="https://medias.france.tv/AcyIau_QEt1evHuUZRSCxex-Q34/400x0/filters:quality(85)/8/b/3/725ac4e687cf4a339e752df0854bd3b8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Championnats de France de BMX — BMX racing (H) : Romain Mayet triomphe et devient champion de France
 francetv://4a362cf2-d57e-46e6-89bf-c2cb82ce276c
 #EXTINF:-1 tvg-id="francetv-da7eba70-ee20-4c30-8e87-5a6e2499e3bb" tvg-logo="https://medias.france.tv/TWInh5o-PsfOllhE5nOqCd5B0Uk/400x0/filters:quality(85)/f/7/4/d18861b9bac247dc80b628478038947f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Championnats de France de BMX — BMX racing (F) : sans trembler, Axelle Etienne conserve son titre de championne de France
 francetv://da7eba70-ee20-4c30-8e87-5a6e2499e3bb
-#EXTINF:-1 tvg-id="francetv-d06b3722-770a-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/cz2gmCM15pZ1hCHckqkiu9EgJg0/400x0/filters:quality(85)/a/7/1/995eec03d1ca41a88f32800581ff917a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme - Tour de France : les deux premières étapes catalanes décryptées
-francetv://d06b3722-770a-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-64f63998-770e-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/iZKEtRCfMtn1TBzt5rL20f_GLhU/400x0/filters:quality(85)/1/f/b/24a15eec2e03433bb78ebbc0a9aa3bf1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 3 juillet
-francetv://64f63998-770e-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-51fe81d8-7641-11f1-8477-957ddefc544d" tvg-logo="https://medias.france.tv/d7YnAHQ4YFoHhh_oAcyC0KjfQzU/400x0/filters:quality(85)/y/q/n/php88ynqy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme - Tour de France : Paul Seixas, derniers réglages
-francetv://51fe81d8-7641-11f1-8477-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-0e78b788-7648-11f1-8477-957ddefc544d" tvg-logo="https://medias.france.tv/Jo1qaWV7ZwKv5LYxjWXxPMYnTZc/400x0/filters:quality(85)/0/v/x/php3a0xv0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Paris truqués : la pétanque française dans la tourmente
 francetv://0e78b788-7648-11f1-8477-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-4fbe968c-7647-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ppLU-2my3I9VsnndCl0E_KrD2lw/400x0/filters:quality(85)/5/2/7/0dcf166ce97f4361be8a019de3da4725.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 2 juillet
-francetv://4fbe968c-7647-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-7d67bf2a-7578-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/I6pdyKV7clzoWafAxvPx4cZF198/400x0/filters:quality(85)/s/p/w/phpdvzwps.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme - Tour de France : Dorian Godon, le Tour comme à la maison
-francetv://7d67bf2a-7578-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-1d2f0ba4-7578-11f1-ae39-57a09c50f7ce" tvg-logo="https://medias.france.tv/YulbuPMBADJpXFd6mxv3ycBLu6w/400x0/filters:quality(85)/c/b/0/12ae9f97740f414c9592e639e0b760bc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 1er juillet
-francetv://1d2f0ba4-7578-11f1-ae39-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-2999b1f0-74ba-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/wobNO7NknCZnaaqT8CEC6mXlSNw/400x0/filters:quality(85)/u/x/1/phpf6c1xu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : Jordan Jegat, de l'usine au peloton
-francetv://2999b1f0-74ba-11f1-94fb-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-af88daaa-73e5-11f1-8474-957ddefc544d" tvg-logo="https://medias.france.tv/mw5mWfyDDjXPb3W4ZyQ_m_9micE/400x0/filters:quality(85)/b/f/0/d8b230a185c64ff58e66bbb5a10160fb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Natation - Championnats de France : alerte pour Léon Marchand
-francetv://af88daaa-73e5-11f1-8474-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2bf846c0-73e6-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/OCY6tCADdEIhOWBKXGaU1lFw5i8/400x0/filters:quality(85)/y/h/c/phpmdtchy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : entretien avec Romain Grégoire, le nouveau champion de France
-francetv://2bf846c0-73e6-11f1-94fb-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-20f85236-7951-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/CU_wExqVxxt6zEtvyaj2If5rASU/400x0/filters:quality(85)/e/5/3/0f6de16432f84b0a9e9a14c92cbba35e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 3
 francetv://20f85236-7951-11f1-ae3a-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-9d8997e4-788c-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/ySTnzPwshfJ5KvxRcWPsJkmh9mE/400x0/filters:quality(85)/0/3/8/e9fcf875333d4291ac5fa5f254e21830.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 2
@@ -1143,28 +1131,22 @@ francetv://705a0464-7271-11f1-ae38-57a09c50f7ce
 francetv://5898dc66-7234-11f1-ae38-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-29fb4496-716e-11f1-8472-957ddefc544d" tvg-logo="https://medias.france.tv/lZiaB-Qh79UZvIfc5BhGVLf8Jpk/400x0/filters:quality(85)/2/7/d/d39cf73c826d4218ab518eba50a76d72.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Les meilleurs moments d'une course géante
 francetv://29fb4496-716e-11f1-8472-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2e4cf812-77d3-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NChTPM8OFSs---eVqnjwmVj0lW8/400x0/filters:quality(85)/3/a/3/ba39d4f447f746e281a61bed235d43a3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : le Cap-Vert héroïque face aux champions du monde
+#EXTINF:-1 tvg-id="francetv-25f2cada-7967-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/yAuFNyf63LPks6ESC8nmBLS2uOk/400x0/filters:quality(85)/8/7/5/c2a5ccf9343143c3a702c5bfc14b2578.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : scandale autour de la présence de Folarin Balogun face à la Belgique
+francetv://25f2cada-7967-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-13209b84-7968-11f1-ae3d-57a09c50f7ce" tvg-logo="https://medias.france.tv/SuyrAqJQNF2eCnhedikdTlu7AlY/400x0/filters:quality(85)/2/a/9/365198b5545e46de87e4f4f2c41fa9a2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : l'Angleterre s'en sort au bout d'un match déjà historique
+francetv://13209b84-7968-11f1-ae3d-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-e920925c-7968-11f1-847a-957ddefc544d" tvg-logo="https://medias.france.tv/EDrVkiB-zGuQgkBMg3TJemrXa0A/400x0/filters:quality(85)/b/b/f/00992206bcfc4a28b251edfbfb78cfbb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : Erling Haaland et la Norvège font tomber le Brésil
+francetv://e920925c-7968-11f1-847a-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-b0b7596c-78a2-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/eeRnU3N-2K7M4k_9CQSgQ7WsYzE/400x0/filters:quality(85)/9/3/5/d69d0e7a34bc42a6a59ad49057f39539.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Football - Coupe du monde : les Bleus évitent le piège face au Paraguay
+francetv://b0b7596c-78a2-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-8cf6ec7a-78a4-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/QJQUhWoms9-F3t8bRo5SWJKbjz8/400x0/filters:quality(85)/9/3/5/ba60d5d55d7e469586e915dd6669d539.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Football - Coupe du monde : Maroc, une faim de Lions
+francetv://8cf6ec7a-78a4-11f1-9501-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-2e4cf812-77d3-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NChTPM8OFSs---eVqnjwmVj0lW8/400x0/filters:quality(85)/3/a/3/ba39d4f447f746e281a61bed235d43a3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : le Cap-Vert héroïque face aux champions du monde argentins
 francetv://2e4cf812-77d3-11f1-9501-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d1d8cb90-7577-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/tmWEAPEZu4EHlVw_bhG4A_eIc58/400x0/filters:quality(85)/w/g/h/phpci8hgw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : France/Paraguay, souvenez-vous de l'été 1998
 francetv://d1d8cb90-7577-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-700248e6-770d-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/Is3SeusPUog2qFGwpI9oMSUCPIU/400x0/filters:quality(85)/2/e/1/85d92de291ac42c4abc02bfbb82821e2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : José Luis Chilavert, le légende encombrante
-francetv://700248e6-770d-11f1-ae3a-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-9b67fd90-757e-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/9q1lAoUX1M2nUBnF_Qw8B7YcJaw/400x0/filters:quality(85)/7/d/e/8931de56ba424291867ce7218d9dbed7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Paroles d'experts - Coupe du monde 2026 : qui peut arrêter l'équipe de France ?
 francetv://9b67fd90-757e-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-6aa584b4-770b-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/FEkkwv6HdU9cNzJDzEWWC6unkfE/400x0/filters:quality(85)/1/f/d/382749ff9d8c4eee94e5ba9171382df1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : le Portugal s’en sort au bout du suspense
-francetv://6aa584b4-770b-11f1-8479-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-65f2c98a-770c-11f1-9500-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/g_JDsUyB0sjaUnLCVwAZtGTjI9c/400x0/filters:quality(85)/7/b/8/793569d9037c4a94a428f2e3bbf648b7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football : le journal du Mondial du 3 juillet 2026
-francetv://65f2c98a-770c-11f1-9500-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-55526160-7646-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/O2wih_D6vpCEGKwA1sFI9E4iEV0/400x0/filters:quality(85)/9/9/8/ff5f9204c57f4b238b6efed75e58f899.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football : Kylian Mbappé, les supporters lui demandent pardon
-francetv://55526160-7646-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-2b92115a-7645-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/xTAcSCXoL_FgyRSdqkdhJ-QfrFE/400x0/filters:quality(85)/3/e/9/98c3af3e43a74200a5ef7f84c96d99e3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : le miracle belge
-francetv://2b92115a-7645-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-786b065a-7643-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NE6lNvUSJPkWZ6ALkLq_qi6oQDs/400x0/filters:quality(85)/8/0/c/44bb2176458046e08115a52a5524bc08.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : les Américains se prennent au jeu
-francetv://786b065a-7643-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-238be8b0-7577-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/tsqzcWJwPNWgnMZehWjaGhlUVWs/400x0/filters:quality(85)/y/2/y/phptwoy2y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : Kylian Mbappé/Michael Olise, un duo magique
-francetv://238be8b0-7577-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-30b8ca64-73e5-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/hXiyJpWG2UgLOzOlsACdUH8qwNM/400x0/filters:quality(85)/f/6/0/fbb7d205cfd642b196b22d3f967e806f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : la folie des vignettes à collectionner
-francetv://30b8ca64-73e5-11f1-94fb-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-b6515d4e-657b-11f1-94ed-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/OLNYH0S4dC0T7i9pDldyVforyDY/400x0/filters:quality(85)/2/9/3/68ecfe1a37b24953a3304a04e7be7392.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Journal 20h00 — La saga des Bleus
 francetv://b6515d4e-657b-11f1-94ed-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-c44ce38d-5380-48b6-9548-2f7111bbbaca" tvg-logo="https://medias.france.tv/6hDOk7MbnSRTPEbifWRxZ9NZmrU/400x0/filters:quality(85)/y/3/v/phprc9v3y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Mbappé, la diplomatie du ballon rond
@@ -1405,8 +1387,8 @@ francetv://program/france-2_sous-pression
 francetv://program/tv5-monde_3-x-manon
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/_VSpmwIkO2H9iqh3uftLrbORY98/400x0/filters:quality(85)/t/1/4/phpzge41t.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-4bbaa4e2-d803-4cf5-b389-ec0399e9c774" tvg-logo="https://medias.france.tv/YU4MlSIO9XSjNzg6_gjDquLypUc/400x0/filters:quality(85)/w/t/9/phpsee9tw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 6 juillet 2026
-francetv://4bbaa4e2-d803-4cf5-b389-ec0399e9c774
+#EXTINF:-1 tvg-id="francetv-420c6c06-b93b-4656-a10f-99d4c4a9329b" tvg-logo="https://medias.france.tv/YU4MlSIO9XSjNzg6_gjDquLypUc/400x0/filters:quality(85)/w/t/9/phpsee9tw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 6 juillet 2026
+francetv://420c6c06-b93b-4656-a10f-99d4c4a9329b
 #EXTINF:-1 tvg-id="francetv-d2edbaeb-45cb-4cee-8850-e7404ac25f7a" tvg-logo="https://medias.france.tv/Z5-QRVI1G6yMzhe5ljhUocHSkAE/400x0/filters:quality(85)/0/s/x/phpe40xs0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mardi 7 juillet 2026
 francetv://d2edbaeb-45cb-4cee-8850-e7404ac25f7a
 #EXTINF:-1 tvg-id="francetv-1cf46684-08a4-4b7b-9e44-47a03407c06b" tvg-logo="https://medias.france.tv/ZeQqBAMNrktF0lvgMYMozieklwI/400x0/filters:quality(85)/s/3/f/phpharf3s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mercredi 8 juillet 2026
@@ -4745,34 +4727,22 @@ francetv://9f6c77bc-7002-11f1-ae33-57a09c50f7ce
 francetv://d9aee638-77bb-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-3_championnats-de-france-de-bmx" tvg-logo="https://medias.france.tv/TcEnHLD8tNTCFI3DM6W3qXkVMO4/400x0/filters:quality(85)/k/s/a/phpyioask.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Championnats de France de BMX
 francetv://program/france-3_championnats-de-france-de-bmx
+#EXTINF:-1 tvg-id="francetv-8fb94a70-789f-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/AQNnHucoawyvj2gj_ZmoHIB8stA/400x0/filters:quality(85)/y/r/u/php10hury.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France : Paul Seixas, le tourbillon médiatique
+francetv://8fb94a70-789f-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-c74085b4-77d5-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/aW5OK_Eh8FSG_hy_UkDEnAchv04/400x0/filters:quality(85)/k/m/g/php1iagmk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 La Quotidienne Tour de France — Tour de France : Paul Seixas, l'héritier de Bernard Hinault ?
 francetv://c74085b4-77d5-11f1-9501-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-48a0d33a-789d-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/geXVIJi9fbMZgZDqTE2HanPp0RU/400x0/filters:quality(85)/2/e/8/bc62711956c2449d8b0ced0252ee58e2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France : le cadeau de Tadej Pogacar à Isaac Del Toro
+francetv://48a0d33a-789d-11f1-ae3a-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-1d048c8e-789e-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/a_-7wMeQ-WvQw-EQ9pcnTU0xU9I/400x0/filters:quality(85)/5/e/b/0c57f4a8dd154eb5be7083efdf394be5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Tennis - Wimbledon : Novak Djokovic, la dernière chance ?
+francetv://1d048c8e-789e-11f1-9501-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-9b6afa76-77d2-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/GO0ytfDV36odgTTv2la6mtMy1_c/400x0/filters:quality(85)/3/a/8/0db934c8b9c148829651630c618458a3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Rugby - Championnat des nations : on y a cru pour les Bleus
 francetv://9b6afa76-77d2-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-4a362cf2-d57e-46e6-89bf-c2cb82ce276c" tvg-logo="https://medias.france.tv/AcyIau_QEt1evHuUZRSCxex-Q34/400x0/filters:quality(85)/8/b/3/725ac4e687cf4a339e752df0854bd3b8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Championnats de France de BMX — BMX racing (H) : Romain Mayet triomphe et devient champion de France
 francetv://4a362cf2-d57e-46e6-89bf-c2cb82ce276c
 #EXTINF:-1 tvg-id="francetv-da7eba70-ee20-4c30-8e87-5a6e2499e3bb" tvg-logo="https://medias.france.tv/TWInh5o-PsfOllhE5nOqCd5B0Uk/400x0/filters:quality(85)/f/7/4/d18861b9bac247dc80b628478038947f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Championnats de France de BMX — BMX racing (F) : sans trembler, Axelle Etienne conserve son titre de championne de France
 francetv://da7eba70-ee20-4c30-8e87-5a6e2499e3bb
-#EXTINF:-1 tvg-id="francetv-d06b3722-770a-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/cz2gmCM15pZ1hCHckqkiu9EgJg0/400x0/filters:quality(85)/a/7/1/995eec03d1ca41a88f32800581ff917a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme - Tour de France : les deux premières étapes catalanes décryptées
-francetv://d06b3722-770a-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-64f63998-770e-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/iZKEtRCfMtn1TBzt5rL20f_GLhU/400x0/filters:quality(85)/1/f/b/24a15eec2e03433bb78ebbc0a9aa3bf1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 3 juillet
-francetv://64f63998-770e-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-51fe81d8-7641-11f1-8477-957ddefc544d" tvg-logo="https://medias.france.tv/d7YnAHQ4YFoHhh_oAcyC0KjfQzU/400x0/filters:quality(85)/y/q/n/php88ynqy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme - Tour de France : Paul Seixas, derniers réglages
-francetv://51fe81d8-7641-11f1-8477-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-0e78b788-7648-11f1-8477-957ddefc544d" tvg-logo="https://medias.france.tv/Jo1qaWV7ZwKv5LYxjWXxPMYnTZc/400x0/filters:quality(85)/0/v/x/php3a0xv0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Paris truqués : la pétanque française dans la tourmente
 francetv://0e78b788-7648-11f1-8477-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-4fbe968c-7647-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ppLU-2my3I9VsnndCl0E_KrD2lw/400x0/filters:quality(85)/5/2/7/0dcf166ce97f4361be8a019de3da4725.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 2 juillet
-francetv://4fbe968c-7647-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-7d67bf2a-7578-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/I6pdyKV7clzoWafAxvPx4cZF198/400x0/filters:quality(85)/s/p/w/phpdvzwps.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme - Tour de France : Dorian Godon, le Tour comme à la maison
-francetv://7d67bf2a-7578-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-1d2f0ba4-7578-11f1-ae39-57a09c50f7ce" tvg-logo="https://medias.france.tv/YulbuPMBADJpXFd6mxv3ycBLu6w/400x0/filters:quality(85)/c/b/0/12ae9f97740f414c9592e639e0b760bc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - La minute Wimbledon : on vous a gardé le meilleur du 1er juillet
-francetv://1d2f0ba4-7578-11f1-ae39-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-2999b1f0-74ba-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/wobNO7NknCZnaaqT8CEC6mXlSNw/400x0/filters:quality(85)/u/x/1/phpf6c1xu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme : Jordan Jegat, de l'usine au peloton
-francetv://2999b1f0-74ba-11f1-94fb-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-af88daaa-73e5-11f1-8474-957ddefc544d" tvg-logo="https://medias.france.tv/mw5mWfyDDjXPb3W4ZyQ_m_9micE/400x0/filters:quality(85)/b/f/0/d8b230a185c64ff58e66bbb5a10160fb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Natation - Championnats de France : alerte pour Léon Marchand
-francetv://af88daaa-73e5-11f1-8474-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2bf846c0-73e6-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/OCY6tCADdEIhOWBKXGaU1lFw5i8/400x0/filters:quality(85)/y/h/c/phpmdtchy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme : entretien avec Romain Grégoire, le nouveau champion de France
-francetv://2bf846c0-73e6-11f1-94fb-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-20f85236-7951-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/CU_wExqVxxt6zEtvyaj2If5rASU/400x0/filters:quality(85)/e/5/3/0f6de16432f84b0a9e9a14c92cbba35e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 3
 francetv://20f85236-7951-11f1-ae3a-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-9d8997e4-788c-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/ySTnzPwshfJ5KvxRcWPsJkmh9mE/400x0/filters:quality(85)/0/3/8/e9fcf875333d4291ac5fa5f254e21830.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 2
@@ -4787,28 +4757,22 @@ francetv://705a0464-7271-11f1-ae38-57a09c50f7ce
 francetv://5898dc66-7234-11f1-ae38-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-29fb4496-716e-11f1-8472-957ddefc544d" tvg-logo="https://medias.france.tv/lZiaB-Qh79UZvIfc5BhGVLf8Jpk/400x0/filters:quality(85)/2/7/d/d39cf73c826d4218ab518eba50a76d72.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Les meilleurs moments d'une course géante
 francetv://29fb4496-716e-11f1-8472-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2e4cf812-77d3-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NChTPM8OFSs---eVqnjwmVj0lW8/400x0/filters:quality(85)/3/a/3/ba39d4f447f746e281a61bed235d43a3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : le Cap-Vert héroïque face aux champions du monde
+#EXTINF:-1 tvg-id="francetv-25f2cada-7967-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/yAuFNyf63LPks6ESC8nmBLS2uOk/400x0/filters:quality(85)/8/7/5/c2a5ccf9343143c3a702c5bfc14b2578.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : scandale autour de la présence de Folarin Balogun face à la Belgique
+francetv://25f2cada-7967-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-13209b84-7968-11f1-ae3d-57a09c50f7ce" tvg-logo="https://medias.france.tv/SuyrAqJQNF2eCnhedikdTlu7AlY/400x0/filters:quality(85)/2/a/9/365198b5545e46de87e4f4f2c41fa9a2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : l'Angleterre s'en sort au bout d'un match déjà historique
+francetv://13209b84-7968-11f1-ae3d-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-e920925c-7968-11f1-847a-957ddefc544d" tvg-logo="https://medias.france.tv/EDrVkiB-zGuQgkBMg3TJemrXa0A/400x0/filters:quality(85)/b/b/f/00992206bcfc4a28b251edfbfb78cfbb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : Erling Haaland et la Norvège font tomber le Brésil
+francetv://e920925c-7968-11f1-847a-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-b0b7596c-78a2-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/eeRnU3N-2K7M4k_9CQSgQ7WsYzE/400x0/filters:quality(85)/9/3/5/d69d0e7a34bc42a6a59ad49057f39539.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 — Football - Coupe du monde : les Bleus évitent le piège face au Paraguay
+francetv://b0b7596c-78a2-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-8cf6ec7a-78a4-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/QJQUhWoms9-F3t8bRo5SWJKbjz8/400x0/filters:quality(85)/9/3/5/ba60d5d55d7e469586e915dd6669d539.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 — Football - Coupe du monde : Maroc, une faim de Lions
+francetv://8cf6ec7a-78a4-11f1-9501-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-2e4cf812-77d3-11f1-9501-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NChTPM8OFSs---eVqnjwmVj0lW8/400x0/filters:quality(85)/3/a/3/ba39d4f447f746e281a61bed235d43a3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : le Cap-Vert héroïque face aux champions du monde argentins
 francetv://2e4cf812-77d3-11f1-9501-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d1d8cb90-7577-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/tmWEAPEZu4EHlVw_bhG4A_eIc58/400x0/filters:quality(85)/w/g/h/phpci8hgw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : France/Paraguay, souvenez-vous de l'été 1998
 francetv://d1d8cb90-7577-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-700248e6-770d-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/Is3SeusPUog2qFGwpI9oMSUCPIU/400x0/filters:quality(85)/2/e/1/85d92de291ac42c4abc02bfbb82821e2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : José Luis Chilavert, le légende encombrante
-francetv://700248e6-770d-11f1-ae3a-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-9b67fd90-757e-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/9q1lAoUX1M2nUBnF_Qw8B7YcJaw/400x0/filters:quality(85)/7/d/e/8931de56ba424291867ce7218d9dbed7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Paroles d'experts - Coupe du monde 2026 : qui peut arrêter l'équipe de France ?
 francetv://9b67fd90-757e-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-6aa584b4-770b-11f1-8479-957ddefc544d" tvg-logo="https://medias.france.tv/FEkkwv6HdU9cNzJDzEWWC6unkfE/400x0/filters:quality(85)/1/f/d/382749ff9d8c4eee94e5ba9171382df1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : le Portugal s’en sort au bout du suspense
-francetv://6aa584b4-770b-11f1-8479-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-65f2c98a-770c-11f1-9500-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/g_JDsUyB0sjaUnLCVwAZtGTjI9c/400x0/filters:quality(85)/7/b/8/793569d9037c4a94a428f2e3bbf648b7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football : le journal du Mondial du 3 juillet 2026
-francetv://65f2c98a-770c-11f1-9500-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-55526160-7646-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/O2wih_D6vpCEGKwA1sFI9E4iEV0/400x0/filters:quality(85)/9/9/8/ff5f9204c57f4b238b6efed75e58f899.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football : Kylian Mbappé, les supporters lui demandent pardon
-francetv://55526160-7646-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-2b92115a-7645-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/xTAcSCXoL_FgyRSdqkdhJ-QfrFE/400x0/filters:quality(85)/3/e/9/98c3af3e43a74200a5ef7f84c96d99e3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : le miracle belge
-francetv://2b92115a-7645-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-786b065a-7643-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/NE6lNvUSJPkWZ6ALkLq_qi6oQDs/400x0/filters:quality(85)/8/0/c/44bb2176458046e08115a52a5524bc08.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : les Américains se prennent au jeu
-francetv://786b065a-7643-11f1-94fd-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-238be8b0-7577-11f1-8738-19616fa871f9" tvg-logo="https://medias.france.tv/tsqzcWJwPNWgnMZehWjaGhlUVWs/400x0/filters:quality(85)/y/2/y/phptwoy2y.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : Kylian Mbappé/Michael Olise, un duo magique
-francetv://238be8b0-7577-11f1-8738-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-30b8ca64-73e5-11f1-94fb-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/hXiyJpWG2UgLOzOlsACdUH8qwNM/400x0/filters:quality(85)/f/6/0/fbb7d205cfd642b196b22d3f967e806f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Stade 2 la quotidienne — Football - Coupe du monde : la folie des vignettes à collectionner
-francetv://30b8ca64-73e5-11f1-94fb-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-b6515d4e-657b-11f1-94ed-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/OLNYH0S4dC0T7i9pDldyVforyDY/400x0/filters:quality(85)/2/9/3/68ecfe1a37b24953a3304a04e7be7392.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Journal 20h00 — La saga des Bleus
 francetv://b6515d4e-657b-11f1-94ed-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-c44ce38d-5380-48b6-9548-2f7111bbbaca" tvg-logo="https://medias.france.tv/6hDOk7MbnSRTPEbifWRxZ9NZmrU/400x0/filters:quality(85)/y/3/v/phprc9v3y.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - En pleine lucarne",Mbappé, la diplomatie du ballon rond
