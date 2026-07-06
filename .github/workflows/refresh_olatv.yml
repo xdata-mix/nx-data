@@ -3,7 +3,7 @@ name: refresh-olatv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'   # toutes les 4h (aligne sur le cron-job.org OlaTV)
+    - cron: '0 */4 * * *'   # toutes les 4h
 
 concurrency:
   group: refresh-olatv-only
@@ -26,9 +26,9 @@ jobs:
       - name: Installer les dependances
         run: pip install requests pycryptodome
 
-      - name: Probe serveurs OlaTV (FR) -> live-cids.json
+      - name: Probe liveness des cids OlaTV -> live-cids.json
         env:
-          OLA_ONLY_FR: '1'
+          OLA_ONLY_FR: '0'   # tester TOUS les cids (category_name = id serveur, pas un pays)
           OLA_OUT: data/olatv/live-cids.json
         run: python scripts/olatv/refresh_olatv.py
 
@@ -40,9 +40,13 @@ jobs:
           if git diff --cached --quiet; then
             echo "Aucun changement OlaTV."
           else
-            git pull --rebase origin main || true
             git commit -m "chore(olatv): refresh live-cids [skip ci]"
-            git push origin main
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main \
+                && git push origin main \
+                && { echo "push OK (essai $i)"; break; }
+              echo "push rejete, retry $i"; sleep 6
+            done
           fi
 
       - name: Nettoyage automatique des anciens flux de travail
