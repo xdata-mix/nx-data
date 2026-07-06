@@ -69,15 +69,25 @@ def api_call(extra: dict, tries: int = 4) -> dict | None:
                 print(f"  api {extra} → HTTP {r.status_code} (try {attempt})", flush=True)
                 time.sleep(2 * attempt); continue
             txt = r.text.strip()
+            decoded = None
             try:
-                return dec(txt)
+                decoded = dec(txt)
             except Exception:
-                # certaines méthodes renvoient déjà du JSON clair
                 try:
-                    return json.loads(txt)
+                    decoded = json.loads(txt)
                 except Exception as e:
-                    print(f"  api {extra} → decode KO: {e} | head={txt[:80]!r}", flush=True)
+                    print(f"  [diag] api {extra} status={r.status_code} rawlen={len(txt)} DECODE_KO={e} head={txt[:160]!r}", flush=True)
                     return None
+            # DIAG : montre la structure reelle renvoyee par l'API
+            try:
+                if isinstance(decoded, dict):
+                    ks = list(decoded.keys())
+                else:
+                    ks = f"type={type(decoded).__name__} len={len(decoded) if hasattr(decoded,'__len__') else '?'}"
+                print(f"  [diag] api {extra} status={r.status_code} rawlen={len(txt)} decoded_keys={ks} sample={str(decoded)[:220]}", flush=True)
+            except Exception:
+                pass
+            return decoded
         except Exception as e:
             print(f"  api {extra} → net KO: {e} (try {attempt})", flush=True)
             time.sleep(2 * attempt)
