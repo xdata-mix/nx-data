@@ -1,4 +1,5 @@
-# Teste EN AMONT les chaines LumiChat (FR + sources vivantes), regenere data/lumichat/data-lumichat.m3u.
+# Recupere les chaines LumiChat (FR), regenere data/lumichat/data-lumichat.m3u.
+# Plus de probe gateway (instable) -- on inclut toutes les chaines FR de l'API.
 name: refresh-lumichat
 on:
   schedule:
@@ -13,25 +14,27 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Setup WARP (1.1.1.1)
+        uses: cloudflare/warp-action@v1
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install deps
         run: pip install requests
-      - name: Probe LumiChat (FR only) + regenerate M3U
+      - name: Refresh LumiChat M3U (FR)
         env:
-          LUMI_WORKERS: '25'
-          LUMI_TIMEOUT: '30'
           LUMI_COUNTRY: 'FR'
           LUMI_SKIP_DEAD: '1'
           LUMI_OUT: 'data/lumichat/data-lumichat.m3u'
+          LUMI_API_TIMEOUT: '25'
+          LUMI_API_TRIES: '3'
         run: python scripts/lumichat/refresh_lumichat.py
       - name: Commit & push if changed
         run: |
@@ -41,7 +44,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "auto: refresh data/lumichat/data-lumichat.m3u (FR vivantes)"
+            git commit -m "auto: refresh data/lumichat/data-lumichat.m3u (FR)"
             git pull --rebase origin main || git rebase --abort
             git push
           fi
