@@ -26,7 +26,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 OUT = os.environ.get("LUMI_OUT", "data-lumichat.m3u")
 COUNTRY = os.environ.get("LUMI_COUNTRY", "FR").upper()
 SKIP_DEAD = os.environ.get("LUMI_SKIP_DEAD", "1") == "1"
-DEAD_SRC_PREFIXES = ("vavoo", "livewatch")
+PROVIDERS = [p.strip() for p in os.environ.get("LUMI_PROVIDERS", "ELITE").upper().split(",") if p.strip()]
+DEAD_SRC_PREFIXES = ("vavoo",)
 API_TIMEOUT = int(os.environ.get("LUMI_API_TIMEOUT", "25"))
 API_TRIES = int(os.environ.get("LUMI_API_TRIES", "3"))
 
@@ -72,6 +73,7 @@ def fetch_channels():
                         "group": ch.get("category_name") or cat.get("name") or "LumiChat",
                         "logo": ch.get("logo_url") or "",
                         "cc": ch.get("country_code") or "",
+                        "provider": (ch.get("provider") or "").upper(),
                     })
             print(f"[lumichat] API OK: {len(out)} chaines recuperees", flush=True)
             return out, True
@@ -112,7 +114,13 @@ def main():
         chans = [c for c in chans if (c.get("cc") or "").upper() == COUNTRY]
         print(f"[lumichat] filtre pays={COUNTRY}: {before} -> {len(chans)} chaines", flush=True)
 
-    # 3. Virer les sources connues mortes (vavoo, livewatch = 0% de succes)
+    # 3. Filtre par provider (seul ELITE resolve, les autres = success=false)
+    if PROVIDERS:
+        before_prov = len(chans)
+        chans = [c for c in chans if c.get("provider", "") in PROVIDERS]
+        print(f"[lumichat] filtre providers={PROVIDERS}: {before_prov} -> {len(chans)} chaines", flush=True)
+
+    # 4. Virer les sources connues mortes (vavoo = 0% de succes)
     if SKIP_DEAD:
         before = len(chans)
         chans = [c for c in chans if not c["id"].lower().startswith(DEAD_SRC_PREFIXES)]
@@ -122,14 +130,14 @@ def main():
         keep_existing("API OK mais 0 chaine apres filtre (anormal)")
         return
 
-    # 4. Garde-fou : si le nouveau M3U a BEAUCOUP MOINS que l'existant,
+    # 5. Garde-fou : si le nouveau M3U a BEAUCOUP MOINS que l'existant,
     #    c'est peut-etre un bug API -> on garde l'ancien.
     existing_count = parse_existing_m3u(OUT)
     if existing_count > 50 and len(chans) < existing_count * 0.3:
         keep_existing(f"API a renvoye seulement {len(chans)} chaines vs {existing_count} existantes (baisse >70%, suspect)")
         return
 
-    # 5. Generer le M3U (TOUTES les chaines, pas de probe)
+    # 6. Generer le M3U (TOUTES les chaines, pas de probe)
     lines = ["#EXTM3U"]
     for c in chans:
         lines.append(
