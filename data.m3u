@@ -3,7 +3,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tKbcSmtQqgez/8Guse4iar1KkeMtm.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="TNT France",France 2
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-2.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/res/france3-highest.m3u8
@@ -33,13 +33,13 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/l
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136870.m3u8
 #EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://tv4.life/tvlogos/france_4.png" group-title="TNT France",France 4 HD (1080p)
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-4.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="BFMTV.fr" epg-s="481" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/BFM_TV_color.png?h=100" tvg-country="FR" group-title="TNT France",BFM TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 #EXTINF:-1 tvg-chno="14" tvg-id="CNews.fr" epg-s="226" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CNews_color.png?h=100" tvg-country="FR" group-title="TNT France",C NEWS 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cnews-clair-hd-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-clair-hd.m3u8
 #EXTINF:-1 tvg-chno="17" tvg-id="CStar.fr" epg-s="458" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/CStar_color.png?h=100" tvg-country="FR" group-title="TNT France",CStar 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/cstar-dm-highest.m3u8
@@ -1602,7 +1602,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cana
 #EXTINF:-1 tvg-id="FranceTVSeries.fr" group-title="France TV backup",FRANCE TV SÉRIES [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/serie.m3u8
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
 #EXTINF:-1 tvg-id="FranceTVDocs.fr" group-title="France TV backup",FRANCE TV DOCS [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/documentaire.m3u8
 #EXTINF:-1 group-title="France TV backup",INA [schumijo]
@@ -4900,3 +4900,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
 #EXTINF:-1 tvg-id="FranceTVDocs.fr" group-title="France TV backup",FRANCE TV DOCS [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
