@@ -28,6 +28,17 @@ COUNTRY = os.environ.get("LUMI_COUNTRY", "FR").upper()
 SKIP_DEAD = os.environ.get("LUMI_SKIP_DEAD", "1") == "1"
 PROVIDERS = [p.strip() for p in os.environ.get("LUMI_PROVIDERS", "ELITE").upper().split(",") if p.strip()]
 DEAD_SRC_PREFIXES = ("vavoo",)
+
+# Ordre de tri des groupes (groupes francais prioritaires en tete)
+GROUP_ORDER = {
+  "Info": 0,
+  "Divertissement": 1,
+  "Cinema": 2,
+  "Sports": 3,
+  "Documentaires": 4,
+  "Musique": 5,
+  "General": 6,
+}
 API_TIMEOUT = int(os.environ.get("LUMI_API_TIMEOUT", "25"))
 API_TRIES = int(os.environ.get("LUMI_API_TRIES", "3"))
 
@@ -130,14 +141,30 @@ def main():
         keep_existing("API OK mais 0 chaine apres filtre (anormal)")
         return
 
-    # 5. Garde-fou : si le nouveau M3U a BEAUCOUP MOINS que l'existant,
+  # 5. Deduplication par nom (premiere occurrence gardee, les doublons
+  #    pointent souvent vers des flux etrangers avec le meme nom)
+  seen_names = set()
+  deduped = []
+  for c in chans:
+    key = c["name"].strip().upper()
+    if key not in seen_names:
+      seen_names.add(key)
+      deduped.append(c)
+  if len(deduped) < len(chans):
+    print(f"[lumichat] dedup noms: {len(chans)} -> {len(deduped)} chaines", flush=True)
+  chans = deduped
+
+  # 6. Tri par categorie (groupes francais prioritaires) puis par nom
+  chans.sort(key=lambda c: (GROUP_ORDER.get(c["group"], 99), c["name"].upper()))
+
+    # 7. Garde-fou : si le nouveau M3U a BEAUCOUP MOINS que l'existant,
     #    c'est peut-etre un bug API -> on garde l'ancien.
     existing_count = parse_existing_m3u(OUT)
     if existing_count > 50 and len(chans) < existing_count * 0.3:
         keep_existing(f"API a renvoye seulement {len(chans)} chaines vs {existing_count} existantes (baisse >70%, suspect)")
         return
 
-    # 6. Generer le M3U (TOUTES les chaines, pas de probe)
+    # 8. Generer le M3U (TOUTES les chaines, pas de probe)
     lines = ["#EXTM3U"]
     for c in chans:
         lines.append(
