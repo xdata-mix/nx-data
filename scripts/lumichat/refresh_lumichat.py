@@ -141,21 +141,21 @@ def main():
         keep_existing("API OK mais 0 chaine apres filtre (anormal)")
         return
 
-  # 5. Deduplication par nom (premiere occurrence gardee, les doublons
-  #    pointent souvent vers des flux etrangers avec le meme nom)
-  seen_names = set()
-  deduped = []
-  for c in chans:
-    key = c["name"].strip().upper()
-    if key not in seen_names:
-      seen_names.add(key)
-      deduped.append(c)
-  if len(deduped) < len(chans):
-    print(f"[lumichat] dedup noms: {len(chans)} -> {len(deduped)} chaines", flush=True)
-  chans = deduped
+    # 5. Deduplication par nom (premiere occurrence gardee, les doublons
+    #    pointent souvent vers des flux etrangers avec le meme nom)
+    seen_names = set()
+    deduped = []
+    for c in chans:
+        key = c["name"].strip().upper()
+        if key not in seen_names:
+            seen_names.add(key)
+            deduped.append(c)
+    if len(deduped) < len(chans):
+        print(f"[lumichat] dedup noms: {len(chans)} -> {len(deduped)} chaines", flush=True)
+    chans = deduped
 
-  # 6. Tri par categorie (groupes francais prioritaires) puis par nom
-  chans.sort(key=lambda c: (GROUP_ORDER.get(c["group"], 99), c["name"].upper()))
+    # 6. Tri par categorie (groupes francais prioritaires) puis par nom
+    chans.sort(key=lambda c: (GROUP_ORDER.get(c["group"], 99), c["name"].upper()))
 
     # 7. Garde-fou : si le nouveau M3U a BEAUCOUP MOINS que l'existant,
     #    c'est peut-etre un bug API -> on garde l'ancien.
