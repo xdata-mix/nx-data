@@ -4939,3 +4939,17 @@ https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
 https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
+
+# === Ajouts FR multi-sources : Divertissement ===
+#EXTINF:-1 tvg-id="SunPlusTV.cm@SD" group-title="Divertissement",Sun+ TV
+https://livemaraboo.com/hls/stream.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="i24NEWSFrench.il@SD" group-title="Info",i24NEWS French (1080p)
+https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" group-title="Musique",Trace Gospel Southern Africa
+https://channels.trace.plus/Traceprod/GOSPEL_SA_ld/index.m3u8
+#EXTINF:-1 tvg-id="TraceIvoire.fr@SD" group-title="Musique",Trace Ivoire
+https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
