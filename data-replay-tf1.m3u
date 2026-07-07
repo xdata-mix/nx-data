@@ -1277,12 +1277,12 @@ tf1plus://tf1/farscape
 tf1plus://tf1/secret-story
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
-#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
-tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
 tf1plus://tf1/auto-moto
+#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
+tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-tournoi-des-six-nations" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tournoi des Six Nations
 tf1plus://tf1/tournoi-des-six-nations
 #EXTINF:-1 tvg-id="tf1plus-tf1-eurobasket-masculin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Eurobasket Masculin
@@ -3067,6 +3067,10 @@ tf1plus://tf1/camping-2
 tf1plus://tmc/les-sous-doues-en-vacances
 #EXTINF:-1 tvg-id="tf1plus-tfx-wasabi-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-wasabi-0c012a-f5d84b-818261-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Wasabi
 tf1plus://tfx/wasabi
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-maison-des-femmes-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-la-maison-des-femmes-b33b0c-aaf751-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",La Maison des Femmes
+tf1plus://tf1/la-maison-des-femmes
+#EXTINF:-1 tvg-id="tf1plus-tf1-scream-7-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-scream-7-4bee5e-5d280f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Scream 7
+tf1plus://tf1/scream-7
 #EXTINF:-1 tvg-id="tf1plus-tf1-its-never-over-jeff-buckley-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5a13c1-597c67-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Its Never Over Jeff Buckley
 tf1plus://tf1/its-never-over-jeff-buckley
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-reve-americain-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-fc9c18-ec80bd-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Le Reve Americain
@@ -3103,10 +3107,6 @@ tf1plus://tf1/chasse-gardee-2-014
 tf1plus://tf1/chasse-gardee-490
 #EXTINF:-1 tvg-id="tf1plus-tf1-moi-moche-et-mechant-4-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-de1957-a5d1d8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Moi Moche et Mechant 4
 tf1plus://tf1/moi-moche-et-mechant-4
-#EXTINF:-1 tvg-id="tf1plus-tf1-retour-chez-ma-mere-236-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-retour-chez-ma-mere-405d42-fb9e9d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Retour Chez Ma Mere 236
-tf1plus://tf1/retour-chez-ma-mere-236
-#EXTINF:-1 tvg-id="tf1plus-tf1-five-nights-at-freddys-2-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-caf838-609a0a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Five Nights At Freddys 2
-tf1plus://tf1/five-nights-at-freddys-2
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-ou-chantent-les-ecrevisses-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-f33bfd-c8527a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",La Ou Chantent les Ecrevisses
 tf1plus://tf1-series-films/la-ou-chantent-les-ecrevisses
 #EXTINF:-1 tvg-id="tf1plus-tfx-flashdance-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-09cd25-99a4e2-e60df3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Flashdance
