@@ -1661,7 +1661,7 @@ https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-4.m3u8
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="le-meilleur-d-arthur" group-title="France TV backup",LE MEILLEUR D'ARTHUR [schumijo]
@@ -4978,3 +4978,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/quart
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
