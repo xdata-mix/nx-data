@@ -191,7 +191,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/9tsSIji4XEcL/cfygyZzbK9tJAr4T.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-id="LEquipe21.fr" epg-s="1401" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="Généralistes",LA CHAÎNE L'ÉQUIPE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/res/la-chaine-l-equipe-en-direct-dm-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/la-chaine-l-equipe-en-direct-dm.m3u8
 #EXTINF:-1 tvg-chno="23" tvg-id="Numero23.fr" epg-s="1402" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_STORY_color.png?h=100" tvg-country="FR" group-title="Généralistes",RMC STORY 
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136874.m3u8
 #EXTINF:-1 tvg-chno="24" tvg-id="RMCDecouverte.fr" epg-s="1400" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Decouverte_color.png?h=100" tvg-country="FR" group-title="Généralistes",RMC Découverte 
@@ -208,7 +208,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/documentaire-highest.m3u8
 #EXTINF:-1 tvg-chno="116" tvg-logo="https://i.imgur.com/ESz1gbr.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SÉRIES 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/serie.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/series.m3u8
 #EXTINF:-1 tvg-chno="117" tvg-logo="https://i.imgur.com/IeiMuGI.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SPORT [SSAI]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
@@ -235,13 +235,13 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/r
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-alpes-highest.m3u8
 #EXTINF:-1 tvg-chno="126" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 ALSACE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-alsace-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-alsace.m3u8
 #EXTINF:-1 tvg-chno="127" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 AQUITAINE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-aquitaine-highest.m3u8
 #EXTINF:-1 tvg-chno="128" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 AUVERGNE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-auvergne-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-auvergne.m3u8
 #EXTINF:-1 tvg-chno="129" tvg-logo="https://i.imgur.com/SdwDJct.png" tvg-country="FR" group-title="Généralistes",FRANCE 3 BASSE-NORMANDIE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-3-basse-normandie-highest.m3u8
