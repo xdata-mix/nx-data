@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/PGNFiLOxXFfK/m
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france3.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france3.m3u8
 #EXTINF:-1 tvg-chno="40" tvg-id="CanalPlus.fr" epg-s="34" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_color.png?h=100" tvg-country="FR" group-title="TNT France",CANAL+ EN CLAIR 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/res/canalplusclair-hd-highest.m3u8
@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="TNT France",Arte (720p) 
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/arte/arte.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/arte.m3u8
 #EXTINF:-1 tvg-chno="9" tvg-id="W9.fr" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/W9_color.png?h=100" tvg-country="FR" group-title="TNT France",W9
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
@@ -4894,7 +4894,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3
 #EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
 #EXTINF:-1 tvg-id="FranceTVDocs.fr" group-title="France TV backup",FRANCE TV DOCS [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u8
 #EXTINF:-1 group-title="France TV backup",INA [schumijo]
@@ -4982,3 +4982,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/francein
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
