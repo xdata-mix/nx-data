@@ -10327,8 +10327,8 @@ tf1plus://tf1/visions
 tf1plus://tf1/mystere
 #EXTINF:-1 tvg-id="tf1plus-tf1-au-dela-des-murs-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-05d96b-9b690b-f1e9fe-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Science-fiction",Au Dela des Murs
 tf1plus://tf1/au-dela-des-murs
-#EXTINF:-1 tvg-id="tf1plus-tf1-priere-denqueter-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-7bb1e5-adb102-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Priere Denqueter
-tf1plus://tf1/priere-denqueter
+#EXTINF:-1 tvg-id="tf1plus-tf1-mensonges-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-mensonges-b38373-da1762-82eff8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Mensonges
+tf1plus://tf1/mensonges
 #EXTINF:-1 tvg-id="tf1plus-tf1-pour-sarah-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-pour-sarah-1535ef-887714-93931e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Pour Sarah
 tf1plus://tf1/pour-sarah
 #EXTINF:-1 tvg-id="tf1plus-tf1-au-dela-des-apparences-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-0a8787-8ca093-bfc5a4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Au Dela des Apparences
@@ -10339,6 +10339,8 @@ tf1plus://tf1/commandant-saint-barth
 tf1plus://tf1/mercato
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-noces-rouges-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-855fda-0a4e5f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Séries - Mini-séries",Noces Rouges
 tf1plus://tf1-series-films/noces-rouges
+#EXTINF:-1 tvg-id="tf1plus-tf1-priere-denqueter-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-7bb1e5-adb102-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Priere Denqueter
+tf1plus://tf1/priere-denqueter
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-affaire-francaise-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-une-affaire-francaise-b343ac-ecd3b5-ebed32-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Une Affaire Francaise
 tf1plus://tf1/une-affaire-francaise
 #EXTINF:-1 tvg-id="tf1plus-tf1-olivia-fiction-tf1-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-c9cf75-d2fb74-c1d88e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Olivia Fiction Tf1
@@ -10361,8 +10363,6 @@ tf1plus://tf1/faites-des-gosses
 tf1plus://tf1/les-edelweiss
 #EXTINF:-1 tvg-id="tf1plus-tf1-thanksgiving-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-e894f0-2fefa0-f5c79c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Thanksgiving
 tf1plus://tf1/thanksgiving
-#EXTINF:-1 tvg-id="tf1plus-tmc-petits-meurtres-famille-mini-séries" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-cfe278-30e945-74fbd5-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Mini-séries",Petits Meurtres Famille
-tf1plus://tmc/petits-meurtres-famille
 #EXTINF:-1 tvg-id="tf1plus-tf1-chasing-life-drames" tvg-logo="https://photos.tf1.fr/217/289/vignette-immersive_06-chasing-life-1a2c15-fd71f1-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Chasing Life
 tf1plus://tf1/chasing-life
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-affaire-francaise-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-une-affaire-francaise-b343ac-ecd3b5-ebed32-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Une Affaire Francaise
@@ -10389,6 +10389,8 @@ tf1plus://tf1/les-randonneuses
 tf1plus://tf1/une-mere-parfaite
 #EXTINF:-1 tvg-id="tf1plus-tf1-aux-animaux-la-guerre-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5cf05a-3420d3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Aux Animaux la Guerre
 tf1plus://tf1/aux-animaux-la-guerre
+#EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-f6797c-939b6c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",All Her Fault
+tf1plus://tf1/all-her-fault
 #EXTINF:-1 tvg-id="tf1plus-tf1-disparue-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-disparue-9cc0ee-d942f2-85a1f6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Disparue
 tf1plus://tf1/disparue
 #EXTINF:-1 tvg-id="tf1plus-tf1-mon-ange-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-0fa1be-7d4ab2-7ea31b-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Mon Ange
@@ -11041,8 +11043,8 @@ tf1plus://tf1/balthazar
 tf1plus://tf1/les-feux-de-l-amour
 #EXTINF:-1 tvg-id="tf1plus-tf1-petits-secrets-entre-voisins" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petits Secrets Entre Voisins
 tf1plus://tf1/petits-secrets-entre-voisins
-#EXTINF:-1 tvg-id="tf1plus-tmc-le-nouveau-business-de-lintime" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Le Nouveau Business de Lintime
-tf1plus://tmc/le-nouveau-business-de-lintime
+#EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",All Her Fault
+tf1plus://tf1/all-her-fault
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -11213,6 +11215,8 @@ tf1plus://tmc/ice-une-milice-en-croisade
 tf1plus://tmc/on-aura-tous-100-ans
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-gourous-de-la-virilite" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Gourous de la Virilite
 tf1plus://tmc/les-gourous-de-la-virilite
+#EXTINF:-1 tvg-id="tf1plus-tmc-le-nouveau-business-de-lintime" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Le Nouveau Business de Lintime
+tf1plus://tmc/le-nouveau-business-de-lintime
 #EXTINF:-1 tvg-id="tf1plus-tmc-antilles-bienvenue-en-france" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Antilles Bienvenue En France
 tf1plus://tmc/antilles-bienvenue-en-france
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-liban-une-jeunesse-sous-les-bombes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill Liban une Jeunesse Sous les Bombes
@@ -11483,20 +11487,20 @@ tf1plus://tf1/papa-malgre-lui
 tf1plus://tf1/service-vole
 #EXTINF:-1 tvg-id="tf1plus-tf1-loin-de-chez-moi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Loin de Chez Moi
 tf1plus://tf1/loin-de-chez-moi
-#EXTINF:-1 tvg-id="tf1plus-tf1-trop-jeune-pour-moi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Trop Jeune Pour Moi
-tf1plus://tf1/trop-jeune-pour-moi
 #EXTINF:-1 tvg-id="tf1plus-tf1-harceles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Harceles
 tf1plus://tf1/harceles
+#EXTINF:-1 tvg-id="tf1plus-tf1-trop-jeune-pour-moi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Trop Jeune Pour Moi
+tf1plus://tf1/trop-jeune-pour-moi
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-en-andalousie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre En Andalousie
 tf1plus://tf1/coup-de-foudre-en-andalousie
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
 tf1plus://tf1/a-tes-cotes
-#EXTINF:-1 tvg-id="tf1plus-tf1-mabandonne-pas" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mabandonne Pas
-tf1plus://tf1/mabandonne-pas
 #EXTINF:-1 tvg-id="tf1plus-tf1-filip" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Filip
 tf1plus://tf1/filip
 #EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
 tf1plus://tf1/panique-au-grand-magasin
+#EXTINF:-1 tvg-id="tf1plus-tf1-mabandonne-pas" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mabandonne Pas
+tf1plus://tf1/mabandonne-pas
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre
 tf1plus://tf1/coup-de-foudre
 #EXTINF:-1 tvg-id="tf1plus-tf1-pourquoi-je-vis" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pourquoi Je Vis
