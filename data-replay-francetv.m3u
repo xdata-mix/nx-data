@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-prog-france-5_regne-animal-les-jeux-de-l-amour" tvg-logo="https://medias.france.tv/25Kbysd5eHQPcHRTzqGilCK4WMg/400x0/filters:quality(85)/i/s/s/phpvkissi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Règne animal, les jeux de l'amour
+francetv://program/france-5_regne-animal-les-jeux-de-l-amour
 #EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Meurtres au paradis
 francetv://program/france-2_meurtres-au-paradis
 #EXTINF:-1 tvg-id="francetv-a878c3c7-c0d9-478f-84a2-5c6532006ce0" tvg-logo="https://medias.france.tv/4cmQtQXVMfJ4bfk2xGRhYR2TV3A/400x0/filters:quality(85)/x/x/o/phprsioxx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Liberty Lights
@@ -155,6 +157,8 @@ francetv://program/france-2_n-oubliez-pas-les-paroles
 francetv://program/france-2_les-enfants-de-la-tele
 #EXTINF:-1 tvg-id="francetv-c6ec8962-aa3e-48b4-883a-70dc558fab07" tvg-logo="https://medias.france.tv/lhRe7JwVT2Nme3WiH1OEB9Ug3NM/400x0/filters:quality(85)/i/z/b/phpsfxbzi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",L'école buissonnière
 francetv://c6ec8962-aa3e-48b4-883a-70dc558fab07
+#EXTINF:-1 tvg-id="francetv-prog-france-3_alexandra-ehle" tvg-logo="https://medias.france.tv/E1mYlGvYQDMbAookSdvTENa2j5Y/400x0/filters:quality(85)/x/i/e/phpmnpeix.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Alexandra Ehle
+francetv://program/france-3_alexandra-ehle
 #EXTINF:-1 tvg-id="francetv-prog-france-3_l-heure-d" tvg-logo="https://medias.france.tv/HfhAnJ3gpR1FX2hnl1B3ZLzG8sk/400x0/filters:quality(85)/o/k/9/php4fr9ko.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",L'Heure D
 francetv://program/france-3_l-heure-d
 #EXTINF:-1 tvg-id="francetv-9231b273-642c-4a94-a1b4-29e1ef6f203c" tvg-logo="https://medias.france.tv/AsvgSl4fvq-F4kB0LasiLVtJBdw/400x0/filters:quality(85)/3/k/y/php4loyk3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Outremer.ledoc — Les enfants de la Soufrière, 50 ans après
@@ -245,8 +249,6 @@ francetv://f00ec381-8b83-48e4-b022-bd2b30ab4843
 francetv://program/france-3_vanina-meurtres-en-sicile
 #EXTINF:-1 tvg-id="francetv-prog-france-3_cassandre" tvg-logo="https://medias.france.tv/2q2Oh0eBPp5QsHV-mPG172wdGy0/400x0/filters:quality(85)/c/7/x/phpevix7c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Cassandre
 francetv://program/france-3_cassandre
-#EXTINF:-1 tvg-id="francetv-prog-france-3_alexandra-ehle" tvg-logo="https://medias.france.tv/E1mYlGvYQDMbAookSdvTENa2j5Y/400x0/filters:quality(85)/x/i/e/phpmnpeix.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Alexandra Ehle
-francetv://program/france-3_alexandra-ehle
 #EXTINF:-1 tvg-id="francetv-prog-france-3_tandem" tvg-logo="https://medias.france.tv/VEwYKuNZaBIukmMUrkSjP6wlAxg/400x0/filters:quality(85)/w/r/r/phpe0krrw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Tandem
 francetv://program/france-3_tandem
 #EXTINF:-1 tvg-id="francetv-prog-france-3_inspecteur-barnaby" tvg-logo="https://medias.france.tv/-dXtBG2Xu9w5G9tYBz2NKE6AUdI/400x0/filters:quality(85)/y/r/l/phpgrklry.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Inspecteur Barnaby
@@ -2013,32 +2015,30 @@ francetv://program/enfants_six-huit-ans_tinka
 francetv://program/enfants_neuf-douze-ans_zombie-lars
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_fifi-brindacier" tvg-logo="https://medias.france.tv/SsNfFOkY2h0PcAc0PDQCiWMHXUA/400x0/filters:quality(85)/i/q/z/phpxlazqi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries Okoo",Fifi Brindacier
 francetv://program/enfants_six-huit-ans_fifi-brindacier
-#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-societe_affaire-jubillar-anatomie-d-une-disparition" tvg-logo="https://medias.france.tv/Z8Of3VV5evr4Ht8i9qLjosSY48Q/400x0/filters:quality(85)/v/h/h/phplsghhv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Affaire Jubillar : anatomie d'une disparition
-francetv://program/documentaires_documentaires-societe_affaire-jubillar-anatomie-d-une-disparition
+#EXTINF:-1 tvg-id="francetv-prog-france-5_regne-animal-les-jeux-de-l-amour" tvg-logo="https://medias.france.tv/25Kbysd5eHQPcHRTzqGilCK4WMg/400x0/filters:quality(85)/i/s/s/phpvkissi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Règne animal, les jeux de l'amour
+francetv://program/france-5_regne-animal-les-jeux-de-l-amour
 #EXTINF:-1 tvg-id="francetv-5f0d3209-6e0a-4670-8f14-8a4db3440a0b" tvg-logo="https://medias.france.tv/c4hEBoyL2Hh9DqbEqiotPFUhxbQ/400x0/filters:quality(85)/u/m/0/phpuud0mu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Sale temps pour la planète — Guadeloupe, beauté fragile
 francetv://5f0d3209-6e0a-4670-8f14-8a4db3440a0b
-#EXTINF:-1 tvg-id="francetv-9231b273-642c-4a94-a1b4-29e1ef6f203c" tvg-logo="https://medias.france.tv/AsvgSl4fvq-F4kB0LasiLVtJBdw/400x0/filters:quality(85)/3/k/y/php4loyk3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Outremer.ledoc — Les enfants de la Soufrière, 50 ans après
-francetv://9231b273-642c-4a94-a1b4-29e1ef6f203c
+#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-societe_affaire-jubillar-anatomie-d-une-disparition" tvg-logo="https://medias.france.tv/Z8Of3VV5evr4Ht8i9qLjosSY48Q/400x0/filters:quality(85)/v/h/h/phplsghhv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Affaire Jubillar : anatomie d'une disparition
+francetv://program/documentaires_documentaires-societe_affaire-jubillar-anatomie-d-une-disparition
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
-#EXTINF:-1 tvg-id="francetv-58ac1c2c-9017-4f45-88c7-865cd0473a95" tvg-logo="https://medias.france.tv/sSvTAA47ZVYKRSZVW4Fgep0kl-s/400x0/filters:quality(85)/6/l/p/phpnjrpl6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Échappées belles — Japon, les surprises de Tokyo
-francetv://58ac1c2c-9017-4f45-88c7-865cd0473a95
+#EXTINF:-1 tvg-id="francetv-9231b273-642c-4a94-a1b4-29e1ef6f203c" tvg-logo="https://medias.france.tv/AsvgSl4fvq-F4kB0LasiLVtJBdw/400x0/filters:quality(85)/3/k/y/php4loyk3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Outremer.ledoc — Les enfants de la Soufrière, 50 ans après
+francetv://9231b273-642c-4a94-a1b4-29e1ef6f203c
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
 francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
-#EXTINF:-1 tvg-id="francetv-prog-france-3_l-heure-d" tvg-logo="https://medias.france.tv/HfhAnJ3gpR1FX2hnl1B3ZLzG8sk/400x0/filters:quality(85)/o/k/9/php4fr9ko.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",L'Heure D
-francetv://program/france-3_l-heure-d
+#EXTINF:-1 tvg-id="francetv-58ac1c2c-9017-4f45-88c7-865cd0473a95" tvg-logo="https://medias.france.tv/sSvTAA47ZVYKRSZVW4Fgep0kl-s/400x0/filters:quality(85)/6/l/p/phpnjrpl6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Échappées belles — Japon, les surprises de Tokyo
+francetv://58ac1c2c-9017-4f45-88c7-865cd0473a95
+#EXTINF:-1 tvg-id="francetv-1dfbfccf-4a0a-435b-9307-4c72f2b5f6db" tvg-logo="https://medias.france.tv/HBhwJZ80qQknlk4ND_JQRz0vclY/400x0/filters:quality(85)/w/j/w/phpozxwjw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Enquête de santé — Ces gestes qui sauvent votre été
+francetv://1dfbfccf-4a0a-435b-9307-4c72f2b5f6db
+#EXTINF:-1 tvg-id="francetv-77333f1b-218e-4c72-9696-bac8c6198685" tvg-logo="https://medias.france.tv/d8BctkfU6UME53dE08rPPnBqE6Y/400x0/filters:quality(85)/b/8/v/phpjk3v8b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",La belle histoire de la chanson française
+francetv://77333f1b-218e-4c72-9696-bac8c6198685
+#EXTINF:-1 tvg-id="francetv-09683609-f65c-4148-97bc-ae454bef8f1c" tvg-logo="https://medias.france.tv/TaQprUebGExLPsIUVK2w2aZAsLk/400x0/filters:quality(85)/s/b/t/phpgaktbs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Tout compris ! Une histoire des clubs de vacances
+francetv://09683609-f65c-4148-97bc-ae454bef8f1c
 #EXTINF:-1 tvg-id="francetv-a878c3c7-c0d9-478f-84a2-5c6532006ce0" tvg-logo="https://medias.france.tv/4cmQtQXVMfJ4bfk2xGRhYR2TV3A/400x0/filters:quality(85)/x/x/o/phprsioxx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Liberty Lights
 francetv://a878c3c7-c0d9-478f-84a2-5c6532006ce0
 #EXTINF:-1 tvg-id="francetv-979ca03f-2ddc-4030-86ac-c911fb5cb51e" tvg-logo="https://medias.france.tv/HFzRGlE6xIbXLbRna19lQahB4XE/400x0/filters:quality(85)/c/k/u/phplvnukc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",La case du siècle — La Retirada ou l'exode d'un peuple
 francetv://979ca03f-2ddc-4030-86ac-c911fb5cb51e
-#EXTINF:-1 tvg-id="francetv-1dfbfccf-4a0a-435b-9307-4c72f2b5f6db" tvg-logo="https://medias.france.tv/HBhwJZ80qQknlk4ND_JQRz0vclY/400x0/filters:quality(85)/w/j/w/phpozxwjw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Enquête de santé — Ces gestes qui sauvent votre été
-francetv://1dfbfccf-4a0a-435b-9307-4c72f2b5f6db
-#EXTINF:-1 tvg-id="francetv-09683609-f65c-4148-97bc-ae454bef8f1c" tvg-logo="https://medias.france.tv/TaQprUebGExLPsIUVK2w2aZAsLk/400x0/filters:quality(85)/s/b/t/phpgaktbs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Tout compris ! Une histoire des clubs de vacances
-francetv://09683609-f65c-4148-97bc-ae454bef8f1c
-#EXTINF:-1 tvg-id="francetv-cd11c93a-e289-44a1-b367-feb748765e1b" tvg-logo="https://medias.france.tv/nx4IZvyilvCjW3r-ZV9x86ZRj84/400x0/filters:quality(85)/2/d/v/phphd8vd2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Secrets d'Histoire — Les amants tragiques de Mayerling
-francetv://cd11c93a-e289-44a1-b367-feb748765e1b
-#EXTINF:-1 tvg-id="francetv-77333f1b-218e-4c72-9696-bac8c6198685" tvg-logo="https://medias.france.tv/d8BctkfU6UME53dE08rPPnBqE6Y/400x0/filters:quality(85)/b/8/v/phpjk3v8b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",La belle histoire de la chanson française
-francetv://77333f1b-218e-4c72-9696-bac8c6198685
 #EXTINF:-1 tvg-id="francetv-c3609c6a-4353-419a-9d25-b1e2f8b67ebe" tvg-logo="https://medias.france.tv/xUUohqL0-RT2-UlY5kZtDjJ1Mww/400x0/filters:quality(85)/y/j/i/php6q0ijy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Une planète face au changement climatique",Le monde de Jamy — Des feux extrêmes en France : sommes-nous prêts ?
 francetv://c3609c6a-4353-419a-9d25-b1e2f8b67ebe
 #EXTINF:-1 tvg-id="francetv-f0a5ab6a-f69f-4821-9468-5609e3c5b47b" tvg-logo="https://medias.france.tv/se13QK8xKfyAzaZfPxQ9s-cIF9A/400x0/filters:quality(85)/p/c/l/php2f7lcp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Une planète face au changement climatique",Sur le front — Coraux : l'incroyable voyage
@@ -2265,7 +2265,7 @@ francetv://program/arte_la-revolution-americaine
 francetv://1365fea7-6093-4318-90c9-2a0be4686854
 #EXTINF:-1 tvg-id="francetv-0eb1716d-25d7-47b4-9361-765714c7f8f5" tvg-logo="https://medias.france.tv/YA8rrsdJPk5xz2w7kD10cxfnycY/400x0/filters:quality(85)/9/e/e/279fe21c7fb045a9883031db75ff2ee9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Les docs d'Arte",Le moustique, un ennemi bien armé
 francetv://0eb1716d-25d7-47b4-9361-765714c7f8f5
-#EXTINF:-1 tvg-id="francetv-1fd5d71e-8a38-472d-979e-5fc98a2f36c6" tvg-logo="https://medias.france.tv/MsECqC1sJ8YKVHz7ReC4pzY_gU0/400x0/filters:quality(85)/8/5/1/01679cb74bf548a3a54d83a4154c0158.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Les docs d'Arte",Expédition au fond des océans
+#EXTINF:-1 tvg-id="francetv-1fd5d71e-8a38-472d-979e-5fc98a2f36c6" tvg-logo="https://medias.france.tv/7t7KUNkj-3zGzML02lBXX-dJoYA/400x0/filters:quality(85)/5/2/c/3bd3da9d52b344b189e951af119d4c25.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Les docs d'Arte",Expédition au fond des océans
 francetv://1fd5d71e-8a38-472d-979e-5fc98a2f36c6
 #EXTINF:-1 tvg-id="francetv-prog-arte_rebonds" tvg-logo="https://medias.france.tv/Q-hYhrDXXIPAaQJEd2AkeTNk0kU/400x0/filters:quality(85)/b/4/e/563bb7da1bcb471bbdc79d77c1477e4b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Les docs d'Arte",Rebonds
 francetv://program/arte_rebonds
