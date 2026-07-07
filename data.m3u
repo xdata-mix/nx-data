@@ -4948,3 +4948,7 @@ https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
 https://channels.trace.plus/Traceprod/GOSPEL_SA_ld/index.m3u8
 #EXTINF:-1 tvg-id="TraceIvoire.fr@SD" group-title="Musique",Trace Ivoire
 https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
+https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
