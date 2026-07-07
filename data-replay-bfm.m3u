@@ -11,10 +11,10 @@ bfmlive://bfmbusiness
 bfmlive://rmclife
 #EXTINF:-1 tvg-id="bfmlive-techco" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfm-tv-fr.png" tvg-country="FR" group-title="Live BFM Play",Tech & Co Direct
 bfmlive://techco
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM663983773527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/5/ba9eea82e16fefe9dba756b19e136293_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Jubillar, pour le meilleur et pour le pire
-bfmplay://NEUF_BFMTV_BFM663983773527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020922663277" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/7/2/834ba0407b5e3a20fe2b71117f546234_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Marine Le Pen, un destin en suspens
 bfmplay://NEUF_BFMTV_BFM1020922663277
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM663983773527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/5/ba9eea82e16fefe9dba756b19e136293_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Jubillar, pour le meilleur et pour le pire
+bfmplay://NEUF_BFMTV_BFM663983773527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1000126716527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/5/99b8f0ee1ee9f685902c0b65406e83a6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Kylian Mbappé, le maître du jeu
 bfmplay://NEUF_BFMTV_BFM1000126716527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916203" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/0/2/5f5959009466cb7ecc658d2100324e21_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Condamnation annulée, quadruple meurtre : l’incroyable affaire Dany Leprince
@@ -1135,6 +1135,8 @@ bfmplay://NEUF_RMCDEC_RMC978066877527
 bfmplay://NEUF_RMCDEC_RMC978066859527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132019756" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/5/7/bbf147fab7afa79b9aa9edf3d8fd859a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - Explosions à Damas. Macron sain et sauf. A-t-il eu raison d’y aller  ?
 bfmplay://NEUF_NUM23_N231021132019756
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132019742" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/4/7/961ba9acc9e360cedee01513939b6a5a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - Invité :  François Ruffin
+bfmplay://NEUF_NUM23_N231021132019742
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132019728" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/2/7/c71d45b1ac322c64994d1f181d22d9c2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - Incendies : 1 conducteur sur 5 jette encore ses mégots par la fenêtre de sa voiture… Faut-il interdire la cigarette au volant ?
 bfmplay://NEUF_NUM23_N231021132019728
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132019714" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/1/7/f5be1cf948693250cc9da31672ff16b8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - Mbappé victime de racisme. Tous derrière Kiki ?
@@ -3151,8 +3153,10 @@ bfmplay://NEUF_NUM23_N231021040992141
 bfmplay://NEUF_NUM23_N231020937760293
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020963020747" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/4/7/850c734eaac23ad76da88827db7ac6e1_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Les docs du moment",La folle histoire de Coca-Cola
 bfmplay://NEUF_NUM23_N231020963020747
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132019742" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/4/7/961ba9acc9e360cedee01513939b6a5a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Les shows RMC radio",Invité :  François Ruffin
-bfmplay://NEUF_NUM23_N231021132019742
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451876B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/B/6/7/aee5a846478b0b5286cf71bf2d91fc4b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Les shows RMC radio",Mettre fin aux avantages des anciens Présidents : pour ou contre ?
+bfmplay://NEUF_NUM23_N231020943451876B
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451876A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/A/6/7/dce904e7450d05b992d4e768e3fa36e7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Les shows RMC radio",Canicule : prêts à affronter une 3e vague de chaleur ?
+bfmplay://NEUF_NUM23_N231020943451876A
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281670527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/a903ac101833c9878ae9f814a97df071_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E3 - Du plomb et de la poudre
 bfmplay://NEUF_RMCDEC_RMC984281670527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281660527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/27e0ef6cf565d5b942ac89c098ba3802_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E2 - Premier tir mortel
@@ -7113,10 +7117,10 @@ bfmplay://NEUF_BFMAVOD_BAV798639603527
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
 bfmplay://NEUF_BFMAVOD_BAV00235677
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
-bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
 bfmplay://NEUF_BFMAVOD_BAV00200621
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
+bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_933530904527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/BAV_933530904527_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les plus vus en streaming",Vintage mecanic
 bfmplay://NEUF_BFMAVOD_BAV_933530904527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23975725183527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/57aa3da6a8d0fbc3b68ab26a3a289de8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Exclus BFM Play - Nos séries à binger",La vie secrète des chats - S1E1 - Quand le chat n'est pas là... où va-t-il ?
