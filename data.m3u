@@ -4975,3 +4975,8 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/16èm
 #EXTINF:-1 tvg-chno="125" tvg-country="FR" group-title="Nouveautes ParaTV",125. 8ÈMES DE FINALE : MESSONNIER CONTRE BATISTA [1080p-france.tv]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/8èmes-de-finale-messonnier-contre-batista.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+# === Nouveautes ParaTV (auto-ajoute) ===
+#EXTINF:-1 tvg-chno="125" tvg-country="FR" group-title="Nouveautes ParaTV",125. QUART DE FINALE : LAUR ET COUDENE [1080p-france.tv]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/quart-de-finale-laur-et-coudene.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
