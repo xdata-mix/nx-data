@@ -436,7 +436,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/region
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region03-highest.m3u8
 #EXTINF:-1 tvg-chno="324" tvg-country="FR" group-title="Sport",REGION 4 [1080p-equidia.fr]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region04-highest.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/region04.m3u8
 #EXTINF:-1 tvg-chno="325" tvg-country="FR" group-title="Sport",REGION 5 [1080p-equidia.fr]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/res/region05-highest.m3u8
@@ -4542,7 +4542,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France5.fr" group-title="France TV backup",FRANCE 5 [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france5.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -5010,3 +5010,7 @@ http://45.162.231.38:7779/TV5_Monde/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France5.fr" group-title="France TV backup",FRANCE 5 [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france5.m3u8
