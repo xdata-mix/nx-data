@@ -19159,10 +19159,12 @@ m6play://m6replay/26499
 m6play://m6replay/9651
 #EXTINF:-1 tvg-id="m6plus-10015" tvg-logo="https://images.6play.fr/v1/images/4261296/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Le Journal Inattendu
 m6play://m6replay/10015
-#EXTINF:-1 tvg-id="francetv-prog-france-5_regne-animal-les-jeux-de-l-amour" tvg-logo="https://medias.france.tv/25Kbysd5eHQPcHRTzqGilCK4WMg/400x0/filters:quality(85)/i/s/s/phpvkissi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Règne animal, les jeux de l'amour
-francetv://program/france-5_regne-animal-les-jeux-de-l-amour
+#EXTINF:-1 tvg-id="francetv-0c865afe-4ae5-4542-98fe-3a9bb0f94b0a" tvg-logo="https://medias.france.tv/rCqkcl5KaciQ1rfGTwpwGIHW3Ew/400x0/filters:quality(85)/0/9/3/1a60f76fde634d3b9b6424cdba618390.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le match France-Italie : histoire d'une rivalité
+francetv://0c865afe-4ae5-4542-98fe-3a9bb0f94b0a
 #EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Meurtres au paradis
 francetv://program/france-2_meurtres-au-paradis
+#EXTINF:-1 tvg-id="francetv-prog-france-5_regne-animal-les-jeux-de-l-amour" tvg-logo="https://medias.france.tv/25Kbysd5eHQPcHRTzqGilCK4WMg/400x0/filters:quality(85)/i/s/s/phpvkissi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Règne animal, les jeux de l'amour
+francetv://program/france-5_regne-animal-les-jeux-de-l-amour
 #EXTINF:-1 tvg-id="francetv-a878c3c7-c0d9-478f-84a2-5c6532006ce0" tvg-logo="https://medias.france.tv/4cmQtQXVMfJ4bfk2xGRhYR2TV3A/400x0/filters:quality(85)/x/x/o/phprsioxx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Liberty Lights
 francetv://a878c3c7-c0d9-478f-84a2-5c6532006ce0
 #EXTINF:-1 tvg-id="francetv-8ea32b73-43a1-4d6c-8d44-bf372c13a942" tvg-logo="https://medias.france.tv/aUxjRtta81KeFgNLcoO7diY2TxY/400x0/filters:quality(85)/l/w/o/phpzqcowl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association ONU Femmes France
@@ -19517,6 +19519,8 @@ francetv://program/france-3_samedi-d-en-rire
 francetv://program/france-3_vivement-dimanche
 #EXTINF:-1 tvg-id="francetv-prog-france-3_duels-en-familles-le-match-des-regions" tvg-logo="https://medias.france.tv/aS-FpSeAlmyqF4hZWY4EMnCYizc/400x0/filters:quality(85)/y/j/k/phplvwkjy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Duels en familles
 francetv://program/france-3_duels-en-familles-le-match-des-regions
+#EXTINF:-1 tvg-id="francetv-72c4113a-6399-4c0b-ad51-3465ffae2c01" tvg-logo="https://medias.france.tv/17-9ocMFGnEdXdOuipX4OxpXAM8/400x0/filters:quality(85)/d/s/r/phpqadrsd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 4",Le meilleur du festival We Love Green
+francetv://72c4113a-6399-4c0b-ad51-3465ffae2c01
 #EXTINF:-1 tvg-id="francetv-ce8e3778-87ca-45f7-8e5d-5a94f47ba27e" tvg-logo="https://medias.france.tv/9uNtYaxmmF6bso8ZpwJ4Kf1C0q8/400x0/filters:quality(85)/u/v/k/phptsfkvu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 4",Aya Nakamura au Stade de France
 francetv://ce8e3778-87ca-45f7-8e5d-5a94f47ba27e
 #EXTINF:-1 tvg-id="francetv-3640d2eb-b594-4a0d-9110-a655c9278520" tvg-logo="https://medias.france.tv/npm4MHmSPEQ6V7cMl36HsvUGUos/400x0/filters:quality(85)/l/4/u/phpgigu4l.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 4",Paloma au PluriElles
@@ -23407,6 +23411,8 @@ francetv://program/franceinfo_le-16h-18h
 francetv://program/franceinfo_le-pour-et-le-contre
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_le-23h" tvg-logo="https://medias.france.tv/3eJSMRC952PL26Da9PnULNuzABA/400x0/filters:quality(85)/x/q/r/phpxhnrqx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - L'info en continu",Le 23h
 francetv://program/franceinfo_le-23h
+#EXTINF:-1 tvg-id="francetv-72c4113a-6399-4c0b-ad51-3465ffae2c01" tvg-logo="https://medias.france.tv/17-9ocMFGnEdXdOuipX4OxpXAM8/400x0/filters:quality(85)/d/s/r/phpqadrsd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le meilleur du festival We Love Green
+francetv://72c4113a-6399-4c0b-ad51-3465ffae2c01
 #EXTINF:-1 tvg-id="francetv-ce8e3778-87ca-45f7-8e5d-5a94f47ba27e" tvg-logo="https://medias.france.tv/9uNtYaxmmF6bso8ZpwJ4Kf1C0q8/400x0/filters:quality(85)/u/v/k/phptsfkvu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Aya Nakamura au Stade de France
 francetv://ce8e3778-87ca-45f7-8e5d-5a94f47ba27e
 #EXTINF:-1 tvg-id="francetv-3640d2eb-b594-4a0d-9110-a655c9278520" tvg-logo="https://medias.france.tv/npm4MHmSPEQ6V7cMl36HsvUGUos/400x0/filters:quality(85)/l/4/u/phpgigu4l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Paloma au PluriElles
