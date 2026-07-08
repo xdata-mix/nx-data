@@ -19,6 +19,8 @@ bfmplay://NEUF_BFMTV_BFM663983773527
 bfmplay://NEUF_BFMTV_BFM1000126716527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916203" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/0/2/5f5959009466cb7ecc658d2100324e21_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Condamnation annulée, quadruple meurtre : l’incroyable affaire Dany Leprince
 bfmplay://NEUF_BFMTV_BFM1020926916203
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0125" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/2/1/093e9004b846ba738f5456d990bc2b2e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Marine Le Pen, candidate ? - Partie 1
+bfmplay://NEUF_BFMTV_BFMES0125
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0126" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/2/1/47f9847cecc301bdaae09a9d072dda60_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Marine Le Pen, candidate ? - Partie 2
 bfmplay://NEUF_BFMTV_BFMES0126
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135270975" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/7/9/8cf35223e9f781fc522f7ce57a9a74f4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission spéciale du 7 juillet 2026
@@ -51,8 +53,6 @@ bfmplay://NEUF_BFMTV_BFM1020926916213
 bfmplay://NEUF_BFMTV_BFM1021135270969
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMEC0005" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/0/0/d2c5971eb4ab25901433a61adec05779_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Edouard Philippe en meeting à l'Adidas Arena de Paris
 bfmplay://NEUF_BFMTV_BFMEC0005
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021133596897" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/9/8/459ebeaaa42828f518d093d56991f682_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Robert Boulin : l'énigme de la Ve République
-bfmplay://NEUF_BFMTV_BFM1021133596897
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021141374052" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/0/e11937e53e944781170a6b2040f61872_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Canicule : la France suffoque",Canicule record : la France au point de rupture
 bfmplay://NEUF_BFMTV_BFM1021141374052
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916182" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/8/1/af9b44d65c99a3c5c04cf07d294d5f22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Canicule : la France suffoque",Hôpitaux : au défi de la canicule record
@@ -105,6 +105,20 @@ bfmplay://NEUF_BFMTV_BFM1021023757907
 bfmplay://NEUF_BFMTV_BFM1021101979022
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021073051833" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/3/8/8d929312b04e6d5d9680e87e1e38316d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Grands Reportages","Epic fury", les coulisses de l’incroyable opération
 bfmplay://NEUF_BFMTV_BFM1021073051833
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/1/29ae3af338e27422248338ada68e7728_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Poutine, bientôt la chute ?
+bfmplay://NEUF_BFMTV_BFMES0122
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
+bfmplay://NEUF_BFMTV_BFMES0121
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/1/798e3fb68309b7a0885b95b6d9a5c081_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Lyhanna : le rapport explosif dévoilé
+bfmplay://NEUF_BFMTV_BFMES0118
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/3/0/57b2cfef41bf87ee2933282411e0c063_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans qui ont bouleversé la France - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0030
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0029" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/2/0/df23ad2659cc771b6678f3a9e11e30c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans autour du monde - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0029
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0028" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/2/0/cdb7bda0f3776a5f633be8c9e27a6783_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans d'actualité politique - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0028
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0027" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/0/db013161014e07107400ae5d4472f7db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans auprès de vous - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0027
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135271017" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/1/0/7ddbd6c9f60abc73e45927f21ffa3bd2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",20h BFM - Émission du 4 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021135271017
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135271245" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/4/2/b5de5a217931cbb80ee206b8074cd6f3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",20h BFM - Émission du 3 juillet 2026
@@ -245,20 +259,6 @@ bfmplay://NEUF_BFMTV_BFMEE0001
 bfmplay://NEUF_BFMTV_BFM0300016584J
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM0300016693B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/B/3/9/443d4f3cb6aefa90fef78bd2e2b2922a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les entretiens exclusifs - Hollande vs Poutine : l'interview vérité
 bfmplay://NEUF_BFMTV_BFM0300016693B
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/1/29ae3af338e27422248338ada68e7728_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Poutine, bientôt la chute ?
-bfmplay://NEUF_BFMTV_BFMES0122
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
-bfmplay://NEUF_BFMTV_BFMES0121
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/1/798e3fb68309b7a0885b95b6d9a5c081_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Lyhanna : le rapport explosif dévoilé
-bfmplay://NEUF_BFMTV_BFMES0118
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/3/0/57b2cfef41bf87ee2933282411e0c063_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans qui ont bouleversé la France - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0030
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0029" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/2/0/df23ad2659cc771b6678f3a9e11e30c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans autour du monde - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0029
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0028" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/2/0/cdb7bda0f3776a5f633be8c9e27a6783_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans d'actualité politique - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0028
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0027" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/0/db013161014e07107400ae5d4472f7db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans auprès de vous - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0027
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916150" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/5/1/2bd7c613788db64f8f66a139795d7183_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Ligne Rouge - Émission du 14 juin 2026 - Patrick Bruel : La chute d'une icône
 bfmplay://NEUF_BFMTV_BFM1020926916150
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926915919A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/A/9/1/475c435425d5d204b86601ef8814d209_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Ligne Rouge - Iran, le plan secret des forces spéciales
@@ -285,6 +285,8 @@ bfmplay://NEUF_BFMTV_BFM1021132084447
 bfmplay://NEUF_BFMTV_BFM1021132084441
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021132084413" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/1/4/c52fb0d23aaead260123f34f3eb8dbf6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM week-end - Émission du 14 juin 2026
 bfmplay://NEUF_BFMTV_BFM1021132084413
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021133596897" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/9/8/459ebeaaa42828f518d093d56991f682_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Affaire Suivante - Robert Boulin : l'énigme de la Ve République
+bfmplay://NEUF_BFMTV_BFM1021133596897
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021133596909" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/0/9/affdb2b36bc44b87a395102a7436bfc6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Affaire Suivante - Francis Heaulme et Lyhanna
 bfmplay://NEUF_BFMTV_BFM1021133596909
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021133596933" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/3/9/09c8dfbf261bfb8f8c95974eb723eaaa_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Affaire Suivante - Lyhanna : Les défaillances du système interrogent
@@ -7167,10 +7169,10 @@ bfmplay://NEUF_BFMAVOD_BAV798639603527
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
 bfmplay://NEUF_BFMAVOD_BAV00235677
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
-bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
 bfmplay://NEUF_BFMAVOD_BAV00200621
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
+bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_933530904527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/BAV_933530904527_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les plus vus en streaming",Vintage mecanic
 bfmplay://NEUF_BFMAVOD_BAV_933530904527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23975725183527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/57aa3da6a8d0fbc3b68ab26a3a289de8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Exclus BFM Play - Nos séries à binger",La vie secrète des chats - S1E1 - Quand le chat n'est pas là... où va-t-il ?
