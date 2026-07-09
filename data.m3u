@@ -61,7 +61,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136873.m3u8
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="TNT France",LCI 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/LfrEvrAPySL/dOvDOrLzEn4YEb4c.m3u8
 #EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="TNT France",Franceinfo
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="TNT France",FRANCE 24 
@@ -4745,7 +4745,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/LfrEvrAPySL/dOvDOrLzEn4YEb4c.m3u8
+https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
 
 # === Nouveautes ParaTV (auto-ajoute) ===
 #EXTINF:-1 tvg-chno="124" tvg-country="FR" group-title="Nouveautes ParaTV",124. 1ER TOUR [1080p-france.tv]
@@ -5094,18 +5094,26 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
 #EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnewsprime-clair-hd.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr" group-title="France TV backup",FRANCE 2 [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="FranceTVSeries.fr" group-title="France TV backup",FRANCE TV SÉRIES [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/series.m3u8
 #EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
+#EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+#EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
