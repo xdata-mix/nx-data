@@ -61,7 +61,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136873.m3u8
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="TNT France",LCI 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/zcrW0i6X7cSA/SACVdG0LPRh3rz6.m3u8
+https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
 #EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="TNT France",Franceinfo
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="TNT France",FRANCE 24 
@@ -1663,7 +1663,7 @@ https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="le-meilleur-d-arthur" group-title="France TV backup",LE MEILLEUR D'ARTHUR [schumijo]
 https://jmp2.uk/stvp-FRBD1900006NA
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
@@ -2180,7 +2180,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france5.m3u8
 
 # === Ajouts FR multi-sources : Jeunesse ===
 #EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@FR" group-title="Jeunesse",Pluto TV Kids Classics (720p)
@@ -4900,7 +4900,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u
 #EXTINF:-1 group-title="France TV backup",INA [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/ina.m3u8
 #EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnewsprime-clair-hd.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CNews.fr" group-title="France TV backup",CNews (1080p) [Geo-blocked] [kilirushi]
@@ -4977,7 +4977,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/quart
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
@@ -5017,7 +5017,7 @@ http://69.64.57.208/france5/mono.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
@@ -5062,7 +5062,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-p
 #EXTINF:-1 tvg-id="France2.fr" group-title="France TV backup",FRANCE 2 [schumijo]
 http://69.64.57.208/france2/mono.m3u8
 #EXTINF:-1 tvg-id="LCI.fr" group-title="France TV backup",LCI [schumijo]
-https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/zcrW0i6X7cSA/SACVdG0LPRh3rz6.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
@@ -5083,3 +5083,15 @@ http://69.64.57.208/france2/mono.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CNews.fr" group-title="France TV backup",CNews (1080p) [Geo-blocked] [kilirushi]
 https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France2.fr" group-title="France TV backup",FRANCE 2 [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.m3u8
+#EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3u8
+#EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
+#EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+#EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
