@@ -609,8 +609,6 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000272
 bfmplay://NEUF_BFMRADIO_BRA50000000000261
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000250" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/5/2/256787a320dc1e311e9211f75c20a602_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 30 juin 2026
 bfmplay://NEUF_BFMRADIO_BRA50000000000250
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000239" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/3/2/65c56324a4093514763f221eab9a0300_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 29 juin 2026
-bfmplay://NEUF_BFMRADIO_BRA50000000000239
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000087" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/8/0/6a7b7870a7f91707596b5439fa1b10d9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 10 juin 2026
 bfmplay://NEUF_BFMRADIO_BRA50000000000087
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000077" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/7/0/bceb0f63328e96e09c00ea0724b10b9c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 9 juin 2026
@@ -709,6 +707,8 @@ bfmplay://NEUF_BFMBUSINESS_BUM60000000000104
 bfmplay://NEUF_NUM23_N231020917576416
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23739886403527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/5b5e5bf057a5a5cb0a30d165c76e4d83_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Disneyland Paris : les secrets du château
 bfmplay://NEUF_NUM23_N23739886403527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451900B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/B/0/0/f423bee14bb9b01891903c30c3f44273_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Estelle Midi - De Gaulle, Michael Jackson, bientôt Louis de Funès : Ras-le-bol des biopics ?
+bfmplay://NEUF_NUM23_N231020943451900B
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451900A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/A/0/0/58f0afd18bef8e9ea4fcb36de66c8e8f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Estelle Midi - Violences, débordements : avez-vous peur pour France-Maroc ?
 bfmplay://NEUF_NUM23_N231020943451900A
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451888B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/B/8/8/d5927ddc572867eb0ab74dcfc0d81aa7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Estelle Midi - Rembourser les traitements contre la calvitie : pour ou contre ?
@@ -3191,26 +3191,24 @@ bfmplay://NEUF_NUM23_N231010297898527
 bfmplay://NEUF_NUM23_N231020928886576
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021040992141" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/4/1/ee08a3e67f1cfcfe0f7f2705bdf76747_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Les docs du moment",Les chefs d'oeuvre de la nature - S1E1 - Parc national d'Amboseli, Kenya
 bfmplay://NEUF_NUM23_N231021040992141
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943451900B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/B/0/0/f423bee14bb9b01891903c30c3f44273_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Les shows RMC radio",De Gaulle, Michael Jackson, bientôt Louis de Funès : Ras-le-bol des biopics ?
-bfmplay://NEUF_NUM23_N231020943451900B
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23994641405527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/8f7ef0f7f16f32c79dfeeafa92b6b330_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Toujours disponible sur RMC BFM play",Inside Lego : le monde secret de la petite brique
 bfmplay://NEUF_NUM23_N23994641405527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820570527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/5dfbc93b9b3793f926fa90c1d49dc4ea_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E1 - Une piscine de rêve à Montpellier
-bfmplay://NEUF_RMCDEC_RMC996820570527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820636527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/57f26456866a2d75cdf23ff0e343b775_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E2 - Un lagon à Macon
-bfmplay://NEUF_RMCDEC_RMC996820636527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820642527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/19c57d7cc06bad9e4e95572c22470441_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E3 - Un lagon sur mesure en Provence
-bfmplay://NEUF_RMCDEC_RMC996820642527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820648527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8c568f49d8cd0d9b905935678f8e72ee_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E4 - Piscine d'architecte à une heure de Paris
 bfmplay://NEUF_RMCDEC_RMC996820648527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820654527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c0683c34da18a8d958cb7e0b3ba44ec4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E5 - Piscine à débordement au Cap Ferret
-bfmplay://NEUF_RMCDEC_RMC996820654527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820660527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/a1a764bec3691c3a21947e1f7d1bc784_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E6 - Piscine à cascade dans le Var
-bfmplay://NEUF_RMCDEC_RMC996820660527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820570527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/5dfbc93b9b3793f926fa90c1d49dc4ea_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E1 - Une piscine de rêve à Montpellier
+bfmplay://NEUF_RMCDEC_RMC996820570527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820642527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/19c57d7cc06bad9e4e95572c22470441_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E3 - Un lagon sur mesure en Provence
+bfmplay://NEUF_RMCDEC_RMC996820642527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1006779642527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/49abde55ad1239a3addef5efcd469dea_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S2E1 - Double débordement près de Paris
 bfmplay://NEUF_RMCDEC_RMC1006779642527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1006780988527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/75fe80c481d99118ee3441425d48e248_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S2E2 - Lagon exotique dans les Pyrénées
 bfmplay://NEUF_RMCDEC_RMC1006780988527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820636527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/57f26456866a2d75cdf23ff0e343b775_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E2 - Un lagon à Macon
+bfmplay://NEUF_RMCDEC_RMC996820636527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820654527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c0683c34da18a8d958cb7e0b3ba44ec4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E5 - Piscine à débordement au Cap Ferret
+bfmplay://NEUF_RMCDEC_RMC996820654527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC996820660527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/a1a764bec3691c3a21947e1f7d1bc784_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S1E6 - Piscine à cascade dans le Var
+bfmplay://NEUF_RMCDEC_RMC996820660527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1006780994527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/9af19ea3b6f6acf70c04334020666047_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S2E3 - Spa de rêve en PACA
 bfmplay://NEUF_RMCDEC_RMC1006780994527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1006781000527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/6746fbf4485a05db923238a3a0a8c8ff_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Travaux XXL : piscines et lagons - S2E4 - Piscine XXL de 20 mètres dans le sud de la France
@@ -7205,10 +7203,10 @@ bfmplay://NEUF_BFMAVOD_BAV798639603527
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
 bfmplay://NEUF_BFMAVOD_BAV00235677
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
-bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
 bfmplay://NEUF_BFMAVOD_BAV00200621
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
+bfmplay://NEUF_BFMAVOD_BAV00228372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_933530904527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/BAV_933530904527_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les plus vus en streaming",Vintage mecanic
 bfmplay://NEUF_BFMAVOD_BAV_933530904527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23975725183527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/57aa3da6a8d0fbc3b68ab26a3a289de8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Exclus BFM Play - Nos séries à binger",La vie secrète des chats - S1E1 - Quand le chat n'est pas là... où va-t-il ?
