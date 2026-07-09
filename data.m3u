@@ -5137,3 +5137,12 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-p
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3u8
+
+# === Nouveautes ParaTV (auto-ajoute) ===
+#EXTINF:-1 tvg-chno="1196" tvg-id="FR7000053L" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR7000053L_20260707T052901SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1196. Rolling Stones Takeover [1080p-samsungtvplus]
+https://jmp2.uk/stvp-FR7000053L
+#EXTINF:-1 tvg-chno="1207" tvg-id="FR1200002PC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1200002PC_20260707T051726SQUARE.png" tvg-country="FR" group-title="Nouveautes ParaTV",1207. Quantum Makers [1080p-samsungtvplus]
+https://jmp2.uk/stvp-FR1200002PC
+
+#NETPLUS.TV (115)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
