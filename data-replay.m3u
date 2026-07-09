@@ -17,6 +17,8 @@ bfmplay://NEUF_BFMTV_BFM1020922663277
 bfmplay://NEUF_BFMTV_BFM663983773527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0050" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/5/0/8f74667f25026da2bc9dcbd7bb67b6d7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",2027 : la campagne est lancée - Partie 2
 bfmplay://NEUF_BFMTV_BFMLFB0050
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0049" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/4/0/418ae37b5170878bea55d2ade015a1ac_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",2027 : la campagne est lancée - Partie 1
+bfmplay://NEUF_BFMTV_BFMLFB0049
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135271209" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/0/2/624d579d3c383567f768da4605c55b4d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Edition spéciale - 2027 : la campagne est lancée
 bfmplay://NEUF_BFMTV_BFM1021135271209
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021129413103" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/0/1/0497c9cc5f920bce8a8174be77678d4c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission du 8 juillet 2026
@@ -47,8 +49,6 @@ bfmplay://NEUF_BFMTV_BFMEE0010
 bfmplay://NEUF_BFMTV_BFMES0124
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021129412899" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/9/8/2a19f475161ef7ac2e087372f3734355_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission du 6 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021129412899
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0123" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/2/1/1ea473c27d8297230e0221e4b352b166_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Affaire Jubillar : l'avocat de Cédric s'exprime
-bfmplay://NEUF_BFMTV_BFMES0123
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021141374052" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/0/e11937e53e944781170a6b2040f61872_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Canicule : la France suffoque",Canicule record : la France au point de rupture
 bfmplay://NEUF_BFMTV_BFM1021141374052
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916182" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/8/1/af9b44d65c99a3c5c04cf07d294d5f22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Canicule : la France suffoque",Hôpitaux : au défi de la canicule record
@@ -221,6 +221,8 @@ bfmplay://NEUF_BFMTV_BFM1021136600881
 bfmplay://NEUF_BFMTV_BFM1021136600923
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136600869" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/6/8/53f7a4c414f5a394a02c63a6e0b8ab95_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Première - Edition spéciale du 2 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021136600869
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0123" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/2/1/1ea473c27d8297230e0221e4b352b166_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Jubillar : l'avocat de Cédric s'exprime
+bfmplay://NEUF_BFMTV_BFMES0123
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/1/29ae3af338e27422248338ada68e7728_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Poutine, bientôt la chute ?
 bfmplay://NEUF_BFMTV_BFMES0122
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
@@ -923,10 +925,6 @@ bfmplay://NEUF_NUM23_N231020943410521
 bfmplay://NEUF_NUM23_N231020943410508
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020943410495" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/9/4/74b9a8d878f2960684924a5c702bae29_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Apolline Matin - Émission du 25 juin 2026
 bfmplay://NEUF_NUM23_N231020943410495
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC955010571527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d6f11c8468ed7233be7cc95e4025e101_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S24E6 - Patrice Uzan l'arme fatale
-bfmplay://NEUF_RMCDEC_RMC955010571527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC978066877527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/543a7414d2641ec753e9c02323ce726d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S5E30 - Jeanette O'Keefe, la mort au rendez-vous
-bfmplay://NEUF_RMCDEC_RMC978066877527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC92169" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/6/1/4e17f7e89ae1544397fbcc97b5c33b6b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S1E13 - Geneviève Montillet, la diabolique d'Antibes
 bfmplay://NEUF_RMCDEC_RMC92169
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC978066721527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/aca6bf59fa0eb04fd50d35c1058db666_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S5E4 - Patrick Dils, marathon pour un acquittement
@@ -1539,6 +1537,8 @@ bfmplay://NEUF_NUM23_N231021047393640
 bfmplay://NEUF_NUM23_N231020957733069
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020957733181" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/8/1/67b5806532cd8468145178a1c145f8eb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",La folie du camping-car : des vacances pas comme les autres - S1E9 - Episode 9
 bfmplay://NEUF_NUM23_N231020957733181
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127303322" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/3/2f2d320bbe69932afebb02beebbf3d90_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S1E15 - Episode 15
+bfmplay://NEUF_NUM23_N231021127303322
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020954530468" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/6/4/363cc4dc784125dde24f997ca497c6f5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S3E11 - Episode 11
 bfmplay://NEUF_NUM23_N231020954530468
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020954530461" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/6/4/8be11454e3b1a6101328acb76a9c94d3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S3E10 - Episode 10
@@ -1693,8 +1693,6 @@ bfmplay://NEUF_NUM23_N231021068810046
 bfmplay://NEUF_NUM23_N231021068810038
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021068810030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/3/0/d169102c06c91d1e480974046fe1154e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S7E8 - Episode 8
 bfmplay://NEUF_NUM23_N231021068810030
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127303322" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/3/2f2d320bbe69932afebb02beebbf3d90_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S1E15 - Episode 15
-bfmplay://NEUF_NUM23_N231021127303322
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020954514813" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/1/8/35142a78e13aa90c127f8fe1390f4654_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S4E13 - Episode 13
 bfmplay://NEUF_NUM23_N231020954514813
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127303314" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/1/3/c9c9f74111eaa65c345aae97c6e764fc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S1E14 - Episode 14
@@ -3271,6 +3269,8 @@ bfmplay://NEUF_RMCDEC_RMC963927206527
 bfmplay://NEUF_RMCDEC_RMC963484515527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC963927179527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/7b3107cf9540aaa1b0cc2549dc96b2af_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Wheeler dealers France - S3E3 - Golf GTI
 bfmplay://NEUF_RMCDEC_RMC963927179527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC983169570527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2b1bb124dacca96d9e9d62539ac8b22a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S10E8 - L'eau c'est la vie
+bfmplay://NEUF_RMCDEC_RMC983169570527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281690527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/7d55452fad059ea6beedc4fcb3ddf220_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E5 - Boulevard du lion
 bfmplay://NEUF_RMCDEC_RMC984281690527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984281680527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8fb94ad3e8f64f3f6ec94b5b138ca2d2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S12E4 - Dompter l'indomptable
@@ -3501,8 +3501,6 @@ bfmplay://NEUF_RMCDEC_RMC1020979097379
 bfmplay://NEUF_RMCDEC_RMC983169590527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC983169580527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/5da3a8e41d43c78f2cac7b89d4ea52e5_src_16p9.png" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S10E9 - A l'assaut des rapides
 bfmplay://NEUF_RMCDEC_RMC983169580527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC983169570527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/08ffc8ea086a7b6d2f4b8f09515febb2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S10E8 - L'eau c'est la vie
-bfmplay://NEUF_RMCDEC_RMC983169570527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC982607330527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/627dedf79b5ca84eb2a91923b370ecf2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S8E13 - Saisir l'occasion
 bfmplay://NEUF_RMCDEC_RMC982607330527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC982607320527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/1cde1e92eead6190fd255973ad3064e6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S8E12 - Un usager inattendu
@@ -5635,8 +5633,6 @@ bfmplay://NEUF_NUM23_N23998685765527
 bfmplay://NEUF_RMCDEC_RMC1020905512684
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23440251057527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d47fa1d4d2631b21e2d7100080c98d24_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les docs en plus",Club Med : les coulisses d'une success story
 bfmplay://NEUF_NUM23_N23440251057527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0049" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/4/0/418ae37b5170878bea55d2ade015a1ac_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Le forum BFMTV - 2027 : la campagne est lancée - Partie 1
-bfmplay://NEUF_BFMTV_BFMLFB0049
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0048" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/4/0/d85e8668d674628379a8292b518f1ca9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Le forum BFMTV - Jeunes ultraviolents : la France dépassée ? - Partie 2
 bfmplay://NEUF_BFMTV_BFMLFB0048
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0047" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/4/0/78a790d78087898ad0523c92086ea36b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM Business - Les incontournables de l'info",Le forum BFMTV - Jeunes ultraviolents : la France dépassée ? - Partie 1
@@ -8921,8 +8917,6 @@ bfmplay://NEUF_RMCDEC_RMC1020929088184
 bfmplay://NEUF_RMCDEC_RMC1020929088666
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932496973" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/7/9/2260c42717b8803114bfd93c2dd05983_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Les tunnels secrets de l'occupation
 bfmplay://NEUF_RMCDEC_RMC1020932496973
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932512653" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/5/6/6c819824ddee9e3927c32a2a9ca112ba_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Auschwitz : en mémoire des champions
-bfmplay://NEUF_RMCDEC_RMC1020932512653
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934708936" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/3/9/78e7e082ae0e2f262ee1b1f87018931d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Le génie romain : les arènes françaises
 bfmplay://NEUF_RMCDEC_RMC1020934708936
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934937070" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/7/0/e200398e25609a1457c3392340bd88d6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",L'Alhambra, forteresse méditerranéenne
