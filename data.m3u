@@ -4618,7 +4618,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
+http://151.80.18.177:86/LCI_HD/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
