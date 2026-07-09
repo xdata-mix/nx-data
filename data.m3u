@@ -211,13 +211,13 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/serie.m3u8
 #EXTINF:-1 tvg-chno="117" tvg-logo="https://i.imgur.com/IeiMuGI.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SPORT [SSAI]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="Généralistes",FRANCE 24 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/res/france-24-highest.m3u8
 #EXTINF:-1 tvg-chno="120" tvg-logo="https://i.imgur.com/pPpiZiQ.png" tvg-country="FR" group-title="Généralistes",INA [SSAI]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/ina.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/ina.m3u8
 #EXTINF:-1 tvg-chno="121" tvg-id="LaChaineParlementaire.fr" tvg-logo="https://i.imgur.com/oGNOOkO.png" tvg-country="FR" group-title="Généralistes",LCP - PUBLIC SÉNAT 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/LfrEvrAPySL/lxnv4ToJ9CvhN2.m3u8
@@ -5114,7 +5114,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport
 #EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-live2.m3u8
 #EXTINF:-1 group-title="France TV backup",FRANCE TV SPORT [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/sport.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport.m3u8
 #EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
 
@@ -5124,8 +5124,12 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Arte.fr" group-title="France TV backup",ARTE [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/arte.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3u8
