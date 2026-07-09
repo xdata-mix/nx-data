@@ -205,7 +205,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/figaro/tv.m3u8
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8
 #EXTINF:-1 tvg-chno="115" tvg-logo="https://i.imgur.com/KQmIjgs.png" tvg-country="FR" group-title="Généralistes",FRANCE TV DOCS 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/documentaire.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u8
 #EXTINF:-1 tvg-chno="116" tvg-logo="https://i.imgur.com/ESz1gbr.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SÉRIES 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/serie.m3u8
@@ -1577,7 +1577,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136865.m3u8
 #EXTINF:-1 tvg-id="France5.fr" group-title="France TV backup",FRANCE 5 [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8
 #EXTINF:-1 tvg-id="Arte.fr" group-title="France TV backup",ARTE [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/arte.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/arte/arte.m3u8
 #EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8
 #EXTINF:-1 tvg-id="CanalPlus.fr" group-title="France TV backup",CANAL+ EN CLAIR [schumijo]
@@ -5125,3 +5125,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LaChaineParlementaire.fr" group-title="France TV backup",LCP [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/lcpps.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Arte.fr" group-title="France TV backup",ARTE [schumijo]
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/arte.m3u8
