@@ -203,8 +203,8 @@ francetv://program/france-3_outremer-story
 francetv://program/documentaires_le-brame-du-cerf
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/_VSpmwIkO2H9iqh3uftLrbORY98/400x0/filters:quality(85)/t/1/4/phpzge41t.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-3e5d4399-698e-419d-b887-b8f4776564a7" tvg-logo="https://medias.france.tv/kUvhB9yor0j4CIsopDhBViB8aVY/400x0/filters:quality(85)/h/t/k/phpytzkth.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du vendredi 10 juillet 2026
-francetv://3e5d4399-698e-419d-b887-b8f4776564a7
+#EXTINF:-1 tvg-id="francetv-4792f76b-9fa7-4a4c-b438-5ee44861b25c" tvg-logo="https://medias.france.tv/kUvhB9yor0j4CIsopDhBViB8aVY/400x0/filters:quality(85)/h/t/k/phpytzkth.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du vendredi 10 juillet 2026
+francetv://4792f76b-9fa7-4a4c-b438-5ee44861b25c
 #EXTINF:-1 tvg-id="francetv-266a6e40-364b-4495-bd8d-ed5ec822c678" tvg-logo="https://medias.france.tv/cuo-WZP-fhp6mWqHzYCmEHzBvbg/400x0/filters:quality(85)/k/r/l/phpdw6lrk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 13 juillet 2026
 francetv://266a6e40-364b-4495-bd8d-ed5ec822c678
 #EXTINF:-1 tvg-id="francetv-fcfb26ae-4722-4b8c-b07a-0d82cb3aa834" tvg-logo="https://medias.france.tv/VtmC-QL6mlwpo66Edv3xZKmTyYQ/400x0/filters:quality(85)/f/v/p/phpbxppvf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 14 juillet 2026
@@ -555,8 +555,8 @@ francetv://2ccafa1b-afe1-4e40-9f37-a9c02dcd05b5
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-71750407-7859-41e3-a195-3a2386be1d8c" tvg-logo="https://medias.france.tv/40KHr_0QYvt_FqP0-o8YvaekFkI/400x0/filters:quality(85)/f/b/o/phpymdobf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Des trains pas comme les autres — Angola
 francetv://71750407-7859-41e3-a195-3a2386be1d8c
-#EXTINF:-1 tvg-id="francetv-df3f60b3-4cdc-468c-9cf9-adf804efa88f" tvg-logo="https://medias.france.tv/DxhJo7NpzoUvv9lDOpAo-DdJYSU/400x0/filters:quality(85)/g/x/w/phpjciwxg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les trésors des favorites des rois de France
-francetv://df3f60b3-4cdc-468c-9cf9-adf804efa88f
+#EXTINF:-1 tvg-id="francetv-ee033041-e1e7-42da-a96b-9d7a4e27d2af" tvg-logo="https://medias.france.tv/DxhJo7NpzoUvv9lDOpAo-DdJYSU/400x0/filters:quality(85)/g/x/w/phpjciwxg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les trésors des favorites des rois de France
+francetv://ee033041-e1e7-42da-a96b-9d7a4e27d2af
 #EXTINF:-1 tvg-id="francetv-cf058832-0e55-4faf-a6ca-24b73425029d" tvg-logo="https://medias.france.tv/GyHKLHnc4ZrpxCPCjb2vCjROyN0/400x0/filters:quality(85)/v/9/u/phpwwqu9v.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les trésors des jardins français — Les jardins du XXème siècle
 francetv://cf058832-0e55-4faf-a6ca-24b73425029d
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Partenaires particuliers, un voyage pas comme les autres
@@ -1091,30 +1091,24 @@ francetv://program/france-4_basique-les-sessions
 francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/3eSrs7LOzNABoJlClaFUydXE940/400x0/filters:quality(85)/5/h/6/phprnn6h5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-d9aee638-77bb-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/5rX91FrS6lEtTapysP9Ja4Y1ReU/400x0/filters:quality(85)/w/q/h/phprdhhqw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",La bande-annonce du Meeting Herculis de Monaco
-francetv://d9aee638-77bb-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-07afdcde-789f-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/GnkR0Zn_8UpVR2-3l6LT17_SXno/400x0/filters:quality(85)/r/h/p/phpgx9phr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Athlétisme : Armand Duplantis, le prince de Monaco
 francetv://07afdcde-789f-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-9f6c77bc-7002-11f1-ae33-57a09c50f7ce" tvg-logo="https://medias.france.tv/Rk3-EPY-aH0VFRfcnkpSCxX2VFM/400x0/filters:quality(85)/a/b/1/2fdaa18e81dd43cf81668dd579a6e1ba.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Bande annonce du documentaire "Léon au-delà de l'or"
-francetv://9f6c77bc-7002-11f1-ae33-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-da07add8-7af7-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/v5fxygDtcYDt8JLyxFtwKQoTolM/400x0/filters:quality(85)/z/7/h/phppegh7z.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : Ayyoub Bouaddi, le plus Français des Marocains
-francetv://da07add8-7af7-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
+francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-0c865afe-4ae5-4542-98fe-3a9bb0f94b0a" tvg-logo="https://medias.france.tv/rCqkcl5KaciQ1rfGTwpwGIHW3Ew/400x0/filters:quality(85)/0/9/3/1a60f76fde634d3b9b6424cdba618390.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le match France-Italie : histoire d'une rivalité
 francetv://0c865afe-4ae5-4542-98fe-3a9bb0f94b0a
-#EXTINF:-1 tvg-id="francetv-c44ce38d-5380-48b6-9548-2f7111bbbaca" tvg-logo="https://medias.france.tv/6hDOk7MbnSRTPEbifWRxZ9NZmrU/400x0/filters:quality(85)/y/3/v/phprc9v3y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Mbappé, la diplomatie du ballon rond
-francetv://c44ce38d-5380-48b6-9548-2f7111bbbaca
 #EXTINF:-1 tvg-id="francetv-7980ce3e-7af9-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/z22g_m7zuiydlgoAsOCLvxuWt_E/400x0/filters:quality(85)/w/f/c/phpbpqcfw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - Wimbledon : Arthur Fery, le héros tricolore au service de Sa Majesté
 francetv://7980ce3e-7af9-11f1-847c-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-1c486cd6-74d2-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/8pBLnkmIg2IKABs8cUA-shNxpso/400x0/filters:quality(85)/f/9/9/7c4b7357fbae45519441c875ecac999f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Yoann Offredo, la descente aux enfers
 francetv://1c486cd6-74d2-11f1-94fd-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-11aaf7d2-78a4-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/BrEkmiZ0uAhr-gWfhE5z23gMskc/400x0/filters:quality(85)/i/m/c/phpqaxcmi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand format : Xavier Thévenard, le dossard du renouveau
 francetv://11aaf7d2-78a4-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
-francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-d219a6c2-7bcd-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/9h3nn__6E_VAnv5b27S24dV1DLI/400x0/filters:quality(85)/0/8/c/3196f9f04ca044d3a505d1989910bc80.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Football - Coupe du monde : Français et Marocains se retrouvent pour l'histoire
 francetv://d219a6c2-7bcd-11f1-847c-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ae062958-7bce-11f1-873a-19616fa871f9" tvg-logo="https://medias.france.tv/JcMZmkW4Id4sGCt9nWLq2Ubjrt8/400x0/filters:quality(85)/a/e/f/f5b0e6ead274445bab4e00e52f71bfea.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : les supporters français et marocains restent unis
 francetv://ae062958-7bce-11f1-873a-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-da07add8-7af7-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/v5fxygDtcYDt8JLyxFtwKQoTolM/400x0/filters:quality(85)/z/7/h/phppegh7z.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : Ayyoub Bouaddi, le plus Français des Marocains
+francetv://da07add8-7af7-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-278e2a10-7a2f-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/dQdcxSctyqOFaIOg4X-V0mdMWZk/400x0/filters:quality(85)/5/f/0/f6472dcd94224c18877f4800698a20f5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : la Belgique se sort du piège américain
 francetv://278e2a10-7a2f-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-a72ddcce-7af8-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/ChvR-bhrX8iw34Djq1pVo9E6SNg/400x0/filters:quality(85)/6/a/9/1cbb889f7bf54dd69d45cf499efca9a6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Coupe du monde : Lionel Messi et l'Argentine, encore un peu plus dans l'histoire
@@ -1125,6 +1119,8 @@ francetv://13209b84-7968-11f1-ae3d-57a09c50f7ce
 francetv://e920925c-7968-11f1-847a-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-9b67fd90-757e-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/9q1lAoUX1M2nUBnF_Qw8B7YcJaw/400x0/filters:quality(85)/7/d/e/8931de56ba424291867ce7218d9dbed7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Paroles d'experts - Coupe du monde 2026 : qui peut arrêter l'équipe de France ?
 francetv://9b67fd90-757e-11f1-94fd-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-c44ce38d-5380-48b6-9548-2f7111bbbaca" tvg-logo="https://medias.france.tv/6hDOk7MbnSRTPEbifWRxZ9NZmrU/400x0/filters:quality(85)/y/3/v/phprc9v3y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Mbappé, la diplomatie du ballon rond
+francetv://c44ce38d-5380-48b6-9548-2f7111bbbaca
 #EXTINF:-1 tvg-id="francetv-183fbb09-1b8b-4b34-9553-1bc01f404722" tvg-logo="https://medias.france.tv/eh-84GzP86U8pTrTBKAQs7uV1rc/400x0/filters:quality(85)/9/6/0/e8c857e7b6fe4d3fa6a8f903613c2069.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Sapir, le combat d’une arbitre trans
 francetv://183fbb09-1b8b-4b34-9553-1bc01f404722
 #EXTINF:-1 tvg-id="francetv-8ddac196-1204-4a1e-9593-7a255922d8e9" tvg-logo="https://medias.france.tv/69Oiwqte12gIogu5ZKDMUTsM3fU/400x0/filters:quality(85)/w/p/i/phpfebipw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Une chance sur un million
@@ -1163,8 +1159,6 @@ francetv://20f85236-7951-11f1-ae3a-57a09c50f7ce
 francetv://9d8997e4-788c-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-b15c1336-77cf-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/f64fhQeyCPGXc_6j9mA1M67q2a4/400x0/filters:quality(85)/a/4/6/5e8eb5d74d1649e49b54618f675a264a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 1
 francetv://b15c1336-77cf-11f1-8739-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b44fa91b-e80d-4b1f-b82a-46e10afe6c90" tvg-logo="https://medias.france.tv/EW7c2ifxBijve9stowOgbTjOLdc/400x0/filters:quality(85)/j/f/9/phpqqr9fj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Multisports — Meeting Herculis 2026
-francetv://b44fa91b-e80d-4b1f-b82a-46e10afe6c90
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/-QLW_yUV5C5GjPsIQWBv7J8fMBs/400x0/filters:quality(85)/s/n/f/php64lfns.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne
@@ -1379,8 +1373,8 @@ francetv://program/arte_five-bedrooms
 francetv://48d48d53-4292-478e-8a7b-84bb7ee6722b
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/_VSpmwIkO2H9iqh3uftLrbORY98/400x0/filters:quality(85)/t/1/4/phpzge41t.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-3e5d4399-698e-419d-b887-b8f4776564a7" tvg-logo="https://medias.france.tv/kUvhB9yor0j4CIsopDhBViB8aVY/400x0/filters:quality(85)/h/t/k/phpytzkth.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 10 juillet 2026
-francetv://3e5d4399-698e-419d-b887-b8f4776564a7
+#EXTINF:-1 tvg-id="francetv-4792f76b-9fa7-4a4c-b438-5ee44861b25c" tvg-logo="https://medias.france.tv/kUvhB9yor0j4CIsopDhBViB8aVY/400x0/filters:quality(85)/h/t/k/phpytzkth.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 10 juillet 2026
+francetv://4792f76b-9fa7-4a4c-b438-5ee44861b25c
 #EXTINF:-1 tvg-id="francetv-266a6e40-364b-4495-bd8d-ed5ec822c678" tvg-logo="https://medias.france.tv/cuo-WZP-fhp6mWqHzYCmEHzBvbg/400x0/filters:quality(85)/k/r/l/phpdw6lrk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 13 juillet 2026
 francetv://266a6e40-364b-4495-bd8d-ed5ec822c678
 #EXTINF:-1 tvg-id="francetv-fcfb26ae-4722-4b8c-b07a-0d82cb3aa834" tvg-logo="https://medias.france.tv/VtmC-QL6mlwpo66Edv3xZKmTyYQ/400x0/filters:quality(85)/f/v/p/phpbxppvf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mardi 14 juillet 2026
@@ -2017,8 +2011,8 @@ francetv://e2d84984-c6cc-4874-b867-8887e0b3b53c
 francetv://0c865afe-4ae5-4542-98fe-3a9bb0f94b0a
 #EXTINF:-1 tvg-id="francetv-3a55d4e7-2ec6-43a1-96ec-2dcbde18d3e5" tvg-logo="https://medias.france.tv/XD0FQN9Jlrp2EOV0h1wL1z2rvmA/400x0/filters:quality(85)/i/h/q/php8jrqhi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Des Racines et Des Ailes — Terroir d'excellence en Franche-Comté, du Jura au Pays de Montbéliard
 francetv://3a55d4e7-2ec6-43a1-96ec-2dcbde18d3e5
-#EXTINF:-1 tvg-id="francetv-df3f60b3-4cdc-468c-9cf9-adf804efa88f" tvg-logo="https://medias.france.tv/DxhJo7NpzoUvv9lDOpAo-DdJYSU/400x0/filters:quality(85)/g/x/w/phpjciwxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Les trésors des favorites des rois de France
-francetv://df3f60b3-4cdc-468c-9cf9-adf804efa88f
+#EXTINF:-1 tvg-id="francetv-ee033041-e1e7-42da-a96b-9d7a4e27d2af" tvg-logo="https://medias.france.tv/DxhJo7NpzoUvv9lDOpAo-DdJYSU/400x0/filters:quality(85)/g/x/w/phpjciwxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Les trésors des favorites des rois de France
+francetv://ee033041-e1e7-42da-a96b-9d7a4e27d2af
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
 francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_et-ca-vous-fait-rire" tvg-logo="https://medias.france.tv/ahYtKAFlGLpM8XoprnQLVHGLORk/400x0/filters:quality(85)/n/1/f/phpczjf1n.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Et ça vous fait rire ?
@@ -4769,18 +4763,12 @@ francetv://program/france-5_la-p-tite-librairie
 francetv://program/tv5-monde_dj-battle-africa
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/3eSrs7LOzNABoJlClaFUydXE940/400x0/filters:quality(85)/5/h/6/phprnn6h5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-d9aee638-77bb-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/5rX91FrS6lEtTapysP9Ja4Y1ReU/400x0/filters:quality(85)/w/q/h/phprdhhqw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",La bande-annonce du Meeting Herculis de Monaco
-francetv://d9aee638-77bb-11f1-8739-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-07afdcde-789f-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/GnkR0Zn_8UpVR2-3l6LT17_SXno/400x0/filters:quality(85)/r/h/p/phpgx9phr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Athlétisme : Armand Duplantis, le prince de Monaco
 francetv://07afdcde-789f-11f1-ae3a-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-9f6c77bc-7002-11f1-ae33-57a09c50f7ce" tvg-logo="https://medias.france.tv/Rk3-EPY-aH0VFRfcnkpSCxX2VFM/400x0/filters:quality(85)/a/b/1/2fdaa18e81dd43cf81668dd579a6e1ba.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Bande annonce du documentaire "Léon au-delà de l'or"
-francetv://9f6c77bc-7002-11f1-ae33-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-da07add8-7af7-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/v5fxygDtcYDt8JLyxFtwKQoTolM/400x0/filters:quality(85)/z/7/h/phppegh7z.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 la quotidienne — Football - Coupe du monde : Ayyoub Bouaddi, le plus Français des Marocains
-francetv://da07add8-7af7-11f1-8739-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
+francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-0c865afe-4ae5-4542-98fe-3a9bb0f94b0a" tvg-logo="https://medias.france.tv/rCqkcl5KaciQ1rfGTwpwGIHW3Ew/400x0/filters:quality(85)/0/9/3/1a60f76fde634d3b9b6424cdba618390.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Le match France-Italie : histoire d'une rivalité
 francetv://0c865afe-4ae5-4542-98fe-3a9bb0f94b0a
-#EXTINF:-1 tvg-id="francetv-c44ce38d-5380-48b6-9548-2f7111bbbaca" tvg-logo="https://medias.france.tv/6hDOk7MbnSRTPEbifWRxZ9NZmrU/400x0/filters:quality(85)/y/3/v/phprc9v3y.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Mbappé, la diplomatie du ballon rond
-francetv://c44ce38d-5380-48b6-9548-2f7111bbbaca
 #EXTINF:-1 tvg-id="francetv-7980ce3e-7af9-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/z22g_m7zuiydlgoAsOCLvxuWt_E/400x0/filters:quality(85)/w/f/c/phpbpqcfw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 la quotidienne — Tennis - Wimbledon : Arthur Fery, le héros tricolore au service de Sa Majesté
 francetv://7980ce3e-7af9-11f1-847c-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-1c486cd6-74d2-11f1-94fd-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/8pBLnkmIg2IKABs8cUA-shNxpso/400x0/filters:quality(85)/f/9/9/7c4b7357fbae45519441c875ecac999f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Yoann Offredo, la descente aux enfers
@@ -4917,8 +4905,6 @@ francetv://20f85236-7951-11f1-ae3a-57a09c50f7ce
 francetv://9d8997e4-788c-11f1-8479-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-b15c1336-77cf-11f1-8739-19616fa871f9" tvg-logo="https://medias.france.tv/f64fhQeyCPGXc_6j9mA1M67q2a4/400x0/filters:quality(85)/a/4/6/5e8eb5d74d1649e49b54618f675a264a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 1
 francetv://b15c1336-77cf-11f1-8739-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b44fa91b-e80d-4b1f-b82a-46e10afe6c90" tvg-logo="https://medias.france.tv/EW7c2ifxBijve9stowOgbTjOLdc/400x0/filters:quality(85)/j/f/9/phpqqr9fj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Multisports — Meeting Herculis 2026
-francetv://b44fa91b-e80d-4b1f-b82a-46e10afe6c90
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/-QLW_yUV5C5GjPsIQWBv7J8fMBs/400x0/filters:quality(85)/s/n/f/php64lfns.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2 la quotidienne
