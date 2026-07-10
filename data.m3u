@@ -5172,3 +5172,7 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TraceUrban.fr@HD" group-title="France TV backup",Trace Urban HD [iptv-org-fr]
 https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="TMA.gp@SD" group-title="Musique",TMA (1080p)
+http://hls.tmacaraibes.com/live/index.m3u8
