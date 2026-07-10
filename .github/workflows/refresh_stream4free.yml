@@ -3,7 +3,7 @@ name: Refresh Stream4Free
 on:
   schedule:
     - cron: '0 */6 * * *'   # toutes les 6h
-  workflow_dispatch:          # trigger manuel
+  workflow_dispatch:         # trigger manuel
 
 permissions:
   contents: write
@@ -19,10 +19,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Playwright
+      - name: Install Playwright + stealth
         run: |
-          pip install playwright
+          pip install playwright playwright-stealth
           playwright install chromium --with-deps
+
+      - name: Install Xvfb
+        run: sudo apt-get install -y -qq xvfb
 
       - name: Setup WARP (1.1.1.1)
         run: |
@@ -39,7 +42,7 @@ jobs:
           curl -s https://cloudflare.com/cdn-cgi/trace | grep warp || true
 
       - name: Run Stream4Free scraper
-        run: python scripts/refresh_stream4free.py
+        run: xvfb-run --auto-servernum python scripts/refresh_stream4free.py
 
       - name: Combine into data-replay.m3u (if combine script exists)
         run: |
