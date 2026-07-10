@@ -2,8 +2,8 @@ name: Refresh Stream4Free
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # toutes les 6h
-  workflow_dispatch:         # trigger manuel
+    - cron: '0 */6 * * *' # toutes les 6h
+  workflow_dispatch:       # trigger manuel
 
 permissions:
   contents: write
@@ -19,10 +19,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Playwright + stealth
-        run: |
-          pip install playwright playwright-stealth
-          playwright install chromium --with-deps
+      - name: Install dependencies
+        run: pip install seleniumbase
 
       - name: Install Xvfb
         run: sudo apt-get install -y -qq xvfb
