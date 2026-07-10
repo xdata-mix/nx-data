@@ -17,6 +17,8 @@ bfmplay://NEUF_BFMTV_BFMLFB0049
 bfmplay://NEUF_BFMTV_BFM1020922663277
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494663" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/6/6/87f38a24db8e1cd6d2d4a0c179203cbe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Olivier Faure face à Apolline de Malherbe
 bfmplay://NEUF_BFMTV_BFM1021136494663
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0127" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/1/37c087ce69aa6f90b757cfaea835c853_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Coupe du monde : L'après-match de France vs Maroc
+bfmplay://NEUF_BFMTV_BFMES0127
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916224" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/2/2/bbc6b51a603d89944ad038b3aadd9972_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Air Force One : la sécurité de Trump menacée ?
 bfmplay://NEUF_BFMTV_BFM1020926916224
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135271053" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/5/0/9bc455a97ff9dbfe54f2ad0e5b6ae685_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission du 9 juillet 2026
@@ -45,8 +47,6 @@ bfmplay://NEUF_BFMTV_BFM1021135270975
 bfmplay://NEUF_BFMTV_BFM1021129413055
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496552" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/5/8d81e308826e5340181b01d139855505_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission du 7 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021136496552
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494657" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/5/6/243998f5d7dbd27f1f005c1c7b181a24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Bruno Retailleau face à Apolline de Malherbe
-bfmplay://NEUF_BFMTV_BFM1021136494657
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021141374052" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/0/e11937e53e944781170a6b2040f61872_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Canicule : la France suffoque",Canicule record : la France au point de rupture
 bfmplay://NEUF_BFMTV_BFM1021141374052
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916182" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/8/1/af9b44d65c99a3c5c04cf07d294d5f22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Canicule : la France suffoque",Hôpitaux : au défi de la canicule record
@@ -103,6 +103,24 @@ bfmplay://NEUF_BFMTV_BFM1021023757907
 bfmplay://NEUF_BFMTV_BFM1021101979022
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021073051833" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/3/8/8d929312b04e6d5d9680e87e1e38316d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Grands Reportages","Epic fury", les coulisses de l’incroyable opération
 bfmplay://NEUF_BFMTV_BFM1021073051833
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0124" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/2/1/0326b5673006a87a60c8e0017a53897b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - L'avocat de Cédric Jubillar, invité exceptionnel
+bfmplay://NEUF_BFMTV_BFMES0124
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0123" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/2/1/1ea473c27d8297230e0221e4b352b166_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Jubillar : l'avocat de Cédric s'exprime
+bfmplay://NEUF_BFMTV_BFMES0123
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/1/29ae3af338e27422248338ada68e7728_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Poutine, bientôt la chute ?
+bfmplay://NEUF_BFMTV_BFMES0122
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
+bfmplay://NEUF_BFMTV_BFMES0121
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/1/798e3fb68309b7a0885b95b6d9a5c081_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Lyhanna : le rapport explosif dévoilé
+bfmplay://NEUF_BFMTV_BFMES0118
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/3/0/57b2cfef41bf87ee2933282411e0c063_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans qui ont bouleversé la France - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0030
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0029" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/2/0/df23ad2659cc771b6678f3a9e11e30c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans autour du monde - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0029
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0028" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/2/0/cdb7bda0f3776a5f633be8c9e27a6783_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans d'actualité politique - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0028
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0027" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/0/db013161014e07107400ae5d4472f7db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans auprès de vous - soirée événement
+bfmplay://NEUF_BFMTV_BFMES0027
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916203" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/0/2/5f5959009466cb7ecc658d2100324e21_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les enquêtes de la rédac - Condamnation annulée, quadruple meurtre : l’incroyable affaire Dany Leprince
 bfmplay://NEUF_BFMTV_BFM1020926916203
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916198" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/9/1/bfd9b8e6637dd62c93bbd30cebfe698f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les enquêtes de la rédac - Monaco : la mystérieuse explosion
@@ -211,6 +229,8 @@ bfmplay://NEUF_BFMTV_BFM1021136496406
 bfmplay://NEUF_BFMTV_BFM1021136496546
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496598" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/9/5/fc63075b169043739fb7814923bf0782_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Apolline de 9 à 10 - Émission du 30 juin 2026
 bfmplay://NEUF_BFMTV_BFM1021136496598
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494657" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/5/6/243998f5d7dbd27f1f005c1c7b181a24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Bruno Retailleau face à Apolline de Malherbe
+bfmplay://NEUF_BFMTV_BFM1021136494657
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494693" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/9/6/820b3f195be1d9f5e933811d3bd9ebfc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Michel-Édouard Leclerc face à Apolline de Malherbe
 bfmplay://NEUF_BFMTV_BFM1021136494693
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494639" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/3/6/373fd91be34f023220f2cbb32fddf507_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Jean-François Copé face à Apolline de Malherbe
@@ -273,24 +293,6 @@ bfmplay://NEUF_BFMTV_BFMLFB0035
 bfmplay://NEUF_BFMTV_BFMLFB0034
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMLFB0033" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/3/0/f1db5475027eb6f8e5d471df1084e75b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Le forum BFMTV - Iran : les Français face à la guerre - Partie 1
 bfmplay://NEUF_BFMTV_BFMLFB0033
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0124" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/2/1/0326b5673006a87a60c8e0017a53897b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - L'avocat de Cédric Jubillar, invité exceptionnel
-bfmplay://NEUF_BFMTV_BFMES0124
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0123" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/2/1/1ea473c27d8297230e0221e4b352b166_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Jubillar : l'avocat de Cédric s'exprime
-bfmplay://NEUF_BFMTV_BFMES0123
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/1/29ae3af338e27422248338ada68e7728_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Poutine, bientôt la chute ?
-bfmplay://NEUF_BFMTV_BFMES0122
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
-bfmplay://NEUF_BFMTV_BFMES0121
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/1/798e3fb68309b7a0885b95b6d9a5c081_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Affaire Lyhanna : le rapport explosif dévoilé
-bfmplay://NEUF_BFMTV_BFMES0118
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/3/0/57b2cfef41bf87ee2933282411e0c063_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans qui ont bouleversé la France - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0030
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0029" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/2/0/df23ad2659cc771b6678f3a9e11e30c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans autour du monde - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0029
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0028" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/2/0/cdb7bda0f3776a5f633be8c9e27a6783_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans d'actualité politique - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0028
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0027" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/0/db013161014e07107400ae5d4472f7db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans auprès de vous - soirée événement
-bfmplay://NEUF_BFMTV_BFMES0027
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136617780" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/8/7/a64041f1229dceb6353f3e1ab9b0f66d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Grand soir - Émission du 6 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021136617780
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136617828" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/2/8/f9649277da1a5d414096b52de3512673_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Grand soir - Émission du 5 juillet 2026
@@ -7005,6 +7007,8 @@ bfmplay://NEUF_RMC_LIFE_RIF1010263832527
 bfmplay://NEUF_BFMAVOD_BAV00074738
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV809215831527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/efd8b7df368fbd118b9964bdda38d801_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Life - Toujours disponible sur RMC BFM play",11 septembre : pris au piège
 bfmplay://NEUF_BFMAVOD_BAV809215831527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000330" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/3/3/c5c0e99aff3221ed649493ef27ac89de_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Carrousel",Débrief de France / Maroc avec Petit et Umtiti - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000330
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000324" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/2/3/b6338a384f7af008a8633e229aef18f2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les GG du Mondial - Émission du 9 juillet 2026
 bfmplay://NEUF_BFMRADIO_BRA50000000000324
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000317" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/1/3/22da3af35be9d7b12b0626d82ccf3bec_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les GG du Mondial - Émission du 8 juillet 2026
