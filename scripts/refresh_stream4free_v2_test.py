@@ -348,7 +348,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
 
             # Step 3: Check if we passed
             page_content = await tab.get_content()
-                        content_len = len(page_content) if page_content else 0
+            content_len = len(page_content) if page_content else 0
             log.info("After Turnstile attempt: %d chars", content_len)
 
             if is_cf_challenge(page_content):
