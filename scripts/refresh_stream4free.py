@@ -163,10 +163,19 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
         "--lang=fr-FR",
     ]
 
-    log.info("Launching Chrome via nodriver (headless=%s)", headless)
+    # Find Chrome binary — prefer google-chrome-stable over snap chromium
+    import shutil
+    chrome_path = (
+        shutil.which("google-chrome-stable")
+        or shutil.which("google-chrome")
+        or shutil.which("chromium-browser")
+        or shutil.which("chromium")
+    )
+    log.info("Launching Chrome via nodriver (headless=%s, binary=%s)", headless, chrome_path)
     browser = await uc.start(
         headless=headless,
         sandbox=False,               # REQUIRED: root user in CI
+        browser_executable_path=chrome_path,
         browser_args=browser_args,
         lang="fr-FR",
     )
