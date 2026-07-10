@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Stream4Free scraper — nodriver (CDP direct) + Xvfb virtual display.
+Stream4Free scraper â nodriver (CDP direct) + Xvfb virtual display.
 
 CF Turnstile bypass via genuine Chrome (non-headful) on a virtual display.
 nodriver = official successor of undetected-chromedriver, communicates via CDP,
 no Selenium/WebDriver detection vectors.
 
-Key insight: CF detects headless mode → we run headful Chrome on Xvfb.
+Key insight: CF detects headless mode â we run headful Chrome on Xvfb.
 """
 
 import asyncio
+import json
 import logging
 import os
 import re
@@ -41,10 +42,10 @@ def print(*a, **kw):
 PAGE_URL = "https://www.stream4free.tv/tv-live-france"
 M3U_FILE = Path("data-stream4free.m3u")
 MAX_RETRIES = 3
-CF_WAIT_INITIAL = 8            # seconds to wait after first page load
-CF_WAIT_AFTER_CLICK = 10       # seconds to wait after clicking Turnstile
+CF_WAIT_INITIAL = 12           # seconds to wait for auto-solve (no click)
+CF_WAIT_AFTER_CLICK = 12       # seconds to wait after clicking Turnstile
 CF_WAIT_EXTRA = 5              # extra wait for JS render
-PAGE_LOAD_WAIT = 5             # seconds to wait for JS rendering
+PAGE_LOAD_WAIT = 8             # seconds to wait for JS rendering
 CF_INDICATORS = [
     "just a moment",
     "checking your browser",
@@ -53,7 +54,7 @@ CF_INDICATORS = [
     "cf_clearance",
     "security check",
     "please wait",
-    "vérification",
+    "vÃ©rification",
     "enable javascript",
 ]
 
@@ -125,20 +126,20 @@ def extract_stream_urls(html: str) -> list[str]:
 def setup_virtual_display():
     """Start Xvfb virtual display on Linux (for CI). Returns Display or None."""
     if sys.platform != "linux":
-        log.info("Not Linux — skipping virtual display setup")
+        log.info("Not Linux â skipping virtual display setup")
         return None
     # Check if a real display is available
     if os.environ.get("DISPLAY"):
-        log.info("DISPLAY already set (%s) — skipping Xvfb", os.environ["DISPLAY"])
+        log.info("DISPLAY already set (%s) â skipping Xvfb", os.environ["DISPLAY"])
         return None
     try:
         from pyvirtualdisplay import Display
         display = Display(visible=False, size=(1920, 1080))
         display.start()
-        log.info("Virtual display started (Xvfb) — DISPLAY=%s", os.environ.get("DISPLAY"))
+        log.info("Virtual display started (Xvfb) â DISPLAY=%s", os.environ.get("DISPLAY"))
         return display
     except Exception as e:
-        log.warning("Failed to start virtual display: %s — trying headless fallback", e)
+        log.warning("Failed to start virtual display: %s â trying headless fallback", e)
         return None
 
 
@@ -170,7 +171,7 @@ async def launch_browser_with_retry(headless: bool = False, max_attempts: int = 
     import nodriver as uc
     import shutil
 
-    # Find Chrome binary — prefer google-chrome-stable over snap chromium
+    # Find Chrome binary â prefer google-chrome-stable over snap chromium
     chrome_path = (
         shutil.which("google-chrome-stable")
         or shutil.which("google-chrome")
@@ -213,6 +214,73 @@ async def launch_browser_with_retry(headless: bool = False, max_attempts: int = 
                 raise
 
 
+async def safe_evaluate(tab, js_expr: str):
+    """
+    Evaluate JS and reliably return a Python dict.
+    nodriver's tab.evaluate() can return list instead of dict for objects.
+    Workaround: use JSON.stringify in JS + json.loads in Python.
+    """
+    try:
+        raw = await tab.evaluate(f"JSON.stringify({js_expr})")
+        if isinstance(raw, str):
+            return json.loads(raw)
+        if isinstance(raw, list):
+            # nodriver sometimes wraps result in a list
+            if len(raw) == 1 and isinstance(raw[0], str):
+                return json.loads(raw[0])
+            if len(raw) == 1 and isinstance(raw[0], dict):
+                return raw[0]
+            # Try to convert list of pairs to dict
+            try:
+                return dict(raw)
+            except (ValueError, TypeError):
+                return {}
+        if isinstance(raw, dict):
+            return raw
+        return {}
+    except Exception as e:
+        log.warning("safe_evaluate error: %s", e)
+        return {}
+
+
+async def cdp_click(tab, x: float, y: float):
+    """
+    Click at (x, y) using CDP Input.dispatchMouseEvent via nodriver's CDP bindings.
+    Falls back to raw send if the typed API fails.
+    """
+    try:
+        import nodriver.cdp.input_ as cdp_input
+        await tab.send(cdp_input.dispatch_mouse_event(
+            type_="mousePressed", x=x, y=y,
+            button=cdp_input.MouseButton.LEFT,
+            click_count=1, buttons=1
+        ))
+        await asyncio.sleep(0.05)
+        await tab.send(cdp_input.dispatch_mouse_event(
+            type_="mouseReleased", x=x, y=y,
+            button=cdp_input.MouseButton.LEFT,
+            click_count=1, buttons=0
+        ))
+        return True
+    except Exception as e1:
+        log.warning("CDP typed click failed (%s) â trying raw CDP", e1)
+        try:
+            # Fallback: raw CDP dict (works in some nodriver versions)
+            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
+                "type": "mousePressed", "x": int(x), "y": int(y), "button": "left",
+                "clickCount": 1, "buttons": 1
+            }})
+            await asyncio.sleep(0.05)
+            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
+                "type": "mouseReleased", "x": int(x), "y": int(y), "button": "left",
+                "clickCount": 1, "buttons": 0
+            }})
+            return True
+        except Exception as e2:
+            log.warning("Raw CDP click also failed: %s", e2)
+            return False
+
+
 async def try_click_turnstile(tab) -> bool:
     """
     Try to find and click the Cloudflare Turnstile checkbox.
@@ -220,13 +288,10 @@ async def try_click_turnstile(tab) -> bool:
     """
     try:
         # Method 1: Find Turnstile iframe and click its checkbox
-        # The Turnstile widget is typically in an iframe with src containing challenges.cloudflare.com
         log.info("Looking for Turnstile iframe...")
 
-        # Try to find the Turnstile iframe via JS
-        result = await tab.evaluate("""
+        result = await safe_evaluate(tab, """
             (() => {
-                // Look for Turnstile iframe
                 const iframes = document.querySelectorAll('iframe[src*="challenges.cloudflare.com"], iframe[src*="turnstile"]');
                 if (iframes.length > 0) {
                     const iframe = iframes[0];
@@ -234,7 +299,6 @@ async def try_click_turnstile(tab) -> bool:
                     return {found: true, x: rect.x + rect.width/2, y: rect.y + rect.height/2,
                             width: rect.width, height: rect.height, src: iframe.src.substring(0, 100)};
                 }
-                // Also look for cf-turnstile div
                 const cfDiv = document.querySelector('.cf-turnstile, #cf-turnstile, [class*="turnstile"]');
                 if (cfDiv) {
                     const rect = cfDiv.getBoundingClientRect();
@@ -245,38 +309,27 @@ async def try_click_turnstile(tab) -> bool:
             })()
         """)
 
-        if result and result.get("found"):
-            log.info("Found Turnstile element: %s (pos: %d,%d size: %dx%d)",
-                     result.get("src", "?"), result.get("x", 0), result.get("y", 0),
+        if result.get("found"):
+            x = float(result.get("x", 300))
+            y = float(result.get("y", 300))
+            log.info("Found Turnstile element: %s (pos: %.0f,%.0f size: %dx%d)",
+                     result.get("src", "?"), x, y,
                      result.get("width", 0), result.get("height", 0))
 
-            # Click in the center of the Turnstile widget
-            x = int(result.get("x", 300))
-            y = int(result.get("y", 300))
-
-            # Use mouse click at the coordinates
-            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
-                "type": "mousePressed", "x": x, "y": y, "button": "left",
-                "clickCount": 1, "buttons": 1
-            }})
-            await asyncio.sleep(0.1)
-            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
-                "type": "mouseReleased", "x": x, "y": y, "button": "left",
-                "clickCount": 1, "buttons": 0
-            }})
-            log.info("Clicked Turnstile at (%d, %d)", x, y)
-            return True
+            ok = await cdp_click(tab, x, y)
+            if ok:
+                log.info("Clicked Turnstile at (%.0f, %.0f)", x, y)
+                return True
         else:
             log.info("No Turnstile iframe/div found on page")
 
         # Method 2: Try clicking on common CF challenge button positions
-        # Some CF challenges have a visible "Verify you are human" button
-        result2 = await tab.evaluate("""
+        result2 = await safe_evaluate(tab, """
             (() => {
                 const btns = document.querySelectorAll('input[type="button"], button, .big-button, #challenge-stage');
                 for (const btn of btns) {
                     const text = (btn.textContent || btn.value || '').toLowerCase();
-                    if (text.includes('verify') || text.includes('human') || text.includes('vérif')) {
+                    if (text.includes('verify') || text.includes('human') || text.includes('vÃ©rif')) {
                         const rect = btn.getBoundingClientRect();
                         return {found: true, x: rect.x + rect.width/2, y: rect.y + rect.height/2, text: text.substring(0,50)};
                     }
@@ -285,21 +338,24 @@ async def try_click_turnstile(tab) -> bool:
             })()
         """)
 
-        if result2 and result2.get("found"):
-            x = int(result2.get("x", 300))
-            y = int(result2.get("y", 300))
-            log.info("Found verify button: '%s' at (%d,%d)", result2.get("text"), x, y)
-            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
-                "type": "mousePressed", "x": x, "y": y, "button": "left",
-                "clickCount": 1, "buttons": 1
-            }})
-            await asyncio.sleep(0.1)
-            await tab.send({"method": "Input.dispatchMouseEvent", "params": {
-                "type": "mouseReleased", "x": x, "y": y, "button": "left",
-                "clickCount": 1, "buttons": 0
-            }})
-            log.info("Clicked verify button at (%d, %d)", x, y)
-            return True
+        if result2.get("found"):
+            x = float(result2.get("x", 300))
+            y = float(result2.get("y", 300))
+            log.info("Found verify button: '%s' at (%.0f,%.0f)", result2.get("text"), x, y)
+            ok = await cdp_click(tab, x, y)
+            if ok:
+                log.info("Clicked verify button at (%.0f, %.0f)", x, y)
+                return True
+
+        # Method 3: Try nodriver's built-in element finding
+        try:
+            elem = await tab.query_selector('iframe[src*="challenges.cloudflare.com"]')
+            if elem:
+                log.info("Found Turnstile iframe via query_selector â clicking")
+                await elem.click()
+                return True
+        except Exception as e3:
+            log.info("query_selector approach: %s", e3)
 
     except Exception as e:
         log.warning("Error trying to click Turnstile: %s", e)
@@ -310,7 +366,7 @@ async def try_click_turnstile(tab) -> bool:
 async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | None:
     """
     Open *url* in genuine Chrome via nodriver, handle CF Turnstile, return HTML.
-    headless=False is CRITICAL — CF detects headless mode.
+    headless=False is CRITICAL â CF detects headless mode.
     """
     browser = await launch_browser_with_retry(headless=headless)
 
@@ -331,7 +387,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
 
         # Check for CF challenge
         if is_cf_challenge(page_content):
-            log.info("CF challenge detected — attempting Turnstile bypass")
+            log.info("CF challenge detected â attempting Turnstile bypass")
 
             # Step 1: Wait a bit for Turnstile to render
             await asyncio.sleep(3)
@@ -343,7 +399,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
                 log.info("Waiting %ds after Turnstile click...", CF_WAIT_AFTER_CLICK)
                 await asyncio.sleep(CF_WAIT_AFTER_CLICK)
             else:
-                log.info("No clickable Turnstile found — waiting %ds for auto-solve...", CF_WAIT_INITIAL)
+                log.info("No clickable Turnstile found â waiting %ds for auto-solve...", CF_WAIT_INITIAL)
                 await asyncio.sleep(CF_WAIT_INITIAL)
 
             # Step 3: Check if we passed
@@ -353,7 +409,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
 
             if is_cf_challenge(page_content):
                 # Step 4: Try re-navigating (cookies should be set)
-                log.info("Still on CF — re-navigating with cookies")
+                log.info("Still on CF â re-navigating with cookies")
                 tab = await browser.get(url)
                 await asyncio.sleep(PAGE_LOAD_WAIT)
                 page_content = await tab.get_content()
@@ -370,7 +426,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
                         content_len = len(page_content) if page_content else 0
                         log.info("After 2nd Turnstile click: %d chars", content_len)
         else:
-            log.info("No CF challenge detected — page loaded directly")
+            log.info("No CF challenge detected â page loaded directly")
 
         # Final content check
         if page_content and is_real_content(page_content):
@@ -391,8 +447,18 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
     finally:
         try:
             browser.stop()
+            log.info("terminated browser with pid %s successfully",
+                     getattr(getattr(browser, '_process', None), 'pid', '?'))
         except Exception:
             pass
+        # Kill any remaining chrome processes from our profile
+        import subprocess, glob, shutil as _shutil
+        for tmp in glob.glob("/tmp/uc_*"):
+            try:
+                _shutil.rmtree(tmp, ignore_errors=True)
+                log.info("successfully removed temp profile %s", tmp)
+            except Exception:
+                pass
 
 
 # ---------------------------------------------------------------------------
@@ -407,7 +473,7 @@ async def scrape_stream4free() -> list[tuple[str, str]]:
     use_headless = display is None and sys.platform == "linux"
 
     if use_headless:
-        log.warning("No virtual display available — falling back to headless (less reliable)")
+        log.warning("No virtual display available â falling back to headless (less reliable)")
 
     results = []
 
@@ -464,10 +530,10 @@ async def scrape_stream4free() -> list[tuple[str, str]]:
                 log.info("  m3u8: %s", u)
 
             if len(html) > 5000:
-                log.info("Got substantial page content (%d chars) — CF bypass SUCCESS", len(html))
+                log.info("Got substantial page content (%d chars) â CF bypass SUCCESS", len(html))
                 break
             else:
-                log.warning("Page content only %d chars — may be incomplete", len(html))
+                log.warning("Page content only %d chars â may be incomplete", len(html))
 
         except Exception as e:
             log.error("Attempt %d failed: %s", attempt, e, exc_info=True)
@@ -495,7 +561,7 @@ def write_m3u(channels: list[tuple[str, str]], path: Path):
 
 
 async def main():
-    log.info("Stream4Free scraper — nodriver + Xvfb")
+    log.info("Stream4Free scraper â nodriver + Xvfb")
     log.info("Python %s on %s", sys.version, sys.platform)
 
     channels = await scrape_stream4free()
@@ -504,7 +570,7 @@ async def main():
         write_m3u(channels, M3U_FILE)
         log.info("SUCCESS: %d channels written", len(channels))
     else:
-        log.warning("No channels found — keeping existing M3U file")
+        log.warning("No channels found â keeping existing M3U file")
         # Safety: don't overwrite with empty file
         if M3U_FILE.exists():
             lines = M3U_FILE.read_text(encoding="utf-8").strip().split("\n")
@@ -515,5 +581,12 @@ async def main():
 
 
 if __name__ == "__main__":
-    count = asyncio.run(main())
+    try:
+        count = asyncio.run(main())
+    except (RuntimeError, SystemExit):
+        # "Event loop is closed" from nodriver cleanup â harmless
+        count = 0
+    except Exception as e:
+        log.error("Top-level error: %s", e)
+        count = 0
     sys.exit(0 if count > 0 else 1)
