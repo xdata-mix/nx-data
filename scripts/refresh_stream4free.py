@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
 refresh_stream4free.py - Scraper 100% dynamique pour stream4free.tv
-Decouvre tous les items sur /tv-live-france via Camoufox
-(Firefox patche au niveau C++ pour bypass CF Turnstile),
-puis emet des URLs `stream4free://<slug>` dans le m3u.
+Utilise le binaire Camoufox (Firefox patche C++ anti-detection)
+lance via Playwright pour bypasser CF Turnstile.
 """
 import os, sys, time, re
 
@@ -33,19 +32,44 @@ def is_cf_challenge(title):
     low = (title or "").lower()
     return any(k in low for k in CF_TITLES)
 
+def get_camoufox_path():
+    try:
+        from camoufox.pkgman import get_path
+        return str(get_path("camoufox"))
+    except Exception:
+        return None
+
 def run_scraper():
-    from camoufox.sync_api import Camoufox
+    from playwright.sync_api import sync_playwright
+    cfx_path = get_camoufox_path()
     entries = []
     max_retries = 3
     for attempt in range(1, max_retries + 1):
-        print(f"Tentative {attempt}/{max_retries} (Camoufox)...")
+        print(f"Tentative {attempt}/{max_retries}...")
         try:
-            with Camoufox(headless=True) as browser:
-                page = browser.new_page()
+            with sync_playwright() as p:
+                launch_opts = {"headless": True}
+                if cfx_path:
+                    launch_opts["executable_path"] = cfx_path
+                    print(f"  Camoufox binary: {cfx_path}")
+                else:
+                    print("  WARN: no Camoufox binary, using default Firefox")
+                    p.firefox.install()
+                browser = p.firefox.launch(**launch_opts)
+                context = browser.new_context(
+                    no_viewport=True,
+                    locale="fr-FR",
+                    timezone_id="Europe/Paris",
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
+                )
+                page = context.new_page()
+                page.add_init_script("""
+                    Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+                """)
                 page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=60000)
                 title = page.title()
                 if is_cf_challenge(title):
-                    print(f"  CF detecte (titre: {title}), attente...")
+                    print(f"  CF detecte ({title}), attente...")
                     for i in range(30):
                         time.sleep(2)
                         title = page.title()
@@ -53,8 +77,8 @@ def run_scraper():
                             print(f"  CF resolu apres {(i+1)*2}s")
                             break
                     else:
-                        print("  WARN: CF non resolve")
-                        page.close()
+                        print("  WARN: CF non resolve apres 60s")
+                        browser.close()
                         if attempt < max_retries: time.sleep(5)
                         continue
                 try:
@@ -82,13 +106,13 @@ def run_scraper():
                         seen.add(slug)
                         entries.append({"slug": slug, "title": title_clean, "logo": logo})
                     except: continue
-                page.close()
                 if entries:
                     print(f"  OK: {len(entries)} chaines")
+                    browser.close()
                     break
                 else:
                     print("  0 chaines, retry pbitem_cont...")
-                    page2 = browser.new_page()
+                    page2 = context.new_page()
                     page2.goto(PAGE_URL, wait_until="networkidle", timeout=60000)
                     time.sleep(3)
                     for el in page2.query_selector_all("a.pbitem_cont"):
@@ -106,7 +130,7 @@ def run_scraper():
                             seen.add(slug)
                             entries.append({"slug": slug, "title": title_clean, "logo": logo})
                         except: continue
-                    page2.close()
+                    browser.close()
                     if entries: break
                     else:
                         if attempt < max_retries: time.sleep(5)
