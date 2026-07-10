@@ -1257,12 +1257,10 @@ tf1plus://tf1/highlander
 tf1plus://tf1/farscape
 #EXTINF:-1 tvg-id="tf1plus-tf1-secret-story" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Secret Story
 tf1plus://tf1/secret-story
-#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
-tf1plus://tf1/telefoot
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
+#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
+tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
@@ -1455,6 +1453,8 @@ tf1plus://tmc/21h-medias-5-ans-de-metoo
 tf1plus://tmc/21h-medias-janvier-2015-lhorreur-en-france
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-et-les-nouveaux-gourous" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill et les Nouveaux Gourous
 tf1plus://tmc/martin-weill-et-les-nouveaux-gourous
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-xavier-dupont-de-ligonnes-la-chasse-au-scoop" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias Xavier Dupont de Ligonnes la Chasse Au Scoop
 tf1plus://tmc/21h-medias-xavier-dupont-de-ligonnes-la-chasse-au-scoop
 #EXTINF:-1 tvg-id="tf1plus-tmc-la-mode-by-loic-prigent" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",La Mode By Loic Prigent
@@ -3005,6 +3005,8 @@ tf1plus://tf1-series-films/rrrrrrr
 tf1plus://tfx/debarquement-immediat
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Fantomas
 tf1plus://tmc/fantomas
+#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Fantomas Se Dechaine
+tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-double-zero-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-df88b8-847ce2-72689c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Double Zero
 tf1plus://tf1-series-films/double-zero
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-redemption-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b8f4a8-f5b922-4a50f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Pop Redemption
@@ -3035,8 +3037,6 @@ tf1plus://tf1/the-poison-rose
 tf1plus://tf1-series-films/cookie
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-program-card-portrait-1-b658ef-dee41d-44a1d1-0f5622-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Banlieue 13
 tf1plus://tf1-series-films/banlieue-13
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-ultimatum-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-e94865-9a7613-cfff05-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Banlieue 13 Ultimatum
-tf1plus://tf1-series-films/banlieue-13-ultimatum
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-son-des-souvenirs-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-le-son-des-souvenirs-0f308b-bd2d3d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Le Son des Souvenirs
 tf1plus://tf1/le-son-des-souvenirs
 #EXTINF:-1 tvg-id="tf1plus-tf1-epic-elvis-presley-in-concert-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-epic-elvis-presley-in-concert-a39e51-015d09-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Epic Elvis Presley In Concert
@@ -3181,6 +3181,8 @@ tf1plus://tf1/camping
 tf1plus://tf1/camping-2
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas
 tf1plus://tmc/fantomas
+#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas Se Dechaine
+tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-sous-doues-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-472567-ac531a-b46c92-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Les Sous Doues
 tf1plus://tmc/les-sous-doues
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-sous-doues-en-vacances-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-63e3f9-8930c9-7912da-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Les Sous Doues En Vacances
@@ -3363,6 +3365,8 @@ tf1plus://tf1-series-films/banlieue-13
 tf1plus://tf1-series-films/banlieue-13-ultimatum
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Fantomas
 tf1plus://tmc/fantomas
+#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Fantomas Se Dechaine
+tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tfx-wasabi-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-wasabi-0c012a-f5d84b-818261-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Wasabi
 tf1plus://tfx/wasabi
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b4a1c2-7f6ebd-14772b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Camping
@@ -3393,8 +3397,6 @@ tf1plus://tf1/la-traversee-059
 tf1plus://tf1/feedback
 #EXTINF:-1 tvg-id="tf1plus-tf1-red-joan-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a475ec-09b427-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Red Joan
 tf1plus://tf1/red-joan
-#EXTINF:-1 tvg-id="tf1plus-tf1-irenas-vow-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8554ee-f1d867-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Irenas Vow
-tf1plus://tf1/irenas-vow
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-bandidas-aventure" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-3-bandidas-bandidas-6eb817-90ead1-b26bd1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Bandidas
 tf1plus://tf1-series-films/bandidas
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-cavalier-de-laube-aventure" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5eb0b4-9b17b8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Aventure",Le Cavalier de Laube
