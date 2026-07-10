@@ -20,7 +20,7 @@ import time
 PAGE_URL = "https://www.stream4free.tv/tv-live-france"
 BASE_URL = "https://www.stream4free.tv"
 OUT_FILE = "data-stream4free.m3u"
-GROUP    = "Stream4Free"
+GROUP   = "Stream4Free"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -39,7 +39,6 @@ SKIP_SLUGS = {
     "#",
 }
 
-
 def clean_title(raw, slug):
     t = raw.strip() if raw else slug.replace("-", " ").title()
     for suffix in TITLE_CLEAN:
@@ -49,7 +48,6 @@ def clean_title(raw, slug):
         t = t[9:].strip()
     return t[0].upper() + t[1:] if t else slug
 
-
 def run_scraper():
     from playwright.sync_api import sync_playwright
     entries = []
@@ -58,14 +56,27 @@ def run_scraper():
         browser = pw.chromium.launch(headless=True)
         ctx = browser.new_context(user_agent=UA)
 
-        # ---- Decouverte sur /tv-live-france ----
+        # ---- Decouverte sur /tv-live-france (avec retry) ----
         page = ctx.new_page()
-        print("Playwright: chargement de /tv-live-france ...", flush=True)
-        page.goto(PAGE_URL, wait_until="networkidle", timeout=90000)
-        try:
-            page.wait_for_selector("a.pbitem_cont", timeout=30000)
-        except Exception:
-            pass
+
+        max_retries = 3
+        for attempt in range(1, max_retries + 1):
+            print(f"Playwright: tentative {attempt}/{max_retries} ...", flush=True)
+            try:
+                # domcontentloaded au lieu de networkidle (trop strict)
+                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120000)
+                # Attente explicite du contenu dynamique
+                page.wait_for_selector("a.pbitem_cont", timeout=60000)
+                print("Playwright: contenu trouve!", flush=True)
+                break
+            except Exception as e:
+                print(f"WARN tentative {attempt}: {e}", flush=True)
+                if attempt == max_retries:
+                    print("ERR: toutes les tentatives echouees", flush=True)
+                    browser.close()
+                    return []
+                time.sleep(10)
+
         time.sleep(3)
 
         elements = page.query_selector_all("a.pbitem_cont")
@@ -104,7 +115,6 @@ def run_scraper():
 
     return entries
 
-
 def main():
     entries = run_scraper()
 
@@ -129,7 +139,6 @@ def main():
         f.write("\n".join(lines) + "\n")
 
     print(f"Ecrit {OUT_FILE}: {len(entries)} chaines", flush=True)
-
 
 if __name__ == "__main__":
     main()
