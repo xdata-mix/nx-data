@@ -43,7 +43,7 @@ jobs:
         env:
           LUMI_COUNTRY: 'FR'
           LUMI_SKIP_DEAD: '1'
-          LUMI_PROVIDERS: 'ELITE'
+          LUMI_PROVIDERS: 'PRO,ULTRA'
           LUMI_OUT: 'data/lumichat/data-lumichat.m3u'
           LUMI_API_TIMEOUT: '25'
           LUMI_API_TRIES: '3'
