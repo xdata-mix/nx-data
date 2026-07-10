@@ -20,19 +20,11 @@ import time
 PAGE_URL = "https://www.stream4free.tv/tv-live-france"
 BASE_URL = "https://www.stream4free.tv"
 OUT_FILE = "data-stream4free.m3u"
-GROUP   = "Stream4Free"
+GROUP = "Stream4Free"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) "
-      "Chrome/131.0.0.0 Safari/537.36")
-
-# Anti-detection: masque navigator.webdriver + ajoute chrome runtime
-STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-Object.defineProperty(navigator, 'languages', {get: () => ['fr-FR', 'fr', 'en-US', 'en']});
-Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
-if (!window.chrome) { window.chrome = {runtime: {}, loadTimes: function(){}, csi: function(){}}; }
-"""
+      "Chrome/137.0.0.0 Safari/537.36")
 
 TITLE_CLEAN = [
     " - Stream4Free", " | Stream4Free",
@@ -47,6 +39,26 @@ SKIP_SLUGS = {
     "#",
 }
 
+# Titres de pages de challenge CF connus
+CF_TITLES = ["un instant", "just a moment", "checking", "attention required",
+             "please wait", "verify"]
+
+# Stealth JS enrichi : webdriver, chrome runtime, permissions, touch, connection
+STEALTH_JS = """
+Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+Object.defineProperty(navigator, 'languages', {get: () => ['fr-FR', 'fr', 'en-US', 'en']});
+Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
+if (!window.chrome) { window.chrome = {runtime: {}, loadTimes: function(){}, csi: function(){}}; }
+const origQuery = window.navigator.permissions.query;
+window.navigator.permissions.query = (p) =>
+  p.name === 'notifications'
+    ? Promise.resolve({state: Notification.permission})
+    : origQuery(p);
+Object.defineProperty(navigator, 'maxTouchPoints', {get: () => 0});
+Object.defineProperty(navigator, 'connection', {get: () => ({rtt: 50, downlink: 10, effectiveType: '4g'})});
+"""
+
+
 def clean_title(raw, slug):
     t = raw.strip() if raw else slug.replace("-", " ").title()
     for suffix in TITLE_CLEAN:
@@ -56,16 +68,51 @@ def clean_title(raw, slug):
         t = t[9:].strip()
     return t[0].upper() + t[1:] if t else slug
 
+
+def wait_for_cf(page, timeout=90):
+    """Attend que le challenge CF se resolve automatiquement."""
+    start = time.time()
+    while time.time() - start < timeout:
+        try:
+            title = page.title().lower().strip()
+            is_cf = any(t in title for t in CF_TITLES)
+            if not is_cf and len(title) > 0:
+                print(f"  CF resolve en {time.time()-start:.1f}s (titre: {page.title()})",
+                      flush=True)
+                return True
+        except Exception:
+            pass
+        time.sleep(2)
+    print(f"  CF NON resolve apres {timeout}s (titre: {page.title()})", flush=True)
+    return False
+
+
 def run_scraper():
     from playwright.sync_api import sync_playwright
+
+    try:
+        from playwright_stealth import stealth_sync
+        has_stealth = True
+        print("playwright-stealth: charge", flush=True)
+    except ImportError:
+        has_stealth = False
+        print("playwright-stealth: NON dispo, patches manuels", flush=True)
+
     entries = []
 
     with sync_playwright() as pw:
+        # Mode headed (avec Xvfb en CI) = meilleur bypass CF
+        headless = os.environ.get("PLAYWRIGHT_HEADLESS", "false").lower() == "true"
+        print(f"Mode: {'headless' if headless else 'headed'}", flush=True)
+
         browser = pw.chromium.launch(
-            headless=True,
+            headless=headless,
             args=[
                 "--disable-blink-features=AutomationControlled",
                 "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-infobars",
+                "--window-size=1920,1080",
             ],
         )
         ctx = browser.new_context(
@@ -73,29 +120,35 @@ def run_scraper():
             viewport={"width": 1920, "height": 1080},
             locale="fr-FR",
         )
-        # Inject stealth before any page loads
-        ctx.add_init_script(STEALTH_JS)
 
-        # ---- Decouverte sur /tv-live-france (avec retry) ----
+        if not has_stealth:
+            ctx.add_init_script(STEALTH_JS)
+
         page = ctx.new_page()
+
+        if has_stealth:
+            stealth_sync(page)
 
         max_retries = 3
         for attempt in range(1, max_retries + 1):
-            print(f"Playwright: tentative {attempt}/{max_retries} ...", flush=True)
+            print(f"Tentative {attempt}/{max_retries} ...", flush=True)
             try:
-                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120000)
-                page.wait_for_selector("a.pbitem_cont", timeout=60000)
-                print("Playwright: contenu trouve!", flush=True)
+                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
+
+                if not wait_for_cf(page, timeout=90):
+                    raise Exception("CF challenge non resolve")
+
+                page.wait_for_selector("a.pbitem_cont", timeout=30_000)
+                print("Contenu trouve!", flush=True)
                 break
             except Exception as e:
                 print(f"WARN tentative {attempt}: {e}", flush=True)
                 if attempt == max_retries:
-                    # Debug: dump page content to understand what loaded
                     try:
                         html = page.content()
-                        print(f"DEBUG page title: {page.title()}", flush=True)
-                        print(f"DEBUG page len: {len(html)}", flush=True)
-                        print(f"DEBUG first 500 chars: {html[:500]}", flush=True)
+                        print(f"DEBUG titre: {page.title()}", flush=True)
+                        print(f"DEBUG len: {len(html)}", flush=True)
+                        print(f"DEBUG 500 chars: {html[:500]}", flush=True)
                     except Exception:
                         pass
                     print("ERR: toutes les tentatives echouees", flush=True)
@@ -106,7 +159,7 @@ def run_scraper():
         time.sleep(3)
 
         elements = page.query_selector_all("a.pbitem_cont")
-        print(f"Playwright: {len(elements)} elements <a.pbitem_cont>", flush=True)
+        print(f"{len(elements)} elements <a.pbitem_cont>", flush=True)
 
         seen_slugs = set()
         for el in elements:
@@ -130,7 +183,6 @@ def run_scraper():
                 logo = BASE_URL + ("" if logo.startswith("/") else "/") + logo
 
             stream_url = f"stream4free://{slug}"
-
             entries.append((title, stream_url, logo))
             print(f"  OK {slug} -> {title}", flush=True)
 
@@ -139,30 +191,29 @@ def run_scraper():
 
     return entries
 
+
 def main():
     entries = run_scraper()
-
     print(f"\nResultat: {len(entries)} chaines decouvertes", flush=True)
 
     if not entries:
         if os.path.exists(OUT_FILE):
-            print("WARN: 0 items decouverts, on GARDE l'ancien fichier",
-                  flush=True)
+            print("WARN: 0 items, on GARDE l'ancien fichier", flush=True)
             sys.exit(0)
         print("ERR: 0 items et pas d'ancien fichier", flush=True)
         sys.exit(1)
 
     lines = ["#EXTM3U"]
     for title, url, logo in entries:
-        logo_attr = f' tvg-logo="{logo}"' if logo else ""
-        lines.append(
-            f'#EXTINF:-1 group-title="{GROUP}"{logo_attr},{title}')
+        logo_attr = f' tvg-logo=\"{logo}\"' if logo else ""
+        lines.append(f'#EXTINF:-1 group-title=\"{GROUP}\"{logo_attr},{title}')
         lines.append(url)
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
     print(f"Ecrit {OUT_FILE}: {len(entries)} chaines", flush=True)
+
 
 if __name__ == "__main__":
     main()
