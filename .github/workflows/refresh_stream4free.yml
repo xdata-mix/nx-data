@@ -1,9 +1,9 @@
-name: Refresh Stream4Free
+name: Actualiser Stream4Free
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # toutes les 6h
-  workflow_dispatch:  # trigger manuel
+    - cron: '30 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,37 +15,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install Scrapling
+      - name: Install system dependencies (Xvfb + Chrome)
         run: |
-          pip install "scrapling[fetchers]"
-          scrapling install
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb
+          google-chrome --version || echo "Chrome not pre-installed"
 
-      - name: Setup WARP (1.1.1.1)
+      - name: Install Python dependencies
         run: |
-          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-          sudo apt-get update && sudo apt-get install -y cloudflare-warp
-          warp-cli --accept-tos registration new
-          warp-cli --accept-tos mode warp
-          warp-cli --accept-tos connect
-          sleep 5
-          curl -s https://cloudflare.com/cdn-cgi/trace | grep warp
+          pip install nodriver pyvirtualdisplay
 
       - name: Run Stream4Free scraper
         run: python scripts/refresh_stream4free.py
 
       - name: Combine into data-replay.m3u (if combine script exists)
+        if: always()
         run: |
           if [ -f scripts/combine_replays.py ]; then
             python scripts/combine_replays.py
           fi
 
       - name: Commit and push
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -54,6 +49,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: refresh stream4free"
+            git commit -m "auto: refresh stream4free (nodriver)"
+            git pull --rebase origin main
             git push
           fi
