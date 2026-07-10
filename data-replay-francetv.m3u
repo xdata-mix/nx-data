@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
+#EXTINF:-1 tvg-id="francetv-prog-societe_magazine-d-actualites_une-vie-en-france" tvg-logo="https://medias.france.tv/XfH0Kse6tCuO6korrPAKm6FmFCs/400x0/filters:quality(85)/q/m/b/php75cbmq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Une vie en France
+francetv://program/societe_magazine-d-actualites_une-vie-en-france
 #EXTINF:-1 tvg-id="francetv-78ffca2b-b888-402c-9d1b-d3a2357b7c8b" tvg-logo="https://medias.france.tv/fCUSoBZbI9xlWAOTMgbAv6EqxF4/400x0/filters:quality(85)/d/6/e/ce05a6b02614429d9899ec0a16bb3e6d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Drag Academy
 francetv://78ffca2b-b888-402c-9d1b-d3a2357b7c8b
 #EXTINF:-1 tvg-id="francetv-0c865afe-4ae5-4542-98fe-3a9bb0f94b0a" tvg-logo="https://medias.france.tv/rCqkcl5KaciQ1rfGTwpwGIHW3Ew/400x0/filters:quality(85)/0/9/3/1a60f76fde634d3b9b6424cdba618390.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le match France-Italie : histoire d'une rivalité
@@ -3233,6 +3235,8 @@ francetv://program/arte_bonnes-nouvelles-de-la-planete
 francetv://2ea20962-dd7a-483f-ac4f-fd3cfd95003e
 #EXTINF:-1 tvg-id="francetv-prog-france-5_sur-le-front" tvg-logo="https://medias.france.tv/5E9b5P7npJqhqMKMESISmyKIti4/400x0/filters:quality(85)/b/k/s/phpgfgskb.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - On n'a qu'une planète",Sur le front
 francetv://program/france-5_sur-le-front
+#EXTINF:-1 tvg-id="francetv-8c520094-7c3b-11f1-873a-19616fa871f9" tvg-logo="https://medias.france.tv/jz9zx5E3T1efjyFloEG_BkKfKeE/400x0/filters:quality(85)/6/1/4/858e206fb5ce42c7968458ab34513416.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Canicule : on se protège",Journal Météo Climat — Au chevet des rivières
+francetv://8c520094-7c3b-11f1-873a-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-74c945de-6e1e-11f1-8730-19616fa871f9" tvg-logo="https://medias.france.tv/jnAM4icoOgfOaz8Q6nmpgPl8aFE/400x0/filters:quality(85)/8/a/c/266b005b9bc94edd8cd779fb5c66dca8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Canicule : on se protège",Télématin — Santé - Canicule : comment réussir à dormir ?
 francetv://74c945de-6e1e-11f1-8730-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-393ef702-5c0e-11f0-84e3-19616fa871f9" tvg-logo="https://medias.france.tv/qJO3s3UXWHAfpBev63opnmrG_Js/400x0/filters:quality(85)/a/b/9/0edc93edbfc74f09a332fa28d186e0b8c2bff56b6eb31bf17099435c6fb7e9ba.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Canicule : on se protège",Journal 20h00 — Canicule, quelles solutions pour remplacer la climatisation ?
@@ -4247,6 +4251,10 @@ francetv://program/franceinfo_le-23h
 francetv://5c29e355-3873-4fac-b822-ab1d2314dd3b
 #EXTINF:-1 tvg-id="francetv-72c4113a-6399-4c0b-ad51-3465ffae2c01" tvg-logo="https://medias.france.tv/17-9ocMFGnEdXdOuipX4OxpXAM8/400x0/filters:quality(85)/d/s/r/phpqadrsd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le meilleur du festival We Love Green
 francetv://72c4113a-6399-4c0b-ad51-3465ffae2c01
+#EXTINF:-1 tvg-id="francetv-d974671e-bc03-477e-a443-c938b434ed2e" tvg-logo="https://medias.france.tv/sucmjx4N8ObRRAmuQV7SL04fPz4/400x0/filters:quality(85)/5/d/a/85a476a863fa4b7f8a72e8d61a8d9ad5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",RNBOI
+francetv://d974671e-bc03-477e-a443-c938b434ed2e
+#EXTINF:-1 tvg-id="francetv-fa1f4f6c-f4aa-4bec-9704-16cb9699286c" tvg-logo="https://medias.france.tv/1FLRt5zANlZQRXcO7acPNpNRMfE/400x0/filters:quality(85)/b/b/2/a711a46723724e1f95768acdefb3c2bb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Franglish
+francetv://fa1f4f6c-f4aa-4bec-9704-16cb9699286c
 #EXTINF:-1 tvg-id="francetv-ce8e3778-87ca-45f7-8e5d-5a94f47ba27e" tvg-logo="https://medias.france.tv/9uNtYaxmmF6bso8ZpwJ4Kf1C0q8/400x0/filters:quality(85)/u/v/k/phptsfkvu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Aya Nakamura au Stade de France
 francetv://ce8e3778-87ca-45f7-8e5d-5a94f47ba27e
 #EXTINF:-1 tvg-id="francetv-3640d2eb-b594-4a0d-9110-a655c9278520" tvg-logo="https://medias.france.tv/npm4MHmSPEQ6V7cMl36HsvUGUos/400x0/filters:quality(85)/l/4/u/phpgigu4l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Paloma au PluriElles
@@ -4527,6 +4535,10 @@ francetv://f1a3a7c4-1eb4-42d6-bf0a-a2520e239fae
 francetv://c3370444-65da-4a42-a1cc-0ba9f87069f8
 #EXTINF:-1 tvg-id="francetv-bec5dab8-273a-4252-ad15-e581c9bb5e7e" tvg-logo="https://medias.france.tv/V3EELtsXEIULqFRdPyjI_GZsId8/400x0/filters:quality(85)/a/7/8/e632cff4aa3d4c29bee05f41ee71ac74d99257f167fd8b330eb8e7ac17ba087a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Opéra et musique classique",Doux Silence par Les Musiciens de Saint-Julien au Festival d'Ambronay 2025
 francetv://bec5dab8-273a-4252-ad15-e581c9bb5e7e
+#EXTINF:-1 tvg-id="francetv-fa1f4f6c-f4aa-4bec-9704-16cb9699286c" tvg-logo="https://medias.france.tv/1FLRt5zANlZQRXcO7acPNpNRMfE/400x0/filters:quality(85)/b/b/2/a711a46723724e1f95768acdefb3c2bb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Hip hop et rap",Franglish
+francetv://fa1f4f6c-f4aa-4bec-9704-16cb9699286c
+#EXTINF:-1 tvg-id="francetv-d974671e-bc03-477e-a443-c938b434ed2e" tvg-logo="https://medias.france.tv/sucmjx4N8ObRRAmuQV7SL04fPz4/400x0/filters:quality(85)/5/d/a/85a476a863fa4b7f8a72e8d61a8d9ad5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Hip hop et rap",RNBOI
+francetv://d974671e-bc03-477e-a443-c938b434ed2e
 #EXTINF:-1 tvg-id="francetv-293a15c1-4d2f-490e-bef4-7fbe34d17ed2" tvg-logo="https://medias.france.tv/Yczjkhp4jortB5a9zdjuQmPz3v8/400x0/filters:quality(85)/v/w/b/phppz7bwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Hip hop et rap",Jul au Stade de France
 francetv://293a15c1-4d2f-490e-bef4-7fbe34d17ed2
 #EXTINF:-1 tvg-id="francetv-ce8e3778-87ca-45f7-8e5d-5a94f47ba27e" tvg-logo="https://medias.france.tv/9uNtYaxmmF6bso8ZpwJ4Kf1C0q8/400x0/filters:quality(85)/u/v/k/phptsfkvu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Hip hop et rap",Aya Nakamura au Stade de France
@@ -5777,26 +5789,34 @@ francetv://program/tv5-monde_les-zinzins-de-l-espace
 francetv://program/enfants_six-huit-ans_fifi-brindacier
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_tristan-et-iseult-la-legende-oubliee" tvg-logo="https://medias.france.tv/To_Bvu8HOZP2yfMIdfkg15t6Leg/400x0/filters:quality(85)/e/0/a/44888629224b4b109576c0bd9494fa0e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Séries cultes",Tristan et Iseult, la légende oubliée
 francetv://program/tv5-monde_tristan-et-iseult-la-legende-oubliee
+#EXTINF:-1 tvg-id="francetv-prog-france-4_sous-les-mers" tvg-logo="https://medias.france.tv/-8PklTVrvYEXB29PDi-xYTQ9_xc/400x0/filters:quality(85)/p/l/g/php7t3glp.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Sous les mers
+francetv://program/france-4_sous-les-mers
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_idefix-et-les-irreductibles" tvg-logo="https://medias.france.tv/OVp3tcUQpevdB5ZBKg2cxIEGzxU/400x0/filters:quality(85)/d/e/f/phpxmwfed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Idéfix et les irréductibles
 francetv://program/enfants_six-huit-ans_idefix-et-les-irreductibles
 #EXTINF:-1 tvg-id="francetv-prog-france-4_les-gardes-chimeres" tvg-logo="https://medias.france.tv/pkXLRv6r4ixt7CYPT4EcC2zb35c/400x0/filters:quality(85)/r/u/a/php9htaur.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Les Gardes Chimères
 francetv://program/france-4_les-gardes-chimeres
-#EXTINF:-1 tvg-id="francetv-prog-france-4_sous-les-mers" tvg-logo="https://medias.france.tv/-8PklTVrvYEXB29PDi-xYTQ9_xc/400x0/filters:quality(85)/p/l/g/php7t3glp.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Sous les mers
-francetv://program/france-4_sous-les-mers
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_partie-de-campagne" tvg-logo="https://medias.france.tv/s964zPnWKO3Km4GF2K_Kdn5LVyY/400x0/filters:quality(85)/x/9/c/phpqfwc9x.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Partie de campagne
-francetv://program/enfants_six-huit-ans_partie-de-campagne
 #EXTINF:-1 tvg-id="francetv-prog-france-4_craig-de-la-crique" tvg-logo="https://medias.france.tv/cmAjJ8tO1G9jlcR1wyUlOL9fmd4/400x0/filters:quality(85)/s/w/m/php014mws.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Craig de la crique
 francetv://program/france-4_craig-de-la-crique
-#EXTINF:-1 tvg-id="francetv-prog-france-4_petite-casbah" tvg-logo="https://medias.france.tv/l8GuzBfflIfvdxK74TnJPC1a2Vg/400x0/filters:quality(85)/c/n/h/phpknkhnc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Petite Casbah
-francetv://program/france-4_petite-casbah
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_dragons-la-serie" tvg-logo="https://medias.france.tv/3EjM0EHJ72K0psmmQONkDracr8M/400x0/filters:quality(85)/g/v/5/phpzgc5vg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Dragons, cavaliers de Beurk
-francetv://program/enfants_six-huit-ans_dragons-la-serie
-#EXTINF:-1 tvg-id="francetv-prog-france-4_dragons-les-neuf-royaumes" tvg-logo="https://medias.france.tv/8nQmuaLJXhpAQ_GrPVd1IfuqSIo/400x0/filters:quality(85)/1/f/c/phpctvcf1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Dragons : les neuf royaumes
-francetv://program/france-4_dragons-les-neuf-royaumes
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-quete-d-ewilan" tvg-logo="https://medias.france.tv/qtq45GA8s7Vi7SRpexaaGI3cLjY/400x0/filters:quality(85)/a/v/h/phpgxahva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",La quête d'Ewilan
-francetv://program/enfants_neuf-douze-ans_la-quete-d-ewilan
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_partie-de-campagne" tvg-logo="https://medias.france.tv/s964zPnWKO3Km4GF2K_Kdn5LVyY/400x0/filters:quality(85)/x/9/c/phpqfwc9x.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Partie de campagne
+francetv://program/enfants_six-huit-ans_partie-de-campagne
 #EXTINF:-1 tvg-id="francetv-prog-france-4_kiya-et-les-heros-de-kimoja" tvg-logo="https://medias.france.tv/Bo3LpDM7tE4H9w9eLtCY-oBeM68/400x0/filters:quality(85)/q/1/d/php5ucd1q.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Kiya et les héros de Kimoja
 francetv://program/france-4_kiya-et-les-heros-de-kimoja
+#EXTINF:-1 tvg-id="francetv-prog-france-4_oscar-malika-toujours-en-retard" tvg-logo="https://medias.france.tv/zX1gqpQglcUbrQuovhhC9-66vho/400x0/filters:quality(85)/z/w/l/phpftmlwz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Oscar & Malika, toujours en retard
+francetv://program/france-4_oscar-malika-toujours-en-retard
+#EXTINF:-1 tvg-id="francetv-prog-france-4_petite-casbah" tvg-logo="https://medias.france.tv/l8GuzBfflIfvdxK74TnJPC1a2Vg/400x0/filters:quality(85)/c/n/h/phpknkhnc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Petite Casbah
+francetv://program/france-4_petite-casbah
+#EXTINF:-1 tvg-id="francetv-prog-france-4_dragons-les-neuf-royaumes" tvg-logo="https://medias.france.tv/8nQmuaLJXhpAQ_GrPVd1IfuqSIo/400x0/filters:quality(85)/1/f/c/phpctvcf1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Dragons : les neuf royaumes
+francetv://program/france-4_dragons-les-neuf-royaumes
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_dragons-la-serie" tvg-logo="https://medias.france.tv/3EjM0EHJ72K0psmmQONkDracr8M/400x0/filters:quality(85)/g/v/5/phpzgc5vg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Dragons, cavaliers de Beurk
+francetv://program/enfants_six-huit-ans_dragons-la-serie
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_bienvenue-a-paper-port" tvg-logo="https://medias.france.tv/MRn0t9FmU1AKdfvH1olswVIHMPQ/400x0/filters:quality(85)/q/n/f/phpa2pfnq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Bienvenue à Paper Port
+francetv://program/enfants_six-huit-ans_bienvenue-a-paper-port
+#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-quete-d-ewilan" tvg-logo="https://medias.france.tv/qtq45GA8s7Vi7SRpexaaGI3cLjY/400x0/filters:quality(85)/a/v/h/phpgxahva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",La quête d'Ewilan
+francetv://program/enfants_neuf-douze-ans_la-quete-d-ewilan
+#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_tobie-lolness" tvg-logo="https://medias.france.tv/fzrYZhKUA6dW3hrcY608nRgtFUQ/400x0/filters:quality(85)/f/d/o/phpdnrodf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Tobie Lolness
+francetv://program/enfants_neuf-douze-ans_tobie-lolness
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_badjelly" tvg-logo="https://medias.france.tv/HmyWnvaZIebYhj7BtUe2edXic9E/400x0/filters:quality(85)/v/w/f/phpr20fwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Badjelly
+francetv://program/enfants_six-huit-ans_badjelly
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_la-colo" tvg-logo="https://medias.france.tv/vqt6GEAcEppsZsjvVhsgZ7BDDlg/400x0/filters:quality(85)/f/w/z/phpswqzwf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",La colo
 francetv://program/enfants_six-huit-ans_la-colo
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_silverpoint" tvg-logo="https://medias.france.tv/iupCO5gWLyIj0bMKzCLL684d4Zw/400x0/filters:quality(85)/n/m/j/php1etjmn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Silverpoint
@@ -5805,18 +5825,10 @@ francetv://program/enfants_neuf-douze-ans_silverpoint
 francetv://program/france-3_wakfu
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_ivandoe" tvg-logo="https://medias.france.tv/LAVQZEnlyudToQ9rQCh2xpIEyzA/400x0/filters:quality(85)/4/5/q/phprqiq54.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Ivandoe
 francetv://program/enfants_neuf-douze-ans_ivandoe
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_tobie-lolness" tvg-logo="https://medias.france.tv/fzrYZhKUA6dW3hrcY608nRgtFUQ/400x0/filters:quality(85)/f/d/o/phpdnrodf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Tobie Lolness
-francetv://program/enfants_neuf-douze-ans_tobie-lolness
-#EXTINF:-1 tvg-id="francetv-prog-france-4_oscar-malika-toujours-en-retard" tvg-logo="https://medias.france.tv/zX1gqpQglcUbrQuovhhC9-66vho/400x0/filters:quality(85)/z/w/l/phpftmlwz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Oscar & Malika, toujours en retard
-francetv://program/france-4_oscar-malika-toujours-en-retard
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_badjelly" tvg-logo="https://medias.france.tv/HmyWnvaZIebYhj7BtUe2edXic9E/400x0/filters:quality(85)/v/w/f/phpr20fwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Badjelly
-francetv://program/enfants_six-huit-ans_badjelly
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_petit-vampire" tvg-logo="https://medias.france.tv/-wHhruHNrrK1gF26O0JDnSxY6cw/400x0/filters:quality(85)/w/v/x/phpjalxvw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Petit Vampire
 francetv://program/enfants_six-huit-ans_petit-vampire
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_les-okoo-koo-et-le-chateau-hante" tvg-logo="https://medias.france.tv/InlEl2FhqEvsjNf99Ldni_efrAY/400x0/filters:quality(85)/7/p/a/php6zxap7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Les Okoo-koo et le château hanté
 francetv://program/enfants_six-huit-ans_les-okoo-koo-et-le-chateau-hante
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_bienvenue-a-paper-port" tvg-logo="https://medias.france.tv/MRn0t9FmU1AKdfvH1olswVIHMPQ/400x0/filters:quality(85)/q/n/f/phpa2pfnq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Bienvenue à Paper Port
-francetv://program/enfants_six-huit-ans_bienvenue-a-paper-port
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_quasimodo" tvg-logo="https://medias.france.tv/j3tFDdnXNyXzBJGG2ePC5VyC37E/400x0/filters:quality(85)/d/8/c/ebd0922edcea4934bf598e7813982c8d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Aventure",Quasimodo
 francetv://program/tv5-monde_quasimodo
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_les-aventures-fantastiques-de-sacre-coeur" tvg-logo="https://medias.france.tv/0jQ7JB7Ys4fWQYbswQVDok8lZ9I/400x0/filters:quality(85)/o/0/v/phpq3rv0o.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Des missions pour nos héros",Les aventures fantastiques de Sacré Cœur
@@ -5939,34 +5951,34 @@ francetv://program/enfants_six-huit-ans_a-l-ecole-des-pompiers
 francetv://program/enfants_six-huit-ans_chanme
 #EXTINF:-1 tvg-id="francetv-prog-france-4_la-caravane-lumni-conseils-de-lecture" tvg-logo="https://medias.france.tv/EK4PWPgCX7N9yoOYrGJlHXw-ZZQ/400x0/filters:quality(85)/u/0/n/phpcren0u.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",La caravane Lumni : conseils de lecture
 francetv://program/france-4_la-caravane-lumni-conseils-de-lecture
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_il-etait-une-fois-ces-droles-d-objets" tvg-logo="https://medias.france.tv/5OSKu7piFLKiMyNEbBQMr6TaqYc/400x0/filters:quality(85)/z/z/u/phpcqiuzz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Il était une fois... ces drôles d'objets
+francetv://program/enfants_six-huit-ans_il-etait-une-fois-ces-droles-d-objets
+#EXTINF:-1 tvg-id="francetv-prog-france-4_c-est-toujours-pas-sorcier" tvg-logo="https://medias.france.tv/bXsCQgALfR4HVtLeEcPDVQQUn7k/400x0/filters:quality(85)/v/5/9/phpb6o95v.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",C'est toujours pas sorcier
+francetv://program/france-4_c-est-toujours-pas-sorcier
 #EXTINF:-1 tvg-id="francetv-prog-france-4_mission-info" tvg-logo="https://medias.france.tv/g50CYL4raEOl1sVlBGV8eGOkb9I/400x0/filters:quality(85)/5/m/y/phpcasym5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Mission info
 francetv://program/france-4_mission-info
 #EXTINF:-1 tvg-id="francetv-prog-france-3_les-grandes-grandes-vacances" tvg-logo="https://medias.france.tv/txgXbMsp1-BCCn_u0f6OW05mtNk/400x0/filters:quality(85)/x/v/z/phpzmpzvx.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Les grandes Grandes Vacances
 francetv://program/france-3_les-grandes-grandes-vacances
-#EXTINF:-1 tvg-id="francetv-prog-france-4_c-est-toujours-pas-sorcier" tvg-logo="https://medias.france.tv/bXsCQgALfR4HVtLeEcPDVQQUn7k/400x0/filters:quality(85)/v/5/9/phpb6o95v.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",C'est toujours pas sorcier
-francetv://program/france-4_c-est-toujours-pas-sorcier
 #EXTINF:-1 tvg-id="francetv-prog-france-4_chouette-pas-chouette" tvg-logo="https://medias.france.tv/0PhrEwM6vOMMV5fK9krzY6DAcu8/400x0/filters:quality(85)/q/c/z/php7j4zcq.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Chouette, pas chouette
 francetv://program/france-4_chouette-pas-chouette
 #EXTINF:-1 tvg-id="francetv-prog-france-4_tu-dis-tu-stoppes" tvg-logo="https://medias.france.tv/iy6e5TBQZghDBftl4ystDFfnuJ4/400x0/filters:quality(85)/8/t/4/phpoaj4t8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Tu dis, tu stoppes !
 francetv://program/france-4_tu-dis-tu-stoppes
+#EXTINF:-1 tvg-id="francetv-prog-france-3_scooby-doo-en-europe" tvg-logo="https://medias.france.tv/KXFOoGBFmvJ_HWH9fpKIGtOkVSc/400x0/filters:quality(85)/i/a/l/phpwjulai.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Scooby-Doo en Europe
+francetv://program/france-3_scooby-doo-en-europe
 #EXTINF:-1 tvg-id="francetv-prog-france-4_dedale" tvg-logo="https://medias.france.tv/Ipu2LkphGKpGZ4lfea-X2_hFGmM/400x0/filters:quality(85)/p/g/h/php0xwhgp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Dédale
 francetv://program/france-4_dedale
 #EXTINF:-1 tvg-id="francetv-prog-info_un-jour-une-question" tvg-logo="https://medias.france.tv/cliukwZA0-oSpP6i8WZbdx6PKu8/400x0/filters:quality(85)/7/c/x/php1paxc7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",1 jour, 1 question
 francetv://program/info_un-jour-une-question
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_il-etait-une-fois-ces-droles-d-objets" tvg-logo="https://medias.france.tv/5OSKu7piFLKiMyNEbBQMr6TaqYc/400x0/filters:quality(85)/z/z/u/phpcqiuzz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Il était une fois... ces drôles d'objets
-francetv://program/enfants_six-huit-ans_il-etait-une-fois-ces-droles-d-objets
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_zoe-et-milo" tvg-logo="https://medias.france.tv/WBa_UHv5Hm42HCUoUCxXXLyj1ks/400x0/filters:quality(85)/r/o/a/phpxrcaor.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Zoé et Milo
+francetv://program/enfants_six-huit-ans_zoe-et-milo
+#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-minute-de-max-bird" tvg-logo="https://medias.france.tv/314sYBj_1J2GuHDFXgD-14Zfm9s/400x0/filters:quality(85)/o/r/k/phpos4kro.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",La minute de Max Bird
+francetv://program/enfants_neuf-douze-ans_la-minute-de-max-bird
+#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_bestioles-cie" tvg-logo="https://medias.france.tv/lLxRYVnDHJJB6VQqJaZtsIGFGHY/400x0/filters:quality(85)/7/8/3/659fa814ce09403185e5a47cbc518387.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Bestioles & Cie
+francetv://program/tv5-monde_bestioles-cie
 #EXTINF:-1 tvg-id="francetv-prog-france-4_les-metiers" tvg-logo="https://medias.france.tv/KuUBEYgvgFXpUEjYmFAnIV4mNyY/400x0/filters:quality(85)/c/i/2/php94h2ic.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Les métiers
 francetv://program/france-4_les-metiers
 #EXTINF:-1 tvg-id="francetv-prog-societe_les-gestes-qui-sauvent" tvg-logo="https://medias.france.tv/eRHCEsicjK22-HNsrivUp4dCNbs/400x0/filters:quality(85)/v/k/f/phpznifkv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Les gestes qui sauvent
 francetv://program/societe_les-gestes-qui-sauvent
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_bestioles-cie" tvg-logo="https://medias.france.tv/lLxRYVnDHJJB6VQqJaZtsIGFGHY/400x0/filters:quality(85)/7/8/3/659fa814ce09403185e5a47cbc518387.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Bestioles & Cie
-francetv://program/tv5-monde_bestioles-cie
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-minute-de-max-bird" tvg-logo="https://medias.france.tv/314sYBj_1J2GuHDFXgD-14Zfm9s/400x0/filters:quality(85)/o/r/k/phpos4kro.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",La minute de Max Bird
-francetv://program/enfants_neuf-douze-ans_la-minute-de-max-bird
-#EXTINF:-1 tvg-id="francetv-prog-france-3_scooby-doo-en-europe" tvg-logo="https://medias.france.tv/KXFOoGBFmvJ_HWH9fpKIGtOkVSc/400x0/filters:quality(85)/i/a/l/phpwjulai.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Scooby-Doo en Europe
-francetv://program/france-3_scooby-doo-en-europe
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_zoe-et-milo" tvg-logo="https://medias.france.tv/WBa_UHv5Hm42HCUoUCxXXLyj1ks/400x0/filters:quality(85)/r/o/a/phpxrcaor.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",Zoé et Milo
-francetv://program/enfants_six-huit-ans_zoe-et-milo
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_1001-les-mondes-antiques" tvg-logo="https://medias.france.tv/bZK1055Q5QMuE-9yFNEsn_CbIOY/400x0/filters:quality(85)/z/f/g/php90rgfz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",1001 Les mondes antiques
 francetv://program/enfants_six-huit-ans_1001-les-mondes-antiques
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_1001-moyen-ages" tvg-logo="https://medias.france.tv/JYfIiCkr2u1cjwDIUGPzP-5SZ1c/400x0/filters:quality(85)/u/u/e/phptlieuu.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",1001 Moyen-Âges
@@ -5983,12 +5995,14 @@ francetv://program/tv5-monde_feeli-tout
 francetv://program/tv5-monde_maelys-du-livre-au-dessin-anime
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_en-sortant-de-l-ecole" tvg-logo="https://medias.france.tv/6TJ7XnKrLdmSawauHJLUXnGFAgM/400x0/filters:quality(85)/2/o/m/phpf6mmo2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour en savoir plus",En sortant de l'école
 francetv://program/enfants_neuf-douze-ans_en-sortant-de-l-ecole
+#EXTINF:-1 tvg-id="francetv-prog-france-5_t-choupi-a-la-campagne" tvg-logo="https://medias.france.tv/2ltgCYuGouq74VMauBJyW_wJTMQ/400x0/filters:quality(85)/4/h/e/phpxzreh4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",T'Choupi à la campagne
+francetv://program/france-5_t-choupi-a-la-campagne
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_patouille-et-momo" tvg-logo="https://medias.france.tv/SjBYMxO2akXrqGal5WNPR7msvV8/400x0/filters:quality(85)/k/q/k/phpcazkqk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Patouille et Momo
 francetv://program/enfants_trois-cinq-ans_patouille-et-momo
-#EXTINF:-1 tvg-id="francetv-prog-france-5_simon-superlapin" tvg-logo="https://medias.france.tv/8AmMY6f3QCTTyj4lN3A6-o9Q4qc/400x0/filters:quality(85)/d/7/f/php4brf7d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Simon Superlapin
-francetv://program/france-5_simon-superlapin
 #EXTINF:-1 tvg-id="francetv-prog-france-5_yetili" tvg-logo="https://medias.france.tv/ZDwDbjH8_o2lZYG-2wodL48eFl0/400x0/filters:quality(85)/c/f/3/phpmm13fc.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Yétili
 francetv://program/france-5_yetili
+#EXTINF:-1 tvg-id="francetv-prog-france-5_simon-superlapin" tvg-logo="https://medias.france.tv/8AmMY6f3QCTTyj4lN3A6-o9Q4qc/400x0/filters:quality(85)/d/7/f/php4brf7d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Simon Superlapin
+francetv://program/france-5_simon-superlapin
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_trotro-zaza" tvg-logo="https://medias.france.tv/D4q24kXD4Q_UjeBDKIN8hKpEHpc/400x0/filters:quality(85)/j/6/n/phprvsn6j.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Trotro et Zaza
 francetv://program/enfants_trois-cinq-ans_trotro-zaza
 #EXTINF:-1 tvg-id="francetv-prog-france-5_les-comptines-d-okoo" tvg-logo="https://medias.france.tv/1Y77SY03l7dWWHQlzKTh8SvRgFc/400x0/filters:quality(85)/l/g/t/phpmxetgl.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Les plus belles comptines d'Okoo
@@ -5999,8 +6013,6 @@ francetv://program/enfants_trois-cinq-ans_patamuse
 francetv://program/france-5_sam-le-pompier
 #EXTINF:-1 tvg-id="francetv-prog-france-5_simon" tvg-logo="https://medias.france.tv/vTLBN-RbdxdsAsvSES9JkF4s8BU/400x0/filters:quality(85)/6/h/m/phpu7amh6.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Simon
 francetv://program/france-5_simon
-#EXTINF:-1 tvg-id="francetv-prog-france-5_t-choupi-a-la-campagne" tvg-logo="https://medias.france.tv/2ltgCYuGouq74VMauBJyW_wJTMQ/400x0/filters:quality(85)/4/h/e/phpxzreh4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",T'Choupi à la campagne
-francetv://program/france-5_t-choupi-a-la-campagne
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_moustache-patoune" tvg-logo="https://medias.france.tv/sVDghKEYBWk3pheCUhoxKzRGJ9o/400x0/filters:quality(85)/y/c/v/phpy2wvcy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",Moustache & Patoune
 francetv://program/enfants_trois-cinq-ans_moustache-patoune
 #EXTINF:-1 tvg-id="francetv-prog-france-5_t-choupi-a-l-ecole" tvg-logo="https://medias.france.tv/Wvqepa_bV6fThbS38yzoJd4DwBc/400x0/filters:quality(85)/l/v/t/phpzgdtvl.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Pour les tout-petits",T'choupi à l'école
