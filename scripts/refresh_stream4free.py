@@ -26,6 +26,14 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/131.0.0.0 Safari/537.36")
 
+# Anti-detection: masque navigator.webdriver + ajoute chrome runtime
+STEALTH_JS = """
+Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+Object.defineProperty(navigator, 'languages', {get: () => ['fr-FR', 'fr', 'en-US', 'en']});
+Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
+if (!window.chrome) { window.chrome = {runtime: {}, loadTimes: function(){}, csi: function(){}}; }
+"""
+
 TITLE_CLEAN = [
     " - Stream4Free", " | Stream4Free",
     " en streaming gratuit", " en direct gratuit",
@@ -53,8 +61,20 @@ def run_scraper():
     entries = []
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
-        ctx = browser.new_context(user_agent=UA)
+        browser = pw.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+            ],
+        )
+        ctx = browser.new_context(
+            user_agent=UA,
+            viewport={"width": 1920, "height": 1080},
+            locale="fr-FR",
+        )
+        # Inject stealth before any page loads
+        ctx.add_init_script(STEALTH_JS)
 
         # ---- Decouverte sur /tv-live-france (avec retry) ----
         page = ctx.new_page()
@@ -63,15 +83,21 @@ def run_scraper():
         for attempt in range(1, max_retries + 1):
             print(f"Playwright: tentative {attempt}/{max_retries} ...", flush=True)
             try:
-                # domcontentloaded au lieu de networkidle (trop strict)
                 page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120000)
-                # Attente explicite du contenu dynamique
                 page.wait_for_selector("a.pbitem_cont", timeout=60000)
                 print("Playwright: contenu trouve!", flush=True)
                 break
             except Exception as e:
                 print(f"WARN tentative {attempt}: {e}", flush=True)
                 if attempt == max_retries:
+                    # Debug: dump page content to understand what loaded
+                    try:
+                        html = page.content()
+                        print(f"DEBUG page title: {page.title()}", flush=True)
+                        print(f"DEBUG page len: {len(html)}", flush=True)
+                        print(f"DEBUG first 500 chars: {html[:500]}", flush=True)
+                    except Exception:
+                        pass
                     print("ERR: toutes les tentatives echouees", flush=True)
                     browser.close()
                     return []
@@ -88,7 +114,6 @@ def run_scraper():
             slug = href.rstrip("/").split("/")[-1] if href else ""
             if not slug or slug in SKIP_SLUGS or slug in seen_slugs:
                 continue
-            # Skip slugs with tv-show / english content
             if "tv-show" in slug:
                 continue
             seen_slugs.add(slug)
@@ -104,7 +129,6 @@ def run_scraper():
             if logo and not logo.startswith("http"):
                 logo = BASE_URL + ("" if logo.startswith("/") else "/") + logo
 
-            # URL protocol : l'app resoudra au moment de la lecture
             stream_url = f"stream4free://{slug}"
 
             entries.append((title, stream_url, logo))
