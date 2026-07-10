@@ -153,6 +153,8 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
     browser_args = [
         "--no-first-run",
         "--no-default-browser-check",
+        "--no-sandbox",              # REQUIRED: GitHub Actions runs as root
+        "--disable-dev-shm-usage",   # Prevent /dev/shm issues in containers
         "--disable-features=Translate",
         "--disable-blink-features=AutomationControlled",
         "--disable-extensions",
@@ -164,6 +166,7 @@ async def fetch_page_with_nodriver(url: str, headless: bool = False) -> str | No
     log.info("Launching Chrome via nodriver (headless=%s)", headless)
     browser = await uc.start(
         headless=headless,
+        sandbox=False,               # REQUIRED: root user in CI
         browser_args=browser_args,
         lang="fr-FR",
     )
