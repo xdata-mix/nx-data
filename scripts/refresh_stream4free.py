@@ -2,7 +2,8 @@
 """
 refresh_stream4free.py - Scraper 100% dynamique pour stream4free.tv
 
-Decouvre tous les items sur /tv-live-france (page JS-rendered) via Playwright,
+Decouvre tous les items sur /tv-live-france via SeleniumBase UC mode
+(bypass CF Turnstile par deconnexion/reconnexion CDP),
 puis emet des URLs `stream4free://<slug>` dans le m3u.
 
 L'app resout les m3u8 AU MOMENT DE LA LECTURE via Stream4FreeResolver
@@ -13,7 +14,6 @@ Zero liste hardcodee. Les items sont decouverts a chaque execution.
 """
 
 import os
-import re
 import sys
 import time
 
@@ -21,10 +21,6 @@ PAGE_URL = "https://www.stream4free.tv/tv-live-france"
 BASE_URL = "https://www.stream4free.tv"
 OUT_FILE = "data-stream4free.m3u"
 GROUP = "Stream4Free"
-
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-      "AppleWebKit/537.36 (KHTML, like Gecko) "
-      "Chrome/137.0.0.0 Safari/537.36")
 
 TITLE_CLEAN = [
     " - Stream4Free", " | Stream4Free",
@@ -39,24 +35,8 @@ SKIP_SLUGS = {
     "#",
 }
 
-# Titres de pages de challenge CF connus
 CF_TITLES = ["un instant", "just a moment", "checking", "attention required",
              "please wait", "verify"]
-
-# Stealth JS enrichi : webdriver, chrome runtime, permissions, touch, connection
-STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-Object.defineProperty(navigator, 'languages', {get: () => ['fr-FR', 'fr', 'en-US', 'en']});
-Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
-if (!window.chrome) { window.chrome = {runtime: {}, loadTimes: function(){}, csi: function(){}}; }
-const origQuery = window.navigator.permissions.query;
-window.navigator.permissions.query = (p) =>
-  p.name === 'notifications'
-    ? Promise.resolve({state: Notification.permission})
-    : origQuery(p);
-Object.defineProperty(navigator, 'maxTouchPoints', {get: () => 0});
-Object.defineProperty(navigator, 'connection', {get: () => ({rtt: 50, downlink: 10, effectiveType: '4g'})});
-"""
 
 
 def clean_title(raw, slug):
@@ -69,125 +49,106 @@ def clean_title(raw, slug):
     return t[0].upper() + t[1:] if t else slug
 
 
-def wait_for_cf(page, timeout=90):
-    """Attend que le challenge CF se resolve automatiquement."""
-    start = time.time()
-    while time.time() - start < timeout:
-        try:
-            title = page.title().lower().strip()
-            is_cf = any(t in title for t in CF_TITLES)
-            if not is_cf and len(title) > 0:
-                print(f"  CF resolve en {time.time()-start:.1f}s (titre: {page.title()})",
-                      flush=True)
-                return True
-        except Exception:
-            pass
-        time.sleep(2)
-    print(f"  CF NON resolve apres {timeout}s (titre: {page.title()})", flush=True)
-    return False
+def is_cf_challenge(sb):
+    """Check if current page is a CF challenge."""
+    try:
+        title = sb.get_title().lower().strip()
+        return any(t in title for t in CF_TITLES)
+    except Exception:
+        return True
 
 
 def run_scraper():
-    from playwright.sync_api import sync_playwright
-
-    try:
-        from playwright_stealth import stealth_sync
-        has_stealth = True
-        print("playwright-stealth: charge", flush=True)
-    except ImportError:
-        has_stealth = False
-        print("playwright-stealth: NON dispo, patches manuels", flush=True)
+    from seleniumbase import SB
 
     entries = []
 
-    with sync_playwright() as pw:
-        # Mode headed (avec Xvfb en CI) = meilleur bypass CF
-        headless = os.environ.get("PLAYWRIGHT_HEADLESS", "false").lower() == "true"
-        print(f"Mode: {'headless' if headless else 'headed'}", flush=True)
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        reconnect_time = 8 + (attempt - 1) * 4
+        print(f"Tentative {attempt}/{max_retries} (reconnect={reconnect_time}s) ...",
+              flush=True)
+        try:
+            with SB(uc=True, headless=False, locale_code="fr",
+                    chromium_arg="--disable-dev-shm-usage,--no-sandbox") as sb:
 
-        browser = pw.chromium.launch(
-            headless=headless,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-infobars",
-                "--window-size=1920,1080",
-            ],
-        )
-        ctx = browser.new_context(
-            user_agent=UA,
-            viewport={"width": 1920, "height": 1080},
-            locale="fr-FR",
-        )
+                # UC disconnect/reconnect: Chrome sans CDP = normal pour CF
+                sb.uc_open_with_reconnect(PAGE_URL, reconnect_time=reconnect_time)
 
-        if not has_stealth:
-            ctx.add_init_script(STEALTH_JS)
-
-        page = ctx.new_page()
-
-        if has_stealth:
-            stealth_sync(page)
-
-        max_retries = 3
-        for attempt in range(1, max_retries + 1):
-            print(f"Tentative {attempt}/{max_retries} ...", flush=True)
-            try:
-                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
-
-                if not wait_for_cf(page, timeout=90):
-                    raise Exception("CF challenge non resolve")
-
-                page.wait_for_selector("a.pbitem_cont", timeout=30_000)
-                print("Contenu trouve!", flush=True)
-                break
-            except Exception as e:
-                print(f"WARN tentative {attempt}: {e}", flush=True)
-                if attempt == max_retries:
+                if is_cf_challenge(sb):
+                    print("  CF encore present, uc_gui_click_captcha...", flush=True)
                     try:
-                        html = page.content()
-                        print(f"DEBUG titre: {page.title()}", flush=True)
-                        print(f"DEBUG len: {len(html)}", flush=True)
-                        print(f"DEBUG 500 chars: {html[:500]}", flush=True)
+                        sb.uc_gui_click_captcha()
+                        time.sleep(5)
+                    except Exception as ce:
+                        print(f"  click captcha err: {ce}", flush=True)
+
+                if is_cf_challenge(sb):
+                    print("  Attente longue CF...", flush=True)
+                    for _ in range(15):
+                        time.sleep(3)
+                        if not is_cf_challenge(sb):
+                            break
+
+                if is_cf_challenge(sb):
+                    raise Exception(f"CF non resolve (titre: {sb.get_title()})")
+
+                print(f"  CF OK! titre: {sb.get_title()}", flush=True)
+
+                sb.wait_for_element("a.pbitem_cont", timeout=30)
+                print("Contenu trouve!", flush=True)
+
+                time.sleep(3)
+
+                elements = sb.find_elements("a.pbitem_cont")
+                print(f"{len(elements)} elements <a.pbitem_cont>", flush=True)
+
+                seen_slugs = set()
+                for el in elements:
+                    href = el.get_attribute("href") or ""
+                    slug = href.rstrip("/").split("/")[-1] if href else ""
+                    if not slug or slug in SKIP_SLUGS or slug in seen_slugs:
+                        continue
+                    if "tv-show" in slug:
+                        continue
+                    seen_slugs.add(slug)
+
+                    title_el = None
+                    try:
+                        title_el = el.find_element(
+                            "css selector", ".pbitem_title span")
+                    except Exception:
+                        try:
+                            title_el = el.find_element(
+                                "css selector", ".pbitem_title")
+                        except Exception:
+                            pass
+
+                    raw_title = title_el.text.strip() if title_el else ""
+                    title = clean_title(raw_title, slug)
+
+                    logo = ""
+                    try:
+                        img_el = el.find_element("css selector", "img")
+                        logo = img_el.get_attribute("src") or ""
                     except Exception:
                         pass
-                    print("ERR: toutes les tentatives echouees", flush=True)
-                    browser.close()
-                    return []
+                    if logo and not logo.startswith("http"):
+                        logo = BASE_URL + \
+                            ("" if logo.startswith("/") else "/") + logo
+
+                    stream_url = f"stream4free://{slug}"
+                    entries.append((title, stream_url, logo))
+                    print(f"  OK {slug} -> {title}", flush=True)
+
+                break
+
+        except Exception as e:
+            print(f"WARN tentative {attempt}: {e}", flush=True)
+            if attempt == max_retries:
+                print("ERR: toutes les tentatives echouees", flush=True)
+            else:
                 time.sleep(10)
-
-        time.sleep(3)
-
-        elements = page.query_selector_all("a.pbitem_cont")
-        print(f"{len(elements)} elements <a.pbitem_cont>", flush=True)
-
-        seen_slugs = set()
-        for el in elements:
-            href = el.get_attribute("href") or ""
-            slug = href.rstrip("/").split("/")[-1] if href else ""
-            if not slug or slug in SKIP_SLUGS or slug in seen_slugs:
-                continue
-            if "tv-show" in slug:
-                continue
-            seen_slugs.add(slug)
-
-            title_el = el.query_selector(".pbitem_title span")
-            if not title_el:
-                title_el = el.query_selector(".pbitem_title")
-            title = title_el.inner_text().strip() if title_el else ""
-            title = clean_title(title, slug)
-
-            img_el = el.query_selector("img")
-            logo = img_el.get_attribute("src") or "" if img_el else ""
-            if logo and not logo.startswith("http"):
-                logo = BASE_URL + ("" if logo.startswith("/") else "/") + logo
-
-            stream_url = f"stream4free://{slug}"
-            entries.append((title, stream_url, logo))
-            print(f"  OK {slug} -> {title}", flush=True)
-
-        page.close()
-        browser.close()
 
     return entries
 
@@ -205,8 +166,8 @@ def main():
 
     lines = ["#EXTM3U"]
     for title, url, logo in entries:
-        logo_attr = f' tvg-logo=\"{logo}\"' if logo else ""
-        lines.append(f'#EXTINF:-1 group-title=\"{GROUP}\"{logo_attr},{title}')
+        logo_attr = f' tvg-logo="{logo}"' if logo else ""
+        lines.append(f'#EXTINF:-1 group-title="{GROUP}"{logo_attr},{title}')
         lines.append(url)
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
