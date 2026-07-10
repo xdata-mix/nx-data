@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-refresh_stream4free.py - Scraper 100% dynamique pour stream4free.tv
-Utilise le binaire Camoufox (Firefox patche C++ anti-detection)
-lance via Playwright pour bypasser CF Turnstile.
+refresh_stream4free.py - Scraper pour stream4free.tv
+Utilise Scrapling StealthyFetcher (Patchright/Chromium furtif)
+avec solve_cloudflare=True pour bypasser CF Turnstile nativement.
 """
-import os, sys, time, re
+import os, sys, time
 
 PAGE_URL = "https://www.stream4free.tv/tv-live-france"
 BASE_URL = "https://www.stream4free.tv"
@@ -32,111 +32,110 @@ def is_cf_challenge(title):
     low = (title or "").lower()
     return any(k in low for k in CF_TITLES)
 
-def get_camoufox_path():
-    try:
-        from camoufox.pkgman import get_path
-        return str(get_path("camoufox"))
-    except Exception:
-        return None
+def extract_channels(page):
+    """Extract channel entries from a Scrapling Response."""
+    entries = []
+    seen = set()
+    for link in page.css('a'):
+        try:
+            href = link.attrib.get('href', '')
+            if not href or href == '#':
+                continue
+            if href.startswith('/'):
+                slug = href.strip('/').split('/')[-1]
+            elif href.startswith(BASE_URL):
+                slug = href.replace(BASE_URL, '').strip('/').split('/')[-1]
+            else:
+                continue
+            if not slug or slug in SKIP_SLUGS or slug in seen:
+                continue
+            if slug.startswith('category') or slug.startswith('tag'):
+                continue
+            imgs = link.css('img')
+            raw_title = ""
+            logo = ""
+            if imgs:
+                raw_title = imgs[0].attrib.get('alt', '')
+                logo = imgs[0].attrib.get('src', '') or imgs[0].attrib.get('data-src', '')
+            if not raw_title:
+                raw_title = link.get_all_text(strip=True)
+            title_clean = clean_title(raw_title, slug)
+            if not title_clean or len(title_clean) < 2:
+                continue
+            seen.add(slug)
+            entries.append({"slug": slug, "title": title_clean, "logo": logo})
+        except Exception:
+            continue
+    return entries
 
 def run_scraper():
-    from playwright.sync_api import sync_playwright
-    cfx_path = get_camoufox_path()
+    from scrapling.fetchers import StealthyFetcher
     entries = []
     max_retries = 3
     for attempt in range(1, max_retries + 1):
-        print(f"Tentative {attempt}/{max_retries}...")
+        print(f"Tentative {attempt}/{max_retries} (Scrapling StealthyFetcher)...")
         try:
-            with sync_playwright() as p:
-                launch_opts = {"headless": True}
-                if cfx_path:
-                    launch_opts["executable_path"] = cfx_path
-                    print(f"  Camoufox binary: {cfx_path}")
-                else:
-                    print("  WARN: no Camoufox binary, using default Firefox")
-                    p.firefox.install()
-                browser = p.firefox.launch(**launch_opts)
-                context = browser.new_context(
-                    no_viewport=True,
-                    locale="fr-FR",
-                    timezone_id="Europe/Paris",
-                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
-                )
-                page = context.new_page()
-                page.add_init_script("""
-                    Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-                """)
-                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=60000)
-                title = page.title()
-                if is_cf_challenge(title):
-                    print(f"  CF detecte ({title}), attente...")
-                    for i in range(30):
-                        time.sleep(2)
-                        title = page.title()
-                        if not is_cf_challenge(title):
-                            print(f"  CF resolu apres {(i+1)*2}s")
-                            break
-                    else:
-                        print("  WARN: CF non resolve apres 60s")
-                        browser.close()
-                        if attempt < max_retries: time.sleep(5)
-                        continue
-                try:
-                    page.wait_for_selector("a[href*='/']", timeout=30000)
-                    time.sleep(2)
-                except: pass
-                links = page.query_selector_all("a")
+            page = StealthyFetcher.fetch(
+                PAGE_URL,
+                headless=True,
+                network_idle=True,
+                solve_cloudflare=True,
+                timeout=120000,
+                wait=3000,
+                locale="fr-FR",
+                timezone_id="Europe/Paris",
+                hide_canvas=True,
+                block_webrtc=True,
+                dns_over_https=True,
+            )
+            title = page.css('title::text').get() or ""
+            print(f"  Page title: {title}")
+            if is_cf_challenge(title):
+                print(f"  WARN: CF challenge still active after solve_cloudflare")
+                if attempt < max_retries:
+                    time.sleep(10)
+                continue
+            entries = extract_channels(page)
+            if entries:
+                print(f"  OK: {len(entries)} chaines")
+                break
+            else:
+                print("  0 chaines via liens generiques, essai pbitem_cont...")
                 seen = set()
-                for link in links:
+                for el in page.css('a.pbitem_cont'):
                     try:
-                        href = link.get_attribute("href") or ""
-                        if not href or href == "#": continue
-                        if href.startswith("/"):
-                            slug = href.strip("/").split("/")[-1]
+                        href = el.attrib.get('href', '')
+                        if not href or href == '#':
+                            continue
+                        if href.startswith('/'):
+                            slug = href.strip('/').split('/')[-1]
                         elif href.startswith(BASE_URL):
-                            slug = href.replace(BASE_URL, "").strip("/").split("/")[-1]
-                        else: continue
-                        if not slug or slug in SKIP_SLUGS or slug in seen: continue
-                        if slug.startswith("category") or slug.startswith("tag"): continue
-                        img = link.query_selector("img")
-                        raw_title = (img.get_attribute("alt") if img else "") or link.inner_text().strip()
+                            slug = href.replace(BASE_URL, '').strip('/').split('/')[-1]
+                        else:
+                            continue
+                        if not slug or slug in SKIP_SLUGS or slug in seen:
+                            continue
+                        imgs = el.css('img')
+                        raw_title = imgs[0].attrib.get('alt', '') if imgs else el.get_all_text(strip=True)
+                        logo = imgs[0].attrib.get('src', '') if imgs else ""
                         title_clean = clean_title(raw_title, slug)
-                        if not title_clean or len(title_clean) < 2: continue
-                        logo = (img.get_attribute("src") or img.get_attribute("data-src") or "") if img else ""
+                        if not title_clean or len(title_clean) < 2:
+                            continue
                         seen.add(slug)
                         entries.append({"slug": slug, "title": title_clean, "logo": logo})
-                    except: continue
+                    except Exception:
+                        continue
                 if entries:
-                    print(f"  OK: {len(entries)} chaines")
-                    browser.close()
+                    print(f"  OK (pbitem_cont): {len(entries)} chaines")
                     break
-                else:
-                    print("  0 chaines, retry pbitem_cont...")
-                    page2 = context.new_page()
-                    page2.goto(PAGE_URL, wait_until="networkidle", timeout=60000)
-                    time.sleep(3)
-                    for el in page2.query_selector_all("a.pbitem_cont"):
-                        try:
-                            href = el.get_attribute("href") or ""
-                            if not href or href == "#": continue
-                            slug = (href.strip("/").split("/")[-1] if href.startswith("/") else
-                                    href.replace(BASE_URL,"").strip("/").split("/")[-1] if href.startswith(BASE_URL) else "")
-                            if not slug or slug in SKIP_SLUGS or slug in seen: continue
-                            img = el.query_selector("img")
-                            raw_title = (img.get_attribute("alt") if img else "") or el.inner_text().strip()
-                            logo = (img.get_attribute("src") or "") if img else ""
-                            title_clean = clean_title(raw_title, slug)
-                            if not title_clean or len(title_clean) < 2: continue
-                            seen.add(slug)
-                            entries.append({"slug": slug, "title": title_clean, "logo": logo})
-                        except: continue
-                    browser.close()
-                    if entries: break
-                    else:
-                        if attempt < max_retries: time.sleep(5)
+                if attempt < max_retries:
+                    time.sleep(10)
         except Exception as e:
             print(f"  ERR {attempt}: {e}")
-            if attempt < max_retries: time.sleep(10)
+            import traceback
+            traceback.print_exc()
+            if attempt < max_retries:
+                time.sleep(10)
     return entries
 
 def main():
@@ -152,7 +151,8 @@ def main():
     lines = ["#EXTM3U"]
     for e in entries:
         extinf = f'#EXTINF:-1 group-title="{GROUP}"'
-        if e["logo"]: extinf += f' tvg-logo="{e["logo"]}"'
+        if e["logo"]:
+            extinf += f' tvg-logo="{e["logo"]}"'
         extinf += f', {e["title"]}'
         lines.append(extinf)
         lines.append(f'stream4free://{e["slug"]}')
