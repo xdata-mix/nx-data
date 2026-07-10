@@ -3,7 +3,7 @@ name: Refresh Stream4Free
 on:
   schedule:
     - cron: '0 */6 * * *'  # toutes les 6h
-  workflow_dispatch:       # trigger manuel
+  workflow_dispatch:  # trigger manuel
 
 permissions:
   contents: write
@@ -11,18 +11,19 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
-      - name: Install Camoufox
+      - name: Install Scrapling
         run: |
-          pip install camoufox[geoip]
-          python -m camoufox fetch
+          pip install "scrapling[fetchers]"
+          scrapling install
 
       - name: Setup WARP (1.1.1.1)
         run: |
