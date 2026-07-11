@@ -11049,6 +11049,8 @@ tf1plus://tf1/secret-story
 tf1plus://tf1/nations-championship
 #EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
 tf1plus://tf1/telefoot
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
@@ -11243,8 +11245,6 @@ tf1plus://tmc/21h-medias-5-ans-de-metoo
 tf1plus://tmc/21h-medias-janvier-2015-lhorreur-en-france
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-et-les-nouveaux-gourous" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill et les Nouveaux Gourous
 tf1plus://tmc/martin-weill-et-les-nouveaux-gourous
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-xavier-dupont-de-ligonnes-la-chasse-au-scoop" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias Xavier Dupont de Ligonnes la Chasse Au Scoop
 tf1plus://tmc/21h-medias-xavier-dupont-de-ligonnes-la-chasse-au-scoop
 #EXTINF:-1 tvg-id="tf1plus-tmc-la-mode-by-loic-prigent" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",La Mode By Loic Prigent
@@ -12759,14 +12759,14 @@ tf1plus://tmc/coup-de-foudre-a-notting-hill
 tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-2-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-copie-44665a-3fea04-86d5ed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Camping 2
 tf1plus://tf1/camping-2
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-jeu-de-la-verite-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8fe049-7feb7a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Le Jeu de la Verite
-tf1plus://tf1-series-films/le-jeu-de-la-verite
+#EXTINF:-1 tvg-id="tf1plus-tf1-barbecue-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-1d8ae9-e92e18-304bf2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Barbecue
+tf1plus://tf1/barbecue
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-proposition-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-589b20-9c69eb-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",La Proposition
 tf1plus://tf1-series-films/la-proposition
 #EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Connasse Princesse des Coeurs
 tf1plus://tfx/connasse-princesse-des-coeurs
-#EXTINF:-1 tvg-id="tf1plus-tf1-barbecue-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-1d8ae9-e92e18-304bf2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Barbecue
-tf1plus://tf1/barbecue
+#EXTINF:-1 tvg-id="tf1plus-tfx-debarquement-immediat-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-1-a3db80-5bdd47-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Debarquement Immediat
+tf1plus://tfx/debarquement-immediat
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-program-card-portrait-1-b658ef-dee41d-44a1d1-0f5622-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Banlieue 13
 tf1plus://tf1-series-films/banlieue-13
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b4a1c2-7f6ebd-14772b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Camping
