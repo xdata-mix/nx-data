@@ -5176,3 +5176,15 @@ https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
 # === Ajouts FR multi-sources : Musique ===
 #EXTINF:-1 tvg-id="TMA.gp@SD" group-title="Musique",TMA (1080p)
 http://hls.tmacaraibes.com/live/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TraceJama.fr@SD" group-title="France TV backup",Trace Jama (1080p) [iptv-org-fr]
+https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr@SD" group-title="France TV backup",Trace Latina (1080p) [iptv-org-fr]
+https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" group-title="France TV backup",Trace Gospel Southern Africa (1080p) [iptv-org-fra]
+https://channels.trace.plus/Traceprod/GOSPEL_SA_hd/index.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="TraceGospel.fr@SD" group-title="Musique",Trace Gospel Africa Franco (1080p)
+https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
