@@ -1243,12 +1243,12 @@ tf1plus://tf1/farscape
 tf1plus://tf1/secret-story
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
-#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
-tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
 tf1plus://tf1/auto-moto
+#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
+tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-tournoi-des-six-nations" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tournoi des Six Nations
 tf1plus://tf1/tournoi-des-six-nations
 #EXTINF:-1 tvg-id="tf1plus-tf1-eurobasket-masculin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Eurobasket Masculin
@@ -2975,8 +2975,6 @@ tf1plus://tfx/connasse-princesse-des-coeurs
 tf1plus://tf1-series-films/la-proposition
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Et Lhomme Crea la Femme
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
-#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Dirty Dancing
-tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Fantomas
 tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",La Plus Belle Pour Aller Danser
@@ -3059,8 +3057,6 @@ tf1plus://tf1/un-ours-dans-le-jura
 tf1plus://tf1/lame-ideale-695
 #EXTINF:-1 tvg-id="tf1plus-tf1-chasse-gardee-2-014-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5a09c8-91d608-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Chasse Gardee 2 014
 tf1plus://tf1/chasse-gardee-2-014
-#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Dirty Dancing
-tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-cookie-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-ecf711-a81612-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Cookie
 tf1plus://tf1-series-films/cookie
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-proposition-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-589b20-9c69eb-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",La Proposition
@@ -3183,8 +3179,6 @@ tf1plus://tf1/tintin-et-le-mystere-de-la-toison-dor
 tf1plus://tf1/tintin-et-les-oranges-bleues
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-proposition-romance" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-589b20-9c69eb-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",La Proposition
 tf1plus://tf1-series-films/la-proposition
-#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-romance" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Dirty Dancing
-tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tfx-surclassee-romance" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a54c9a-88857b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Surclassee
 tf1plus://tfx/surclassee
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-romance" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Coup de Foudre A Notting Hill
@@ -3411,8 +3405,6 @@ tf1plus://tmc/coup-de-foudre-a-notting-hill
 tf1plus://tfx/surclassee
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Et Lhomme Crea la Femme
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
-#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Dirty Dancing
-tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tf1-chloe-and-theo-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-chloe-et-theo-7cdf35-9954c5-956c68-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Chloe And Theo
 tf1plus://tf1/chloe-and-theo
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-shall-we-dance-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-eeeb2f-28a618-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Shall We Dance
@@ -3491,8 +3483,6 @@ tf1plus://tf1-series-films/la-proposition
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Les Minions
 tf1plus://tmc/les-minions
-#EXTINF:-1 tvg-id="tf1plus-tf1-dirty-dancing-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-39d87c-fd718f-18ff97-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Dirty Dancing
-tf1plus://tf1/dirty-dancing
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Coup de Foudre A Notting Hill
 tf1plus://tmc/coup-de-foudre-a-notting-hill
 #EXTINF:-1 tvg-id="tf1plus-tfx-surclassee-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a54c9a-88857b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Surclassee
@@ -3519,6 +3509,8 @@ tf1plus://tf1/creed-3
 tf1plus://tf1/house-of-time
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-kings-daughter-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-32fac9-79fec5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",The Kings Daughter
 tf1plus://tf1/the-kings-daughter
+#EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",For Love Or Money
+tf1plus://tf1/for-love-or-money
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-policiers" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-program-card-portrait-1-b658ef-dee41d-44a1d1-0f5622-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",Banlieue 13
 tf1plus://tf1-series-films/banlieue-13
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-banlieue-13-ultimatum-policiers" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-e94865-9a7613-cfff05-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",Banlieue 13 Ultimatum
@@ -3577,8 +3569,6 @@ tf1plus://tf1/kung-foudre
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-peres-meres-et-supporters-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a3bb44-87f894-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Peres Meres et Supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
-#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
-tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
@@ -3593,6 +3583,8 @@ tf1plus://lci/24h-pujadas-l-info-en-questions
 tf1plus://lci/la-matinale-618
 #EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
 tf1plus://lci/le-grand-entretien
+#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
+tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
 #EXTINF:-1 tvg-id="tf1plus-lci-meteo" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Meteo
