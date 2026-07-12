@@ -143,6 +143,8 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
+#EXTINF:-1 tvg-id="francetv-prog-france-3_hudson-et-rex" tvg-logo="https://medias.france.tv/nqifKW33u9wQWugk4BMRQi1zlRI/400x0/filters:quality(85)/y/r/y/phph8dyry.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Hudson et Rex
+francetv://program/france-3_hudson-et-rex
 #EXTINF:-1 tvg-id="francetv-457c702d-98f1-4106-a804-8e4ad7a19fb4" tvg-logo="https://medias.france.tv/-3gXT8bsL43pv5POv-yqMg4iAzI/400x0/filters:quality(85)/6/z/d/phpwigdz6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La vengeance sans visage
 francetv://457c702d-98f1-4106-a804-8e4ad7a19fb4
 #EXTINF:-1 tvg-id="francetv-e2d84984-c6cc-4874-b867-8887e0b3b53c" tvg-logo="https://medias.france.tv/JxVw6fN_2Ud8Ty1W6JHg4ZNFbao/400x0/filters:quality(85)/l/f/b/phpa1pbfl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Florent raconte Pagny
@@ -161,8 +163,6 @@ francetv://program/france-3_alexandra-ehle
 francetv://program/france-3_l-heure-d
 #EXTINF:-1 tvg-id="francetv-9231b273-642c-4a94-a1b4-29e1ef6f203c" tvg-logo="https://medias.france.tv/AsvgSl4fvq-F4kB0LasiLVtJBdw/400x0/filters:quality(85)/3/k/y/php4loyk3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Outremer.ledoc — Les enfants de la Soufrière, 50 ans après
 francetv://9231b273-642c-4a94-a1b4-29e1ef6f203c
-#EXTINF:-1 tvg-id="francetv-prog-france-3_hudson-et-rex" tvg-logo="https://medias.france.tv/nqifKW33u9wQWugk4BMRQi1zlRI/400x0/filters:quality(85)/y/r/y/phph8dyry.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Hudson et Rex
-francetv://program/france-3_hudson-et-rex
 #EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",OPJ
 francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-info_meteo_les-dossiers-d-ici" tvg-logo="https://medias.france.tv/-YiOk3qHO_UqIknzg3niCoPYnUI/400x0/filters:quality(85)/m/i/h/phpdschim.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Les dossiers d’ICI
@@ -557,22 +557,16 @@ francetv://71750407-7859-41e3-a195-3a2386be1d8c
 francetv://cf058832-0e55-4faf-a6ca-24b73425029d
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Partenaires particuliers, un voyage pas comme les autres
 francetv://program/documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres
-#EXTINF:-1 tvg-id="francetv-e2de6174-4b7b-4c02-a593-b4bf9cb0f26a" tvg-logo="https://medias.france.tv/C2TKlZVYZMKmAl-JwSGv9dkIy7Q/400x0/filters:quality(85)/5/d/b/phpktxbd5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Tendre poulet
-francetv://e2de6174-4b7b-4c02-a593-b4bf9cb0f26a
-#EXTINF:-1 tvg-id="francetv-5f0d3209-6e0a-4670-8f14-8a4db3440a0b" tvg-logo="https://medias.france.tv/c4hEBoyL2Hh9DqbEqiotPFUhxbQ/400x0/filters:quality(85)/u/m/0/phpuud0mu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Sale temps pour la planète — Guadeloupe, beauté fragile
-francetv://5f0d3209-6e0a-4670-8f14-8a4db3440a0b
-#EXTINF:-1 tvg-id="francetv-979ca03f-2ddc-4030-86ac-c911fb5cb51e" tvg-logo="https://medias.france.tv/HFzRGlE6xIbXLbRna19lQahB4XE/400x0/filters:quality(85)/c/k/u/phplvnukc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — La Retirada ou l'exode d'un peuple
-francetv://979ca03f-2ddc-4030-86ac-c911fb5cb51e
 #EXTINF:-1 tvg-id="francetv-58d8dcca-c217-43ac-ba3f-4631ec934437" tvg-logo="https://medias.france.tv/8G4vJv4N_cBf3LAJEOOjxRrmO2E/400x0/filters:quality(85)/h/n/8/phputk8nh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Lucie en Thaïlande
 francetv://58d8dcca-c217-43ac-ba3f-4631ec934437
 #EXTINF:-1 tvg-id="francetv-d8949c19-f826-4a43-8b34-e1c0a4d3386b" tvg-logo="https://medias.france.tv/NiHjBr4NjAyhy4Gr4fUiZwle6LI/400x0/filters:quality(85)/o/x/t/php08btxo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",En tension au Mexique avec HugoDécrypte
 francetv://d8949c19-f826-4a43-8b34-e1c0a4d3386b
-#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-histoire_face-a-l-histoire-l-epopee-de-lady-liberty" tvg-logo="https://medias.france.tv/7uMDCy240jgzm1-rfb8WVx10v7g/400x0/filters:quality(85)/b/s/o/phpqdjosb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Face à l'histoire - L'épopée de Lady Liberty
-francetv://program/documentaires_documentaires-histoire_face-a-l-histoire-l-epopee-de-lady-liberty
 #EXTINF:-1 tvg-id="francetv-f4c13623-363f-4f8b-81f6-2675c62e514a" tvg-logo="https://medias.france.tv/cBhUtFd5y4QcgNvatfz2L26eQvo/400x0/filters:quality(85)/f/g/q/phplgmqgf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — On les appelle cowboys
 francetv://f4c13623-363f-4f8b-81f6-2675c62e514a
-#EXTINF:-1 tvg-id="francetv-prog-france-5_franco-le-dernier-dictateur" tvg-logo="https://medias.france.tv/0k11pLSYBjzVLzU18-DqGUroUzM/400x0/filters:quality(85)/h/r/i/phph78irh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Franco, le dernier dictateur
-francetv://program/france-5_franco-le-dernier-dictateur
+#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-histoire_face-a-l-histoire-l-epopee-de-lady-liberty" tvg-logo="https://medias.france.tv/7uMDCy240jgzm1-rfb8WVx10v7g/400x0/filters:quality(85)/b/s/o/phpqdjosb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Face à l'histoire - L'épopée de Lady Liberty
+francetv://program/documentaires_documentaires-histoire_face-a-l-histoire-l-epopee-de-lady-liberty
+#EXTINF:-1 tvg-id="francetv-e2de6174-4b7b-4c02-a593-b4bf9cb0f26a" tvg-logo="https://medias.france.tv/C2TKlZVYZMKmAl-JwSGv9dkIy7Q/400x0/filters:quality(85)/5/d/b/phpktxbd5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Tendre poulet
+francetv://e2de6174-4b7b-4c02-a593-b4bf9cb0f26a
 #EXTINF:-1 tvg-id="francetv-prog-france-5_c-dans-l-air" tvg-logo="https://medias.france.tv/mc8k--JEtHS1tusbyC2iRFYYfEQ/400x0/filters:quality(85)/k/u/g/phpghuguk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",C dans l'air
 francetv://program/france-5_c-dans-l-air
 #EXTINF:-1 tvg-id="francetv-prog-france-5_c-a-vous" tvg-logo="https://medias.france.tv/x6wIV_WlM41WS8yGLkYI9iyqfzI/400x0/filters:quality(85)/z/0/d/phpv8zd0z.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",C à vous
@@ -603,18 +597,20 @@ francetv://program/france-5_la-fabrique-du-mensonge
 francetv://program/france-5_la-grande-librairie
 #EXTINF:-1 tvg-id="francetv-b2c5a8db-6401-466f-8873-232568fe8796" tvg-logo="https://medias.france.tv/lUevURNj7aRptGYotR1yPvThGqw/400x0/filters:quality(85)/h/b/g/phproigbh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Aux arts et cætera — La Caverne du Pont-Neuf
 francetv://b2c5a8db-6401-466f-8873-232568fe8796
+#EXTINF:-1 tvg-id="francetv-prog-france-5_la-p-tite-librairie" tvg-logo="https://medias.france.tv/LGKomzv0zWpb9Atour0LWdMEH2A/400x0/filters:quality(85)/k/x/8/phpq6g8xk.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La p'tite librairie
+francetv://program/france-5_la-p-tite-librairie
+#EXTINF:-1 tvg-id="francetv-b12b5ee1-c46a-469f-bcf3-8f052d89fb54" tvg-logo="https://medias.france.tv/xu1bfdKP8Wg6-GiCYDpSnvGVtSE/400x0/filters:quality(85)/3/k/u/phpzuguk3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Aux arts et cætera — Team JuL
+francetv://b12b5ee1-c46a-469f-bcf3-8f052d89fb54
 #EXTINF:-1 tvg-id="francetv-58731b46-d25e-4fa0-8eb9-bb118ab20acf" tvg-logo="https://medias.france.tv/EWtBPEaShHggkzhk_YP4pnpZPyw/400x0/filters:quality(85)/a/0/4/vodvignette16x9cad659851bdb20881ce0aaabe1d54109130d404fe02a3ae6a327e858b2c0640a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Gazon maudit
 francetv://58731b46-d25e-4fa0-8eb9-bb118ab20acf
 #EXTINF:-1 tvg-id="francetv-ee805a77-1370-4725-9b44-f3b891effee3" tvg-logo="https://medias.france.tv/cxTGWp4dz8AbaOxzXMRSxaItcIU/400x0/filters:quality(85)/e/f/9/bed02b21af3a4bf18c9f528d052819fe.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Entre Duel et Duo, Jean-François Zygel & André Manoukian / Concert au Théâtre des Taillades
 francetv://ee805a77-1370-4725-9b44-f3b891effee3
-#EXTINF:-1 tvg-id="francetv-a4bc2750-a734-4476-9fb5-2a75f3e1e840" tvg-logo="https://medias.france.tv/on2RJKjXUr_AfIEoTcTfHl_X6nA/400x0/filters:quality(85)/9/p/m/phpslump9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Si on lisait à voix haute — Édition 2026 : la finale
-francetv://a4bc2750-a734-4476-9fb5-2a75f3e1e840
 #EXTINF:-1 tvg-id="francetv-8b5d4e90-29d8-4002-8357-fc9e63cc2de5" tvg-logo="https://medias.france.tv/gHsS2NUsLoq5esPGLnHUCVGhG2U/400x0/filters:quality(85)/7/5/3/6339357046d44c60839e51e15aa0c357.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La Leçon de piano
 francetv://8b5d4e90-29d8-4002-8357-fc9e63cc2de5
 #EXTINF:-1 tvg-id="francetv-d0786f54-1e45-449c-a010-0a666eec1871" tvg-logo="https://medias.france.tv/VXBcypEnBFRGkQACnt_MPqN5oqA/400x0/filters:quality(85)/w/u/3/php3pq3uw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Aux arts et cætera — Le village de Madeleine
 francetv://d0786f54-1e45-449c-a010-0a666eec1871
-#EXTINF:-1 tvg-id="francetv-b12b5ee1-c46a-469f-bcf3-8f052d89fb54" tvg-logo="https://medias.france.tv/xu1bfdKP8Wg6-GiCYDpSnvGVtSE/400x0/filters:quality(85)/3/k/u/phpzuguk3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Aux arts et cætera — Team JuL
-francetv://b12b5ee1-c46a-469f-bcf3-8f052d89fb54
+#EXTINF:-1 tvg-id="francetv-a4bc2750-a734-4476-9fb5-2a75f3e1e840" tvg-logo="https://medias.france.tv/on2RJKjXUr_AfIEoTcTfHl_X6nA/400x0/filters:quality(85)/9/p/m/phpslump9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Si on lisait à voix haute — Édition 2026 : la finale
+francetv://a4bc2750-a734-4476-9fb5-2a75f3e1e840
 #EXTINF:-1 tvg-id="francetv-d3ddb7d1-8225-4570-9687-b20e7b505d35" tvg-logo="https://medias.france.tv/-JrFI2ropwjlLZM-VcP3tZtV7-M/400x0/filters:quality(85)/e/m/u/phpkp7ume.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — Exception culturelle, la bataille qui a sauvé le cinéma français
 francetv://d3ddb7d1-8225-4570-9687-b20e7b505d35
 #EXTINF:-1 tvg-id="francetv-bc1a1077-cedf-40bf-bc03-e0521a6c42b4" tvg-logo="https://medias.france.tv/hD2GnHxJcial7Il7raZ-T_UkSIg/400x0/filters:quality(85)/q/b/p/phphbjpbq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La zone d'intérêt
@@ -625,12 +621,8 @@ francetv://16c7586f-d46f-46e4-9c55-2a624d2378b2
 francetv://2ad0da17-2a06-41a0-b95b-74b9d8578484
 #EXTINF:-1 tvg-id="francetv-2f2d1a6f-2ee1-4439-9d54-2683bb1f99d2" tvg-logo="https://medias.france.tv/qmCeirKKjv0XD-C-KFfodhgTJY8/400x0/filters:quality(85)/k/n/o/php2l8onk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La grande dictée 2026
 francetv://2f2d1a6f-2ee1-4439-9d54-2683bb1f99d2
-#EXTINF:-1 tvg-id="francetv-prog-france-5_la-p-tite-librairie" tvg-logo="https://medias.france.tv/LGKomzv0zWpb9Atour0LWdMEH2A/400x0/filters:quality(85)/k/x/8/phpq6g8xk.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La p'tite librairie
-francetv://program/france-5_la-p-tite-librairie
 #EXTINF:-1 tvg-id="francetv-87bd51d5-0205-4cd2-8552-cb099fcf6956" tvg-logo="https://medias.france.tv/giIKrRi0eanwWOIk31LwHR68LcU/400x0/filters:quality(85)/6/c/x/php3djxc6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — Claude Mckay, errances d'un poète révolté
 francetv://87bd51d5-0205-4cd2-8552-cb099fcf6956
-#EXTINF:-1 tvg-id="francetv-705bd388-4816-452c-9e83-63d5b9f80cd0" tvg-logo="https://medias.france.tv/FIm1gCgZbqQ-sC8vDD69PGT8Z60/400x0/filters:quality(85)/i/r/x/php9blxri.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La fabrique des idées — Le Grand Continent, une certaine idée de l'Europe
-francetv://705bd388-4816-452c-9e83-63d5b9f80cd0
 #EXTINF:-1 tvg-id="francetv-728649e6-1be6-4b13-a5da-6e8e587611d5" tvg-logo="https://medias.france.tv/g9KEVJw7v-TKJ7eBP8T8J0_Amrw/400x0/filters:quality(85)/p/k/c/php8p5ckp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les docs de La grande librairie — Jack London
 francetv://728649e6-1be6-4b13-a5da-6e8e587611d5
 #EXTINF:-1 tvg-id="francetv-aa3e90fc-e758-45a0-9130-feff9945c6e3" tvg-logo="https://medias.france.tv/fhpJqfEuT0mgsk2IIhSKNzcaU-4/400x0/filters:quality(85)/y/p/p/phpasyppy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La grande librairie — Gisèle Pelicot, Judith Perrignon, Michelle Perrot, Camille Froidevaux-Metterie, Manon Garcia et Dorothée Dussy
@@ -641,10 +633,12 @@ francetv://d8b3bad9-fe67-4b5c-a612-34480b293990
 francetv://program/france-5_echappees-belles
 #EXTINF:-1 tvg-id="francetv-prog-france-5_des-trains-pas-comme-les-autres" tvg-logo="https://medias.france.tv/PDYBJfIzSEvCSruR3JDbsA2AHCc/400x0/filters:quality(85)/i/6/b/phpzrqb6i.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Des trains pas comme les autres
 francetv://program/france-5_des-trains-pas-comme-les-autres
-#EXTINF:-1 tvg-id="francetv-f0a5ab6a-f69f-4821-9468-5609e3c5b47b" tvg-logo="https://medias.france.tv/se13QK8xKfyAzaZfPxQ9s-cIF9A/400x0/filters:quality(85)/p/c/l/php2f7lcp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Sur le front — Coraux : l'incroyable voyage
-francetv://f0a5ab6a-f69f-4821-9468-5609e3c5b47b
+#EXTINF:-1 tvg-id="francetv-prog-france-5_les-100-lieux-qu-il-faut-voir" tvg-logo="https://medias.france.tv/rR-SDhzb8dyvpAccHVyaQGogWDU/400x0/filters:quality(85)/d/6/5/php5j456d.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les 100 lieux qu'il faut voir
+francetv://program/france-5_les-100-lieux-qu-il-faut-voir
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_nus-et-culottes" tvg-logo="https://medias.france.tv/WrQyZv7HIiB4FUrwQ_wpYsSaOCc/400x0/filters:quality(85)/a/x/h/phpuz9hxa.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Nus & culottés
 francetv://program/documentaires_nus-et-culottes
+#EXTINF:-1 tvg-id="francetv-f0a5ab6a-f69f-4821-9468-5609e3c5b47b" tvg-logo="https://medias.france.tv/se13QK8xKfyAzaZfPxQ9s-cIF9A/400x0/filters:quality(85)/p/c/l/php2f7lcp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Sur le front — Coraux : l'incroyable voyage
+francetv://f0a5ab6a-f69f-4821-9468-5609e3c5b47b
 #EXTINF:-1 tvg-id="francetv-prog-france-5_thalassa-aventures-extremes" tvg-logo="https://medias.france.tv/OqZkEFFAdXC9iTOG8830VeGvDug/400x0/filters:quality(85)/x/6/k/phpfd7k6x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Thalassa, aventures extrêmes
 francetv://program/france-5_thalassa-aventures-extremes
 #EXTINF:-1 tvg-id="francetv-1c605e7b-5579-446e-b2ea-25805efe31de" tvg-logo="https://medias.france.tv/t_pXlaNgu4DksO0AbxTSdcn4egI/400x0/filters:quality(85)/p/m/r/phpww4rmp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Le tour de France de Lucie
@@ -655,18 +649,20 @@ francetv://c1090adf-a72a-4d81-a891-f53603542e70
 francetv://program/france-5_au-bout-c-est-la-mer
 #EXTINF:-1 tvg-id="francetv-prog-france-5_nues-et-culottees" tvg-logo="https://medias.france.tv/thv5o-XxwTyZr1bazQ8lHzcmjlY/400x0/filters:quality(85)/p/f/7/phpich7fp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Nues et culottées
 francetv://program/france-5_nues-et-culottees
-#EXTINF:-1 tvg-id="francetv-prog-france-5_les-100-lieux-qu-il-faut-voir" tvg-logo="https://medias.france.tv/rR-SDhzb8dyvpAccHVyaQGogWDU/400x0/filters:quality(85)/d/6/5/php5j456d.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les 100 lieux qu'il faut voir
-francetv://program/france-5_les-100-lieux-qu-il-faut-voir
 #EXTINF:-1 tvg-id="francetv-prog-france-5_les-routes-de-l-impossible" tvg-logo="https://medias.france.tv/-3bFnSQjovsfyxexmnyQeLfXbIQ/400x0/filters:quality(85)/o/0/d/phpdvsd0o.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les routes de l'impossible
 francetv://program/france-5_les-routes-de-l-impossible
-#EXTINF:-1 tvg-id="francetv-prog-france-5_j-ai-un-colis-pour-vous" tvg-logo="https://medias.france.tv/q7jbgWLMyVHupWs_eOuOhZY_owE/400x0/filters:quality(85)/s/w/z/phpdp0zws.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",J'ai un colis pour vous !
-francetv://program/france-5_j-ai-un-colis-pour-vous
 #EXTINF:-1 tvg-id="francetv-prog-france-5_sale-temps-pour-la-planete" tvg-logo="https://medias.france.tv/v4X3-TptoHOnBT2vbWnonwzrLYk/400x0/filters:quality(85)/a/w/x/phpfk1xwa.png" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Sale temps pour la planète
 francetv://program/france-5_sale-temps-pour-la-planete
+#EXTINF:-1 tvg-id="francetv-prog-france-5_j-ai-un-colis-pour-vous" tvg-logo="https://medias.france.tv/q7jbgWLMyVHupWs_eOuOhZY_owE/400x0/filters:quality(85)/s/w/z/phpdp0zws.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",J'ai un colis pour vous !
+francetv://program/france-5_j-ai-un-colis-pour-vous
 #EXTINF:-1 tvg-id="francetv-353fb5ae-fb03-4876-98ef-59b95b8f6259" tvg-logo="https://medias.france.tv/cG5pfgUDbaScBBaT4EFMrVM8oF8/400x0/filters:quality(85)/d/m/j/phpvtkjmd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Échappées belles — Côte d'Opale, entre vents et marées
 francetv://353fb5ae-fb03-4876-98ef-59b95b8f6259
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_en-tension" tvg-logo="https://medias.france.tv/_G_2q2TuK7_rcIP34mKWp0atlWE/400x0/filters:quality(85)/q/l/7/phpmf07lq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",En tension
 francetv://program/documentaires_en-tension
+#EXTINF:-1 tvg-id="francetv-979ca03f-2ddc-4030-86ac-c911fb5cb51e" tvg-logo="https://medias.france.tv/HFzRGlE6xIbXLbRna19lQahB4XE/400x0/filters:quality(85)/c/k/u/phplvnukc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — La Retirada ou l'exode d'un peuple
+francetv://979ca03f-2ddc-4030-86ac-c911fb5cb51e
+#EXTINF:-1 tvg-id="francetv-prog-france-5_franco-le-dernier-dictateur" tvg-logo="https://medias.france.tv/0k11pLSYBjzVLzU18-DqGUroUzM/400x0/filters:quality(85)/h/r/i/phph78irh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Franco, le dernier dictateur
+francetv://program/france-5_franco-le-dernier-dictateur
 #EXTINF:-1 tvg-id="francetv-7e8981c8-45c6-4a57-9f95-5aa8097c5cbb" tvg-logo="https://medias.france.tv/qXjzxA035P_tNBl_swvx9gM12To/400x0/filters:quality(85)/b/x/k/phppgfkxb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Science grand format — Lutèce, sur les traces des Parisii
 francetv://7e8981c8-45c6-4a57-9f95-5aa8097c5cbb
 #EXTINF:-1 tvg-id="francetv-85128c5d-33f4-49ee-bfa4-53727a71f53d" tvg-logo="https://medias.france.tv/6-OnjDP8vIdyJrgpW6DGJGkzYFA/400x0/filters:quality(85)/k/x/a/php0q9axk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La case du siècle — On les appelle samouraïs
@@ -2007,22 +2003,18 @@ francetv://program/enfants_neuf-douze-ans_zombie-lars
 francetv://program/enfants_six-huit-ans_fifi-brindacier
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
-#EXTINF:-1 tvg-id="francetv-71750407-7859-41e3-a195-3a2386be1d8c" tvg-logo="https://medias.france.tv/40KHr_0QYvt_FqP0-o8YvaekFkI/400x0/filters:quality(85)/f/b/o/phpymdobf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Des trains pas comme les autres — Angola
-francetv://71750407-7859-41e3-a195-3a2386be1d8c
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
+#EXTINF:-1 tvg-id="francetv-71750407-7859-41e3-a195-3a2386be1d8c" tvg-logo="https://medias.france.tv/40KHr_0QYvt_FqP0-o8YvaekFkI/400x0/filters:quality(85)/f/b/o/phpymdobf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Des trains pas comme les autres — Angola
+francetv://71750407-7859-41e3-a195-3a2386be1d8c
 #EXTINF:-1 tvg-id="francetv-e2d84984-c6cc-4874-b867-8887e0b3b53c" tvg-logo="https://medias.france.tv/JxVw6fN_2Ud8Ty1W6JHg4ZNFbao/400x0/filters:quality(85)/l/f/b/phpa1pbfl.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Florent raconte Pagny
 francetv://e2d84984-c6cc-4874-b867-8887e0b3b53c
 #EXTINF:-1 tvg-id="francetv-0c865afe-4ae5-4542-98fe-3a9bb0f94b0a" tvg-logo="https://medias.france.tv/rCqkcl5KaciQ1rfGTwpwGIHW3Ew/400x0/filters:quality(85)/0/9/3/1a60f76fde634d3b9b6424cdba618390.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Le match France-Italie : histoire d'une rivalité
 francetv://0c865afe-4ae5-4542-98fe-3a9bb0f94b0a
 #EXTINF:-1 tvg-id="francetv-df3f60b3-4cdc-468c-9cf9-adf804efa88f" tvg-logo="https://medias.france.tv/DxhJo7NpzoUvv9lDOpAo-DdJYSU/400x0/filters:quality(85)/g/x/w/phpjciwxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Les trésors des favorites des rois de France
 francetv://df3f60b3-4cdc-468c-9cf9-adf804efa88f
-#EXTINF:-1 tvg-id="francetv-3a55d4e7-2ec6-43a1-96ec-2dcbde18d3e5" tvg-logo="https://medias.france.tv/XD0FQN9Jlrp2EOV0h1wL1z2rvmA/400x0/filters:quality(85)/i/h/q/php8jrqhi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Des Racines et Des Ailes — Terroir d'excellence en Franche-Comté, du Jura au Pays de Montbéliard
-francetv://3a55d4e7-2ec6-43a1-96ec-2dcbde18d3e5
 #EXTINF:-1 tvg-id="francetv-prog-france-2_et-ca-vous-fait-rire" tvg-logo="https://medias.france.tv/ahYtKAFlGLpM8XoprnQLVHGLORk/400x0/filters:quality(85)/n/1/f/phpczjf1n.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Et ça vous fait rire ?
 francetv://program/france-2_et-ca-vous-fait-rire
-#EXTINF:-1 tvg-id="francetv-prog-france-5_regne-animal-les-jeux-de-l-amour" tvg-logo="https://medias.france.tv/25Kbysd5eHQPcHRTzqGilCK4WMg/400x0/filters:quality(85)/i/s/s/phpvkissi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Règne animal, les jeux de l'amour
-francetv://program/france-5_regne-animal-les-jeux-de-l-amour
 #EXTINF:-1 tvg-id="francetv-32072e00-d693-4110-b920-183a28cffdea" tvg-logo="https://medias.france.tv/xQt7jkSgsZtSsXMtw03b3yTvSUw/400x0/filters:quality(85)/5/2/9/3744670d75e04a01b443dbf751f10925.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Voyage au pôle Sud
 francetv://32072e00-d693-4110-b920-183a28cffdea
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-voyage_partenaires-particuliers-un-voyage-pas-comme-les-autres" tvg-logo="https://medias.france.tv/HRkyvBjcGEDpNclaDcUwUj4YoxY/400x0/filters:quality(85)/j/c/n/phpejhncj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Notre sélection",Partenaires particuliers, un voyage pas comme les autres
