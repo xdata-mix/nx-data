@@ -5196,3 +5196,11 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="France TV backup",Bblack! Africa (1080p) [kilirushi]
 http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" group-title="France TV backup",Trace Sport Stars (1080p) [iptv-org-fr]
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+
+# === Ajouts FR multi-sources : Musique ===
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" group-title="Musique",MCM Pop
+http://rjcf.ofztvxv.top:8080/kang/71267133/99554
