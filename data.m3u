@@ -5224,3 +5224,6 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 # === Live MIX ===
 #EXTINF:-1 group-title="Live MIX",Canal 4 TV
 https://vdo3.pro-fhi.net:3173/live/cwnxpjnjlive.m3u8
+
+#EXTINF:-1 group-title="Live MIX",Fox Kids TV
+https://foxkidstv.be:3369/stream/play.m3u8
