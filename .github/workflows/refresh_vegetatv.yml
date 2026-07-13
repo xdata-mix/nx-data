@@ -3,7 +3,7 @@ name: refresh-vegetatv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'   # toutes les 4h (comme OLA)
+    - cron: '0 */4 * * *'
 
 concurrency:
   group: refresh-vegetatv-only
@@ -27,7 +27,7 @@ jobs:
       - name: Installer les dependances
         run: pip install requests
 
-      - name: Generer le registre FR Vegeta -> vegeta-fr.json
+      - name: Generer le registre FR Vegeta
         env:
           VEGETA_OUT: data/vegetatv/vegeta-fr.json
         run: python scripts/vegetatv/refresh_vegetatv.py
@@ -41,5 +41,9 @@ jobs:
             echo "Aucun changement Vegeta"
           else
             git commit -m "chore(vegetatv): refresh vegeta-fr.json"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && exit 0
+              echo "push rejete, retry $i..."; sleep 6
+            done
+            echo "push echoue"; exit 1
           fi
