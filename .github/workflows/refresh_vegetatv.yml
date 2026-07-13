@@ -1,0 +1,45 @@
+name: refresh-vegetatv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *'   # toutes les 4h (comme OLA)
+
+concurrency:
+  group: refresh-vegetatv-only
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dependances
+        run: pip install requests
+
+      - name: Generer le registre FR Vegeta -> vegeta-fr.json
+        env:
+          VEGETA_OUT: data/vegetatv/vegeta-fr.json
+        run: python scripts/vegetatv/refresh_vegetatv.py
+
+      - name: Valider et pousser si modifie
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/vegetatv/vegeta-fr.json || true
+          if git diff --cached --quiet; then
+            echo "Aucun changement Vegeta"
+          else
+            git commit -m "chore(vegetatv): refresh vegeta-fr.json"
+            git push
+          fi
