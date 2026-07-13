@@ -19173,6 +19173,8 @@ m6play://m6replay/26499
 m6play://m6replay/10015
 #EXTINF:-1 tvg-id="m6plus-9651" tvg-logo="https://images.6play.fr/v1/images/4261241/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Lheure du Crime
 m6play://m6replay/9651
+#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
+francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-fb949c1c-2879-4338-9fa1-d3849b5369de" tvg-logo="https://medias.france.tv/kg-yS1ScfwI6nygX1d_uDMb2srU/400x0/filters:quality(85)/x/j/q/phpbrjqjx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",L'Enfant qui mesurait le monde
@@ -19319,7 +19321,7 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
-#EXTINF:-1 tvg-id="francetv-d64f2890-f792-4bce-a073-510b893c241e" tvg-logo="https://medias.france.tv/sIHB1j-UMWrN0TA5M8tldQ2UW8Y/400x0/filters:quality(85)/s/z/i/phpznaizs.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Crime à Ramatuelle
+#EXTINF:-1 tvg-id="francetv-d64f2890-f792-4bce-a073-510b893c241e" tvg-logo="https://medias.france.tv/sIHB1j-UMWrN0TA5M8tldQ2UW8Y/400x0/filters:quality(85)/s/z/i/phpznaizs.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Crime à... — Crime à Ramatuelle
 francetv://d64f2890-f792-4bce-a073-510b893c241e
 #EXTINF:-1 tvg-id="francetv-prog-france-3_l-heure-d" tvg-logo="https://medias.france.tv/HfhAnJ3gpR1FX2hnl1B3ZLzG8sk/400x0/filters:quality(85)/o/k/9/php4fr9ko.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",L'Heure D
 francetv://program/france-3_l-heure-d
@@ -20265,6 +20267,8 @@ francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 #EXTINF:-1 tvg-id="francetv-dc70ba7a-7e25-11f1-9505-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/MG1MX3RyZZlORcpdwVzopNOwu48/400x0/filters:quality(85)/3/b/d/65fb7f96e0ed40d088dafb8481ce8db3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Tour de France : entretien avec Christopher Froome
 francetv://dc70ba7a-7e25-11f1-9505-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-f088d444-7e24-11f1-9505-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/EoSCh16Uv64NjwnDkQrzUtDpHZg/400x0/filters:quality(85)/r/o/p/phpunqpor.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand format : Calandagan, un crack au triple galop
+francetv://f088d444-7e24-11f1-9505-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-48696e48-7c91-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/2R3IW-wP4nY4cciEJNACZc7KyS8/400x0/filters:quality(85)/a/b/e/phpydueba.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Constance Schaerer, une fille au sommet
@@ -20311,7 +20315,7 @@ francetv://program/documentaires_documentaires-sport_tony-vairelles-d-or-et-de-s
 francetv://program/documentaires_les-heros-du-gazon
 #EXTINF:-1 tvg-id="francetv-c69cb700-7e1e-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/7okx8ANRIThCaeLtSpx7mHY8PSs/400x0/filters:quality(85)/d/9/4/b54a95b96c214b9f826e1bb3c305a49d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Championnat des nations : Aaron Grandidier-Nkanag, un doublé et des larmes
 francetv://c69cb700-7e1e-11f1-873e-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-2aed9732-7e20-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/2SjZE_-4sAAD7S17eguTyCCku5c/400x0/filters:quality(85)/a/1/a/ad2fb2ac65404b9e98d404f41a0a3a1a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Baptiste Veistroffer, la nouvelle coqueluche du Tour
+#EXTINF:-1 tvg-id="francetv-2aed9732-7e20-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/j7c2dr6E_PJHnrOvlMqzcnm2RvU/400x0/filters:quality(85)/7/7/p/phpvsqp77.png" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Baptiste Veistroffer, la nouvelle coqueluche du Tour
 francetv://2aed9732-7e20-11f1-873e-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-e96e7bb4-7d52-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/Xro5BvpTjA7S1sk8MfGGuikhtBU/400x0/filters:quality(85)/b/3/1/4d41ac46eed44b4490dfe40b7259113b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Rugby - Championnat des Nations : exploit au pays des kangourous
 francetv://e96e7bb4-7d52-11f1-847c-957ddefc544d
@@ -20539,7 +20543,7 @@ francetv://program/france-3_les-temoins-d-outre-mer
 francetv://program/france-o_passion-outre-mer
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
-#EXTINF:-1 tvg-id="francetv-d64f2890-f792-4bce-a073-510b893c241e" tvg-logo="https://medias.france.tv/sIHB1j-UMWrN0TA5M8tldQ2UW8Y/400x0/filters:quality(85)/s/z/i/phpznaizs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Crime à Ramatuelle
+#EXTINF:-1 tvg-id="francetv-d64f2890-f792-4bce-a073-510b893c241e" tvg-logo="https://medias.france.tv/sIHB1j-UMWrN0TA5M8tldQ2UW8Y/400x0/filters:quality(85)/s/z/i/phpznaizs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Crime à... — Crime à Ramatuelle
 francetv://d64f2890-f792-4bce-a073-510b893c241e
 #EXTINF:-1 tvg-id="francetv-prog-france-3_hudson-et-rex" tvg-logo="https://medias.france.tv/nqifKW33u9wQWugk4BMRQi1zlRI/400x0/filters:quality(85)/y/r/y/phph8dyry.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Hudson et Rex
 francetv://program/france-3_hudson-et-rex
@@ -20607,7 +20611,7 @@ francetv://program/france-2_apparences
 francetv://program/france-3_alexandra-ehle
 #EXTINF:-1 tvg-id="francetv-36d4f955-9216-4128-b93c-e3b5f5a45763" tvg-logo="https://medias.france.tv/w5Vi7AedSDhIPXFpbDnnTP_KSwU/400x0/filters:quality(85)/s/1/o/phpreso1s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Le Tour en séries",Meurtres à... — Meurtres en Gironde
 francetv://36d4f955-9216-4128-b93c-e3b5f5a45763
-#EXTINF:-1 tvg-id="francetv-99885552-b816-457b-b7d0-8710aab04eb2" tvg-logo="https://medias.france.tv/34PIrE8vAQAK25CFtIAu2_EwviI/400x0/filters:quality(85)/u/r/0/php0js0ru.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Le Tour en séries",Crimes à Cluny
+#EXTINF:-1 tvg-id="francetv-99885552-b816-457b-b7d0-8710aab04eb2" tvg-logo="https://medias.france.tv/34PIrE8vAQAK25CFtIAu2_EwviI/400x0/filters:quality(85)/u/r/0/php0js0ru.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Le Tour en séries",Crime à... — Crimes à Cluny
 francetv://99885552-b816-457b-b7d0-8710aab04eb2
 #EXTINF:-1 tvg-id="francetv-a78bb950-fc2b-4158-bece-390104ea572c" tvg-logo="https://medias.france.tv/OdEn9Vv3EGKi7kDjd4rM44_DpiQ/400x0/filters:quality(85)/h/g/v/php00ovgh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Le Tour en séries",Capitaine Marleau — Au nom du fils
 francetv://a78bb950-fc2b-4158-bece-390104ea572c
@@ -20645,8 +20649,6 @@ francetv://program/france-2_l-eclipse
 francetv://program/arte_perfect-life
 #EXTINF:-1 tvg-id="francetv-prog-france-3_a-priori" tvg-logo="https://medias.france.tv/uVz9ET9iWYqeeO01cW-3ByCMHGs/400x0/filters:quality(85)/x/5/a/php28ia5x.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries à binger",A priori
 francetv://program/france-3_a-priori
-#EXTINF:-1 tvg-id="francetv-prog-france-3_vanina-meurtres-en-sicile" tvg-logo="https://medias.france.tv/mf9IfR0NTPJqhSLnPhrCuTA3AZM/400x0/filters:quality(85)/h/k/k/php8dzkkh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries à binger",Vanina : Meurtres en Sicile
-francetv://program/france-3_vanina-meurtres-en-sicile
 #EXTINF:-1 tvg-id="francetv-prog-france-2_phoenix" tvg-logo="https://medias.france.tv/WLXaFCt76aLSfZ4TGmRRjEkXYE4/400x0/filters:quality(85)/b/j/c/phpij4cjb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries à binger",Phoenix
 francetv://program/france-2_phoenix
 #EXTINF:-1 tvg-id="francetv-prog-arte_etty" tvg-logo="https://medias.france.tv/Zjv35V1kCkMK8LYMX6etB5pcBpM/400x0/filters:quality(85)/b/u/c/phpq19cub.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries à binger",Etty
@@ -20817,40 +20819,42 @@ francetv://program/france-2_rivages
 francetv://program/france-2_abysses
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_pieges" tvg-logo="https://medias.france.tv/uacVUeB-8lX-2QKe7Uo2yxDqCBk/400x0/filters:quality(85)/7/e/7/301843137726432982c69d5aa3b517e7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Haletants, stressants, palpitants !",Piégés
 francetv://program/tv5-monde_pieges
-#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",OPJ
-francetv://program/france-3_opj
-#EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Meurtres au paradis
-francetv://program/france-2_meurtres-au-paradis
-#EXTINF:-1 tvg-id="francetv-ac323ecd-238d-4b32-b70d-699fccd58212" tvg-logo="https://medias.france.tv/VOUrdELvtJOhh27mZIWOCwJG-BU/400x0/filters:quality(85)/d/w/b/php7d3bwd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Le crime lui va si bien — L'affaire Molina
-francetv://ac323ecd-238d-4b32-b70d-699fccd58212
-#EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Capitaine Marleau
-francetv://program/france-2_capitaine-marleau
-#EXTINF:-1 tvg-id="francetv-prog-france-2_haute-saison" tvg-logo="https://medias.france.tv/3nslxkxbflSMJZLzkahUHdUv2_o/400x0/filters:quality(85)/9/u/k/php4neku9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Haute saison
-francetv://program/france-2_haute-saison
-#EXTINF:-1 tvg-id="francetv-prog-arte_happy-valley" tvg-logo="https://medias.france.tv/22fU70uFQradlKmFqIsZ-KvitQE/400x0/filters:quality(85)/3/p/9/phplyu9p3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Happy Valley
-francetv://program/arte_happy-valley
-#EXTINF:-1 tvg-id="francetv-prog-france-2_l-eclipse" tvg-logo="https://medias.france.tv/CQ4zDC1xPkTTlJUNSG_5xwfgHVk/400x0/filters:quality(85)/c/x/n/phpkwcnxc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",L'éclipse
-francetv://program/france-2_l-eclipse
-#EXTINF:-1 tvg-id="francetv-prog-france-3_vanina-meurtres-en-sicile" tvg-logo="https://medias.france.tv/mf9IfR0NTPJqhSLnPhrCuTA3AZM/400x0/filters:quality(85)/h/k/k/php8dzkkh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Vanina : Meurtres en Sicile
-francetv://program/france-3_vanina-meurtres-en-sicile
+#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Enquêtes au paradis
+francetv://program/france-2_enquetes-au-paradis
+#EXTINF:-1 tvg-id="francetv-d64f2890-f792-4bce-a073-510b893c241e" tvg-logo="https://medias.france.tv/sIHB1j-UMWrN0TA5M8tldQ2UW8Y/400x0/filters:quality(85)/s/z/i/phpznaizs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Crime à... — Crime à Ramatuelle
+francetv://d64f2890-f792-4bce-a073-510b893c241e
 #EXTINF:-1 tvg-id="francetv-prog-france-3_alexandra-ehle" tvg-logo="https://medias.france.tv/E1mYlGvYQDMbAookSdvTENa2j5Y/400x0/filters:quality(85)/x/i/e/phpmnpeix.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Alexandra Ehle
 francetv://program/france-3_alexandra-ehle
+#EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/P1GuWBYjrbPj3VoXINUfAx6pe_E/400x0/filters:quality(85)/t/y/j/phpplmjyt.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",La Stagiaire
+francetv://program/france-3_la-stagiaire
+#EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Meurtres au paradis
+francetv://program/france-2_meurtres-au-paradis
+#EXTINF:-1 tvg-id="francetv-prog-france-2_tropiques-criminels" tvg-logo="https://medias.france.tv/4g0Me954G6Iu0Qodr8oy7VkYBGM/400x0/filters:quality(85)/9/q/q/phpns0qq9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Tropiques criminels
+francetv://program/france-2_tropiques-criminels
 #EXTINF:-1 tvg-id="francetv-prog-france-3_tandem" tvg-logo="https://medias.france.tv/VEwYKuNZaBIukmMUrkSjP6wlAxg/400x0/filters:quality(85)/w/r/r/phpe0krrw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Tandem
 francetv://program/france-3_tandem
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_maroni-les-fantomes-du-fleuve" tvg-logo="https://medias.france.tv/M-ATrAJJwOb6Bl5THwsbgJo0Sm4/400x0/filters:quality(85)/7/3/e/d6ba963e5aac4f3d80f69c56df288e37.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Maroni, les fantômes du fleuve
-francetv://program/tv5-monde_maroni-les-fantomes-du-fleuve
+#EXTINF:-1 tvg-id="francetv-prog-france-2_l-eclipse" tvg-logo="https://medias.france.tv/CQ4zDC1xPkTTlJUNSG_5xwfgHVk/400x0/filters:quality(85)/c/x/n/phpkwcnxc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",L'éclipse
+francetv://program/france-2_l-eclipse
+#EXTINF:-1 tvg-id="francetv-prog-arte_happy-valley" tvg-logo="https://medias.france.tv/22fU70uFQradlKmFqIsZ-KvitQE/400x0/filters:quality(85)/3/p/9/phplyu9p3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Happy Valley
+francetv://program/arte_happy-valley
 #EXTINF:-1 tvg-id="francetv-prog-france-2_l-art-du-crime" tvg-logo="https://medias.france.tv/OVYKZvA5nvVVHuXKti_AkZeAWTE/400x0/filters:quality(85)/a/q/u/phpy1uuqa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",L'art du crime
 francetv://program/france-2_l-art-du-crime
+#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",OPJ
+francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-2_astrid-et-raphaelle" tvg-logo="https://medias.france.tv/qj4mMVhVmiItwp6m4itZ7hFO_SI/400x0/filters:quality(85)/t/3/m/phpipqm3t.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Astrid et Raphaëlle
 francetv://program/france-2_astrid-et-raphaelle
+#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_maroni-les-fantomes-du-fleuve" tvg-logo="https://medias.france.tv/M-ATrAJJwOb6Bl5THwsbgJo0Sm4/400x0/filters:quality(85)/7/3/e/d6ba963e5aac4f3d80f69c56df288e37.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Maroni, les fantômes du fleuve
+francetv://program/tv5-monde_maroni-les-fantomes-du-fleuve
+#EXTINF:-1 tvg-id="francetv-prog-france-2_haute-saison" tvg-logo="https://medias.france.tv/3nslxkxbflSMJZLzkahUHdUv2_o/400x0/filters:quality(85)/9/u/k/php4neku9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Haute saison
+francetv://program/france-2_haute-saison
+#EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Capitaine Marleau
+francetv://program/france-2_capitaine-marleau
 #EXTINF:-1 tvg-id="francetv-prog-france-2_apparences" tvg-logo="https://medias.france.tv/BUZGCd9A_QmBSrAemjvcRZ-s8M4/400x0/filters:quality(85)/y/o/z/phpeh0zoy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Apparences
 francetv://program/france-2_apparences
 #EXTINF:-1 tvg-id="francetv-prog-france-3_a-priori" tvg-logo="https://medias.france.tv/uVz9ET9iWYqeeO01cW-3ByCMHGs/400x0/filters:quality(85)/x/5/a/php28ia5x.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",A priori
 francetv://program/france-3_a-priori
 #EXTINF:-1 tvg-id="francetv-prog-france-3_cassandre" tvg-logo="https://medias.france.tv/2q2Oh0eBPp5QsHV-mPG172wdGy0/400x0/filters:quality(85)/c/7/x/phpevix7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Cassandre
 francetv://program/france-3_cassandre
-#EXTINF:-1 tvg-id="francetv-prog-france-2_tropiques-criminels" tvg-logo="https://medias.france.tv/4g0Me954G6Iu0Qodr8oy7VkYBGM/400x0/filters:quality(85)/9/q/q/phpns0qq9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Tropiques criminels
-francetv://program/france-2_tropiques-criminels
 #EXTINF:-1 tvg-id="francetv-a46e98b0-76eb-4dbc-bb06-7d10243c589a" tvg-logo="https://medias.france.tv/UIgDBu77KoxHkqI02dBjAOM9QZU/400x0/filters:quality(85)/b/a/g/phpta3gab.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Soeurs et demie
 francetv://a46e98b0-76eb-4dbc-bb06-7d10243c589a
 #EXTINF:-1 tvg-id="francetv-prog-france-3_alex-hugo" tvg-logo="https://medias.france.tv/uU_y82Z8ef6z7zChP3m759yBnRs/400x0/filters:quality(85)/l/o/s/phppxysol.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Alex Hugo
@@ -20885,8 +20889,6 @@ francetv://program/france-3_tom-et-lola
 francetv://program/france-3_meurtres-a
 #EXTINF:-1 tvg-id="francetv-prog-france-3_rendez-vous-avec-le-crime" tvg-logo="https://medias.france.tv/gkerxa1az9CnM3ZBCfku0P8qtEk/400x0/filters:quality(85)/n/w/n/php7yunwn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Rendez-vous avec le crime
 francetv://program/france-3_rendez-vous-avec-le-crime
-#EXTINF:-1 tvg-id="francetv-47a89999-e982-43f8-9eca-c198ba933f71" tvg-logo="https://medias.france.tv/MRfez6h8qAPGnYKFH-L5mxOol0o/400x0/filters:quality(85)/6/s/3/phpq6n3s6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Hors limites
-francetv://47a89999-e982-43f8-9eca-c198ba933f71
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des histoires fortes",The Best Immigrant
 francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-48d48d53-4292-478e-8a7b-84bb7ee6722b" tvg-logo="https://medias.france.tv/bNiBQns8lzzMm7OsO35Oh1pOS34/400x0/filters:quality(85)/r/q/l/phpppxlqr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des histoires fortes",Un château en Espagne
@@ -20985,8 +20987,6 @@ francetv://program/france-2_un-soupcon
 francetv://program/france-2_l-eclipse
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enchaines" tvg-logo="https://medias.france.tv/_SbjgXomuLVaklg33__GZbOBcU8/400x0/filters:quality(85)/g/u/c/php2m0cug.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Enchaînés
 francetv://program/france-2_enchaines
-#EXTINF:-1 tvg-id="francetv-prog-france-3_vanina-meurtres-en-sicile" tvg-logo="https://medias.france.tv/mf9IfR0NTPJqhSLnPhrCuTA3AZM/400x0/filters:quality(85)/h/k/k/php8dzkkh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Vanina : Meurtres en Sicile
-francetv://program/france-3_vanina-meurtres-en-sicile
 #EXTINF:-1 tvg-id="francetv-prog-arte_etty" tvg-logo="https://medias.france.tv/Zjv35V1kCkMK8LYMX6etB5pcBpM/400x0/filters:quality(85)/b/u/c/phpq19cub.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Etty
 francetv://program/arte_etty
 #EXTINF:-1 tvg-id="francetv-prog-france-2_l-affaire-laura-stern" tvg-logo="https://medias.france.tv/u9QCbdgcUt8qWHKNKfA-0u4OZa0/400x0/filters:quality(85)/l/r/e/phpkyxerl.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",L'affaire Laura Stern
@@ -23937,6 +23937,8 @@ francetv://program/tv5-monde_dj-battle-africa
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 #EXTINF:-1 tvg-id="francetv-dc70ba7a-7e25-11f1-9505-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/MG1MX3RyZZlORcpdwVzopNOwu48/400x0/filters:quality(85)/3/b/d/65fb7f96e0ed40d088dafb8481ce8db3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Tour de France : entretien avec Christopher Froome
 francetv://dc70ba7a-7e25-11f1-9505-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-f088d444-7e24-11f1-9505-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/EoSCh16Uv64NjwnDkQrzUtDpHZg/400x0/filters:quality(85)/r/o/p/phpunqpor.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Grand format : Calandagan, un crack au triple galop
+francetv://f088d444-7e24-11f1-9505-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-48696e48-7c91-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/2R3IW-wP4nY4cciEJNACZc7KyS8/400x0/filters:quality(85)/a/b/e/phpydueba.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Constance Schaerer, une fille au sommet
@@ -23983,7 +23985,7 @@ francetv://program/documentaires_documentaires-sport_tony-vairelles-d-or-et-de-s
 francetv://program/documentaires_les-heros-du-gazon
 #EXTINF:-1 tvg-id="francetv-c69cb700-7e1e-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/7okx8ANRIThCaeLtSpx7mHY8PSs/400x0/filters:quality(85)/d/9/4/b54a95b96c214b9f826e1bb3c305a49d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Championnat des nations : Aaron Grandidier-Nkanag, un doublé et des larmes
 francetv://c69cb700-7e1e-11f1-873e-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-2aed9732-7e20-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/2SjZE_-4sAAD7S17eguTyCCku5c/400x0/filters:quality(85)/a/1/a/ad2fb2ac65404b9e98d404f41a0a3a1a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Baptiste Veistroffer, la nouvelle coqueluche du Tour
+#EXTINF:-1 tvg-id="francetv-2aed9732-7e20-11f1-873e-19616fa871f9" tvg-logo="https://medias.france.tv/j7c2dr6E_PJHnrOvlMqzcnm2RvU/400x0/filters:quality(85)/7/7/p/phpvsqp77.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Baptiste Veistroffer, la nouvelle coqueluche du Tour
 francetv://2aed9732-7e20-11f1-873e-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-e96e7bb4-7d52-11f1-847c-957ddefc544d" tvg-logo="https://medias.france.tv/Xro5BvpTjA7S1sk8MfGGuikhtBU/400x0/filters:quality(85)/b/3/1/4d41ac46eed44b4490dfe40b7259113b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Rugby - Championnat des Nations : exploit au pays des kangourous
 francetv://e96e7bb4-7d52-11f1-847c-957ddefc544d
