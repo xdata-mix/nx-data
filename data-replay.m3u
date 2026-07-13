@@ -10721,6 +10721,8 @@ tf1plus://tf1/hp
 tf1plus://tf1/hpi
 #EXTINF:-1 tvg-id="tf1plus-tf1-enquete-en-famille-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-enquete-en-famille-b63fa4-0003e0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Enquete En Famille
 tf1plus://tf1/enquete-en-famille
+#EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
+tf1plus://tf1/dr-house
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
 tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
@@ -10731,8 +10733,6 @@ tf1plus://tfx/les-filles-d-a-cote
 tf1plus://tf1/esprits-criminels
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-section-criminelle-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-afd805-ef8cb0-f8e99c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Section Criminelle
 tf1plus://tf1/new-york-section-criminelle
-#EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
-tf1plus://tf1/dr-house
 #EXTINF:-1 tvg-id="tf1plus-tf1-panda-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ba0c52-ba0195-9b18ba-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Panda
 tf1plus://tf1/panda
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
@@ -11059,18 +11059,18 @@ tf1plus://tf1/pawpatrol
 tf1plus://tf1/experts-manhattan
 #EXTINF:-1 tvg-id="tf1plus-tf1-lamour-invincible" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Invincible
 tf1plus://tf1/lamour-invincible
-#EXTINF:-1 tvg-id="tf1plus-tf1-central-nuit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Central Nuit
-tf1plus://tf1/central-nuit
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-villa-des-coeurs-brises" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Villa des Coeurs Brises
 tf1plus://tfx/la-villa-des-coeurs-brises
+#EXTINF:-1 tvg-id="tf1plus-tf1-central-nuit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Central Nuit
+tf1plus://tf1/central-nuit
 #EXTINF:-1 tvg-id="tf1plus-tf1-plus-belle-la-vie-pblv" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Plus Belle la Vie Pblv
 tf1plus://tf1/plus-belle-la-vie-pblv
 #EXTINF:-1 tvg-id="tf1plus-tf1-ruben-and-compagnie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ruben And Compagnie
 tf1plus://tf1/ruben-and-compagnie
-#EXTINF:-1 tvg-id="tf1plus-tfx-incroyables-mariages-gitans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Incroyables Mariages Gitans
-tf1plus://tfx/incroyables-mariages-gitans
 #EXTINF:-1 tvg-id="tf1plus-tf1-clem" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Clem
 tf1plus://tf1/clem
+#EXTINF:-1 tvg-id="tf1plus-tfx-incroyables-mariages-gitans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Incroyables Mariages Gitans
+tf1plus://tfx/incroyables-mariages-gitans
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -11533,12 +11533,12 @@ tf1plus://tf1/on-se-retrouvera
 tf1plus://tf1/jamais-sans-toi-louna
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre
 tf1plus://tf1/coup-de-foudre
-#EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
-tf1plus://tf1/panique-au-grand-magasin
-#EXTINF:-1 tvg-id="tf1plus-tf1-champion" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Champion
-tf1plus://tf1/champion
 #EXTINF:-1 tvg-id="tf1plus-tf1-pourquoi-je-vis" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pourquoi Je Vis
 tf1plus://tf1/pourquoi-je-vis
+#EXTINF:-1 tvg-id="tf1plus-tf1-service-vole" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Service Vole
+tf1plus://tf1/service-vole
+#EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
+tf1plus://tf1/panique-au-grand-magasin
 #EXTINF:-1 tvg-id="tf1plus-tf1-lamour-a-chaque-seconde" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour A Chaque Seconde
 tf1plus://tf1/lamour-a-chaque-seconde
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-gala-de-lamour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Gala de Lamour
