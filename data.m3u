@@ -5251,3 +5251,33 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
 https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
+http://145.239.5.177/359a/index.m3u8
+#EXTINF:-1 tvg-id="M6Music.fr@SD" group-title="France TV backup",M6 Music (720p) [iptv-org-fr]
+http://145.239.5.177/320/index.m3u8
+#EXTINF:-1 tvg-id="RMCLife.fr@SD" group-title="France TV backup",RMC Life (1080p) [iptv-org-fr]
+http://145.239.5.177/333/index.m3u8
+#EXTINF:-1 tvg-id="Teva.fr@SD" group-title="France TV backup",Teva (1080p) [iptv-org-fr]
+http://145.239.5.177/356/index.m3u8
+#EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
+http://145.239.5.177/315/index.m3u8
+
+# === Ajouts FR multi-sources : Divertissement ===
+#EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Divertissement",AB1 (720p)
+http://145.239.5.177/332/index.m3u8
+
+# === Ajouts FR multi-sources : Info ===
+#EXTINF:-1 tvg-id="CGTNFrench.cn@SD" group-title="Info",CGTN French (1080p)
+http://145.239.5.177/214/index.m3u8
+
+# === Ajouts FR multi-sources : Nouveautés FR ===
+#EXTINF:-1 tvg-id="SerieClub.fr@SD" group-title="Nouveautés FR",Serie Club (720p)
+http://145.239.5.177/355/index.m3u8
+#EXTINF:-1 tvg-id="TVBreizh.fr@SD" group-title="Nouveautés FR",TV Breizh (1080p)
+http://145.239.5.177/318/index.m3u8
+
+# === Ajouts FR multi-sources : Sport ===
+#EXTINF:-1 tvg-id="FootPlus.fr@SD" group-title="Sport",Foot+
+http://145.239.5.177/556a/index.m3u8
