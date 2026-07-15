@@ -7,6 +7,10 @@ tf1live://L_FAST_v2l-ad-baby-boom-88288927
 tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-comedie-fiction-25247701" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Comedie Fiction
+tf1live://L_FAST_v2l-ad-comedie-fiction-25247701
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-danse-avec-les-stars-00457635" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Danse Avec Les Stars
+tf1live://L_FAST_v2l-ad-danse-avec-les-stars-00457635
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-demain-nous-appartient-38296145" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Demain Nous Appartient
 tf1live://L_FAST_v2l-ad-demain-nous-appartient-38296145
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
@@ -27,6 +31,8 @@ tf1live://L_FAST_v2l-ad-les-enfoires-35654015
 tf1live://L_FAST_v2l-ad-les-mysteres-de-lamour-99639599
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-les-restos-du-coeur-59894021" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Les Restos Du Coeur
 tf1live://L_FAST_v2l-ad-les-restos-du-coeur-59894021
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-lolywood-16739451" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Lolywood
+tf1live://L_FAST_v2l-ad-lolywood-16739451
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mamans-and-celebres-08240458" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mamans & Celebres
 tf1live://L_FAST_v2l-ad-mamans-and-celebres-08240458
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mighty-express-44092248" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mighty Express
@@ -2799,10 +2805,10 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tmc-anne-roumanoff-lexperience-de-la-vie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Anne Roumanoff Lexperience de la Vie
-tf1plus://tmc/anne-roumanoff-lexperience-de-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-4-mariages-pour-une-lune-de-miel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",4 Mariages Pour une Lune de Miel
 tf1plus://tf1/4-mariages-pour-une-lune-de-miel
+#EXTINF:-1 tvg-id="tf1plus-tmc-anne-roumanoff-lexperience-de-la-vie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Anne Roumanoff Lexperience de la Vie
+tf1plus://tmc/anne-roumanoff-lexperience-de-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-mask-singer" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mask Singer
 tf1plus://tf1/mask-singer
 #EXTINF:-1 tvg-id="tf1plus-tf1-koh-lanta" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Koh Lanta
@@ -3071,8 +3077,6 @@ tf1plus://tf1/lame-ideale-695
 tf1plus://tf1/chasse-gardee-2-014
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b4a1c2-7f6ebd-14772b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Camping
 tf1plus://tf1/camping
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Roulez Jeunesse
-tf1plus://tf1-series-films/roulez-jeunesse
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-shall-we-dance-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-eeeb2f-28a618-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Shall We Dance
 tf1plus://tf1-series-films/shall-we-dance
 #EXTINF:-1 tvg-id="tf1plus-tfx-surclassee-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a54c9a-88857b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Surclassee
@@ -3241,8 +3245,6 @@ tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 tf1plus://tfx/rupture-pour-tous
 #EXTINF:-1 tvg-id="tf1plus-tf1-barbecue-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-1d8ae9-e92e18-304bf2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Barbecue
 tf1plus://tf1/barbecue
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Roulez Jeunesse
-tf1plus://tf1-series-films/roulez-jeunesse
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-sous-doues-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-472567-ac531a-b46c92-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Les Sous Doues
 tf1plus://tmc/les-sous-doues
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-sous-doues-en-vacances-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-63e3f9-8930c9-7912da-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Les Sous Doues En Vacances
@@ -3253,6 +3255,8 @@ tf1plus://tfx/wasabi
 tf1plus://tfx/le-boulet
 #EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",For Love Or Money
 tf1plus://tf1/for-love-or-money
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-merveilleux-jardin-secret-de-bella-brown-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-12c380-50d927-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Le Merveilleux Jardin Secret de Bella Brown
+tf1plus://tf1/le-merveilleux-jardin-secret-de-bella-brown
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-comte-de-monte-cristo-099-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-403b30-f90235-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Le Comte de Monte Cristo 099
 tf1plus://tf1/le-comte-de-monte-cristo-099
 #EXTINF:-1 tvg-id="tf1plus-tf1-intouchables-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-c040da-3e51e2-9a1a9d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Intouchables
@@ -3329,8 +3333,6 @@ tf1plus://tmc/coup-de-foudre-a-notting-hill
 tf1plus://tf1/camping
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-2-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-copie-44665a-3fea04-86d5ed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Camping 2
 tf1plus://tf1/camping-2
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Roulez Jeunesse
-tf1plus://tf1-series-films/roulez-jeunesse
 #EXTINF:-1 tvg-id="tf1plus-tfx-wasabi-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-wasabi-0c012a-f5d84b-818261-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Wasabi
 tf1plus://tfx/wasabi
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-notting-hill-278-grand-amour,-petit-prix" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-bdcdb0-b2d232-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Grand amour, petit prix",Coup de Foudre A Notting Hill 278
@@ -3497,8 +3499,6 @@ tf1plus://tfx/pop-redemption
 tf1plus://tfx/wasabi
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-cactus-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-86b14a-8f064b-7dd95d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Le Cactus
 tf1plus://tf1-series-films/le-cactus
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-roulez-jeunesse-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-63e777-3f32ef-9f10a5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Roulez Jeunesse
-tf1plus://tf1-series-films/roulez-jeunesse
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",La Plus Belle Pour Aller Danser
 tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
 #EXTINF:-1 tvg-id="tf1plus-tfx-rupture-pour-tous-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-rupturepour-224185-5229aa-7cd01e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Rupture Pour Tous
