@@ -133,7 +133,7 @@ https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD" tvg-logo="https://i.imgur.com/WmRbudc.png" group-title="Généralistes",TV5Monde France Belgique Suisse Monaco (1080p) 
 https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr@SD" tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="Généralistes",TV7 Colmar (576p)
-https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TV78.fr@SD" tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="Généralistes",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 #EXTINF:-1 tvg-id="TVMonaco.mc@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/960px-TVMonaco_2023.svg.png" group-title="Généralistes",TV Monaco (1080p)
@@ -1081,7 +1081,7 @@ https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr" group-title="France TV backup",TV3V (720p) [kilirushi]
 https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
-https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="RTLZwee.lu@SD" group-title="Généralistes",RTL Zwee (1080p)
@@ -1663,7 +1663,7 @@ https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="France4.fr" group-title="France TV backup",FRANCE 4 [schumijo]
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france4.m3u8
 #EXTINF:-1 tvg-id="FranceInfo.fr" group-title="France TV backup",FRANCE INFO [schumijo]
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/franceinfo.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="le-meilleur-d-arthur" group-title="France TV backup",LE MEILLEUR D'ARTHUR [schumijo]
 https://jmp2.uk/stvp-FRBD1900006NA
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
