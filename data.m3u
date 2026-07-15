@@ -5246,7 +5246,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-l
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/xh7UraOn7yB/LaevIkJF4fwDp7lI.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
@@ -5281,3 +5281,7 @@ http://145.239.5.177/318/index.m3u8
 # === Ajouts FR multi-sources : Sport ===
 #EXTINF:-1 tvg-id="FootPlus.fr@SD" group-title="Sport",Foot+
 http://145.239.5.177/556a/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
