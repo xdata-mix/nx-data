@@ -1007,7 +1007,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m3u8
 #EXTINF:-1 tvg-name="AFRICA 24" tvg-logo="https://tv4.life/tvlogos/africa_24.png" group-title="Live Canal",AFRICA 24 [TNT FR]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-name="LE FIGARO IDF" tvg-logo="https://tv4.life/tvlogos/le_figaro_idf.png" group-title="Live Canal",LE FIGARO IDF [TNT FR]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://static.lefigaro.fr/secom/tnt.m3u8
@@ -1069,15 +1069,15 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rtl/be/belrtl.
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr" group-title="France TV backup",Africa 24 (540p) [kilirushi]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24English.fr" group-title="France TV backup",Africa 24 English (1080p) [kilirushi]
-https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24Sport.fr" group-title="France TV backup",Africa 24 Sport (1080p) [kilirushi]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr" group-title="France TV backup",TV3V (720p) [kilirushi]
 https://tv3v.hdr-tv.com/live/tv3v/livestream/master.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr" group-title="France TV backup",TV7 Colmar (576p) [kilirushi]
@@ -1103,21 +1103,21 @@ https://lives.digiteka.com/stream/c58028c2-a58b-4526-9ec8-389cad4a71e8/index.m3u
 
 # === Ajouts FR multi-sources : Musique ===
 #EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="Musique",BBLACK! AFRICA
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="Musique",BBLACK! CARIBBEAN
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BBlackClassik.fr" group-title="Musique",BBLACK! CLASSIK
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.fr" group-title="Musique",MADRAS FM TV
 https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="Nouveautés FR",Bblack! Africa (1080p)
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="Nouveautés FR",Bblack! Caribbean (1080p)
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="Nouveautés FR",Bblack! Classik (1080p)
-http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 #EXTINF:-1 tvg-id="FX2.fr" group-title="Nouveautés FR",FX2 Farsi
 https://toonixhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaLatino.fr" group-title="Nouveautés FR",Persiana Latino (720p)
@@ -1171,7 +1171,7 @@ https://zylo-screamin-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-screami
 #EXTINF:-1 group-title="France TV backup",TRACE BRASIL [schumijo]
 https://trace-brazuca-lg-fr.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-lg-fr/CDN/master.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr@SD" group-title="France TV backup",Africa 24 (1080p) [iptv-org-fr]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="CGTNFrench.cn@SD" group-title="France TV backup",CGTN Français (1080p) [iptv-org-fra]
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup",Madras FM TV (1080p) [iptv-org-fra]
@@ -1181,7 +1181,7 @@ https://live-radiocontact.digiteka.com/1564284079/index.m3u8
 #EXTINF:-1 tvg-id="TNTV.pf@SD" group-title="France TV backup",TNTV (1080p) [iptv-org-fra]
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Cinéma ===
 #EXTINF:-1 group-title="Cinéma",LG 1
@@ -1489,7 +1489,7 @@ https://video1.getstreamhosting.com:1936/8494/8494/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="France TV backup",Bblack! Caribbean (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 
 # === Ajouts FR multi-sources : Culture ===
 #EXTINF:-1 tvg-id="APlusIvoire.ci@SD" group-title="Culture",A+ Ivoire (720p)
@@ -1505,7 +1505,7 @@ http://69.64.57.208/albayanetv/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BBlackCaribbean.fr" group-title="France TV backup",BBLACK! CARIBBEAN [schumijo]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fra]
@@ -1537,13 +1537,13 @@ http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="France TV backup",Bblack! Africa (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr" group-title="France TV backup",Le Figaro IDF (1080p) [kilirushi]
 https://static.lefigaro.fr/secom/tnt.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [kilirushi]
-https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
+https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
 https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
@@ -1561,7 +1561,7 @@ https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="GenerationsTV.fr" group-title="France TV backup",Generations TV (576p) [kilirushi]
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 
 # === Ajouts FR multi-sources : Séries ===
 #EXTINF:-1 tvg-id="SerieMax.ci@SD" group-title="Séries",Serie Max
@@ -1591,7 +1591,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u
 #EXTINF:-1 group-title="France TV backup",INA [schumijo]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/ina.m3u8
 #EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="France TV backup",BBLACK! AFRICA [schumijo]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" group-title="France TV backup",Le Figaro IDF (1080p) [iptv-org-fr]
 https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
 
@@ -1891,7 +1891,7 @@ https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" group-title="France TV backup",Alpe d’Huez TV (720p) [Not 24/7] [iptv-org-fra]
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
@@ -1963,7 +1963,7 @@ https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" group-title="France TV backup",Haiti News Channel (1080p) [iptv-org-fra]
@@ -2154,11 +2154,11 @@ http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24Sport.fr@SD" group-title="France TV backup",Africa 24 Sport (1080p) [iptv-org-fr]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackClassik.fr" group-title="France TV backup",Bblack! Classik (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France2.fr@SD" group-title="France TV backup",France 2 (1080p) [iptv-org-fr]
@@ -5285,3 +5285,11 @@ http://145.239.5.177/556a/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
 http://151.80.18.177:86/LCI_HD/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="France TV backup",BBLACK! AFRICA [schumijo]
+https://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+#EXTINF:-1 tvg-id="Africa24Sport.fr@SD" group-title="France TV backup",Africa 24 Sport (1080p) [iptv-org-fr]
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="GenerationsTV.fr@SD" group-title="France TV backup",Generations TV (576p) [iptv-org-fr]
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
