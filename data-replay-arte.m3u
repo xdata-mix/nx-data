@@ -385,6 +385,8 @@ arte://RC-025421
 arte://RC-025019
 #EXTINF:-1 tvg-id="arte-RC-023562" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SAoASjit79V8tL463iiGN8/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Canis Familiaris — Comédie canine un poil farfelue
 arte://RC-023562
+#EXTINF:-1 tvg-id="arte-RC-026460" tvg-logo="https://api-cdn.arte.tv/img/v2/image/fdao5LLbDvbEEizkYmwCQW/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",El'sardines
+arte://RC-026460
 #EXTINF:-1 tvg-id="arte-RC-025898" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CUEXV33dgUKREvPCHj95E3/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Silicon Fucking Valley — Visite guidée de la vallée de la tech
 arte://RC-025898
 #EXTINF:-1 tvg-id="arte-RC-021773" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qs3fAHbt8ErJM4PH63huag/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Merveilles de la nature — Des écosystèmes uniques au monde à préserver
@@ -565,8 +567,6 @@ arte://108959-000-A
 arte://127323-004-A
 #EXTINF:-1 tvg-id="arte-RC-023845" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EG6FppqYr93pJuE4FK2fXd/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",La Méditerranée révélée — Une beauté fragile
 arte://RC-023845
-#EXTINF:-1 tvg-id="arte-094411-000-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3wbEcJyXzcthecW9nM9qSY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Les singes qui voulaient voir la mer — À la rencontre des macaques plongeurs de Thaïlande
-arte://094411-000-F
 #EXTINF:-1 tvg-id="arte-122702-017-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/MmFgrZ7d9ZSWLiCSrjyMAX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Kirghizistan, espoir pour les panthères des neiges — Des images rares d'un félin devenu très discret
 arte://122702-017-A
 #EXTINF:-1 tvg-id="arte-117728-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ySVB8Z6Xgyhc5MKKCM4MzU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Le Kintoa, roi des cochons basques — Le retour d'une race locale autrefois menacée d’extinction
@@ -705,12 +705,8 @@ arte://107397-005-A
 arte://087835-000-A
 #EXTINF:-1 tvg-id="arte-RC-014085" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qiZv3KSnSSp6esFa6VrA56/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal — Le JT de l'actualité internationale
 arte://RC-014085
-#EXTINF:-1 tvg-id="arte-126925-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tmyuiDzKSSYdooJ9f6FTAg/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Inde : champion en devenir — Ouverture des discussions avec l'UE sur un traité de libre-échange
-arte://126925-014-A
-#EXTINF:-1 tvg-id="arte-121620-118-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qYvgviJmzzciTGdPtg9oXb/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ICE - Le bras armé de Trump — Troisième mort en lien avec la police de l'immigration
-arte://121620-118-A
-#EXTINF:-1 tvg-id="arte-131284-110-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/PR3NNQ7Zd43shcJww5DkyU/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",La Coupe du monde est-elle raciste ? — Pourquoi autant de racisme au mondial de football ?
-arte://131284-110-A
+#EXTINF:-1 tvg-id="arte-126925-078-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Y9fPrHKNoe63ULNX7DkZeS/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Poutine en Chine : un ami affaibli — 25 ans du traité d'amitié sino-russe
+arte://126925-078-A
 #EXTINF:-1 tvg-id="arte-103447-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/arYehpfAqNEkgJxqFNyfPi/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Climat: qui a allumé le feu ? — Les idées larges avec Andreas Malm
 arte://103447-003-A
 #EXTINF:-1 tvg-id="arte-126925-058-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kFHZFfMA8MhtDTifR9ok6h/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Les détroits : un enjeu stratégique
@@ -1319,8 +1315,6 @@ arte://101139-016-F
 arte://106265-003-F
 #EXTINF:-1 tvg-id="arte-101139-024-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/YSLwELyXLobsz7SEf2C6Sc/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Le béhourd, l'art du combat médiéval
 arte://101139-024-F
-#EXTINF:-1 tvg-id="arte-094411-000-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3wbEcJyXzcthecW9nM9qSY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Les singes qui voulaient voir la mer — À la rencontre des macaques plongeurs de Thaïlande
-arte://094411-000-F
 #EXTINF:-1 tvg-id="arte-122702-017-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/MmFgrZ7d9ZSWLiCSrjyMAX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Kirghizistan, espoir pour les panthères des neiges — Des images rares d'un félin devenu très discret
 arte://122702-017-A
 #EXTINF:-1 tvg-id="arte-117728-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ySVB8Z6Xgyhc5MKKCM4MzU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Le Kintoa, roi des cochons basques — Le retour d'une race locale autrefois menacée d’extinction
@@ -1589,8 +1583,6 @@ arte://122136-000-A
 arte://129956-000-A
 #EXTINF:-1 tvg-id="arte-RC-021773" tvg-logo="https://api-cdn.arte.tv/img/v2/image/BbyG76CtEx2DzHzxdvVZ9f/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Merveilles de la nature — Des écosystèmes uniques au monde à préserver
 arte://RC-021773
-#EXTINF:-1 tvg-id="arte-094411-000-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3wbEcJyXzcthecW9nM9qSY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Les singes qui voulaient voir la mer — À la rencontre des macaques plongeurs de Thaïlande
-arte://094411-000-F
 #EXTINF:-1 tvg-id="arte-122702-017-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/MmFgrZ7d9ZSWLiCSrjyMAX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Kirghizistan, espoir pour les panthères des neiges — Des images rares d'un félin devenu très discret
 arte://122702-017-A
 #EXTINF:-1 tvg-id="arte-117728-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ySVB8Z6Xgyhc5MKKCM4MzU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Le Kintoa, roi des cochons basques — Le retour d'une race locale autrefois menacée d’extinction
