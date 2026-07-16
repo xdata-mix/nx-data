@@ -858,7 +858,7 @@ https://viamotionhsi.netplus.ch/live/eds/skynews/browser-HLS8/skynews.m3u8
 https://viamotionhsi.netplus.ch/live/eds/tveinternacional/browser-HLS8/tveinternacional.m3u8
 #EXTINF:-1 tvg-chno="1654" tvg-logo="https://picserve.netplus.ch/channels/6ter.png" tvg-country="FR" group-title="NetPlus",6TER [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/6ter/browser-HLS8/6ter.m3u8
+http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-chno="1658" tvg-logo="https://picserve.netplus.ch/channels/bluezoomfr.png" tvg-country="FR" group-title="NetPlus",BLUE ZOOM FR [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/bluezoomfr/browser-HLS8/bluezoomfr.m3u8
@@ -1259,7 +1259,7 @@ http://69.64.57.208/canal2international/playlist.m3u8
 #EXTINF:-1 tvg-id="CheriflaTV.ml@SD" group-title="Généralistes",Cherifla TV (360p)
 http://69.64.57.208/cherifla/playlist.m3u8
 #EXTINF:-1 tvg-id="CRTV.cm@SD" group-title="Généralistes",CRTV (360p)
-http://69.64.57.208/crtv/playlist.m3u8
+http://145.239.5.177/147/index.m3u8
 #EXTINF:-1 tvg-id="EdenTV.bj@SD" group-title="Généralistes",Eden TV (540p) [Not 24/7]
 https://rtmp.edentv.bj/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ETV.gp@SD" group-title="Généralistes",ETV (1080p)
@@ -5301,3 +5301,13 @@ http://145.239.5.177/359a/index.m3u8
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="TV5QuebecCanada.ca@SD" group-title="Nouveautés FR",TV5 Quebec Canada (1080p)
 http://23.133.220.149/TV5/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="arte.fr@SD" group-title="France TV backup",arte (720p) [iptv-org-fr]
+http://145.239.5.177/300/index.m3u8
+#EXTINF:-1 tvg-id="CStar.fr@SD" group-title="France TV backup",C Star (1080p) [iptv-org-fr]
+http://145.239.5.177/361/index.m3u8
+
+# === Ajouts FR multi-sources : Cinéma ===
+#EXTINF:-1 tvg-id="CinePlusEmotion.fr@SD" group-title="Cinéma",Cine+ Emotion (720p)
+http://145.239.5.177/337/index.m3u8
