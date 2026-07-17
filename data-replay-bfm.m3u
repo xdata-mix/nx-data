@@ -487,6 +487,8 @@ bfmplay://NEUF_BFMTV_BFM1021080916505
 bfmplay://NEUF_BFMTV_BFM1021080916518
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021131954020" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/2/0/cda963170bc8cce133709307fbcbcceb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Affaire Émile : tentative d’incendie au domicile des grands-parents.
 bfmplay://NEUF_BFMTV_BFM1021131954020
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000395" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/9/3/1230c708a0fdb5c1c9ee0eb9c73d2726_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Les dernières infos sur l'Espagne et la finale ! - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000395
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000394" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/9/3/385a698efd687a00124c71a7e403c38e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Les explications de Didier Deschamps sur la défaite - Partie 1
 bfmplay://NEUF_BFMRADIO_BRA50000000000394
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000388" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/8/3/d0be5bd8595a266fba693d084c40941d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Les Bleus doivent capitaliser sur ce Mondial pour le futur - Partie 2
@@ -547,8 +549,6 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000323A
 bfmplay://NEUF_BFMRADIO_BRA50000000000323
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000322" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/2/3/8b42aee9dfe9a48db005579c7aa2dcd6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Greenwood vers Fenerbahçe avec Fabrice Hawkins  - Partie 1
 bfmplay://NEUF_BFMRADIO_BRA50000000000322
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000316A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/A/6/1/ca44af7fa0cbd5b7e3b7ca38cc9cf3e0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Debrief de Suisse / Colombie - Partie 3
-bfmplay://NEUF_BFMRADIO_BRA50000000000316A
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000086" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/6/8/0/9bfac07ce53c789e6bf6092205e4076c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité: Kevin Veyssiere fc geopolitics - Partie 2
 bfmplay://NEUF_BFMRADIO_BRA50000000000086
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000085" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/8/0/592b9be8f00603152abc827880ab8f4a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Arrivée EDF + Est-ce que ce serait un échec de ne pas gagner le Mondial ?- Partie 1
@@ -1497,10 +1497,8 @@ bfmplay://NEUF_NUM23_N23782662233527
 bfmplay://NEUF_RMC_LIFE_RIF1021130040947
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020925600640" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/0/4/6/a28181f3cbb9402e6959d5946b2a6405_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Les 10 criminels les plus dangereux de la planète
 bfmplay://NEUF_RMC_LIFE_RIF1020925600640
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770110" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/1/1/4537b11df372bb65f2c69699dab3d256_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",S2E41 - Spéciale camping
-bfmplay://NEUF_NUM23_N231020941770110
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127138840" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/4/8/1ce9edade327bbe1ab9d416566e326ad_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Mon curé chez les nudistes
-bfmplay://NEUF_NUM23_N231021127138840
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23995755012527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/e342d2ec36a597b33f37f33843755dda_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",J'irai dormir chez vous - S13E2 - Vietnam
+bfmplay://NEUF_NUM23_N23995755012527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23957459772527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/fab878cb44c82e5da4c131cb3834d6b9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",J'irai dormir chez vous - S2E1 - Émirats arabes unis
 bfmplay://NEUF_NUM23_N23957459772527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23995754103527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/16c133cc9ee44a308c5e3aad82b512d1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",J'irai dormir chez vous - S12E2 - Kazakhstan
@@ -1527,143 +1525,145 @@ bfmplay://NEUF_NUM23_N231020907399451
 bfmplay://NEUF_NUM23_N231020935643539
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132184573" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/7/5/7c0ed0a17617d0a92ade2302bbeccbe7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",J'irai dormir chez vous - S9E2 - Philippines
 bfmplay://NEUF_NUM23_N231021132184573
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770074" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/7/0/9350dc761d418556f77b200e70e3344a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E38 - Spéciale records
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770110" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/1/1/4537b11df372bb65f2c69699dab3d256_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E41 - Spéciale camping
+bfmplay://NEUF_NUM23_N231020941770110
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770074" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/7/0/9350dc761d418556f77b200e70e3344a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E38 - Spéciale records
 bfmplay://NEUF_NUM23_N231020941770074
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770146" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/4/1/82db8ecb78f6838ca2210ed3460a2c22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E44 - Spéciale USA
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770146" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/4/1/82db8ecb78f6838ca2210ed3460a2c22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E44 - Spéciale USA
 bfmplay://NEUF_NUM23_N231020941770146
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770086" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/8/0/857c2b696fc139f95169f2ba4cdf02e5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E39 - Spéciale cinéma
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770086" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/8/0/857c2b696fc139f95169f2ba4cdf02e5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E39 - Spéciale cinéma
 bfmplay://NEUF_NUM23_N231020941770086
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/1/53f3ead5fda4c781af28f037ef4861a7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E42 - Spéciale kermesse
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770122" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/1/53f3ead5fda4c781af28f037ef4861a7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E42 - Spéciale kermesse
 bfmplay://NEUF_NUM23_N231020941770122
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770098" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/9/0/5ea4cfd912fb2f8d04deb6b21bc5269a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E40 - Spéciale mamans
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770098" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/9/0/5ea4cfd912fb2f8d04deb6b21bc5269a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E40 - Spéciale mamans
 bfmplay://NEUF_NUM23_N231020941770098
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770062" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/6/0/3d20c152f897f4540e55221bfacde526_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E37 - Spéciale soleil
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770062" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/6/0/3d20c152f897f4540e55221bfacde526_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E37 - Spéciale soleil
 bfmplay://NEUF_NUM23_N231020941770062
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770050" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/0/0ed4f98f5bc874565621fb122fc2c883_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E36 - Spéciale métiers
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770050" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/0/0ed4f98f5bc874565621fb122fc2c883_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E36 - Spéciale métiers
 bfmplay://NEUF_NUM23_N231020941770050
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770038" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/3/0/e8d1521ccc2e010eaf5c53ca954991c0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E35 - Spéciale disco
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770038" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/3/0/e8d1521ccc2e010eaf5c53ca954991c0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E35 - Spéciale disco
 bfmplay://NEUF_NUM23_N231020941770038
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770026" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/2/0/ff51d60b5c668e19452df6e8e78c2855_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E34 - Spéciale seconde chance
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770026" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/2/0/ff51d60b5c668e19452df6e8e78c2855_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E34 - Spéciale seconde chance
 bfmplay://NEUF_NUM23_N231020941770026
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770134" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/3/1/6c1b59e4d68275191784c052b419ed4c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E43 - Spéciale enfants
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770134" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/3/1/6c1b59e4d68275191784c052b419ed4c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E43 - Spéciale enfants
 bfmplay://NEUF_NUM23_N231020941770134
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770014" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/1/0/ce78720a9e09116ebd0ba55d21fbfc7b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E33 - Spéciale mécanique
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770014" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/1/0/ce78720a9e09116ebd0ba55d21fbfc7b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E33 - Spéciale mécanique
 bfmplay://NEUF_NUM23_N231020941770014
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770002" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/0/0/8945a8dc61fb9d353f03def828ebba44_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E32 - Spéciale fête foraine
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941770002" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/0/0/8945a8dc61fb9d353f03def828ebba44_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E32 - Spéciale fête foraine
 bfmplay://NEUF_NUM23_N231020941770002
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769990" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/9/9/aa6a51dd9abd9c0b38198356ebaac1dc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E31 - Spéciale jumeaux
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769990" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/9/9/aa6a51dd9abd9c0b38198356ebaac1dc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E31 - Spéciale jumeaux
 bfmplay://NEUF_NUM23_N231020941769990
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769954" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/5/9/8634247608a1fdacf76a06520c7fb140_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E28 - Spéciale colocs
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769954" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/5/9/8634247608a1fdacf76a06520c7fb140_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E28 - Spéciale colocs
 bfmplay://NEUF_NUM23_N231020941769954
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769966" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/6/9/9e04dda679335a24acb9bffaf193c7f6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E29 - Spéciale vendredi 13
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769966" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/6/9/9e04dda679335a24acb9bffaf193c7f6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E29 - Spéciale vendredi 13
 bfmplay://NEUF_NUM23_N231020941769966
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769978" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/7/9/c9b02632f4e30bab7c0bc7d51f27c692_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E30 - Spéciale ski
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769978" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/7/9/c9b02632f4e30bab7c0bc7d51f27c692_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E30 - Spéciale ski
 bfmplay://NEUF_NUM23_N231020941769978
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769942" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/4/9/b232e886ef694cdcdbbce50668099e49_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E27 - Spéciale fête des grand-mères
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769942" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/4/9/b232e886ef694cdcdbbce50668099e49_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E27 - Spéciale fête des grand-mères
 bfmplay://NEUF_NUM23_N231020941769942
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769930" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/3/9/2375236741f9783bc198e323146d4e6f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E26 - Spéciale carnaval
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769930" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/3/9/2375236741f9783bc198e323146d4e6f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E26 - Spéciale carnaval
 bfmplay://NEUF_NUM23_N231020941769930
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769918" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/9/e2b63b50602e3fa3680e63481308cd50_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E25 - Spéciale Saint Valentin
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769918" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/9/e2b63b50602e3fa3680e63481308cd50_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E25 - Spéciale Saint Valentin
 bfmplay://NEUF_NUM23_N231020941769918
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769906" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/0/9/03af390c5e0a011fda60d716ccb59ae5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E24 - Spéciale olympiades
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769906" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/0/9/03af390c5e0a011fda60d716ccb59ae5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E24 - Spéciale olympiades
 bfmplay://NEUF_NUM23_N231020941769906
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769894" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/9/8/965f2ac91061077dc68e428c4330a964_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E23 - Spéciale pirates
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769894" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/9/8/965f2ac91061077dc68e428c4330a964_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E23 - Spéciale pirates
 bfmplay://NEUF_NUM23_N231020941769894
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769882" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/8/8/12b310c20e2df84bc764a632743fe5bf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E22 - Spéciale gros bras
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769882" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/8/8/12b310c20e2df84bc764a632743fe5bf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E22 - Spéciale gros bras
 bfmplay://NEUF_NUM23_N231020941769882
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769870" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/7/8/020d49be9ca3cd8b2a17e984cdc56ae9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E21 - Spéciale British
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769870" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/7/8/020d49be9ca3cd8b2a17e984cdc56ae9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E21 - Spéciale British
 bfmplay://NEUF_NUM23_N231020941769870
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769858" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/5/8/efcfb67ca25aef80da6a720dedb1de93_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E20 - Spéciale ça décoiffe !
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941769858" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/5/8/efcfb67ca25aef80da6a720dedb1de93_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E20 - Spéciale ça décoiffe !
 bfmplay://NEUF_NUM23_N231020941769858
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941754936" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/3/9/cbdc4d436978c0534eb5bc2110538459_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E19 - Spéciale nouvelle année !
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020941754936" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/3/9/cbdc4d436978c0534eb5bc2110538459_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E19 - Spéciale nouvelle année !
 bfmplay://NEUF_NUM23_N231020941754936
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259628" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/2/6/b779285ac015a94d94add57cc00bb9b7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E18 - Spéciale Noël
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259628" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/2/6/b779285ac015a94d94add57cc00bb9b7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E18 - Spéciale Noël
 bfmplay://NEUF_NUM23_N231020933259628
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259616" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/1/6/b0aef87e0bf14fd906f068cab554cac7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E17 - Spéciale x-trême
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259616" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/1/6/b0aef87e0bf14fd906f068cab554cac7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E17 - Spéciale x-trême
 bfmplay://NEUF_NUM23_N231020933259616
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259604" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/0/6/f333d7a2abb11489f55265da01b016c8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E16 - Spéciale cirque
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259604" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/0/6/f333d7a2abb11489f55265da01b016c8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E16 - Spéciale cirque
 bfmplay://NEUF_NUM23_N231020933259604
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259592" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/9/5/0e5e2b497f9e079e0a9f8f616a44831d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E15 - Spéciale pompiers
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259592" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/9/5/0e5e2b497f9e079e0a9f8f616a44831d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E15 - Spéciale pompiers
 bfmplay://NEUF_NUM23_N231020933259592
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259580" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/8/5/7c4e4ca87cdfffa69a5d6dd9d4aacab3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E14 - Spéciale toutous
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259580" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/8/5/7c4e4ca87cdfffa69a5d6dd9d4aacab3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E14 - Spéciale toutous
 bfmplay://NEUF_NUM23_N231020933259580
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259338" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/3/3/d2fa9c4a40b80b87e0d69b06227ca57d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E13 - Spéciale Vincent Lagaf'
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020933259338" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/3/3/d2fa9c4a40b80b87e0d69b06227ca57d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E13 - Spéciale Vincent Lagaf'
 bfmplay://NEUF_NUM23_N231020933259338
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394331" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/3/3/4515e176e8802a8dc998cf271ebfecfe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E12 - Spéciale Johnny Hallyday
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394331" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/3/3/4515e176e8802a8dc998cf271ebfecfe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E12 - Spéciale Johnny Hallyday
 bfmplay://NEUF_NUM23_N231020924394331
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394324" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/2/3/5eb7d7e1ebc0681f957be21cda40cb6e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E11 - Spéciale pyjama party
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394324" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/2/3/5eb7d7e1ebc0681f957be21cda40cb6e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E11 - Spéciale pyjama party
 bfmplay://NEUF_NUM23_N231020924394324
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394317" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/1/3/62a9051b866793a1601c0171bc3c3cc6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E10 - Spéciale Halloween
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394317" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/1/3/62a9051b866793a1601c0171bc3c3cc6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E10 - Spéciale Halloween
 bfmplay://NEUF_NUM23_N231020924394317
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394310" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/1/3/57151536da9f8d85a266a451fe38a9a7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E9 - Spéciale talents cachés
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394310" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/1/3/57151536da9f8d85a266a451fe38a9a7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E9 - Spéciale talents cachés
 bfmplay://NEUF_NUM23_N231020924394310
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394303" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/0/3/ed99007833e2429c9521c0fba0d8c174_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E8 - Spéciale Las Vegas
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394303" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/0/3/ed99007833e2429c9521c0fba0d8c174_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E8 - Spéciale Las Vegas
 bfmplay://NEUF_NUM23_N231020924394303
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394296" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/9/2/b56453e0a491ca28d47867b5ab24cf88_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E7 - Spéciale célibataires
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394296" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/9/2/b56453e0a491ca28d47867b5ab24cf88_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E7 - Spéciale célibataires
 bfmplay://NEUF_NUM23_N231020924394296
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394289" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/8/2/35d3d1b1ca20ada965ed8967455494fc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E6 - Spéciale chevaliers
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394289" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/8/2/35d3d1b1ca20ada965ed8967455494fc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E6 - Spéciale chevaliers
 bfmplay://NEUF_NUM23_N231020924394289
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394282" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/8/2/26ea860e5e610250f7cae92fdf32bf5c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E5 - Spéciale cascades
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394282" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/8/2/26ea860e5e610250f7cae92fdf32bf5c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E5 - Spéciale cascades
 bfmplay://NEUF_NUM23_N231020924394282
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394275" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/7/2/3c1378a048858f9df9446ba1fe72b3f6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E4 - Spéciale sosies
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394275" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/7/2/3c1378a048858f9df9446ba1fe72b3f6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E4 - Spéciale sosies
 bfmplay://NEUF_NUM23_N231020924394275
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394268" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/6/2/2990f5ec650ee82d7db3ce3ae3d4134c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E3 - Spéciale Japon
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394268" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/6/2/2990f5ec650ee82d7db3ce3ae3d4134c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E3 - Spéciale Japon
 bfmplay://NEUF_NUM23_N231020924394268
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394261" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/6/2/ae1a3a3cf1d4b53ae8863c8bed6f2717_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E2 - Spéciale Ch’tis vs Marseillais
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394261" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/6/2/ae1a3a3cf1d4b53ae8863c8bed6f2717_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E2 - Spéciale Ch’tis vs Marseillais
 bfmplay://NEUF_NUM23_N231020924394261
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394184" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/8/1/732c1621ba87401e1d3b33d6113d7d5f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S2E1 - Spéciale rentrée des classes
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020924394184" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/8/1/732c1621ba87401e1d3b33d6113d7d5f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S2E1 - Spéciale rentrée des classes
 bfmplay://NEUF_NUM23_N231020924394184
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426207" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/0/2/484ef89a681b768dd98010b4d082d2ec_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Épisode 26
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426207" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/0/2/484ef89a681b768dd98010b4d082d2ec_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Épisode 26
 bfmplay://NEUF_NUM23_N231020911426207
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426189" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/8/1/8ae513de62e8fb2282ecdfceaf44d606_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 25
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426189" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/8/1/8ae513de62e8fb2282ecdfceaf44d606_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 25
 bfmplay://NEUF_NUM23_N231020911426189
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426171" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/7/1/f1d4a1b93c06969a4ee1096ab6917bf9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 24
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426171" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/7/1/f1d4a1b93c06969a4ee1096ab6917bf9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 24
 bfmplay://NEUF_NUM23_N231020911426171
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426153" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/5/1/d8b853dd0bd225ee6f39e0728afafbd9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 23
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426153" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/5/1/d8b853dd0bd225ee6f39e0728afafbd9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 23
 bfmplay://NEUF_NUM23_N231020911426153
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426135" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/3/1/60d820877aec2e31479e35bc579a319c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 22
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426135" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/3/1/60d820877aec2e31479e35bc579a319c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 22
 bfmplay://NEUF_NUM23_N231020911426135
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426117" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/1/1/a8470ee1651023ad2f24839aecd0ad05_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 21
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426117" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/1/1/a8470ee1651023ad2f24839aecd0ad05_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 21
 bfmplay://NEUF_NUM23_N231020911426117
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426099" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/9/0/4042bf36d338f5e6ce84ca131faae087_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 20
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426099" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/9/0/4042bf36d338f5e6ce84ca131faae087_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 20
 bfmplay://NEUF_NUM23_N231020911426099
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426081" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/8/0/21f039beff64e78288f2b3a6b1ae13db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Épisode 19
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426081" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/8/0/21f039beff64e78288f2b3a6b1ae13db_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Épisode 19
 bfmplay://NEUF_NUM23_N231020911426081
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426063" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/6/0/af1c0da6ec2bba3fe7f57599cde791a2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 18 - Spéciale années 90
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426063" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/6/0/af1c0da6ec2bba3fe7f57599cde791a2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 18 - Spéciale années 90
 bfmplay://NEUF_NUM23_N231020911426063
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426045" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/4/0/8572f1b1508d8d846f178eacd681351e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 17
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911426045" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/4/0/8572f1b1508d8d846f178eacd681351e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 17
 bfmplay://NEUF_NUM23_N231020911426045
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911425327" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/3/26660bf68a0f2437fd9cbb93ec26d284_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 16
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020911425327" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/3/26660bf68a0f2437fd9cbb93ec26d284_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 16
 bfmplay://NEUF_NUM23_N231020911425327
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702649527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/bcb197e9305d749813a1a2a16057c972_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 15
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702649527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/bcb197e9305d749813a1a2a16057c972_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 15
 bfmplay://NEUF_NUM23_N23989702649527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702643527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/f00d9c64fdcfbad2d06119fa52f1155c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 14
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702643527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/f00d9c64fdcfbad2d06119fa52f1155c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 14
 bfmplay://NEUF_NUM23_N23989702643527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702637527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/24e53ea0bb5505bda607c5ef30c90f1f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 13
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702637527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/24e53ea0bb5505bda607c5ef30c90f1f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 13
 bfmplay://NEUF_NUM23_N23989702637527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702631527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/3590d4027afd6139f687eee08da39a7e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 12
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702631527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/3590d4027afd6139f687eee08da39a7e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 12
 bfmplay://NEUF_NUM23_N23989702631527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702625527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/8663206649dd9ed6b8316788e45cc50c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 11
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702625527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/8663206649dd9ed6b8316788e45cc50c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 11
 bfmplay://NEUF_NUM23_N23989702625527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702619527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/91eda046573e003b177e8a4eb376411e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 10
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702619527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/91eda046573e003b177e8a4eb376411e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 10
 bfmplay://NEUF_NUM23_N23989702619527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702613527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/f0ce9941d9bdd75e9321123ae4d00f2a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 9
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702613527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/f0ce9941d9bdd75e9321123ae4d00f2a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 9
 bfmplay://NEUF_NUM23_N23989702613527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702607527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d7da49092fc00f316206b996e56e2637_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 8
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702607527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d7da49092fc00f316206b996e56e2637_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 8
 bfmplay://NEUF_NUM23_N23989702607527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702601527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/02a70f26ba315e51a03d24754ae8ec95_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 7 avec Jeff Panacloc
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702601527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/02a70f26ba315e51a03d24754ae8ec95_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 7 avec Jeff Panacloc
 bfmplay://NEUF_NUM23_N23989702601527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702589527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/4745cca88643947bdc724a4de9d7350a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 5
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702589527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/4745cca88643947bdc724a4de9d7350a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 5
 bfmplay://NEUF_NUM23_N23989702589527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702583527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/4aa016a7d40c526359c4ec9a43168d92_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 4
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702583527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/4aa016a7d40c526359c4ec9a43168d92_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 4
 bfmplay://NEUF_NUM23_N23989702583527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702577527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/a2f8b26b422725abf66cb1b005494447_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 3 avec Eric Antoine
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702577527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/a2f8b26b422725abf66cb1b005494447_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 3 avec Eric Antoine
 bfmplay://NEUF_NUM23_N23989702577527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702571527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/08d7b25ffd2b59024a6a1c2487ae4c7e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - Episode 2
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702571527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/08d7b25ffd2b59024a6a1c2487ae4c7e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - Episode 2
 bfmplay://NEUF_NUM23_N23989702571527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702375527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/32d63fb9d45a596acf5505a70317be96_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Le Bigdil - S1E1 - Episode 1 - spéciale le grand retour
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702375527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/32d63fb9d45a596acf5505a70317be96_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S1E1 - Episode 1 - spéciale le grand retour
 bfmplay://NEUF_NUM23_N23989702375527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020942728666" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/6/6/ced782c180cf93fccf8e34b994add61b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Lucifer - S3E2 - Mort d'un comique
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020942728666" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/6/6/ced782c180cf93fccf8e34b994add61b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Lucifer - S3E2 - Mort d'un comique
 bfmplay://NEUF_NUM23_N231020942728666
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927451294" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/9/2/93f7e7a6261b72f4eb2bbe8909ac5c9c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Young Sheldon - S2E11 - Une race de surhumains et une lettre à Alf
 bfmplay://NEUF_NUM23_N231020927451294
@@ -1931,6 +1931,8 @@ bfmplay://NEUF_NUM23_N231020938149922
 bfmplay://NEUF_NUM23_N231020938149929
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020957733181" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/8/1/67b5806532cd8468145178a1c145f8eb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",La folie du camping-car : des vacances pas comme les autres - S1E9 - Episode 9
 bfmplay://NEUF_NUM23_N231020957733181
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127138840" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/4/8/1ce9edade327bbe1ab9d416566e326ad_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Top tendances",Mon curé chez les nudistes
+bfmplay://NEUF_NUM23_N231021127138840
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231009526649527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/bef591952d90e2d99622e01c56345462_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Flic story - S2E13 - Gendarmerie de Gex - Episode 3
 bfmplay://NEUF_NUM23_N231009526649527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23973968211527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/6c0ec320f4d2d31c807794a5a67b93fe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Flic story - S2E3 - Gendarmerie en région lyonnaise - Episode 3
@@ -1987,76 +1989,6 @@ bfmplay://NEUF_NUM23_N23951309743527
 bfmplay://NEUF_NUM23_N23946968820527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23954440992527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/403fff85c90e7f6e335067d12aeeb63f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",100 jours avec les gendarmes des Alpes - S1E5 - Épisode 5
 bfmplay://NEUF_NUM23_N23954440992527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010846527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/83d96aaa5d8e92808ba93dd352f393a4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E6 - Bras de fer avec les géants
-bfmplay://NEUF_RMCDEC_RMC936010846527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383299527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/be575c4384918ac14e7bf7c31f155e43_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E5 - Morsures atroces
-bfmplay://NEUF_RMCDEC_RMC556383299527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556391778527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/18b36d411f583523b7d6592865aa3997_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S4E4 - Attaques en série
-bfmplay://NEUF_RMCDEC_RMC556391778527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010864527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/b66537c69656e792ed3dee6d7dba3d75_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E8 - Alligator préhistorique
-bfmplay://NEUF_RMCDEC_RMC936010864527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383121527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d517f974256acf4fa0ea7e8755c9b979_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E1 - Bêtes préhistoriques
-bfmplay://NEUF_RMCDEC_RMC556383121527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383383527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/11092b320b84ff134fcec027a0071975_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E12 - Frénésie africaine
-bfmplay://NEUF_RMCDEC_RMC556383383527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010837527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/0457c1cce67a6a1938c0ccea850b61d8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E5 - Survivre au mythique Piraiba
-bfmplay://NEUF_RMCDEC_RMC936010837527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389135527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/633cd483b36ce8229ce69b1a80a160cd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S3E2 - Survie à tout prix
-bfmplay://NEUF_RMCDEC_RMC556389135527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389155527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/03d1366efaa1b609cb338850066eb722_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S3E4 - Le dévoreur de l'amazone
-bfmplay://NEUF_RMCDEC_RMC556389155527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556391741527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/b4f405abb15850fe13341e33879d5210_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S4E1 - Prédateurs du nord
-bfmplay://NEUF_RMCDEC_RMC556391741527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383347527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d8f90d18255e900065fc94cb0942af78_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E9 - Terrifiantes mâchoires
-bfmplay://NEUF_RMCDEC_RMC556383347527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383311527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ec37fc572968845472b76595873295a8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E6 - Violent combattant
-bfmplay://NEUF_RMCDEC_RMC556383311527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389175527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/dfea6d9f488231b68788e9d13e50b72e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S3E6 - Le fantôme du récif
-bfmplay://NEUF_RMCDEC_RMC556389175527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010873527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/6147bd8212abd48f0e921593f4422b24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E9 - Combat à mains nues
-bfmplay://NEUF_RMCDEC_RMC936010873527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC935062749527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2c0e815c2e1a93a2ecbbd1b7909c526a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S5E3 - Tueur de piranhas
-bfmplay://NEUF_RMCDEC_RMC935062749527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383371527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/4d29a4d626c4fb3f3bdaff0b5611d51d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E11 - Bataille avec les thons géants
-bfmplay://NEUF_RMCDEC_RMC556383371527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010882527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8475f39acca1fd75b5e347110863cbf1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E10 - L'implacable barracuda
-bfmplay://NEUF_RMCDEC_RMC936010882527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383335527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c18a15afcd7cd0d33f10a555a3131c4d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S2E8 - Géant armé
-bfmplay://NEUF_RMCDEC_RMC556383335527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010900527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d70ffd432d0c74b705af163fd0b3a5bf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL - S1E12 - Le loup d'eau douce
-bfmplay://NEUF_RMCDEC_RMC936010900527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363304" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/0/3/7fbbe62e37c12dfaefc35647d7fc8a3f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E6 - En eaux inconnues
-bfmplay://NEUF_RMCDEC_RMC1020934363304
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363330" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/3/3/5576cfe664202e30486d5909a496b953_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E8 - Titan dui jurassique
-bfmplay://NEUF_RMCDEC_RMC1020934363330
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363219" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/1/2/d90e6997c97417753f6945ed797cc87a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E1 - Barracuda en furie
-bfmplay://NEUF_RMCDEC_RMC1020934363219
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363291" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/9/2/df770beb9b3a00fbae30c712a01ff5c7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E5 - Colosse amazonien
-bfmplay://NEUF_RMCDEC_RMC1020934363291
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363265" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/2/95238556efa00149fc329ae62fea127c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E3 - Bras de fer géant
-bfmplay://NEUF_RMCDEC_RMC1020934363265
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363252" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/5/2/314058b97404bd275e42b1bb97b09aae_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E2 - Dans l'ombre du requin
-bfmplay://NEUF_RMCDEC_RMC1020934363252
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363278" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/7/2/31d1b11b359f81f6eab8b99072b281f0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E4 - A la limite de la rupture
-bfmplay://NEUF_RMCDEC_RMC1020934363278
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363317" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/1/3/dbb2b0b17b969c8da6f40f735ba74e1f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S3E7 - Au plus profond de la jungle
-bfmplay://NEUF_RMCDEC_RMC1020934363317
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365488" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/8/4/fbd3e50b8a1d5c027b54f2a9826160d7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E3 - Face aux prédateurs
-bfmplay://NEUF_RMCDEC_RMC1020934365488
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365553" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/5/5/a0b0a6240adfba4f02936c0cbbaf69e4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E8 - Prédateurs de l'Arctique
-bfmplay://NEUF_RMCDEC_RMC1020934365553
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365501" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/0/5/d73a8b2b25191e6da8fff5e6d54260ea_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E4 - Opération à hauts risques
-bfmplay://NEUF_RMCDEC_RMC1020934365501
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365514" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/1/5/ae23c9192c43d94e10df1269ef3a0520_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E5 - Prédateurs préhistoriques
-bfmplay://NEUF_RMCDEC_RMC1020934365514
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365540" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/4/5/ffe45f268a6a887da3bff7925f43676b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E7 - Face aux ours
-bfmplay://NEUF_RMCDEC_RMC1020934365540
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365475" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/7/4/1ed2b61138b9a96112e3ca2427519086_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E2 - Océan déchainé
-bfmplay://NEUF_RMCDEC_RMC1020934365475
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365402" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/0/4/ba25f7d60aa6db9b92e733d84ee46394_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E1 - Terreur en mer
-bfmplay://NEUF_RMCDEC_RMC1020934365402
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/573610f407025e5d181b6e96d6e29b0b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Dans les eaux sombres",Pêche XXL : derniers géants - S4E6 - Face au monstre
-bfmplay://NEUF_RMCDEC_RMC1020934365527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23996820648527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/76c1a52030887fc1755549f31c17fa11_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Aventure et Divertissement",Travaux XXL : piscines et lagons - S1E4 - Piscine d'architecte à une heure de Paris
 bfmplay://NEUF_NUM23_N23996820648527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23996820642527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/9dd43504ab8fc08a90d5ab3fbc686ce5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Aventure et Divertissement",Travaux XXL : piscines et lagons - S1E3 - Un lagon sur mesure en Provence
@@ -4159,6 +4091,44 @@ bfmplay://NEUF_RMCDEC_RMC972013756527
 bfmplay://NEUF_RMCDEC_RMC1020911942845
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020911942826" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/2/8/b991c5d5314027c6dad18fa21bb23abf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Vintage Mecanic - S9E18 - BMW E36 325 TD
 bfmplay://NEUF_RMCDEC_RMC1020911942826
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010846527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/83d96aaa5d8e92808ba93dd352f393a4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E6 - Bras de fer avec les géants
+bfmplay://NEUF_RMCDEC_RMC936010846527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383299527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/be575c4384918ac14e7bf7c31f155e43_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E5 - Morsures atroces
+bfmplay://NEUF_RMCDEC_RMC556383299527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556391778527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/18b36d411f583523b7d6592865aa3997_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S4E4 - Attaques en série
+bfmplay://NEUF_RMCDEC_RMC556391778527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010864527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/b66537c69656e792ed3dee6d7dba3d75_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E8 - Alligator préhistorique
+bfmplay://NEUF_RMCDEC_RMC936010864527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383121527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d517f974256acf4fa0ea7e8755c9b979_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E1 - Bêtes préhistoriques
+bfmplay://NEUF_RMCDEC_RMC556383121527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383383527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/11092b320b84ff134fcec027a0071975_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E12 - Frénésie africaine
+bfmplay://NEUF_RMCDEC_RMC556383383527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010837527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/0457c1cce67a6a1938c0ccea850b61d8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E5 - Survivre au mythique Piraiba
+bfmplay://NEUF_RMCDEC_RMC936010837527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389135527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/633cd483b36ce8229ce69b1a80a160cd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S3E2 - Survie à tout prix
+bfmplay://NEUF_RMCDEC_RMC556389135527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389155527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/03d1366efaa1b609cb338850066eb722_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S3E4 - Le dévoreur de l'amazone
+bfmplay://NEUF_RMCDEC_RMC556389155527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556391741527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/b4f405abb15850fe13341e33879d5210_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S4E1 - Prédateurs du nord
+bfmplay://NEUF_RMCDEC_RMC556391741527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383347527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d8f90d18255e900065fc94cb0942af78_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E9 - Terrifiantes mâchoires
+bfmplay://NEUF_RMCDEC_RMC556383347527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383311527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ec37fc572968845472b76595873295a8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E6 - Violent combattant
+bfmplay://NEUF_RMCDEC_RMC556383311527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556389175527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/dfea6d9f488231b68788e9d13e50b72e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S3E6 - Le fantôme du récif
+bfmplay://NEUF_RMCDEC_RMC556389175527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010873527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/6147bd8212abd48f0e921593f4422b24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E9 - Combat à mains nues
+bfmplay://NEUF_RMCDEC_RMC936010873527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC935062749527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2c0e815c2e1a93a2ecbbd1b7909c526a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S5E3 - Tueur de piranhas
+bfmplay://NEUF_RMCDEC_RMC935062749527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383371527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/4d29a4d626c4fb3f3bdaff0b5611d51d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E11 - Bataille avec les thons géants
+bfmplay://NEUF_RMCDEC_RMC556383371527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010882527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8475f39acca1fd75b5e347110863cbf1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E10 - L'implacable barracuda
+bfmplay://NEUF_RMCDEC_RMC936010882527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC556383335527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c18a15afcd7cd0d33f10a555a3131c4d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S2E8 - Géant armé
+bfmplay://NEUF_RMCDEC_RMC556383335527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC936010900527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d70ffd432d0c74b705af163fd0b3a5bf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Pêche XXL - S1E12 - Le loup d'eau douce
+bfmplay://NEUF_RMCDEC_RMC936010900527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC711977312527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/88d8b636c02026d7ae004ac4c7caa4a3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Disparition du MH370 : enquête sur la disparition d'un avion fantôme - S1E2 - La contre-enquête
 bfmplay://NEUF_RMCDEC_RMC711977312527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC711977143527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/5270d313c90ef62f9f57d4b85aef760b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Top tendances",Disparition du MH370 : enquête sur la disparition d'un avion fantôme - S1E1 - Au cœur du chaos
@@ -4545,34 +4515,14 @@ bfmplay://NEUF_RMCDEC_RMC1020931968857
 bfmplay://NEUF_BFMAVOD_BAV_00449278
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917614142" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/4/1/a94566774366b97606a666a5e9e3748b_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Top tendances",Mont-St-Michel : les défis d'une mégastructure unique au monde
 bfmplay://NEUF_RMCDEC_RMC1020917614142
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC966741729527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/161cabad06896a20a57953a26ec8b06e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Tous les replays",Rome : l'armée des bâtisseurs
+bfmplay://NEUF_RMCDEC_RMC966741729527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937232172" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/7/1/bc3485acdedc1512ed00e605aeda91f2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Tous les replays",Alerte sur la planète ! - S1E1 - Volcans géants cataclysmiques
 bfmplay://NEUF_RMCDEC_RMC1020937232172
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937233242" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/4/2/fa41b4cbebab0f9186b632360db27525_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Tous les replays",Alerte sur la planète ! - S1E6 - Éruption solaire cataclysmique
 bfmplay://NEUF_RMCDEC_RMC1020937233242
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020936099117" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/1/1/cc16dff1f6fae53b7edf26abde1c0d2a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Tous les replays",Versailles : les secrets d'un chantier monumental
 bfmplay://NEUF_RMCDEC_RMC1020936099117
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791924" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/2/9/c696592053ef4122a748f3066a87c286_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Cléopâtre, les secrets révélés - S1E4 - Les tombeaux perdus des Ptolémées
-bfmplay://NEUF_RMCDEC_RMC1020934791924
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791911" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/1/9/8664baa9d2684ff3fef44616d744b284_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Cléopâtre, les secrets révélés - S1E3 - Le trésor englouti
-bfmplay://NEUF_RMCDEC_RMC1020934791911
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791898" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/9/8/26f175ca4fc7d5c36837037e728a89dc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Cléopâtre, les secrets révélés - S1E2 - Son combat pour le trône
-bfmplay://NEUF_RMCDEC_RMC1020934791898
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791565" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/5/3e0600ea7920b69f04ffd2c09710b24b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Cléopâtre, les secrets révélés - S1E1 - Aux origines d'une famille légendaire
-bfmplay://NEUF_RMCDEC_RMC1020934791565
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362656" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/5/6/f50e150fa85a49c7d43c177a7a874c0b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E4 - Thoutmosis II, la bataille de Megiddo
-bfmplay://NEUF_RMCDEC_RMC1020917362656
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362638" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/3/6/a16fdce378dc8e3d3c8bee6390b51aa1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E3 - Ramsès II, la bataille de Qadesh
-bfmplay://NEUF_RMCDEC_RMC1020917362638
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362620" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/2/6/4068574cdf4e98d4764c1f45d904de22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E2 - La bataille de Raphia
-bfmplay://NEUF_RMCDEC_RMC1020917362620
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917361262" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/6/2/1d865da324b6c4e9b8b0a69aaaf83c86_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E1 - Cléopâtre face à Rome
-bfmplay://NEUF_RMCDEC_RMC1020917361262
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652494" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/9/4/28792115f7d89feebf296fc3b8063c5d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Ramsès II, la trilogie - S1E3 - Ramsès II, l'immortel
-bfmplay://NEUF_RMCDEC_RMC1020915652494
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652262" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/6/2/982ead23f840a822cb49c2ec1fdc4e50_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Ramsès II, la trilogie - S1E2 - Ramsès II, père d'une dynastie
-bfmplay://NEUF_RMCDEC_RMC1020915652262
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652202" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/0/2/96e07cfd4bb353b2cb216932cf11f029_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Secrets d'Egypte",Ramsès II, la trilogie - S1E1 - Ramsès II, l'usurpateur
-bfmplay://NEUF_RMCDEC_RMC1020915652202
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC965619591527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ab913efefab4e0dc899909360e05d1b1_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Aventure extrême !",J'irai dormir à Bollywood
 bfmplay://NEUF_RMCDEC_RMC965619591527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021102582222" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/2/2/3f6eb707e5ddc3524cf5136df7fef9c7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Aventure extrême !",Baroudeurs : 28 jours dans l'enfer vert du Honduras
@@ -5185,6 +5135,38 @@ bfmplay://NEUF_RMCDEC_RMC1020905869157
 bfmplay://NEUF_RMCDEC_RMC1020905869164
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020905869171" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/7/1/bbbdff7807e486b9c1896596d9029314_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Le meilleur forgeron - S10E7 - Le sabre de Napoléon
 bfmplay://NEUF_RMCDEC_RMC1020905869171
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363304" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/0/3/7fbbe62e37c12dfaefc35647d7fc8a3f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E6 - En eaux inconnues
+bfmplay://NEUF_RMCDEC_RMC1020934363304
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363330" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/3/3/5576cfe664202e30486d5909a496b953_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E8 - Titan dui jurassique
+bfmplay://NEUF_RMCDEC_RMC1020934363330
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363219" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/1/2/d90e6997c97417753f6945ed797cc87a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E1 - Barracuda en furie
+bfmplay://NEUF_RMCDEC_RMC1020934363219
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363291" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/9/2/df770beb9b3a00fbae30c712a01ff5c7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E5 - Colosse amazonien
+bfmplay://NEUF_RMCDEC_RMC1020934363291
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363265" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/2/95238556efa00149fc329ae62fea127c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E3 - Bras de fer géant
+bfmplay://NEUF_RMCDEC_RMC1020934363265
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363252" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/5/2/314058b97404bd275e42b1bb97b09aae_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E2 - Dans l'ombre du requin
+bfmplay://NEUF_RMCDEC_RMC1020934363252
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363278" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/7/2/31d1b11b359f81f6eab8b99072b281f0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E4 - A la limite de la rupture
+bfmplay://NEUF_RMCDEC_RMC1020934363278
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934363317" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/1/3/dbb2b0b17b969c8da6f40f735ba74e1f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S3E7 - Au plus profond de la jungle
+bfmplay://NEUF_RMCDEC_RMC1020934363317
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365488" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/8/4/fbd3e50b8a1d5c027b54f2a9826160d7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E3 - Face aux prédateurs
+bfmplay://NEUF_RMCDEC_RMC1020934365488
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365553" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/5/5/a0b0a6240adfba4f02936c0cbbaf69e4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E8 - Prédateurs de l'Arctique
+bfmplay://NEUF_RMCDEC_RMC1020934365553
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365501" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/0/5/d73a8b2b25191e6da8fff5e6d54260ea_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E4 - Opération à hauts risques
+bfmplay://NEUF_RMCDEC_RMC1020934365501
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365514" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/1/5/ae23c9192c43d94e10df1269ef3a0520_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E5 - Prédateurs préhistoriques
+bfmplay://NEUF_RMCDEC_RMC1020934365514
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365540" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/4/5/ffe45f268a6a887da3bff7925f43676b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E7 - Face aux ours
+bfmplay://NEUF_RMCDEC_RMC1020934365540
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365475" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/7/4/1ed2b61138b9a96112e3ca2427519086_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E2 - Océan déchainé
+bfmplay://NEUF_RMCDEC_RMC1020934365475
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365402" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/0/4/ba25f7d60aa6db9b92e733d84ee46394_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E1 - Terreur en mer
+bfmplay://NEUF_RMCDEC_RMC1020934365402
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934365527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/573610f407025e5d181b6e96d6e29b0b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Aventure extrême !",Pêche XXL : derniers géants - S4E6 - Face au monstre
+bfmplay://NEUF_RMCDEC_RMC1020934365527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020991127623" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/2/6/ad0f2727508d7f15bae51f86602f8f24_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",SOS Garage - S1E3 - Combs-la-Ville
 bfmplay://NEUF_RMCDEC_RMC1020991127623
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020991127637" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/3/6/0b46d8be659a365a60b47b8eb2dc5df2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",SOS Garage - S1E5 - Jungholtz
@@ -5349,6 +5331,14 @@ bfmplay://NEUF_RMCDEC_RMC1020932338291
 bfmplay://NEUF_RMCDEC_RMC1015937715527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC561323487527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f77cf2f8c369e41f061fc338dc90f9a7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Gares de Paris : un patrimoine révélé
 bfmplay://NEUF_RMCDEC_RMC561323487527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791924" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/2/9/c696592053ef4122a748f3066a87c286_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Cléopâtre, les secrets révélés - S1E4 - Les tombeaux perdus des Ptolémées
+bfmplay://NEUF_RMCDEC_RMC1020934791924
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791911" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/1/9/8664baa9d2684ff3fef44616d744b284_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Cléopâtre, les secrets révélés - S1E3 - Le trésor englouti
+bfmplay://NEUF_RMCDEC_RMC1020934791911
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791898" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/9/8/26f175ca4fc7d5c36837037e728a89dc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Cléopâtre, les secrets révélés - S1E2 - Son combat pour le trône
+bfmplay://NEUF_RMCDEC_RMC1020934791898
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934791565" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/5/3e0600ea7920b69f04ffd2c09710b24b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Cléopâtre, les secrets révélés - S1E1 - Aux origines d'une famille légendaire
+bfmplay://NEUF_RMCDEC_RMC1020934791565
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932358969" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/6/9/5eb353861ad6690246f392aeabb33403_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Nazis : l'incroyable histoire d'Alex Kurzem, le survivant juif
 bfmplay://NEUF_RMCDEC_RMC1020932358969
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937317838" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/3/8/143fa4f02d6d151e2d7d1734dd322c58_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Les trésors perdus d'Egypte - S2E8 - Sur la piste des momies
@@ -5403,10 +5393,16 @@ bfmplay://NEUF_RMCDEC_RMC1020934935609
 bfmplay://NEUF_RMCDEC_RMC1021023615484
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023617365" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/3/0af052bf5cecd4fa2b1f01c9dd21a0c0_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Empire State Building : les 10 secrets de l'extraordinaire gratte-ciel
 bfmplay://NEUF_RMCDEC_RMC1021023617365
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362656" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/5/6/f50e150fa85a49c7d43c177a7a874c0b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E4 - Thoutmosis II, la bataille de Megiddo
+bfmplay://NEUF_RMCDEC_RMC1020917362656
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362638" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/3/6/a16fdce378dc8e3d3c8bee6390b51aa1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E3 - Ramsès II, la bataille de Qadesh
+bfmplay://NEUF_RMCDEC_RMC1020917362638
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917362620" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/2/6/4068574cdf4e98d4764c1f45d904de22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E2 - La bataille de Raphia
+bfmplay://NEUF_RMCDEC_RMC1020917362620
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917361262" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/6/2/1d865da324b6c4e9b8b0a69aaaf83c86_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Mystère et Histoire",Pharaons en guerre : les batailles légendaires de l'Egypte - S1E1 - Cléopâtre face à Rome
+bfmplay://NEUF_RMCDEC_RMC1020917361262
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC669771261527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/035aace01cc054351dcdce3d37559b68_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Qui a écrit la Bible ?
 bfmplay://NEUF_RMCDEC_RMC669771261527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023613404" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/0/4/646aef36b1a034f6106ce4e45d904b2a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Notre-Dame de Paris : les 10 secrets d'une cathédrale mythique
-bfmplay://NEUF_RMCDEC_RMC1021023613404
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934877736" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/3/7/70433e0da02247d372633f984c2f67c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Les sous-marins de tous les records
 bfmplay://NEUF_RMCDEC_RMC1020934877736
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC971005004527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ff308b909a856b1ceb85a5833d5b7454_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Sous-marin et navires militaires : techno XXL
@@ -5429,18 +5425,6 @@ bfmplay://NEUF_RMCDEC_RMC1020917657219
 bfmplay://NEUF_RMCDEC_RMC1020932360659
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021021112672" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/7/6/e74fbfa62ac589e5bd1e63ed6d10bfc1_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Charles de Gaulle : les 10 secrets du porte-avions nucléaire
 bfmplay://NEUF_RMCDEC_RMC1021021112672
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192437" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/3/4/ce252b5d0734858a60ee5a7dc919597c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E6 - Florent et Laure
-bfmplay://NEUF_RMCDEC_RMC1020937192437
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192424" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/2/4/f0fd072941f47a5f83bbe3008a500c99_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E5 - Teddy, Armonie et Jonathan
-bfmplay://NEUF_RMCDEC_RMC1020937192424
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192411" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/1/4/8965e002476283800df381ae38327bee_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E4 - Marie et Adrien
-bfmplay://NEUF_RMCDEC_RMC1020937192411
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192398" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/9/3/8392ea7e585daf42c3cb5b666d6481d4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E3 - Ilona et Jonathan
-bfmplay://NEUF_RMCDEC_RMC1020937192398
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192385" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/8/3/52e22321b6e8959546e642d1e7646a0e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E2 - Sophia et l'ours du Jura
-bfmplay://NEUF_RMCDEC_RMC1020937192385
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192012" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/0/a32691c08c2f194c72611673bac870fb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Les docs du moment",Les routiers : profession chauffeur poids lourd - S2E1 - Laure et Marina
-bfmplay://NEUF_RMCDEC_RMC1020937192012
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020933197336" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/6/3/3/9bae57d1ddd6bd3abde3e3fa0e051db1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Vous aimerez aussi",Beauval, au plus près des animaux - S1E1 - Naissances exceptionnelles
 bfmplay://NEUF_RMC_LIFE_RIF1020933197336
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020933197627" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/6/87ca16b68f83def9cf6e9eed2d31e3fc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Vous aimerez aussi",Beauval, au plus près des animaux - S1E4 - Défis pour les soigneurs
@@ -7187,8 +7171,6 @@ bfmplay://NEUF_BFMRADIO_BRA1021129087575
 bfmplay://NEUF_BFMRADIO_BRA1021129087560
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA1021129087545" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/4/5/756bd79f0ebb398cb94af99dbe7636a4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",La nouvelle voix de l'After - Episode 1 : Paris avec Zack Nani et Luis Fernandez
 bfmplay://NEUF_BFMRADIO_BRA1021129087545
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000395" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/9/3/1230c708a0fdb5c1c9ee0eb9c73d2726_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - L'After foot",Les dernières infos sur l'Espagne et la finale ! - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000395
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA1021127310049" tvg-logo="http://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/1400x1400_banner_mobile_base_camp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio",Episode 1 : Constance Schaerer, Mathieu Delpeuch & Arnaud Tsamere
 bfmplay://NEUF_BFMRADIO_BRA1021127310049
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA0302001351" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/5/3/ab38a791d42269de3f923e1e6c5f0070_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Radio - Plus de sport",Toxique
@@ -7263,10 +7245,10 @@ bfmplay://NEUF_BFMAVOD_BAV809215831527
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
 bfmplay://NEUF_BFMAVOD_BAV00235677
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
-bfmplay://NEUF_BFMAVOD_BAV00200621
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
 bfmplay://NEUF_BFMAVOD_BAV00228372
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
+bfmplay://NEUF_BFMAVOD_BAV00200621
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_933530904527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/BAV_933530904527_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les plus vus en streaming",Vintage mecanic
 bfmplay://NEUF_BFMAVOD_BAV_933530904527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23975725183527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/57aa3da6a8d0fbc3b68ab26a3a289de8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Exclus BFM Play - Nos séries à binger",La vie secrète des chats - S1E1 - Quand le chat n'est pas là... où va-t-il ?
@@ -8707,6 +8689,18 @@ bfmplay://NEUF_BFMAVOD_BAV415636814527
 bfmplay://NEUF_BFMAVOD_BAV415638659527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV415638664527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/WiztiviStore/posters/NEUF_BFMAVOD/7/2/5/BAV415638664527_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Divertissement",Delicious food à Hokkaido S2 - Tokyo
 bfmplay://NEUF_BFMAVOD_BAV415638664527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192437" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/3/4/ce252b5d0734858a60ee5a7dc919597c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E6 - Florent et Laure
+bfmplay://NEUF_RMCDEC_RMC1020937192437
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192424" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/2/4/f0fd072941f47a5f83bbe3008a500c99_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E5 - Teddy, Armonie et Jonathan
+bfmplay://NEUF_RMCDEC_RMC1020937192424
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192411" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/1/4/8965e002476283800df381ae38327bee_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E4 - Marie et Adrien
+bfmplay://NEUF_RMCDEC_RMC1020937192411
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192398" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/9/3/8392ea7e585daf42c3cb5b666d6481d4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E3 - Ilona et Jonathan
+bfmplay://NEUF_RMCDEC_RMC1020937192398
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192385" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/8/3/52e22321b6e8959546e642d1e7646a0e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E2 - Sophia et l'ours du Jura
+bfmplay://NEUF_RMCDEC_RMC1020937192385
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192012" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/0/a32691c08c2f194c72611673bac870fb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E1 - Laure et Marina
+bfmplay://NEUF_RMCDEC_RMC1020937192012
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020925599989" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/8/9/6e00942fd9f9306496a1f562a4759f58_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Les 10 aéroports les plus dangereux de la planète
 bfmplay://NEUF_RMCDEC_RMC1020925599989
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC92286" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/8/2/d5302ce99d82600c6926a6654097c397_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",La science des forces de la nature - S1E6 - Tremblements de terre
@@ -8727,6 +8721,8 @@ bfmplay://NEUF_RMCDEC_RMC1021011399296
 bfmplay://NEUF_RMCDEC_RMC1020924505500
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020935634899" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/9/8/0d4ac7a14ace2f34eda8dbaec8a33f90_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Sauver Notre-Dame
 bfmplay://NEUF_RMCDEC_RMC1020935634899
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023613404" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/0/4/646aef36b1a034f6106ce4e45d904b2a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Notre-Dame de Paris : les 10 secrets d'une cathédrale mythique
+bfmplay://NEUF_RMCDEC_RMC1021023613404
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023624834" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/3/8/628fa42b23be9268cc5c8e80a8465f55_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Tunnel sous la Manche : les secrets du plus long tunnel sous-marin
 bfmplay://NEUF_RMCDEC_RMC1021023624834
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020935656459" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/5/4/4754846bfeda781b096868cbcfb68036_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Abysses, la conquête des fonds marins
@@ -8737,8 +8733,12 @@ bfmplay://NEUF_RMCDEC_RMC1020915961777
 bfmplay://NEUF_RMCDEC_RMC1020905512075
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020936078254" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/5/2/8eb9c18bd7e064ab866010dc5e95c36d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Tigre et caïman : la techno des hélicoptères de combat
 bfmplay://NEUF_RMCDEC_RMC1020936078254
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC966734122527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/64021aa5ae79ea9bb57d68f608eedb69_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Le Colisée, une mégastructure romaine
-bfmplay://NEUF_RMCDEC_RMC966734122527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652494" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/9/4/28792115f7d89feebf296fc3b8063c5d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Ramsès II, la trilogie - S1E3 - Ramsès II, l'immortel
+bfmplay://NEUF_RMCDEC_RMC1020915652494
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652262" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/6/2/982ead23f840a822cb49c2ec1fdc4e50_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Ramsès II, la trilogie - S1E2 - Ramsès II, père d'une dynastie
+bfmplay://NEUF_RMCDEC_RMC1020915652262
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020915652202" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/0/2/96e07cfd4bb353b2cb216932cf11f029_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Ramsès II, la trilogie - S1E1 - Ramsès II, l'usurpateur
+bfmplay://NEUF_RMCDEC_RMC1020915652202
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021020907412" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/4/d20cf05604198971990c8eea5c4f40c6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Téléphériques urbains : la techno au-dessus des villes
 bfmplay://NEUF_RMCDEC_RMC1021020907412
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980261704527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/99f8ac945b6329f6c2194384b17c40e7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Cauchemars sur le téléphérique
