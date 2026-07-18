@@ -1383,16 +1383,22 @@ tf1plus://tf1/chroniques-criminelles
 tf1plus://tf1/50-mn-inside
 #EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
 tf1plus://tf1/grands-reportages
-#EXTINF:-1 tvg-id="tf1plus-tfx-appels-urgence" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Appels Urgence
-tf1plus://tfx/appels-urgence
 #EXTINF:-1 tvg-id="tf1plus-tmc-90-enquetes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",90 Enquetes
 tf1plus://tmc/90-enquetes
-#EXTINF:-1 tvg-id="tf1plus-lci-histoires-criminelles-lenquete" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Histoires Criminelles Lenquete
-tf1plus://lci/histoires-criminelles-lenquete
+#EXTINF:-1 tvg-id="tf1plus-tfx-appels-urgence" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Appels Urgence
+tf1plus://tfx/appels-urgence
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-a-tue-le-petit-emile" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui A Tue le Petit Emile
 tf1plus://tf1/qui-a-tue-le-petit-emile
+#EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-faut-il-interdire-le-tourisme" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Faut Il Interdire le Tourisme
+tf1plus://tmc/martin-weill-faut-il-interdire-le-tourisme
+#EXTINF:-1 tvg-id="tf1plus-tf1-lillusion-verte" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lillusion Verte
+tf1plus://tf1/lillusion-verte
+#EXTINF:-1 tvg-id="tf1plus-tmc-lamour-a-plusieurs" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lamour A Plusieurs
+tf1plus://tmc/lamour-a-plusieurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-face-cachee-de-lhomme-en-noir" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Face Cachee de Lhomme En Noir
 tf1plus://tf1/la-face-cachee-de-lhomme-en-noir
+#EXTINF:-1 tvg-id="tf1plus-lci-histoires-criminelles-lenquete" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Histoires Criminelles Lenquete
+tf1plus://lci/histoires-criminelles-lenquete
 #EXTINF:-1 tvg-id="tf1plus-tmc-terres-durgence" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Terres Durgence
 tf1plus://tmc/terres-durgence
 #EXTINF:-1 tvg-id="tf1plus-tfx-camping-cars-les-vacances-de-leur-vie" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Camping Cars les Vacances de Leur Vie
@@ -1475,8 +1481,6 @@ tf1plus://tmc/nos-culs-une-epopee-su-posterieur
 tf1plus://tmc/1h30-dorgasme
 #EXTINF:-1 tvg-id="tf1plus-tmc-corps-sans-complexe-comment-je-me-suis-liberee" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Corps Sans Complexe Comment Je Me Suis Liberee
 tf1plus://tmc/corps-sans-complexe-comment-je-me-suis-liberee
-#EXTINF:-1 tvg-id="tf1plus-tmc-lamour-a-plusieurs" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lamour A Plusieurs
-tf1plus://tmc/lamour-a-plusieurs
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-rire-en-2024" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias Rire En 2024
 tf1plus://tmc/21h-medias-rire-en-2024
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-crash-dsk" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le Crash Dsk
@@ -1623,8 +1627,6 @@ tf1plus://tfx/endometriose-le-combat-continue-avec-laetitia-milot
 tf1plus://tf1/les-nouveaux-paysans
 #EXTINF:-1 tvg-id="tf1plus-tmc-construire-sa-maison-ecolo-leurs-secrets-pour-depenser-moins" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Construire Sa Maison Ecolo Leurs Secrets Pour Depenser Moins
 tf1plus://tmc/construire-sa-maison-ecolo-leurs-secrets-pour-depenser-moins
-#EXTINF:-1 tvg-id="tf1plus-tf1-lillusion-verte" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lillusion Verte
-tf1plus://tf1/lillusion-verte
 #EXTINF:-1 tvg-id="tf1plus-tf1-renouvelables-stop-ou-encore-avec-engie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Renouvelables Stop Ou Encore Avec Engie
 tf1plus://tf1/renouvelables-stop-ou-encore-avec-engie
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-en-amazonie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill En Amazonie
@@ -1655,6 +1657,10 @@ tf1plus://tmc/cest-pour-demain
 tf1plus://tmc/21h-medias-le-tsunami-du-siecle
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-11-septembre-2001" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le 11 Septembre 2001
 tf1plus://tmc/21h-medias-le-11-septembre-2001
+#EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
+tf1plus://tf1/a-tes-cotes
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-aventures-de-flynn-carson-le-secret-de-la-coupe-maudite" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Aventures de Flynn Carson le Secret de la Coupe Maudite
+tf1plus://tf1/les-aventures-de-flynn-carson-le-secret-de-la-coupe-maudite
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-sous-locean" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Sous Locean
 tf1plus://tf1/coup-de-foudre-sous-locean
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-bouquet-de-la-mariee" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Bouquet de la Mariee
@@ -1741,8 +1747,6 @@ tf1plus://tf1/dangereuse-influence
 tf1plus://tf1/maman-ne-te-fera-aucun-mal
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-tueur-parmi-nous-lhistoire-vraie-de-ruth-finley" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Tueur Parmi Nous Lhistoire Vraie de Ruth Finley
 tf1plus://tf1/un-tueur-parmi-nous-lhistoire-vraie-de-ruth-finley
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-aventures-de-flynn-carson-le-secret-de-la-coupe-maudite" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Aventures de Flynn Carson le Secret de la Coupe Maudite
-tf1plus://tf1/les-aventures-de-flynn-carson-le-secret-de-la-coupe-maudite
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-aventures-de-flynn-carson-le-tresor-du-roi-salomon" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Aventures de Flynn Carson le Tresor du Roi Salomon
 tf1plus://tf1/les-aventures-de-flynn-carson-le-tresor-du-roi-salomon
 #EXTINF:-1 tvg-id="tf1plus-tf1-boon-tuer-pour-survivre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Boon Tuer Pour Survivre
@@ -1783,8 +1787,6 @@ tf1plus://tf1/coup-de-foudre-a-saint-petersbourg
 tf1plus://tf1/le-client
 #EXTINF:-1 tvg-id="tf1plus-tf1-papa-malgre-lui" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Papa Malgre Lui
 tf1plus://tf1/papa-malgre-lui
-#EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
-tf1plus://tf1/a-tes-cotes
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-jour-ou-j-ai-brule-mon-coeur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Jour Ou J Ai Brule Mon Coeur
 tf1plus://tf1/le-jour-ou-j-ai-brule-mon-coeur
 #EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
@@ -2595,8 +2597,6 @@ tf1plus://lci/en-immersion-839
 tf1plus://tf1/les-reportages-de-francois-xavier-menage
 #EXTINF:-1 tvg-id="tf1plus-tf1-ushuaia-tv" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ushuaia Tv
 tf1plus://tf1/ushuaia-tv
-#EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-faut-il-interdire-le-tourisme" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Faut Il Interdire le Tourisme
-tf1plus://tmc/martin-weill-faut-il-interdire-le-tourisme
 #EXTINF:-1 tvg-id="tf1plus-tf1-green-heroes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Green Heroes
 tf1plus://tf1/green-heroes
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-on-fait-quoi-si-tout-seffondre" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill On Fait Quoi Si Tout Seffondre
