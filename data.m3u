@@ -5351,3 +5351,7 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
 # === Ajouts FR multi-sources : Cinéma ===
 #EXTINF:-1 tvg-id="NollywoodTV.fr@SD" group-title="Cinéma",Nollywood TV (720p)
 http://145.239.5.177/148/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
+http://145.239.5.177/315/index.m3u8
