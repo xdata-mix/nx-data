@@ -5363,3 +5363,8 @@ http://151.80.18.177:86/LCI_HD/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr@SD" group-title="France TV backup",France 4 [iptv-org-fr]
 http://176.65.146.100:8047/play/a074/index.m3u8
+
+# === Nouveautes ParaTV (auto-ajoute) ===
+#EXTINF:-1 tvg-chno="124" tvg-country="FR" group-title="Nouveautes ParaTV",124. LES VIEILLES CHARRUES 2026 [1080p-france.tv]
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/les-vieilles-charrues-2026.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
