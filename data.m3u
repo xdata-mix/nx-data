@@ -5376,3 +5376,7 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LaTrois.be@SD" group-title="France TV backup",La Trois (1080p) [iptv-org-fra]
 http://145.239.5.177/330/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
