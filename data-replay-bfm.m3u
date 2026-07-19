@@ -655,6 +655,8 @@ bfmplay://NEUF_BFMTV_BFM1021080916505
 bfmplay://NEUF_BFMTV_BFM1021080916518
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021131954020" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/2/0/cda963170bc8cce133709307fbcbcceb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Affaire Émile : tentative d’incendie au domicile des grands-parents.
 bfmplay://NEUF_BFMTV_BFM1021131954020
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000404" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/0/4/98be9ed792549d529ff1dbfa9d17a184_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les Grandes Gueules du sport - Y a-t-il trop d’attentes autour de Zidane ?
+bfmplay://NEUF_BFMRADIO_BRA50000000000404
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000400" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/0/4/0158ff57e9a720cd2430c0a0038bbf22_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les Grandes Gueules du sport - Passer de tout à rien
 bfmplay://NEUF_BFMRADIO_BRA50000000000400
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000399" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/9/3/577e2cfa438928af5e7bc22b69806646_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les Grandes Gueules du sport - Allez-vous regretter Deschamps ?
@@ -1939,8 +1941,6 @@ bfmplay://NEUF_NUM23_N23960136880527
 bfmplay://NEUF_NUM23_N231021074333900
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021074333835" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/3/8/8af261bffa0b657c71e3bdf7ddf1171d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Guerre des voisins : ma vie est un enfer - S1E8 - Mon voisin se gare chez moi
 bfmplay://NEUF_NUM23_N231021074333835
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021074333822" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/8/17c5a7918cd476005afb55f2abea92a7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Guerre des voisins : ma vie est un enfer - S1E7 - Sous surveillance
-bfmplay://NEUF_NUM23_N231021074333822
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127303274" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/7/2/d52c94bc431547f9bb7b8602612fc3ab_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S1E9 - Episode 9
 bfmplay://NEUF_NUM23_N231021127303274
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021127303266" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/6/2/addfe660a77d683ed5811a01f4b58a98_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Au cœur des douanes - S1E8 - Episode 8
@@ -7123,8 +7123,8 @@ bfmplay://NEUF_RMC_LIFE_RIF1010264392527
 bfmplay://NEUF_RMC_LIFE_RIF1010264386527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1010264380527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/dd10a1a56784e3df4502056ebf1dcafc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - Toujours disponible sur RMC BFM play",Dans les secrets des films "Le seigneur des anneaux" - S6E4 - Les maîtres des effets spéciaux
 bfmplay://NEUF_RMC_LIFE_RIF1010264380527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000404" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/0/4/98be9ed792549d529ff1dbfa9d17a184_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Carrousel",Y a-t-il trop d’attentes autour de Zidane ?
-bfmplay://NEUF_BFMRADIO_BRA50000000000404
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000403" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/0/4/bb555eb9ccf520d8567666227ffc6d98_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Carrousel",Les Bleus ont-ils raté leur CDM ?
+bfmplay://NEUF_BFMRADIO_BRA50000000000403
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000398" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/9/3/c6f420d9e830955ee66bd686e2224851_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les GG du Mondial - Émission du 18 juillet 2026
 bfmplay://NEUF_BFMRADIO_BRA50000000000398
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000389" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/8/3/6534e5fded77f62651ca71d2c448c705_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les GG du Mondial - Émission du 17 juillet 2026
