@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/8ceI4H0soxBkxmyl.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/Dc6ZnLlgLdfCgrt7.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="TNT France",France 2
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
@@ -22,10 +22,10 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/arte/arte.m3u8
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-chno="10" tvg-id="TMC.fr" epg-s="195" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TMC_color.png?h=100" tvg-country="FR" group-title="TNT France",TMC 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/o5yIkWmwn9osJ5Jj.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/in0DVL3vnQbLEUon.m3u8
 #EXTINF:-1 tvg-chno="11" tvg-id="NT1.fr" epg-s="446" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="TNT France",TFX 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/vkJ0CaFRHr0JZGNK.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/oMnGER83EnXwMG.m3u8
 #EXTINF:-1 tvg-chno="8" tvg-id="LaChaineParlementaire.fr" epg-s="234" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LCP100x100.png?h=100" tvg-country="FR" group-title="TNT France",LCP 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/csta
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136867.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="TF1SeriesFilms.fr" epg-s="1404" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 Séries Films 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/vKP1lgV5FtadM7B.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/7RQ8nUuBSayhCUxQ.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-id="LEquipe21.fr" epg-s="1401" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="TNT France",LA CHAÎNE L'ÉQUIPE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/la-chaine-l-equipe-en-direct-dm.m3u8
@@ -61,7 +61,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136873.m3u8
 https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="TNT France",LCI 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 #EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="TNT France",Franceinfo
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-id="France24.fr" tvg-logo="https://i.imgur.com/yAiTedt.png" tvg-country="FR" group-title="TNT France",FRANCE 24 
@@ -152,7 +152,7 @@ https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="Généralistes",TF1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/8ceI4H0soxBkxmyl.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/Dc6ZnLlgLdfCgrt7.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="Généralistes",France 3 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france3.m3u8
@@ -188,7 +188,7 @@ http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cstar-dm.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="TF1SeriesFilms.fr" epg-s="1404" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_Series_Films_color.png?h=100" tvg-country="FR" group-title="Généralistes",TF1 Séries Films 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/vKP1lgV5FtadM7B.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/7RQ8nUuBSayhCUxQ.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-id="LEquipe21.fr" epg-s="1401" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/L_Equipe_color.png?h=100" tvg-country="FR" group-title="Généralistes",LA CHAÎNE L'ÉQUIPE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lequipe/la-chaine-l-equipe-en-direct-dm.m3u8
@@ -220,7 +220,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/ina.m3u8
 #EXTINF:-1 tvg-chno="121" tvg-id="LaChaineParlementaire.fr" tvg-logo="https://i.imgur.com/oGNOOkO.png" tvg-country="FR" group-title="Généralistes",LCP - PUBLIC SÉNAT 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/1Upi25ErWKAFrrp.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/faT2HIXkP7glbjpK.m3u8
 #EXTINF:-1 tvg-chno="122" tvg-logo="https://i.imgur.com/X1g4fzg.png" tvg-country="FR" group-title="Généralistes",MIEUX 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/mieux.m3u8
@@ -4058,11 +4058,11 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === Nouveautes ParaTV (auto-ajoute) ===
 #EXTINF:-1 tvg-chno="19" tvg-id="NOVO19.fr" tvg-logo="https://photos.tf1.fr/0/40/logo-chaine-2-e9fde7-2f16e5-0@3x.png" tvg-country="FR" group-title="Nouveautes ParaTV",19. NOVO19
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/Ne9i3bmvY4xJul.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/LZonyLcGDrTbHJsM.m3u8
 #EXTINF:-1 tvg-chno="208" tvg-logo="https://photos.tf1.fr/0/40/logo-chaine-secret-story_v2-9397a2-e8f250-0@3x.png" tvg-country="FR" group-title="Nouveautes ParaTV",208. CONNEXION AVEC LA MAISON
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/U3h60F7d8Uq8/0ULyMP5TKuUqeEyl.m3u8
 #EXTINF:-1 tvg-chno="210" tvg-logo="https://photos.tf1.fr/0/40/logo-chaine-2-e9fde7-2f16e5-0@3x.png" tvg-country="FR" group-title="Nouveautes ParaTV",210. NOVO19
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/Ne9i3bmvY4xJul.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/LZonyLcGDrTbHJsM.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4566,11 +4566,11 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnew
 #EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" group-title="France TV backup",CNEWS PRIME (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnewsprime-clair-hd.m3u8
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (720p) [iptv-org-fr]
 http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/o5yIkWmwn9osJ5Jj.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/in0DVL3vnQbLEUon.m3u8
 #EXTINF:-1 tvg-id="RTS1.ch@SD" group-title="France TV backup",RTS 1 (720p) [iptv-org-fra]
 http://41.205.70.146/RTSUN/index.m3u8
 
@@ -4610,7 +4610,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/o5yIkWmwn9osJ5Jj.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/in0DVL3vnQbLEUon.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4618,7 +4618,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4630,7 +4630,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/o5yIkWmwn9osJ5Jj.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/in0DVL3vnQbLEUon.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4846,7 +4846,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4868,7 +4868,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/o5yIkWmwn9osJ5Jj.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/in0DVL3vnQbLEUon.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -4950,7 +4950,7 @@ https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === Nouveautes ParaTV (auto-ajoute) ===
 #EXTINF:-1 tvg-chno="124" tvg-country="FR" group-title="Nouveautes ParaTV",124. 16E, 8E ET QUARTS DE FINALE [1080p-france.tv]
@@ -5021,7 +5021,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === Nouveautes ParaTV (auto-ajoute) ===
 #EXTINF:-1 tvg-chno="124" tvg-country="FR" group-title="Nouveautes ParaTV",124. DEMI-FINALE ET FINALE [1080p-france.tv]
@@ -5155,7 +5155,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backu
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 group-title="France TV backup",TRACE BRASIL [schumijo]
@@ -5167,7 +5167,7 @@ https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TraceUrban.fr@HD" group-title="France TV backup",Trace Urban HD [iptv-org-fr]
@@ -5191,7 +5191,7 @@ https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackAfrica.fr" group-title="France TV backup",Bblack! Africa (1080p) [kilirushi]
@@ -5211,7 +5211,7 @@ https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr@SD" group-title="France TV backup",France 4 [iptv-org-fr]
@@ -5219,7 +5219,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franc
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === Live MIX ===
 #EXTINF:-1 group-title="Live MIX",Canal 4 TV
@@ -5246,7 +5246,7 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/equidia/equidia-l
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="France TV backup",20 Minutes TV (1080p) [kilirushi]
@@ -5262,7 +5262,7 @@ http://145.239.5.177/333/index.m3u8
 #EXTINF:-1 tvg-id="Teva.fr@SD" group-title="France TV backup",Teva (1080p) [iptv-org-fr]
 http://145.239.5.177/356/index.m3u8
 #EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/vkJ0CaFRHr0JZGNK.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/oMnGER83EnXwMG.m3u8
 
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Divertissement",AB1 (720p)
@@ -5284,7 +5284,7 @@ http://145.239.5.177/556a/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BBlackAfrica.fr" group-title="France TV backup",BBLACK! AFRICA [schumijo]
@@ -5318,11 +5318,11 @@ https://jmp2.uk/stvp-FRBC3900004DS
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/8ceI4H0soxBkxmyl.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/Dc6ZnLlgLdfCgrt7.m3u8
 
 # === Ajouts FR multi-sources : Auto ===
 #EXTINF:-1 tvg-id="Automotolachaine.fr@SD" group-title="Auto",Automoto la chaine
@@ -5338,7 +5338,7 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
@@ -5346,7 +5346,7 @@ http://145.239.5.177/359a/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/8ceI4H0soxBkxmyl.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/Dc6ZnLlgLdfCgrt7.m3u8
 
 # === Ajouts FR multi-sources : Cinéma ===
 #EXTINF:-1 tvg-id="NollywoodTV.fr@SD" group-title="Cinéma",Nollywood TV (720p)
@@ -5358,7 +5358,7 @@ http://145.239.5.177/315/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/88PfN6lp5FyD6W9u.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/36tYY6G2oWt8Qwh.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="France4.fr@SD" group-title="France TV backup",France 4 [iptv-org-fr]
@@ -5371,7 +5371,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/les-v
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vN2EdIBfpn/8ceI4H0soxBkxmyl.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/ScMeU4cLFscD/Dc6ZnLlgLdfCgrt7.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LaTrois.be@SD" group-title="France TV backup",La Trois (1080p) [iptv-org-fra]
