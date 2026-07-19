@@ -1291,12 +1291,10 @@ tf1plus://tf1/magnum
 tf1plus://tf1/leverage-redemption
 #EXTINF:-1 tvg-id="tf1plus-tf1-secret-story" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Secret Story
 tf1plus://tf1/secret-story
-#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
-tf1plus://tf1/telefoot
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
+#EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
+tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
@@ -1379,6 +1377,8 @@ tf1plus://tf1/creed-3
 tf1plus://tf1/miraculous
 #EXTINF:-1 tvg-id="tf1plus-tf1-jeux-concours-nos-bons-plans-de-la-semaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jeux Concours Nos Bons Plans de la Semaine
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
 tf1plus://tf1/grands-reportages
 #EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
@@ -2837,8 +2837,6 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
-tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tf1-4-mariages-pour-une-lune-de-miel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",4 Mariages Pour une Lune de Miel
 tf1plus://tf1/4-mariages-pour-une-lune-de-miel
 #EXTINF:-1 tvg-id="tf1plus-tmc-anne-roumanoff-lexperience-de-la-vie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Anne Roumanoff Lexperience de la Vie
@@ -2917,6 +2915,8 @@ tf1plus://tf1/dream-team
 tf1plus://tfx/incroyables-mariages-gitans-tout-pour-mon-bebe
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-rois-de-la-demesure" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Rois de la Demesure
 tf1plus://tmc/les-rois-de-la-demesure
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
+tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
 tf1plus://tf1/le-grand-concours
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-famille-en-or" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Famille En Or
