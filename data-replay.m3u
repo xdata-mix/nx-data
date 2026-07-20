@@ -12463,6 +12463,8 @@ tf1plus://tf1/les-schtroumpfs
 tf1plus://tf1/barbapapa
 #EXTINF:-1 tvg-id="tf1plus-tf1-ghost-force" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ghost Force
 tf1plus://tf1/ghost-force
+#EXTINF:-1 tvg-id="tf1plus-tf1-alice-et-lewis" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alice et Lewis
+tf1plus://tf1/alice-et-lewis
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-minijusticiers" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Minijusticiers
 tf1plus://tf1/les-minijusticiers
 #EXTINF:-1 tvg-id="tf1plus-tf1-gus-le-chevalier-minus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Gus le Chevalier Minus
@@ -12471,8 +12473,6 @@ tf1plus://tf1/gus-le-chevalier-minus
 tf1plus://tf1/santiago-des-mers
 #EXTINF:-1 tvg-id="tf1plus-tf1-pyjamasques-power-heroes-le-cercle-des-heros" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pyjamasques Power Heroes le Cercle des Heros
 tf1plus://tf1/pyjamasques-power-heroes-le-cercle-des-heros
-#EXTINF:-1 tvg-id="tf1plus-tf1-alice-et-lewis" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alice et Lewis
-tf1plus://tf1/alice-et-lewis
 #EXTINF:-1 tvg-id="tf1plus-tf1-molang" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Molang
 tf1plus://tf1/molang
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-enquetes-sauvages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Enquetes Sauvages
@@ -13391,14 +13391,14 @@ tf1plus://tf1/kung-foudre
 tf1plus://tf1-series-films/que-du-bonheur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-peres-meres-et-supporters-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-a3bb44-87f894-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Peres Meres et Supporters
 tf1plus://tf1-series-films/peres-meres-et-supporters
+#EXTINF:-1 tvg-id="tf1plus-lci-bonjour-la-matinale-tf1" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Bonjour la Matinale Tf1
+tf1plus://lci/bonjour-la-matinale-tf1
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-20h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 20h
 tf1plus://tf1/jt-20h
 #EXTINF:-1 tvg-id="tf1plus-tf1-jt-13h" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jt 13h
 tf1plus://tf1/jt-13h
 #EXTINF:-1 tvg-id="tf1plus-tf1-defile-du-14-juillet" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Defile du 14 Juillet
 tf1plus://tf1/defile-du-14-juillet
-#EXTINF:-1 tvg-id="tf1plus-lci-bonjour-la-matinale-tf1" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Bonjour la Matinale Tf1
-tf1plus://lci/bonjour-la-matinale-tf1
 #EXTINF:-1 tvg-id="tf1plus-lci-un-oeil-sur-le-monde" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Un Oeil Sur le Monde
 tf1plus://lci/un-oeil-sur-le-monde
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
