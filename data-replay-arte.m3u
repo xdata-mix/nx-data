@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="arte-086891-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ow5Q8wGipcwTWC6UAPfMjN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Le roi des corbeaux — Une vie dans l'ombre
 arte://086891-000-A
+#EXTINF:-1 tvg-id="arte-098367-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/QmcMSqdRiZKwzswZ2efNAi/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Spirit in the Blood — Un coming-of-age sous haute tension
+arte://098367-000-A
 #EXTINF:-1 tvg-id="arte-033672-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ZhEVXQDcwQ66a7fRLLba9V/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Spartacus — Le film légendaire multi‑oscarisé de Kubrick
 arte://033672-000-A
 #EXTINF:-1 tvg-id="arte-095080-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/cTR5wfZPNCgMLoDFLD8PYY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Le diable n'existe pas — Infliger la mort : obéir ou se révolter ?
@@ -275,8 +277,6 @@ arte://122631-033-A
 arte://092096-049-A
 #EXTINF:-1 tvg-id="arte-100210-016-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/NEqjAQqPgohXh78rpWahTW/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",C'était quoi Simone Signoret ? — Blow up
 arte://100210-016-A
-#EXTINF:-1 tvg-id="arte-122631-032-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/mfLksEkfUQJUgvxhEUihN3/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les B.O. de Kelly Reichardt — Blow up
-arte://122631-032-A
 #EXTINF:-1 tvg-id="arte-130913-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tMdXyDKiL3kRSK5RVLVNvf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les alchimistes du cinéma - Alfonso Cuarón et Michael Seresin
 arte://130913-001-A
 #EXTINF:-1 tvg-id="arte-122631-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5NmdTKgisNnQs82Zt6MLZV/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Bong Joon-ho par Johanna Vaude — Blow up
@@ -367,8 +367,6 @@ arte://117679-009-A
 arte://098883-000-A
 #EXTINF:-1 tvg-id="arte-117679-016-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/D35imoqBcTrZZ69oTKLcZA/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Face à l'Histoire : Arthur Penn — Blow up
 arte://117679-016-A
-#EXTINF:-1 tvg-id="arte-118152-041-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Nw8Pg57A8TGhXkPiipc8L9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Conversation avec Rebecca Zlotowski
-arte://118152-041-A
 #EXTINF:-1 tvg-id="arte-RC-021279" tvg-logo="https://api-cdn.arte.tv/img/v2/image/XmaYwXaHrSqzPg59fKFXGb/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Happiness — Après le road-trip, l'arrivée en France
 arte://RC-021279
 #EXTINF:-1 tvg-id="arte-RC-022404" tvg-logo="https://api-cdn.arte.tv/img/v2/image/W8tWvJzCduqHTeFNRAuKfR/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Brigade Mobile — Drôles de flics en avant-poste
@@ -707,18 +705,16 @@ arte://126925-098-A
 arte://101139-013-A
 #EXTINF:-1 tvg-id="arte-RC-014085" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qiZv3KSnSSp6esFa6VrA56/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal — Le JT de l'actualité internationale
 arte://RC-014085
-#EXTINF:-1 tvg-id="arte-131284-088-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/wBm5jTehyqJYM9SgxhiTG6/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",La manosphère, une terre fertile pour le terrorisme — Les frères Tate, influenceurs masculinistes arrêtés pour viols présumés
-arte://131284-088-A
-#EXTINF:-1 tvg-id="arte-126925-057-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/GjZvupbSyJ6bozcpY8VfxB/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",La Hongrie sans Orbán : limites de l’illibéralisme ? — Le président hongrois Sulyok, allié d'Orban, démissionne
-arte://126925-057-A
-#EXTINF:-1 tvg-id="arte-131261-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/AaLxg8QUQFyWC8tbbCmAef/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Gael, le plus jeune maire d'Espagne — Passionné de politique depuis tout petit
-arte://131261-010-A
+#EXTINF:-1 tvg-id="arte-126925-097-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/UrX5vJhNpNmuLYJpXUS3Kf/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Amérique latine : l'extrême droite progresse — Colombie : Gustavo Petro prononce son discours d'adieu
+arte://126925-097-A
+#EXTINF:-1 tvg-id="arte-131284-091-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/xHM4Z9pAqM8PxfBKQt9CrV/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Les Nations Unies au secours d'Haïti — Le conseil de sécurité se réunit
+arte://131284-091-A
 #EXTINF:-1 tvg-id="arte-130515-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/V4qG5SBpoKCWJRt6stnwsD/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",L'IA nous rend-elle bêtes ? — Les idées larges avec Anne Alombert
 arte://130515-004-A
 #EXTINF:-1 tvg-id="arte-125614-274-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/FVDTk7mKHL6ob3Lu6EhcrE/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Gaza, au secours du patrimoine
 arte://125614-274-A
-#EXTINF:-1 tvg-id="arte-126925-058-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kFHZFfMA8MhtDTifR9ok6h/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Les détroits : un enjeu stratégique
-arte://126925-058-A
+#EXTINF:-1 tvg-id="arte-123675-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TQVzmDVoA9zFYB4vsHzHra/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Haïti : plongée dans l'abîme
+arte://123675-000-A
 #EXTINF:-1 tvg-id="arte-121271-013-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/aWJTXEnJzNy3WZTBLG3fEY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Propagandes masculinistes — La violence décomplexée
 arte://121271-013-A
 #EXTINF:-1 tvg-id="arte-122895-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kcp2BJrZ6ky2Zsjdf5veac/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Syrie - Liban : l'exil sans fin — Près de 13 000 Syriens ont fui vers le Liban
@@ -755,6 +751,8 @@ arte://124239-067-A
 arte://121620-150-A
 #EXTINF:-1 tvg-id="arte-131284-111-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/WAS6dHDxBidvXD9b2XUvQ7/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Comment Burnham veut-il changer le Royaume-Uni ?
 arte://131284-111-A
+#EXTINF:-1 tvg-id="arte-126925-058-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5Ud4nogSUoqMLygLwWB8vb/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — Les détroits : un enjeu stratégique
+arte://126925-058-A
 #EXTINF:-1 tvg-id="arte-131284-077-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/8R6c7AWk4K4BzffbhGSVdh/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Que deviennent les personnes arrêtées par ICE ?
 arte://131284-077-A
 #EXTINF:-1 tvg-id="arte-087835-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CNEMi2SRCnSJQKG3cRWWra/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Cambodge : A l'école de la mise au rebut — ARTE Reportage
@@ -1297,8 +1295,6 @@ arte://111684-012-F
 arte://111684-004-F
 #EXTINF:-1 tvg-id="arte-101139-014-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/KGLNHn6YNK2Hh5fNWoUPfH/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Los Angeles, les reines du lowriding
 arte://101139-014-F
-#EXTINF:-1 tvg-id="arte-064565-024-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CWDPCow8JYC8igfFzFfWoE/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Brice, un vacher à l'assaut des Pyrénées
-arte://064565-024-A
 #EXTINF:-1 tvg-id="arte-111684-017-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/N9wPstG2GHUG6276QEJBx7/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — Le concombre de mer, super-héros d’Islande
 arte://111684-017-F
 #EXTINF:-1 tvg-id="arte-106265-007-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/wfvnRjz66EPK3nXGYFnfHR/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — Colombie, le refuge des cueilleuses de café trans
@@ -1329,6 +1325,8 @@ arte://101139-016-F
 arte://106265-003-F
 #EXTINF:-1 tvg-id="arte-101139-024-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/YSLwELyXLobsz7SEf2C6Sc/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Le béhourd, l'art du combat médiéval
 arte://101139-024-F
+#EXTINF:-1 tvg-id="arte-101139-011-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ZNwhuzPDe4TiJxyfJPjsKH/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Italie, un refuge pour hérissons
+arte://101139-011-A
 #EXTINF:-1 tvg-id="arte-122702-017-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/MmFgrZ7d9ZSWLiCSrjyMAX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Kirghizistan, espoir pour les panthères des neiges — Des images rares d'un félin devenu très discret
 arte://122702-017-A
 #EXTINF:-1 tvg-id="arte-117728-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ySVB8Z6Xgyhc5MKKCM4MzU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Le Kintoa, roi des cochons basques — Le retour d'une race locale autrefois menacée d’extinction
@@ -1365,8 +1363,6 @@ arte://106769-003-F
 arte://101385-000-F
 #EXTINF:-1 tvg-id="arte-106769-002-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/UNWFYwxTnta4iEGX7vRbLA/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",La Méditerranée révélée — Au coeur du détroit de Messine
 arte://106769-002-F
-#EXTINF:-1 tvg-id="arte-101139-011-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ZNwhuzPDe4TiJxyfJPjsKH/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Italie, un refuge pour hérissons
-arte://101139-011-A
 #EXTINF:-1 tvg-id="arte-097508-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/G6fZSgZh4zikexzuXP7ufJ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Hommes et femmes à la Préhistoire — Plus égaux qu'on pourrait le penser ?
 arte://097508-000-A
 #EXTINF:-1 tvg-id="arte-116857-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/DxrwUtxKxMTjD3Wa7Ybv9g/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Histoire",Les couleurs de l’Antiquité — Une nouvelle vision de l’histoire de la Grèce
@@ -1669,18 +1665,6 @@ arte://110120-020-A
 arte://130222-008-A
 #EXTINF:-1 tvg-id="arte-130501-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/eCaNM8W9hgP2uUoVbcBd6h/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Grande finale du Prix de Lausanne — Découvrez les lauréat du concours !
 arte://130501-014-A
-#EXTINF:-1 tvg-id="arte-133227-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Qed3wRLGBRob4sqvBYetQT/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Lovefoxy — Ambiance club des années 90 et house actuelle au Sónar 2026
-arte://133227-004-A
-#EXTINF:-1 tvg-id="arte-130505-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/N49QNxf85i6vwX4abP9AeL/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Baro d’evel : Là — Au Théâtre de la Cité à Toulouse
-arte://130505-000-A
-#EXTINF:-1 tvg-id="arte-132148-011-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/GsncQqHexh6nW9RfHE4SaQ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Spice, Valiant, Charly Black — Dancehall et afrobeat au Summerjam Festival 2026
-arte://132148-011-A
-#EXTINF:-1 tvg-id="arte-128858-005-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/bPZmdtasbx4H8pw2k9LaeV/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Phantasm & Elizabeth Kenny — The Journey of Instruments
-arte://128858-005-A
-#EXTINF:-1 tvg-id="arte-128858-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/uqPKim8AR4dyuNV5BCrrZL/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Shujaat Khan & Ensemble — The Journey of Instruments
-arte://128858-003-A
-#EXTINF:-1 tvg-id="arte-132908-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/aZ9SgEXtnccKxMYFrmZXiC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Vivaldi avec Lea Desandre — En direct du Festival de Salzbourg 2026
-arte://132908-000-A
 #EXTINF:-1 tvg-id="arte-132148-007-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TdtymYjK3wayYpLVLaSXhM/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",The Congos — "Le" groupe mythique du reggae roots
 arte://132148-007-A
 #EXTINF:-1 tvg-id="arte-133222-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/7ufdCvKjzLgWk9j46oQshS/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Archie Shepp & Chucho Valdés — "Afro-Cuban Project" à Jazz à Porquerolles
@@ -1777,6 +1761,8 @@ arte://133227-003-A
 arte://133227-001-A
 #EXTINF:-1 tvg-id="arte-133227-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/WEdBhh7GvEoVTPEjDVkz9N/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Arthi — Sónar 2026
 arte://133227-002-A
+#EXTINF:-1 tvg-id="arte-133227-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CLX5vQ8KSdviAt5iCJE5cY/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Lovefoxy — Sónar 2026
+arte://133227-004-A
 #EXTINF:-1 tvg-id="arte-123347-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/FRmLYwVb83bspWeodyBNzj/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Four Tet — Sónar 2025
 arte://123347-000-A
 #EXTINF:-1 tvg-id="arte-123348-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Zo27kPTCad97BcwtTzLT3D/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Eric Prydz — Sónar 2025
@@ -1895,8 +1881,6 @@ arte://120720-003-A
 arte://120720-005-A
 #EXTINF:-1 tvg-id="arte-120720-006-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3QscxQrE8S7ffsRRkfLdFf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Elizabete Balčus — Europavox Sessions 2024
 arte://120720-006-A
-#EXTINF:-1 tvg-id="arte-104483-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/2cEcw7zVKyHFjYeZ9xqA9J/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Les sept péchés capitaux — Par la compagnie Gauthier Dance
-arte://104483-000-A
 #EXTINF:-1 tvg-id="arte-110120-020-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/8A4VXtQXLB5oEv2nrepjfX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",TAPE : Billie Eilish
 arte://110120-020-A
 #EXTINF:-1 tvg-id="arte-103780-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SPG6j5vwrhzq5UBKJNDD9f/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",JASSS X Hyperaktivist — Ostgut Ton depuis la Halle am Berghain
@@ -1931,6 +1915,8 @@ arte://103780-002-A
 arte://103780-003-A
 #EXTINF:-1 tvg-id="arte-120103-007-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/zhzz8uR8Y2LRVAA3X37AVU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Maya Dunietz — Jazz à Porquerolles 2024
 arte://120103-007-A
+#EXTINF:-1 tvg-id="arte-120103-008-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/RsVgrN5gTGq6s9zJpJNNqd/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Gaspar Claus — Jazz à Porquerolles 2024
+arte://120103-008-A
 #EXTINF:-1 tvg-id="arte-132676-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/QcoqcNmeWKhU2fH8J3ALjh/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Raye & guests — Live at Montreux Jazz Festival 2026
 arte://132676-000-A
 #EXTINF:-1 tvg-id="arte-132672-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/wDi7jdrFEqkyG4wFhpjsnG/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Megadeth — Hellfest 2026
@@ -2925,10 +2911,10 @@ arte://119027-001-F
 arte://122437-000-A
 #EXTINF:-1 tvg-id="arte-119444-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/dC4Cyo5VLgbiEouWPngXAD/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Opéra",Rameau : Samson — Festival d'Aix-en-Provence 2024
 arte://119444-000-A
+#EXTINF:-1 tvg-id="arte-130505-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/UNVjs64Tcx4yyzYsvvcJp3/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Arts de la scène",Baro d’evel : Là — Théâtre de la Cité à Toulouse
+arte://130505-000-A
 #EXTINF:-1 tvg-id="arte-133188-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TpTXkaZwhhzatYML3pojvb/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Arts de la scène",Amala Dianor et Les Arts Florissants : Gesualdo Passione — Nuits de Fourvière 2026
 arte://133188-001-A
-#EXTINF:-1 tvg-id="arte-104483-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/2cEcw7zVKyHFjYeZ9xqA9J/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Arts de la scène",Les sept péchés capitaux — Par la compagnie Gauthier Dance
-arte://104483-000-A
 #EXTINF:-1 tvg-id="arte-128600-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/6KQU2ZdnMJWjnAyNSFAYzN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Arts de la scène",Marco da Silva Ferreira : F*cking Future — Biennale de la Danse de Lyon 2025
 arte://128600-001-A
 #EXTINF:-1 tvg-id="arte-131035-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tgu4bJhdtAKUKigARUnZq4/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Arts de la scène",Humo — Ballet flamenco de Rafaela Carrasco
