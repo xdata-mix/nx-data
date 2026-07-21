@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-36c975f5-7d7b-4051-a37e-3bf819e3ee56" tvg-logo="https://medias.france.tv/UTl-4KtB4pAVMh0yPXXWOdVRFjk/400x0/filters:quality(85)/l/8/s/phpaofs8l.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Visions
+francetv://36c975f5-7d7b-4051-a37e-3bf819e3ee56
 #EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Sous pression
 francetv://program/france-2_sous-pression
 #EXTINF:-1 tvg-id="francetv-104f3afc-e042-4a00-bd97-b91e6576b888" tvg-logo="https://medias.france.tv/aXMPHnO6Gd7AiF94vClMC_cZWlI/400x0/filters:quality(85)/f/a/z/php2txzaf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",La revanche des Crevettes pailletées
@@ -207,8 +209,8 @@ francetv://program/documentaires_le-brame-du-cerf
 francetv://program/france-3_un-si-grand-soleil
 #EXTINF:-1 tvg-id="francetv-57877388-3283-4136-823e-8d8af057d861" tvg-logo="https://medias.france.tv/1lTOR1Ck2BAh0aEDhfCDclyROYk/400x0/filters:quality(85)/a/r/8/phpfgp8ra.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 20 juillet 2026
 francetv://57877388-3283-4136-823e-8d8af057d861
-#EXTINF:-1 tvg-id="francetv-6109950d-42fc-4744-8bd2-2d26cbdf5da6" tvg-logo="https://medias.france.tv/h-pGjEoAa9vT9Tldt4K2c09w6k0/400x0/filters:quality(85)/y/n/d/phpy1zdny.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 21 juillet 2026
-francetv://6109950d-42fc-4744-8bd2-2d26cbdf5da6
+#EXTINF:-1 tvg-id="francetv-db985cfd-8c14-4106-84fa-0a8bfe4011b2" tvg-logo="https://medias.france.tv/h-pGjEoAa9vT9Tldt4K2c09w6k0/400x0/filters:quality(85)/y/n/d/phpy1zdny.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 21 juillet 2026
+francetv://db985cfd-8c14-4106-84fa-0a8bfe4011b2
 #EXTINF:-1 tvg-id="francetv-7b54f5c6-ea45-49bd-9d21-05a5995a571c" tvg-logo="https://medias.france.tv/x-QOlQhAnhkdtyfOkzrEpxIAP58/400x0/filters:quality(85)/y/1/e/php9s4e1y.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mercredi 22 juillet 2026
 francetv://7b54f5c6-ea45-49bd-9d21-05a5995a571c
 #EXTINF:-1 tvg-id="francetv-54d39006-b2bd-4410-9bcd-e909257a297d" tvg-logo="https://medias.france.tv/3Y-JPMVIxuqFhmwJSg_-cwAve0Y/400x0/filters:quality(85)/8/j/g/php5zogj8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du jeudi 23 juillet 2026
@@ -557,6 +559,8 @@ francetv://bd422e1e-bc5c-46db-840e-38ef95dd48d6
 francetv://2ccafa1b-afe1-4e40-9f37-a9c02dcd05b5
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
+#EXTINF:-1 tvg-id="francetv-45bc2a9f-5cd0-49d4-97a3-4acdba00f76d" tvg-logo="https://medias.france.tv/VstFqlml6JVrSJeEDgXSDEZMKlE/400x0/filters:quality(85)/q/k/d/php0todkq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Mortelle randonnée
+francetv://45bc2a9f-5cd0-49d4-97a3-4acdba00f76d
 #EXTINF:-1 tvg-id="francetv-3ac51079-f1d9-4bee-8f2d-4d4c70975bf4" tvg-logo="https://medias.france.tv/r44Xt-CqdqTlMTucz41ASIH3bZs/400x0/filters:quality(85)/h/r/g/phpu5ogrh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Sale temps pour la planète — Ille-et-Vilaine, ballotté par les flots
 francetv://3ac51079-f1d9-4bee-8f2d-4d4c70975bf4
 #EXTINF:-1 tvg-id="francetv-6620d10e-1ad3-4f59-924a-82ebcfed9c50" tvg-logo="https://medias.france.tv/OB0zjTGflEZXMYGLoieTRjGwA9U/400x0/filters:quality(85)/c/n/t/php875tnc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Les 100 lieux qu'il faut voir — La Provence de Van Gogh
@@ -1381,8 +1385,8 @@ francetv://program/france-2_made-in-france
 francetv://program/france-3_un-si-grand-soleil
 #EXTINF:-1 tvg-id="francetv-57877388-3283-4136-823e-8d8af057d861" tvg-logo="https://medias.france.tv/1lTOR1Ck2BAh0aEDhfCDclyROYk/400x0/filters:quality(85)/a/r/8/phpfgp8ra.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 20 juillet 2026
 francetv://57877388-3283-4136-823e-8d8af057d861
-#EXTINF:-1 tvg-id="francetv-6109950d-42fc-4744-8bd2-2d26cbdf5da6" tvg-logo="https://medias.france.tv/h-pGjEoAa9vT9Tldt4K2c09w6k0/400x0/filters:quality(85)/y/n/d/phpy1zdny.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mardi 21 juillet 2026
-francetv://6109950d-42fc-4744-8bd2-2d26cbdf5da6
+#EXTINF:-1 tvg-id="francetv-db985cfd-8c14-4106-84fa-0a8bfe4011b2" tvg-logo="https://medias.france.tv/h-pGjEoAa9vT9Tldt4K2c09w6k0/400x0/filters:quality(85)/y/n/d/phpy1zdny.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mardi 21 juillet 2026
+francetv://db985cfd-8c14-4106-84fa-0a8bfe4011b2
 #EXTINF:-1 tvg-id="francetv-7b54f5c6-ea45-49bd-9d21-05a5995a571c" tvg-logo="https://medias.france.tv/x-QOlQhAnhkdtyfOkzrEpxIAP58/400x0/filters:quality(85)/y/1/e/php9s4e1y.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mercredi 22 juillet 2026
 francetv://7b54f5c6-ea45-49bd-9d21-05a5995a571c
 #EXTINF:-1 tvg-id="francetv-54d39006-b2bd-4410-9bcd-e909257a297d" tvg-logo="https://medias.france.tv/3Y-JPMVIxuqFhmwJSg_-cwAve0Y/400x0/filters:quality(85)/8/j/g/php5zogj8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du jeudi 23 juillet 2026
@@ -2471,6 +2475,8 @@ francetv://program/france-2_13h15-le-samedi
 francetv://program/france-2_13h15-le-dimanche
 #EXTINF:-1 tvg-id="francetv-104f3afc-e042-4a00-bd97-b91e6576b888" tvg-logo="https://medias.france.tv/aXMPHnO6Gd7AiF94vClMC_cZWlI/400x0/filters:quality(85)/f/a/z/php2txzaf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",La revanche des Crevettes pailletées
 francetv://104f3afc-e042-4a00-bd97-b91e6576b888
+#EXTINF:-1 tvg-id="francetv-36c975f5-7d7b-4051-a37e-3bf819e3ee56" tvg-logo="https://medias.france.tv/UTl-4KtB4pAVMh0yPXXWOdVRFjk/400x0/filters:quality(85)/l/8/s/phpaofs8l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Visions
+francetv://36c975f5-7d7b-4051-a37e-3bf819e3ee56
 #EXTINF:-1 tvg-id="francetv-13e52204-205a-4599-8124-fb5b2e8abe32" tvg-logo="https://medias.france.tv/RUlgjpE4MI1G0T-Kd865g3syBYk/400x0/filters:quality(85)/b/u/u/phpp1zuub.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Les graines du figuier sauvage
 francetv://13e52204-205a-4599-8124-fb5b2e8abe32
 #EXTINF:-1 tvg-id="francetv-50d14f4f-f07b-46dd-bea4-ceb5badd57d9" tvg-logo="https://medias.france.tv/tVxzBKuTnnxOskMc0pCS9owNGJI/400x0/filters:quality(85)/l/a/u/phppvmual.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Making of
@@ -2531,6 +2537,8 @@ francetv://1a7ad14b-d6bd-4503-9927-a5a2ba6abbcd
 francetv://50d14f4f-f07b-46dd-bea4-ceb5badd57d9
 #EXTINF:-1 tvg-id="francetv-b3eb821f-4af5-463c-be9b-3e5852f3239b" tvg-logo="https://medias.france.tv/1X1yZLMAsTn2fDElM3_G_2pOe9E/400x0/filters:quality(85)/r/a/o/phpjxwoar.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Home
 francetv://b3eb821f-4af5-463c-be9b-3e5852f3239b
+#EXTINF:-1 tvg-id="francetv-36c975f5-7d7b-4051-a37e-3bf819e3ee56" tvg-logo="https://medias.france.tv/UTl-4KtB4pAVMh0yPXXWOdVRFjk/400x0/filters:quality(85)/l/8/s/phpaofs8l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Visions
+francetv://36c975f5-7d7b-4051-a37e-3bf819e3ee56
 #EXTINF:-1 tvg-id="francetv-fb131f04-300a-4c94-a9ad-e066aff7b9c8" tvg-logo="https://medias.france.tv/K0z8qdGcjJZ61U-Ek-_F2_2S0aQ/400x0/filters:quality(85)/d/v/b/phprlsbvd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Caprice
 francetv://fb131f04-300a-4c94-a9ad-e066aff7b9c8
 #EXTINF:-1 tvg-id="francetv-233ecbcc-ca68-4e1e-b186-f70dddacb86e" tvg-logo="https://medias.france.tv/IuEXE093PJP8j_PGcsEK20sgZkg/400x0/filters:quality(85)/4/n/5/php2cy5n4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Douleur et gloire
@@ -2831,6 +2839,8 @@ francetv://8b5d4e90-29d8-4002-8357-fc9e63cc2de5
 francetv://3e853ca4-8164-4af8-b993-a4a6bcd6b74c
 #EXTINF:-1 tvg-id="francetv-639511f7-65e6-4328-9026-f01b792120a8" tvg-logo="https://medias.france.tv/V4dbH8yA8ns5d1UYffjsV80l03s/400x0/filters:quality(85)/5/a/a/73c44fabf5a44f5ba2b02c37799f9aa5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les grandes émotions du cinéma",La place d'une autre
 francetv://639511f7-65e6-4328-9026-f01b792120a8
+#EXTINF:-1 tvg-id="francetv-36c975f5-7d7b-4051-a37e-3bf819e3ee56" tvg-logo="https://medias.france.tv/UTl-4KtB4pAVMh0yPXXWOdVRFjk/400x0/filters:quality(85)/l/8/s/phpaofs8l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Visions
+francetv://36c975f5-7d7b-4051-a37e-3bf819e3ee56
 #EXTINF:-1 tvg-id="francetv-29f9ca24-1cab-49c3-8363-d5e5f1565900" tvg-logo="https://medias.france.tv/yYrIhI-x5p5Ti429Ku0V_jJCzss/400x0/filters:quality(85)/9/d/7/6c034929a38344e7a4ea7da9695957d9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",La Fille du RER
 francetv://29f9ca24-1cab-49c3-8363-d5e5f1565900
 #EXTINF:-1 tvg-id="francetv-76bbd73f-c6f4-4e48-a10a-bacd09ba27f0" tvg-logo="https://medias.france.tv/9OCBFEiJ9bRkeQNoQ93P27Xln6w/400x0/filters:quality(85)/g/g/l/phpgu8lgg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Le Maître du jeu
