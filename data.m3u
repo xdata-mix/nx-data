@@ -5339,7 +5339,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/1jX6X9q3Kfgm/2
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
-http://145.239.5.177/359a/index.m3u8
+https://jmp2.uk/stvp-FRBC3900004DS
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
@@ -5417,7 +5417,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/1jX6X9q3Kfgm/s
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/1jX6X9q3Kfgm/2xZAaqpNdducrUa.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
@@ -5434,3 +5434,7 @@ http://41.205.93.154/SYFY/index.m3u8
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="DRTVInternational.cg@SD" group-title="Généralistes",DRTV International
 https://vps122407.serveur-vps.net/hls/drtv.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
