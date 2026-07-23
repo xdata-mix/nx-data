@@ -5465,4 +5465,8 @@ https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
-http://145.239.5.177/359a/index.m3u8
+https://jmp2.uk/stvp-FRBC3900004DS
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
+http://151.80.18.177:86/TMC/index.m3u8
