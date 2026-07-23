@@ -12557,10 +12557,10 @@ tf1plus://tf1/vip-pets
 tf1plus://tf1/petit-spirou
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-nouvelles-destinations" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Nouvelles Destinations
 tf1plus://tmc/lagence-nouvelles-destinations
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
-tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
 tf1plus://tf1/les-douze-coups-de-midi
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
+tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tmc-anne-roumanoff-lexperience-de-la-vie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Anne Roumanoff Lexperience de la Vie
 tf1plus://tmc/anne-roumanoff-lexperience-de-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-mask-singer" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mask Singer
@@ -12781,6 +12781,8 @@ tf1plus://tf1/comme-des-betes-2
 tf1plus://tf1/tous-en-scene-952
 #EXTINF:-1 tvg-id="tf1plus-tf1-tous-en-scene-2-466-promo-flash-de-l'été" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-2da43f-52461c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Promo Flash de l'été",Tous En Scene 2 466
 tf1plus://tf1/tous-en-scene-2-466
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Un Indien Dans la Ville
 tf1plus://tf1/un-indien-dans-la-ville
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Les Cadors
@@ -12815,8 +12817,6 @@ tf1plus://tmc/fantomas-se-dechaine
 tf1plus://tf1-series-films/double-zero
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Les Minions
 tf1plus://tmc/les-minions
-#EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-3e81e2-a978c3-a5d836-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Les Minions 2 Il Etait une Fois Gru
-tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
 #EXTINF:-1 tvg-id="tf1plus-tf1-police-flash-80-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-police-flash-80-f01cf3-4fbe05-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Police Flash 80
 tf1plus://tf1/police-flash-80
 #EXTINF:-1 tvg-id="tf1plus-tf1-billie-eilish-hit-me-hard-and-soft-the-tour-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-billie-eilish-hit-me-hard-and-soft-the-tour-b1c123-f6f605-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Billie Eilish Hit Me Hard And Soft The Tour
@@ -12865,6 +12865,8 @@ tf1plus://tf1/barbecue
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Rrrrrrr
 tf1plus://tf1-series-films/rrrrrrr
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-redemption-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b8f4a8-f5b922-4a50f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Pop Redemption
 tf1plus://tfx/pop-redemption
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Fantomas
@@ -12877,6 +12879,8 @@ tf1plus://tfx/yamakasi-les-samourais-des-temps-modernes
 tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-cactus-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-86b14a-8f064b-7dd95d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Le Cactus
 tf1plus://tf1-series-films/le-cactus
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-action" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-drive-hard-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-5b42c5-dbf7aa-be295b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Drive Hard
 tf1plus://tf1/drive-hard
 #EXTINF:-1 tvg-id="tf1plus-tf1-piege-de-feu-action" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a3c01b-d2d0a0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Piege de Feu
@@ -12909,8 +12913,6 @@ tf1plus://tf1/wake-up
 tf1plus://tf1/creed-lheritage-de-rocky-balboa
 #EXTINF:-1 tvg-id="tf1plus-tf1-creed-ii-376-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-af557a-c075bb-2b4903-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Creed Ii 376
 tf1plus://tf1/creed-ii-376
-#EXTINF:-1 tvg-id="tf1plus-tf1-creed-3-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-f9b1b3-1dbe54-cf7802-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Creed 3
-tf1plus://tf1/creed-3
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-3-094-comédies-à-prix-complètement-barrés" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-copie-8e1046-a85098-ca82d7-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies à prix complètement barrés",Camping 3 094
 tf1plus://tf1/camping-3-094
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-sens-de-la-fete-comédies-à-prix-complètement-barrés" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b0214f-cd58b7-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies à prix complètement barrés",Le Sens de la Fete
@@ -12951,6 +12953,8 @@ tf1plus://tf1/natacha-presque-hotesse-de-lair-271
 tf1plus://tf1/une-belle-course-814
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-secret-de-la-cite-perdue-509-comédies-à-prix-complètement-barrés" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-681a5e-53d040-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies à prix complètement barrés",Le Secret de la Cite Perdue 509
 tf1plus://tf1/le-secret-de-la-cite-perdue-509
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Les Minions
 tf1plus://tmc/les-minions
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-3e81e2-a978c3-a5d836-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Les Minions 2 Il Etait une Fois Gru
@@ -13295,6 +13299,8 @@ tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
 tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Les Minions
 tf1plus://tmc/les-minions
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-good-kids-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-317ce4-ba4dd1-4edd2b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Good Kids
 tf1plus://tf1/good-kids
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-3e81e2-a978c3-a5d836-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Les Minions 2 Il Etait une Fois Gru
@@ -13325,8 +13331,6 @@ tf1plus://tf1/house-of-time
 tf1plus://tf1/the-kings-daughter
 #EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",For Love Or Money
 tf1plus://tf1/for-love-or-money
-#EXTINF:-1 tvg-id="tf1plus-tf1-tell-it-like-a-woman-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-ok-2a5b69-f984e7-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Tell It Like A Woman
-tf1plus://tf1/tell-it-like-a-woman
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-legende-de-barney-thomson-policiers" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-71d576-97e0db-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",La Legende de Barney Thomson
 tf1plus://tf1/la-legende-de-barney-thomson
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-maiden-heist-un-plan-denfer-policiers" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-d2b0fe-86b752-144ea6-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",The Maiden Heist un Plan Denfer
@@ -13359,6 +13363,8 @@ tf1plus://tf1/red-joan
 tf1plus://tf1/butterfly-cafe
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-contre-scotland-yard-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/margot-va-au-mariage-1782720545-c2e792-cba887-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Fantomas Contre Scotland Yard
 tf1plus://tmc/fantomas-contre-scotland-yard
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",The Flash
+tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-house-of-time-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-be2e9e-1e12c4-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",House Of Time
 tf1plus://tf1/house-of-time
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-recall-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-40ea07-550c81-b3469a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",The Recall
