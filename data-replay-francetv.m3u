@@ -149,6 +149,8 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
+#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Tom et Lola
+francetv://program/france-3_tom-et-lola
 #EXTINF:-1 tvg-id="francetv-17292298-9a6b-4ff5-be53-aa5d70024d40" tvg-logo="https://medias.france.tv/dEmfceI3V_Qd-r8Z5tNqdnaGbjc/400x0/filters:quality(85)/k/4/m/php1pbm4k.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Secrets d'Histoire — Arthur et les chevaliers de la Table ronde
 francetv://17292298-9a6b-4ff5-be53-aa5d70024d40
 #EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",OPJ
@@ -253,8 +255,6 @@ francetv://program/france-3_mysteres-au-paradis
 francetv://0fa8f736-c675-4fa1-aae4-df39b3d70d45
 #EXTINF:-1 tvg-id="francetv-prog-france-3_grantchester" tvg-logo="https://medias.france.tv/F_e2pt28gLbXx4e60sf67fY-cL0/400x0/filters:quality(85)/a/d/n/php5ipnda.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Grantchester
 francetv://program/france-3_grantchester
-#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Tom et Lola
-francetv://program/france-3_tom-et-lola
 #EXTINF:-1 tvg-id="francetv-prog-france-3_le-voyageur" tvg-logo="https://medias.france.tv/UP-QShynOn8R6zdKJ9tDdGM781A/400x0/filters:quality(85)/d/x/x/phpxekxxd.png" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Le voyageur
 francetv://program/france-3_le-voyageur
 #EXTINF:-1 tvg-id="francetv-prog-france-3_face-a-face" tvg-logo="https://medias.france.tv/1Jy9XNTH_MLruEq0N5yu7ur74GE/400x0/filters:quality(85)/g/t/w/phpxwxwtg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Face à face
@@ -3125,8 +3125,8 @@ francetv://program/france-2_ca-commence-aujourd-hui
 francetv://be5f9b0b-180a-4986-9dbf-dcbf1d9b3f04
 #EXTINF:-1 tvg-id="francetv-8c81d3cc-ecc7-45ee-b048-adbc8633472c" tvg-logo="https://medias.france.tv/BytSOwiIw4pm8sHVgo0j_TvpCQc/400x0/filters:quality(85)/n/p/i/php1gjipn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Canicule : le grand basculement
 francetv://8c81d3cc-ecc7-45ee-b048-adbc8633472c
-#EXTINF:-1 tvg-id="francetv-09683609-f65c-4148-97bc-ae454bef8f1c" tvg-logo="https://medias.france.tv/TaQprUebGExLPsIUVK2w2aZAsLk/400x0/filters:quality(85)/s/b/t/phpgaktbs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Tout compris ! Une histoire des clubs de vacances
-francetv://09683609-f65c-4148-97bc-ae454bef8f1c
+#EXTINF:-1 tvg-id="francetv-7a4558f7-17b3-41ef-8194-ffb9a72dd2bb" tvg-logo="https://medias.france.tv/TaQprUebGExLPsIUVK2w2aZAsLk/400x0/filters:quality(85)/s/b/t/phpgaktbs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Tout compris ! Une histoire des clubs de vacances
+francetv://7a4558f7-17b3-41ef-8194-ffb9a72dd2bb
 #EXTINF:-1 tvg-id="francetv-a5094709-bbe4-4843-a98e-06dc1dd821a6" tvg-logo="https://medias.france.tv/jduPKXV87jC-uqbGx8cUWJ8eumQ/400x0/filters:quality(85)/x/t/a/phpokhatx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Incendies, l'été infernal
 francetv://a5094709-bbe4-4843-a98e-06dc1dd821a6
 #EXTINF:-1 tvg-id="francetv-89afe66e-65aa-11f1-ae28-57a09c50f7ce" tvg-logo="https://medias.france.tv/cDVmBpdQfBnYmDSHdeHpnx2tIog/400x0/filters:quality(85)/1/8/4/68a02bc5beea4e8f87eb06332afbd481.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Envoyé spécial — Comment protéger la parole des enfants ?
