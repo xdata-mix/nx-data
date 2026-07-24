@@ -5513,3 +5513,9 @@ http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
 brightcove://6150020952001/R35LpOeJ4/6391088380112
 #EXTINF:-1 tvg-id="telequebec-jeunesse" group-title="Live MIX",Télé-Québec Jeunesse
 brightcove://6150020952001/R35LpOeJ4/6391090845112
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
+#EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
+http://151.80.18.177:86/TMC/index.m3u8
