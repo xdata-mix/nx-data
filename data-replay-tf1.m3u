@@ -1329,6 +1329,8 @@ tf1plus://tf1/secret-story
 tf1plus://tf1/telefoot
 #EXTINF:-1 tvg-id="tf1plus-tf1-nations-championship" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Nations Championship
 tf1plus://tf1/nations-championship
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-fifa-coupe-du-monde-de-football" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fifa Coupe du Monde de Football
 tf1plus://tf1/fifa-coupe-du-monde-de-football
 #EXTINF:-1 tvg-id="tf1plus-tf1-auto-moto" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Auto Moto
@@ -1363,14 +1365,16 @@ tf1plus://tf1/sullivans-crossing
 tf1plus://tf1/le-choix-de-juana
 #EXTINF:-1 tvg-id="tf1plus-tfx-jlc-family-lincroyable-ete-de-jazz-et-laurent" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Jlc Family Lincroyable Ete de Jazz et Laurent
 tf1plus://tfx/jlc-family-lincroyable-ete-de-jazz-et-laurent
-#EXTINF:-1 tvg-id="tf1plus-tf1-winx-club-la-magie-est-de-retour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Winx Club la Magie Est de Retour
-tf1plus://tf1/winx-club-la-magie-est-de-retour
 #EXTINF:-1 tvg-id="tf1plus-tf1-amour-gloire-et-beaute" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amour Gloire et Beaute
 tf1plus://tf1/amour-gloire-et-beaute
-#EXTINF:-1 tvg-id="tf1plus-tf1-pour-lamour-de-louisa" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pour Lamour de Louisa
-tf1plus://tf1/pour-lamour-de-louisa
+#EXTINF:-1 tvg-id="tf1plus-tf1-winx-club-la-magie-est-de-retour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Winx Club la Magie Est de Retour
+tf1plus://tf1/winx-club-la-magie-est-de-retour
+#EXTINF:-1 tvg-id="tf1plus-tf1-inazuma-eleven" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Inazuma Eleven
+tf1plus://tf1/inazuma-eleven
 #EXTINF:-1 tvg-id="tf1plus-tf1-pawpatrol" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pawpatrol
 tf1plus://tf1/pawpatrol
+#EXTINF:-1 tvg-id="tf1plus-tf1-pour-lamour-de-louisa" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Pour Lamour de Louisa
+tf1plus://tf1/pour-lamour-de-louisa
 #EXTINF:-1 tvg-id="tf1plus-tf1-rick-hunter" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Rick Hunter
 tf1plus://tf1/rick-hunter
 #EXTINF:-1 tvg-id="tf1plus-tf1-livresse-de-lamour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Livresse de Lamour
@@ -1379,8 +1383,6 @@ tf1plus://tf1/livresse-de-lamour
 tf1plus://tf1/zodiaque
 #EXTINF:-1 tvg-id="tf1plus-tf1-zodiaque-176" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Zodiaque 176
 tf1plus://tf1/zodiaque-176
-#EXTINF:-1 tvg-id="tf1plus-tfx-pokemon" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Pokemon
-tf1plus://tfx/pokemon
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -1393,8 +1395,6 @@ tf1plus://tf1/lecole-des-champions
 tf1plus://tf1/son-of-a-critch
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-sera-le-plus-nul" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Sera le Plus Nul
 tf1plus://tf1/qui-sera-le-plus-nul
-#EXTINF:-1 tvg-id="tf1plus-tf1-inazuma-eleven" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Inazuma Eleven
-tf1plus://tf1/inazuma-eleven
 #EXTINF:-1 tvg-id="tf1plus-tf1-or-de-lui" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Or de Lui
 tf1plus://tf1/or-de-lui
 #EXTINF:-1 tvg-id="tf1plus-tfx-one-piece" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",One Piece
@@ -1469,8 +1469,6 @@ tf1plus://tf1/paranormal-caught-on-camera
 tf1plus://tf1/le-berger-tueur-en-serie
 #EXTINF:-1 tvg-id="tf1plus-tf1-affaires-classees-lheure-du-jugement" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Affaires Classees Lheure du Jugement
 tf1plus://tf1/affaires-classees-lheure-du-jugement
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-affaires-classees-le-crime-dans-les-genes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Affaires Classees le Crime Dans les Genes
 tf1plus://tf1/affaires-classees-le-crime-dans-les-genes
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-sur-les-routes-de-la-cocaine" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Sur les Routes de la Cocaine
@@ -1831,10 +1829,10 @@ tf1plus://tf1/riot
 tf1plus://tf1/sharknado-4-le-4eme-reveil
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-meurtre-presque-parfait" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Meurtre Presque Parfait
 tf1plus://tf1/un-meurtre-presque-parfait
-#EXTINF:-1 tvg-id="tf1plus-tf1-l-emprise" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",L Emprise
-tf1plus://tf1/l-emprise
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-client" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Client
 tf1plus://tf1/le-client
+#EXTINF:-1 tvg-id="tf1plus-tf1-l-emprise" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",L Emprise
+tf1plus://tf1/l-emprise
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-part-du-soupcon" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Part du Soupcon
 tf1plus://tf1/la-part-du-soupcon
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-saint-petersbourg" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Saint Petersbourg
@@ -1863,10 +1861,10 @@ tf1plus://tf1/filip
 tf1plus://tf1/les-yeux-grands-fermes
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-vie-en-miettes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Vie En Miettes
 tf1plus://tf1/la-vie-en-miettes
+#EXTINF:-1 tvg-id="tf1plus-tf1-a-trois-cest-mieux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Trois Cest Mieux
+tf1plus://tf1/a-trois-cest-mieux
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-jour-ou-j-ai-brule-mon-coeur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Jour Ou J Ai Brule Mon Coeur
 tf1plus://tf1/le-jour-ou-j-ai-brule-mon-coeur
-#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-jaipur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Jaipur
-tf1plus://tf1/coup-de-foudre-a-jaipur
 #EXTINF:-1 tvg-id="tf1plus-tf1-flirt-et-passe-passe" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Flirt et Passe Passe
 tf1plus://tf1/flirt-et-passe-passe
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-guide-du-celibataire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Guide du Celibataire
@@ -2603,10 +2601,10 @@ tf1plus://tfx/excape-island-coinces-avec-nos-exs
 tf1plus://tfx/la-bataille-des-couples
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-clans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Clans
 tf1plus://tfx/la-bataille-des-clans
-#EXTINF:-1 tvg-id="tf1plus-tfx-tricheurs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Tricheurs
-tf1plus://tfx/tricheurs
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-la-malediction-de-lile" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille la Malediction de Lile
 tf1plus://tfx/la-bataille-la-malediction-de-lile
+#EXTINF:-1 tvg-id="tf1plus-tfx-tricheurs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Tricheurs
+tf1plus://tfx/tricheurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-million-dollar-weekend" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Million Dollar Weekend
 tf1plus://tf1/million-dollar-weekend
 #EXTINF:-1 tvg-id="tf1plus-tfx-hillary-et-giovanni-le-mariage" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Hillary et Giovanni le Mariage
@@ -2695,6 +2693,8 @@ tf1plus://tf1/les-petites-histoires-signees
 tf1plus://tf1/tu-dis-tu-stoppes
 #EXTINF:-1 tvg-id="tf1plus-tf1-dora" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Dora
 tf1plus://tf1/dora
+#EXTINF:-1 tvg-id="tf1plus-tfx-pokemon" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Pokemon
+tf1plus://tfx/pokemon
 #EXTINF:-1 tvg-id="tf1plus-tf1-santiago-des-mers" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Santiago des Mers
 tf1plus://tf1/santiago-des-mers
 #EXTINF:-1 tvg-id="tf1plus-tf1-chica-vampiro" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chica Vampiro
