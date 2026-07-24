@@ -3079,6 +3079,8 @@ tf1plus://tf1/comme-des-betes-2
 tf1plus://tf1/tous-en-scene-952
 #EXTINF:-1 tvg-id="tf1plus-tf1-tous-en-scene-2-466-promo-flash-de-l'été" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-2da43f-52461c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Promo Flash de l'été",Tous En Scene 2 466
 tf1plus://tf1/tous-en-scene-2-466
+#EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Sales Gosses
+tf1plus://tmc/sales-gosses
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",The Flash
 tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-piege-de-feu-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a3c01b-d2d0a0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Piege de Feu
@@ -3113,8 +3115,6 @@ tf1plus://tmc/fantomas
 tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-double-zero-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-df88b8-847ce2-72689c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Double Zero
 tf1plus://tf1-series-films/double-zero
-#EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Les Minions
-tf1plus://tmc/les-minions
 #EXTINF:-1 tvg-id="tf1plus-tf1-police-flash-80-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-police-flash-80-f01cf3-4fbe05-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Police Flash 80
 tf1plus://tf1/police-flash-80
 #EXTINF:-1 tvg-id="tf1plus-tf1-billie-eilish-hit-me-hard-and-soft-the-tour-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-billie-eilish-hit-me-hard-and-soft-the-tour-b1c123-f6f605-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Billie Eilish Hit Me Hard And Soft The Tour
@@ -3313,6 +3313,8 @@ tf1plus://tf1/siberia
 tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Les Cadors
 tf1plus://tfx/les-cadors
+#EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Sales Gosses
+tf1plus://tmc/sales-gosses
 #EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Connasse Princesse des Coeurs
 tf1plus://tfx/connasse-princesse-des-coeurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-lemmerdeur-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-079557-1d1b6e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Lemmerdeur
@@ -3343,8 +3345,6 @@ tf1plus://tf1-series-films/sms
 tf1plus://tfx/le-boulet
 #EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",For Love Or Money
 tf1plus://tf1/for-love-or-money
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-merveilleux-jardin-secret-de-bella-brown-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-12c380-50d927-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Le Merveilleux Jardin Secret de Bella Brown
-tf1plus://tf1/le-merveilleux-jardin-secret-de-bella-brown
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-comte-de-monte-cristo-099-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-403b30-f90235-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Le Comte de Monte Cristo 099
 tf1plus://tf1/le-comte-de-monte-cristo-099
 #EXTINF:-1 tvg-id="tf1plus-tf1-intouchables-cinéma-xxl,-prix-xxs" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-c040da-3e51e2-9a1a9d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma XXL, prix XXS",Intouchables
@@ -3587,6 +3587,8 @@ tf1plus://tmc/les-sous-doues-en-vacances
 tf1plus://tfx/pop-redemption
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Un Indien Dans la Ville
 tf1plus://tf1/un-indien-dans-la-ville
+#EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Sales Gosses
+tf1plus://tmc/sales-gosses
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-le-cactus-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-86b14a-8f064b-7dd95d-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Le Cactus
 tf1plus://tf1-series-films/le-cactus
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",La Plus Belle Pour Aller Danser
@@ -3627,6 +3629,8 @@ tf1plus://tf1/le-transporteur
 tf1plus://tfx/les-cadors
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-sms-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8dc400-d4af1e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Sms
 tf1plus://tf1-series-films/sms
+#EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Sales Gosses
+tf1plus://tmc/sales-gosses
 #EXTINF:-1 tvg-id="tf1plus-tf1-michel-vaillant-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-michelvaill-4dbc17-4f4579-76e76b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Michel Vaillant
 tf1plus://tf1/michel-vaillant
 #EXTINF:-1 tvg-id="tf1plus-tf1-creed-lheritage-de-rocky-balboa-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-211b3e-9647f1-ea5edf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Creed Lheritage de Rocky Balboa
@@ -3639,8 +3643,6 @@ tf1plus://tf1/creed-3
 tf1plus://tf1/house-of-time
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-kings-daughter-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-32fac9-79fec5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",The Kings Daughter
 tf1plus://tf1/the-kings-daughter
-#EXTINF:-1 tvg-id="tf1plus-tf1-for-love-or-money-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-315292-4250f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",For Love Or Money
-tf1plus://tf1/for-love-or-money
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-legende-de-barney-thomson-policiers" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-71d576-97e0db-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",La Legende de Barney Thomson
 tf1plus://tf1/la-legende-de-barney-thomson
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-maiden-heist-un-plan-denfer-policiers" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2-d2b0fe-86b752-144ea6-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Policiers",The Maiden Heist un Plan Denfer
