@@ -5502,3 +5502,10 @@ http://145.239.5.177/359a/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
 http://151.80.18.177:86/TMC/index.m3u8
+
+#EXTINF:-1 tvg-id="gong-anime" group-title="Live MIX",GONG Anime
+https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-id="plextv-connectik" group-title="Live MIX",PlexTV (Connectik)
+http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
+#EXTINF:-1 tvg-id="mytvchannel-connectik" group-title="Live MIX",MyTVChannel (Connectik)
+http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
