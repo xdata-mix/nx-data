@@ -833,6 +833,8 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000240
 bfmplay://NEUF_BFMRADIO_BRA50000000000238
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000237" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/3/2/eddeace639cc0836444f03bcfee676a3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - Invité: Alexandre Roumat, joueur international français de rugby à XV
 bfmplay://NEUF_BFMRADIO_BRA50000000000237
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF100333" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/3/3/3/c1633e35391ceb5ded682206ebf42717_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S21E6 - Le chevalier noir
+bfmplay://NEUF_RMC_LIFE_RIF100333
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF416007648527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/24a16e8ca59cb521575883047ee328c2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S2E1 - Le pacte de sang
 bfmplay://NEUF_RMC_LIFE_RIF416007648527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF92188" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/8/8/1/9b6979476f513f9a3c2532868f868dd1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S1E1 - Robert Greiner, le pompier criminel
@@ -7149,10 +7151,10 @@ bfmplay://NEUF_RMCDEC_RMC1020926228665
 bfmplay://NEUF_RMCDEC_RMC1020926228658
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV798639603527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/2532dcf682a8c7a610f85f4eb977f384_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",100 jours avec les policiers du Var
 bfmplay://NEUF_BFMAVOD_BAV798639603527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00074738" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/8/3/7/a248cb7c59004a8a9c28445a36d0b45d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",11/09: Comment le World Trade Center s'est effondré
-bfmplay://NEUF_BFMAVOD_BAV00074738
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV809215831527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/efd8b7df368fbd118b9964bdda38d801_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",11 septembre : pris au piège
 bfmplay://NEUF_BFMAVOD_BAV809215831527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00074738" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/8/3/7/a248cb7c59004a8a9c28445a36d0b45d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",11/09: Comment le World Trade Center s'est effondré
+bfmplay://NEUF_BFMAVOD_BAV00074738
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_15120" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/0/2/1/e61aaa440af550d37c8f09a8113a1f0a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Hors de contrôle
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
@@ -7349,8 +7351,6 @@ bfmplay://NEUF_BFMTV_BFM1020942084204
 bfmplay://NEUF_BFMTV_BFM1002324256527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1021024166882" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/2/8/8/2554c246ded84367aba9748e8ab8b35f_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% Crime - Crimes à la Une",Gisèle Pelicot : au nom de toutes les femmes
 bfmplay://NEUF_RMC_LIFE_RIF1021024166882
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF100333" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/3/3/3/c1633e35391ceb5ded682206ebf42717_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay 100% Crime - Faites entrer l'accusé",S21E6 - Le chevalier noir
-bfmplay://NEUF_RMC_LIFE_RIF100333
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020917499347" tvg-logo="http://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/BANNERMOBILEcleanamra.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% Crime",Amra, fin de cavale
 bfmplay://NEUF_BFMTV_BFM1020917499347
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM972870443527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/WiztiviStore/posters/NEUF_BFMTV/7/2/5/BFM972870443527_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay 100% Crime",Monique Olivier, la diabolique - Épisode 1 : Le pacte
