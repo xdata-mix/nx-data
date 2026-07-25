@@ -1011,6 +1011,8 @@ tf1plus://tf1/enquete-en-famille
 tf1plus://tf1/hp
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-belle-et-le-boulanger-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-793218-3fb580-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",La Belle et le Boulanger
 tf1plus://tf1/la-belle-et-le-boulanger
+#EXTINF:-1 tvg-id="tf1plus-tfx-nicky-larson-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nicky-larson-e12172-47b714-f2cfaf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Nicky Larson
+tf1plus://tfx/nicky-larson
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
 tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
@@ -1049,8 +1051,6 @@ tf1plus://tf1/mademoiselle-holmes
 tf1plus://tmc/miss-marple
 #EXTINF:-1 tvg-id="tf1plus-tf1-nos-chers-voisins-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nos-chers-voisins-75d947-923a0d-8fe093-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Nos Chers Voisins
 tf1plus://tf1/nos-chers-voisins
-#EXTINF:-1 tvg-id="tf1plus-tf1-un-village-francais-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2d0f23-f7ec64-3c005b-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Un Village Francais
-tf1plus://tf1/un-village-francais
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-penthouse-k-dramas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-the-penthouse-a1f391-8e64fc-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - K-Dramas",The Penthouse
 tf1plus://tf1/the-penthouse
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-inheritors-k-dramas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8a6acf-7a63b6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - K-Dramas",The Inheritors
@@ -3019,8 +3019,8 @@ tf1plus://tfx/pop-le-magazine-des-pratiques-culturelles-des-15-35-ans
 tf1plus://tmc/les-documentaires-de-tatiana-silva
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",The Flash
 tf1plus://tf1/the-flash
-#EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-3e81e2-a978c3-a5d836-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Les Minions 2 Il Etait une Fois Gru
-tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
+#EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Un Indien Dans la Ville
+tf1plus://tf1/un-indien-dans-la-ville
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ccbf5e-6ed273-dd7845-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Le Transporteur
 tf1plus://tf1/le-transporteur
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Les Cadors
@@ -3029,8 +3029,8 @@ tf1plus://tfx/les-cadors
 tf1plus://tf1/barbecue
 #EXTINF:-1 tvg-id="tf1plus-tfx-rupture-pour-tous-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-rupturepour-224185-5229aa-7cd01e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Rupture Pour Tous
 tf1plus://tfx/rupture-pour-tous
-#EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Un Indien Dans la Ville
-tf1plus://tf1/un-indien-dans-la-ville
+#EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-3e81e2-a978c3-a5d836-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Les Minions 2 Il Etait une Fois Gru
+tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Rrrrrrr
 tf1plus://tf1-series-films/rrrrrrr
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Coup de Foudre A Notting Hill
