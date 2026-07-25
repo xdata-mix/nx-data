@@ -217,7 +217,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/sport
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-24.m3u8
 #EXTINF:-1 tvg-chno="120" tvg-logo="https://i.imgur.com/pPpiZiQ.png" tvg-country="FR" group-title="Généralistes",INA [SSAI]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/ina.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/ina.m3u8
 #EXTINF:-1 tvg-chno="121" tvg-id="LaChaineParlementaire.fr" tvg-logo="https://i.imgur.com/oGNOOkO.png" tvg-country="FR" group-title="Généralistes",LCP - PUBLIC SÉNAT 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/PS4CTmbuA6I/AJZ9PV4qeEo6zKYy.m3u8
@@ -5537,4 +5537,4 @@ http://stream.mcquack.net/276/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-http://151.80.18.177:86/TMC/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/PS4CTmbuA6I/eEW3km5sI5NKdve4.m3u8
