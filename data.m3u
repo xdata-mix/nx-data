@@ -5513,7 +5513,7 @@ brightcove://6150020952001/R35LpOeJ4/6391090845112
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/iBAXn02Hmse/qpB1LfmifWFIaB4B.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/iBAXn02Hmse/V5JC897AQQOGoeC0.m3u8
 
@@ -5541,4 +5541,4 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/iBAXn02Hmse/V5
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-http://151.80.18.177:86/TMC/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/iBAXn02Hmse/V5JC897AQQOGoeC0.m3u8
