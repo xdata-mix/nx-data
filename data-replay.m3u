@@ -19237,8 +19237,14 @@ m6play://m6replay/21381
 m6play://m6replay/10015
 #EXTINF:-1 tvg-id="m6plus-9651" tvg-logo="https://images.6play.fr/v1/images/4261241/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Lheure du Crime
 m6play://m6replay/9651
+#EXTINF:-1 tvg-id="francetv-d1ecbb35-5b12-4db6-a7a1-82d4f65ca9d7" tvg-logo="https://medias.france.tv/RBxD3v6rxxmbjlzN8WOrDEN59pg/400x0/filters:quality(85)/g/y/t/phppautyg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association SPA / Tout le monde contre le cancer
+francetv://d1ecbb35-5b12-4db6-a7a1-82d4f65ca9d7
+#EXTINF:-1 tvg-id="francetv-6ea20379-2e72-4d47-a76b-6d5b82dcc8ec" tvg-logo="https://medias.france.tv/c9aAFeejiGwbMwVvlnnDEYvDW_A/400x0/filters:quality(85)/p/p/o/phpt1copp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les rencontres du Papotin — Yannick Alléno
+francetv://6ea20379-2e72-4d47-a76b-6d5b82dcc8ec
 #EXTINF:-1 tvg-id="francetv-bc2c3756-8306-4c44-ba2d-40bebd256012" tvg-logo="https://medias.france.tv/VZuCNwUNdLbu3KuegwT9fnCC9H4/400x0/filters:quality(85)/m/m/f/phpysqfmm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Drag Vinci Code, the Musidrag
 francetv://bc2c3756-8306-4c44-ba2d-40bebd256012
+#EXTINF:-1 tvg-id="francetv-prog-france-2_les-chaises-musicales-infernales" tvg-logo="https://medias.france.tv/eoERVPy0FIrWhUKyJKJe1YR0nmo/400x0/filters:quality(85)/p/f/z/phpxdpzfp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les Chaises Musicales Infernales
+francetv://program/france-2_les-chaises-musicales-infernales
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les aventurières
 francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-f7c814c4-9d82-416f-993e-c655f4e3ad7a" tvg-logo="https://medias.france.tv/0fWdMj8Rom9EmC-M18Y3GjvQs1Q/400x0/filters:quality(85)/q/i/v/phpanlviq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Qui ment ? — Émission du jeudi 23 juillet 2026
@@ -19371,8 +19377,6 @@ francetv://program/france-2_13h15-le-dimanche
 francetv://program/france-2_cash-investigation
 #EXTINF:-1 tvg-id="francetv-prog-france-2_drag-race-france" tvg-logo="https://medias.france.tv/MlYuKGsIqXceFhBYnQxJCXvglD8/400x0/filters:quality(85)/l/y/4/php5hz4yl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France
 francetv://program/france-2_drag-race-france
-#EXTINF:-1 tvg-id="francetv-prog-france-2_les-chaises-musicales-infernales" tvg-logo="https://medias.france.tv/eoERVPy0FIrWhUKyJKJe1YR0nmo/400x0/filters:quality(85)/p/f/z/phpxdpzfp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les Chaises Musicales Infernales
-francetv://program/france-2_les-chaises-musicales-infernales
 #EXTINF:-1 tvg-id="francetv-prog-france-2_qui-restera-dans-la-lumiere" tvg-logo="https://medias.france.tv/uRmho0wgjrXV1gkMzsPgjdZGmhg/400x0/filters:quality(85)/k/c/f/phpgb0fck.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Qui restera dans la lumière ?
 francetv://program/france-2_qui-restera-dans-la-lumiere
 #EXTINF:-1 tvg-id="francetv-prog-france-2_100-logique-la-reponse-est-sous-vos-yeux" tvg-logo="https://medias.france.tv/6kfsb84XLSyNJMoEeq7moOFQ_rA/400x0/filters:quality(85)/h/c/6/php4wq6ch.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",100 % logique : la réponse est sous vos yeux
@@ -20623,26 +20627,24 @@ francetv://program/france-o_passion-outre-mer
 francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_tropiques-criminels" tvg-logo="https://medias.france.tv/4g0Me954G6Iu0Qodr8oy7VkYBGM/400x0/filters:quality(85)/9/q/q/phpns0qq9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tropiques criminels
 francetv://program/france-2_tropiques-criminels
-#EXTINF:-1 tvg-id="francetv-prog-france-2_tout-cela-je-te-le-donnerai" tvg-logo="https://medias.france.tv/zQ62QLvy9v3IqHFrI3orya2IsRw/400x0/filters:quality(85)/r/h/w/phphm9whr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tout cela je te le donnerai
-francetv://program/france-2_tout-cela-je-te-le-donnerai
+#EXTINF:-1 tvg-id="francetv-prog-france-3_cassandre" tvg-logo="https://medias.france.tv/2q2Oh0eBPp5QsHV-mPG172wdGy0/400x0/filters:quality(85)/c/7/x/phpevix7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Cassandre
+francetv://program/france-3_cassandre
 #EXTINF:-1 tvg-id="francetv-prog-arte_sacha" tvg-logo="https://medias.france.tv/j6BZMQkhqAue-2p9Axjfrf5On4A/400x0/filters:quality(85)/6/8/5/1d91a6ac03714a84840fce825ec5f586.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Sacha
 francetv://program/arte_sacha
-#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tom et Lola
-francetv://program/france-3_tom-et-lola
-#EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Sous pression
-francetv://program/france-2_sous-pression
-#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
-francetv://program/france-3_opj
+#EXTINF:-1 tvg-id="francetv-prog-france-2_tout-cela-je-te-le-donnerai" tvg-logo="https://medias.france.tv/zQ62QLvy9v3IqHFrI3orya2IsRw/400x0/filters:quality(85)/r/h/w/phphm9whr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tout cela je te le donnerai
+francetv://program/france-2_tout-cela-je-te-le-donnerai
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
+#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tom et Lola
+francetv://program/france-3_tom-et-lola
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",The Best Immigrant
 francetv://program/france-2_the-best-immigrant
-#EXTINF:-1 tvg-id="francetv-prog-arte_after-the-party" tvg-logo="https://medias.france.tv/Pyb-8tcf6DpUii9ze1_fEr7e7UY/400x0/filters:quality(85)/t/m/7/php8no7mt.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",After The Party
-francetv://program/arte_after-the-party
 #EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/uKli2MALOwq_w39uSu2QW-XFtWs/400x0/filters:quality(85)/e/u/h/phphg6hue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Dix pour Cent
 francetv://program/france-2_dix-pour-cent
 #EXTINF:-1 tvg-id="francetv-prog-arte_five-bedrooms" tvg-logo="https://medias.france.tv/ahO2EeSXWxe9EP92IdipMzAz3vA/400x0/filters:quality(85)/2/l/h/phprxdhl2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Five Bedrooms
 francetv://program/arte_five-bedrooms
+#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
+francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/8teYD1oBCsVmU47_ak8BWNfCjiM/400x0/filters:quality(85)/a/q/1/phpeqs1qa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
 #EXTINF:-1 tvg-id="francetv-adeec9ea-9dcc-47a9-bad2-bcf53e44f9e4" tvg-logo="https://medias.france.tv/1b3wJCIE5vDesAE0-4rSkCARh7w/400x0/filters:quality(85)/a/v/i/phpotviva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 24 juillet 2026
@@ -20657,8 +20659,6 @@ francetv://27c27992-c37b-41c0-a060-727ae65e9d7b
 francetv://cb603b64-7425-44ca-92cf-5059f40c0338
 #EXTINF:-1 tvg-id="francetv-0ac670dc-7541-4f6e-bed1-6a1c08e26e73" tvg-logo="https://medias.france.tv/MPzXIBPv-28YefkeImc64tWRQwM/400x0/filters:quality(85)/5/m/8/phpuny8m5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 31 juillet 2026
 francetv://0ac670dc-7541-4f6e-bed1-6a1c08e26e73
-#EXTINF:-1 tvg-id="francetv-0fda80af-6973-4a41-aa48-36fba74bc046" tvg-logo="https://medias.france.tv/geX5YhtPEE6HtzvzMePjl87Cq7E/400x0/filters:quality(85)/s/f/e/phpbwmefs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Meurtres à... — Meurtres en pays d'Oléron
-francetv://0fda80af-6973-4a41-aa48-36fba74bc046
 #EXTINF:-1 tvg-id="francetv-8005f780-6b18-4493-afe7-89e0044eb3db" tvg-logo="https://medias.france.tv/O-HZ8rDw6nD8O9rm0rkw49l19m4/400x0/filters:quality(85)/e/b/c/phpatqcbe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",L'oubliée d'amboise
 francetv://8005f780-6b18-4493-afe7-89e0044eb3db
 #EXTINF:-1 tvg-id="francetv-prog-france-2_tout-cela-je-te-le-donnerai" tvg-logo="https://medias.france.tv/zQ62QLvy9v3IqHFrI3orya2IsRw/400x0/filters:quality(85)/r/h/w/phphm9whr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Tout cela je te le donnerai
@@ -24107,6 +24107,8 @@ francetv://program/france-2_drag-race-france
 francetv://program/france-2_fort-boyard
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-chaises-musicales-infernales" tvg-logo="https://medias.france.tv/eoERVPy0FIrWhUKyJKJe1YR0nmo/400x0/filters:quality(85)/p/f/z/phpxdpzfp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Notre sélection",Les Chaises Musicales Infernales
 francetv://program/france-2_les-chaises-musicales-infernales
+#EXTINF:-1 tvg-id="francetv-6ea20379-2e72-4d47-a76b-6d5b82dcc8ec" tvg-logo="https://medias.france.tv/c9aAFeejiGwbMwVvlnnDEYvDW_A/400x0/filters:quality(85)/p/p/o/phpt1copp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Notre sélection",Les rencontres du Papotin — Yannick Alléno
+francetv://6ea20379-2e72-4d47-a76b-6d5b82dcc8ec
 #EXTINF:-1 tvg-id="francetv-prog-france-5_des-trains-pas-comme-les-autres" tvg-logo="https://medias.france.tv/PDYBJfIzSEvCSruR3JDbsA2AHCc/400x0/filters:quality(85)/i/6/b/phpzrqb6i.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Notre sélection",Des trains pas comme les autres
 francetv://program/france-5_des-trains-pas-comme-les-autres
 #EXTINF:-1 tvg-id="francetv-97a7c0be-94e0-40da-9281-c70b6d787a21" tvg-logo="https://medias.france.tv/gQzyd02fyGPZF_8jj0MEcxvjwhY/400x0/filters:quality(85)/u/6/w/phpvecw6u.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Notre sélection",Francofolies de La Rochelle — Le meilleur des Francofolies
@@ -24161,6 +24163,8 @@ francetv://program/france-2_chacun-son-tour
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-3_le-jeu-des-1000-euros" tvg-logo="https://medias.france.tv/x0_rpamYmhxoLJOvh4iSIKf0dm8/400x0/filters:quality(85)/t/n/3/phpht83nt.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Ça joue !",Le jeu des 1000 euros
 francetv://program/france-3_le-jeu-des-1000-euros
+#EXTINF:-1 tvg-id="francetv-6ea20379-2e72-4d47-a76b-6d5b82dcc8ec" tvg-logo="https://medias.france.tv/c9aAFeejiGwbMwVvlnnDEYvDW_A/400x0/filters:quality(85)/p/p/o/phpt1copp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Des entretiens pas comme les autres",Les rencontres du Papotin — Yannick Alléno
+francetv://6ea20379-2e72-4d47-a76b-6d5b82dcc8ec
 #EXTINF:-1 tvg-id="francetv-a81c2dff-4dc1-4ec2-9c5d-d5c680e4d3b2" tvg-logo="https://medias.france.tv/dlzFeOalabsgNptAEUJn_HCX9nc/400x0/filters:quality(85)/h/i/i/phpex7iih.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Des entretiens pas comme les autres",C à vous la suite — Invités : Tom Holland, Anne Hathaway, Matt Damon, David et Jonathan
 francetv://a81c2dff-4dc1-4ec2-9c5d-d5c680e4d3b2
 #EXTINF:-1 tvg-id="francetv-64b7c708-6bfb-11f1-8730-19616fa871f9" tvg-logo="https://medias.france.tv/UuuXI3aFlMj-z3u1rF-ijAl6_dA/400x0/filters:quality(85)/4/0/8/37d4745bd4764c4cb4b75b275a5ef804.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Des entretiens pas comme les autres",Dérush — Elise Lucet reçoit Maghla
@@ -24631,22 +24635,20 @@ francetv://fb9c098a-0040-11f1-936c-6dcd43e8ddfd
 francetv://3c1fecea-0020-11f1-ac9e-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_premier-trio" tvg-logo="https://medias.france.tv/xWn4pyr-IzV9xIrClitvLtQXbKw/400x0/filters:quality(85)/f/j/x/phpfeoxjf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Premier Trio
 francetv://program/enfants_neuf-douze-ans_premier-trio
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_cololoco" tvg-logo="https://medias.france.tv/gs5gQuJteAUBUbFLx_1XwfAG-uw/400x0/filters:quality(85)/6/u/3/phpnhp3u6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",CoLoLoCo
-francetv://program/enfants_neuf-douze-ans_cololoco
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_les-aventures-fantastiques-de-sacre-coeur" tvg-logo="https://medias.france.tv/0jQ7JB7Ys4fWQYbswQVDok8lZ9I/400x0/filters:quality(85)/o/0/v/phpq3rv0o.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Les aventures fantastiques de Sacré Cœur
-francetv://program/enfants_six-huit-ans_les-aventures-fantastiques-de-sacre-coeur
-#EXTINF:-1 tvg-id="francetv-4fd86005-364f-480f-9e43-a91444ea3424" tvg-logo="https://medias.france.tv/35veS9nBZNLUh0zj_rC4y0FtNhM/400x0/filters:quality(85)/8/f/9/6d4bc4730a5445bf8d7dfa2983e729f8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Wallace et Gromit : Rasé de près
-francetv://4fd86005-364f-480f-9e43-a91444ea3424
-#EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_trotro-zaza" tvg-logo="https://medias.france.tv/D4q24kXD4Q_UjeBDKIN8hKpEHpc/400x0/filters:quality(85)/j/6/n/phprvsn6j.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Trotro et Zaza
-francetv://program/enfants_trois-cinq-ans_trotro-zaza
-#EXTINF:-1 tvg-id="francetv-prog-france-4_les-gardes-chimeres" tvg-logo="https://medias.france.tv/pkXLRv6r4ixt7CYPT4EcC2zb35c/400x0/filters:quality(85)/r/u/a/php9htaur.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Les Gardes Chimères
-francetv://program/france-4_les-gardes-chimeres
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_capitaine-jim" tvg-logo="https://medias.france.tv/EQnZwZ4b3lN_g6Td2ntPF672qa0/400x0/filters:quality(85)/7/h/v/php0ybvh7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Capitaine Jim
-francetv://program/enfants_six-huit-ans_capitaine-jim
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_bienvenue-a-paper-port" tvg-logo="https://medias.france.tv/MRn0t9FmU1AKdfvH1olswVIHMPQ/400x0/filters:quality(85)/q/n/f/phpa2pfnq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Bienvenue à Paper Port
+francetv://program/enfants_six-huit-ans_bienvenue-a-paper-port
+#EXTINF:-1 tvg-id="francetv-6337d4dd-5e27-45eb-bac6-d0b0b4f5dd78" tvg-logo="https://medias.france.tv/_x9Yxeu6PTWjrPrp-1F-9fXCflc/400x0/filters:quality(85)/9/n/m/php6xdmn9.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Shaun le mouton : les lamas du fermier — Les lamas du fermier
+francetv://6337d4dd-5e27-45eb-bac6-d0b0b4f5dd78
+#EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_patouille-et-momo" tvg-logo="https://medias.france.tv/SjBYMxO2akXrqGal5WNPR7msvV8/400x0/filters:quality(85)/k/q/k/phpcazkqk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Patouille et Momo
+francetv://program/enfants_trois-cinq-ans_patouille-et-momo
 #EXTINF:-1 tvg-id="francetv-prog-france-4_sous-les-mers" tvg-logo="https://medias.france.tv/-8PklTVrvYEXB29PDi-xYTQ9_xc/400x0/filters:quality(85)/p/l/g/php7t3glp.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Sous les mers
 francetv://program/france-4_sous-les-mers
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_les-etincelles-invisibles" tvg-logo="https://medias.france.tv/fKhx_6p4tgPDn8H8NcKteloI97g/400x0/filters:quality(85)/m/j/x/phpru5xjm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Les étincelles invisibles
-francetv://program/enfants_neuf-douze-ans_les-etincelles-invisibles
+#EXTINF:-1 tvg-id="francetv-prog-france-4_les-mysterieuses-cites-d-or" tvg-logo="https://medias.france.tv/JbBdrFukV8AxTjE8EasLgc4G2_4/400x0/filters:quality(85)/a/h/2/phpunp2ha.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Les mystérieuses cités d'or
+francetv://program/france-4_les-mysterieuses-cites-d-or
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_les-aventures-de-pil" tvg-logo="https://medias.france.tv/lhf0WXt72E6bonmSeDeCtILO6S0/400x0/filters:quality(85)/z/x/u/phpfg9uxz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Les aventures de Pil
+francetv://program/enfants_six-huit-ans_les-aventures-de-pil
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_potobot" tvg-logo="https://medias.france.tv/T6ZvoTuUvc75tOAfb-8mWBPqomQ/400x0/filters:quality(85)/x/k/p/php0gvpkx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Potobot
+francetv://program/enfants_six-huit-ans_potobot
 #EXTINF:-1 tvg-id="francetv-prog-france-4_la-caravane-lumni-conseils-de-lecture" tvg-logo="https://medias.france.tv/EK4PWPgCX7N9yoOYrGJlHXw-ZZQ/400x0/filters:quality(85)/u/0/n/phpcren0u.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La caravane Lumni : conseils de lecture
 francetv://program/france-4_la-caravane-lumni-conseils-de-lecture
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_la-bande-de-coccoloba" tvg-logo="https://medias.france.tv/624Stfm_H4PVu7ySTEH8rHkXKYc/400x0/filters:quality(85)/n/j/p/phpnispjn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - 3-5 ans",La bande de Coccoloba
