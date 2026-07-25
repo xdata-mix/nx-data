@@ -1483,7 +1483,7 @@ https://video1.getstreamhosting.com:1936/8494/8494/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="BblackCaribbean.fr" group-title="France TV backup",Bblack! Caribbean (1080p) [kilirushi]
-https://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
 
 # === Ajouts FR multi-sources : Culture ===
 #EXTINF:-1 tvg-id="APlusIvoire.ci@SD" group-title="Culture",A+ Ivoire (720p)
@@ -5547,4 +5547,4 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/3VqAnqczUVgq/v
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
 http://151.80.18.177:86/LCI_HD/index.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-http://151.80.18.177:86/TMC/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/3VqAnqczUVgq/vGVL2wuFKH8uCmae.m3u8
