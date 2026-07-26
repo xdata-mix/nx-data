@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-ed037ba5-5e55-4af1-a51b-81337bb85987" tvg-logo="https://medias.france.tv/pStsKVSx__hqiDcgO_7r7JorowI/400x0/filters:quality(85)/y/j/k/phpnfckjy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Heureux gagnants
+francetv://ed037ba5-5e55-4af1-a51b-81337bb85987
 #EXTINF:-1 tvg-id="francetv-d1ecbb35-5b12-4db6-a7a1-82d4f65ca9d7" tvg-logo="https://medias.france.tv/RBxD3v6rxxmbjlzN8WOrDEN59pg/400x0/filters:quality(85)/g/y/t/phppautyg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association SPA / Tout le monde contre le cancer
 francetv://d1ecbb35-5b12-4db6-a7a1-82d4f65ca9d7
 #EXTINF:-1 tvg-id="francetv-6ea20379-2e72-4d47-a76b-6d5b82dcc8ec" tvg-logo="https://medias.france.tv/c9aAFeejiGwbMwVvlnnDEYvDW_A/400x0/filters:quality(85)/p/p/o/phpt1copp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les rencontres du Papotin — Yannick Alléno
@@ -777,8 +779,6 @@ francetv://program/france-5_petit-ours-brun
 francetv://program/france-5_silence-ca-pousse
 #EXTINF:-1 tvg-id="francetv-35be22fb-1569-43ff-857c-99bf81defa2e" tvg-logo="https://medias.france.tv/_yXbKUcWO-grE-72pYFxFgnk4vY/400x0/filters:quality(85)/1/v/w/phph4pwv1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'info en continu
 francetv://35be22fb-1569-43ff-857c-99bf81defa2e
-#EXTINF:-1 tvg-id="francetv-006194ea-117d-4bcf-94a9-153d999c59ae" tvg-logo="https://medias.france.tv/yTqFbI3eKt7UVFoRN5wz2HToGyM/400x0/filters:quality(85)/c/m/h/php3gkhmc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Journal week-end — Édition du dimanche 26 juillet 2026
-francetv://006194ea-117d-4bcf-94a9-153d999c59ae
 #EXTINF:-1 tvg-id="francetv-133bc885-93ac-4758-b1da-822207209cfd" tvg-logo="https://medias.france.tv/SUfft5FhNpZ3V_2RqzUR2LN7pNg/400x0/filters:quality(85)/8/k/x/phphrmxk8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Vrai ou faux, l'émission — L’Italie de Meloni, nouvelle meilleure amie de l’Europe ?
 francetv://133bc885-93ac-4758-b1da-822207209cfd
 #EXTINF:-1 tvg-id="francetv-6aee352e-7779-11f1-ae3a-57a09c50f7ce" tvg-logo="https://medias.france.tv/AuIj5gkcWjmCyJHM6IAGZI9auNU/400x0/filters:quality(85)/c/j/w/phpw2gwjc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Monaco : crime en eaux troubles
@@ -2521,6 +2521,8 @@ francetv://program/france-2_laissez-vous-guider
 francetv://program/france-2_13h15-le-samedi
 #EXTINF:-1 tvg-id="francetv-prog-france-2_13h15-le-dimanche" tvg-logo="https://medias.france.tv/s4KJ21fhiSv0T5vQF4pcxxhvgLI/400x0/filters:quality(85)/g/4/s/phpo1ys4g.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Nos émissions",13h15, le dimanche
 francetv://program/france-2_13h15-le-dimanche
+#EXTINF:-1 tvg-id="francetv-ed037ba5-5e55-4af1-a51b-81337bb85987" tvg-logo="https://medias.france.tv/pStsKVSx__hqiDcgO_7r7JorowI/400x0/filters:quality(85)/y/j/k/phpnfckjy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Heureux gagnants
+francetv://ed037ba5-5e55-4af1-a51b-81337bb85987
 #EXTINF:-1 tvg-id="francetv-bc7bac5a-7950-4838-95ff-92c1994bdbbc" tvg-logo="https://medias.france.tv/E2-zz-Lq7yyJLOyAuSrleZQt6nk/400x0/filters:quality(85)/m/2/k/phpodvk2m.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Tip Top
 francetv://bc7bac5a-7950-4838-95ff-92c1994bdbbc
 #EXTINF:-1 tvg-id="francetv-6757e4e6-451c-4494-b5f5-717a8f28fa98" tvg-logo="https://medias.france.tv/3D-XbPMWjNHXhq_gaMhcAe6Sjp4/400x0/filters:quality(85)/u/s/c/phpqimcsu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Eternité
@@ -2811,6 +2813,8 @@ francetv://d9e60c88-20bc-411a-8ec1-dbd1513926cd
 francetv://159fd246-703e-40f4-9d5f-1148210c255b
 #EXTINF:-1 tvg-id="francetv-8833ebf6-7f18-4d32-a6ef-5625ff4cf23d" tvg-logo="https://medias.france.tv/NkUDs_E86-kULgcKal-SSF6Otyw/400x0/filters:quality(85)/3/3/2/fd4d31ab16fa4c92abb1a3cb03516233.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les films d'Arte",Notre Dame
 francetv://8833ebf6-7f18-4d32-a6ef-5625ff4cf23d
+#EXTINF:-1 tvg-id="francetv-ed037ba5-5e55-4af1-a51b-81337bb85987" tvg-logo="https://medias.france.tv/pStsKVSx__hqiDcgO_7r7JorowI/400x0/filters:quality(85)/y/j/k/phpnfckjy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Heureux gagnants
+francetv://ed037ba5-5e55-4af1-a51b-81337bb85987
 #EXTINF:-1 tvg-id="francetv-bc7bac5a-7950-4838-95ff-92c1994bdbbc" tvg-logo="https://medias.france.tv/E2-zz-Lq7yyJLOyAuSrleZQt6nk/400x0/filters:quality(85)/m/2/k/phpodvk2m.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Tip Top
 francetv://bc7bac5a-7950-4838-95ff-92c1994bdbbc
 #EXTINF:-1 tvg-id="francetv-104f3afc-e042-4a00-bd97-b91e6576b888" tvg-logo="https://medias.france.tv/aXMPHnO6Gd7AiF94vClMC_cZWlI/400x0/filters:quality(85)/f/a/z/php2txzaf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",La revanche des Crevettes pailletées
@@ -3159,8 +3163,8 @@ francetv://bc5df088-396d-11f1-ade3-57a09c50f7ce
 francetv://e6a04552-3969-11f1-ade3-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-c478740e-2839-11f1-835a-957ddefc544d" tvg-logo="https://medias.france.tv/2fP1wGstPaXhtCxLcQS-4je2jVs/400x0/filters:quality(85)/9/6/9/7e27f61b04594007aa89c17b1fd05969.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les films du moment","L'avenir" : Son mari lui fait une annonce difficile
 francetv://c478740e-2839-11f1-835a-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-006194ea-117d-4bcf-94a9-153d999c59ae" tvg-logo="https://medias.france.tv/yTqFbI3eKt7UVFoRN5wz2HToGyM/400x0/filters:quality(85)/c/m/h/php3gkhmc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Journal week-end — Édition du dimanche 26 juillet 2026
-francetv://006194ea-117d-4bcf-94a9-153d999c59ae
+#EXTINF:-1 tvg-id="francetv-304b03fa-0c76-4a37-a16d-0f2604c44979" tvg-logo="https://medias.france.tv/d_ChL_Zmel-omJgRcebImj5V0fo/400x0/filters:quality(85)/5/5/5/731ab3e21a3b47d197b9e96550889555.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Journal 20h00 — Édition du dimanche 26 juillet 2026
+francetv://304b03fa-0c76-4a37-a16d-0f2604c44979
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-05c522bf-a1c8-46a3-a583-18847765aece" tvg-logo="https://medias.france.tv/frBsnCzR0sKOlLKjKfUEyva0mQk/400x0/filters:quality(85)/7/0/c/d6757cb3511f45eabb7e96ef575b7c07.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Notre sélection",Je t'aime astral : enquête sur l'Astrolove - Le documentaire
