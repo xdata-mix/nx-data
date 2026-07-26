@@ -11149,16 +11149,16 @@ tf1plus://tf1/creed-3
 tf1plus://tf1/miraculous
 #EXTINF:-1 tvg-id="tf1plus-tf1-jeux-concours-nos-bons-plans-de-la-semaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jeux Concours Nos Bons Plans de la Semaine
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
-#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
-tf1plus://tf1/grands-reportages
 #EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
 tf1plus://tf1/50-mn-inside
+#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
+tf1plus://tf1/grands-reportages
+#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
+tf1plus://tf1/chroniques-criminelles
 #EXTINF:-1 tvg-id="tf1plus-tmc-90-enquetes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",90 Enquetes
 tf1plus://tmc/90-enquetes
 #EXTINF:-1 tvg-id="tf1plus-tfx-appels-urgence" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Appels Urgence
 tf1plus://tfx/appels-urgence
-#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
-tf1plus://tf1/chroniques-criminelles
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-a-tue-le-petit-emile" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui A Tue le Petit Emile
 tf1plus://tf1/qui-a-tue-le-petit-emile
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-faut-il-interdire-le-tourisme" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Faut Il Interdire le Tourisme
@@ -11377,8 +11377,6 @@ tf1plus://tmc/romy-schneider
 tf1plus://tmc/nakache-et-toledano-le-cinema-hors-normes
 #EXTINF:-1 tvg-id="tf1plus-tmc-le-systeme-tom-cruise" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Le Systeme Tom Cruise
 tf1plus://tmc/le-systeme-tom-cruise
-#EXTINF:-1 tvg-id="tf1plus-tf1-lhistoire-secrete-des-inconnus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lhistoire Secrete des Inconnus
-tf1plus://tf1/lhistoire-secrete-des-inconnus
 #EXTINF:-1 tvg-id="tf1plus-tf1-kev-adams-de-lautre-cote-du-miroir" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Kev Adams de Lautre Cote du Miroir
 tf1plus://tf1/kev-adams-de-lautre-cote-du-miroir
 #EXTINF:-1 tvg-id="tf1plus-tmc-taylor-swift-iconique-et-politique" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Taylor Swift Iconique et Politique
@@ -11445,14 +11443,16 @@ tf1plus://tmc/marches-de-noel-et-grands-magasins-dans-les-preparatifs-du-plus-gr
 tf1plus://tmc/cest-pour-demain
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-tsunami-du-siecle" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le Tsunami du Siecle
 tf1plus://tmc/21h-medias-le-tsunami-du-siecle
-#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-dans-le-pre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Dans le Pre
-tf1plus://tf1/lamour-dans-le-pre
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-amour-de-chef" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Amour de Chef
 tf1plus://tf1/un-amour-de-chef
-#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-le-capitaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour le Capitaine
-tf1plus://tf1/coup-de-foudre-pour-le-capitaine
+#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-au-restaurant" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Au Restaurant
+tf1plus://tf1/coup-de-foudre-au-restaurant
+#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-dans-le-pre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Dans le Pre
+tf1plus://tf1/lamour-dans-le-pre
 #EXTINF:-1 tvg-id="tf1plus-tf1-6-secrets-pour-rencontrer-lame-soeur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",6 Secrets Pour Rencontrer Lame Soeur
 tf1plus://tf1/6-secrets-pour-rencontrer-lame-soeur
+#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-le-capitaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour le Capitaine
+tf1plus://tf1/coup-de-foudre-pour-le-capitaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-romance-sans-fin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Romance Sans Fin
 tf1plus://tf1/une-romance-sans-fin
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-big-mountain" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Big Mountain
@@ -11461,8 +11461,6 @@ tf1plus://tf1/coup-de-foudre-a-big-mountain
 tf1plus://tf1/un-coup-de-foudre-en-garde-partagee
 #EXTINF:-1 tvg-id="tf1plus-tf1-romance-a-tribord" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Romance A Tribord
 tf1plus://tf1/romance-a-tribord
-#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-au-restaurant" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Au Restaurant
-tf1plus://tf1/coup-de-foudre-au-restaurant
 #EXTINF:-1 tvg-id="tf1plus-tf1-last-moment-of-clarity" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Last Moment Of Clarity
 tf1plus://tf1/last-moment-of-clarity
 #EXTINF:-1 tvg-id="tf1plus-tf1-lautre-mere-de-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lautre Mere de Ma Fille
@@ -12159,8 +12157,6 @@ tf1plus://tf1/injustice
 tf1plus://tf1/coup-de-foudre-au-ranch
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-oxford" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Oxford
 tf1plus://tf1/coup-de-foudre-a-oxford
-#EXTINF:-1 tvg-id="tf1plus-tf1-une-avalanche-damour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Avalanche Damour
-tf1plus://tf1/une-avalanche-damour
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-bangkok" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Bangkok
 tf1plus://tf1/coup-de-foudre-a-bangkok
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-sur-la-piste-du-tresor" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Sur la Piste du Tresor
@@ -12305,6 +12301,8 @@ tf1plus://tmc/michel-denisot-naime-pas-les-anniversaires
 tf1plus://tf1/nos-voix-pour-toutes
 #EXTINF:-1 tvg-id="tf1plus-tf1-miss-france-2024-une-annee-avec-eve-gilles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Miss France 2024 une Annee Avec Eve Gilles
 tf1plus://tf1/miss-france-2024-une-annee-avec-eve-gilles
+#EXTINF:-1 tvg-id="tf1plus-tf1-lhistoire-secrete-des-inconnus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lhistoire Secrete des Inconnus
+tf1plus://tf1/lhistoire-secrete-des-inconnus
 #EXTINF:-1 tvg-id="tf1plus-tmc-goldmen-jusquau-bout-de-leurs-reves" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Goldmen Jusquau Bout de Leurs Reves
 tf1plus://tmc/goldmen-jusquau-bout-de-leurs-reves
 #EXTINF:-1 tvg-id="tf1plus-tf1-miss-france-2023-un-destin-tout-trace" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Miss France 2023 un Destin Tout Trace
@@ -12603,10 +12601,10 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tmc-lagence-nouvelles-destinations" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Nouvelles Destinations
-tf1plus://tmc/lagence-nouvelles-destinations
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
 tf1plus://tf1/le-grand-concours
+#EXTINF:-1 tvg-id="tf1plus-tmc-lagence-nouvelles-destinations" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Nouvelles Destinations
+tf1plus://tmc/lagence-nouvelles-destinations
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
 tf1plus://tf1/les-douze-coups-de-midi
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
