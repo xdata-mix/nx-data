@@ -1165,7 +1165,7 @@ https://zylo-screamin-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-screami
 #EXTINF:-1 group-title="France TV backup",TRACE BRASIL [schumijo]
 https://trace-brazuca-lg-fr.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-lg-fr/CDN/master.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr@SD" group-title="France TV backup",Africa 24 (1080p) [iptv-org-fr]
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="CGTNFrench.cn@SD" group-title="France TV backup",CGTN Français (1080p) [iptv-org-fra]
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup",Madras FM TV (1080p) [iptv-org-fra]
@@ -5579,4 +5579,8 @@ https://watch.haitilive.net/naktvhd/index.m3u8
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/Flh6GgV3tWKRYRoA.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
-http://151.80.18.177:86/TMC/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/xxYWA7EbL1uked3.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Africa24.fr@SD" group-title="France TV backup",Africa 24 (1080p) [iptv-org-fr]
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
