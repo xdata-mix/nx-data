@@ -269,8 +269,6 @@ tf1plus://tf1/livresse-de-lamour
 tf1plus://tf1/lamour-invincible
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-river-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-1cc3e6-f93a4f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",The River
 tf1plus://tf1/the-river
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-choix-de-lamour-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-72de4d-87c588-44c1ca-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",Le Choix de Lamour
-tf1plus://tf1/le-choix-de-lamour
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-riches-pleurent-aussi-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-956e17-c58084-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",Les Riches Pleurent Aussi
 tf1plus://tf1/les-riches-pleurent-aussi
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-flammes-du-passe-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-les-flammes-du-passe-9fd1ba-5fccb7-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",Les Flammes du Passe
@@ -283,6 +281,8 @@ tf1plus://tf1/teresa
 tf1plus://tfx/les-trois-visages-d-ana
 #EXTINF:-1 tvg-id="tf1plus-tf1-amours-coupables-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-amours-coupables-d4c55e-ddb3df-7cde8c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",Amours Coupables
 tf1plus://tf1/amours-coupables
+#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-a-mort-télénovelas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-d24545-978a7b-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Télénovelas",Lamour A Mort
+tf1plus://tf1/lamour-a-mort
 #EXTINF:-1 tvg-id="tf1plus-tf1-alerte-cobra-séries-étrangères" tvg-logo="https://photos.tf1.fr/217/289/flux-alerte-cobra-vignette_portrait-4ce4bb-29c65e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries étrangères",Alerte Cobra
 tf1plus://tf1/alerte-cobra
 #EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault-séries-étrangères" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-f6797c-939b6c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries étrangères",All Her Fault
@@ -1427,14 +1427,16 @@ tf1plus://tf1/miraculous
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
 tf1plus://tf1/50-mn-inside
-#EXTINF:-1 tvg-id="tf1plus-tfx-camping-cars-les-vacances-de-leur-vie" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Camping Cars les Vacances de Leur Vie
-tf1plus://tfx/camping-cars-les-vacances-de-leur-vie
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
+#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
+tf1plus://tf1/grands-reportages
+#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
+tf1plus://tf1/chroniques-criminelles
 #EXTINF:-1 tvg-id="tf1plus-tmc-90-enquetes" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",90 Enquetes
 tf1plus://tmc/90-enquetes
 #EXTINF:-1 tvg-id="tf1plus-tfx-appels-urgence" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Appels Urgence
 tf1plus://tfx/appels-urgence
-#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
-tf1plus://tf1/chroniques-criminelles
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-a-tue-le-petit-emile" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui A Tue le Petit Emile
 tf1plus://tf1/qui-a-tue-le-petit-emile
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-faut-il-interdire-le-tourisme" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Faut Il Interdire le Tourisme
@@ -1449,8 +1451,8 @@ tf1plus://tmc/desir-ce-que-veulent-les-femmes
 tf1plus://tmc/soiree-transpi-ete-2025-au-camping
 #EXTINF:-1 tvg-id="tf1plus-tfx-vacances-a-chacun-son-style" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Vacances A Chacun Son Style
 tf1plus://tfx/vacances-a-chacun-son-style
-#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
-tf1plus://tf1/grands-reportages
+#EXTINF:-1 tvg-id="tf1plus-tfx-camping-cars-les-vacances-de-leur-vie" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Camping Cars les Vacances de Leur Vie
+tf1plus://tfx/camping-cars-les-vacances-de-leur-vie
 #EXTINF:-1 tvg-id="tf1plus-tmc-parc-asterix-dans-les-coulisses-du-plus-gaulois-des-parcs-dattraction" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Parc Asterix Dans les Coulisses du Plus Gaulois des Parcs Dattraction
 tf1plus://tmc/parc-asterix-dans-les-coulisses-du-plus-gaulois-des-parcs-dattraction
 #EXTINF:-1 tvg-id="tf1plus-tmc-terres-durgence" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Terres Durgence
@@ -1483,8 +1485,6 @@ tf1plus://tf1/paranormal-caught-on-camera
 tf1plus://tf1/le-berger-tueur-en-serie
 #EXTINF:-1 tvg-id="tf1plus-tf1-affaires-classees-lheure-du-jugement" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Affaires Classees Lheure du Jugement
 tf1plus://tf1/affaires-classees-lheure-du-jugement
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-affaires-classees-le-crime-dans-les-genes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Affaires Classees le Crime Dans les Genes
 tf1plus://tf1/affaires-classees-le-crime-dans-les-genes
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-sur-les-routes-de-la-cocaine" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Sur les Routes de la Cocaine
