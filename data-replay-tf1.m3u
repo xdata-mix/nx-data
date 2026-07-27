@@ -1759,8 +1759,16 @@ tf1plus://tf1/une-croisiere-royale
 tf1plus://tf1/une-nouvelle-femme-de-menage
 #EXTINF:-1 tvg-id="tf1plus-tf1-linconnue-dans-le-placard" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Linconnue Dans le Placard
 tf1plus://tf1/linconnue-dans-le-placard
+#EXTINF:-1 tvg-id="tf1plus-tf1-un-vignoble-pour-deux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Vignoble Pour Deux
+tf1plus://tf1/un-vignoble-pour-deux
+#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-comme-chiens-et-chats" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Comme Chiens et Chats
+tf1plus://tf1/lamour-comme-chiens-et-chats
+#EXTINF:-1 tvg-id="tf1plus-tf1-associee-avec-mon-ex" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Associee Avec Mon Ex
+tf1plus://tf1/associee-avec-mon-ex
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
 tf1plus://tf1/a-tes-cotes
+#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-entre-deux-pages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Entre Deux Pages
+tf1plus://tf1/lamour-entre-deux-pages
 #EXTINF:-1 tvg-id="tf1plus-tf1-lamour-au-menu" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Au Menu
 tf1plus://tf1/lamour-au-menu
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-sous-locean" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Sous Locean
@@ -1769,8 +1777,6 @@ tf1plus://tf1/coup-de-foudre-sous-locean
 tf1plus://tf1/la-saison-du-coup-de-foudre
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-la-bachelorette" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour la Bachelorette
 tf1plus://tf1/coup-de-foudre-pour-la-bachelorette
-#EXTINF:-1 tvg-id="tf1plus-tf1-monk-le-retour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Monk le Retour
-tf1plus://tf1/monk-le-retour
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-princesse-et-le-bodyguard" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Princesse et le Bodyguard
 tf1plus://tf1/la-princesse-et-le-bodyguard
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-en-direct" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre En Direct
@@ -1787,12 +1793,6 @@ tf1plus://tf1/mariage-chez-mon-ex
 tf1plus://tf1/coup-de-foudre-a-langlaise
 #EXTINF:-1 tvg-id="tf1plus-tf1-romance-sous-les-tropiques" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Romance Sous les Tropiques
 tf1plus://tf1/romance-sous-les-tropiques
-#EXTINF:-1 tvg-id="tf1plus-tf1-un-coup-de-foudre-malgre-eux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Coup de Foudre Malgre Eux
-tf1plus://tf1/un-coup-de-foudre-malgre-eux
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-maison-sur-la-plage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Maison Sur la Plage
-tf1plus://tf1/la-maison-sur-la-plage
-#EXTINF:-1 tvg-id="tf1plus-tf1-amoureux-malgre-eux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amoureux Malgre Eux
-tf1plus://tf1/amoureux-malgre-eux
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-traque-328" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Traque 328
 tf1plus://tf1/la-traque-328
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-combat-final" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Combat Final
@@ -1859,6 +1859,8 @@ tf1plus://tf1/la-vie-en-miettes
 tf1plus://tf1/a-trois-cest-mieux
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-jour-ou-j-ai-brule-mon-coeur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Jour Ou J Ai Brule Mon Coeur
 tf1plus://tf1/le-jour-ou-j-ai-brule-mon-coeur
+#EXTINF:-1 tvg-id="tf1plus-tf1-amoureux-malgre-eux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amoureux Malgre Eux
+tf1plus://tf1/amoureux-malgre-eux
 #EXTINF:-1 tvg-id="tf1plus-tf1-flirt-et-passe-passe" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Flirt et Passe Passe
 tf1plus://tf1/flirt-et-passe-passe
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-guide-du-celibataire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Guide du Celibataire
@@ -2313,8 +2315,6 @@ tf1plus://tf1/un-amour-de-patisserie
 tf1plus://tf1/mission-bebe
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-tresor-de-bella-vista" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Tresor de Bella Vista
 tf1plus://tf1/le-tresor-de-bella-vista
-#EXTINF:-1 tvg-id="tf1plus-tf1-associee-avec-mon-ex" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Associee Avec Mon Ex
-tf1plus://tf1/associee-avec-mon-ex
 #EXTINF:-1 tvg-id="tf1plus-tf1-coach-en-mariage-et-amoureuse" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coach En Mariage et Amoureuse
 tf1plus://tf1/coach-en-mariage-et-amoureuse
 #EXTINF:-1 tvg-id="tf1plus-tf1-coach-en-mariage-et-celibataire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coach En Mariage et Celibataire
@@ -2325,6 +2325,8 @@ tf1plus://tf1/coup-de-foudre-a-rome
 tf1plus://tf1/coup-de-foudre-arrange
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-set-et-match" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Set et Match
 tf1plus://tf1/coup-de-foudre-set-et-match
+#EXTINF:-1 tvg-id="tf1plus-tf1-monk-le-retour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Monk le Retour
+tf1plus://tf1/monk-le-retour
 #EXTINF:-1 tvg-id="tf1plus-tf1-jeu-mortel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jeu Mortel
 tf1plus://tf1/jeu-mortel
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-mariee-folle-a-lier" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Mariee Folle A Lier
@@ -3029,6 +3031,20 @@ tf1plus://tf1-series-films/rrrrrrr
 tf1plus://tmc/coup-de-foudre-a-notting-hill
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-sms-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8dc400-d4af1e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Sms
 tf1plus://tf1-series-films/sms
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",The Flash
+tf1plus://tf1/the-flash
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ccbf5e-6ed273-dd7845-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Le Transporteur
+tf1plus://tf1/le-transporteur
+#EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Les Cadors
+tf1plus://tfx/les-cadors
+#EXTINF:-1 tvg-id="tf1plus-tf1-supercondriaque-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-supercondriaque-768753-05c56d-66c2c1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Supercondriaque
+tf1plus://tf1/supercondriaque
+#EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Un Indien Dans la Ville
+tf1plus://tf1/un-indien-dans-la-ville
+#EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Sales Gosses
+tf1plus://tmc/sales-gosses
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-sms-les-films-populaires-en-ce-moment" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8dc400-d4af1e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les films populaires en ce moment",Sms
+tf1plus://tf1-series-films/sms
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-bad-guys-promo-flash-de-l'été" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-9d8ba0-84c52e-95d3fe-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Promo Flash de l'été",Les Bad Guys
 tf1plus://tf1/les-bad-guys
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-bad-guys-2-promo-flash-de-l'été" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cc2239-d5db01-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Promo Flash de l'été",Les Bad Guys 2
@@ -3293,8 +3309,8 @@ tf1plus://tf1/le-merveilleux-jardin-secret-de-bella-brown
 tf1plus://tf1/tombe-sur-la-tete
 #EXTINF:-1 tvg-id="tf1plus-tf1-siberia-romance" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-f55111-5a9e6f-36b6e8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Siberia
 tf1plus://tf1/siberia
-#EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-2-il-etait-une-fois-gru-romance" tvg-logo="https://photos.tf1.fr/217/289/parle-avec-elle-1777445368-649939-46fe8f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Les Minions 2 Il Etait une Fois Gru
-tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-romance" tvg-logo="https://photos.tf1.fr/217/289/parle-avec-elle-1777445368-649939-46fe8f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Romance",Le Transporteur
+tf1plus://tf1/le-transporteur
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Les Cadors
 tf1plus://tfx/les-cadors
 #EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Sales Gosses
@@ -3657,8 +3673,8 @@ tf1plus://tf1/miss-sloane
 tf1plus://tf1/red-joan
 #EXTINF:-1 tvg-id="tf1plus-tf1-butterfly-cafe-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-butterfly-cafe-455f90-1d5a1d-a2480e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Butterfly Cafe
 tf1plus://tf1/butterfly-cafe
-#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-contre-scotland-yard-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/margot-va-au-mariage-1782720545-c2e792-cba887-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Fantomas Contre Scotland Yard
-tf1plus://tmc/fantomas-contre-scotland-yard
+#EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/margot-va-au-mariage-1782720545-c2e792-cba887-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Les Cadors
+tf1plus://tfx/les-cadors
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",The Flash
 tf1plus://tf1/the-flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-house-of-time-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-be2e9e-1e12c4-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",House Of Time
