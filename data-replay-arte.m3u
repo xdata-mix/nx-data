@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="arte-048908-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5wbX5PyFZkFTxw9NvkKULC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Duel au soleil — Un western charnel par David O. Selznick
+arte://048908-000-A
 #EXTINF:-1 tvg-id="arte-098367-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/QmcMSqdRiZKwzswZ2efNAi/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Spirit in the Blood — Un coming-of-age sous haute tension
 arte://098367-000-A
 #EXTINF:-1 tvg-id="arte-086891-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ow5Q8wGipcwTWC6UAPfMjN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Le roi des corbeaux — Une vie dans l'ombre
@@ -1851,8 +1853,6 @@ arte://120720-003-A
 arte://120720-005-A
 #EXTINF:-1 tvg-id="arte-120720-006-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3QscxQrE8S7ffsRRkfLdFf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Elizabete Balčus — Europavox Sessions 2024
 arte://120720-006-A
-#EXTINF:-1 tvg-id="arte-132146-024-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/dirk8kThmUxwveLcAbaYFf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Provinz — Southside Festival 2026
-arte://132146-024-A
 #EXTINF:-1 tvg-id="arte-103780-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ZaWxJJVxpF42k58BgkoBSd/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Ostgut Ton depuis la Halle am Berghain — Jour 1
 arte://103780-001-A
 #EXTINF:-1 tvg-id="arte-103780-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/VmHUpX8PciVsvaM6tsFvuS/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Phillip Sollmann X Oren Ambarchi X Konrad Sprenger — Ostgut Ton depuis la Halle am Berghain
@@ -1891,6 +1891,8 @@ arte://120103-009-A
 arte://110120-018-A
 #EXTINF:-1 tvg-id="arte-127633-005-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/xQLMTgRJcheS8gBFAA2X63/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Landmvrks — Les Eurockéennes de Belfort 2025
 arte://127633-005-A
+#EXTINF:-1 tvg-id="arte-126469-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EBo2edK8gFhB3DS9fDEUvQ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Dominik Eulberg — Nature One 2025
+arte://126469-010-A
 #EXTINF:-1 tvg-id="arte-131552-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tKuTtA3y7dEuQzdBiUNpG7/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Mozart : La flûte enchantée — Festival d'Aix-en-Provence 2026
 arte://131552-001-A
 #EXTINF:-1 tvg-id="arte-132672-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/wDi7jdrFEqkyG4wFhpjsnG/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Megadeth — Hellfest 2026
@@ -1937,8 +1939,6 @@ arte://132146-026-A
 arte://132146-007-A
 #EXTINF:-1 tvg-id="arte-132692-048-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/jMPNjMJbPPaArVjc45UK2Y/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",The Offspring — Hellfest 2026
 arte://132692-048-A
-#EXTINF:-1 tvg-id="arte-132146-024-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/dirk8kThmUxwveLcAbaYFf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Provinz — Southside Festival 2026
-arte://132146-024-A
 #EXTINF:-1 tvg-id="arte-132146-011-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/TNYBVGCnAnATcTanTrJ3iT/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Kraftklub — Southside Festival 2026
 arte://132146-011-A
 #EXTINF:-1 tvg-id="arte-132146-008-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/6LK9VDy8CXUnfght8CByZ9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",The Beaches — Southside Festival 2026
@@ -2111,6 +2111,8 @@ arte://126487-001-A
 arte://105870-000-A
 #EXTINF:-1 tvg-id="arte-091880-012-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/hmwUmmRgG5J6mCvWskd7J9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",TAPE : Lady Gaga
 arte://091880-012-A
+#EXTINF:-1 tvg-id="arte-132146-024-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/dirk8kThmUxwveLcAbaYFf/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Provinz — Southside Festival 2026
+arte://132146-024-A
 #EXTINF:-1 tvg-id="arte-091880-015-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ycv3znwy5WoVs88dGanfs9/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",TAPE : Nick Cave
 arte://091880-015-A
 #EXTINF:-1 tvg-id="arte-101309-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/UBFCZJoCbYXnXj74eqov6n/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Christine and the Queens dans l'église Saint-Pierre de Thaon — Passengers
@@ -2165,8 +2167,6 @@ arte://120066-000-A
 arte://120093-000-A
 #EXTINF:-1 tvg-id="arte-096889-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/W5xcpWBPdJ9qY6kwMpXxJn/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",LAAKE — Piano Day 2020
 arte://096889-004-A
-#EXTINF:-1 tvg-id="arte-091880-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qUyiVCcAPGLwPuMV4rWLwV/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",TAPE : Mariah Carey
-arte://091880-003-A
 #EXTINF:-1 tvg-id="arte-113619-008-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EG4Vr7rrvvCXcWGoUVoG9j/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Nalla, Samayusi et Ceylon — Laser Disc en public
 arte://113619-008-A
 #EXTINF:-1 tvg-id="arte-124007-003-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/XPdo3AUYEbXsdAVLapoEE6/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Pop & Rock",Carpetman — ESNS 2025
