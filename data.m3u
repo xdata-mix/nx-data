@@ -5561,7 +5561,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/xx
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/w9XK0OsTWWcerRZx.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup",TMC (1080p) [iptv-org-fr]
@@ -5569,7 +5569,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/xx
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
-http://145.239.5.177/359a/index.m3u8
+https://jmp2.uk/stvp-FRBC3900004DS
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="NetalkoleTV.ht@SD" group-title="Généralistes",NETALKOLE TV (720p) [Not 24/7]
@@ -5584,3 +5584,9 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Ai3vDnKITLE/xx
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Africa24.fr@SD" group-title="France TV backup",Africa 24 (1080p) [iptv-org-fr]
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
+http://145.239.5.177/359a/index.m3u8
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
