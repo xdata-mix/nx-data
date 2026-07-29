@@ -2875,16 +2875,16 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
-tf1plus://tf1/le-grand-concours
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
-tf1plus://tf1/les-douze-coups-de-midi
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
 tf1plus://tf1/le-dernier-cercle
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
+tf1plus://tf1/les-douze-coups-de-midi
 #EXTINF:-1 tvg-id="tf1plus-tf1-4-mariages-pour-une-lune-de-miel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",4 Mariages Pour une Lune de Miel
 tf1plus://tf1/4-mariages-pour-une-lune-de-miel
 #EXTINF:-1 tvg-id="tf1plus-tmc-ahmed-sylla-different" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Ahmed Sylla Different
 tf1plus://tmc/ahmed-sylla-different
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
+tf1plus://tf1/le-grand-concours
 #EXTINF:-1 tvg-id="tf1plus-tmc-anne-roumanoff-lexperience-de-la-vie" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Anne Roumanoff Lexperience de la Vie
 tf1plus://tmc/anne-roumanoff-lexperience-de-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-koh-lanta" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Koh Lanta
@@ -3091,6 +3091,8 @@ tf1plus://tf1/comme-des-betes-2
 tf1plus://tf1/tous-en-scene-952
 #EXTINF:-1 tvg-id="tf1plus-tf1-tous-en-scene-2-466-promo-flash-de-l'été" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-2da43f-52461c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Promo Flash de l'été",Tous En Scene 2 466
 tf1plus://tf1/tous-en-scene-2-466
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-monnaie-de-leur-piece-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-eb5e63-cd5f04-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",La Monnaie de Leur Piece
 tf1plus://tf1-series-films/la-monnaie-de-leur-piece
 #EXTINF:-1 tvg-id="tf1plus-tfx-arthur-et-les-minimoys-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-80fcb6-a4693c-a98d80-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Arthur et les Minimoys
@@ -3123,8 +3125,6 @@ tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
 tf1plus://tf1-series-films/rrrrrrr
 #EXTINF:-1 tvg-id="tf1plus-tfx-debarquement-immediat-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-1-a3db80-5bdd47-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Debarquement Immediat
 tf1plus://tfx/debarquement-immediat
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-kings-daughter-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-32fac9-79fec5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",The Kings Daughter
 tf1plus://tf1/the-kings-daughter
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-redemption-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b8f4a8-f5b922-4a50f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Sélection de la semaine",Pop Redemption
@@ -3169,8 +3169,6 @@ tf1plus://tf1/le-mage-du-kremlin
 tf1plus://tf1/sur-un-air-de-blues
 #EXTINF:-1 tvg-id="tf1plus-tf1-bob-leponge-le-film-un-pour-tous-tous-pirates-911-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-e27609-07bd00-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Bob Leponge le Film un Pour Tous Tous Pirates 911
 tf1plus://tf1/bob-leponge-le-film-un-pour-tous-tous-pirates-911
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Rrrrrrr
 tf1plus://tf1-series-films/rrrrrrr
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",The Flash
@@ -3287,6 +3285,8 @@ tf1plus://tmc/fantomas
 tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-contre-scotland-yard-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-23f901-12a9d7-b8b2d1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas Contre Scotland Yard
 tf1plus://tmc/fantomas-contre-scotland-yard
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-kings-daughter-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-32fac9-79fec5-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",The Kings Daughter
 tf1plus://tf1/the-kings-daughter
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",La Plus Belle Pour Aller Danser
@@ -3325,6 +3325,8 @@ tf1plus://tf1/siberia
 tf1plus://tf1/le-transporteur
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-cadors-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-508f73-4e8996-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Les Cadors
 tf1plus://tfx/les-cadors
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
 #EXTINF:-1 tvg-id="tf1plus-tmc-sales-gosses-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sales-gosses-814b89-295757-a6dd28-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Sales Gosses
 tf1plus://tmc/sales-gosses
 #EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Connasse Princesse des Coeurs
@@ -3347,8 +3349,6 @@ tf1plus://tf1-series-films/le-cactus
 tf1plus://tf1/supercondriaque
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-rrrrrrr-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-13a0ce-b82b84-2e87fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Rrrrrrr
 tf1plus://tf1-series-films/rrrrrrr
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tfx-rupture-pour-tous-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-rupturepour-224185-5229aa-7cd01e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Rupture Pour Tous
 tf1plus://tfx/rupture-pour-tous
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-sms-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8dc400-d4af1e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Comédies",Sms
@@ -3549,8 +3549,6 @@ tf1plus://tf1/tell-it-like-a-woman
 tf1plus://tfx/connasse-princesse-des-coeurs
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Coup de Foudre A Notting Hill
 tf1plus://tmc/coup-de-foudre-a-notting-hill
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-chloe-and-theo-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-chloe-et-theo-7cdf35-9954c5-956c68-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",Chloe And Theo
 tf1plus://tf1/chloe-and-theo
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-entre-filles" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre filles",La Plus Belle Pour Aller Danser
@@ -3603,6 +3601,8 @@ tf1plus://tfx/les-cadors
 tf1plus://tfx/debarquement-immediat
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-sms-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8dc400-d4af1e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Sms
 tf1plus://tf1-series-films/sms
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
 #EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Connasse Princesse des Coeurs
 tf1plus://tfx/connasse-princesse-des-coeurs
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-redemption-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b8f4a8-f5b922-4a50f8-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Pop Redemption
@@ -3625,12 +3625,10 @@ tf1plus://tfx/le-boulet
 tf1plus://tf1/un-homme-et-son-chien
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-pigeon-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-ce41b8-17cfeb-2957b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Le Pigeon
 tf1plus://tf1/le-pigeon
-#EXTINF:-1 tvg-id="tf1plus-tf1-beaute-fatale-cinéma-français" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-25812e-ff2bbe-d60102-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Cinéma français",Beaute Fatale
-tf1plus://tf1/beaute-fatale
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-plus-belle-pour-aller-danser-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-4ff37d-9919bf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",La Plus Belle Pour Aller Danser
 tf1plus://tf1-series-films/la-plus-belle-pour-aller-danser
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-minions-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cd1adc-063aed-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Les Minions
 tf1plus://tmc/les-minions
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash-ados" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-a713d6-9bb378-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",The Flash
@@ -3685,8 +3683,6 @@ tf1plus://tf1/tell-it-like-a-woman
 tf1plus://tf1/the-kings-daughter
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Coup de Foudre A Notting Hill
 tf1plus://tmc/coup-de-foudre-a-notting-hill
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-chloe-and-theo-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-chloe-et-theo-7cdf35-9954c5-956c68-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Chloe And Theo
 tf1plus://tf1/chloe-and-theo
 #EXTINF:-1 tvg-id="tf1plus-tf1-above-the-shadow-casting-de-stars" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-8b3ab7-1471e1-d1b58b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Casting de stars",Above The Shadow
@@ -3707,8 +3703,6 @@ tf1plus://tf1/the-recall
 tf1plus://tf1/mutant-legacy
 #EXTINF:-1 tvg-id="tf1plus-tf1-premier-contact-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-00ba27-283ef8-3da783-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",Premier Contact
 tf1plus://tf1/premier-contact
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-et-lhomme-crea-la-femme-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-6dea77-f26ec1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",Et Lhomme Crea la Femme
-tf1plus://tf1-series-films/et-lhomme-crea-la-femme
 #EXTINF:-1 tvg-id="tf1plus-tf1-above-the-shadow-science-fiction" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-8b3ab7-1471e1-d1b58b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Science-fiction",Above The Shadow
 tf1plus://tf1/above-the-shadow
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-toutes-les-deux-les-courts-métrages" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-19a5e3-6be4c3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les courts-métrages",Toutes les Deux
