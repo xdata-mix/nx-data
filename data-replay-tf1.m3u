@@ -1031,10 +1031,6 @@ tf1plus://tf1/france-kbek
 tf1plus://tf1/enquete-en-famille
 #EXTINF:-1 tvg-id="tf1plus-tf1-hp-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b88cff-3fe622-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Hp
 tf1plus://tf1/hp
-#EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
-tf1plus://tf1/dr-house
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
-tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
 tf1plus://tf1/indefendable
 #EXTINF:-1 tvg-id="tf1plus-tf1-jikulumessu-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-b6e1ed-aba12f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Jikulumessu
@@ -1053,6 +1049,10 @@ tf1plus://tf1/pour-lamour-de-louisa
 tf1plus://tf1/the-river
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-famille-pas-si-parfaite-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-ec0b12-05ccfa-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Une Famille Pas Si Parfaite
 tf1plus://tf1/une-famille-pas-si-parfaite
+#EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
+tf1plus://tf1/dr-house
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
+tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-esprits-criminels-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-24f61d-976963-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Esprits Criminels
 tf1plus://tf1/esprits-criminels
 #EXTINF:-1 tvg-id="tf1plus-tfx-nicky-larson-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nicky-larson-e12172-47b714-f2cfaf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Nicky Larson
@@ -1391,14 +1391,14 @@ tf1plus://tf1/all-her-fault
 tf1plus://tf1/la-vengeance-aux-yeux-clairs
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-coeurs-brules" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Coeurs Brules
 tf1plus://tf1/les-coeurs-brules
+#EXTINF:-1 tvg-id="tf1plus-tf1-amour-gloire-et-beaute" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amour Gloire et Beaute
+tf1plus://tf1/amour-gloire-et-beaute
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-feux-de-l-amour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Feux de L Amour
 tf1plus://tf1/les-feux-de-l-amour
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-moderna" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Moderna
 tf1plus://tf1/la-moderna
 #EXTINF:-1 tvg-id="tf1plus-tf1-mighty-express" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mighty Express
 tf1plus://tf1/mighty-express
-#EXTINF:-1 tvg-id="tf1plus-tf1-amour-gloire-et-beaute" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amour Gloire et Beaute
-tf1plus://tf1/amour-gloire-et-beaute
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -3207,6 +3207,10 @@ tf1plus://tf1-series-films/le-jeu-de-la-verite
 tf1plus://tfx/debarquement-immediat
 #EXTINF:-1 tvg-id="tf1plus-tmc-coup-de-foudre-a-notting-hill-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d02a82-4bba0d-93c0b2-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Coup de Foudre A Notting Hill
 tf1plus://tmc/coup-de-foudre-a-notting-hill
+#EXTINF:-1 tvg-id="tf1plus-tf1-6-bullets-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d3741d-5bf362-011a7c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",6 Bullets
+tf1plus://tf1/6-bullets
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-sang-du-cartel-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-f11559-7c2798-ea2b0c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Le Sang du Cartel
+tf1plus://tf1/le-sang-du-cartel
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2-action" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-175ec7-557e6f-74f66e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Le Transporteur 2
 tf1plus://tf1/le-transporteur-2
 #EXTINF:-1 tvg-id="tf1plus-tmc-le-flic-de-belleville-action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-905921-ad5692-0f7f25-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Action",Le Flic de Belleville
@@ -3505,6 +3509,8 @@ tf1plus://tfx/debarquement-immediat
 tf1plus://tf1/jiu-jitsu
 #EXTINF:-1 tvg-id="tf1plus-tf1-wake-up-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-bf942d-221b8e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Wake Up
 tf1plus://tf1/wake-up
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-sang-du-cartel-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-f11559-7c2798-ea2b0c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Le Sang du Cartel
+tf1plus://tf1/le-sang-du-cartel
 #EXTINF:-1 tvg-id="tf1plus-tf1-michel-vaillant-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-michelvaill-4dbc17-4f4579-76e76b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Michel Vaillant
 tf1plus://tf1/michel-vaillant
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-combattant-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b6a309-504c43-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Le Combattant
