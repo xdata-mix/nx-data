@@ -19,6 +19,8 @@ arte://130432-041-A
 arte://130432-031-A
 #EXTINF:-1 tvg-id="arte-130432-018-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/pYnjTqW8MwxcwRw8iMoaGH/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Face à l'Histoire : le Péplum — Blow up examine les rapports entre cinéma et Histoire
 arte://130432-018-A
+#EXTINF:-1 tvg-id="arte-092080-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/EWU3UayuKX9njkyaaH7qqE/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Nature morte
+arte://092080-000-A
 #EXTINF:-1 tvg-id="arte-120929-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/WKjeYy9RLZZdbTWVLevicY/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Heart Fruit
 arte://120929-000-A
 #EXTINF:-1 tvg-id="arte-067728-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/UjJruPKrc5MSZZbXxwH5oT/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Ten Meter Tower — Hopptornet
@@ -163,8 +165,6 @@ arte://122631-066-A
 arte://122631-067-A
 #EXTINF:-1 tvg-id="arte-113631-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/CdhiJmk98o5Xm9xVignxu7/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Conversation avec Wang Bing autour du film "Jeunesse (Le printemps)"
 arte://113631-001-A
-#EXTINF:-1 tvg-id="arte-122631-063-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/APeSg5MDYvRRYGNTZcaNtM/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",John Lennon au cinéma — Blow up
-arte://122631-063-A
 #EXTINF:-1 tvg-id="arte-122631-064-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/JP9yUU7LkX7Zg86k5ibDKN/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Jean Seberg par Laetitia Masson — Blow up
 arte://122631-064-A
 #EXTINF:-1 tvg-id="arte-122631-065-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/RphLakosHk3dUm7kuVgUd/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Les B.O. de Martial Solal — Blow up
@@ -333,8 +333,6 @@ arte://098883-000-A
 arte://112557-075-A
 #EXTINF:-1 tvg-id="arte-122631-018-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/xjyuBbPsGo98EUsTSMQHfG/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",C'était quoi Michel Blanc ? — Blow up
 arte://122631-018-A
-#EXTINF:-1 tvg-id="arte-112557-041-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ZjcswEzVS3MnG2wUcHxcFT/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Cinéma",Face à l'Histoire : Stanley Kubrick — Blow up
-arte://112557-041-A
 #EXTINF:-1 tvg-id="arte-RC-021279" tvg-logo="https://api-cdn.arte.tv/img/v2/image/XmaYwXaHrSqzPg59fKFXGb/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Happiness — Après le road-trip, l'arrivée en France
 arte://RC-021279
 #EXTINF:-1 tvg-id="arte-RC-022404" tvg-logo="https://api-cdn.arte.tv/img/v2/image/W8tWvJzCduqHTeFNRAuKfR/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Brigade Mobile — Drôles de flics en avant-poste
@@ -679,12 +677,10 @@ arte://126925-058-A
 arte://106119-003-A
 #EXTINF:-1 tvg-id="arte-RC-014085" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qiZv3KSnSSp6esFa6VrA56/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal — Le JT de l'actualité internationale
 arte://RC-014085
-#EXTINF:-1 tvg-id="arte-131284-109-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/uAQTkncfELxDciiG4TDpGd/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Est-ce que les feux de forêts viennent vraiment plus tôt ? — Espoir en Espagne, reprise des feux en France
-arte://131284-109-A
-#EXTINF:-1 tvg-id="arte-131284-095-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/LrjyYrB5caTsVBK4Wrr8h6/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Pourquoi l'Amérique latine bascule à (l'extrême) droite ? — Keiko Fujimori prend ses fonctions de présidente au Pérou
-arte://131284-095-A
-#EXTINF:-1 tvg-id="arte-114573-005-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kwd3xgf9NjneiQbA9uU5C/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Chypre : l'île de la division — Le patron de l'ONU à Chypre pour renouer le dialogue
-arte://114573-005-A
+#EXTINF:-1 tvg-id="arte-121620-152-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/pUwyeCZvTjQZyCXFBgT796/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Ukraine : Zelensky sous pression — Retour en grâce à la Maison blanche ?
+arte://121620-152-A
+#EXTINF:-1 tvg-id="arte-131284-119-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/9QaKkCBs6uDVXpZBMXPfMU/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Pourquoi un pont est au cœur des tensions entre le Canada et les États-Unis ? — Un symbole abîmé par la guerre commerciale de Trump
+arte://131284-119-A
 #EXTINF:-1 tvg-id="arte-125533-026-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/2c4wHUBt9BSCDY6qdQ7CNV/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",De Bolsonaro à Lula : quel Brésil ? — Flavio Bolsonaro lance sa campagne
 arte://125533-026-A
 #EXTINF:-1 tvg-id="arte-131284-118-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/PGgkbL2CDzd2H4eGEmtxad/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Pourquoi les IA sont-elles de plus en plus incontrôlables ?
@@ -1611,8 +1607,6 @@ arte://124007-001-A
 arte://130222-008-A
 #EXTINF:-1 tvg-id="arte-130501-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/eCaNM8W9hgP2uUoVbcBd6h/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte À voir en famille",Grande finale du Prix de Lausanne — Découvrez les lauréat du concours !
 arte://130501-014-A
-#EXTINF:-1 tvg-id="arte-133227-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ocMXSGRtcbTsZTADkaxfoD/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Sara Landry — La "grande prêtresse" de la hard dance au Sónar 2026
-arte://133227-010-A
 #EXTINF:-1 tvg-id="arte-132908-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/aZ9SgEXtnccKxMYFrmZXiC/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Vivaldi avec Lea Desandre — En direct du Festival de Salzbourg 2026
 arte://132908-000-A
 #EXTINF:-1 tvg-id="arte-133225-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qYWUqLHG78cNvKturUcWZX/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Concert - Tous les concerts",Nature One 2026 — Jour 1 en direct
