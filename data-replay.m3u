@@ -19941,6 +19941,8 @@ francetv://program/franceinfo_24h-politique-edito
 francetv://program/franceinfo_8-30-franceinfo
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_8h30-fauvelle" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",8h30 Fauvelle
 francetv://program/franceinfo_8h30-fauvelle
+#EXTINF:-1 tvg-id="francetv-prog-franceinfo_8h30-franceinfo" tvg-logo="https://medias.france.tv/7XIgthM4_pYqlVz8PaKbHuon_mo/400x0/filters:quality(85)/p/w/t/phpzhptwp.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",8h30 franceinfo
+francetv://program/franceinfo_8h30-franceinfo
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_8h30-politique" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",8h30 politique
 francetv://program/franceinfo_8h30-politique
 #EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-origine" tvg-logo="https://medias.france.tv/-hG3bIIpBUA2WgtmYLRD3dspYfQ/400x0/filters:quality(85)/b/u/m/phpgupmub.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",A l'origine
@@ -19955,8 +19957,6 @@ francetv://program/franceinfo_au-coeur-de-l-info
 francetv://program/franceinfo_au-coeur-de-l-info-week-end
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_autrement-dit" tvg-logo="https://medias.france.tv/NzE2qnGMzDQAyBq6bUzuV74piAU/400x0/filters:quality(85)/5/g/r/phpfksrg5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Autrement dit
 francetv://program/franceinfo_autrement-dit
-#EXTINF:-1 tvg-id="francetv-prog-franceinfo_brut-l-emission" tvg-logo="https://medias.france.tv/UCzkoZvcdUPdGGw90mjCuOUgw54/400x0/filters:quality(85)/e/c/4/12631ed82d324dd1bb402dac921a622479f27fa49a553a5add9d0e7393b884ce.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Brut, l'émission
-francetv://program/franceinfo_brut-l-emission
 #EXTINF:-1 tvg-id="francetv-prog-slash_ballroom-danser-pour-exister" tvg-logo="https://medias.france.tv/YpNWvLaqidL0sietH5fLYymHtt0/400x0/filters:quality(85)/k/i/z/phpvzhzik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Ballroom, danser pour exister
 francetv://program/slash_ballroom-danser-pour-exister
 #EXTINF:-1 tvg-id="francetv-prog-france-2_drag-race-france" tvg-logo="https://medias.france.tv/MlYuKGsIqXceFhBYnQxJCXvglD8/400x0/filters:quality(85)/l/y/4/php5hz4yl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Drag Race France
