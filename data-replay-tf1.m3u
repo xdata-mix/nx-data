@@ -73,6 +73,8 @@ tf1plus://tf1/les-ombres-rouges
 tf1plus://tf1/debris
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-dentiste-boucher-aux-300-victimes-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-1-14116d-f2a47e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Le Dentiste Boucher Aux 300 Victimes
 tf1plus://tf1/le-dentiste-boucher-aux-300-victimes
+#EXTINF:-1 tvg-id="tf1plus-tf1-rien-ne-tefface-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-rien-ne-tefface-a10443-4c5a91-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Rien Ne Tefface
+tf1plus://tf1/rien-ne-tefface
 #EXTINF:-1 tvg-id="tf1plus-tf1-quai-numero-7-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-cc9cfa-5c06dd-178f7e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Quai Numero 7
 tf1plus://tf1/quai-numero-7
 #EXTINF:-1 tvg-id="tf1plus-tf1-flash-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b9b7ac-17086c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Flash
@@ -103,8 +105,6 @@ tf1plus://tf1/les-freres-scott
 tf1plus://tf1/une-famille-pas-si-parfaite
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-moderna-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-la-moderna-bceea1-489a3c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",La Moderna
 tf1plus://tf1/la-moderna
-#EXTINF:-1 tvg-id="tf1plus-tf1-jikulumessu-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-b6e1ed-aba12f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Jikulumessu
-tf1plus://tf1/jikulumessu
 #EXTINF:-1 tvg-id="tf1plus-tf1-all-her-fault-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-f6797c-939b6c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",All Her Fault
 tf1plus://tf1/all-her-fault
 #EXTINF:-1 tvg-id="tf1plus-tf1-flynn-carson-et-les-nouveaux-aventuriers-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-d5a837-630136-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Flynn Carson et les Nouveaux Aventuriers
@@ -1051,6 +1051,8 @@ tf1plus://tf1/le-dentiste-boucher-aux-300-victimes
 tf1plus://tfx/les-filles-d-a-cote
 #EXTINF:-1 tvg-id="tf1plus-tf1-pour-lamour-de-louisa-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-fb2408-48a73d-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Pour Lamour de Louisa
 tf1plus://tf1/pour-lamour-de-louisa
+#EXTINF:-1 tvg-id="tf1plus-tf1-rien-ne-tefface-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-rien-ne-tefface-a10443-4c5a91-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Rien Ne Tefface
+tf1plus://tf1/rien-ne-tefface
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-river-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-1cc3e6-f93a4f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",The River
 tf1plus://tf1/the-river
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-village-francais-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2d0f23-d26fef-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Un Village Francais
@@ -1381,6 +1383,8 @@ tf1plus://tf1/le-choix-de-juana
 tf1plus://tf1/camping-paradis
 #EXTINF:-1 tvg-id="tf1plus-tf1-amour-gloire-et-beaute" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amour Gloire et Beaute
 tf1plus://tf1/amour-gloire-et-beaute
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-feux-de-l-amour" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Feux de L Amour
+tf1plus://tf1/les-feux-de-l-amour
 #EXTINF:-1 tvg-id="tf1plus-tf1-rebecca" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Rebecca
 tf1plus://tf1/rebecca
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-nouvelles-destinations" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Nouvelles Destinations
@@ -1389,16 +1393,14 @@ tf1plus://tmc/lagence-nouvelles-destinations
 tf1plus://tf1/les-familles-nombreuses-la-vie-en-xxl
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Transporteur 2
 tf1plus://tf1/le-transporteur-2
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
+#EXTINF:-1 tvg-id="tf1plus-tf1-tintin-et-les-oranges-bleues" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tintin et les Oranges Bleues
+tf1plus://tf1/tintin-et-les-oranges-bleues
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-trois-visages-d-ana" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Les Trois Visages D Ana
 tf1plus://tfx/les-trois-visages-d-ana
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-flash" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Flash
 tf1plus://tf1/the-flash
-#EXTINF:-1 tvg-id="tf1plus-tf1-mensonges" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mensonges
-tf1plus://tf1/mensonges
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-aux-yeux-clairs" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Vengeance Aux Yeux Clairs
-tf1plus://tf1/la-vengeance-aux-yeux-clairs
-#EXTINF:-1 tvg-id="tf1plus-tf1-une-chance-de-trop" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Chance de Trop
-tf1plus://tf1/une-chance-de-trop
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fire Country
 tf1plus://tf1/fire-country
 #EXTINF:-1 tvg-id="tf1plus-tmc-lagence-limmobilier-de-luxe-en-famille" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Lagence Limmobilier de Luxe En Famille
@@ -1735,16 +1737,18 @@ tf1plus://tf1/lamour-entre-deux-pages
 tf1plus://tf1/prince-charmant-cherche-maison
 #EXTINF:-1 tvg-id="tf1plus-tf1-associee-avec-mon-ex" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Associee Avec Mon Ex
 tf1plus://tf1/associee-avec-mon-ex
+#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-comme-chiens-et-chats" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Comme Chiens et Chats
+tf1plus://tf1/lamour-comme-chiens-et-chats
 #EXTINF:-1 tvg-id="tf1plus-tf1-last-moment-of-clarity" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Last Moment Of Clarity
 tf1plus://tf1/last-moment-of-clarity
-#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-au-restaurant" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Au Restaurant
-tf1plus://tf1/coup-de-foudre-au-restaurant
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-princesse-et-le-bodyguard" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Princesse et le Bodyguard
+tf1plus://tf1/la-princesse-et-le-bodyguard
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-dune-orpheline" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Vengeance Dune Orpheline
 tf1plus://tf1/la-vengeance-dune-orpheline
 #EXTINF:-1 tvg-id="tf1plus-tf1-lautre-mere-de-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lautre Mere de Ma Fille
 tf1plus://tf1/lautre-mere-de-ma-fille
-#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-le-capitaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour le Capitaine
-tf1plus://tf1/coup-de-foudre-pour-le-capitaine
+#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-au-restaurant" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Au Restaurant
+tf1plus://tf1/coup-de-foudre-au-restaurant
 #EXTINF:-1 tvg-id="tf1plus-tf1-sous-lemprise-du-peche" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sous Lemprise du Peche
 tf1plus://tf1/sous-lemprise-du-peche
 #EXTINF:-1 tvg-id="tf1plus-tf1-mariage-a-lindienne" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mariage A Lindienne
@@ -1785,8 +1789,6 @@ tf1plus://tf1/linconnue-dans-le-placard
 tf1plus://tf1/comme-mon-fils
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-vignoble-pour-deux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Vignoble Pour Deux
 tf1plus://tf1/un-vignoble-pour-deux
-#EXTINF:-1 tvg-id="tf1plus-tf1-lamour-comme-chiens-et-chats" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lamour Comme Chiens et Chats
-tf1plus://tf1/lamour-comme-chiens-et-chats
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
 tf1plus://tf1/a-tes-cotes
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-romance-sans-fin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Romance Sans Fin
@@ -1803,8 +1805,6 @@ tf1plus://tf1/coup-de-foudre-sous-locean
 tf1plus://tf1/la-saison-du-coup-de-foudre
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-la-bachelorette" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour la Bachelorette
 tf1plus://tf1/coup-de-foudre-pour-la-bachelorette
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-princesse-et-le-bodyguard" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Princesse et le Bodyguard
-tf1plus://tf1/la-princesse-et-le-bodyguard
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-en-direct" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre En Direct
 tf1plus://tf1/coup-de-foudre-en-direct
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-tresor-de-dolphin-bay" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Tresor de Dolphin Bay
@@ -1825,6 +1825,8 @@ tf1plus://tf1/hold-up
 tf1plus://tf1/sentinelle-744
 #EXTINF:-1 tvg-id="tf1plus-tf1-sharknado-6-le-dernier-sharknado" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sharknado 6 le Dernier Sharknado
 tf1plus://tf1/sharknado-6-le-dernier-sharknado
+#EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-pour-le-capitaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre Pour le Capitaine
+tf1plus://tf1/coup-de-foudre-pour-le-capitaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-traque-328" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Traque 328
 tf1plus://tf1/la-traque-328
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-combat-final" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Combat Final
@@ -1845,20 +1847,20 @@ tf1plus://tf1/la-traque-du-diable
 tf1plus://tf1/le-pacte-des-copines
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-sang-de-la-redemption-blood-of-redemption" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Sang de la Redemption Blood Of Redemption
 tf1plus://tf1/le-sang-de-la-redemption-blood-of-redemption
-#EXTINF:-1 tvg-id="tf1plus-tf1-l-emprise" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",L Emprise
-tf1plus://tf1/l-emprise
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-meurtre-presque-parfait" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Meurtre Presque Parfait
 tf1plus://tf1/un-meurtre-presque-parfait
+#EXTINF:-1 tvg-id="tf1plus-tf1-l-emprise" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",L Emprise
+tf1plus://tf1/l-emprise
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-part-du-soupcon" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Part du Soupcon
 tf1plus://tf1/la-part-du-soupcon
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-saint-petersbourg" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Saint Petersbourg
 tf1plus://tf1/coup-de-foudre-a-saint-petersbourg
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-client" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Client
 tf1plus://tf1/le-client
-#EXTINF:-1 tvg-id="tf1plus-tf1-papa-malgre-lui" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Papa Malgre Lui
-tf1plus://tf1/papa-malgre-lui
 #EXTINF:-1 tvg-id="tf1plus-tf1-harceles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Harceles
 tf1plus://tf1/harceles
+#EXTINF:-1 tvg-id="tf1plus-tf1-papa-malgre-lui" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Papa Malgre Lui
+tf1plus://tf1/papa-malgre-lui
 #EXTINF:-1 tvg-id="tf1plus-tf1-entre-ses-mains" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Entre Ses Mains
 tf1plus://tf1/entre-ses-mains
 #EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
@@ -2625,16 +2627,16 @@ tf1plus://tfx/tricheurs
 tf1plus://tfx/la-bataille-la-malediction-de-lile
 #EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres
 tf1plus://tfx/mamans-et-celebres
-#EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
-tf1plus://tfx/time-to-love
 #EXTINF:-1 tvg-id="tf1plus-tf1-million-dollar-weekend" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Million Dollar Weekend
 tf1plus://tf1/million-dollar-weekend
+#EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
+tf1plus://tfx/time-to-love
 #EXTINF:-1 tvg-id="tf1plus-tfx-hillary-et-giovanni-le-mariage" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Hillary et Giovanni le Mariage
 tf1plus://tfx/hillary-et-giovanni-le-mariage
-#EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
-tf1plus://tf1/house-of-ho
 #EXTINF:-1 tvg-id="tf1plus-tf1-sell-this-house" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sell This House
 tf1plus://tf1/sell-this-house
+#EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
+tf1plus://tf1/house-of-ho
 #EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres-fetent-noel" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres Fetent Noel
 tf1plus://tfx/mamans-et-celebres-fetent-noel
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-20-ans-de-la-telerealite" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les 20 Ans de la Telerealite
