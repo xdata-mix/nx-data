@@ -55,8 +55,6 @@ tf1plus://tf1/all-her-fault
 tf1plus://tf1/zodiaque-176
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-paradis-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-cc3913-73e9c3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Camping Paradis
 tf1plus://tf1/camping-paradis
-#EXTINF:-1 tvg-id="tf1plus-tf1-flash-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-3-855d9c-a4824f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Flash
-tf1plus://tf1/flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-beverly-hills-90210-top-10" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-54a42b-897f31-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Beverly Hills 90210
 tf1plus://tf1/beverly-hills-90210
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",New York Unite Speciale
@@ -69,6 +67,8 @@ tf1plus://tf1/le-choix-de-juana
 tf1plus://tf1/falco
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-ombres-rouges-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-les-ombres-rouges-a7637f-2caacf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Les Ombres Rouges
 tf1plus://tf1/les-ombres-rouges
+#EXTINF:-1 tvg-id="tf1plus-tf1-jai-menti-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-jpg-a4d04d-94fcf4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Top 10",Jai Menti
+tf1plus://tf1/jai-menti
 #EXTINF:-1 tvg-id="tf1plus-tf1-quai-numero-7-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-cc9cfa-5c06dd-178f7e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Quai Numero 7
 tf1plus://tf1/quai-numero-7
 #EXTINF:-1 tvg-id="tf1plus-tf1-flash-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b9b7ac-17086c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Flash
@@ -1063,12 +1063,12 @@ tf1plus://tfx/nicky-larson
 tf1plus://tf1-series-films/cuisine-interne
 #EXTINF:-1 tvg-id="tf1plus-tf1-beverly-hills-90210-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-bfcfb6-99009e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Beverly Hills 90210
 tf1plus://tf1/beverly-hills-90210
-#EXTINF:-1 tvg-id="tf1plus-tf1-flash-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b9b7ac-17086c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Flash
-tf1plus://tf1/flash
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-innocents-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-6-eaad85-0354e2-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Innocents
 tf1plus://tf1/les-innocents
 #EXTINF:-1 tvg-id="tf1plus-tf1-mademoiselle-holmes-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b97a0c-cf9d86-c04fd8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Mademoiselle Holmes
 tf1plus://tf1/mademoiselle-holmes
+#EXTINF:-1 tvg-id="tf1plus-tmc-miss-marple-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-miss-marple-2025-d7eb67-68d35d-f27cd3-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Miss Marple
+tf1plus://tmc/miss-marple
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-penthouse-k-dramas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-the-penthouse-a1f391-8e64fc-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - K-Dramas",The Penthouse
 tf1plus://tf1/the-penthouse
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-inheritors-k-dramas" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-8a6acf-7a63b6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - K-Dramas",The Inheritors
