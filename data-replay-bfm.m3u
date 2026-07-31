@@ -85,6 +85,8 @@ bfmplay://NEUF_BFMTV_BFM1021068867072
 bfmplay://NEUF_BFMTV_BFM1021127364847
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021104236126" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/2/1/b7b07b122596c12c2780c2053fb4c2e0_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Grands Reportages",Aviateur américain en Iran, l’incroyable sauvetage
 bfmplay://NEUF_BFMTV_BFM1021104236126
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135183381" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/8/3/0689e374f9b030faa3648f784396426d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission Spéciale du 31 juillet 2026
+bfmplay://NEUF_BFMTV_BFM1021135183381
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135183191" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/9/1/cf774bda3e6ff9ee82d6cb2efaad54e6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Édition spéciale du 24 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021135183191
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916291" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/9/2/0c06769580466293eb52927de5f1f478_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Météo - Prévisions de ce soir et du 1 août 2026
@@ -375,8 +377,6 @@ bfmplay://NEUF_BFMTV_BFMES0131
 bfmplay://NEUF_BFMTV_BFMES0129
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0127" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/1/37c087ce69aa6f90b757cfaea835c853_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Coupe du monde : L'après-match de France vs Maroc
 bfmplay://NEUF_BFMTV_BFMES0127
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0121" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/2/1/1b19a266731e5b5f2637db814fb7f470_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - Canicule historique : Cellule de crise - Partie 2
-bfmplay://NEUF_BFMTV_BFMES0121
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0030" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/3/0/57b2cfef41bf87ee2933282411e0c063_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans qui ont bouleversé la France - soirée événement
 bfmplay://NEUF_BFMTV_BFMES0030
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0029" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/2/0/df23ad2659cc771b6678f3a9e11e30c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Les émissions spéciales - 20 ans autour du monde - soirée événement
@@ -607,6 +607,52 @@ bfmplay://NEUF_BFMTV_BFM1021025456673
 bfmplay://NEUF_BFMTV_BFM1021080916505
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021080916518" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/5/5113b76bb3c983c329aafa6cc3388769_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Retour sur l'énigme Xavier Dupont de Ligonnès
 bfmplay://NEUF_BFMTV_BFM1021080916518
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000444" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/4/4/7b96dc43c4a6656e0e07e6237f15dbe9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Pierre Lees-Melou, Footballeur français - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000444
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000442" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/4/4/5928f61b46f5eca155385b4589da1b33_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Que doit faire le PSG avec ses gardiens ? - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000442
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000441" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/4/4/a31e616279afe00acdf53c9f1ee37e74_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Coupe du Monde à vendre : l'UEFA menace de boycott ! - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000441
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000439" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/3/4/d86234124ce07774c5c1a82ded9f294f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Supporters marseillais, détendez-vous - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000439
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000438A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/A/8/3/c556051c2515d2c866f2807a3ed88de9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Infantino va-t-il tuer le football ? Avec Maheta Molango, membre de la FIFPRO - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000438A
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000436A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/A/6/3/daf3f24509f87ccc8691fdace968cb16_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 3
+bfmplay://NEUF_BFMRADIO_BRA50000000000436A
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000435" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/3/4/4be04926483617feed6eb6674ae80062_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - After Foot à Casablanca – Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000435
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000434" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/3/4/080f92460547cd78a09bf24297ee4495_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000434
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000433" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/3/4/ce28dc1df69a4f3dae8227874a2d7e12_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - After Foot à Casablanca – Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000433
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000432" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/3/4/22ce970daba47bede2cba59ed4e03906_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000432
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000430" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/3/4/cce1b2e9cd38afd6efc9f2a680be547d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Avez-vous peur d'être déçu par la prise de parole de Zidane ?- Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000430
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000429" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/2/4/c5a424b6f6bc740be7989275ae9f0194_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - L'After revient sur la reprise du PSG ! - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000429
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000428" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/2/4/aff3fcebe53d4adb184167a652baa55a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le PSG se retire du dossier Diomandé  - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000428
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000427" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/2/4/ac8b7cc1aa6a619829b4640a86ea3d92_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Paul Seixas, Coureur cycliste professionnel français  - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000427
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000423" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/2/4/f7f9b4d76c0f0b1290a791ca693cb061_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission du samedi 25 juillet - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000423
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000422" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/2/4/88bd1947644f74b68cc399783697c726_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission du samedi 25 juillet - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000422
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000418" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/1/4/daa6377ee09b6b3d2448b2af22de323b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le milieu de terrain est-il le poste le plus précieux du football actuel ?  - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000418
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000417" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/1/4/6105272470e190f0422cd7d884c7fc94_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Jürgen Klopp est-il le bon choix pour la Mannschaft ?  - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000417
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000415" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/1/4/866eebc9e9bccfbd1a81709c2131b687_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Klopp, Zidane, Ancelotti, peut être Guardiola… Le foot de sélection, nouveau paradis des coachs ? - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000415
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000414" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/1/4/0b200212b959747f39a37cc2e5ccda8f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Patrick Videira, entraîneur du Mans - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000414
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000412" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/1/4/e125787b5ef89811aca0e91ed3ff1389_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Des départs majeurs et toujours pas de recrue, faut-il s’inquiéter pour l’OM ? - Partie 2
+bfmplay://NEUF_BFMRADIO_BRA50000000000412
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000411" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/1/4/736fea6c8d96519e6ffd2b042b039049_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - J’espère que cette saison les dirigeants de Ligue 1 seront moins impatients - Partie 1
+bfmplay://NEUF_BFMRADIO_BRA50000000000411
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000401" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/0/4/7005cab15b077a350d068ad93c0ab731_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le debrief de France - Angleterre
+bfmplay://NEUF_BFMRADIO_BRA50000000000401
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000491" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/9/4/9bf781278fb507d74c8bb323077b4d30_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",BFM Bourse - CAC 40, l'été de tous les records ?
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000491
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000481" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/8/4/478292757b270126a24d00468769b9f1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",BFM Bourse - On refait la séance : Taux d'intérêt, la FED opte pour le statu quo.
@@ -655,50 +701,6 @@ bfmplay://NEUF_BFMBUSINESS_BUM60000000000443
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000430
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000420" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/2/4/c890db33eb8b64243db2586cb316202d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Good Morning Business - Émission du 23 juillet 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000420
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000442" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/4/4/5928f61b46f5eca155385b4589da1b33_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Que doit faire le PSG avec ses gardiens ? - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000442
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000441" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/4/4/a31e616279afe00acdf53c9f1ee37e74_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Coupe du Monde à vendre : l'UEFA menace de boycott ! - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000441
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000439" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/3/4/d86234124ce07774c5c1a82ded9f294f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Supporters marseillais, détendez-vous - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000439
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000438A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/A/8/3/c556051c2515d2c866f2807a3ed88de9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Infantino va-t-il tuer le football ? Avec Maheta Molango, membre de la FIFPRO - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000438A
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000436A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/A/6/3/daf3f24509f87ccc8691fdace968cb16_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 3
-bfmplay://NEUF_BFMRADIO_BRA50000000000436A
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000435" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/3/4/4be04926483617feed6eb6674ae80062_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - After Foot à Casablanca – Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000435
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000434" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/3/4/080f92460547cd78a09bf24297ee4495_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000434
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000433" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/3/4/ce28dc1df69a4f3dae8227874a2d7e12_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - After Foot à Casablanca – Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000433
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000432" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/3/4/22ce970daba47bede2cba59ed4e03906_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission spéciale : Zidane à la tête des Bleus - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000432
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000430" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/3/4/cce1b2e9cd38afd6efc9f2a680be547d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Avez-vous peur d'être déçu par la prise de parole de Zidane ?- Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000430
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000429" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/2/4/c5a424b6f6bc740be7989275ae9f0194_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - L'After revient sur la reprise du PSG ! - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000429
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000428" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/2/4/aff3fcebe53d4adb184167a652baa55a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le PSG se retire du dossier Diomandé  - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000428
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000427" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/2/4/ac8b7cc1aa6a619829b4640a86ea3d92_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Paul Seixas, Coureur cycliste professionnel français  - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000427
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000423" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/2/4/f7f9b4d76c0f0b1290a791ca693cb061_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission du samedi 25 juillet - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000423
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000422" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/2/4/88bd1947644f74b68cc399783697c726_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Emission du samedi 25 juillet - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000422
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000418" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/8/1/4/daa6377ee09b6b3d2448b2af22de323b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le milieu de terrain est-il le poste le plus précieux du football actuel ?  - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000418
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000417" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/1/4/6105272470e190f0422cd7d884c7fc94_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Jürgen Klopp est-il le bon choix pour la Mannschaft ?  - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000417
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000415" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/1/4/866eebc9e9bccfbd1a81709c2131b687_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Klopp, Zidane, Ancelotti, peut être Guardiola… Le foot de sélection, nouveau paradis des coachs ? - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000415
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000414" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/1/4/0b200212b959747f39a37cc2e5ccda8f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Patrick Videira, entraîneur du Mans - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000414
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000412" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/1/4/e125787b5ef89811aca0e91ed3ff1389_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Des départs majeurs et toujours pas de recrue, faut-il s’inquiéter pour l’OM ? - Partie 2
-bfmplay://NEUF_BFMRADIO_BRA50000000000412
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000411" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/1/4/736fea6c8d96519e6ffd2b042b039049_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - J’espère que cette saison les dirigeants de Ligue 1 seront moins impatients - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000411
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000401" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/0/4/7005cab15b077a350d068ad93c0ab731_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Le debrief de France - Angleterre
-bfmplay://NEUF_BFMRADIO_BRA50000000000401
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000425" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/2/4/933f4a0664ffefc4ba68efc9fe084a7d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les Grandes Gueules du sport - Le Tour de Paul Seixas est-il à la hauteur de vos attentes ?
 bfmplay://NEUF_BFMRADIO_BRA50000000000425
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000424" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/2/4/ff28327d0130cd4661a36801f322c918_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les Grandes Gueules du sport - Pogacar est-il devenu trop écrasant ?
@@ -1819,8 +1821,6 @@ bfmplay://NEUF_NUM23_N231020938149915
 bfmplay://NEUF_NUM23_N231021047393625
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021047393600" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/0/6/814738711bf2c5259fc18783b090b147_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",La folie du camping-car : des vacances pas comme les autres - S1E13 - Episode 13
 bfmplay://NEUF_NUM23_N231021047393600
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021047393680" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/8/6/cd3168660afe6d27707bfcafa2d3f116_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",La folie du camping-car : des vacances pas comme les autres - S1E17 - Episode 17
-bfmplay://NEUF_NUM23_N231021047393680
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23996576193527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/90e4e3bb21bbf59e8d1b4bed67a77821_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Flic story - S1E7 - Police des Ardennes - Episode 1
 bfmplay://NEUF_NUM23_N23996576193527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23980212708527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/76d1d404b581bddac3fd413b271cc700_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Flic story - S2E4 - Gendarmerie en région lyonnaise - Episode 4
@@ -3195,6 +3195,8 @@ bfmplay://NEUF_NUM23_N231010264392527
 bfmplay://NEUF_NUM23_N231010263832527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231010264368527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/f210c30167dfe743ad64bc8ade57a7a0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Toujours disponible sur RMC BFM play",Dans les secrets des films "Le seigneur des anneaux" - S6E2 - Trois films sinon rien
 bfmplay://NEUF_NUM23_N231010264368527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC938654274527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/7a5921666ca9e14fc15f6df1fbae8be6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",La grande histoire des châteaux forts
+bfmplay://NEUF_RMCDEC_RMC938654274527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934874643" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/4/6/574f1ab1e48acd17b506f672dfb090d6_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",Le génie des châteaux forts français révélé
 bfmplay://NEUF_RMCDEC_RMC1020934874643
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC983169580527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2a41a2777ca96fc8b83a0b2703b68fbc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S10E9 - A l'assaut des rapides
@@ -3877,8 +3879,6 @@ bfmplay://NEUF_RMCDEC_RMC961842722527
 bfmplay://NEUF_RMCDEC_RMC963603650527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC963822282527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/d3d9ab8aa932413bf11469816f7813a0_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",Les 7 plus belles pyramides d'Egypte
 bfmplay://NEUF_RMCDEC_RMC963822282527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC964072167527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/3d5f3c0b3fb8c8be69584629d991670a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Vous aimerez aussi",Châteaux croisés : mégastructures imprenables
-bfmplay://NEUF_RMCDEC_RMC964072167527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020926227875" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/7/8/ef60bb551ca61b706ef2198763b1d9ac_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Ce mois-ci sur RMC Story",Mayday : dangers dans le ciel - S5E3 - Un courant d'air fatal
 bfmplay://NEUF_RMCDEC_RMC1020926227875
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020926227882" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/8/8/61e6ab87d19c1129cf1a1f39dc9dd215_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Ce mois-ci sur RMC Story",Mayday : dangers dans le ciel - S5E4 - Un poids mortel
@@ -5185,6 +5185,8 @@ bfmplay://NEUF_RMCDEC_RMC901509619527
 bfmplay://NEUF_RMCDEC_RMC977190866527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC968727120527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/0d73cab1a2b6f3aaf24c1f456cb92b77_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Les derniers secrets du Sphinx de Gizeh
 bfmplay://NEUF_RMCDEC_RMC968727120527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC964072167527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/3d5f3c0b3fb8c8be69584629d991670a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Châteaux croisés : mégastructures imprenables
+bfmplay://NEUF_RMCDEC_RMC964072167527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932467360" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/6/3/1f33baef3b1f294606a406ba20126c15_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Enquête sur les camps perdus du IIIe Reich
 bfmplay://NEUF_RMCDEC_RMC1020932467360
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932511902" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/0/9/59190e9248e7992024353e1c5efd3633_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Gestapo : La police de la terreur
@@ -5193,8 +5195,6 @@ bfmplay://NEUF_RMCDEC_RMC1020932511902
 bfmplay://NEUF_RMCDEC_RMC561320718527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC669771261527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/035aace01cc054351dcdce3d37559b68_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Qui a écrit la Bible ?
 bfmplay://NEUF_RMCDEC_RMC669771261527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932454339" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/3/3/5d43bea12c7f49316573da652956112a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Mystère et Histoire",Oppenheimer : la véritable histoire de la bombe atomique
-bfmplay://NEUF_RMCDEC_RMC1020932454339
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC704329068527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f11c84d4d50c0f79de3a4d68308d229b_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",Croisière de rêve : dans les coulisses d'un paquebot XXL
 bfmplay://NEUF_RMCDEC_RMC704329068527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020924505500" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/0/0/5/2129b5451a576a6c97eea80c95c2ca25_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Sciences et Technologies",De l'ISS à la Lune : le monde de Thomas Pesquet
@@ -8293,6 +8293,8 @@ bfmplay://NEUF_RMCDEC_RMC1020937192398
 bfmplay://NEUF_RMCDEC_RMC1020937192385
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937192012" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/1/0/a32691c08c2f194c72611673bac870fb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Les routiers : profession chauffeur poids lourd - S2E1 - Laure et Marina
 bfmplay://NEUF_RMCDEC_RMC1020937192012
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932454339" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/3/3/5d43bea12c7f49316573da652956112a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Oppenheimer : la véritable histoire de la bombe atomique
+bfmplay://NEUF_RMCDEC_RMC1020932454339
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC941942786527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/6586631a2f4a6ee0ab12552f70e1e105_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Château Gaillard, une forteresse imprenable
 bfmplay://NEUF_RMCDEC_RMC941942786527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020936093511" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/1/5/1a9c8be5beb9c7f128d980d5dc13e91a_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Celtes : les mystères d'une civilisation disparue
@@ -9523,10 +9525,10 @@ bfmplay://NEUF_NUM23_N23_12469
 bfmplay://NEUF_NUM23_N23_844340089527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1277012" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1277012_9C860Fb/posters/3038de6394d8f156bd188dd3a55312e2/3038de6394d8f156bd188dd3a55312e2.jpg" tvg-country="FR" tvg-type="movie" group-title="Catalogue RMC Story",Ces crimes qui ont choqué le monde (spécial Australie)
 bfmplay://NEUF_NUM23_N23_1277012
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1018608525527" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1018608525527_9C860Fb/posters/9d6c03d53b0b7fcf3bee56b99e82bd63/9d6c03d53b0b7fcf3bee56b99e82bd63.jpg" tvg-country="FR" tvg-type="movie" group-title="Catalogue RMC Story",Strange evidence
-bfmplay://NEUF_NUM23_N23_1018608525527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1020939689216" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1020939689216_9C860Fb/posters/d4e2c6357c8d959c03cbfe11613fa51a/d4e2c6357c8d959c03cbfe11613fa51a.jpg" tvg-country="FR" tvg-type="movie" group-title="Catalogue RMC Story",Homicide : decompte mortel
 bfmplay://NEUF_NUM23_N23_1020939689216
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1018608525527" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1018608525527_9C860Fb/posters/9d6c03d53b0b7fcf3bee56b99e82bd63/9d6c03d53b0b7fcf3bee56b99e82bd63.jpg" tvg-country="FR" tvg-type="movie" group-title="Catalogue RMC Story",Strange evidence
+bfmplay://NEUF_NUM23_N23_1018608525527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S18395" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/18395_9C860Fb/posters/74ab5368d653168c31b577b73236c08c/74ab5368d653168c31b577b73236c08c.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Faites entrer l'accusé
 bfmplay://NEUF_RMCDEC_RMC_S18395
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S1020933735908" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1020933735908_9C860Fb/posters/ee5e5a8a1e5e12accd97accfd6df6c51/ee5e5a8a1e5e12accd97accfd6df6c51.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Alaska, la ruée vers l'or
