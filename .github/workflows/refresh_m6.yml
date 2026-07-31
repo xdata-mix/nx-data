@@ -25,6 +25,8 @@ jobs:
           python-version: '3.11'
       - name: Run refresh_m6.py
         run: python scripts/refresh_m6.py
+      - name: Run refresh_m6_fix_slugs.py (repare les entrees slug-seul, playable)
+        run: python scripts/refresh_m6_fix_slugs.py || true
       - name: Combine into data-replay.m3u
         run: python scripts/combine_replays.py
       - name: Commit & push if changed
