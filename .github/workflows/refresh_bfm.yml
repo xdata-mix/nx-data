@@ -25,6 +25,8 @@ jobs:
           python-version: '3.11'
       - name: Run refresh_bfm.py
         run: python scripts/refresh_bfm.py
+      - name: Run refresh_bfm_catalog.py (complete le catalogue, sans doublon)
+        run: python scripts/refresh_bfm_catalog.py || true
       - name: Combine into data-replay.m3u
         run: python scripts/combine_replays.py
       - name: Commit & push if changed
