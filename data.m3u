@@ -1877,7 +1877,7 @@ http://41.205.70.146/MTVFRANCE/index.m3u8
 
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="RTL9.lu@SD" group-title="Divertissement",RTL9 (720p)
-http://rezofoot.tv/rtl-9/index.m3u8
+http://145.239.5.177/308/index.m3u8
 
 # === Ajouts FR multi-sources : Info ===
 #EXTINF:-1 tvg-id="PressTVFrench.ir@SD" group-title="Info",Press TV French (1080p)
@@ -4771,7 +4771,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="RTL9.lu@SD" group-title="France TV backup",RTL9 (1080p) [iptv-org-fr]
-http://cdn.haititivi.com/rtl-9/index.m3u8
+http://145.239.5.177/308/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -5676,3 +5676,9 @@ http://145.239.5.177/359a/index.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
 https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France3.fr@CotedAzur" group-title="France TV backup",France 3 Cote d'Azur [iptv-org-fr]
+http://89.187.185.76:8080/France3/index.m3u8
+#EXTINF:-1 tvg-id="France3.fr@Lorraine" group-title="France TV backup",France 3 Lorraine (1080p) [iptv-org-fr]
+http://5.180.164.197:8080/FRANCE3/index.m3u8
