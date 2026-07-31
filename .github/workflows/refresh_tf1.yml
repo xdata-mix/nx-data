@@ -25,6 +25,8 @@ jobs:
           python-version: '3.11'
       - name: Run refresh_tf1.py
         run: python scripts/refresh_tf1.py
+      - name: Run refresh_tf1_sitemap.py (complete le catalogue, sans doublon)
+        run: python scripts/refresh_tf1_sitemap.py || true
       - name: Combine into data-replay.m3u
         run: python scripts/combine_replays.py
       - name: Commit & push if changed
