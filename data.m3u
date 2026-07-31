@@ -5667,7 +5667,7 @@ https://jmp2.uk/stvp-FRBC3900004DS
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/NAh236H1LQoZ/5VsSb542o31Iz7jn.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
@@ -5682,3 +5682,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/NAh236H1LQoZ/v
 http://89.187.185.76:8080/France3/index.m3u8
 #EXTINF:-1 tvg-id="France3.fr@Lorraine" group-title="France TV backup",France 3 Lorraine (1080p) [iptv-org-fr]
 http://5.180.164.197:8080/FRANCE3/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
