@@ -1,171 +1,180 @@
 #!/usr/bin/env python3
-"""refresh_bfm_catalog.py — COMPLETE data-replay-bfm.m3u (BFM/RMC).
+"""refresh_bfm_catalog.py — COMPLETE data-replay-bfm.m3u via le catalogue OFFICIEL BFF.
 
-Tourne APRES refresh_bfm.py. Le scraper principal plafonne chaque chaine a
-max_items=500 et dedup les carrousels -> des programmes hors du top-500 courant
-(ex: "Alaska, la ruee vers l'or") disparaissent, et comme le fichier est
-reecrit a chaque run, une reponse API throttlee peut en perdre.
+Tourne APRES refresh_bfm.py. Le scraper principal ne lit que les carrousels
+gaia-core (limites + rotatifs) -> il rate beaucoup de programmes (ex: "Alaska,
+la ruee vers l'or"). Ici on lit le CATALOGUE COMPLET de chaque chaine via
+l'API BFF du site rmcbfmplay.com (section "Tous les programmes" = mosaique
+paginee, ~285 programmes / chaine), puis on resout l'id JOUABLE (gaia
+`NEUF_...`) via la fiche programme (FIP), et on AJOUTE les manquants a
+data-replay-bfm.m3u (dedup par l'id numerique deja present). Ne retire rien.
 
-Ce complement RE-ENUMERE le catalogue de chaque chaine SANS PLAFOND (tous les
-spots du menu d'accueil + toutes les thematiques paginees), puis AJOUTE a
-data-replay-bfm.m3u uniquement les programmes ABSENTS (dedup par l'id
-`bfmplay://<productId>`). Il ne retire jamais rien.
+Efficace : on ne resout via FIP que les programmes ABSENTS du fichier (l'id
+numerique du catalogue est deja contenu dans les ids gaia existants).
 
-GARDE-FOUS :
-  - si l'enumeration ramene moins de MIN_ENUM programmes (API throttlee/panne)
-    -> on N'AJOUTE RIEN, fichier intact.
-  - append avec saut de ligne en tete (ne colle pas a la derniere ligne).
+GARDE-FOUS : si l'enumeration ramene moins de MIN_ENUM programmes -> fichier
+INTACT. Append avec saut de ligne en tete.
 """
 import re, sys, os, time, json, urllib.request
 
 HERE = os.path.dirname(__file__)
 M3U = os.path.join(HERE, "..", "data-replay-bfm.m3u")
-CDN  = "https://ws-cdn.tv.sfr.net/gaia-core/rest/api/web/v1"
-CDN2 = "https://ws-cdn.tv.sfr.net/gaia-core/rest/api/web/v2"
-PAR  = "app=bfmrmc&device=browser&operators=NEXTTV"
-UA   = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+BFF = "https://www.rmcbfmplay.com/api/bff/v1"
+UA  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 MIN_ENUM = 300
+MAX_RESOLVE = 4000  # plafond de securite d'appels FIP par run
 
-BROKEN_PREFIXES = ["NEUF_CINE_PLUS_OCS", "NEUF_01NET", "NEUF_LEQUIPETV",
-                   "NEUF_VIRGIN17", "NEUF_UNIVERSAL", "NEUF_KITCHEN_MANIA",
-                   "NEUF_USHUAIA", "NEUF_FILMDAFRIQUE"]
-
-# chaines (menu d'accueil) — memes ids que refresh_bfm.py
 CHANNELS = [
-    ("rmcgo_home_bfmtv",         "BFM TV"),
-    ("rmcgo_home_rmcstory",      "RMC Story"),
-    ("rmcgo_home_rmcdecouverte", "RMC Découverte"),
-    ("rmcgo_home_bfmbusiness",   "BFM Business"),
-    ("rmcgo_home_rmclife",       "RMC Life"),
-    ("rmcgo_home_01TV",          "Tech & Co"),
-    ("rmcgo_home_radios",        "RMC Radio"),
-    ("rmcgo_home_bfmavod",       "Exclus BFM Play"),
-    ("rmcgo_home_rmccrime",      "100% Crime"),
-    ("c67c4f5e-73ae-40fe-b562-35391a9f5931", "Top Mecanic"),
-    ("2d0d7898-fad8-47db-a87a-eb1b62c11ef9", "100% DOCS"),
-]
-THEMES = [
-    ("02179209-fc21-4001-8593-d2d8b7696788", "Crime & Investigation"),
-    ("f2e897a0-76d8-40c9-89f4-148411aca185", "Cinéma & Fiction"),
-    ("8055d4b0-47b1-42b8-8686-a6861cd8ea9b", "Moteur & Mécanique"),
-    ("09cbd302-808a-4724-a591-18a17d17455f", "Aventure & Survie"),
-    ("1fba40d2-820d-470e-ad70-5e1be1cb2f4c", "Divertissement"),
-    ("5fc555aa-4f58-4372-ba6e-2a1a3ab2707c", "Documentaire"),
-    ("4d5db435-cfce-4024-9580-b0b21331a5d0", "Mystère & Étrange"),
-    ("91e978e9-bc32-4f56-9bc3-1028c333fd20", "Histoire & Civilisation"),
-    ("a296a74f-7bd0-45f9-aceb-bbb7609d5dba", "Science & Technologie"),
-    ("d4fd74f7-2587-4eba-a26e-3f00e4ae992f", "Société & Immersion"),
-    ("2d39f387-9593-414c-9089-01e3b6ef7b1e", "Docu-Réalité"),
-    ("5af91e75-a280-454b-beef-6fdba4f81598", "Sport & Combat"),
-    ("bf31206d-3bdb-40d6-b5f2-475032d7797b", "Info & Talk"),
-    ("d952ba56-c92c-4114-981b-2a68c53cf5b6", "Grand Reportage"),
+    ("bfmtv",         "BFM TV"),
+    ("rmc-story",     "RMC Story"),
+    ("rmc-decouverte","RMC Découverte"),
+    ("bfm-business",  "BFM Business"),
+    ("rmc-life",      "RMC Life"),
+    ("tech-co",       "Tech & Co"),
+    ("rmc-radio",     "RMC Radio"),
 ]
 
 
-def get(url, tries=4):
+def get_text(url, tries=3):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=30) as r:
-                return json.loads(r.read())
-        except Exception as e:
+                return r.read().decode("utf-8", "replace")
+        except Exception:
             if i == tries - 1:
-                return None
-            time.sleep(1.2)
-    return None
-
-
-def pick_image(tile):
-    for img in (tile.get("images") or []):
-        fmt = img.get("format", ""); u = img.get("url", ""); wt = img.get("withTitle", False)
-        if fmt in ("2/3", "16/9") and not wt and u:
-            return u
-    for img in (tile.get("images") or []):
-        u = img.get("url", "")
-        if u and not img.get("withTitle", False):
-            return u
+                return ""
+            time.sleep(1.0)
     return ""
 
 
-def add_tile(tile, group, catalog):
-    pid = (tile.get("productId") or (tile.get("action") or {}).get("actionIds", {}).get("contentId", "") or "").replace("Product::", "")
-    if not pid or "NEUF_" not in pid or pid in catalog:
-        return
-    if any(pid.startswith(p) for p in BROKEN_PREFIXES):
-        return
-    title = (tile.get("title") or "").strip()
-    if not title:
-        return
-    ct = tile.get("contentType", "")
-    tvg = "series" if ct in ("Season", "Series", "Episode") else "movie"
-    catalog[pid] = {"title": title[:140], "image": pick_image(tile), "tvg": tvg, "group": group}
+def get_json(url, tries=3):
+    t = get_text(url, tries)
+    if not t:
+        return None
+    try:
+        return json.loads(t)
+    except Exception:
+        return None
 
 
-def enumerate_catalog():
-    catalog = {}
-    # chaines : tous les spots du menu d'accueil, sans plafond
-    for menu_id, chan in CHANNELS:
-        menu = get(f"{CDN}/menu/RefMenuItem::{menu_id}/structure?{PAR}")
-        if not menu:
-            print(f"  [warn] menu {chan} KO", file=sys.stderr); continue
-        n0 = len(catalog)
-        for spot in menu.get("spots", []):
-            sid = spot.get("id"); stitle = (spot.get("title") or "").strip()
-            if not sid:
+def img_url(v):
+    if isinstance(v, str):
+        return v
+    if isinstance(v, dict):
+        u = v.get("url")
+        if isinstance(u, str):
+            return u
+        if isinstance(u, dict):
+            return u.get("portrait") or u.get("square") or next(iter(u.values()), "")
+    return ""
+
+
+def mosaique_endpoint(chan_pageid):
+    page = get_json(f"{BFF}/page?model=web&page_type=default&page_id={chan_pageid}")
+    if not page:
+        return None
+    for s in page.get("sections", []):
+        if "Tous les programmes" in (s.get("titre") or ""):
+            ep = s.get("endpoint") or ""
+            if ep:
+                return ep.replace("type=rail", "type=mosaique")
+    return None
+
+
+def enum_channel(chan_pageid):
+    ep = mosaique_endpoint(chan_pageid)
+    if not ep:
+        return []
+    out = []
+    for pn in range(1, 60):
+        d = get_json(f"{BFF}{ep}&model=web&page_size=50&page_number={pn}")
+        if not d:
+            break
+        items = d.get("items") or (d.get("sections", [{}])[0].get("items") if d.get("sections") else []) or []
+        if not items:
+            break
+        for it in items:
+            nid = str(it.get("id") or "")
+            if not nid.isdigit():
                 continue
-            sdata = get(f"{CDN2}/spot/{sid}/content?{PAR}&page=0&size=200")
-            if not sdata:
-                continue
-            group = f"Replay {chan} - {stitle}" if stitle else f"Replay {chan}"
-            for tile in sdata.get("tiles", []):
-                add_tile(tile, group, catalog)
-            time.sleep(0.1)
-        print(f"  {chan}: +{len(catalog)-n0}")
-    # thematiques transverses, paginees a fond
-    for tid, label in THEMES:
-        n0 = len(catalog)
-        page = 0
-        while page < 30:
-            d = get(f"{CDN}/tile/RefTile::{tid}/content?{PAR}&page={page}&size=200")
-            items = (d or {}).get("content") or (d or {}).get("tiles") or []
-            if not items:
-                break
-            for tile in items:
-                add_tile(tile, f"Thématique BFM Play - {label}", catalog)
-            if len(items) < 200:
-                break
-            page += 1
-            time.sleep(0.1)
-        print(f"  Thème {label}: +{len(catalog)-n0}")
-    return catalog
+            title = (it.get("background_image") or {}).get("alt") or (it.get("logo") or {}).get("alt") or ""
+            image = img_url(it.get("background_image")) or img_url(it.get("logo"))
+            cta = it.get("call_to_actions") or []
+            cta_ep = cta[0].get("endpoint") if cta else None
+            out.append({"nid": nid, "title": title.strip(), "image": image, "cta": cta_ep})
+        if len(items) < 50:
+            break
+        time.sleep(0.1)
+    return out
+
+
+def resolve_gaia(nid, cta_ep):
+    for url in (f"{BFF}/page?model=web&page_type=fip&page_id={nid}",
+                (f"{BFF}{cta_ep}&model=web" if cta_ep and "model=" not in cta_ep else None)):
+        if not url:
+            continue
+        t = get_text(url, tries=2)
+        m = re.search(r"NEUF_[A-Z0-9_]+", t)
+        if m:
+            return m.group(0)
+    return None
 
 
 def main():
     if not os.path.exists(M3U):
-        print(f"[STOP] {M3U} absent -> rien a faire."); return
+        print(f"[STOP] {M3U} absent."); return
     content = open(M3U, encoding="utf-8").read()
-    existing = set(re.findall(r'^bfmplay://(\S+)$', content, re.M))
-    print(f"Existant : {len(existing)} programmes bfmplay")
+    existing_gaia = set(re.findall(r'^bfmplay://(\S+)$', content, re.M))
+    # ids numeriques deja presents (contenus dans les ids gaia)
+    existing_nums = set(re.findall(r'(\d{9,})', "\n".join(existing_gaia)))
+    print(f"Existant : {len(existing_gaia)} gaia | {len(existing_nums)} ids numeriques")
 
-    catalog = enumerate_catalog()
-    print(f"Catalogue enumere : {len(catalog)} programmes uniques")
-    if len(catalog) < MIN_ENUM:
-        print(f"[STOP] enumeration faible ({len(catalog)} < {MIN_ENUM}) -> fichier INTACT (API throttlee ?)."); return
+    catalog = []          # programmes du catalogue complet
+    for pageid, label in CHANNELS:
+        rows = enum_channel(pageid)
+        for r in rows:
+            r["chan"] = label
+        catalog += rows
+        print(f"  {label}: {len(rows)} programmes (catalogue)")
+        time.sleep(0.2)
+    total = len({r["nid"] for r in catalog})
+    print(f"Catalogue total : {total} programmes uniques")
+    if total < MIN_ENUM:
+        print(f"[STOP] catalogue faible ({total} < {MIN_ENUM}) -> fichier INTACT."); return
 
+    # ne resoudre que les manquants
+    seen_nid = set()
     added = []
-    for pid, info in catalog.items():
-        if pid in existing:
+    resolves = 0
+    for r in catalog:
+        nid = r["nid"]
+        if nid in seen_nid or nid in existing_nums:
             continue
-        added.append(f'#EXTINF:-1 tvg-id="bfmplay-{pid}" tvg-logo="{info["image"]}" '
-                     f'tvg-country="FR" tvg-type="{info["tvg"]}" '
-                     f'group-title="{info["group"]}",{info["title"]}')
-        added.append(f'bfmplay://{pid}')
+        seen_nid.add(nid)
+        if resolves >= MAX_RESOLVE:
+            break
+        resolves += 1
+        gaia = resolve_gaia(nid, r["cta"])
+        if not gaia or gaia in existing_gaia:
+            continue
+        existing_gaia.add(gaia)
+        title = (r["title"] or "").replace('"', "'")[:140]
+        if not title:
+            continue
+        tvg = "series" if "_S" in gaia else "movie"
+        group = f"Catalogue {r['chan']}"
+        added.append(f'#EXTINF:-1 tvg-id="bfmplay-{gaia}" tvg-logo="{r["image"]}" '
+                     f'tvg-country="FR" tvg-type="{tvg}" group-title="{group}",{title}')
+        added.append(f'bfmplay://{gaia}')
+        time.sleep(0.05)
+
+    print(f"Manquants resolus via FIP : {resolves} | ajoutes : {len(added)//2}")
     if not added:
-        print("Rien a ajouter (deja complet).")
-        return
+        print("Rien a ajouter."); return
     with open(M3U, "a", encoding="utf-8") as f:
         f.write("\n" + "\n".join(added) + "\n")
-    print(f"Programmes AJOUTES (manquants du scraper) : {len(added)//2}")
+    print(f"Programmes AJOUTES : {len(added)//2}")
 
 
 if __name__ == "__main__":
