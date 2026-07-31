@@ -118,7 +118,7 @@ def main():
         with open(OUT, "a", encoding="utf-8") as f:
             if header:
                 f.write(header)
-            f.write("\n".join(added) + "\n")
+            f.write("\n" + "\n".join(added) + "\n")  # \n en tete : ne colle pas a la derniere ligne de l ancien
     print(f"Programmes AJOUTES (complement) : {len(added)//2}")
     print(f"Duree : {time.time()-t0:.1f}s")
 
