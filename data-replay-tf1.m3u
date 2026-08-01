@@ -1033,14 +1033,14 @@ tf1plus://tf1/france-kbek
 tf1plus://tf1/enquete-en-famille
 #EXTINF:-1 tvg-id="tf1plus-tf1-hp-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-b88cff-3fe622-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Hp
 tf1plus://tf1/hp
+#EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
+tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
 tf1plus://tf1/indefendable
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-filles-d-a-cote-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-2-png-91ed9f-fd34e1-89a227-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Filles D A Cote
 tf1plus://tfx/les-filles-d-a-cote
 #EXTINF:-1 tvg-id="tf1plus-tfx-nicky-larson-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nicky-larson-e12172-47b714-f2cfaf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Nicky Larson
 tf1plus://tfx/nicky-larson
-#EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
-tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-dr-house-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-32b8ad-d51861-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Dr House
 tf1plus://tf1/dr-house
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
@@ -3171,8 +3171,6 @@ tf1plus://tf1/primate
 tf1plus://tf1/le-mage-du-kremlin
 #EXTINF:-1 tvg-id="tf1plus-tf1-sur-un-air-de-blues-vos-séances-ciné-à-prix-mini" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-093202-edbb6f-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Vos séances ciné à prix mini",Sur un Air de Blues
 tf1plus://tf1/sur-un-air-de-blues
-#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Fantomas
-tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tfx-connasse-princesse-des-coeurs-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-d1012a-ace81c-f11f50-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Connasse Princesse des Coeurs
 tf1plus://tfx/connasse-princesse-des-coeurs
 #EXTINF:-1 tvg-id="tf1plus-tfx-yamakasi-les-samourais-des-temps-modernes-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-08368f-dbc2e3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Yamakasi les Samourais des Temps Modernes
@@ -3279,8 +3277,6 @@ tf1plus://tmc/les-minions
 tf1plus://tmc/les-minions-2-il-etait-une-fois-gru
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-indien-dans-la-ville-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-9b6640-30eed1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Un Indien Dans la Ville
 tf1plus://tf1/un-indien-dans-la-ville
-#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas
-tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas Se Dechaine
 tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-contre-scotland-yard-des-films-pour-toute-la-famille" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-23f901-12a9d7-b8b2d1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Des films pour toute la famille",Fantomas Contre Scotland Yard
@@ -3425,8 +3421,6 @@ tf1plus://tfx/il-ne-faut-jurer-de-rien
 tf1plus://tf1/le-transporteur
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-175ec7-557e6f-74f66e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Le Transporteur 2
 tf1plus://tf1/le-transporteur-2
-#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Fantomas
-tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Fantomas Se Dechaine
 tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-contre-scotland-yard-les-incontournables" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-23f901-12a9d7-b8b2d1-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Les incontournables",Fantomas Contre Scotland Yard
@@ -3481,8 +3475,6 @@ tf1plus://tfx/yamakasi-les-samourais-des-temps-modernes
 tf1plus://tf1/irenas-vow
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ccbf5e-6ed273-dd7845-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Le Transporteur
 tf1plus://tf1/le-transporteur
-#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-9955e0-81c4d1-e34fb0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Fantomas
-tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-se-dechaine-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-84f3a0-990914-fe0e20-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Fantomas Se Dechaine
 tf1plus://tmc/fantomas-se-dechaine
 #EXTINF:-1 tvg-id="tf1plus-tf1-thor-love-and-thunder-entre-potes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-1962af-c1f0f8-8d8fa6-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Entre potes",Thor Love And Thunder
@@ -6561,6 +6553,8 @@ tf1plus://tfx/pierre-garnier-le-concert-evenement
 tf1plus://tfx/pop-le-magazine-des-pratiques-culturelles-des-15-35-ans
 #EXTINF:-1 tvg-id="tf1plus-tmc-covid-19-un-ete-sous-surveillance-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-covid-19-c7ec1f-ff4b42-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Covid 19 Un Ete Sous Surveillance
 tf1plus://tmc/covid-19-un-ete-sous-surveillance
+#EXTINF:-1 tvg-id="tf1plus-tmc-fantomas-smx" tvg-logo="https://photos.tf1.fr/1200/720/fantomas-ce2956-40d80f-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Fantomas
+tf1plus://tmc/fantomas
 #EXTINF:-1 tvg-id="tf1plus-tmc-folie-de-noel-decoration-xxl-marches-feeriques-et-incroyables-illuminations-smx" tvg-logo="https://photos.tf1.fr/1200/720/vignette-16-9_folier-de-noel-2-adf01a-d0dc04-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Folie De Noel Decoration Xxl Marches Feeriques Et Incroyables Illuminations
 tf1plus://tmc/folie-de-noel-decoration-xxl-marches-feeriques-et-incroyables-illuminations
 #EXTINF:-1 tvg-id="tf1plus-tmc-helene-en-concert-smx" tvg-logo="https://photos.tf1.fr/1200/720/helene-le-concert-evenement-au-theatre-marigny-0c27b2-2572d7-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Helene En Concert
