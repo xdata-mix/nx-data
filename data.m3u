@@ -5298,7 +5298,7 @@ http://23.133.220.149/TV5/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="arte.fr@SD" group-title="France TV backup",arte (720p) [iptv-org-fr]
-http://145.239.5.177/300/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/arte/arte.m3u8
 #EXTINF:-1 tvg-id="CStar.fr@SD" group-title="France TV backup",C Star (1080p) [iptv-org-fr]
 http://145.239.5.177/361/index.m3u8
 
