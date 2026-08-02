@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-1df35de0-a3b8-4292-950e-080e72f8cbac" tvg-logo="https://medias.france.tv/ETFx0Ie6vt-2sFngXLvv_65nFJ8/400x0/filters:quality(85)/1/m/w/phppz7wm1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Yo Mama
+francetv://1df35de0-a3b8-4292-950e-080e72f8cbac
 #EXTINF:-1 tvg-id="francetv-6aa23660-0780-454d-995d-78a0259c4393" tvg-logo="https://medias.france.tv/HNU61BBw6XL0bw8sBiLNvHJiwKU/400x0/filters:quality(85)/d/z/n/php2kjnzd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association Les Bonnes Fées
 francetv://6aa23660-0780-454d-995d-78a0259c4393
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
@@ -1103,8 +1105,10 @@ francetv://e72b0182-8758-11f1-8486-957ddefc544d
 francetv://634f02fa-8901-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-49cf301e-85ed-11f1-950e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/nURqXK2Xo5DTgfuJt8B2kiXOeq0/400x0/filters:quality(85)/6/b/1/946b2476bd1d4d5495e290cf07b4a1b6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Paroles d'experts : Pauline Ferrand-Prévot peut-elle conserver son titre ?
 francetv://49cf301e-85ed-11f1-950e-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-781515c6-8924-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/cQrrJ-YJcXIFkd-x42Yq0Wal25s/400x0/filters:quality(85)/2/d/4/b6855312298b4829b3b6ac64496554d2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Paul Seixas : "Tadej Pogačar est encore sur une autre planète"
-francetv://781515c6-8924-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-db3da8ae-8ea4-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/DuLkvQLFX5Q003XS1fD5a3-aiXM/400x0/filters:quality(85)/2/1/7/2efcbdb31be04dda8cfb1aa02187e712.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand format : les Bleus du cécifoot, en passant par le Brésil
+francetv://db3da8ae-8ea4-11f1-ae52-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-2a912df2-8ea2-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/TXwDF-m3R7puzgH9kekmlufCHWA/400x0/filters:quality(85)/4/5/2/538c4bfc8fc944828b28059d6c5f2254.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Instant suspendu : Nicolas Batum, un contre pour l'histoire
+francetv://2a912df2-8ea2-11f1-ae52-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-805e7a44-877e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/HbxRPNdzyfxgK4s8zdGH64SZ7Bc/400x0/filters:quality(85)/a/a/0/4b95204a73d14d5fa84b813cad6940aa.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Bande-annonce des Championnats d'Europe d'athlétisme 2026
@@ -1121,50 +1125,30 @@ francetv://dffaae1e-880f-11f1-8749-19616fa871f9
 francetv://26459be0-8810-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2022 : Yohann Ndoye-Brouard
 francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-d0679054-8e9d-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/-s82fd9UJpLaOdnV4kv0OHCI6-w/400x0/filters:quality(85)/2/a/e/570f6f9204724ed5ae9c47ef85b9bea2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France Femmes : Lorena Wiebes double la mise
+francetv://d0679054-8e9d-11f1-9512-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8NoR2VZ7lPkuSD8qVMIBg7P75U/400x0/filters:quality(85)/9/0/f/197ad990e1f94d7d91496e4060516f09.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
+francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-36e995b8-8ea1-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/L3loTYihcsJJT3wmToBfM4_cru8/400x0/filters:quality(85)/5/c/e/7f172c745048427c951286e6f3537ec5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Natation artistique : le rêve européen de Laëlys Alavez et Romane Lunel
+francetv://36e995b8-8ea1-11f1-848c-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-7c29e9a0-8ea3-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/g_4uKN35i3jDDBUj5aMOn23aamw/400x0/filters:quality(85)/6/3/1/6f3effb0e2bc4006af530d01e8712136.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Football - FIFA : Gianni Infantino, un président dans la tourmente
+francetv://7c29e9a0-8ea3-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-3855d2f4-8dd4-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/J4LKl5psZ1ASH8J8fZzkcLsMJdQ/400x0/filters:quality(85)/9/1/c/8c154b5f6e5f46cd9ddbe4edfbbe8c19.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Nage en eau libre : Sacha Velly vise le titre aux Championnats d'Europe de Paris
 francetv://3855d2f4-8dd4-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0d9e5c3c-8dd6-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/05evE0gfK_wH5F3y7NrqRbWRwQ0/400x0/filters:quality(85)/h/b/7/phpndm7bh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme - Tour de France Femmes : Pauline Ferrand-Prévot affutée après une préparation intensive
 francetv://0d9e5c3c-8dd6-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-d995cf66-8dd4-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/p2JmkiF0B10-3FPkyIwEPtcggKM/400x0/filters:quality(85)/5/b/b/bc6a973a195241178eb79b86b7959bb5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : Remco Evenepoel s'offre sa quatrième Clasica San Sebastian, un record
 francetv://d995cf66-8dd4-11f1-848c-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-fb75612a-8dd2-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PuNfOgdwdogk1DiizubLtKWaOjY/400x0/filters:quality(85)/e/4/3/e54572be8e4946e9b7660197599cd34e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - ATP 250 de Los Cabos : Arthur Géa se hisse en finale
-francetv://fb75612a-8dd2-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-98d1df10-8dd4-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/ZIztu2qBWjo6fo2shtwYvw45bmk/400x0/filters:quality(85)/d/e/1/29a8ff8365d54beea7a91525d9c471ed.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — WRC - Rallye de Finlande : sortie de route pour Sébastien Ogier et Julien Ingrassia
-francetv://98d1df10-8dd4-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-20796314-8d0a-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/QWnLYWPUuYIl2pNM6mT3V-yBA24/400x0/filters:quality(85)/3/d/f/d9be8efa8ba643728df92a8751884fd3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football : le président de la FIFA, Gianni Infantino, sous grosse pression
-francetv://20796314-8d0a-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b18b5c80-8d0b-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/U2VcX6iffMpIleJHWiGuhgBnEbY/400x0/filters:quality(85)/6/5/7/eb2062fc2a5144ff842036490309f756.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Rallye : Sébastien Ogier/Julien Ingrassia, un retour gagnant
-francetv://b18b5c80-8d0b-11f1-848c-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-254ca3a4-8d0c-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/OcC0NgDKdq0m1JUJ7_cY3UnMq_A/400x0/filters:quality(85)/2/6/2/0fc09b980bc5480eabb3067a770c7262.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Musée olympique de Lausanne : la place des femmes dans le sport
 francetv://254ca3a4-8d0c-11f1-848c-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2c71bfd0-8d0b-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ZRniBxUihxeVOh2C6GAmlmBhsQI/400x0/filters:quality(85)/1/d/7/5b67fa8d11f64a3d899d9252a2c0a7d1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis : Arthur Géa fait forte impression au Mexique
-francetv://2c71bfd0-8d0b-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-9062b11c-8d0a-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/hdODO-UBX83O98C3T9K4shQmbos/400x0/filters:quality(85)/6/2/f/2238da5636834662ac410a214a6cef26.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football : les dernières informations à quelques semaines de la reprise
-francetv://9062b11c-8d0a-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-42a0a5d2-8c57-11f1-ae51-57a09c50f7ce" tvg-logo="https://medias.france.tv/ZBF_CTKKvnww6Axde_XvrJ04_jM/400x0/filters:quality(85)/c/c/1/ba18498aa2eb468f80e623d72bb2f1cc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Escrime : les sabreurs français sacrés champions du monde à Hong Kong
-francetv://42a0a5d2-8c57-11f1-ae51-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-b86400dc-8c59-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/lSbZ8x48Jo26HI3D7mayYn6KMWY/400x0/filters:quality(85)/i/m/h/php8zvhmi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Athlétisme : Margot Chevrier, gravement blessée avant les JO 2024,  revient de l'enfer
 francetv://b86400dc-8c59-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-d91dd114-8c58-11f1-ae51-57a09c50f7ce" tvg-logo="https://medias.france.tv/0o2Asa6GVf-LPRcForJYs4OUwf4/400x0/filters:quality(85)/d/5/f/d9dfcc4a5c4d48508b09bdf739d63f5d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Incendies : les sportifs se mobilisent face aux feux
 francetv://d91dd114-8c58-11f1-ae51-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-0416dd94-8c58-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/aONdEjFMbwHZUVB8T-zB9skbKLc/400x0/filters:quality(85)/d/7/6/34cbeaadbb5943b5a23e4db49385067d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football : scandale autour de la vente de parts de la Coupe du monde
-francetv://0416dd94-8c58-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-ba6ac222-8b86-11f1-874b-19616fa871f9" tvg-logo="https://medias.france.tv/MEnvgvFvWBpeBCYsrw52pFwKpSE/400x0/filters:quality(85)/6/4/c/b2076db01aef4a55b98ebcdd3ec26c46.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Escrime : les sabreuses françaises en bronze aux Mondiaux à Hong Kong
-francetv://ba6ac222-8b86-11f1-874b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-39d384fe-8b87-11f1-874b-19616fa871f9" tvg-logo="https://medias.france.tv/f5xftHLhr5sAg9I9soiIwpUMO24/400x0/filters:quality(85)/d/f/6/587181d6aae94074b41c972dd091f6fd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis : retour sur la soirée américaine des Bleus
-francetv://39d384fe-8b87-11f1-874b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b4c38470-8b87-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/axgCVUIP9jVLbscI8EbBKmvsFhM/400x0/filters:quality(85)/0/2/e/d5632fa1800246b6a63407269c305e20.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - CAN Féminine : un Malawi historique face au Nigéria
-francetv://b4c38470-8b87-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-48489fdc-8b88-11f1-8488-957ddefc544d" tvg-logo="https://medias.france.tv/A4vl20y3EuYovFy-b_dvPNWMTUY/400x0/filters:quality(85)/c/0/t/phpytit0c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Athlétisme : Emmanuel Roudolff-Levisse, le grand espoir français du marathon
-francetv://48489fdc-8b88-11f1-8488-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-332900a8-8ab9-11f1-8487-957ddefc544d" tvg-logo="https://medias.france.tv/vv9XNiN38vV6bFfd6NPcfycwBeA/400x0/filters:quality(85)/9/f/8/5c8e75ec3d0f45098f1b36f494e548f9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Football - Italie : Roberto Mancini de retour après un imbroglio extraordinaire
-francetv://332900a8-8ab9-11f1-8487-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-cf705b3c-8ab9-11f1-8487-957ddefc544d" tvg-logo="https://medias.france.tv/fjWOq5V_ndzwgxywnAwNWJyxDmA/400x0/filters:quality(85)/d/9/0/18fc08ae925a4f9da8a80c21c848f09d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Golf : l'incroyable destin d'Issa Nlareb
-francetv://cf705b3c-8ab9-11f1-8487-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-b3dd62be-843f-11f1-950a-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/2NpuMt4ntSgyCtEtP_8vYIzoJu8/400x0/filters:quality(85)/0/8/f/f116ea8a4b9c49f3928d6ccf6b26af80.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Bande-annonce des Championnats d'Europe de natation Paris 2026
 francetv://b3dd62be-843f-11f1-950a-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-4b8be9b4-eb90-4f46-93a2-0b5b4f5f6f20" tvg-logo="https://medias.france.tv/apmB4Arp_PYgxbTE9cvGsfpnfT8/400x0/filters:quality(85)/z/o/p/phpbgapoz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Multisports — Plongeon - 3m synchronisé - Finale et Tremplin 1m Femmes - Finale
-francetv://4b8be9b4-eb90-4f46-93a2-0b5b4f5f6f20
+#EXTINF:-1 tvg-id="francetv-dacc1f4c-8e8e-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/0jrLsRRH1NCjd9VmOqed17YfA58/400x0/filters:quality(85)/6/9/d/abf2a21546fb414e83076099b8536d96.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 2
+francetv://dacc1f4c-8e8e-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-8c7ac104-8dc6-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/sDWsHwYmlUKX45sTFZ_DfCYzTtI/400x0/filters:quality(85)/1/b/d/122d6ea201df4384af4237083e467db1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 1
 francetv://8c7ac104-8dc6-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-f38a6af0-891d-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PYnrf41oL6c0FVq3BEuQp0QjIpY/400x0/filters:quality(85)/e/5/f/6847405659cd4da7886d35cc4d45df5e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 21
@@ -2505,6 +2489,8 @@ francetv://program/france-2_laissez-vous-guider
 francetv://program/france-2_13h15-le-samedi
 #EXTINF:-1 tvg-id="francetv-prog-france-2_13h15-le-dimanche" tvg-logo="https://medias.france.tv/s4KJ21fhiSv0T5vQF4pcxxhvgLI/400x0/filters:quality(85)/g/4/s/phpo1ys4g.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Nos émissions",13h15, le dimanche
 francetv://program/france-2_13h15-le-dimanche
+#EXTINF:-1 tvg-id="francetv-1df35de0-a3b8-4292-950e-080e72f8cbac" tvg-logo="https://medias.france.tv/ETFx0Ie6vt-2sFngXLvv_65nFJ8/400x0/filters:quality(85)/1/m/w/phppz7wm1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Yo Mama
+francetv://1df35de0-a3b8-4292-950e-080e72f8cbac
 #EXTINF:-1 tvg-id="francetv-a38293ae-11a4-41a9-936f-3d26306f37b2" tvg-logo="https://medias.france.tv/42JoSm4YLh0Pk3BbQ8x8Vgg7QoI/400x0/filters:quality(85)/i/4/3/phpwhp34i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",ADN
 francetv://a38293ae-11a4-41a9-936f-3d26306f37b2
 #EXTINF:-1 tvg-id="francetv-7d345062-6a88-4385-81f8-d45e3d900d91" tvg-logo="https://medias.france.tv/cKaRRpqCEyzNprnG5p7REmo264U/400x0/filters:quality(85)/g/3/x/phpulyx3g.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Carmen
@@ -2777,6 +2763,8 @@ francetv://d9e60c88-20bc-411a-8ec1-dbd1513926cd
 francetv://159fd246-703e-40f4-9d5f-1148210c255b
 #EXTINF:-1 tvg-id="francetv-8833ebf6-7f18-4d32-a6ef-5625ff4cf23d" tvg-logo="https://medias.france.tv/NkUDs_E86-kULgcKal-SSF6Otyw/400x0/filters:quality(85)/3/3/2/fd4d31ab16fa4c92abb1a3cb03516233.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les films d'Arte",Notre Dame
 francetv://8833ebf6-7f18-4d32-a6ef-5625ff4cf23d
+#EXTINF:-1 tvg-id="francetv-1df35de0-a3b8-4292-950e-080e72f8cbac" tvg-logo="https://medias.france.tv/ETFx0Ie6vt-2sFngXLvv_65nFJ8/400x0/filters:quality(85)/1/m/w/phppz7wm1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Yo Mama
+francetv://1df35de0-a3b8-4292-950e-080e72f8cbac
 #EXTINF:-1 tvg-id="francetv-22eb30ee-831c-4ae6-b02e-040621dc1b78" tvg-logo="https://medias.france.tv/ZW7DBuLhgE52-yyR26_jGZEa-kE/400x0/filters:quality(85)/d/u/k/php1gckud.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",La belle et la belle
 francetv://22eb30ee-831c-4ae6-b02e-040621dc1b78
 #EXTINF:-1 tvg-id="francetv-a5d06853-cc25-432c-a285-f7c81501105d" tvg-logo="https://medias.france.tv/yI36CInserYD5iMFe6v5lQm2_48/400x0/filters:quality(85)/u/b/a/phpafuabu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",7 jours pas plus
@@ -4513,8 +4501,10 @@ francetv://e72b0182-8758-11f1-8486-957ddefc544d
 francetv://634f02fa-8901-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-49cf301e-85ed-11f1-950e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/nURqXK2Xo5DTgfuJt8B2kiXOeq0/400x0/filters:quality(85)/6/b/1/946b2476bd1d4d5495e290cf07b4a1b6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Paroles d'experts : Pauline Ferrand-Prévot peut-elle conserver son titre ?
 francetv://49cf301e-85ed-11f1-950e-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-781515c6-8924-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/cQrrJ-YJcXIFkd-x42Yq0Wal25s/400x0/filters:quality(85)/2/d/4/b6855312298b4829b3b6ac64496554d2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Paul Seixas : "Tadej Pogačar est encore sur une autre planète"
-francetv://781515c6-8924-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-db3da8ae-8ea4-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/DuLkvQLFX5Q003XS1fD5a3-aiXM/400x0/filters:quality(85)/2/1/7/2efcbdb31be04dda8cfb1aa02187e712.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Grand format : les Bleus du cécifoot, en passant par le Brésil
+francetv://db3da8ae-8ea4-11f1-ae52-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-2a912df2-8ea2-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/TXwDF-m3R7puzgH9kekmlufCHWA/400x0/filters:quality(85)/4/5/2/538c4bfc8fc944828b28059d6c5f2254.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Instant suspendu : Nicolas Batum, un contre pour l'histoire
+francetv://2a912df2-8ea2-11f1-ae52-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-805e7a44-877e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/HbxRPNdzyfxgK4s8zdGH64SZ7Bc/400x0/filters:quality(85)/a/a/0/4b95204a73d14d5fa84b813cad6940aa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Bande-annonce des Championnats d'Europe d'athlétisme 2026
@@ -4531,54 +4521,34 @@ francetv://dffaae1e-880f-11f1-8749-19616fa871f9
 francetv://26459be0-8810-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2022 : Yohann Ndoye-Brouard
 francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-d0679054-8e9d-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/-s82fd9UJpLaOdnV4kv0OHCI6-w/400x0/filters:quality(85)/2/a/e/570f6f9204724ed5ae9c47ef85b9bea2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France Femmes : Lorena Wiebes double la mise
+francetv://d0679054-8e9d-11f1-9512-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8NoR2VZ7lPkuSD8qVMIBg7P75U/400x0/filters:quality(85)/9/0/f/197ad990e1f94d7d91496e4060516f09.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
+francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-36e995b8-8ea1-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/L3loTYihcsJJT3wmToBfM4_cru8/400x0/filters:quality(85)/5/c/e/7f172c745048427c951286e6f3537ec5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Natation artistique : le rêve européen de Laëlys Alavez et Romane Lunel
+francetv://36e995b8-8ea1-11f1-848c-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-7c29e9a0-8ea3-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/g_4uKN35i3jDDBUj5aMOn23aamw/400x0/filters:quality(85)/6/3/1/6f3effb0e2bc4006af530d01e8712136.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Football - FIFA : Gianni Infantino, un président dans la tourmente
+francetv://7c29e9a0-8ea3-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-3855d2f4-8dd4-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/J4LKl5psZ1ASH8J8fZzkcLsMJdQ/400x0/filters:quality(85)/9/1/c/8c154b5f6e5f46cd9ddbe4edfbbe8c19.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Nage en eau libre : Sacha Velly vise le titre aux Championnats d'Europe de Paris
 francetv://3855d2f4-8dd4-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0d9e5c3c-8dd6-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/05evE0gfK_wH5F3y7NrqRbWRwQ0/400x0/filters:quality(85)/h/b/7/phpndm7bh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme - Tour de France Femmes : Pauline Ferrand-Prévot affutée après une préparation intensive
 francetv://0d9e5c3c-8dd6-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-d995cf66-8dd4-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/p2JmkiF0B10-3FPkyIwEPtcggKM/400x0/filters:quality(85)/5/b/b/bc6a973a195241178eb79b86b7959bb5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme : Remco Evenepoel s'offre sa quatrième Clasica San Sebastian, un record
 francetv://d995cf66-8dd4-11f1-848c-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-fb75612a-8dd2-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PuNfOgdwdogk1DiizubLtKWaOjY/400x0/filters:quality(85)/e/4/3/e54572be8e4946e9b7660197599cd34e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - ATP 250 de Los Cabos : Arthur Géa se hisse en finale
-francetv://fb75612a-8dd2-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-98d1df10-8dd4-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/ZIztu2qBWjo6fo2shtwYvw45bmk/400x0/filters:quality(85)/d/e/1/29a8ff8365d54beea7a91525d9c471ed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — WRC - Rallye de Finlande : sortie de route pour Sébastien Ogier et Julien Ingrassia
-francetv://98d1df10-8dd4-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-20796314-8d0a-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/QWnLYWPUuYIl2pNM6mT3V-yBA24/400x0/filters:quality(85)/3/d/f/d9be8efa8ba643728df92a8751884fd3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Football : le président de la FIFA, Gianni Infantino, sous grosse pression
-francetv://20796314-8d0a-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b18b5c80-8d0b-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/U2VcX6iffMpIleJHWiGuhgBnEbY/400x0/filters:quality(85)/6/5/7/eb2062fc2a5144ff842036490309f756.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Rallye : Sébastien Ogier/Julien Ingrassia, un retour gagnant
-francetv://b18b5c80-8d0b-11f1-848c-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-254ca3a4-8d0c-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/OcC0NgDKdq0m1JUJ7_cY3UnMq_A/400x0/filters:quality(85)/2/6/2/0fc09b980bc5480eabb3067a770c7262.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Musée olympique de Lausanne : la place des femmes dans le sport
 francetv://254ca3a4-8d0c-11f1-848c-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-2c71bfd0-8d0b-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ZRniBxUihxeVOh2C6GAmlmBhsQI/400x0/filters:quality(85)/1/d/7/5b67fa8d11f64a3d899d9252a2c0a7d1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis : Arthur Géa fait forte impression au Mexique
-francetv://2c71bfd0-8d0b-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-9062b11c-8d0a-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/hdODO-UBX83O98C3T9K4shQmbos/400x0/filters:quality(85)/6/2/f/2238da5636834662ac410a214a6cef26.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Football : les dernières informations à quelques semaines de la reprise
-francetv://9062b11c-8d0a-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-42a0a5d2-8c57-11f1-ae51-57a09c50f7ce" tvg-logo="https://medias.france.tv/ZBF_CTKKvnww6Axde_XvrJ04_jM/400x0/filters:quality(85)/c/c/1/ba18498aa2eb468f80e623d72bb2f1cc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Escrime : les sabreurs français sacrés champions du monde à Hong Kong
-francetv://42a0a5d2-8c57-11f1-ae51-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-b86400dc-8c59-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/lSbZ8x48Jo26HI3D7mayYn6KMWY/400x0/filters:quality(85)/i/m/h/php8zvhmi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Athlétisme : Margot Chevrier, gravement blessée avant les JO 2024,  revient de l'enfer
 francetv://b86400dc-8c59-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-d91dd114-8c58-11f1-ae51-57a09c50f7ce" tvg-logo="https://medias.france.tv/0o2Asa6GVf-LPRcForJYs4OUwf4/400x0/filters:quality(85)/d/5/f/d9dfcc4a5c4d48508b09bdf739d63f5d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Incendies : les sportifs se mobilisent face aux feux
 francetv://d91dd114-8c58-11f1-ae51-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-0416dd94-8c58-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/aONdEjFMbwHZUVB8T-zB9skbKLc/400x0/filters:quality(85)/d/7/6/34cbeaadbb5943b5a23e4db49385067d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Football : scandale autour de la vente de parts de la Coupe du monde
-francetv://0416dd94-8c58-11f1-874c-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-ba6ac222-8b86-11f1-874b-19616fa871f9" tvg-logo="https://medias.france.tv/MEnvgvFvWBpeBCYsrw52pFwKpSE/400x0/filters:quality(85)/6/4/c/b2076db01aef4a55b98ebcdd3ec26c46.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Escrime : les sabreuses françaises en bronze aux Mondiaux à Hong Kong
-francetv://ba6ac222-8b86-11f1-874b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-39d384fe-8b87-11f1-874b-19616fa871f9" tvg-logo="https://medias.france.tv/f5xftHLhr5sAg9I9soiIwpUMO24/400x0/filters:quality(85)/d/f/6/587181d6aae94074b41c972dd091f6fd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis : retour sur la soirée américaine des Bleus
-francetv://39d384fe-8b87-11f1-874b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-b4c38470-8b87-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/axgCVUIP9jVLbscI8EbBKmvsFhM/400x0/filters:quality(85)/0/2/e/d5632fa1800246b6a63407269c305e20.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Football - CAN Féminine : un Malawi historique face au Nigéria
-francetv://b4c38470-8b87-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-48489fdc-8b88-11f1-8488-957ddefc544d" tvg-logo="https://medias.france.tv/A4vl20y3EuYovFy-b_dvPNWMTUY/400x0/filters:quality(85)/c/0/t/phpytit0c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Athlétisme : Emmanuel Roudolff-Levisse, le grand espoir français du marathon
-francetv://48489fdc-8b88-11f1-8488-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-332900a8-8ab9-11f1-8487-957ddefc544d" tvg-logo="https://medias.france.tv/vv9XNiN38vV6bFfd6NPcfycwBeA/400x0/filters:quality(85)/9/f/8/5c8e75ec3d0f45098f1b36f494e548f9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Football - Italie : Roberto Mancini de retour après un imbroglio extraordinaire
-francetv://332900a8-8ab9-11f1-8487-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-cf705b3c-8ab9-11f1-8487-957ddefc544d" tvg-logo="https://medias.france.tv/fjWOq5V_ndzwgxywnAwNWJyxDmA/400x0/filters:quality(85)/d/9/0/18fc08ae925a4f9da8a80c21c848f09d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Golf : l'incroyable destin d'Issa Nlareb
-francetv://cf705b3c-8ab9-11f1-8487-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-b3dd62be-843f-11f1-950a-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/2NpuMt4ntSgyCtEtP_8vYIzoJu8/400x0/filters:quality(85)/0/8/f/f116ea8a4b9c49f3928d6ccf6b26af80.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Bande-annonce des Championnats d'Europe de natation Paris 2026
 francetv://b3dd62be-843f-11f1-950a-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-4b8be9b4-eb90-4f46-93a2-0b5b4f5f6f20" tvg-logo="https://medias.france.tv/apmB4Arp_PYgxbTE9cvGsfpnfT8/400x0/filters:quality(85)/z/o/p/phpbgapoz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Multisports — Plongeon - 3m synchronisé - Finale et Tremplin 1m Femmes - Finale
-francetv://4b8be9b4-eb90-4f46-93a2-0b5b4f5f6f20
 #EXTINF:-1 tvg-id="francetv-e72b0182-8758-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/4RP2CtXIjf3hMe_VOsUWx8hJgxA/400x0/filters:quality(85)/2/0/3/7e3cc9cd87e24690b0969abf37a9c302.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Bande-annonce du Tour de France Femmes 2026
 francetv://e72b0182-8758-11f1-8486-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-805e7a44-877e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/HbxRPNdzyfxgK4s8zdGH64SZ7Bc/400x0/filters:quality(85)/a/a/0/4b95204a73d14d5fa84b813cad6940aa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Bande-annonce des Championnats d'Europe d'athlétisme 2026
 francetv://805e7a44-877e-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-dacc1f4c-8e8e-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/0jrLsRRH1NCjd9VmOqed17YfA58/400x0/filters:quality(85)/6/9/d/abf2a21546fb414e83076099b8536d96.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 2
+francetv://dacc1f4c-8e8e-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-8c7ac104-8dc6-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/sDWsHwYmlUKX45sTFZ_DfCYzTtI/400x0/filters:quality(85)/1/b/d/122d6ea201df4384af4237083e467db1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 1
 francetv://8c7ac104-8dc6-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-f38a6af0-891d-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PYnrf41oL6c0FVq3BEuQp0QjIpY/400x0/filters:quality(85)/e/5/f/6847405659cd4da7886d35cc4d45df5e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 21
