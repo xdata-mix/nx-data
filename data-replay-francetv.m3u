@@ -197,10 +197,8 @@ francetv://program/france-3_outremer-l-info
 francetv://program/france-3_outremer-story
 #EXTINF:-1 tvg-id="francetv-prog-documentaires_le-brame-du-cerf" tvg-logo="https://medias.france.tv/MJf2gvKhb9QiFETs7GXCixqF2E4/400x0/filters:quality(85)/a/w/f/phpdvhfwa.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Le brame du cerf
 francetv://program/documentaires_le-brame-du-cerf
-#EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/65SQJoucx8i1_NOi8nIqurcu3z4/400x0/filters:quality(85)/a/j/h/phpzkehja.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil
+#EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/abSqEBnXiAgv8WhurZjO1wcABUk/400x0/filters:quality(85)/t/2/c/phpah1c2t.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-0ac670dc-7541-4f6e-bed1-6a1c08e26e73" tvg-logo="https://medias.france.tv/MPzXIBPv-28YefkeImc64tWRQwM/400x0/filters:quality(85)/5/m/8/phpuny8m5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du vendredi 31 juillet 2026
-francetv://0ac670dc-7541-4f6e-bed1-6a1c08e26e73
 #EXTINF:-1 tvg-id="francetv-423b9e61-1caf-4bef-b277-a41aecc9bc20" tvg-logo="https://medias.france.tv/g8Pv6KlSqUKihf4a8-8bKolhaEE/400x0/filters:quality(85)/4/o/e/phpqhoeo4.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du lundi 3 août 2026
 francetv://423b9e61-1caf-4bef-b277-a41aecc9bc20
 #EXTINF:-1 tvg-id="francetv-efd840d7-1ab6-4449-81cd-b870a98d143d" tvg-logo="https://medias.france.tv/crXfdBuhGVSEMejS0HUvtOyd1z8/400x0/filters:quality(85)/1/f/o/phpi8pof1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Un si grand soleil — Épisode du mardi 4 août 2026
@@ -1095,6 +1093,8 @@ francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 #EXTINF:-1 tvg-id="francetv-8502263c-8e8f-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/7u-N3KT1nv540T-46vTLtSbVJ4s/400x0/filters:quality(85)/4/1/7/ed69c7f3e5ca45998e41efec9e25c714.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Vélo club — Etape 2 - Pauline Ferrand-Prévot : "Je suis heureuse de défendre mon titre"
 francetv://8502263c-8e8f-11f1-ae52-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/wYEl3nc7PqB7iZYn7ZD5ejHDf3s/400x0/filters:quality(85)/m/c/w/phpsn4wcm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
+francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d5817846-89bd-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8trel0QWypezEZhmSuAtm45KfM/400x0/filters:quality(85)/8/c/6/9d837fa3c7704b069b4a8f949eb946c8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Au cœur de la synchro
 francetv://d5817846-89bd-11f1-9510-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-36e995b8-8ea1-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/yYWZM3-b_X-c60Tb1DRc26V-aPU/400x0/filters:quality(85)/c/2/q/phpdi2q2c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Natation artistique : le rêve européen de Laëlys Alavez et Romane Lunel
@@ -1125,8 +1125,6 @@ francetv://26459be0-8810-11f1-8749-19616fa871f9
 francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-d0679054-8e9d-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/-s82fd9UJpLaOdnV4kv0OHCI6-w/400x0/filters:quality(85)/2/a/e/570f6f9204724ed5ae9c47ef85b9bea2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France Femmes : Lorena Wiebes double la mise
 francetv://d0679054-8e9d-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8NoR2VZ7lPkuSD8qVMIBg7P75U/400x0/filters:quality(85)/9/0/f/197ad990e1f94d7d91496e4060516f09.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Cyclisme - Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
-francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-7c29e9a0-8ea3-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/g_4uKN35i3jDDBUj5aMOn23aamw/400x0/filters:quality(85)/6/3/1/6f3effb0e2bc4006af530d01e8712136.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Football - FIFA : Gianni Infantino, un président dans la tourmente
 francetv://7c29e9a0-8ea3-11f1-874c-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-3855d2f4-8dd4-11f1-874c-19616fa871f9" tvg-logo="https://medias.france.tv/J4LKl5psZ1ASH8J8fZzkcLsMJdQ/400x0/filters:quality(85)/9/1/c/8c154b5f6e5f46cd9ddbe4edfbbe8c19.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Nage en eau libre : Sacha Velly vise le titre aux Championnats d'Europe de Paris
@@ -1383,10 +1381,8 @@ francetv://program/france-2_dix-pour-cent
 francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",The Best Immigrant
 francetv://program/france-2_the-best-immigrant
-#EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/65SQJoucx8i1_NOi8nIqurcu3z4/400x0/filters:quality(85)/a/j/h/phpzkehja.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
+#EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/abSqEBnXiAgv8WhurZjO1wcABUk/400x0/filters:quality(85)/t/2/c/phpah1c2t.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
-#EXTINF:-1 tvg-id="francetv-0ac670dc-7541-4f6e-bed1-6a1c08e26e73" tvg-logo="https://medias.france.tv/MPzXIBPv-28YefkeImc64tWRQwM/400x0/filters:quality(85)/5/m/8/phpuny8m5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 31 juillet 2026
-francetv://0ac670dc-7541-4f6e-bed1-6a1c08e26e73
 #EXTINF:-1 tvg-id="francetv-423b9e61-1caf-4bef-b277-a41aecc9bc20" tvg-logo="https://medias.france.tv/g8Pv6KlSqUKihf4a8-8bKolhaEE/400x0/filters:quality(85)/4/o/e/phpqhoeo4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 3 août 2026
 francetv://423b9e61-1caf-4bef-b277-a41aecc9bc20
 #EXTINF:-1 tvg-id="francetv-efd840d7-1ab6-4449-81cd-b870a98d143d" tvg-logo="https://medias.france.tv/crXfdBuhGVSEMejS0HUvtOyd1z8/400x0/filters:quality(85)/1/f/o/phpi8pof1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du mardi 4 août 2026
@@ -4495,6 +4491,8 @@ francetv://program/tv5-monde_dj-battle-africa
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 #EXTINF:-1 tvg-id="francetv-8502263c-8e8f-11f1-ae52-57a09c50f7ce" tvg-logo="https://medias.france.tv/7u-N3KT1nv540T-46vTLtSbVJ4s/400x0/filters:quality(85)/4/1/7/ed69c7f3e5ca45998e41efec9e25c714.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Vélo club — Etape 2 - Pauline Ferrand-Prévot : "Je suis heureuse de défendre mon titre"
 francetv://8502263c-8e8f-11f1-ae52-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/wYEl3nc7PqB7iZYn7ZD5ejHDf3s/400x0/filters:quality(85)/m/c/w/phpsn4wcm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
+francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d5817846-89bd-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8trel0QWypezEZhmSuAtm45KfM/400x0/filters:quality(85)/8/c/6/9d837fa3c7704b069b4a8f949eb946c8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Au cœur de la synchro
 francetv://d5817846-89bd-11f1-9510-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-36e995b8-8ea1-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/yYWZM3-b_X-c60Tb1DRc26V-aPU/400x0/filters:quality(85)/c/2/q/phpdi2q2c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Natation artistique : le rêve européen de Laëlys Alavez et Romane Lunel
@@ -4525,7 +4523,7 @@ francetv://26459be0-8810-11f1-8749-19616fa871f9
 francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-d0679054-8e9d-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/-s82fd9UJpLaOdnV4kv0OHCI6-w/400x0/filters:quality(85)/2/a/e/570f6f9204724ed5ae9c47ef85b9bea2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France Femmes : Lorena Wiebes double la mise
 francetv://d0679054-8e9d-11f1-9512-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/h8NoR2VZ7lPkuSD8qVMIBg7P75U/400x0/filters:quality(85)/9/0/f/197ad990e1f94d7d91496e4060516f09.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Cyclisme - Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
+#EXTINF:-1 tvg-id="francetv-97b97928-8e9f-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/wYEl3nc7PqB7iZYn7ZD5ejHDf3s/400x0/filters:quality(85)/m/c/w/phpsn4wcm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Tour de France Femmes : Ma Petite Entreprise, une équipe pas comme les autres
 francetv://97b97928-8e9f-11f1-9512-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-36e995b8-8ea1-11f1-848c-957ddefc544d" tvg-logo="https://medias.france.tv/yYWZM3-b_X-c60Tb1DRc26V-aPU/400x0/filters:quality(85)/c/2/q/phpdi2q2c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Natation artistique : le rêve européen de Laëlys Alavez et Romane Lunel
 francetv://36e995b8-8ea1-11f1-848c-957ddefc544d
