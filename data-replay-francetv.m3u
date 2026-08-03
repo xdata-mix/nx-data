@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="francetv-1df35de0-a3b8-4292-950e-080e72f8cbac" tvg-logo="https://medias.france.tv/ETFx0Ie6vt-2sFngXLvv_65nFJ8/400x0/filters:quality(85)/1/m/w/phppz7wm1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Yo Mama
 francetv://1df35de0-a3b8-4292-950e-080e72f8cbac
+#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
+francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-6aa23660-0780-454d-995d-78a0259c4393" tvg-logo="https://medias.france.tv/HNU61BBw6XL0bw8sBiLNvHJiwKU/400x0/filters:quality(85)/d/z/n/php2kjnzd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association Les Bonnes Fées
 francetv://6aa23660-0780-454d-995d-78a0259c4393
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
@@ -17,8 +19,6 @@ francetv://program/france-2_les-chaises-musicales-infernales
 francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-8648160c-6670-4157-841f-e19d4f6dadca" tvg-logo="https://medias.france.tv/VO8Fkv76v0NHCuY_lWvQXQfE7B0/400x0/filters:quality(85)/8/k/y/phpskhyk8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Rendez-vous en terre inconnue — Avec Kendji Girac chez les Turkana
 francetv://8648160c-6670-4157-841f-e19d4f6dadca
-#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
-francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les aventurières
 francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_fifteen-love" tvg-logo="https://medias.france.tv/3DQShICPyyKEYSOTHD1hGevys7s/400x0/filters:quality(85)/u/o/y/phpglayou.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fifteen-Love
@@ -1361,30 +1361,28 @@ francetv://program/france-3_les-temoins-d-outre-mer
 francetv://program/france-o_passion-outre-mer
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Code Rouge
 francetv://program/france-2_code-rouge
-#EXTINF:-1 tvg-id="francetv-prog-france-3_enquete-a-haut-risque" tvg-logo="https://medias.france.tv/rCbW3Yu3XW_r0sJxiAZsCCw2e5U/400x0/filters:quality(85)/m/4/0/phpn6h04m.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquête à haut risque
-francetv://program/france-3_enquete-a-haut-risque
-#EXTINF:-1 tvg-id="francetv-prog-france-3_cassandre" tvg-logo="https://medias.france.tv/2q2Oh0eBPp5QsHV-mPG172wdGy0/400x0/filters:quality(85)/c/7/x/phpevix7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Cassandre
-francetv://program/france-3_cassandre
-#EXTINF:-1 tvg-id="francetv-prog-arte_sacha" tvg-logo="https://medias.france.tv/j6BZMQkhqAue-2p9Axjfrf5On4A/400x0/filters:quality(85)/6/8/5/1d91a6ac03714a84840fce825ec5f586.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Sacha
-francetv://program/arte_sacha
-#EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les aventurières
-francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
-#EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",The Best Immigrant
-francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-prog-france-2_fifteen-love" tvg-logo="https://medias.france.tv/3DQShICPyyKEYSOTHD1hGevys7s/400x0/filters:quality(85)/u/o/y/phpglayou.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Fifteen-Love
 francetv://program/france-2_fifteen-love
+#EXTINF:-1 tvg-id="francetv-prog-france-3_enquete-a-haut-risque" tvg-logo="https://medias.france.tv/rCbW3Yu3XW_r0sJxiAZsCCw2e5U/400x0/filters:quality(85)/m/4/0/phpn6h04m.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquête à haut risque
+francetv://program/france-3_enquete-a-haut-risque
+#EXTINF:-1 tvg-id="francetv-prog-arte_please-like-me" tvg-logo="https://medias.france.tv/0POf0Or0SmqUx_ZQGC_49xvWiUY/400x0/filters:quality(85)/4/1/p/phpik9p14.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Please Like Me
+francetv://program/arte_please-like-me
+#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
+francetv://program/france-3_opj
+#EXTINF:-1 tvg-id="francetv-prog-france-3_cassandre" tvg-logo="https://medias.france.tv/2q2Oh0eBPp5QsHV-mPG172wdGy0/400x0/filters:quality(85)/c/7/x/phpevix7c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Cassandre
+francetv://program/france-3_cassandre
 #EXTINF:-1 tvg-id="francetv-prog-france-2_simon-coleman" tvg-logo="https://medias.france.tv/yw8V_qxuYJxvf-Vpj4bXEUqANmA/400x0/filters:quality(85)/f/1/v/phpnvxv1f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Simon Coleman
 francetv://program/france-2_simon-coleman
 #EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Tom et Lola
 francetv://program/france-3_tom-et-lola
-#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
-francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/uKli2MALOwq_w39uSu2QW-XFtWs/400x0/filters:quality(85)/e/u/h/phphg6hue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Dix pour Cent
 francetv://program/france-2_dix-pour-cent
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_afropolitaine" tvg-logo="https://medias.france.tv/2lxuV3zj1DEMixQwPDpojWd11v0/400x0/filters:quality(85)/5/b/7/d43ff3d1b14f4f158cfa3932adfaa7b5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Afropolitaine
-francetv://program/tv5-monde_afropolitaine
+#EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les aventurières
+francetv://program/france-2_les-aventurieres
+#EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",The Best Immigrant
+francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/65SQJoucx8i1_NOi8nIqurcu3z4/400x0/filters:quality(85)/a/j/h/phpzkehja.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
 #EXTINF:-1 tvg-id="francetv-0ac670dc-7541-4f6e-bed1-6a1c08e26e73" tvg-logo="https://medias.france.tv/MPzXIBPv-28YefkeImc64tWRQwM/400x0/filters:quality(85)/5/m/8/phpuny8m5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 31 juillet 2026
@@ -1517,6 +1515,8 @@ francetv://program/arte_patrick-melrose
 francetv://program/series-et-fictions_series-comedie_parlement
 #EXTINF:-1 tvg-id="francetv-7e3d129e-9c17-4d49-a25e-5e913ba91e35" tvg-logo="https://medias.france.tv/W05n912wCAxfOfmSzQHYQfeHqAs/400x0/filters:quality(85)/3/a/8/php7gs8a3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Les séries d'Arte",Arte
 francetv://7e3d129e-9c17-4d49-a25e-5e913ba91e35
+#EXTINF:-1 tvg-id="francetv-prog-arte_please-like-me" tvg-logo="https://medias.france.tv/0POf0Or0SmqUx_ZQGC_49xvWiUY/400x0/filters:quality(85)/4/1/p/phpik9p14.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Les séries d'Arte",Please Like Me
+francetv://program/arte_please-like-me
 #EXTINF:-1 tvg-id="francetv-prog-arte_sacha" tvg-logo="https://medias.france.tv/j6BZMQkhqAue-2p9Axjfrf5On4A/400x0/filters:quality(85)/6/8/5/1d91a6ac03714a84840fce825ec5f586.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Les séries d'Arte",Sacha
 francetv://program/arte_sacha
 #EXTINF:-1 tvg-id="francetv-prog-arte_you-me" tvg-logo="https://medias.france.tv/VcD5fM-0Tx3dPwyPz3wpZOlNCTY/400x0/filters:quality(85)/2/4/s/phpf1fs42.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Les séries d'Arte",You & Me
@@ -1839,16 +1839,56 @@ francetv://program/france-2_kaboul
 francetv://program/france-2_vortex
 #EXTINF:-1 tvg-id="francetv-prog-france-2_abysses" tvg-logo="https://medias.france.tv/XH5vuNKnMfovrchMHBGfSLjaCVw/400x0/filters:quality(85)/j/s/n/php2cpnsj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Abysses
 francetv://program/france-2_abysses
-#EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Les aventurières
-francetv://program/france-2_les-aventurieres
+#EXTINF:-1 tvg-id="francetv-prog-arte_putain-de-chat_saison-1_saison-1" tvg-logo="https://medias.france.tv/afz5fd4WwYyPg8uW6nRsOFoywWg/400x0/filters:quality(85)/9/f/c/5d16920fb57547abb629b5a7dc777cf9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Putain de chat
+francetv://program/arte_putain-de-chat_saison-1_saison-1
+#EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Sous pression
+francetv://program/france-2_sous-pression
+#EXTINF:-1 tvg-id="francetv-prog-slash_p-tain-de-soiree" tvg-logo="https://medias.france.tv/wfG6EvQI1YObZSxYrexuLEIBmxE/400x0/filters:quality(85)/a/d/w/phpykqwda.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",P*tain de soirée
+francetv://program/slash_p-tain-de-soiree
+#EXTINF:-1 tvg-id="francetv-prog-arte_les-groos" tvg-logo="https://medias.france.tv/iG6D4eYA4YXyOQo4nh4KTsOQKXE/400x0/filters:quality(85)/3/d/9/0e9db3c6bfaa4b76b7ef7b796abce9d3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Les Groos
+francetv://program/arte_les-groos
+#EXTINF:-1 tvg-id="francetv-prog-france-2_trop-mortel" tvg-logo="https://medias.france.tv/0v0vmS8cGjfcL_VDnCeIzWP9TcA/400x0/filters:quality(85)/z/y/z/php95mzyz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Trop mortel
+francetv://program/france-2_trop-mortel
+#EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/uKli2MALOwq_w39uSu2QW-XFtWs/400x0/filters:quality(85)/e/u/h/phphg6hue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Dix pour Cent
+francetv://program/france-2_dix-pour-cent
+#EXTINF:-1 tvg-id="francetv-prog-arte_quelqu-un-devrait-interdire-les-dimanches-apres-midi" tvg-logo="https://medias.france.tv/WB93B-ZDYlYdhMj1x4l_wcgqbpI/400x0/filters:quality(85)/k/y/h/php1qchyk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Quelqu'un devrait interdire les dimanches après-midi
+francetv://program/arte_quelqu-un-devrait-interdire-les-dimanches-apres-midi
+#EXTINF:-1 tvg-id="francetv-prog-slash_enjoy" tvg-logo="https://medias.france.tv/Gf3hSXO0zV9QHx94LcYXdnf1Zuw/400x0/filters:quality(85)/v/w/i/phpq8siwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Enjoy !
+francetv://program/slash_enjoy
+#EXTINF:-1 tvg-id="francetv-prog-france-2_l-affaire-laura-stern" tvg-logo="https://medias.france.tv/u9QCbdgcUt8qWHKNKfA-0u4OZa0/400x0/filters:quality(85)/l/r/e/phpkyxerl.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",L'affaire Laura Stern
+francetv://program/france-2_l-affaire-laura-stern
+#EXTINF:-1 tvg-id="francetv-prog-slash_stalk" tvg-logo="https://medias.france.tv/9C-06n7Nn656vWRGMbiKlXW2h_Q/400x0/filters:quality(85)/r/2/n/phptdwn2r.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Stalk
+francetv://program/slash_stalk
+#EXTINF:-1 tvg-id="francetv-prog-france-2_phoenix" tvg-logo="https://medias.france.tv/WLXaFCt76aLSfZ4TGmRRjEkXYE4/400x0/filters:quality(85)/b/j/c/phpij4cjb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Phoenix
+francetv://program/france-2_phoenix
+#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-quete-d-ewilan" tvg-logo="https://medias.france.tv/qtq45GA8s7Vi7SRpexaaGI3cLjY/400x0/filters:quality(85)/a/v/h/phpgxahva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",La quête d'Ewilan
+francetv://program/enfants_neuf-douze-ans_la-quete-d-ewilan
+#EXTINF:-1 tvg-id="francetv-prog-france-2_anaon" tvg-logo="https://medias.france.tv/gAz6mn_J7WvkQ6GFaTmyIEMBvUA/400x0/filters:quality(85)/z/r/o/phpqkzorz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Anaon
+francetv://program/france-2_anaon
+#EXTINF:-1 tvg-id="francetv-prog-arte_twin-peaks" tvg-logo="https://medias.france.tv/_yA8g9rulg1JCdB7fkFYnlRlY94/400x0/filters:quality(85)/k/e/r/phphgdrek.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Twin Peaks
+francetv://program/arte_twin-peaks
+#EXTINF:-1 tvg-id="francetv-prog-slash_bistronomia" tvg-logo="https://medias.france.tv/kJy7xhoirSbLETw77TroHocjE5U/400x0/filters:quality(85)/f/s/i/php3umisf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Bistronomia
+francetv://program/slash_bistronomia
+#EXTINF:-1 tvg-id="francetv-prog-slash_daria" tvg-logo="https://medias.france.tv/W1It03Fg5qUSwNJP_vaPbdfQfHQ/400x0/filters:quality(85)/d/x/y/phpevcyxd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Daria
+francetv://program/slash_daria
+#EXTINF:-1 tvg-id="francetv-prog-arte_los-anos-nuevos" tvg-logo="https://medias.france.tv/yNR7MoGZEkTv4QE6C0GaahpFq5U/400x0/filters:quality(85)/q/0/d/phpak1d0q.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Los años nuevos
+francetv://program/arte_los-anos-nuevos
+#EXTINF:-1 tvg-id="francetv-prog-slash_mental" tvg-logo="https://medias.france.tv/Bj5YJt1vs8ejXrWMUDuHp-L8zjA/400x0/filters:quality(85)/7/t/n/phprzknt7.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Mental
+francetv://program/slash_mental
+#EXTINF:-1 tvg-id="francetv-prog-slash_skam-france" tvg-logo="https://medias.france.tv/dln3uEbDi6RrvueC2EWQxJxmV6Q/400x0/filters:quality(85)/d/k/p/phplvzpkd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",SKAM France
+francetv://program/slash_skam-france
+#EXTINF:-1 tvg-id="francetv-prog-slash_amours-solitaires" tvg-logo="https://medias.france.tv/Zs86VaJfKeocF3gNiI4jcgQvP9s/400x0/filters:quality(85)/h/i/c/phpgd5cih.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Amours solitaires
+francetv://program/slash_amours-solitaires
 #EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/uKli2MALOwq_w39uSu2QW-XFtWs/400x0/filters:quality(85)/e/u/h/phphg6hue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Dix pour Cent
 francetv://program/france-2_dix-pour-cent
+#EXTINF:-1 tvg-id="francetv-prog-arte_please-like-me" tvg-logo="https://medias.france.tv/0POf0Or0SmqUx_ZQGC_49xvWiUY/400x0/filters:quality(85)/4/1/p/phpik9p14.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Please Like Me
+francetv://program/arte_please-like-me
+#EXTINF:-1 tvg-id="francetv-eb1ed1c4-593f-48dd-a572-7bad6dadf192" tvg-logo="https://medias.france.tv/SOK1lA4xeX3Yif7bnEoIsETo1yA/400x0/filters:quality(85)/c/6/7/45d0f31507b544fe83d082795c74399f23cf0927102f19a81da3e4cc98daf76c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Les Histoires d'Anouk
+francetv://eb1ed1c4-593f-48dd-a572-7bad6dadf192
 #EXTINF:-1 tvg-id="francetv-prog-arte_five-bedrooms" tvg-logo="https://medias.france.tv/ahO2EeSXWxe9EP92IdipMzAz3vA/400x0/filters:quality(85)/2/l/h/phprxdhl2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Five Bedrooms
 francetv://program/arte_five-bedrooms
 #EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Made in France
 francetv://program/france-2_made-in-france
-#EXTINF:-1 tvg-id="francetv-eb1ed1c4-593f-48dd-a572-7bad6dadf192" tvg-logo="https://medias.france.tv/SOK1lA4xeX3Yif7bnEoIsETo1yA/400x0/filters:quality(85)/c/6/7/45d0f31507b544fe83d082795c74399f23cf0927102f19a81da3e4cc98daf76c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Les Histoires d'Anouk
-francetv://eb1ed1c4-593f-48dd-a572-7bad6dadf192
 #EXTINF:-1 tvg-id="francetv-prog-arte_lovesick" tvg-logo="https://medias.france.tv/UI4s1YYUrEvrtQlKdpLUS_0Qodg/400x0/filters:quality(85)/8/m/d/phpusadm8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Lovesick
 francetv://program/arte_lovesick
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_ils-vecurent-heureux" tvg-logo="https://medias.france.tv/r-v4XY3n_Eg4Wcrk2ZjF2T5BhlQ/400x0/filters:quality(85)/3/6/3/0d7bef9e93724f15976e13daa6c27363.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Ils vécurent heureux
@@ -1859,6 +1899,8 @@ francetv://program/slash_p-tain-de-soiree
 francetv://program/arte_polar-park
 #EXTINF:-1 tvg-id="francetv-prog-slash_dates-irl" tvg-logo="https://medias.france.tv/nxPVyNFoP4O96EiyQOlFTODpmqM/400x0/filters:quality(85)/2/n/x/php9tmxn2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Dates IRL
 francetv://program/slash_dates-irl
+#EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Les aventurières
+francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-series-et-fictions_series-comedie_libre-des-maintenant" tvg-logo="https://medias.france.tv/eruerjEWx_jae7M_eSROIL83Zdk/400x0/filters:quality(85)/i/y/x/php1mxxyi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Libre dès maintenant
 francetv://program/series-et-fictions_series-comedie_libre-des-maintenant
 #EXTINF:-1 tvg-id="francetv-prog-la1ere_mayotte_colocs" tvg-logo="https://medias.france.tv/3ETK1je16E5-Icg_xbE9xYgC1YQ/400x0/filters:quality(85)/w/x/z/php9c5zxw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Colocs!
@@ -1909,46 +1951,6 @@ francetv://program/arte_rosehaven
 francetv://program/series-et-fictions_un-gars-une-fille-25-ans-apres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_vestiaires" tvg-logo="https://medias.france.tv/zJCN-wPcLlFpJWOiXStN89OG89w/400x0/filters:quality(85)/n/y/7/phphds7yn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Sinon, plutôt fan de comédies ?",Vestiaires
 francetv://program/france-2_vestiaires
-#EXTINF:-1 tvg-id="francetv-prog-arte_putain-de-chat_saison-1_saison-1" tvg-logo="https://medias.france.tv/afz5fd4WwYyPg8uW6nRsOFoywWg/400x0/filters:quality(85)/9/f/c/5d16920fb57547abb629b5a7dc777cf9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Putain de chat
-francetv://program/arte_putain-de-chat_saison-1_saison-1
-#EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Sous pression
-francetv://program/france-2_sous-pression
-#EXTINF:-1 tvg-id="francetv-prog-slash_p-tain-de-soiree" tvg-logo="https://medias.france.tv/wfG6EvQI1YObZSxYrexuLEIBmxE/400x0/filters:quality(85)/a/d/w/phpykqwda.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",P*tain de soirée
-francetv://program/slash_p-tain-de-soiree
-#EXTINF:-1 tvg-id="francetv-prog-arte_les-groos" tvg-logo="https://medias.france.tv/iG6D4eYA4YXyOQo4nh4KTsOQKXE/400x0/filters:quality(85)/3/d/9/0e9db3c6bfaa4b76b7ef7b796abce9d3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Les Groos
-francetv://program/arte_les-groos
-#EXTINF:-1 tvg-id="francetv-prog-france-2_trop-mortel" tvg-logo="https://medias.france.tv/0v0vmS8cGjfcL_VDnCeIzWP9TcA/400x0/filters:quality(85)/z/y/z/php95mzyz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Trop mortel
-francetv://program/france-2_trop-mortel
-#EXTINF:-1 tvg-id="francetv-prog-france-2_dix-pour-cent" tvg-logo="https://medias.france.tv/uKli2MALOwq_w39uSu2QW-XFtWs/400x0/filters:quality(85)/e/u/h/phphg6hue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Dix pour Cent
-francetv://program/france-2_dix-pour-cent
-#EXTINF:-1 tvg-id="francetv-prog-arte_quelqu-un-devrait-interdire-les-dimanches-apres-midi" tvg-logo="https://medias.france.tv/WB93B-ZDYlYdhMj1x4l_wcgqbpI/400x0/filters:quality(85)/k/y/h/php1qchyk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Quelqu'un devrait interdire les dimanches après-midi
-francetv://program/arte_quelqu-un-devrait-interdire-les-dimanches-apres-midi
-#EXTINF:-1 tvg-id="francetv-prog-slash_enjoy" tvg-logo="https://medias.france.tv/Gf3hSXO0zV9QHx94LcYXdnf1Zuw/400x0/filters:quality(85)/v/w/i/phpq8siwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Enjoy !
-francetv://program/slash_enjoy
-#EXTINF:-1 tvg-id="francetv-prog-france-2_l-affaire-laura-stern" tvg-logo="https://medias.france.tv/u9QCbdgcUt8qWHKNKfA-0u4OZa0/400x0/filters:quality(85)/l/r/e/phpkyxerl.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",L'affaire Laura Stern
-francetv://program/france-2_l-affaire-laura-stern
-#EXTINF:-1 tvg-id="francetv-prog-slash_stalk" tvg-logo="https://medias.france.tv/9C-06n7Nn656vWRGMbiKlXW2h_Q/400x0/filters:quality(85)/r/2/n/phptdwn2r.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Stalk
-francetv://program/slash_stalk
-#EXTINF:-1 tvg-id="francetv-prog-france-2_phoenix" tvg-logo="https://medias.france.tv/WLXaFCt76aLSfZ4TGmRRjEkXYE4/400x0/filters:quality(85)/b/j/c/phpij4cjb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Phoenix
-francetv://program/france-2_phoenix
-#EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-quete-d-ewilan" tvg-logo="https://medias.france.tv/qtq45GA8s7Vi7SRpexaaGI3cLjY/400x0/filters:quality(85)/a/v/h/phpgxahva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",La quête d'Ewilan
-francetv://program/enfants_neuf-douze-ans_la-quete-d-ewilan
-#EXTINF:-1 tvg-id="francetv-prog-france-2_anaon" tvg-logo="https://medias.france.tv/gAz6mn_J7WvkQ6GFaTmyIEMBvUA/400x0/filters:quality(85)/z/r/o/phpqkzorz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Anaon
-francetv://program/france-2_anaon
-#EXTINF:-1 tvg-id="francetv-prog-arte_twin-peaks" tvg-logo="https://medias.france.tv/_yA8g9rulg1JCdB7fkFYnlRlY94/400x0/filters:quality(85)/k/e/r/phphgdrek.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Twin Peaks
-francetv://program/arte_twin-peaks
-#EXTINF:-1 tvg-id="francetv-prog-slash_bistronomia" tvg-logo="https://medias.france.tv/kJy7xhoirSbLETw77TroHocjE5U/400x0/filters:quality(85)/f/s/i/php3umisf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Bistronomia
-francetv://program/slash_bistronomia
-#EXTINF:-1 tvg-id="francetv-prog-slash_daria" tvg-logo="https://medias.france.tv/W1It03Fg5qUSwNJP_vaPbdfQfHQ/400x0/filters:quality(85)/d/x/y/phpevcyxd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Daria
-francetv://program/slash_daria
-#EXTINF:-1 tvg-id="francetv-prog-arte_los-anos-nuevos" tvg-logo="https://medias.france.tv/yNR7MoGZEkTv4QE6C0GaahpFq5U/400x0/filters:quality(85)/q/0/d/phpak1d0q.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Los años nuevos
-francetv://program/arte_los-anos-nuevos
-#EXTINF:-1 tvg-id="francetv-prog-slash_mental" tvg-logo="https://medias.france.tv/Bj5YJt1vs8ejXrWMUDuHp-L8zjA/400x0/filters:quality(85)/7/t/n/phprzknt7.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Mental
-francetv://program/slash_mental
-#EXTINF:-1 tvg-id="francetv-prog-slash_skam-france" tvg-logo="https://medias.france.tv/dln3uEbDi6RrvueC2EWQxJxmV6Q/400x0/filters:quality(85)/d/k/p/phplvzpkd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",SKAM France
-francetv://program/slash_skam-france
-#EXTINF:-1 tvg-id="francetv-prog-slash_amours-solitaires" tvg-logo="https://medias.france.tv/Zs86VaJfKeocF3gNiI4jcgQvP9s/400x0/filters:quality(85)/h/i/c/phpgd5cih.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Slash aime",Amours solitaires
-francetv://program/slash_amours-solitaires
 #EXTINF:-1 tvg-id="francetv-prog-arte_putain-de-chat_saison-1_saison-1" tvg-logo="https://medias.france.tv/afz5fd4WwYyPg8uW6nRsOFoywWg/400x0/filters:quality(85)/9/f/c/5d16920fb57547abb629b5a7dc777cf9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries d'animation",Putain de chat
 francetv://program/arte_putain-de-chat_saison-1_saison-1
 #EXTINF:-1 tvg-id="francetv-prog-series-et-fictions_series-animees_goldorak-u" tvg-logo="https://medias.france.tv/z1aLY9MuMBT-lrzKauBpM6gcmSo/400x0/filters:quality(85)/i/q/p/phpm9zpqi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Séries d'animation",Goldorak U
@@ -5153,22 +5155,24 @@ francetv://e73c1b6e-10a9-11f1-858c-19616fa871f9
 francetv://fb9c098a-0040-11f1-936c-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-3c1fecea-0020-11f1-ac9e-57a09c50f7ce" tvg-logo="https://medias.france.tv/6M0shn1JXimWJVeo7H30qO4K7rM/400x0/filters:quality(85)/1/a/a/cc6dd2ad9f7d4156bd2f13c4ca613aa1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Anecdotes et confidences",Les rencontres du Papotin — Pourquoi Orelsan aime le rap ?
 francetv://3c1fecea-0020-11f1-ac9e-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-prog-france-4_molusco" tvg-logo="https://medias.france.tv/PcN_doUnG5Kid2bz59eJz_cWfFI/400x0/filters:quality(85)/8/x/x/phpe8yxx8.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Molusco
+francetv://program/france-4_molusco
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_la-famille-weasy" tvg-logo="https://medias.france.tv/hBbzPLbTv1PkjGKGabu3mK4u5wY/400x0/filters:quality(85)/a/p/z/phpjoyzpa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La famille Weasy
+francetv://program/enfants_six-huit-ans_la-famille-weasy
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_animanimals" tvg-logo="https://medias.france.tv/Pb8MqxcH_Fnh90SV8tJMhuzbnlM/400x0/filters:quality(85)/u/z/6/phpjkl6zu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Animanimals
 francetv://program/enfants_trois-cinq-ans_animanimals
 #EXTINF:-1 tvg-id="francetv-prog-france-5_t-choupi-a-la-campagne" tvg-logo="https://medias.france.tv/2ltgCYuGouq74VMauBJyW_wJTMQ/400x0/filters:quality(85)/4/h/e/phpxzreh4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",T'Choupi à la campagne
 francetv://program/france-5_t-choupi-a-la-campagne
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_la-famille-weasy" tvg-logo="https://medias.france.tv/hBbzPLbTv1PkjGKGabu3mK4u5wY/400x0/filters:quality(85)/a/p/z/phpjoyzpa.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La famille Weasy
-francetv://program/enfants_six-huit-ans_la-famille-weasy
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_moi-a-ton-age" tvg-logo="https://medias.france.tv/gfbViFfHvydloeDEsdOyIPrk6bE/400x0/filters:quality(85)/e/s/i/phpltzise.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Moi à ton âge
 francetv://program/enfants_six-huit-ans_moi-a-ton-age
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_au-galop" tvg-logo="https://medias.france.tv/4JhjSfkj1HS1TL4THnaO7iIyCHc/400x0/filters:quality(85)/e/9/g/phpfbzg9e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Au galop !
+francetv://program/enfants_six-huit-ans_au-galop
 #EXTINF:-1 tvg-id="francetv-prog-france-4_belfort-lupin" tvg-logo="https://medias.france.tv/mJ9pXDTTNEbgYhO4iY9u3h9Qs1M/400x0/filters:quality(85)/v/t/8/phpxnj8tv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Belfort & Lupin
 francetv://program/france-4_belfort-lupin
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_bienvenue-a-paper-port" tvg-logo="https://medias.france.tv/MRn0t9FmU1AKdfvH1olswVIHMPQ/400x0/filters:quality(85)/q/n/f/phpa2pfnq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Bienvenue à Paper Port
 francetv://program/enfants_six-huit-ans_bienvenue-a-paper-port
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_la-quete-d-ewilan" tvg-logo="https://medias.france.tv/qtq45GA8s7Vi7SRpexaaGI3cLjY/400x0/filters:quality(85)/a/v/h/phpgxahva.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La quête d'Ewilan
 francetv://program/enfants_neuf-douze-ans_la-quete-d-ewilan
-#EXTINF:-1 tvg-id="francetv-prog-france-4_slugterra" tvg-logo="https://medias.france.tv/WKtFfzm9dT4m6090qRGVifuco-g/400x0/filters:quality(85)/5/z/y/phpaybyz5.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Slugterra
-francetv://program/france-4_slugterra
 #EXTINF:-1 tvg-id="francetv-3a72fb39-9414-4196-9b1d-599aafaf2b24" tvg-logo="https://medias.france.tv/LBAhI_IoU6mQYjdNOKbiBVxRowA/400x0/filters:quality(85)/j/c/v/phphrhvcj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Beurk !
 francetv://3a72fb39-9414-4196-9b1d-599aafaf2b24
 #EXTINF:-1 tvg-id="francetv-prog-france-4_la-caravane-lumni-conseils-de-lecture" tvg-logo="https://medias.france.tv/EK4PWPgCX7N9yoOYrGJlHXw-ZZQ/400x0/filters:quality(85)/u/0/n/phpcren0u.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La caravane Lumni : conseils de lecture
