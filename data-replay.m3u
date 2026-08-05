@@ -22061,14 +22061,18 @@ m6play://m6replay/21381
 m6play://m6replay/10015
 #EXTINF:-1 tvg-id="m6plus-9651" tvg-logo="https://images.6play.fr/v1/images/4261241/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Lheure du Crime
 m6play://m6replay/9651
+#EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
+francetv://program/france-2_code-rouge
 #EXTINF:-1 tvg-id="francetv-1df35de0-a3b8-4292-950e-080e72f8cbac" tvg-logo="https://medias.france.tv/ETFx0Ie6vt-2sFngXLvv_65nFJ8/400x0/filters:quality(85)/1/m/w/phppz7wm1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Yo Mama
 francetv://1df35de0-a3b8-4292-950e-080e72f8cbac
+#EXTINF:-1 tvg-id="francetv-5b38c872-0533-42bb-82b3-3b2d806cc42e" tvg-logo="https://medias.france.tv/iwCRItWUZ0SQrmo9Ly_xn9N88oQ/400x0/filters:quality(85)/a/i/v/phpn2zvia.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Lily et Lily
+francetv://5b38c872-0533-42bb-82b3-3b2d806cc42e
+#EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",The Best Immigrant
+francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-6aa23660-0780-454d-995d-78a0259c4393" tvg-logo="https://medias.france.tv/HNU61BBw6XL0bw8sBiLNvHJiwKU/400x0/filters:quality(85)/d/z/n/php2kjnzd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — Association Les Bonnes Fées
 francetv://6aa23660-0780-454d-995d-78a0259c4393
-#EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
-francetv://program/france-2_code-rouge
 #EXTINF:-1 tvg-id="francetv-649027ba-52c2-4821-83c8-7e0c8eb75428" tvg-logo="https://medias.france.tv/_rrQkr_7a9Ag5G7w-8Gh_By_ZD0/400x0/filters:quality(85)/f/s/g/phpvvmgsf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Snatch Game
 francetv://649027ba-52c2-4821-83c8-7e0c8eb75428
 #EXTINF:-1 tvg-id="francetv-10af3af6-ab14-408d-8470-8516835f84df" tvg-logo="https://medias.france.tv/kDkUlceVwi7Er36QtTWduaqEwso/400x0/filters:quality(85)/m/d/g/phpmnagdm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le Théorème de Marguerite
@@ -22077,14 +22081,10 @@ francetv://10af3af6-ab14-408d-8470-8516835f84df
 francetv://program/france-2_simon-coleman
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-chaises-musicales-infernales" tvg-logo="https://medias.france.tv/eoERVPy0FIrWhUKyJKJe1YR0nmo/400x0/filters:quality(85)/p/f/z/phpxdpzfp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les Chaises Musicales Infernales
 francetv://program/france-2_les-chaises-musicales-infernales
-#EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",The Best Immigrant
-francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les aventurières
 francetv://program/france-2_les-aventurieres
 #EXTINF:-1 tvg-id="francetv-prog-france-2_fifteen-love" tvg-logo="https://medias.france.tv/3DQShICPyyKEYSOTHD1hGevys7s/400x0/filters:quality(85)/u/o/y/phpglayou.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fifteen-Love
 francetv://program/france-2_fifteen-love
-#EXTINF:-1 tvg-id="francetv-prog-france-2_sous-pression" tvg-logo="https://medias.france.tv/hl1GN-vrs6COQX_gHVqn6cQGao0/400x0/filters:quality(85)/p/b/y/phpttdybp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Sous pression
-francetv://program/france-2_sous-pression
 #EXTINF:-1 tvg-id="francetv-48d48d53-4292-478e-8a7b-84bb7ee6722b" tvg-logo="https://medias.france.tv/bNiBQns8lzzMm7OsO35Oh1pOS34/400x0/filters:quality(85)/r/q/l/phpppxlqr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un château en Espagne
 francetv://48d48d53-4292-478e-8a7b-84bb7ee6722b
 #EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Made in France
@@ -22209,6 +22209,8 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
+#EXTINF:-1 tvg-id="francetv-e075034c-3a3d-4186-987e-c5123df8f566" tvg-logo="https://medias.france.tv/mx4VcLhpgKfAtQ774CSLE71o09A/400x0/filters:quality(85)/7/q/1/phpaa51q7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Secrets d'Histoire — La folle épopée de Charlotte d'Angleterre
+francetv://e075034c-3a3d-4186-987e-c5123df8f566
 #EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",OPJ
 francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-3_l-heure-d" tvg-logo="https://medias.france.tv/HfhAnJ3gpR1FX2hnl1B3ZLzG8sk/400x0/filters:quality(85)/o/k/9/php4fr9ko.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",L'Heure D
