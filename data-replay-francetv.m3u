@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-578da7e1-908e-410c-a2af-ac46d3f5b8d4" tvg-logo="https://medias.france.tv/zqjO2lvUfm4Jog_pAein-x7F74E/400x0/filters:quality(85)/7/a/4/3ca3b5c73d67415f82b6002e51a684a7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Pop Couture
+francetv://578da7e1-908e-410c-a2af-ac46d3f5b8d4
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
 francetv://program/france-2_code-rouge
 #EXTINF:-1 tvg-id="francetv-9f7d66ce-4950-49a2-b1e8-850af1d4bef7" tvg-logo="https://medias.france.tv/6UuozahR5YZpzYplElh2wwCOr58/400x0/filters:quality(85)/3/x/n/phpjxunx3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Laurent Gerra, l'anniversaire-événement
@@ -683,8 +685,8 @@ francetv://16769cf8-ddf7-4a62-84d0-4c58624b3909
 francetv://9a9c65d2-99af-42bd-a3e8-7448c6d29927
 #EXTINF:-1 tvg-id="francetv-a28581e1-a8a4-4fef-8b9a-ed99d3447a6f" tvg-logo="https://medias.france.tv/r2hBiqPCbXZGJX-XTXc5gomL6no/400x0/filters:quality(85)/s/q/g/phplhbgqs.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",20 jours à Marioupol
 francetv://a28581e1-a8a4-4fef-8b9a-ed99d3447a6f
-#EXTINF:-1 tvg-id="francetv-7924d2f4-dc06-43af-b4fb-5cd90f7661a8" tvg-logo="https://medias.france.tv/5kyQQM72P6prgdCUPkep1EWGSTA/400x0/filters:quality(85)/z/m/9/php2vm9mz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Le monde en face — Les empires contre-attaquent
-francetv://7924d2f4-dc06-43af-b4fb-5cd90f7661a8
+#EXTINF:-1 tvg-id="francetv-43904f1a-ae68-4a45-a058-8c2e3f6ed116" tvg-logo="https://medias.france.tv/5kyQQM72P6prgdCUPkep1EWGSTA/400x0/filters:quality(85)/z/m/9/php2vm9mz.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Le monde en face — Les empires contre-attaquent
+francetv://43904f1a-ae68-4a45-a058-8c2e3f6ed116
 #EXTINF:-1 tvg-id="francetv-d39ea2bd-c780-4b1f-837a-430f469257fe" tvg-logo="https://medias.france.tv/izV2NVTkkHE5RAHouQpMo9531VM/400x0/filters:quality(85)/k/p/j/php8rhjpk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Si j'étais sage-femme
 francetv://d39ea2bd-c780-4b1f-837a-430f469257fe
 #EXTINF:-1 tvg-id="francetv-1dfbfccf-4a0a-435b-9307-4c72f2b5f6db" tvg-logo="https://medias.france.tv/HBhwJZ80qQknlk4ND_JQRz0vclY/400x0/filters:quality(85)/w/j/w/phpozxwjw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Enquête de santé — Ces gestes qui sauvent votre été
@@ -1079,8 +1081,6 @@ francetv://program/france-4_basique-les-sessions
 francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-1b98f941-de93-4445-b6be-60e5f5c34746" tvg-logo="https://medias.france.tv/hWTmM80XNpBC7G-IckDKqj8a8zU/400x0/filters:quality(85)/i/j/z/phpfjazji.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",UCI World Tour Féminin — Etape 6 : Montbrison > Tournon-sur-Rhône
-francetv://1b98f941-de93-4445-b6be-60e5f5c34746
 #EXTINF:-1 tvg-id="francetv-70cd2d68-9102-11f1-874e-19616fa871f9" tvg-logo="https://medias.france.tv/Nb-Wzr2z6UVQbQMsQU9OfWC5CPA/400x0/filters:quality(85)/3/f/f/fc82764b55dc4e4ca36a7e3070394ff3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Tremplin 3m (H) - Finale : Jules Bouyer sacré vice-champion d'Europe à domicile
 francetv://70cd2d68-9102-11f1-874e-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-ef2ad172-8f51-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/vKgiz6KilTaFcm8Lr1i1zfRQA5I/400x0/filters:quality(85)/6/t/3/php4zo3t6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Natation : Léon Marchand, entre doutes et impatience
@@ -1131,6 +1131,8 @@ francetv://36e995b8-8ea1-11f1-848c-957ddefc544d
 francetv://951a9a4a-9187-11f1-ae56-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-105f0f7a-8f20-11f1-ae53-57a09c50f7ce" tvg-logo="https://medias.france.tv/UMcqMVUf9-IQnUWJXCAeUYph3io/400x0/filters:quality(85)/5/b/4/66a377f5276a494bb7a0a67e537e14b5.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Bande-annonce des championnats d'Europe de Cécifoot 2026
 francetv://105f0f7a-8f20-11f1-ae53-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-f623f654-91b1-11f1-9514-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/WBX93mNNJdcvSMxqNp_5reh6NPw/400x0/filters:quality(85)/b/d/3/8d17f8d052524b73b1cee937dc9173db.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 6
+francetv://f623f654-91b1-11f1-9514-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-55aaf9d0-90e8-11f1-9513-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/x-PUX4fgWa1WB6Lco8U4PQjWrec/400x0/filters:quality(85)/6/8/c/4c4b4353c2e54ebba49c2e1ff626fc86.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de l'étape 5
 francetv://55aaf9d0-90e8-11f1-9513-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-f2a3c31c-90d3-11f1-874d-19616fa871f9" tvg-logo="https://medias.france.tv/0QJ42URpMIssj996B1Fa9DbtOGw/400x0/filters:quality(85)/a/h/o/phpqjqoha.png" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé du 5km femmes
@@ -3559,7 +3561,7 @@ francetv://program/documentaires_documentaires-societe_omar-raddad-le-dernier-co
 francetv://4dc28bcc-f45b-4f48-9263-830880dd1f3c
 #EXTINF:-1 tvg-id="francetv-a6bbb4e2-d13f-4811-9ebe-9adf481637dd" tvg-logo="https://medias.france.tv/BD22iWvdZwHrZqbqSkjidGjl7q4/400x0/filters:quality(85)/x/m/r/phpvsurmx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Ça commence aujourd'hui — Enfant au cœur d'une affaire criminelle
 francetv://a6bbb4e2-d13f-4811-9ebe-9adf481637dd
-#EXTINF:-1 tvg-id="francetv-prog-arte_shaina-histoire-d-un-mepris-criminel" tvg-logo="https://medias.france.tv/6lvjix-WNB1a_UbWJmmkmsMdnw4/400x0/filters:quality(85)/b/3/3/9ac7abdc6cf84ed1b620b27dd51c433b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Shaïna, histoire d’un mépris criminel
+#EXTINF:-1 tvg-id="francetv-prog-arte_shaina-histoire-d-un-mepris-criminel" tvg-logo="https://medias.france.tv/yahevmGQmc-H_QUOgxZHb6vpUEA/400x0/filters:quality(85)/1/2/a/632b8c5747694b97bb2f955507335a21.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Shaïna, histoire d’un mépris criminel
 francetv://program/arte_shaina-histoire-d-un-mepris-criminel
 #EXTINF:-1 tvg-id="francetv-41613c26-5a2f-429f-816c-1e331694935e" tvg-logo="https://medias.france.tv/_zJFTlja-RIu8ebMICfNaNIDyEs/400x0/filters:quality(85)/8/5/f/18b5b15d3dc74d27a671ee715f0f2f58.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Chroniques judiciaires",Au bout de l'enquête, la fin du crime parfait ? — Affaire Jean-Jacques Le Page, La call girl et le vieux monsieur
 francetv://41613c26-5a2f-429f-816c-1e331694935e
@@ -3805,8 +3807,8 @@ francetv://31a155fc-0b82-4f9a-be47-8ce92e6a6a3b
 francetv://2a57d272-038e-4928-b2ee-ad2f48962d42
 #EXTINF:-1 tvg-id="francetv-705bd388-4816-452c-9e83-63d5b9f80cd0" tvg-logo="https://medias.france.tv/FIm1gCgZbqQ-sC8vDD69PGT8Z60/400x0/filters:quality(85)/i/r/x/php9blxri.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - En Europe",La fabrique des idées — Le Grand Continent, une certaine idée de l'Europe
 francetv://705bd388-4816-452c-9e83-63d5b9f80cd0
-#EXTINF:-1 tvg-id="francetv-7924d2f4-dc06-43af-b4fb-5cd90f7661a8" tvg-logo="https://medias.france.tv/5kyQQM72P6prgdCUPkep1EWGSTA/400x0/filters:quality(85)/z/m/9/php2vm9mz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - En Europe",Le monde en face — Les empires contre-attaquent
-francetv://7924d2f4-dc06-43af-b4fb-5cd90f7661a8
+#EXTINF:-1 tvg-id="francetv-43904f1a-ae68-4a45-a058-8c2e3f6ed116" tvg-logo="https://medias.france.tv/5kyQQM72P6prgdCUPkep1EWGSTA/400x0/filters:quality(85)/z/m/9/php2vm9mz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - En Europe",Le monde en face — Les empires contre-attaquent
+francetv://43904f1a-ae68-4a45-a058-8c2e3f6ed116
 #EXTINF:-1 tvg-id="francetv-a72edcae-ee9c-4a43-9efa-157a923799e9" tvg-logo="https://medias.france.tv/xWtknc0wcPVz8XnWzDamDlpxCiI/400x0/filters:quality(85)/k/y/e/phpfjkeyk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - En Europe",Nous, les Européens — Italie : l'école qui n'exclut personne
 francetv://a72edcae-ee9c-4a43-9efa-157a923799e9
 #EXTINF:-1 tvg-id="francetv-91a7480f-7979-4c9c-8dd6-6b2e4b91a0d2" tvg-logo="https://medias.france.tv/I9xk88mzkyG2uIkGvmmB3snZY3g/400x0/filters:quality(85)/0/2/c/e6099c69a1f64d728a3965c4cd41fc20.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - En Europe",Le dessous des images — Tchebourashka : le doudou qui fracture la société russe
@@ -4523,8 +4525,6 @@ francetv://program/france-5_la-p-tite-librairie
 francetv://program/tv5-monde_dj-battle-africa
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-1b98f941-de93-4445-b6be-60e5f5c34746" tvg-logo="https://medias.france.tv/hWTmM80XNpBC7G-IckDKqj8a8zU/400x0/filters:quality(85)/i/j/z/phpfjazji.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",UCI World Tour Féminin — Etape 6 : Montbrison > Tournon-sur-Rhône
-francetv://1b98f941-de93-4445-b6be-60e5f5c34746
 #EXTINF:-1 tvg-id="francetv-70cd2d68-9102-11f1-874e-19616fa871f9" tvg-logo="https://medias.france.tv/Nb-Wzr2z6UVQbQMsQU9OfWC5CPA/400x0/filters:quality(85)/3/f/f/fc82764b55dc4e4ca36a7e3070394ff3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Tremplin 3m (H) - Finale : Jules Bouyer sacré vice-champion d'Europe à domicile
 francetv://70cd2d68-9102-11f1-874e-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-ef2ad172-8f51-11f1-9512-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/vKgiz6KilTaFcm8Lr1i1zfRQA5I/400x0/filters:quality(85)/6/t/3/php4zo3t6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Natation : Léon Marchand, entre doutes et impatience
@@ -4579,6 +4579,8 @@ francetv://805e7a44-877e-11f1-8749-19616fa871f9
 francetv://105f0f7a-8f20-11f1-ae53-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-664d03cc-9175-11f1-9514-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/Iwozl88Zx0XyMy6xPUoRZSG97a8/400x0/filters:quality(85)/c/0/a/0015d836cf05487d815ac8910893ca0c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Bande-annonce des Championnats du monde d'équitation
 francetv://664d03cc-9175-11f1-9514-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-f623f654-91b1-11f1-9514-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/WBX93mNNJdcvSMxqNp_5reh6NPw/400x0/filters:quality(85)/b/d/3/8d17f8d052524b73b1cee937dc9173db.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 6
+francetv://f623f654-91b1-11f1-9514-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-55aaf9d0-90e8-11f1-9513-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/x-PUX4fgWa1WB6Lco8U4PQjWrec/400x0/filters:quality(85)/6/8/c/4c4b4353c2e54ebba49c2e1ff626fc86.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de l'étape 5
 francetv://55aaf9d0-90e8-11f1-9513-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-f2a3c31c-90d3-11f1-874d-19616fa871f9" tvg-logo="https://medias.france.tv/0QJ42URpMIssj996B1Fa9DbtOGw/400x0/filters:quality(85)/a/h/o/phpqjqoha.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé du 5km femmes
