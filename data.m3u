@@ -5792,3 +5792,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/Woe1DkVucQrO/h
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
 http://151.80.18.177:86/LCI_HD/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
+http://145.239.5.177/315/index.m3u8
