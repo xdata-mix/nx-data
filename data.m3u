@@ -5791,7 +5791,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/BQ1xyGM8zae/gY
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
-http://151.80.18.177:86/LCI_HD/index.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/BQ1xyGM8zae/taSypb4wVL4GyDQ.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
@@ -5804,3 +5804,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/BQ1xyGM8zae/gY
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="TV5Unis.ca@HD" group-title="Nouveautés FR",TV5 Unis
 http://23.133.220.149/Unis_TV/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://151.80.18.177:86/LCI_HD/index.m3u8
