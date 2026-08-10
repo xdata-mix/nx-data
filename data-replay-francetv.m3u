@@ -1079,6 +1079,8 @@ francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 francetv://0180b6dc-9495-11f1-8752-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
+#EXTINF:-1 tvg-id="francetv-8d0c3a68-9423-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/-pewXdbYTuRF-8Io8UkzUPsqBpI/400x0/filters:quality(85)/s/u/6/phpdmu6us.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Marion Rousse : "Les championnes nous ont offert un spectacle génial"
+francetv://8d0c3a68-9423-11f1-8492-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-18739cbe-9414-11f1-8752-19616fa871f9" tvg-logo="https://medias.france.tv/p5x62_iXb3ujeqoRN0Ei9W2ALmM/400x0/filters:quality(85)/f/9/2/7d06d22c89cb438a8fe6ed0182ce629f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Etape 9 : Demi Vollering fait craquer Katarzyna Niewiadoma Phinney et remporte son 2e Tour de France Femmes
 francetv://18739cbe-9414-11f1-8752-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0cda2334-923c-11f1-874e-19616fa871f9" tvg-logo="https://medias.france.tv/VLxUKyEn9XxQSMCA2WmCLL_FTyg/400x0/filters:quality(85)/p/f/i/phpcumifp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Journal 20h00 — Sport extrême, debout sur un avion à 97 ans
@@ -1599,14 +1601,22 @@ francetv://program/arte_ceux-qui-rougissent
 francetv://program/arte_el-sardines
 #EXTINF:-1 tvg-id="francetv-prog-arte_happiness" tvg-logo="https://medias.france.tv/HZY88vmm7mFzpsWQbnsugOqTa0I/400x0/filters:quality(85)/c/1/6/750f76bb4b7a400ea80817199740061c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Les séries d'Arte",Happiness
 francetv://program/arte_happiness
-#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Tom et Lola
-francetv://program/france-3_tom-et-lola
+#EXTINF:-1 tvg-id="francetv-prog-france-3_association-criminelle" tvg-logo="https://medias.france.tv/0sIH4S7u-HpfabQCIrMydny3OvY/400x0/filters:quality(85)/z/c/7/phpbik7cz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Association criminelle
+francetv://program/france-3_association-criminelle
+#EXTINF:-1 tvg-id="francetv-prog-france-3_enquete-a-haut-risque" tvg-logo="https://medias.france.tv/rCbW3Yu3XW_r0sJxiAZsCCw2e5U/400x0/filters:quality(85)/m/4/0/phpn6h04m.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Enquête à haut risque
+francetv://program/france-3_enquete-a-haut-risque
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_meurtres-au-paradis" tvg-logo="https://medias.france.tv/GItaDA2aDffxZCHAFW2s4h8on-s/400x0/filters:quality(85)/5/r/5/phpmjc5r5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Meurtres au paradis
 francetv://program/france-2_meurtres-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",OPJ
 francetv://program/france-3_opj
+#EXTINF:-1 tvg-id="francetv-prog-france-2_l-eclipse" tvg-logo="https://medias.france.tv/CQ4zDC1xPkTTlJUNSG_5xwfgHVk/400x0/filters:quality(85)/c/x/n/phpkwcnxc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",L'éclipse
+francetv://program/france-2_l-eclipse
+#EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Capitaine Marleau
+francetv://program/france-2_capitaine-marleau
+#EXTINF:-1 tvg-id="francetv-prog-france-3_tom-et-lola" tvg-logo="https://medias.france.tv/WcKLEoRhMRsz7-kfY2rzth4TILs/400x0/filters:quality(85)/g/x/s/phprtisxg.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Tom et Lola
+francetv://program/france-3_tom-et-lola
 #EXTINF:-1 tvg-id="francetv-prog-france-2_simon-coleman" tvg-logo="https://medias.france.tv/yw8V_qxuYJxvf-Vpj4bXEUqANmA/400x0/filters:quality(85)/f/1/v/phpnvxv1f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Simon Coleman
 francetv://program/france-2_simon-coleman
 #EXTINF:-1 tvg-id="francetv-prog-series-et-fictions_series-policieres_crime-a" tvg-logo="https://medias.france.tv/gT2k-dD489v2U1BW9ukP4t6atEk/400x0/filters:quality(85)/m/v/f/php9kgfvm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Crime à...
@@ -1625,8 +1635,6 @@ francetv://program/france-3_les-enquetes-de-murdoch
 francetv://program/france-3_cassandre
 #EXTINF:-1 tvg-id="francetv-prog-france-3_alexandra-ehle" tvg-logo="https://medias.france.tv/E1mYlGvYQDMbAookSdvTENa2j5Y/400x0/filters:quality(85)/x/i/e/phpmnpeix.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Alexandra Ehle
 francetv://program/france-3_alexandra-ehle
-#EXTINF:-1 tvg-id="francetv-prog-france-2_l-eclipse" tvg-logo="https://medias.france.tv/CQ4zDC1xPkTTlJUNSG_5xwfgHVk/400x0/filters:quality(85)/c/x/n/phpkwcnxc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",L'éclipse
-francetv://program/france-2_l-eclipse
 #EXTINF:-1 tvg-id="francetv-prog-arte_happy-valley" tvg-logo="https://medias.france.tv/22fU70uFQradlKmFqIsZ-KvitQE/400x0/filters:quality(85)/3/p/9/phplyu9p3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Happy Valley
 francetv://program/arte_happy-valley
 #EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/P1GuWBYjrbPj3VoXINUfAx6pe_E/400x0/filters:quality(85)/t/y/j/phpplmjyt.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",La Stagiaire
@@ -1637,8 +1645,6 @@ francetv://program/france-3_tandem
 francetv://program/france-2_l-art-du-crime
 #EXTINF:-1 tvg-id="francetv-prog-france-2_astrid-et-raphaelle" tvg-logo="https://medias.france.tv/qj4mMVhVmiItwp6m4itZ7hFO_SI/400x0/filters:quality(85)/t/3/m/phpipqm3t.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Astrid et Raphaëlle
 francetv://program/france-2_astrid-et-raphaelle
-#EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Capitaine Marleau
-francetv://program/france-2_capitaine-marleau
 #EXTINF:-1 tvg-id="francetv-prog-france-2_cesar-wagner" tvg-logo="https://medias.france.tv/ZcgAh5NYu6kyRBfe676rokHXbxQ/400x0/filters:quality(85)/g/b/h/phparehbg.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",César Wagner
 francetv://program/france-2_cesar-wagner
 #EXTINF:-1 tvg-id="francetv-da500d9b-5eec-4b1a-bcc9-656f1f298aec" tvg-logo="https://medias.france.tv/YgwvA0Ld8fktTM5CyAGybioX6wE/400x0/filters:quality(85)/q/t/y/php7etytq.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une enquête peut en cacher une autre",Le voyageur — Le jardin du diable
@@ -1803,8 +1809,6 @@ francetv://program/france-2_l-eclipse
 francetv://program/france-2_la-mere-et-l-assassin
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Code Rouge
 francetv://program/france-2_code-rouge
-#EXTINF:-1 tvg-id="francetv-prog-france-2_bardot" tvg-logo="https://medias.france.tv/6qgf_AHXi0-yNO9fj3ZaFikjwPM/400x0/filters:quality(85)/w/h/a/phpenhahw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Bardot
-francetv://program/france-2_bardot
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",The Best Immigrant
 francetv://program/france-2_the-best-immigrant
 #EXTINF:-1 tvg-id="francetv-prog-france-2_made-in-france" tvg-logo="https://medias.france.tv/82vGOASEkvFUZlkw1fQhW-WsBGg/400x0/filters:quality(85)/o/y/v/php4n6vyo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Des mini-séries",Made in France
@@ -4513,6 +4517,8 @@ francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 francetv://0180b6dc-9495-11f1-8752-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
+#EXTINF:-1 tvg-id="francetv-8d0c3a68-9423-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/-pewXdbYTuRF-8Io8UkzUPsqBpI/400x0/filters:quality(85)/s/u/6/phpdmu6us.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Marion Rousse : "Les championnes nous ont offert un spectacle génial"
+francetv://8d0c3a68-9423-11f1-8492-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-18739cbe-9414-11f1-8752-19616fa871f9" tvg-logo="https://medias.france.tv/p5x62_iXb3ujeqoRN0Ei9W2ALmM/400x0/filters:quality(85)/f/9/2/7d06d22c89cb438a8fe6ed0182ce629f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Etape 9 : Demi Vollering fait craquer Katarzyna Niewiadoma Phinney et remporte son 2e Tour de France Femmes
 francetv://18739cbe-9414-11f1-8752-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-0cda2334-923c-11f1-874e-19616fa871f9" tvg-logo="https://medias.france.tv/VLxUKyEn9XxQSMCA2WmCLL_FTyg/400x0/filters:quality(85)/p/f/i/phpcumifp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Journal 20h00 — Sport extrême, debout sur un avion à 97 ans
