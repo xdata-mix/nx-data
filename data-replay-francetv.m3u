@@ -3,6 +3,8 @@
 francetv://774c4de3-d701-4545-ad50-e3f28c8a2b2b
 #EXTINF:-1 tvg-id="francetv-c944e167-cad9-4474-920e-952b03948ff1" tvg-logo="https://medias.france.tv/IXUa4rYQtEbFhzdSBMIEHhk51Qs/400x0/filters:quality(85)/o/y/3/phpw9g3yo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — L'Unicef et le Refuge
 francetv://c944e167-cad9-4474-920e-952b03948ff1
+#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
+francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_la-mere-et-l-assassin" tvg-logo="https://medias.france.tv/AprRPikHSywCNRdTU4EpEf36rPY/400x0/filters:quality(85)/u/v/z/phptvqzvu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",La mère et l'assassin
 francetv://program/france-2_la-mere-et-l-assassin
 #EXTINF:-1 tvg-id="francetv-578da7e1-908e-410c-a2af-ac46d3f5b8d4" tvg-logo="https://medias.france.tv/zqjO2lvUfm4Jog_pAein-x7F74E/400x0/filters:quality(85)/7/a/4/3ca3b5c73d67415f82b6002e51a684a7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Pop Couture
@@ -15,8 +17,6 @@ francetv://program/france-2_capitaine-marleau
 francetv://9f7d66ce-4950-49a2-b1e8-850af1d4bef7
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",The Best Immigrant
 francetv://program/france-2_the-best-immigrant
-#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
-francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-chaises-musicales-infernales" tvg-logo="https://medias.france.tv/eoERVPy0FIrWhUKyJKJe1YR0nmo/400x0/filters:quality(85)/p/f/z/phpxdpzfp.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les Chaises Musicales Infernales
 francetv://program/france-2_les-chaises-musicales-infernales
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-aventurieres" tvg-logo="https://medias.france.tv/cn5DXc_9gaGzpqsDuYvHOXJavLc/400x0/filters:quality(85)/k/i/g/phptokgik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les aventurières
@@ -1097,16 +1097,16 @@ francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 francetv://664d03cc-9175-11f1-9514-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-490c73e8-8738-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/K02lsr6sIOtru7uAe3aazN3DhEw/400x0/filters:quality(85)/c/b/7/aaf432d293e24549828496e4955a67bc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 1994 : Marie-José Pérec
 francetv://490c73e8-8738-11f1-ae4b-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2010 : Christophe Lemaitre
+francetv://78fa41d4-8738-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-b89e2a0e-8737-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/_05hDd4MeNVja6TNnqj8bJLaNJw/400x0/filters:quality(85)/9/a/b/bd492410541e447c820c721a62241ba9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2024 : Cyréna Samba-Mayela
 francetv://b89e2a0e-8737-11f1-ae4b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2002 : Stéphane Diagana
-francetv://d269111a-8737-11f1-8486-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-f67f3066-8737-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ndIdmlNrfOUMHXjCr0qB7Gh3Wts/400x0/filters:quality(85)/f/7/c/409a33ef8e1d41de9b2a66ae468d2c7f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2012 : Renaud Lavillenie
 francetv://f67f3066-8737-11f1-9510-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-691d9d5c-8737-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/ROdRU4dXZ3CH2vnb6INQePtLoZw/400x0/filters:quality(85)/d/b/f/201ac57f8c764c8b96626beaed264fbd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 1998 : Christine Arron
 francetv://691d9d5c-8737-11f1-ae4b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2010 : Christophe Lemaitre
-francetv://78fa41d4-8738-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2002 : Stéphane Diagana
+francetv://d269111a-8737-11f1-8486-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2008 : Alain Bernard
 francetv://ecd01378-880e-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2006 : Laure Manaudou
@@ -4531,16 +4531,16 @@ francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 francetv://664d03cc-9175-11f1-9514-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-490c73e8-8738-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/K02lsr6sIOtru7uAe3aazN3DhEw/400x0/filters:quality(85)/c/b/7/aaf432d293e24549828496e4955a67bc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 1994 : Marie-José Pérec
 francetv://490c73e8-8738-11f1-ae4b-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2010 : Christophe Lemaitre
+francetv://78fa41d4-8738-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-b89e2a0e-8737-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/_05hDd4MeNVja6TNnqj8bJLaNJw/400x0/filters:quality(85)/9/a/b/bd492410541e447c820c721a62241ba9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2024 : Cyréna Samba-Mayela
 francetv://b89e2a0e-8737-11f1-ae4b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2002 : Stéphane Diagana
-francetv://d269111a-8737-11f1-8486-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-f67f3066-8737-11f1-9510-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/ndIdmlNrfOUMHXjCr0qB7Gh3Wts/400x0/filters:quality(85)/f/7/c/409a33ef8e1d41de9b2a66ae468d2c7f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2012 : Renaud Lavillenie
 francetv://f67f3066-8737-11f1-9510-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-691d9d5c-8737-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/ROdRU4dXZ3CH2vnb6INQePtLoZw/400x0/filters:quality(85)/d/b/f/201ac57f8c764c8b96626beaed264fbd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 1998 : Christine Arron
 francetv://691d9d5c-8737-11f1-ae4b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2010 : Christophe Lemaitre
-francetv://78fa41d4-8738-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2002 : Stéphane Diagana
+francetv://d269111a-8737-11f1-8486-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2008 : Alain Bernard
 francetv://ecd01378-880e-11f1-8749-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2006 : Laure Manaudou
