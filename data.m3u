@@ -1873,7 +1873,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="MTV.fr@SD" group-title="Divertissement",MTV
-http://41.205.70.146/MTVFRANCE/index.m3u8
+http://99.27.51.147:8080/MTV/index.m3u8
 
 # === Ajouts FR multi-sources : Divertissement ===
 #EXTINF:-1 tvg-id="RTL9.lu@SD" group-title="Divertissement",RTL9 (720p)
@@ -1969,7 +1969,7 @@ http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?u=Oleg&p=967e
 
 # === Ajouts FR multi-sources : Généralistes ===
 #EXTINF:-1 tvg-id="EvasionTV.gn@SD" group-title="Généralistes",Evasion TV
-https://kali.vdopanel.com:3090/hybrid/play.m3u8
+https://kali.vdopanel.com:3788/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="LaTrois.be@SD" group-title="Généralistes",La Trois (720p)
 http://193.111.198.85:8589/stream/mstv/rtbflatroislive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 
@@ -4032,7 +4032,7 @@ http://99.27.51.147:8080/M6/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="MTV.fr@SD" group-title="France TV backup",MTV (720p) [iptv-org-fr]
-http://41.205.70.146/MTVFRANCE/index.m3u8
+http://99.27.51.147:8080/MTV/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="M6.fr@HD" group-title="France TV backup",M6 (1080p) [iptv-org-fr]
@@ -5834,3 +5834,17 @@ http://194.163.157.137:8080/hls/radiomulhouse.m3u8
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
 http://151.80.18.177:86/LCI_HD/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (720p) [iptv-org-fr]
+http://145.239.5.177/305/index.m3u8
+#EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
+http://145.239.5.177/368/index.m3u8
+#EXTINF:-1 tvg-id="Carac1.ch@SD" group-title="France TV backup",Carac 1 (1080p) [iptv-org-fra]
+http://145.239.5.177/371/index.m3u8
+#EXTINF:-1 tvg-id="D3TV.ml@SD" group-title="France TV backup",D3 TV (720p) [iptv-org-fra]
+https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8
+#EXTINF:-1 tvg-id="LaUne.be@SD" group-title="France TV backup",La Une (720p) [iptv-org-fra]
+http://145.239.5.177/329/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" group-title="France TV backup",TV5Monde Europe (1080p) [iptv-org-fra]
+http://5.180.164.197:8080/TV5MONDE/index.m3u8
