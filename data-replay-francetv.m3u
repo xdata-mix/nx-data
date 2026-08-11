@@ -781,6 +781,8 @@ francetv://c84e9c52-6565-11f1-8728-19616fa871f9
 francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 #EXTINF:-1 tvg-id="francetv-07240417-4994-4398-af6b-660126b1fa66" tvg-logo="https://medias.france.tv/_M0f9a8Nw_BR9-4DvaERZL6nVTQ/400x0/filters:quality(85)/c/r/a/phpfl6arc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Hantavirus, la semaine de tous les dangers
 francetv://07240417-4994-4398-af6b-660126b1fa66
+#EXTINF:-1 tvg-id="francetv-7c3a1c8e-96cc-4f57-bcbe-dee525daaf75" tvg-logo="https://medias.france.tv/9YQTHa7DLMr7o-iHq_PBKcOOR3A/400x0/filters:quality(85)/6/e/4/c6805e0d371e4c46a3c819e5b36a24e6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
+francetv://7c3a1c8e-96cc-4f57-bcbe-dee525daaf75
 #EXTINF:-1 tvg-id="francetv-e8be806f-663a-4203-b9e9-a1c2ad915819" tvg-logo="https://medias.france.tv/PvNWFa8RqRo7xr0xbZHSrWP3_ck/400x0/filters:quality(85)/a/4/b/1a9c34505c35444daab96397d9079b4a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h info
 francetv://e8be806f-663a-4203-b9e9-a1c2ad915819
 #EXTINF:-1 tvg-id="francetv-6c58d529-cee3-4440-834f-cd0d74e6202c" tvg-logo="https://medias.france.tv/qm7bKfhOeZ1mJkMP5prgYyTLlFU/400x0/filters:quality(85)/a/0/9/65093d81c7f547debdfa835d6f3ca90a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
@@ -819,8 +821,6 @@ francetv://fb716500-8ca4-46c9-8317-db72bc2b0644
 francetv://56be89ee-3ef0-4067-9a76-3b6e19574de5
 #EXTINF:-1 tvg-id="francetv-7bfb3e27-1779-489b-8530-071f668c3268" tvg-logo="https://medias.france.tv/AA6MCJDW0QNvwwXiLdUyNS2fCnU/400x0/filters:quality(85)/a/c/1/a2eea7cb4562487193a21899c43061ca.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h — Émission du samedi 1 août 2026
 francetv://7bfb3e27-1779-489b-8530-071f668c3268
-#EXTINF:-1 tvg-id="francetv-7d70fb09-2c57-4540-874d-48ba4c03b64f" tvg-logo="https://medias.france.tv/gM0OeGOXZLAnu1SzCeMM-4yZZ4w/400x0/filters:quality(85)/2/e/5/0d171348a4cf4f5d8d1bfa0b39ee05e2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
-francetv://7d70fb09-2c57-4540-874d-48ba4c03b64f
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -1095,6 +1095,16 @@ francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 #EXTINF:-1 tvg-id="francetv-664d03cc-9175-11f1-9514-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/Iwozl88Zx0XyMy6xPUoRZSG97a8/400x0/filters:quality(85)/c/0/a/0015d836cf05487d815ac8910893ca0c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Bande-annonce des Championnats du monde d'équitation
 francetv://664d03cc-9175-11f1-9514-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2008 : Alain Bernard
+francetv://ecd01378-880e-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2006 : Laure Manaudou
+francetv://626a0788-880f-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-dffaae1e-880f-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/Dm4skIaIOohiT-ajkfsodUgOlUU/400x0/filters:quality(85)/9/5/c/4f5733ae6108460f838189d422b47c59.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2010 : Camille Lacourt
+francetv://dffaae1e-880f-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-26459be0-8810-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/tVzWN1DMlknAxYIJGH23iLDqqbM/400x0/filters:quality(85)/7/8/8/1d4d170aaaf14a35a8580f08c833b887.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2014 : Florent Manaudou
+francetv://26459be0-8810-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2022 : Yohann Ndoye-Brouard
+francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-490c73e8-8738-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/K02lsr6sIOtru7uAe3aazN3DhEw/400x0/filters:quality(85)/c/b/7/aaf432d293e24549828496e4955a67bc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 1994 : Marie-José Pérec
 francetv://490c73e8-8738-11f1-ae4b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2010 : Christophe Lemaitre
@@ -1107,16 +1117,6 @@ francetv://f67f3066-8737-11f1-9510-6dcd43e8ddfd
 francetv://691d9d5c-8737-11f1-ae4b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2002 : Stéphane Diagana
 francetv://d269111a-8737-11f1-8486-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2008 : Alain Bernard
-francetv://ecd01378-880e-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2006 : Laure Manaudou
-francetv://626a0788-880f-11f1-ae4c-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-dffaae1e-880f-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/Dm4skIaIOohiT-ajkfsodUgOlUU/400x0/filters:quality(85)/9/5/c/4f5733ae6108460f838189d422b47c59.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2010 : Camille Lacourt
-francetv://dffaae1e-880f-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-26459be0-8810-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/tVzWN1DMlknAxYIJGH23iLDqqbM/400x0/filters:quality(85)/7/8/8/1d4d170aaaf14a35a8580f08c833b887.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2014 : Florent Manaudou
-francetv://26459be0-8810-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Athlète de légende 2022 : Yohann Ndoye-Brouard
-francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-38e5fb32-94fe-11f1-ae59-57a09c50f7ce" tvg-logo="https://medias.france.tv/8fEXv0L6ZmgrxNsCtgBU8tlq3Z0/400x0/filters:quality(85)/9/9/0/65d1feca1dde438db25a799e0b986099.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",100m (F) : Amy Hunt reine du sprint à domicile
 francetv://38e5fb32-94fe-11f1-ae59-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-8bd231b8-94e4-11f1-ae59-57a09c50f7ce" tvg-logo="https://medias.france.tv/Vbxp8Q6APAsDDdHNdjogVL9xuZ0/400x0/filters:quality(85)/b/8/d/b1179e276bd24fbaaaf68edf2bd59d8b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",4x200m nage libre (H) : la réaction du relais français après sa médaille d'argent
@@ -4493,6 +4493,16 @@ francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 #EXTINF:-1 tvg-id="francetv-664d03cc-9175-11f1-9514-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/Iwozl88Zx0XyMy6xPUoRZSG97a8/400x0/filters:quality(85)/c/0/a/0015d836cf05487d815ac8910893ca0c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Bande-annonce des Championnats du monde d'équitation
 francetv://664d03cc-9175-11f1-9514-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2008 : Alain Bernard
+francetv://ecd01378-880e-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2006 : Laure Manaudou
+francetv://626a0788-880f-11f1-ae4c-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-dffaae1e-880f-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/Dm4skIaIOohiT-ajkfsodUgOlUU/400x0/filters:quality(85)/9/5/c/4f5733ae6108460f838189d422b47c59.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2010 : Camille Lacourt
+francetv://dffaae1e-880f-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-26459be0-8810-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/tVzWN1DMlknAxYIJGH23iLDqqbM/400x0/filters:quality(85)/7/8/8/1d4d170aaaf14a35a8580f08c833b887.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2014 : Florent Manaudou
+francetv://26459be0-8810-11f1-8749-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2022 : Yohann Ndoye-Brouard
+francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-490c73e8-8738-11f1-ae4b-57a09c50f7ce" tvg-logo="https://medias.france.tv/K02lsr6sIOtru7uAe3aazN3DhEw/400x0/filters:quality(85)/c/b/7/aaf432d293e24549828496e4955a67bc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 1994 : Marie-José Pérec
 francetv://490c73e8-8738-11f1-ae4b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-78fa41d4-8738-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/bdaodvap12TCImMci3-p-8E-bYE/400x0/filters:quality(85)/b/8/7/d0c22f0914f6411e98c6656f6205978b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2010 : Christophe Lemaitre
@@ -4505,16 +4515,6 @@ francetv://f67f3066-8737-11f1-9510-6dcd43e8ddfd
 francetv://691d9d5c-8737-11f1-ae4b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-d269111a-8737-11f1-8486-957ddefc544d" tvg-logo="https://medias.france.tv/UDIgEiJp6NwA9CqC9QQ5eWZJatw/400x0/filters:quality(85)/8/1/c/d765c6f311a044eb947dd8ab43168c18.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les athlètes de légende",Athlète de légende 2002 : Stéphane Diagana
 francetv://d269111a-8737-11f1-8486-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-ecd01378-880e-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/x67ttTh7X98X-WHw5pib0vZ0538/400x0/filters:quality(85)/c/0/5/8442ab4201b84f90bc9d292eb885850c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2008 : Alain Bernard
-francetv://ecd01378-880e-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-626a0788-880f-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/sGvHOSnfBHCTo805Pik1iD2D6AY/400x0/filters:quality(85)/d/e/1/e5f25628d4224b0ba3e6cdc319da51ed.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2006 : Laure Manaudou
-francetv://626a0788-880f-11f1-ae4c-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-dffaae1e-880f-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/Dm4skIaIOohiT-ajkfsodUgOlUU/400x0/filters:quality(85)/9/5/c/4f5733ae6108460f838189d422b47c59.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2010 : Camille Lacourt
-francetv://dffaae1e-880f-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-26459be0-8810-11f1-8749-19616fa871f9" tvg-logo="https://medias.france.tv/tVzWN1DMlknAxYIJGH23iLDqqbM/400x0/filters:quality(85)/7/8/8/1d4d170aaaf14a35a8580f08c833b887.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2014 : Florent Manaudou
-francetv://26459be0-8810-11f1-8749-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-0be94052-8811-11f1-ae4c-57a09c50f7ce" tvg-logo="https://medias.france.tv/yeE-4lUb7QbNLRvXDaAow7GFem8/400x0/filters:quality(85)/a/5/9/97d842f09d2e49398358f18d50bf295a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les champions d'Europe",Athlète de légende 2022 : Yohann Ndoye-Brouard
-francetv://0be94052-8811-11f1-ae4c-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-337dcde8-94f7-11f1-9517-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/uqZurxrx8a9EDBMCt-2sVFdTjwE/400x0/filters:quality(85)/3/8/4/790c7d132ec3413baa6cb0fec53ad483.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les temps forts des Championnats d'Europe",5000m (H) : Etienne Daguinos en bronze ! Déception pour Jimmy Gressier, 4e
 francetv://337dcde8-94f7-11f1-9517-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-38e5fb32-94fe-11f1-ae59-57a09c50f7ce" tvg-logo="https://medias.france.tv/8fEXv0L6ZmgrxNsCtgBU8tlq3Z0/400x0/filters:quality(85)/9/9/0/65d1feca1dde438db25a799e0b986099.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Les temps forts des Championnats d'Europe",100m (F) : Amy Hunt reine du sprint à domicile
