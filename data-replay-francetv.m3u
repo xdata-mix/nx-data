@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-02b1e01e-cafb-4cf6-bb7d-12c280ea491a" tvg-logo="https://medias.france.tv/Ev0Brmi0P8eofcBq3WMG0iJeOfQ/400x0/filters:quality(85)/c/1/5/dd4c7deb6b5f4a9ca2120443def5751c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Makeover, la maison du Drag
+francetv://02b1e01e-cafb-4cf6-bb7d-12c280ea491a
 #EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",À l'instinct
 francetv://program/france-2_a-l-instinct
 #EXTINF:-1 tvg-id="francetv-prog-france-2_l-eclipse" tvg-logo="https://medias.france.tv/CQ4zDC1xPkTTlJUNSG_5xwfgHVk/400x0/filters:quality(85)/c/x/n/phpkwcnxc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",L'éclipse
@@ -11,8 +13,6 @@ francetv://program/france-2_la-mere-et-l-assassin
 francetv://c944e167-cad9-4474-920e-952b03948ff1
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
-#EXTINF:-1 tvg-id="francetv-578da7e1-908e-410c-a2af-ac46d3f5b8d4" tvg-logo="https://medias.france.tv/zqjO2lvUfm4Jog_pAein-x7F74E/400x0/filters:quality(85)/7/a/4/3ca3b5c73d67415f82b6002e51a684a7.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Pop Couture
-francetv://578da7e1-908e-410c-a2af-ac46d3f5b8d4
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Code Rouge
 francetv://program/france-2_code-rouge
 #EXTINF:-1 tvg-id="francetv-prog-france-2_the-best-immigrant" tvg-logo="https://medias.france.tv/kyBgX0TlzFk3kXstu-Cq0y2tdjI/400x0/filters:quality(85)/s/5/o/phpvoao5s.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",The Best Immigrant
@@ -1079,10 +1079,10 @@ francetv://program/france-4_basique-les-sessions
 francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-41748468-95b1-11f1-8753-19616fa871f9" tvg-logo="https://medias.france.tv/dt5l_8W6284X7JZK876nnNpxv9A/400x0/filters:quality(85)/3/2/f/824409fea77d434a93a699f3a0aaef23.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",4x100m 4 nages mixte : la France sur le toit de l'Europe
-francetv://41748468-95b1-11f1-8753-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-37883f10-95a4-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/5MzqBzBbqYaJPzEJxj2n2DTDNNg/400x0/filters:quality(85)/e/9/b/e0f2b70b586a43b995e6e735dde90b9e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",50m papillon (H) : Maxime Grousset en argent, Egor Kornev champion d'Europe
-francetv://37883f10-95a4-11f1-8492-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-3d51bc90-9735-11f1-ae5d-57a09c50f7ce" tvg-logo="https://medias.france.tv/YdkzlEhb8Oh4_JJczDfU0xix7V0/400x0/filters:quality(85)/0/5/0/884352a0cfe7425289a7d3311c7b9050.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",100m papillon (H) : Maxime Grousset décroche l'argent, Kristof Milak champion d'Europe
+francetv://3d51bc90-9735-11f1-ae5d-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-a90057b6-9736-11f1-8494-957ddefc544d" tvg-logo="https://medias.france.tv/k1gwBDCPitsg1TBY9Dd1xQn8rZY/400x0/filters:quality(85)/e/c/4/c7dc4b1c3d4a4c739cd38f70bf8084ce.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",50m dos (F) : Mary-Ambre Moluh argentée, nouveau record du monde pour Sara Curtis
+francetv://a90057b6-9736-11f1-8494-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-da1e563c-9690-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/WugzNbVVS1z3zV5QEtXdMwixhps/400x0/filters:quality(85)/d/3/9/0947645eb90942a993ffac4b6087093d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",110m haies : une superbe médaille d'argent pour Just Kwaou-Mathey
@@ -4605,10 +4605,10 @@ francetv://program/france-5_la-p-tite-librairie
 francetv://program/tv5-monde_dj-battle-africa
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
-#EXTINF:-1 tvg-id="francetv-41748468-95b1-11f1-8753-19616fa871f9" tvg-logo="https://medias.france.tv/dt5l_8W6284X7JZK876nnNpxv9A/400x0/filters:quality(85)/3/2/f/824409fea77d434a93a699f3a0aaef23.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",4x100m 4 nages mixte : la France sur le toit de l'Europe
-francetv://41748468-95b1-11f1-8753-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-37883f10-95a4-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/5MzqBzBbqYaJPzEJxj2n2DTDNNg/400x0/filters:quality(85)/e/9/b/e0f2b70b586a43b995e6e735dde90b9e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",50m papillon (H) : Maxime Grousset en argent, Egor Kornev champion d'Europe
-francetv://37883f10-95a4-11f1-8492-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-3d51bc90-9735-11f1-ae5d-57a09c50f7ce" tvg-logo="https://medias.france.tv/YdkzlEhb8Oh4_JJczDfU0xix7V0/400x0/filters:quality(85)/0/5/0/884352a0cfe7425289a7d3311c7b9050.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",100m papillon (H) : Maxime Grousset décroche l'argent, Kristof Milak champion d'Europe
+francetv://3d51bc90-9735-11f1-ae5d-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-a90057b6-9736-11f1-8494-957ddefc544d" tvg-logo="https://medias.france.tv/k1gwBDCPitsg1TBY9Dd1xQn8rZY/400x0/filters:quality(85)/e/c/4/c7dc4b1c3d4a4c739cd38f70bf8084ce.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",50m dos (F) : Mary-Ambre Moluh argentée, nouveau record du monde pour Sara Curtis
+francetv://a90057b6-9736-11f1-8494-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-da1e563c-9690-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/WugzNbVVS1z3zV5QEtXdMwixhps/400x0/filters:quality(85)/d/3/9/0947645eb90942a993ffac4b6087093d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",110m haies : une superbe médaille d'argent pour Just Kwaou-Mathey
