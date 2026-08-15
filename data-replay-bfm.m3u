@@ -29,10 +29,6 @@ bfmplay://NEUF_BFMTV_BFM1021147634746A
 bfmplay://NEUF_BFMTV_BFM1021130951407
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021146123022" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/2/0/c8b16f0438d9d6a1bbf28c22d499622f_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - A la une",Zidane, la fabrique d'une légende
 bfmplay://NEUF_BFMTV_BFM1021146123022
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0133" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/3/1/162f17b000c57991cda7f64caba9b364_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Incendies XXL : BFMTV au plus près des feux - Partie 01
-bfmplay://NEUF_BFMTV_BFMES0133
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFMES0134" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/3/1/5b52df4d314043337304df61a353760c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Incendies XXL : BFMTV au plus près des feux - Partie 02
-bfmplay://NEUF_BFMTV_BFMES0134
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494705B" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/B/5/0/ca3315f1229be89de5fe4d422b5741e4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Maud Bregeon face à Marie Chantrait
 bfmplay://NEUF_BFMTV_BFM1021136494705B
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021146887482" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/8/4/d991c20518c99c976f1c4b0ec9ce1162_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - A la une",Epstein : le mystère des morts en série
@@ -51,6 +47,10 @@ bfmplay://NEUF_BFMTV_BFM1021131655927
 bfmplay://NEUF_BFMTV_BFMAFFD0039
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494705" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/0/7/94a5526cbdf04ddc83f3916b385294b4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Dominique Rizet face à Marie Chantrait
 bfmplay://NEUF_BFMTV_BFM1021136494705
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496504" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/0/5/9667f89a4f19979a04bb2e7e6185e16b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Émission du 16 juillet 2026
+bfmplay://NEUF_BFMTV_BFM1021136496504
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494651" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/5/6/89e3bc85c92584e0470487b30707b9e7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - A la une",Valérie Pécresse face à Apolline de Malherbe
+bfmplay://NEUF_BFMTV_BFM1021136494651
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM959709972527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/5/f750820fe13ad1bdda9e30be3e527699_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Grands Reportages",Pyromanes, qui met le feu à nos forêts ?
 bfmplay://NEUF_BFMTV_BFM959709972527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020922663277" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/7/2/834ba0407b5e3a20fe2b71117f546234_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Grands Reportages",Marine Le Pen, la présidentielle à tout prix
@@ -425,8 +425,6 @@ bfmplay://NEUF_BFMTV_BFM1021135182068
 bfmplay://NEUF_BFMTV_BFM1021135182254
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021135182098" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/9/0/5afee25b1a74e54670e3a5aab6a76316_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Arnaud Direct - Émission du 20 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021135182098
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494651" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/5/6/89e3bc85c92584e0470487b30707b9e7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Valérie Pécresse face à Apolline de Malherbe
-bfmplay://NEUF_BFMTV_BFM1021136494651
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494723" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/2/7/02912d15f54f6d945c061c1980ec5f15_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Maud Bregeon face à Apolline de Malherbe
 bfmplay://NEUF_BFMTV_BFM1021136494723
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136494645" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/4/6/0f7256d4066a152348589110ccfae0f3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Face à Face - Catherine Vautrin face à Apolline de Malherbe
@@ -563,8 +561,6 @@ bfmplay://NEUF_BFMTV_BFM1014580300B
 bfmplay://NEUF_BFMTV_BFM1014580300A
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM0300016683G" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/G/3/8/97903a6018694083d53175fd8e61ad34_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Affaire suivante, faits divers - Assassinat ou euthanasie ? Une Lyonnaise jugée après la mort de son grand-père
 bfmplay://NEUF_BFMTV_BFM0300016683G
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496504" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/0/5/9667f89a4f19979a04bb2e7e6185e16b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Apolline de 9 à 10 - Émission du 16 juillet 2026
-bfmplay://NEUF_BFMTV_BFM1021136496504
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496412" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/1/4/dd6fdb77d0c917f06bf0b929f0b73580_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Apolline de 9 à 10 - Émission spéciale du 15 juillet 2026
 bfmplay://NEUF_BFMTV_BFM1021136496412
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021136496610" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/0/1/6/f3885c929c8663bdfcf739ceb10c35bc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Apolline de 9 à 10 - Edition spéciale : fête nationale du 14 juillet
@@ -691,6 +687,14 @@ bfmplay://NEUF_BFMTV_BFM1021025456673
 bfmplay://NEUF_BFMTV_BFM1021080916505
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021080916518" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/1/5/5113b76bb3c983c329aafa6cc3388769_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Retour sur l'énigme Xavier Dupont de Ligonnès
 bfmplay://NEUF_BFMTV_BFM1021080916518
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000604" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/4/0/6/b39b15a5449827a840f14acbc5c5c8eb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Émission du 15 août 2026
+bfmplay://NEUF_BFMBUSINESS_BUM60000000000604
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000550" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/5/5/1d2bcf47e4bc487a5e30f16df27cb1cf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Émission du 8 août 2026
+bfmplay://NEUF_BFMBUSINESS_BUM60000000000550
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000442" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/2/4/4/5828c75b63badacb768ebd75628d4855_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Émission du 25 juillet 2026
+bfmplay://NEUF_BFMBUSINESS_BUM60000000000442
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000388" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/8/8/3/b40dfd1e5f0b54b38df1c6e73da42d87_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Édition spéciale du 18 juillet 2026
+bfmplay://NEUF_BFMBUSINESS_BUM60000000000388
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000603" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/3/0/6/35e0c831eeb1efa6ea96d6bc616b70c5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Check Up Santé - Émission du 15 août 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000603
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000549" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/9/4/5/ca385475f4736077e029257de024345b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Check Up Santé - Émission du 8 août 2026
@@ -863,12 +867,6 @@ bfmplay://NEUF_BFMBUSINESS_BUM60000000000443
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000430
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000420" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/2/4/c890db33eb8b64243db2586cb316202d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Good Morning Business - Émission du 23 juillet 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000420
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000550" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/5/5/1d2bcf47e4bc487a5e30f16df27cb1cf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Émission du 8 août 2026
-bfmplay://NEUF_BFMBUSINESS_BUM60000000000550
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000442" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/2/4/4/5828c75b63badacb768ebd75628d4855_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Émission du 25 juillet 2026
-bfmplay://NEUF_BFMBUSINESS_BUM60000000000442
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000388" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/8/8/3/b40dfd1e5f0b54b38df1c6e73da42d87_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",La librairie de l'éco - Édition spéciale du 18 juillet 2026
-bfmplay://NEUF_BFMBUSINESS_BUM60000000000388
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000385" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/5/8/3/bb330f34fb2c804a25c6db891572172d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",C'est votre argent - Emission spéciale : Introduction en bourse
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000385
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000383" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/8/3/34d880aaf918ef9cfa668e5e37a03b88_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 16 juillet 2026
@@ -903,10 +901,8 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000237
 bfmplay://NEUF_BFMRADIO_BRA50000000000082
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000072" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/7/0/7170bd0a203a29c48dab0e0f45eb660c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Rothen s'enflamme - les Bleus sont-ils prêts ?
 bfmplay://NEUF_BFMRADIO_BRA50000000000072
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF782662233527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/bac5c5e1891a7233b973fb40f5306c86_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Inside McDo : un an dans le restaurant n°1 en France
-bfmplay://NEUF_RMC_LIFE_RIF782662233527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020910279739" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/9/3/7/777f6652811c1a8b5e6acf8f6352b25e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Hypermarchés : dans les coulisses d'un géant de la grande distribution
-bfmplay://NEUF_RMC_LIFE_RIF1020910279739
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF936908241527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/69ef2b4d95162c41f183ad28365c16ca_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S4E18 - Francis Heaulme, le routard du crime
+bfmplay://NEUF_RMC_LIFE_RIF936908241527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020912279125" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/5/2/1/e8d9afba77ce4bcfacde0811e0dc3bb1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S6E14 - Les profanateurs du cimetière de Carpentras
 bfmplay://NEUF_RMC_LIFE_RIF1020912279125
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF416007856527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/394f009d3533f7ef745c54a5cc4680a0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S2E19 - Peter Uwe Schmitt et Aurore Martin, les amants diaboliques
@@ -1093,6 +1089,10 @@ bfmplay://NEUF_RMC_LIFE_RIF416007863527
 bfmplay://NEUF_RMC_LIFE_RIF1020912279083
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF693978244527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/6ffe438187a2b9eaec1e25dd7e6665a2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Faites entrer l'accusé - S3E1 - Muller contre Muller
 bfmplay://NEUF_RMC_LIFE_RIF693978244527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF782662233527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/2/5/bac5c5e1891a7233b973fb40f5306c86_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Inside McDo : un an dans le restaurant n°1 en France
+bfmplay://NEUF_RMC_LIFE_RIF782662233527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020910279739" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/9/3/7/777f6652811c1a8b5e6acf8f6352b25e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - Vous aimerez aussi",Hypermarchés : dans les coulisses d'un géant de la grande distribution
+bfmplay://NEUF_RMC_LIFE_RIF1020910279739
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132020764" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/6/7/30967b96575b6f02a27357f36fd6d31f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - “Quand la France brûle, quand une partie des Français n’a pas pu partir en vacances, le président s’amuse en jet ski à Brégançon !” Olivier 
 bfmplay://NEUF_NUM23_N231021132020764
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021132020750" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/7/e809479a72351ed726ed199c4bc12c9c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Vous aimerez aussi",Les Grandes Gueules - Antoine Valezan : “Tous Proxénète”. La face cachée d’AirBNB
@@ -2189,10 +2189,6 @@ bfmplay://NEUF_NUM23_N23957458604527
 bfmplay://NEUF_NUM23_N23968921632527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23973836664527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d5af4e06b9b59770928e50b298b35f3f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",J'irai dormir chez vous - S4E3 - Corée du Sud
 bfmplay://NEUF_NUM23_N23973836664527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23995755012527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/e342d2ec36a597b33f37f33843755dda_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",J'irai dormir chez vous - S13E2 - Vietnam
-bfmplay://NEUF_NUM23_N23995755012527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23957459772527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/fab878cb44c82e5da4c131cb3834d6b9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",J'irai dormir chez vous - S2E1 - Émirats arabes unis
-bfmplay://NEUF_NUM23_N23957459772527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23930477709527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/84863eea315adbafe534ef53891aa3a8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",Enquêtes mystérieuses - S2E3 - Affaire du pain maudit, la femme de Jésus, le masque de fer
 bfmplay://NEUF_NUM23_N23930477709527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23930479356527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/6c0c4609c2e6c161049166f53b7b466b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Tous les replays",Enquêtes mystérieuses - S2E5 - Kheops, Joconde, ovnis
@@ -3011,10 +3007,8 @@ bfmplay://NEUF_NUM23_N23869564584527
 bfmplay://NEUF_NUM23_N23869564408527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23869563730527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/69b416b4187874b0c59abefb1469a12f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Phénomènes vus de l'espace - S5E6 - Jack l’Éventreur
 bfmplay://NEUF_NUM23_N23869563730527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020929088666" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/6/6/2a656aeb64c50a657554a1610baf1730_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Seulement en streaming",Châteaux forts : le bon créneau
-bfmplay://NEUF_RMCDEC_RMC1020929088666
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC20656" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/5/6/37dc623f224bf2d06adf11c646d2aa34_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Seulement en streaming",La guillotine : une histoire française
-bfmplay://NEUF_RMCDEC_RMC20656
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231002430252527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d6682629fc364e07897db33e4718e2bc_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Story - Seulement en streaming",Le souffle de la guerre chimique
+bfmplay://NEUF_NUM23_N231002430252527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231003228046527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/BANNERMOBILEclean2harrypotter.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story",S1E1 - Aux origines de la saga
 bfmplay://NEUF_NUM23_N231003228046527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020926228693" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/9/6/63421a2b9f80a2d1b7d6a70f81be323b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story",Nazi hunters : traqueurs de nazis - S1E8 - Frank Stangl et Gustav Wagner
@@ -3929,6 +3923,8 @@ bfmplay://NEUF_NUM23_N231020926204736
 bfmplay://NEUF_RMC_LIFE_RIF1020932421356
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020932421349" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/9/4/3/a51bee759de84cf360c671fa77f6b6ca_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",100 jours à la maternité - S1E1 - Urgence : bébé arrive !
 bfmplay://NEUF_RMC_LIFE_RIF1020932421349
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC965980938527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f477407d08e49ca20ffe9f30b5f7b6ee_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S1E4 - Police nationale de Nîmes - Episode 1
+bfmplay://NEUF_RMCDEC_RMC965980938527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC998776166527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/73c7e76f4e738765a5cf3d28839f388a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S2E9 - Violences urbaines - Episode 1
 bfmplay://NEUF_RMCDEC_RMC998776166527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020997404236" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/3/2/beb251068a425834bbaf58f3ecb195ec_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - En immersion",Flic Story - S2E47 - Conflits de voisinage
@@ -7769,8 +7765,6 @@ bfmplay://NEUF_NUM23_N231020932429997
 bfmplay://NEUF_NUM23_N231020932429974
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020932429271" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/7/2/c241c0df9296412be5c1ae117f19b94e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay 100% DOCS - Le Top des docs",Camions XXL : les rois du convoi exceptionnel - S1E1 - Les as du volant
 bfmplay://NEUF_NUM23_N231020932429271
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC966741729527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/161cabad06896a20a57953a26ec8b06e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% DOCS - Le Top des docs",Rome : l'armée des bâtisseurs
-bfmplay://NEUF_RMCDEC_RMC966741729527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937124783" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/3/8/7/41e6dc8e367eae79e88a034441046609_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% DOCS - Le Top des docs",Babylone : le mystère de la tour de Babel
 bfmplay://NEUF_RMCDEC_RMC1020937124783
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021111021992" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/9/9/a9431d9a9b20d13a54d310271fdbbba5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay 100% DOCS - Le Top des docs",Airbus hélicopters : la techno secrète du leader mondial
@@ -9019,8 +9013,6 @@ bfmplay://NEUF_RMCDEC_RMC1020934938709
 bfmplay://NEUF_RMCDEC_RMC1020905512075
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC966734122527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/64021aa5ae79ea9bb57d68f608eedb69_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Le Colisée, une mégastructure romaine
 bfmplay://NEUF_RMCDEC_RMC966734122527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020909391889" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/8/8/baa5cd3574b822c818363afa14b098e7_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Empire romain : des origines à la chute
-bfmplay://NEUF_RMCDEC_RMC1020909391889
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932486255" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/5/2/ef5ab918d96e4dab12adef0ca516dcc9_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",La liste de Schindler : la véritable histoire
 bfmplay://NEUF_RMCDEC_RMC1020932486255
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC959020262527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/e2cb47d9824f2b73a156e195909a65db_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Tour, ponts, gares : le génie de Gustave Eiffel révélé
@@ -9037,6 +9029,52 @@ bfmplay://NEUF_RMCDEC_RMC561323487527
 bfmplay://NEUF_RMCDEC_RMC971005004527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021023619174" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/4/7/1/0ce49451b4fcc15d138851491c16a356_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Ariane : les 10 secrets du lanceur européen
 bfmplay://NEUF_RMCDEC_RMC1021023619174
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934194191" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/9/1/6fb17e1fb0a59bbe737adc342cf04e43_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Documentaire",Périphérique de Paris : les secrets d'une mégastructure
+bfmplay://NEUF_RMCDEC_RMC1020934194191
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372139" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/3/1/d98c6bd6e03de4ca673441115ecc358a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E12 - Pas d'excuses !
+bfmplay://NEUF_NUM23_N231021019372139
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372062" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/6/0/25e0e3d566b1f51a1f17b8014e743759_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E1 - Mon voisin mange mon courrier
+bfmplay://NEUF_NUM23_N231021019372062
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374729" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/2/7/c61cc85fd128a1c457ae04b096ce0d51_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E4 - Plaquage en règle
+bfmplay://NEUF_NUM23_N231021019374729
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374764" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/6/7/fecb3e31d4047f2e27685e0c39b1a69b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E9 - Qui a volé ma raquette ?
+bfmplay://NEUF_NUM23_N231021019374764
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372083" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/8/0/edd8b0c95c791cf39aa3ae58d4974a27_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E4 - Toujours plus
+bfmplay://NEUF_NUM23_N231021019372083
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372090" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/9/0/c07e9ded418e02d97bad01784ed24664_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E5 - La vie en couleur
+bfmplay://NEUF_NUM23_N231021019372090
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374736" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/3/7/e24be360b64794112fabc974ba66c920_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E5 - Pelouse interdite
+bfmplay://NEUF_NUM23_N231021019374736
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374743" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/4/7/7a4d375a89046c660cb33da9eec3ce5a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E6 - Froide ambiance
+bfmplay://NEUF_NUM23_N231021019374743
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372104" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/0/1/c24b55e098110a04680edba338e4acb2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E7 - Adieu poulet
+bfmplay://NEUF_NUM23_N231021019372104
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372125" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/2/1/69801819c30762ad9b9434664bbb82b1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E10 - Une découverte surprenante
+bfmplay://NEUF_NUM23_N231021019372125
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372132" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/3/1/51dee86f8c8d4d3a1d502e0709137fd8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E11 - Mauvais joueur
+bfmplay://NEUF_NUM23_N231021019372132
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372160" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/6/1/bc45e9968b67e2eefa228cd19a9d03cf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E15 - Cherchez l'intrus
+bfmplay://NEUF_NUM23_N231021019372160
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372076" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/7/0/23a4df35313a33071b7a99a9f41c6294_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E3 - Visite surprise
+bfmplay://NEUF_NUM23_N231021019372076
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/1/242dc8b006eccbef2faabeecd0f9bbc6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E9 - Fou du volant
+bfmplay://NEUF_NUM23_N231021019372118
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372097" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/9/0/8cd4eb7e166b205cff01b4626ccb3182_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E6 - Tais-toi et rame
+bfmplay://NEUF_NUM23_N231021019372097
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374722" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/7/2429033eb1bbd1247567ed9ab36b90b2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E3 - Tu me fais flipper !
+bfmplay://NEUF_NUM23_N231021019374722
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374658" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/5/6/a111232ec1efad5d58e75d49a28a79dd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E1 - La gifle de trop
+bfmplay://NEUF_NUM23_N231021019374658
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374771" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/7/7/a5b540666fba71d55dbf9e0a6cac0021_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E10 - Tu sais que personne ne t'aime
+bfmplay://NEUF_NUM23_N231021019374771
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374757" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/5/7/67d158067c62733662a93967fffb6e20_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E8 - La guerre des ordures
+bfmplay://NEUF_NUM23_N231021019374757
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374750" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/7/121acc50ac422c2c7fd509d3587d8e84_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S5E7 - Vivre le cauchemar américain
+bfmplay://NEUF_NUM23_N231021019374750
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372153" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/5/1/e5a47f3e4d8699938d74e9f10abe26fb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E14 - Un caractère bien trempé
+bfmplay://NEUF_NUM23_N231021019372153
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372069" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/6/0/3ff81d58fb6783319c3011469c40e08c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Voisins en colère - S4E2 - Grand-mère 1 - escroc 0
+bfmplay://NEUF_NUM23_N231021019372069
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937233242" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/4/2/fa41b4cbebab0f9186b632360db27525_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Documentaire",Alerte sur la planète ! - S1E6 - Éruption solaire cataclysmique
 bfmplay://NEUF_RMCDEC_RMC1020937233242
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932358969" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/6/9/5eb353861ad6690246f392aeabb33403_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Nazis : l'incroyable histoire d'Alex Kurzem, le survivant juif
@@ -9223,12 +9261,8 @@ bfmplay://NEUF_RMCDEC_RMC1003925020527
 bfmplay://NEUF_RMCDEC_RMC1002415335527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1002425005527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/185c762991432e0fa3bf11530d9b0163_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Les soldats de Napoléon : les traces cachées
 bfmplay://NEUF_RMCDEC_RMC1002425005527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020929060408" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/0/4/e3624156c304ad5a8f5029f661eff5e8_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",Bons baisers de Moscou
-bfmplay://NEUF_RMCDEC_RMC1020929060408
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00220635" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/5/3/6/02af0edb6dceeddc32c83f5de3a86447_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Histoire & Civilisation",La tombe de Gengis Khan
 bfmplay://NEUF_BFMAVOD_BAV00220635
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020934194191" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/9/1/6fb17e1fb0a59bbe737adc342cf04e43_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Science & Technologie",Périphérique de Paris : les secrets d'une mégastructure
-bfmplay://NEUF_RMCDEC_RMC1020934194191
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020917657219" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/1/2/580fb9ae4535e30b1bf7588f12af8676_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Science & Technologie",Toulon : le plus grand port militaire d'Europe
 bfmplay://NEUF_RMCDEC_RMC1020917657219
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020932360659" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/9/5/6/df0d28b3654eae273966e4c776bd1e87_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Science & Technologie",La techno du pont-tunnel de tous les défis
@@ -9431,50 +9465,6 @@ bfmplay://NEUF_BFMAVOD_BAV78265
 bfmplay://NEUF_BFMAVOD_BAV78273
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV78278" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/8/7/2/9d8159e0392045a0a5e0009b14bd6764_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Science & Technologie",Hors de contrôle S1 - L'incendie du tunnel du Mont-Blanc
 bfmplay://NEUF_BFMAVOD_BAV78278
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372139" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/3/1/d98c6bd6e03de4ca673441115ecc358a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E12 - Pas d'excuses !
-bfmplay://NEUF_NUM23_N231021019372139
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372062" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/6/0/25e0e3d566b1f51a1f17b8014e743759_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E1 - Mon voisin mange mon courrier
-bfmplay://NEUF_NUM23_N231021019372062
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374729" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/2/7/c61cc85fd128a1c457ae04b096ce0d51_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E4 - Plaquage en règle
-bfmplay://NEUF_NUM23_N231021019374729
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374764" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/6/7/fecb3e31d4047f2e27685e0c39b1a69b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E9 - Qui a volé ma raquette ?
-bfmplay://NEUF_NUM23_N231021019374764
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372083" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/8/0/edd8b0c95c791cf39aa3ae58d4974a27_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E4 - Toujours plus
-bfmplay://NEUF_NUM23_N231021019372083
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372090" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/9/0/c07e9ded418e02d97bad01784ed24664_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E5 - La vie en couleur
-bfmplay://NEUF_NUM23_N231021019372090
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374736" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/3/7/e24be360b64794112fabc974ba66c920_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E5 - Pelouse interdite
-bfmplay://NEUF_NUM23_N231021019374736
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374743" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/4/7/7a4d375a89046c660cb33da9eec3ce5a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E6 - Froide ambiance
-bfmplay://NEUF_NUM23_N231021019374743
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372104" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/0/1/c24b55e098110a04680edba338e4acb2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E7 - Adieu poulet
-bfmplay://NEUF_NUM23_N231021019372104
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372125" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/2/1/69801819c30762ad9b9434664bbb82b1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E10 - Une découverte surprenante
-bfmplay://NEUF_NUM23_N231021019372125
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372132" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/3/1/51dee86f8c8d4d3a1d502e0709137fd8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E11 - Mauvais joueur
-bfmplay://NEUF_NUM23_N231021019372132
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372160" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/6/1/bc45e9968b67e2eefa228cd19a9d03cf_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E15 - Cherchez l'intrus
-bfmplay://NEUF_NUM23_N231021019372160
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372076" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/7/0/23a4df35313a33071b7a99a9f41c6294_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E3 - Visite surprise
-bfmplay://NEUF_NUM23_N231021019372076
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372118" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/1/242dc8b006eccbef2faabeecd0f9bbc6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E9 - Fou du volant
-bfmplay://NEUF_NUM23_N231021019372118
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372097" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/9/0/8cd4eb7e166b205cff01b4626ccb3182_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E6 - Tais-toi et rame
-bfmplay://NEUF_NUM23_N231021019372097
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374722" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/2/7/2429033eb1bbd1247567ed9ab36b90b2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E3 - Tu me fais flipper !
-bfmplay://NEUF_NUM23_N231021019374722
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374658" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/5/6/a111232ec1efad5d58e75d49a28a79dd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E1 - La gifle de trop
-bfmplay://NEUF_NUM23_N231021019374658
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374771" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/7/7/a5b540666fba71d55dbf9e0a6cac0021_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E10 - Tu sais que personne ne t'aime
-bfmplay://NEUF_NUM23_N231021019374771
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374757" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/5/7/67d158067c62733662a93967fffb6e20_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E8 - La guerre des ordures
-bfmplay://NEUF_NUM23_N231021019374757
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019374750" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/5/7/121acc50ac422c2c7fd509d3587d8e84_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S5E7 - Vivre le cauchemar américain
-bfmplay://NEUF_NUM23_N231021019374750
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372153" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/3/5/1/e5a47f3e4d8699938d74e9f10abe26fb_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E14 - Un caractère bien trempé
-bfmplay://NEUF_NUM23_N231021019372153
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021019372069" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/6/0/3ff81d58fb6783319c3011469c40e08c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Voisins en colère - S4E2 - Grand-mère 1 - escroc 0
-bfmplay://NEUF_NUM23_N231021019372069
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23962010497527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/e1167cb255097635162d73a0bb7b56bf_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Société & Immersion",Europa-park : la techno des attractions
 bfmplay://NEUF_NUM23_N23962010497527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020955041879" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/9/7/8/00a74d6a0cf479d9124d5abcfd61ecb4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",Plein les yeux - S1E1 - Volume 1
@@ -9829,8 +9819,6 @@ bfmplay://NEUF_NUM23_N23997758495527
 bfmplay://NEUF_NUM23_N231020963009902
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021056453582" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/8/5/31e8fd8aa4761cc266ebd1f171971d9e_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Société & Immersion",Affaire Epstein : les nouvelles pistes françaises
 bfmplay://NEUF_BFMTV_BFM1021056453582
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231002430252527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/d6682629fc364e07897db33e4718e2bc_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Société & Immersion",Le souffle de la guerre chimique
-bfmplay://NEUF_NUM23_N231002430252527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021032917192" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/9/1/dfdf2144b5896bd1ff463de2172bbdc4_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Thématique BFM Play - Société & Immersion",De l’ombre à la lumière : l’ambitieuse Sarah Knafo
 bfmplay://NEUF_BFMTV_BFM1021032917192
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM696008545527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/7/2/5/cb21bb74086666ef6b244ec396dda481_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique BFM Play - Société & Immersion",La famille : enquête sur une communauté secrète - Le dilemme
@@ -10159,10 +10147,10 @@ bfmplay://NEUF_NUM23_N23_1277012
 bfmplay://NEUF_NUM23_N23_1018608525527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23_1020939689216" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1020939689216_9C860Fb/posters/d4e2c6357c8d959c03cbfe11613fa51a/d4e2c6357c8d959c03cbfe11613fa51a.jpg" tvg-country="FR" tvg-type="movie" group-title="Catalogue RMC Story",Homicide : decompte mortel
 bfmplay://NEUF_NUM23_N23_1020939689216
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S1021054233412" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/564794537527_9C860Fb/posters/cf4a7e2147e4568cb6981a5122dd30e2/cf4a7e2147e4568cb6981a5122dd30e2.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Pêche XXL
-bfmplay://NEUF_RMCDEC_RMC_S1021054233412
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S966372582527" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/966372582527_9C860Fb/posters/ecf61315d2f44451dca2ee3a152b6a10/ecf61315d2f44451dca2ee3a152b6a10.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Flic story
 bfmplay://NEUF_RMCDEC_RMC_S966372582527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S1021054233412" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/564794537527_9C860Fb/posters/cf4a7e2147e4568cb6981a5122dd30e2/cf4a7e2147e4568cb6981a5122dd30e2.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Pêche XXL
+bfmplay://NEUF_RMCDEC_RMC_S1021054233412
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S1020933745013" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/1020933745013_9C860Fb/posters/264bb331fcd4ec99959eab6d9f672bce/264bb331fcd4ec99959eab6d9f672bce.jpg" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",Le mystère d'Oak Island : la course au trésor
 bfmplay://NEUF_RMCDEC_RMC_S1020933745013
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC_S961239550527" tvg-logo="https://io-fsly.cdn.rmcplus.fr/imagescaler002/rmcbfm/production/assets/961239550527_9C860Fb/posters/3007a19909f6d208e1b3244b75388850/3007a19909f6d208e1b3244b75388850.jpg?crop=3:4,offset-y0" tvg-country="FR" tvg-type="series" group-title="Catalogue RMC Découverte",J'irai dormir chez vous
