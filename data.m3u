@@ -5953,10 +5953,14 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/swcb69EBaemD/l
 #EXTINF:-1 tvg-id="arte.fr@SD" group-title="France TV backup",arte (720p) [iptv-org-fr]
 http://145.239.5.177/300/index.m3u8
 #EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
-http://145.239.5.177/359a/index.m3u8
+https://jmp2.uk/stvp-FRBC3900004DS
 #EXTINF:-1 tvg-id="France5.fr@SD" group-title="France TV backup",France 5 (720p) [iptv-org-fr]
 http://145.239.5.177/305/index.m3u8
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup",LCI HD (1080p) [iptv-org-fr]
 http://145.239.5.177/368/index.m3u8
 #EXTINF:-1 tvg-id="TFX.fr@SD" group-title="France TV backup",TFX (720p) [iptv-org-fr]
 http://145.239.5.177/315/index.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="CapTerre.es@FR" group-title="France TV backup",Cap Terre (1080p) [iptv-org-fr]
+http://145.239.5.177/359a/index.m3u8
