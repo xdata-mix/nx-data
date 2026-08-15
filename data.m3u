@@ -5934,3 +5934,7 @@ https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-
 # === Ajouts FR multi-sources : Info ===
 #EXTINF:-1 tvg-id="LCN.ca@SD" group-title="Info",LCN [Geo-blocked]
 https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 group-title="France TV backup",TRACE BRASIL [schumijo]
+https://trace-brazuca-lg-fr.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-lg-fr/CDN/master.m3u8
