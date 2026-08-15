@@ -5223,7 +5223,7 @@ https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 tvg-id="LaTrois.be@SD" group-title="France TV backup",La Trois (720p) [iptv-org-fra]
 http://193.111.198.85:8589/stream/mstv/rtbflatroislive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-id="LaUne.be@SD" group-title="France TV backup",La Une (720p) [iptv-org-fra]
-http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
+http://145.239.5.177/329/index.m3u8
 #EXTINF:-1 tvg-id="Tipik.be@SD" group-title="France TV backup",Tipik (720p) [iptv-org-fra]
 http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-id="TV5MondeAfrica.fr@SD" group-title="France TV backup",TV5Monde Africa (720p) [iptv-org-fra]
@@ -5892,4 +5892,4 @@ http://145.239.5.177/359a/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
-https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/vNRrTK9WbGRJ/Dg9g0ebGOEjK3WiD.m3u8
