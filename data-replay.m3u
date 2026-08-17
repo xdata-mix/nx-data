@@ -26187,8 +26187,10 @@ francetv://program/info_c-ce-soir-face-cam
 francetv://program/france-5_c-pas-si-loin
 #EXTINF:-1 tvg-id="francetv-prog-france-3_meteo-a-la-carte" tvg-logo="https://medias.france.tv/tAXzwCU3PEQOb_bSFg8tlSz1068/400x0/filters:quality(85)/s/h/x/phpguexhs.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Société - Magazines",Météo à la carte
 francetv://program/france-3_meteo-a-la-carte
-#EXTINF:-1 tvg-id="francetv-00b713d4-958e-4f03-b3cb-fe72b041ddef" tvg-logo="https://medias.france.tv/pUGkpKimPEXkoW_8DDKx5w-kovw/400x0/filters:quality(85)/h/o/w/phpv00woh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Journal 20h00 — Edition spéciale : éclipse solaire
-francetv://00b713d4-958e-4f03-b3cb-fe72b041ddef
+#EXTINF:-1 tvg-id="francetv-bf2ece7d-d305-4a2e-914d-23b6dcd7b08b" tvg-logo="https://medias.france.tv/JriP9HPkxOMYNp73OBs2foCMlFw/400x0/filters:quality(85)/e/f/v/phpcxpvfe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Nous, les Européens — Grèce, la bataille de l'eau
+francetv://bf2ece7d-d305-4a2e-914d-23b6dcd7b08b
+#EXTINF:-1 tvg-id="francetv-prog-france-2_journal-20h00" tvg-logo="https://medias.france.tv/oS9wFLK41dclY6Hpjbsww-YBoBc/400x0/filters:quality(85)/h/k/o/php3y9okh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Journal 20h00
+francetv://program/france-2_journal-20h00
 #EXTINF:-1 tvg-id="francetv-2c157e47-5f8d-41a1-8db7-24bca1f1e458" tvg-logo="https://medias.france.tv/ruTWUifjb5abL1XAXlzRek7jR04/400x0/filters:quality(85)/3/2/d/14eef539acd34e5fa5f6044a38922d23.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Mon stage chez les vieux - Le documentaire
 francetv://2c157e47-5f8d-41a1-8db7-24bca1f1e458
 #EXTINF:-1 tvg-id="francetv-ff63ceba-bbba-11f0-824d-957ddefc544d" tvg-logo="https://medias.france.tv/U0ZfAteZjr2pzL9QcWW_-YH8qyQ/400x0/filters:quality(85)/c/3/5/0e16312710174c25aa0998acecbfbfda9e8ef1a6f591a2eb54fcb9015a99d53c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Envoyé spécial — IA mon amour
@@ -26197,8 +26199,6 @@ francetv://ff63ceba-bbba-11f0-824d-957ddefc544d
 francetv://program/france-2_cash-investigation
 #EXTINF:-1 tvg-id="francetv-8d06284c-2375-4001-884b-8f9245f805a0" tvg-logo="https://medias.france.tv/zOhONIbP9QN7HZikvS9dQqqwHTw/400x0/filters:quality(85)/n/i/6/php0bu6in.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Complément d'enquête — Des chefs vraiment top ? : enquête sur les nouvelles stars de la cuisine
 francetv://8d06284c-2375-4001-884b-8f9245f805a0
-#EXTINF:-1 tvg-id="francetv-da3feed0-d7f0-4221-bd9f-b9bf717e4b47" tvg-logo="https://medias.france.tv/VYgVGKSxLFUmzaP3FJlLZpX9VFo/400x0/filters:quality(85)/5/f/6/5a476058088843b09912be009770e6f5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Envoyé spécial — E414 : l'additif de la guerre
-francetv://da3feed0-d7f0-4221-bd9f-b9bf717e4b47
 #EXTINF:-1 tvg-id="francetv-prog-france-2_journal-meteo-et-climat" tvg-logo="https://medias.france.tv/tJmkAynRu1_Ka8hrejfh2NBZ23o/400x0/filters:quality(85)/v/2/p/phpzvap2v.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Journal Météo Climat
 francetv://program/france-2_journal-meteo-et-climat
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_vrai-ou-faux-l-emission" tvg-logo="https://medias.france.tv/vd-hTq_vXtmLhjgIK5EjbWygwlQ/400x0/filters:quality(85)/4/n/t/phpu94tn4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",Vrai ou faux, l'émission
@@ -26209,80 +26209,16 @@ francetv://program/public-senat_droit-de-suite
 francetv://program/franceinfo_le-fil-info
 #EXTINF:-1 tvg-id="francetv-prog-arte_arte-reportage" tvg-logo="https://medias.france.tv/N-q_aPaC583vWhOrSd4RqwzZsNk/400x0/filters:quality(85)/1/a/i/phplnsia1.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Notre sélection",ARTE Reportage
 francetv://program/arte_arte-reportage
-#EXTINF:-1 tvg-id="francetv-2b358efc-96f3-11f1-8493-957ddefc544d" tvg-logo="https://medias.france.tv/P_2A0Ot6cPC0iebvKwcT1l3DWXY/400x0/filters:quality(85)/2/9/1/962533f79daf40ab992be5530c8d7192.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Journal 20h00 — Les yeux rivés vers le ciel
-francetv://2b358efc-96f3-11f1-8493-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-67eb5868-96f3-11f1-ae5d-57a09c50f7ce" tvg-logo="https://medias.france.tv/1cLXyikNTdCvXYuY_437otO3Pkc/400x0/filters:quality(85)/9/d/d/7181ceccacae430c9bab87eae2c83dd9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Journal 20h00 — Une source d'inspiration intarissable
-francetv://67eb5868-96f3-11f1-ae5d-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-b25dbdf6-96f2-11f1-951b-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/C1V1mFss77IMNDZl1hLFk0J0288/400x0/filters:quality(85)/8/3/3/1b87c7b951de4788ad139a3ac0db2338.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Journal 20h00 — Des étoiles plein les yeux
-francetv://b25dbdf6-96f2-11f1-951b-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-a395818e-bf00-4139-b1fd-a2df817bcc8d" tvg-logo="https://medias.france.tv/d-tM6WSEIK_GjidZ0Kb7Wb9Socw/400x0/filters:quality(85)/4/2/c/7df5bb08be044cbeb79033d2de4f6c24.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Éclipse totale au-dessus de l’Europe
-francetv://a395818e-bf00-4139-b1fd-a2df817bcc8d
-#EXTINF:-1 tvg-id="francetv-38933502-9565-11f1-8492-957ddefc544d" tvg-logo="https://medias.france.tv/asGXxKdJcjmmy2-pBYNNHxl0SNo/400x0/filters:quality(85)/6/2/7/d7d6e44525d047ddb4cc93198fcd0726.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Journal 20h00 — Éclipse, retour vers 1999
-francetv://38933502-9565-11f1-8492-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-7bb2b5fe-3340-442b-91a2-00ca3f9db9f2" tvg-logo="https://medias.france.tv/zudV0Wd3A7-OFLACbsmPZJ3LbV8/400x0/filters:quality(85)/e/u/b/phpo0rbue.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Mystères du système solaire — Les mondes agités
-francetv://7bb2b5fe-3340-442b-91a2-00ca3f9db9f2
-#EXTINF:-1 tvg-id="francetv-7ad4e2e4-3ae3-47e5-95ef-c7fccfbfcdfb" tvg-logo="https://medias.france.tv/_2XeRX0Ei2Swf2TU-8M17-jf7ec/400x0/filters:quality(85)/h/p/e/phpif9eph.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Mystères du système solaire — Les mondes volcaniques
-francetv://7ad4e2e4-3ae3-47e5-95ef-c7fccfbfcdfb
-#EXTINF:-1 tvg-id="francetv-386cfaab-dd04-4aab-922c-85b9dcd0ccaf" tvg-logo="https://medias.france.tv/pZ2aRhSBcSEgQeDcFRubX8s6Fus/400x0/filters:quality(85)/1/5/4/02993ee3ac75439ca54447bc1e8d1451.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Mission spatiale au Sénégal
-francetv://386cfaab-dd04-4aab-922c-85b9dcd0ccaf
-#EXTINF:-1 tvg-id="francetv-abab572d-5efe-4858-9133-b9a94b81fb3b" tvg-logo="https://medias.france.tv/OXvOvZJM77QLjcsAoRSBOZatehg/400x0/filters:quality(85)/9/e/f/be009f3df6384cdcac196f3fb05f0fe9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",42 - La réponse à presque tout — Que se cache-t-il derrière les ovnis ?
-francetv://abab572d-5efe-4858-9133-b9a94b81fb3b
-#EXTINF:-1 tvg-id="francetv-ca7265e8-f374-43c7-8b56-666fd5163007" tvg-logo="https://medias.france.tv/zww3ccgplLeJB2aGgMajA32EPjc/400x0/filters:quality(85)/f/2/f/14802ee58bfa4509b282c7a82b681f2f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Enquête aux limites de l’Univers
-francetv://ca7265e8-f374-43c7-8b56-666fd5163007
-#EXTINF:-1 tvg-id="francetv-1484fc6b-2a31-401e-9600-018d17b5f565" tvg-logo="https://medias.france.tv/cu9hJme-HS3FhfrOh3ACplIRWVc/400x0/filters:quality(85)/e/c/q/phpho5qce.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Science grand format — James Webb, voyage aux origines de l'univers
-francetv://1484fc6b-2a31-401e-9600-018d17b5f565
-#EXTINF:-1 tvg-id="francetv-7584ad57-ea81-4fcc-89c2-d29a9132058f" tvg-logo="https://medias.france.tv/NZRL0oZX9xUHDaF_sr1jSvjJj4A/400x0/filters:quality(85)/0/5/9/5e4a135c03b54dccb09cc33419f9e950.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",L'Europe à la conquête des étoiles
-francetv://7584ad57-ea81-4fcc-89c2-d29a9132058f
-#EXTINF:-1 tvg-id="francetv-7b328e38-ea64-4f32-a369-e9694458dda3" tvg-logo="https://medias.france.tv/BpE6eBIbyGTxF1g6cnQ-HBxMTDo/400x0/filters:quality(85)/h/7/k/phpo4lk7h.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Sommes-nous seuls dans l'Univers ?
-francetv://7b328e38-ea64-4f32-a369-e9694458dda3
-#EXTINF:-1 tvg-id="francetv-03bdc3d3-fa7c-47f0-be6d-4c0191f0fbe7" tvg-logo="https://medias.france.tv/yN-Bykt3SHkji63_WmSLCT6dqqI/400x0/filters:quality(85)/c/a/3/e63e9bb439ab45c7b339bbe4b4cda3ac.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",42 - La réponse à presque tout — Émission du dimanche 7 juin 2026
-francetv://03bdc3d3-fa7c-47f0-be6d-4c0191f0fbe7
-#EXTINF:-1 tvg-id="francetv-4e18c2aa-d682-47f0-8209-2c61a23b47ce" tvg-logo="https://medias.france.tv/p_wiAHrjtVfobf9jg7oG_Vz5y18/400x0/filters:quality(85)/3/c/2/bd0c8a2258a440abbfa666d569e2d2c3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Alerte aux astéroïdes
-francetv://4e18c2aa-d682-47f0-8209-2c61a23b47ce
-#EXTINF:-1 tvg-id="francetv-e6c3e2d0-418c-4fc2-b71b-1a3a5c84484f" tvg-logo="https://medias.france.tv/5l2fQtWNOMfTS8IBjf89f1hgWSE/400x0/filters:quality(85)/9/4/3/55037bcf0e404abc831800e3f55d6349.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Artemis : Les défis d'un retour sur la Lune
-francetv://e6c3e2d0-418c-4fc2-b71b-1a3a5c84484f
-#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-science_destination-lune-la-nouvelle-conquete-spatiale" tvg-logo="https://medias.france.tv/N5j-BmUzpbKQFodvyb2GGIX5Cp4/400x0/filters:quality(85)/i/b/g/phpzuqgbi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Destination Lune, la nouvelle conquête spatiale
-francetv://program/documentaires_documentaires-science_destination-lune-la-nouvelle-conquete-spatiale
-#EXTINF:-1 tvg-id="francetv-5c2302e0-446b-11f1-adfc-57a09c50f7ce" tvg-logo="https://medias.france.tv/nb6T1H7aaLC1tZjgdnhR1cWH19E/400x0/filters:quality(85)/0/f/0/5779e0f5b04840a9a312fbb2631110f0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Journal Météo Climat — Sophie Adenot : interview exceptionnelle depuis l'espace
-francetv://5c2302e0-446b-11f1-adfc-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-prog-arte_la-conquete-de-la-lune-toute-l-histoire" tvg-logo="https://medias.france.tv/haBUHQLLtuX9Kdj9sBh5hQK3a5A/400x0/filters:quality(85)/4/3/0/5a26bf957b054ff59a8f106c4b3c4034.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",La conquête de la Lune : toute l'histoire
-francetv://program/arte_la-conquete-de-la-lune-toute-l-histoire
-#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-science_stars-des-femmes-dans-l-espace" tvg-logo="https://medias.france.tv/0JCR6dliCqk01Y8lYdq5OhVXDOU/400x0/filters:quality(85)/y/p/q/php2kxqpy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Des femmes dans l'espace
-francetv://program/documentaires_documentaires-science_stars-des-femmes-dans-l-espace
-#EXTINF:-1 tvg-id="francetv-d90d528b-2b99-41c9-a3cd-fdb7f4b66db2" tvg-logo="https://medias.france.tv/I60CKqvlPHKgNsz6XSGZnOGGfZE/400x0/filters:quality(85)/9/b/f/c0e96e46dcbf4e3d8212225bae632fb9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Bulletin spatial — La grande histoire de l'exploration de la Lune
-francetv://d90d528b-2b99-41c9-a3cd-fdb7f4b66db2
-#EXTINF:-1 tvg-id="francetv-3b4d0b25-bb9c-46e4-acf0-2146dbb2977b" tvg-logo="https://medias.france.tv/wc21fSB368liptqIXLeLqkwsqHs/400x0/filters:quality(85)/p/h/p/phpd5wphp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Science grand format — La Station spatiale internationale - Missions à haut risque
-francetv://3b4d0b25-bb9c-46e4-acf0-2146dbb2977b
-#EXTINF:-1 tvg-id="francetv-5ffb39f4-c958-4f67-bed1-2c30414699ac" tvg-logo="https://medias.france.tv/nZr_9lP5TZzI2FPp48WTwJSEgwc/400x0/filters:quality(85)/2/9/3/0e189353a4c242e3b525f69cf6db345dd070a5871397ad4b7a7e6ba026895392.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Passé composé, figures du siècle — Le retour sur terre raconté par Claudie Haigneré
-francetv://5ffb39f4-c958-4f67-bed1-2c30414699ac
-#EXTINF:-1 tvg-id="francetv-prog-arte_origines-un-conte-de-la-lumiere" tvg-logo="https://medias.france.tv/ktzXR6EhSBx8fpSSgLQZZyMh59I/400x0/filters:quality(85)/5/2/3/dfd28978b9b64012815a91b1c059d325.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Origines, un conte de la lumière
-francetv://program/arte_origines-un-conte-de-la-lumiere
-#EXTINF:-1 tvg-id="francetv-0bc13826-7977-4752-b99a-17f9ed0f5baf" tvg-logo="https://medias.france.tv/kOGEiuR9dQ47jo7whX7tZpWjUk4/400x0/filters:quality(85)/b/5/e/c3b0172b38b249c387909b41721a4e5b.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Des étoiles plein les yeux
-francetv://0bc13826-7977-4752-b99a-17f9ed0f5baf
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_comme-dans-l-espace" tvg-logo="https://medias.france.tv/d0THS_DvR8J4odvMwO-3WyndCdU/400x0/filters:quality(85)/7/1/b/cef01fbad5674f1683d9435e83664b17.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Comme dans l'espace
-francetv://program/tv5-monde_comme-dans-l-espace
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_bulletin-spatial" tvg-logo="https://medias.france.tv/c3tdNmdFP7W5lOpJkcZ11YWUQSk/400x0/filters:quality(85)/8/2/6/1a3b2e0f2f7649d3af079b3598426628.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Bulletin spatial
-francetv://program/tv5-monde_bulletin-spatial
-#EXTINF:-1 tvg-id="francetv-067108ad-c97e-4885-ae6a-f48931996d50" tvg-logo="https://medias.france.tv/UHMDKhKwIfV4wGnKGAj-9I4fohk/400x0/filters:quality(85)/4/b/3/cf6a04516fb042168e740cace0c86584efc629d9d3f1aa5459278b36fd8cf3b4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Passé composé, figures du siècle — La sensation de liberté dans l'espace par Claudie Haigneré
-francetv://067108ad-c97e-4885-ae6a-f48931996d50
-#EXTINF:-1 tvg-id="francetv-f69dfca0-e5e8-4df3-9700-8ebaf48a3f2b" tvg-logo="https://medias.france.tv/CdJudT5IbU1xRO4d9BzsuZVRdEY/400x0/filters:quality(85)/z/8/l/phpvaul8z.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Science grand format — Oumuamua, l'inconnu venu de l'espace
-francetv://f69dfca0-e5e8-4df3-9700-8ebaf48a3f2b
-#EXTINF:-1 tvg-id="francetv-8f3deb76-a586-4478-8102-a260123a30f5" tvg-logo="https://medias.france.tv/cEbs5VKqV6c_04k3vd0kAxdz3BE/400x0/filters:quality(85)/a/9/6/2d2f45726ee64f8eae41cde97b36369a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",42 - La réponse à presque tout — Les débris spatiaux nous menacent-t-il ?
-francetv://8f3deb76-a586-4478-8102-a260123a30f5
-#EXTINF:-1 tvg-id="francetv-f71aa163-5cd4-4544-a9e3-ac10ee990ae0" tvg-logo="https://medias.france.tv/7XvPlat5Gc5ynsqd_k3_kj-eQaM/400x0/filters:quality(85)/0/f/c/fb982ed5f5be4c82b38aefaef17a16269985276f8ee99c71a460ee2fdff0ccf0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",Passé composé, figures du siècle — Claudie Haigneré raconte l'émerveillement pour l'exploration scientifique
-francetv://f71aa163-5cd4-4544-a9e3-ac10ee990ae0
-#EXTINF:-1 tvg-id="francetv-6e82b8f7-7801-4dcd-98fe-6dfdbdfb879b" tvg-logo="https://medias.france.tv/AQxs8J4m3hWTW-cptt-ekZt-mG0/400x0/filters:quality(85)/f/a/a/1bc60a0576814ba9b9802e6e85a89aaf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Direction les étoiles !",42 - La réponse à presque tout — Émission du dimanche 12 juin 2022
-francetv://6e82b8f7-7801-4dcd-98fe-6dfdbdfb879b
 #EXTINF:-1 tvg-id="francetv-24f28056-daf9-47c9-ab2b-5baef4124192" tvg-logo="https://medias.france.tv/14wyKxCg-mvM8EfkVpTa3EYxpTs/400x0/filters:quality(85)/u/q/l/phpdxqlqu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",Reporters — Norvège : l’archipel du Svalbard, un pion sur l’échiquier de la Russie
 francetv://24f28056-daf9-47c9-ab2b-5baef4124192
-#EXTINF:-1 tvg-id="francetv-5952235a-aa1f-42d0-865b-07251a92e6f5" tvg-logo="https://medias.france.tv/IG5kiD5Jwtn1ikrRazXYkojqbRc/400x0/filters:quality(85)/f/1/e/1f4ac72278764bb4903104c64d4cce1f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",Trump, no Limit
-francetv://5952235a-aa1f-42d0-865b-07251a92e6f5
+#EXTINF:-1 tvg-id="francetv-prog-documentaires_documentaires-geopolitique_la-guerre-donald-trump-et-nous" tvg-logo="https://medias.france.tv/Ck7qXK-yJTfoF7l52m9EkZDI8dg/400x0/filters:quality(85)/3/v/1/phpnpp1v3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",La guerre, Donald Trump et nous
+francetv://program/documentaires_documentaires-geopolitique_la-guerre-donald-trump-et-nous
 #EXTINF:-1 tvg-id="francetv-5d1cee95-2827-4caa-a153-5d55422707f7" tvg-logo="https://medias.france.tv/aqTmQtivUfZxNjjBw0qHkZ_m5W0/400x0/filters:quality(85)/5/2/d/ebb71e7806db447fb523aad6c8918d25.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",ARTE Regards — Euthanasie : l'ultime voyage
 francetv://5d1cee95-2827-4caa-a153-5d55422707f7
+#EXTINF:-1 tvg-id="francetv-bf8e0560-d2e3-45ed-8c7e-a3c460ba4dc9" tvg-logo="https://medias.france.tv/rMyUwNmrlpvqxNDhlTyPUKK8ZYk/400x0/filters:quality(85)/w/d/1/php2rd1dw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",La France en Vrai - Bourgogne-Franche-Comté — Nos pompiers
+francetv://bf8e0560-d2e3-45ed-8c7e-a3c460ba4dc9
 #EXTINF:-1 tvg-id="francetv-81fca579-a885-4cb1-a0b3-acba45648875" tvg-logo="https://medias.france.tv/9_oH-f0oQbSN2_uDeMH7WzLz_WQ/400x0/filters:quality(85)/3/c/6/3668b8d531c74a3798112af5205de6c3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",Zone de conflit - Les crises mondiales en bref — États-Unis - Canada : la rupture
 francetv://81fca579-a885-4cb1-a0b3-acba45648875
-#EXTINF:-1 tvg-id="francetv-f1ea8977-c97e-4167-825a-041d2e62804b" tvg-logo="https://medias.france.tv/Ren4SqDuv6S-HFuXA63LDvLA9u8/400x0/filters:quality(85)/7/5/1/phpwff157.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",C'est en France — 14 juillet 2016 : la nuit qui a brisé Nice
-francetv://f1ea8977-c97e-4167-825a-041d2e62804b
 #EXTINF:-1 tvg-id="francetv-ab1c19b3-d383-44ea-9bb9-d6388b2ee6af" tvg-logo="https://medias.france.tv/jVAj-hKxcvBFcocZ8KOCBTCa1p0/400x0/filters:quality(85)/2/0/7/113862acde014f8dbc90650b58f83702.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",Irak - De l’eau polluée au trafic d’organes
 francetv://ab1c19b3-d383-44ea-9bb9-d6388b2ee6af
 #EXTINF:-1 tvg-id="francetv-prog-tv5-monde_ne-cliquez-pas" tvg-logo="https://medias.france.tv/DsKWrS8-dx14G07ZXX1h4UDUNLk/400x0/filters:quality(85)/b/a/d/5000906cdeb04c8982a415208017ddab.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Les docs d'info",Ne cliquez pas
@@ -27333,8 +27269,8 @@ francetv://30ffebc8-6578-4245-8a82-7cd9ecdfb97b
 francetv://835bf3b8-15d7-4347-b60a-646c64e75113
 #EXTINF:-1 tvg-id="francetv-d72f22c8-fa32-4686-9ef8-2bcc31b24e18" tvg-logo="https://medias.france.tv/TEvnjJjg47XRMFd5NPgj3wWE2-4/400x0/filters:quality(85)/r/e/k/phpsz8ker.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Les 100 lieux qu'il faut voir — Le Nord, terre de vélo
 francetv://d72f22c8-fa32-4686-9ef8-2bcc31b24e18
-#EXTINF:-1 tvg-id="francetv-c07dfc39-7f5d-4dd3-9719-cd93ebe21e47" tvg-logo="https://medias.france.tv/710x6hcq3YPfDzWbCCiv5bMWx8M/400x0/filters:quality(85)/l/a/e/phphhveal.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Des trains pas comme les autres — Malaisie
-francetv://c07dfc39-7f5d-4dd3-9719-cd93ebe21e47
+#EXTINF:-1 tvg-id="francetv-bcee616a-5ea5-444e-aa5d-44f71ee99d09" tvg-logo="https://medias.france.tv/710x6hcq3YPfDzWbCCiv5bMWx8M/400x0/filters:quality(85)/l/a/e/phphhveal.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Des trains pas comme les autres — Malaisie
+francetv://bcee616a-5ea5-444e-aa5d-44f71ee99d09
 #EXTINF:-1 tvg-id="francetv-3408ded3-7e66-4dda-bd26-b69e17d68eb5" tvg-logo="https://medias.france.tv/iCai9-rRY6nX4OXB_-kwRbjHyMA/400x0/filters:quality(85)/a/e/s/phpgh7sea.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Destination francophonie - Version 52' — Destination Lettonie
 francetv://3408ded3-7e66-4dda-bd26-b69e17d68eb5
 #EXTINF:-1 tvg-id="francetv-33ff1303-626d-4352-8246-0981afb57c75" tvg-logo="https://medias.france.tv/fai19pZbdqOi8HR-Kq8gKvbT_hY/400x0/filters:quality(85)/1/6/d/9a033894913046d4ad0c17b808ebcd61.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Les Seychelles : Un joyau de la nature
