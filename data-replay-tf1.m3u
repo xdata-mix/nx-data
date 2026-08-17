@@ -7,10 +7,6 @@ tf1live://L_FAST_v2l-ad-baby-boom-88288927
 tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
-#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-comedie-fiction-25247701" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Comedie Fiction
-tf1live://L_FAST_v2l-ad-comedie-fiction-25247701
-#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-danse-avec-les-stars-00457635" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Danse Avec Les Stars
-tf1live://L_FAST_v2l-ad-danse-avec-les-stars-00457635
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-demain-nous-appartient-38296145" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Demain Nous Appartient
 tf1live://L_FAST_v2l-ad-demain-nous-appartient-38296145
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
@@ -31,8 +27,6 @@ tf1live://L_FAST_v2l-ad-les-enfoires-35654015
 tf1live://L_FAST_v2l-ad-les-mysteres-de-lamour-99639599
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-les-restos-du-coeur-59894021" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Les Restos Du Coeur
 tf1live://L_FAST_v2l-ad-les-restos-du-coeur-59894021
-#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-lolywood-16739451" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Lolywood
-tf1live://L_FAST_v2l-ad-lolywood-16739451
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mamans-and-celebres-08240458" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mamans & Celebres
 tf1live://L_FAST_v2l-ad-mamans-and-celebres-08240458
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mighty-express-44092248" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mighty Express
@@ -93,6 +87,8 @@ tf1plus://tf1/seconde-chance-377
 tf1plus://tf1/rien-ne-tefface
 #EXTINF:-1 tvg-id="tf1plus-tf1-profilage-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-edfc83-36b252-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Profilage
 tf1plus://tf1/profilage
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-mystere-de-la-chambre-jaune-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-le-mystere-de-la-chambre-jaune-jpg-741f82-d5b772-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Le Mystere de la Chambre Jaune
 tf1plus://tf1/le-mystere-de-la-chambre-jaune
 #EXTINF:-1 tvg-id="tf1plus-tf1-mademoiselle-holmes-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-b97a0c-cf9d86-c04fd8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Mademoiselle Holmes
@@ -101,8 +97,6 @@ tf1plus://tf1/mademoiselle-holmes
 tf1plus://tf1/flynn-carson-et-les-nouveaux-aventuriers
 #EXTINF:-1 tvg-id="tf1plus-tf1-quai-numero-7-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-cc9cfa-5c06dd-178f7e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Quai Numero 7
 tf1plus://tf1/quai-numero-7
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-innocents-nouveau-sur-tf1+" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-6-eaad85-0354e2-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveau sur TF1+",Les Innocents
-tf1plus://tf1/les-innocents
 #EXTINF:-1 tvg-id="tf1plus-tf1-nashville-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-8db59c-3a7dad-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Nashville
 tf1plus://tf1/nashville
 #EXTINF:-1 tvg-id="tf1plus-tf1-monsieur-parizot-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-f546b7-fd8191-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Monsieur Parizot
@@ -151,12 +145,12 @@ tf1plus://tf1/nashville
 tf1plus://tf1/un-village-francais
 #EXTINF:-1 tvg-id="tf1plus-tf1-lete-rouge-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-17667f-ba6ec5-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Lete Rouge
 tf1plus://tf1/lete-rouge
-#EXTINF:-1 tvg-id="tf1plus-tf1-lespionne-de-tanger-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-png-7dbaec-543f47-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Lespionne de Tanger
-tf1plus://tf1/lespionne-de-tanger
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-ministere-du-temps-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-b3999b-c345a0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Le Ministere du Temps
 tf1plus://tf1/le-ministere-du-temps
 #EXTINF:-1 tvg-id="tf1plus-tf1-juste-un-regard-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-8cbc6b-0160bf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Juste un Regard
 tf1plus://tf1/juste-un-regard
+#EXTINF:-1 tvg-id="tf1plus-tf1-sullivans-crossing-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-1b7158-597613-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Sullivans Crossing
+tf1plus://tf1/sullivans-crossing
 #EXTINF:-1 tvg-id="tf1plus-tf1-mensonges-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-mensonges-b38373-da1762-82eff8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Mensonges
 tf1plus://tf1/mensonges
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-coeur-a-ses-raisons-10-pépites-à-découvrir-⭐" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-d4f022-8b0bc6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - 10 pépites à découvrir ⭐",Le Coeur A Ses Raisons
@@ -187,6 +181,8 @@ tf1plus://tf1/most-wanted-criminals
 tf1plus://tf1/dr-house
 #EXTINF:-1 tvg-id="tf1plus-tf1-ghosts-fantomes-a-la-maison-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-4-ghosts-fantomes-a-la-maison-png-e57327-9a78db-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Ghosts Fantomes A la Maison
 tf1plus://tf1/ghosts-fantomes-a-la-maison
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tmc-charmed-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-d37e9e-2b9fa0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Charmed
 tf1plus://tmc/charmed
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-experts-la-vegas-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-cdc31f-06d396-7b6a24-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Les Experts la Vegas
@@ -201,8 +197,6 @@ tf1plus://tf1/experts-manhattan
 tf1plus://tf1/leverage-redemption
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-tudors-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-5c5cdf-3089a5-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Les Tudors
 tf1plus://tf1/les-tudors
-#EXTINF:-1 tvg-id="tf1plus-tf1-retour-a-cedar-cove-séries-u.s" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-9ef0b4-2dff9e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries U.S",Retour A Cedar Cove
-tf1plus://tf1/retour-a-cedar-cove
 #EXTINF:-1 tvg-id="tf1plus-tf1-falco-séries-françaises" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-falco-2026-a2e6df-609418-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries françaises",Falco
 tf1plus://tf1/falco
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-village-francais-séries-françaises" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-e2121e-014c24-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries françaises",Un Village Francais
@@ -373,6 +367,8 @@ tf1plus://tf1/most-wanted-criminals
 tf1plus://tf1/mademoiselle-holmes
 #EXTINF:-1 tvg-id="tf1plus-tf1-panda-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ba0c52-ba0195-9b18ba-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",Panda
 tf1plus://tf1/panda
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-08a1a9-07123e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",New York Unite Speciale
 tf1plus://tf1/new-york-unite-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-elsbeth-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait_elsbeth_01-b35735-6cb9a7-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",Elsbeth
@@ -401,8 +397,6 @@ tf1plus://tf1/le-maitre-du-zodiaque
 tf1plus://tf1/zodiaque
 #EXTINF:-1 tvg-id="tf1plus-tf1-section-de-recherches-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-ad3a1c-1fdc65-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",Section de Recherches
 tf1plus://tf1/section-de-recherches
-#EXTINF:-1 tvg-id="tf1plus-tf1-riviere-perdue-séries-policières" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-5011fe-c23bc3-86e706-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières",Riviere Perdue
-tf1plus://tf1/riviere-perdue
 #EXTINF:-1 tvg-id="tf1plus-tf1-sullivans-crossing-romance" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-1b7158-597613-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Romance",Sullivans Crossing
 tf1plus://tf1/sullivans-crossing
 #EXTINF:-1 tvg-id="tf1plus-tf1-retour-a-cedar-cove-romance" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-9ef0b4-2dff9e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Romance",Retour A Cedar Cove
@@ -777,6 +771,8 @@ tf1plus://tf1/norskov-dans-le-secret-des-glaces
 tf1plus://tf1/all-her-fault
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-23c6a6-046574-6204a0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Fire Country
 tf1plus://tf1/fire-country
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-temps-est-assassin-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ec31f3-c1d8f9-a3efa9-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Le Temps Est Assassin
 tf1plus://tf1/le-temps-est-assassin
 #EXTINF:-1 tvg-id="tf1plus-tf1-famille-daccueil-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-famille-daccueil-fb9a78-251ded-67e48f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Famille Daccueil
@@ -797,8 +793,6 @@ tf1plus://tf1/olivia-fiction-tf1
 tf1plus://tf1/la-vengeance-aux-yeux-clairs
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-oubliees-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-les-oubliees-6e734a-9c0a18-829978-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Les Oubliees
 tf1plus://tf1/les-oubliees
-#EXTINF:-1 tvg-id="tf1plus-tf1-infidele-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-infidele-saison-2-82a52c-bc8ef3-4f2b1d-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Drames",Infidele
-tf1plus://tf1/infidele
 #EXTINF:-1 tvg-id="tf1plus-tf1-ici-tout-commence-séries-quotidiennes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-0d2bc5-fa4247-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries quotidiennes",Ici Tout Commence
 tf1plus://tf1/ici-tout-commence
 #EXTINF:-1 tvg-id="tf1plus-tf1-demain-nous-appartient-séries-quotidiennes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-3-383bbe-2d5eb0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries quotidiennes",Demain Nous Appartient
@@ -947,6 +941,8 @@ tf1plus://tf1/magnum
 tf1plus://tmc/miss-marple
 #EXTINF:-1 tvg-id="tf1plus-tmc-hercule-poirot-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-hercule-poirot_2025-dee2e8-36289a-d1da52-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Hercule Poirot
 tf1plus://tmc/hercule-poirot
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tf1-esprits-criminels-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-24f61d-976963-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Esprits Criminels
 tf1plus://tf1/esprits-criminels
 #EXTINF:-1 tvg-id="tf1plus-tf1-swat-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-157028-c27b65-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Swat
@@ -975,8 +971,6 @@ tf1plus://tf1/crossfire
 tf1plus://tf1/les-mysteres-de-londres
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-petits-meurtres-dagatha-christie-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-les-petits-meurtres-dagatha-christie-s1_v2-e6a429-1f3af1-9cf048-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Les Petits Meurtres Dagatha Christie
 tf1plus://tf1/les-petits-meurtres-dagatha-christie
-#EXTINF:-1 tvg-id="tf1plus-tf1-cannes-police-criminelle-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait_cannes-police-criminelle-1a002a-670acd-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Cannes Police Criminelle
-tf1plus://tf1/cannes-police-criminelle
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
 tf1plus://tf1/indefendable
 #EXTINF:-1 tvg-id="tf1plus-tf1-jikulumessu-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-b6e1ed-aba12f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Jikulumessu
@@ -1327,6 +1321,8 @@ tf1plus://tf1/clara-sheller
 tf1plus://tf1/un-gars-une-fille-au-pluriel
 #EXTINF:-1 tvg-id="tf1plus-tf1-fire-country-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-23c6a6-046574-6204a0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Fire Country
 tf1plus://tf1/fire-country
+#EXTINF:-1 tvg-id="tf1plus-tf1-tracker-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-001eff-6b3e5e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Tracker
+tf1plus://tf1/tracker
 #EXTINF:-1 tvg-id="tf1plus-tf1-ransom-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/vignette_portrait-409-f98c15-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Ransom
 tf1plus://tf1/ransom
 #EXTINF:-1 tvg-id="tf1plus-tf1-jo-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-vignette-portrait-jo-5f1da9-204787-1c9106-1bd9d6-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Jo
@@ -1363,8 +1359,6 @@ tf1plus://tf1/crossfire
 tf1plus://tf1/most-wanted-criminals
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-rebelle-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-72e3e5-e307a8-9cb995-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Le Rebelle
 tf1plus://tf1/le-rebelle
-#EXTINF:-1 tvg-id="tf1plus-tf1-alerte-cobra-dans-l'action" tvg-logo="https://photos.tf1.fr/217/289/flux-alerte-cobra-vignette_portrait-4ce4bb-29c65e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Dans l'action",Alerte Cobra
-tf1plus://tf1/alerte-cobra
 #EXTINF:-1 tvg-id="tf1plus-tf1-secret-story" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Secret Story
 tf1plus://tf1/secret-story
 #EXTINF:-1 tvg-id="tf1plus-tf1-telefoot" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Telefoot
@@ -1781,6 +1775,10 @@ tf1plus://tf1/croquer-la-pomme-damour
 tf1plus://tf1/le-jardin-des-coups-de-foudre
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-coup-de-foudre-en-heritage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Coup de Foudre En Heritage
 tf1plus://tf1/un-coup-de-foudre-en-heritage
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-piege-de-mon-ex" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Piege de Mon Ex
+tf1plus://tf1/le-piege-de-mon-ex
+#EXTINF:-1 tvg-id="tf1plus-tf1-mon-bebe-kidnappe-par-son-pere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mon Bebe Kidnappe Par Son Pere
+tf1plus://tf1/mon-bebe-kidnappe-par-son-pere
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-surfeur-de-mes-reves" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Surfeur de Mes Reves
 tf1plus://tf1/le-surfeur-de-mes-reves
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-mariage-de-mon-ex-fiance" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Mariage de Mon Ex Fiance
@@ -1793,10 +1791,6 @@ tf1plus://tf1/les-braises-dune-romance
 tf1plus://tf1/le-surfeur-da-cote
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-coup-de-foudre-vertigineux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Coup de Foudre Vertigineux
 tf1plus://tf1/un-coup-de-foudre-vertigineux
-#EXTINF:-1 tvg-id="tf1plus-tf1-lile-aux-mariages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lile Aux Mariages
-tf1plus://tf1/lile-aux-mariages
-#EXTINF:-1 tvg-id="tf1plus-tf1-love-in-the-city" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Love In The City
-tf1plus://tf1/love-in-the-city
 #EXTINF:-1 tvg-id="tf1plus-tf1-5-headed-shark-attack" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",5 Headed Shark Attack
 tf1plus://tf1/5-headed-shark-attack
 #EXTINF:-1 tvg-id="tf1plus-tf1-blackwater-lane" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Blackwater Lane
@@ -1831,20 +1825,20 @@ tf1plus://tf1/un-meurtre-presque-parfait
 tf1plus://tf1/la-part-du-soupcon
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-saint-petersbourg" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Saint Petersbourg
 tf1plus://tf1/coup-de-foudre-a-saint-petersbourg
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-client" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Client
-tf1plus://tf1/le-client
 #EXTINF:-1 tvg-id="tf1plus-tf1-l-emprise" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",L Emprise
 tf1plus://tf1/l-emprise
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-client" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Client
+tf1plus://tf1/le-client
 #EXTINF:-1 tvg-id="tf1plus-tf1-papa-malgre-lui" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Papa Malgre Lui
 tf1plus://tf1/papa-malgre-lui
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-tes-cotes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",A Tes Cotes
 tf1plus://tf1/a-tes-cotes
+#EXTINF:-1 tvg-id="tf1plus-tf1-tout-le-bleu-du-ciel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tout le Bleu du Ciel
+tf1plus://tf1/tout-le-bleu-du-ciel
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre
 tf1plus://tf1/coup-de-foudre
 #EXTINF:-1 tvg-id="tf1plus-tf1-simple" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Simple
 tf1plus://tf1/simple
-#EXTINF:-1 tvg-id="tf1plus-tf1-tout-le-bleu-du-ciel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tout le Bleu du Ciel
-tf1plus://tf1/tout-le-bleu-du-ciel
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-jour-ou-j-ai-brule-mon-coeur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Jour Ou J Ai Brule Mon Coeur
 tf1plus://tf1/le-jour-ou-j-ai-brule-mon-coeur
 #EXTINF:-1 tvg-id="tf1plus-tf1-disparus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Disparus
@@ -1857,14 +1851,14 @@ tf1plus://tf1/le-monde-est-petit
 tf1plus://tf1/trop-jeune-pour-moi
 #EXTINF:-1 tvg-id="tf1plus-tf1-superpapa" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Superpapa
 tf1plus://tf1/superpapa
-#EXTINF:-1 tvg-id="tf1plus-tf1-touchees" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Touchees
-tf1plus://tf1/touchees
-#EXTINF:-1 tvg-id="tf1plus-tf1-on-se-retrouvera" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",On Se Retrouvera
-tf1plus://tf1/on-se-retrouvera
 #EXTINF:-1 tvg-id="tf1plus-tf1-panique-au-grand-magasin" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Panique Au Grand Magasin
 tf1plus://tf1/panique-au-grand-magasin
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-voie-de-laura" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Voie de Laura
-tf1plus://tf1/la-voie-de-laura
+#EXTINF:-1 tvg-id="tf1plus-tf1-service-vole" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Service Vole
+tf1plus://tf1/service-vole
+#EXTINF:-1 tvg-id="tf1plus-tf1-on-se-retrouvera" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",On Se Retrouvera
+tf1plus://tf1/on-se-retrouvera
+#EXTINF:-1 tvg-id="tf1plus-tf1-tu-vivras-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tu Vivras Ma Fille
+tf1plus://tf1/tu-vivras-ma-fille
 #EXTINF:-1 tvg-id="tf1plus-tf1-coup-de-foudre-a-big-mountain" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Coup de Foudre A Big Mountain
 tf1plus://tf1/coup-de-foudre-a-big-mountain
 #EXTINF:-1 tvg-id="tf1plus-tf1-amoureux-malgre-eux" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Amoureux Malgre Eux
@@ -1947,30 +1941,30 @@ tf1plus://tf1/amy-thompson-le-combat-dune-mere
 tf1plus://tf1/les-secrets-de-la-famille-murdaugh
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-rose-pour-sa-tombe-lhistoire-vraie-de-cynthia-baumgartner" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Rose Pour Sa Tombe Lhistoire Vraie de Cynthia Baumgartner
 tf1plus://tf1/une-rose-pour-sa-tombe-lhistoire-vraie-de-cynthia-baumgartner
-#EXTINF:-1 tvg-id="tf1plus-tf1-chirurgie-mortelle-lhistoire-vraie-de-martin-macneill" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chirurgie Mortelle Lhistoire Vraie de Martin Macneill
-tf1plus://tf1/chirurgie-mortelle-lhistoire-vraie-de-martin-macneill
 #EXTINF:-1 tvg-id="tf1plus-tf1-quest-il-arrive-a-cari-farver" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Quest Il Arrive A Cari Farver
 tf1plus://tf1/quest-il-arrive-a-cari-farver
+#EXTINF:-1 tvg-id="tf1plus-tf1-chirurgie-mortelle-lhistoire-vraie-de-martin-macneill" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chirurgie Mortelle Lhistoire Vraie de Martin Macneill
+tf1plus://tf1/chirurgie-mortelle-lhistoire-vraie-de-martin-macneill
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tueuse-a-la-valise-lhistoire-vraie-de-melanie-mcguire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Tueuse A la Valise Lhistoire Vraie de Melanie Mcguire
+tf1plus://tf1/la-tueuse-a-la-valise-lhistoire-vraie-de-melanie-mcguire
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-petite-fille-a-la-fenetre" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Petite Fille A la Fenetre
 tf1plus://tf1/la-petite-fille-a-la-fenetre
 #EXTINF:-1 tvg-id="tf1plus-tf1-noyee-dans-ses-mensonges-lhistoire-vraie-de-sherri-papini" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Noyee Dans Ses Mensonges Lhistoire Vraie de Sherri Papini
 tf1plus://tf1/noyee-dans-ses-mensonges-lhistoire-vraie-de-sherri-papini
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-tueuse-a-la-valise-lhistoire-vraie-de-melanie-mcguire" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Tueuse A la Valise Lhistoire Vraie de Melanie Mcguire
-tf1plus://tf1/la-tueuse-a-la-valise-lhistoire-vraie-de-melanie-mcguire
-#EXTINF:-1 tvg-id="tf1plus-tf1-sous-les-coups-de-mon-mari-laffaire-lorena-bobbitt" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sous les Coups de Mon Mari Laffaire Lorena Bobbitt
-tf1plus://tf1/sous-les-coups-de-mon-mari-laffaire-lorena-bobbitt
 #EXTINF:-1 tvg-id="tf1plus-tf1-tu-ne-me-voleras-pas-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tu Ne Me Voleras Pas Ma Fille
 tf1plus://tf1/tu-ne-me-voleras-pas-ma-fille
+#EXTINF:-1 tvg-id="tf1plus-tf1-sous-les-coups-de-mon-mari-laffaire-lorena-bobbitt" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sous les Coups de Mon Mari Laffaire Lorena Bobbitt
+tf1plus://tf1/sous-les-coups-de-mon-mari-laffaire-lorena-bobbitt
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-bachelor-meurtrier" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Bachelor Meurtrier
 tf1plus://tf1/le-bachelor-meurtrier
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-7-femmes-de-mon-mari" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les 7 Femmes de Mon Mari
 tf1plus://tf1/les-7-femmes-de-mon-mari
 #EXTINF:-1 tvg-id="tf1plus-tf1-lyceenne-parfaite-pour-crime-parfait" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lyceenne Parfaite Pour Crime Parfait
 tf1plus://tf1/lyceenne-parfaite-pour-crime-parfait
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-reines-malefiques-du-lycee" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reines Malefiques du Lycee
+tf1plus://tf1/les-reines-malefiques-du-lycee
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-folie-dune-mere-lhistoire-vraie-de-debora-green" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Folie Dune Mere Lhistoire Vraie de Debora Green
 tf1plus://tf1/la-folie-dune-mere-lhistoire-vraie-de-debora-green
-#EXTINF:-1 tvg-id="tf1plus-tf1-ma-mere-mon-enfer" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Mere Mon Enfer
-tf1plus://tf1/ma-mere-mon-enfer
 #EXTINF:-1 tvg-id="tf1plus-tf1-priez-pour-la-mariee" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Priez Pour la Mariee
 tf1plus://tf1/priez-pour-la-mariee
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-nouvelle-femme-de-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Nouvelle Femme de Menage
@@ -2037,20 +2031,22 @@ tf1plus://tf1/lhomme-qui-ma-brise
 tf1plus://tf1/petits-secrets-entre-amies
 #EXTINF:-1 tvg-id="tf1plus-tf1-locked-up" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Locked Up
 tf1plus://tf1/locked-up
+#EXTINF:-1 tvg-id="tf1plus-tf1-ma-mere-mon-enfer" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Mere Mon Enfer
+tf1plus://tf1/ma-mere-mon-enfer
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-jeune-fille-qui-criait-au-loup" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Jeune Fille Qui Criait Au Loup
 tf1plus://tf1/la-jeune-fille-qui-criait-au-loup
 #EXTINF:-1 tvg-id="tf1plus-tf1-meurtre-arnaques-et-video-sexy" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Meurtre Arnaques et Video Sexy
 tf1plus://tf1/meurtre-arnaques-et-video-sexy
-#EXTINF:-1 tvg-id="tf1plus-tf1-liaison-fatale-laffaire-clive-cassel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Liaison Fatale Laffaire Clive Cassel
-tf1plus://tf1/liaison-fatale-laffaire-clive-cassel
+#EXTINF:-1 tvg-id="tf1plus-tf1-alliees-contre-notre-harceleur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alliees Contre Notre Harceleur
+tf1plus://tf1/alliees-contre-notre-harceleur
 #EXTINF:-1 tvg-id="tf1plus-tf1-ma-fille-dans-les-bras-dun-tueur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Fille Dans les Bras Dun Tueur
 tf1plus://tf1/ma-fille-dans-les-bras-dun-tueur
-#EXTINF:-1 tvg-id="tf1plus-tf1-effroyable-belle-mere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Effroyable Belle Mere
-tf1plus://tf1/effroyable-belle-mere
-#EXTINF:-1 tvg-id="tf1plus-tf1-9-mois-de-mensonges" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",9 Mois de Mensonges
-tf1plus://tf1/9-mois-de-mensonges
-#EXTINF:-1 tvg-id="tf1plus-tf1-plus-jamais-victime" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Plus Jamais Victime
-tf1plus://tf1/plus-jamais-victime
+#EXTINF:-1 tvg-id="tf1plus-tf1-maison-a-vendre-mari-a-voler" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Maison A Vendre Mari A Voler
+tf1plus://tf1/maison-a-vendre-mari-a-voler
+#EXTINF:-1 tvg-id="tf1plus-tf1-bebe-en-danger" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bebe En Danger
+tf1plus://tf1/bebe-en-danger
+#EXTINF:-1 tvg-id="tf1plus-tf1-liaison-fatale-laffaire-clive-cassel" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Liaison Fatale Laffaire Clive Cassel
+tf1plus://tf1/liaison-fatale-laffaire-clive-cassel
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-traque-328" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Traque 328
 tf1plus://tf1/la-traque-328
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-combat-final" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Combat Final
@@ -2435,8 +2431,6 @@ tf1plus://tf1/la-cadillac-de-dolan
 tf1plus://tf1/les-peches-de-mon-mari
 #EXTINF:-1 tvg-id="tf1plus-tf1-dans-la-peau-dun-tueur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Dans la Peau Dun Tueur
 tf1plus://tf1/dans-la-peau-dun-tueur
-#EXTINF:-1 tvg-id="tf1plus-tf1-alliees-contre-notre-harceleur" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alliees Contre Notre Harceleur
-tf1plus://tf1/alliees-contre-notre-harceleur
 #EXTINF:-1 tvg-id="tf1plus-tf1-jamais-sans-toi-louna" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jamais Sans Toi Louna
 tf1plus://tf1/jamais-sans-toi-louna
 #EXTINF:-1 tvg-id="tf1plus-tf1-portee-disparue-en-croisiere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Portee Disparue En Croisiere
@@ -2671,12 +2665,12 @@ tf1plus://tf1/aux-animaux-la-guerre
 tf1plus://tmc/martin-weill-les-animaux-et-nous-lamour-vache
 #EXTINF:-1 tvg-id="tf1plus-lci-la-grande-immersion" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Grande Immersion
 tf1plus://lci/la-grande-immersion
+#EXTINF:-1 tvg-id="tf1plus-tf1-touchees" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Touchees
+tf1plus://tf1/touchees
 #EXTINF:-1 tvg-id="tf1plus-tf1-handi-gang" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Handi Gang
 tf1plus://tf1/handi-gang
 #EXTINF:-1 tvg-id="tf1plus-tf1-play4life" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Play4life
 tf1plus://tf1/play4life
-#EXTINF:-1 tvg-id="tf1plus-tf1-tu-vivras-ma-fille" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tu Vivras Ma Fille
-tf1plus://tf1/tu-vivras-ma-fille
 #EXTINF:-1 tvg-id="tf1plus-tf1-lycee-toulouse-lautrec" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lycee Toulouse Lautrec
 tf1plus://tf1/lycee-toulouse-lautrec
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-randonneuses" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Randonneuses
@@ -3715,6 +3709,8 @@ tf1plus://tf1/72-heures
 tf1plus://tf1/72h-pour-survivre
 #EXTINF:-1 tvg-id="tf1plus-tf1-9-ans-de-secrets-smx" tvg-logo="https://photos.tf1.fr/1200/720/9-ans-de-secrets-80361232-1736995827-8af9ba-7844d9-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",9 Ans De Secrets
 tf1plus://tf1/9-ans-de-secrets
+#EXTINF:-1 tvg-id="tf1plus-tf1-9-mois-de-mensonges-smx" tvg-logo="https://photos.tf1.fr/1200/720/9-mois-de-mensonges-43983928-1718892765-72a997-490572-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",9 Mois De Mensonges
+tf1plus://tf1/9-mois-de-mensonges
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-bicyclette-smx" tvg-logo="https://photos.tf1.fr/1200/720/a-bicyclette-61321165-1744735941-d3a4da-762925-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",A Bicyclette
 tf1plus://tf1/a-bicyclette
 #EXTINF:-1 tvg-id="tf1plus-tf1-a-la-merci-de-mon-patron-smx" tvg-logo="https://photos.tf1.fr/1200/720/a-la-merci-de-mon-patron-34152568-1714241507-721cf6-143f75-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",A La Merci De Mon Patron
@@ -3921,8 +3917,6 @@ tf1plus://tf1/beast
 tf1plus://tf1/beatdown
 #EXTINF:-1 tvg-id="tf1plus-tf1-beau-riche-et-mortel-smx" tvg-logo="https://photos.tf1.fr/1200/720/beau-riche-et-mortel-58184981-1711647361-0905b5-85bee9-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Beau Riche Et Mortel
 tf1plus://tf1/beau-riche-et-mortel
-#EXTINF:-1 tvg-id="tf1plus-tf1-bebe-en-danger-smx" tvg-logo="https://photos.tf1.fr/1200/720/bebe-en-danger-25573797-1717018493-e7483e-02e1ec-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Bebe En Danger
-tf1plus://tf1/bebe-en-danger
 #EXTINF:-1 tvg-id="tf1plus-tf1-behemoth-la-creature-du-volcan-smx" tvg-logo="https://photos.tf1.fr/1200/720/behemoth-la-creature-du-volcan-d7b6e5-dd0281-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Behemoth La Creature Du Volcan
 tf1plus://tf1/behemoth-la-creature-du-volcan
 #EXTINF:-1 tvg-id="tf1plus-tf1-belle-belle-belle-smx" tvg-logo="https://photos.tf1.fr/1200/720/belle-belle-belle-belle-belle-belle-partie-2-44202907-1693562601-9aa409-ade550-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Belle Belle Belle
@@ -3991,6 +3985,8 @@ tf1plus://tf1/camping-036
 tf1plus://tf1/camping-2-761
 #EXTINF:-1 tvg-id="tf1plus-tf1-camping-3-094-smx" tvg-logo="https://photos.tf1.fr/1200/720/camping-3-40193592-1751291419-e26209-975d68-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Camping 3
 tf1plus://tf1/camping-3-094
+#EXTINF:-1 tvg-id="tf1plus-tf1-cannes-police-criminelle-smx" tvg-logo="https://photos.tf1.fr/1200/720/cannes-police-criminelle-s01-e05-la-malediction-46203306-1697538104-aae745-7e2eec-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Cannes Police Criminelle
+tf1plus://tf1/cannes-police-criminelle
 #EXTINF:-1 tvg-id="tf1plus-tf1-carjacked-smx" tvg-logo="https://photos.tf1.fr/1200/720/carjacked-094df3-8a668b-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Carjacked
 tf1plus://tf1/carjacked
 #EXTINF:-1 tvg-id="tf1plus-tf1-casey-et-vicky-white-les-amants-fugitifs-smx" tvg-logo="https://photos.tf1.fr/1200/720/casey-and-vicky-white-les-amants-fugitifs-83589525-1754185997-2a929d-980479-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Casey Et Vicky White Les Amants Fugitifs
@@ -4309,6 +4305,8 @@ tf1plus://tf1/echo-logis
 tf1plus://tf1/edition-speciale
 #EXTINF:-1 tvg-id="tf1plus-tf1-effacee-de-ma-propre-vie-smx" tvg-logo="https://photos.tf1.fr/1200/720/effacee-de-ma-propre-vie-139043-191679-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Effacee De Ma Propre Vie
 tf1plus://tf1/effacee-de-ma-propre-vie
+#EXTINF:-1 tvg-id="tf1plus-tf1-effroyable-belle-mere-smx" tvg-logo="https://photos.tf1.fr/1200/720/effroyable-belle-mere-78232323-1706204130-1c18ce-380f00-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Effroyable Belle Mere
+tf1plus://tf1/effroyable-belle-mere
 #EXTINF:-1 tvg-id="tf1plus-tf1-eleve-modele-mensonges-mortels-smx" tvg-logo="https://photos.tf1.fr/1200/720/eleve-modele-mensonges-mortels-31888146-1709437471-f617e2-f7f1cc-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Eleve Modele Mensonges Mortels
 tf1plus://tf1/eleve-modele-mensonges-mortels
 #EXTINF:-1 tvg-id="tf1plus-tf1-eliminators-smx" tvg-logo="https://photos.tf1.fr/1200/720/eliminators-c2f68a-db8756-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Eliminators
@@ -4895,6 +4893,8 @@ tf1plus://tf1/la-vie-scolaire
 tf1plus://tf1/la-vie-secrete-des-enfants
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-ville-du-mensonge-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-ville-du-mensonge-60529e-053f69-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Ville Du Mensonge
 tf1plus://tf1/la-ville-du-mensonge
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-voie-de-laura-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-voie-de-laura-partie-1-dfc4fb-3adfc6-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Voie De Laura
+tf1plus://tf1/la-voie-de-laura
 #EXTINF:-1 tvg-id="tf1plus-tf1-lacademie-des-secrets-smx" tvg-logo="https://photos.tf1.fr/1200/720/lacademie-des-secrets-47515032-1696907297-112fef-e841db-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Lacademie Des Secrets
 tf1plus://tf1/lacademie-des-secrets
 #EXTINF:-1 tvg-id="tf1plus-tf1-laffaire-bruay-en-artois-smx" tvg-logo="https://photos.tf1.fr/1200/720/laffaire-bruay-en-artois-43363013-1743616495-eebbe2-be9363-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Laffaire Bruay En Artois
@@ -5093,8 +5093,6 @@ tf1plus://tf1/le-pari-579
 tf1plus://tf1/le-passager
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-pensionnat-de-la-honte-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-8f55de-c158c1-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Pensionnat De La Honte
 tf1plus://tf1/le-pensionnat-de-la-honte
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-piege-de-mon-ex-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-piege-de-mon-ex-57836831-1710619360-9a8aac-8b0028-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Piege De Mon Ex
-tf1plus://tf1/le-piege-de-mon-ex
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-pire-cauchemar-dune-mere-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-pire-cauchemar-dune-mere-04809466-1747193570-0bfcd5-be085a-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Pire Cauchemar Dune Mere
 tf1plus://tf1/le-pire-cauchemar-dune-mere
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-plan-cruel-de-ma-jumelle-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-plan-cruel-de-ma-jumelle-07680353-1718892537-1c2fed-6a4e7e-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Plan Cruel De Ma Jumelle
@@ -5275,8 +5273,6 @@ tf1plus://tf1/les-orphelins-796
 tf1plus://tf1/les-quatre-cavaliers-de-lapocalypse
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-rebelles-de-pt-218-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-rebelles-de-pt-218-13c254-ca45ee-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Les Rebelles De Pt
 tf1plus://tf1/les-rebelles-de-pt-218
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-reines-malefiques-du-lycee-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-reines-malefiques-du-lycee-58153497-1741921426-5539db-3b0d17-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Les Reines Malefiques Du Lycee
-tf1plus://tf1/les-reines-malefiques-du-lycee
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-michel-scott-smx" tvg-logo="https://photos.tf1.fr/1200/720/vignette-16-9-logement-efb314-e2a5e1-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Les Reportages De Michel Scott
 tf1plus://tf1/les-reportages-de-michel-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-revoltes-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-revoltes-36881741-1755295648-057e6d-a190ed-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Les Revoltes
@@ -5379,6 +5375,8 @@ tf1plus://tf1/liberte-sauvage
 tf1plus://tf1/lies-pour-la-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-life-like-smx" tvg-logo="https://photos.tf1.fr/1200/720/life-like-c08fa3-d9d5fe-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Life Like
 tf1plus://tf1/life-like
+#EXTINF:-1 tvg-id="tf1plus-tf1-lile-aux-mariages-smx" tvg-logo="https://photos.tf1.fr/1200/720/lile-aux-mariages-48364769-1709809092-080329-2dadf5-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Lile Aux Mariages
+tf1plus://tf1/lile-aux-mariages
 #EXTINF:-1 tvg-id="tf1plus-tf1-lile-aux-secrets-smx" tvg-logo="https://photos.tf1.fr/1200/720/lile-aux-secrets-60128166-1697182585-f8f804-ab058c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Lile Aux Secrets
 tf1plus://tf1/lile-aux-secrets
 #EXTINF:-1 tvg-id="tf1plus-tf1-limmortel-smx" tvg-logo="https://photos.tf1.fr/1200/720/limmortel-65052580-1759687826-ba0261-3ba67d-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Limmortel
@@ -5415,6 +5413,8 @@ tf1plus://tf1/lost-in-translation
 tf1plus://tf1/louis-e-480
 #EXTINF:-1 tvg-id="tf1plus-tf1-love-coach-malgre-moi-smx" tvg-logo="https://photos.tf1.fr/1200/720/love-coach-malgre-moi-51319893-1718201131-c18b5c-db6463-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Love Coach Malgre Moi
 tf1plus://tf1/love-coach-malgre-moi
+#EXTINF:-1 tvg-id="tf1plus-tf1-love-in-the-city-smx" tvg-logo="https://photos.tf1.fr/1200/720/love-in-the-city-79691601-1706210077-0a149b-b0aa47-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Love In The City
+tf1plus://tf1/love-in-the-city
 #EXTINF:-1 tvg-id="tf1plus-tf1-lucy-smx" tvg-logo="https://photos.tf1.fr/1200/720/lucy-22529418-1759947709-77ba00-db13ea-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Lucy
 tf1plus://tf1/lucy
 #EXTINF:-1 tvg-id="tf1plus-tf1-luxe-paillettes-et-indecence-smx" tvg-logo="https://photos.tf1.fr/1200/720/luxe-paillettes-et-indecence-93253881-1716367469-d40399-fc2d5a-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Luxe Paillettes Et Indecence
@@ -5467,8 +5467,6 @@ tf1plus://tf1/magic-city
 tf1plus://tf1/main-courante
 #EXTINF:-1 tvg-id="tf1plus-tf1-mais-ou-est-donc-passee-la-septieme-compagnie-521-smx" tvg-logo="https://photos.tf1.fr/1200/720/mais-ou-est-donc-passee-la-7eme-compagnie-56506211-1755022670-12014c-25d67d-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Mais Ou Est Donc Passee La Septieme Compagnie
 tf1plus://tf1/mais-ou-est-donc-passee-la-septieme-compagnie-521
-#EXTINF:-1 tvg-id="tf1plus-tf1-maison-a-vendre-mari-a-voler-smx" tvg-logo="https://photos.tf1.fr/1200/720/maison-a-vendre-mari-a-voler-08634235-1716918502-f5fbb5-40bfc9-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Maison A Vendre Mari A Voler
-tf1plus://tf1/maison-a-vendre-mari-a-voler
 #EXTINF:-1 tvg-id="tf1plus-tf1-maisons-de-famille-entre-bonheur-et-galeres-smx" tvg-logo="https://photos.tf1.fr/1200/720/maisons-de-famille-entre-bonheur-et-galeres-decouvrez-les-1eres-minutes-4ac4b8-86828c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Maisons De Famille Entre Bonheur Et Galeres
 tf1plus://tf1/maisons-de-famille-entre-bonheur-et-galeres
 #EXTINF:-1 tvg-id="tf1plus-tf1-maldonne-smx" tvg-logo="https://photos.tf1.fr/1200/720/maldonne-33378269-1743613932-405075-59aed2-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Maldonne
@@ -5647,8 +5645,6 @@ tf1plus://tf1/mon-beau-pere-et-moi-745
 tf1plus://tf1/mon-beau-pere-et-nous-352
 #EXTINF:-1 tvg-id="tf1plus-tf1-mon-beau-pere-mes-parents-et-moi-017-smx" tvg-logo="https://photos.tf1.fr/1200/720/mon-beau-pere-mes-parents-et-moi-88619543-1760207435-8fcaa7-297406-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Mon Beau Pere Mes Parents Et Moi
 tf1plus://tf1/mon-beau-pere-mes-parents-et-moi-017
-#EXTINF:-1 tvg-id="tf1plus-tf1-mon-bebe-kidnappe-par-son-pere-smx" tvg-logo="https://photos.tf1.fr/1200/720/mon-bebe-kidnappe-par-son-pere-87656240-1716367720-d033e8-059414-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Mon Bebe Kidnappe Par Son Pere
-tf1plus://tf1/mon-bebe-kidnappe-par-son-pere
 #EXTINF:-1 tvg-id="tf1plus-tf1-mon-double-malefique-smx" tvg-logo="https://photos.tf1.fr/1200/720/mon-double-malefique-07250703-1718475704-09c48c-c725e2-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Mon Double Malefique
 tf1plus://tf1/mon-double-malefique
 #EXTINF:-1 tvg-id="tf1plus-tf1-mon-fiance-est-un-escort-smx" tvg-logo="https://photos.tf1.fr/1200/720/mon-fiance-est-un-escort-75537246-1747360210-1d1b45-35b8c8-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Mon Fiance Est Un Escort
@@ -5837,6 +5833,8 @@ tf1plus://tf1/planet-dune
 tf1plus://tf1/planetquake
 #EXTINF:-1 tvg-id="tf1plus-tf1-playback-smx" tvg-logo="https://photos.tf1.fr/1200/720/playback-61204389-1759598025-340fcb-89c005-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Playback
 tf1plus://tf1/playback
+#EXTINF:-1 tvg-id="tf1plus-tf1-plus-jamais-victime-smx" tvg-logo="https://photos.tf1.fr/1200/720/plus-jamais-victime-66810503-1708539479-4bc10d-ba18cf-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Plus Jamais Victime
+tf1plus://tf1/plus-jamais-victime
 #EXTINF:-1 tvg-id="tf1plus-tf1-pourris-gates-625-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-91c367-1412b6-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Pourris Gates
 tf1plus://tf1/pourris-gates-625
 #EXTINF:-1 tvg-id="tf1plus-tf1-presque-legal-258-smx" tvg-logo="https://photos.tf1.fr/1200/720/presque-legal-80970521-1755281255-f17f27-be9935-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Presque Legal
@@ -6039,8 +6037,6 @@ tf1plus://tf1/separee-de-ma-fille-a-la-naissance
 tf1plus://tf1/separee-de-ma-jumelle-a-la-naissance
 #EXTINF:-1 tvg-id="tf1plus-tf1-serment-mortel-sur-le-campus-smx" tvg-logo="https://photos.tf1.fr/1200/720/serment-mortel-sur-le-campus-76062770-1707106140-49f053-91c1c1-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Serment Mortel Sur Le Campus
 tf1plus://tf1/serment-mortel-sur-le-campus
-#EXTINF:-1 tvg-id="tf1plus-tf1-service-vole-smx" tvg-logo="https://photos.tf1.fr/1200/720/service-vole-07811217-1694443306-f56d43-a7c0a6-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Service Vole
-tf1plus://tf1/service-vole
 #EXTINF:-1 tvg-id="tf1plus-tf1-shamed-la-liste-de-la-honte-smx" tvg-logo="https://photos.tf1.fr/1200/720/shamed-la-liste-de-la-honte-1-f47e6d-2a9077-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Shamed La Liste De La Honte
 tf1plus://tf1/shamed-la-liste-de-la-honte
 #EXTINF:-1 tvg-id="tf1plus-tf1-should-we-kiss-first-smx" tvg-logo="https://photos.tf1.fr/1200/720/should-849798-4cc906-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Should We Kiss First
