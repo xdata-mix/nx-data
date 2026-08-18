@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="TF1.fr" epg-s="192" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_color.png?h=100" tvg-country="FR" group-title="TNT France",TF1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/MRofw31HuYxC/kqiQ8DbLThEOWFNv.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/j9XbpKepS7dU/gXBuyULs6jrJZ3.m3u8
 #EXTINF:-1 tvg-id="France2.fr@SD" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/France_2_color.png?h=100" group-title="TNT France",France 2
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="France3.fr" epg-s="80" tvg-logo="https://i.imgur.com/PWbIICf.png" tvg-country="FR" group-title="TNT France",France 3 
@@ -25,7 +25,7 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-shor
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m4QdWvGDYZRL/dsH88uhdvVDbFAx1.m3u8
 #EXTINF:-1 tvg-chno="11" tvg-id="NT1.fr" epg-s="446" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/TFX_color.png?h=100" tvg-country="FR" group-title="TNT France",TFX 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/MRofw31HuYxC/yjlYgg7ctN6FAdOf.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/j9XbpKepS7dU/10rYz08lHRtc7XEs.m3u8
 #EXTINF:-1 tvg-chno="8" tvg-id="LaChaineParlementaire.fr" epg-s="234" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LCP100x100.png?h=100" tvg-country="FR" group-title="TNT France",LCP 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8
@@ -179,7 +179,7 @@ https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-clair-hd.m3u8
 #EXTINF:-1 tvg-chno="15" tvg-id="LCI.fr" epg-s="112" tvg-logo="https://static-cdn.tv.sfr.net/data/logos/tv_services/LCI_color.png?h=100" tvg-country="FR" group-title="Généralistes",LCI 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/MRofw31HuYxC/L9tKQYf417YmKxpD.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/j9XbpKepS7dU/DFBluUic54YoXgq5.m3u8
 #EXTINF:-1 tvg-chno="16" tvg-id="FranceInfo.fr" epg-s="2111" tvg-logo="https://i.imgur.com/hwaz7xG.png" tvg-country="FR" group-title="Généralistes",France Info 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 http://185.160.192.14/live/171348492752/5S6HGsea3j/136866.m3u8
@@ -205,7 +205,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/figaro/tv.m3u8
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8
 #EXTINF:-1 tvg-chno="115" tvg-logo="https://i.imgur.com/KQmIjgs.png" tvg-country="FR" group-title="Généralistes",FRANCE TV DOCS 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/docs.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/documentaire.m3u8
 #EXTINF:-1 tvg-chno="116" tvg-logo="https://i.imgur.com/ESz1gbr.png" tvg-country="FR" group-title="Généralistes",FRANCE TV SÉRIES 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/series.m3u8
@@ -2384,7 +2384,7 @@ https://jmp2.uk/stvp-FRBD4100001DF
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD3900005MB_20250805T005519SQUARE.png" group-title="Samsung TV+ - Tele realite",Le Meilleur de la TV Realite
 https://jmp2.uk/stvp-FRBD3900005MB
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ38000050Z_20241015T042517SQUARE.png" group-title="Samsung TV+ - Tele realite",MTV Catfish
-https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRAJ38000050Z
+https://jmp2.uk/stvp-FRAJ38000050Z
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD41000097I_20251209T004435SQUARE.png" group-title="Samsung TV+ - Divertissement",RMC Story
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBD41000097I
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100008QS_20260407T040126SQUARE.png" group-title="Samsung TV+ - Divertissement",RMC Decouverte
@@ -2408,7 +2408,7 @@ https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBB490000412
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3600002W2_20241106T142619SQUARE.png" group-title="Samsung TV+ - Divertissement",Familles en Scene
 https://jmp2.uk/stvp-FR3600002W2
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC900003KP_20250923T010349SQUARE.png" group-title="Samsung TV+ - Divertissement",Y'a que la verite qui compte
-https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBC900003KP
+https://jmp2.uk/stvp-FRBC900003KP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900006NA_20241015T040338SQUARE.png" group-title="Samsung TV+ - Divertissement",Le meilleur d'Arthur
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBD1900006NA
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD300000170_20241030T154345SQUARE.png" group-title="Samsung TV+ - Divertissement",Ardivision
@@ -2416,7 +2416,7 @@ https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBD300000170
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100002R7_20241015T042758SQUARE.png" group-title="Samsung TV+ - Divertissement",Popcorn
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRBD4100002R7
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3600003DS_20260127T040232SQUARE.png" group-title="Samsung TV+ - Divertissement",100% Comedy
-https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FR3600003DS
+https://jmp2.uk/stvp-FR3600003DS
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3800005NP_20251111T012043SQUARE.png" group-title="Samsung TV+ - Divertissement",Dhar Mann TV
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FR3800005NP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300035UK_20250923T010337SQUARE.png" group-title="Samsung TV+ - Divertissement",Juste Pour Rire
@@ -2506,7 +2506,7 @@ https://jmp2.uk/stvp-FRBB49000033R
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD43000016D_20250715T004340SQUARE.png" group-title="Samsung TV+ - Crime",Love Crime & History
 https://jmp2.uk/stvp-FRBD43000016D
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ38000089S_20241015T042551SQUARE.png" group-title="Samsung TV+ - Crime",Pluto TV Polar
-https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FRAJ38000089S
+https://jmp2.uk/stvp-FRAJ38000089S
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2600009UG_20241126T043134SQUARE.png" group-title="Samsung TV+ - Crime",Crime - Rakuten TV
 https://d90oj9d2.html.bet/?https://jmp2.uk/stvp-FR2600009UG
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR300032ZK_20250304T015622SQUARE.png" group-title="Samsung TV+ - Crime",IntoCrime
