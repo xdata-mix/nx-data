@@ -1079,6 +1079,8 @@ francetv://program/france-4_basique-les-sessions
 francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
+#EXTINF:-1 tvg-id="francetv-1f0eed3b-551a-4893-83ab-397f16d46612" tvg-logo="https://medias.france.tv/7xhMJtmjPD2n4ufzSUgym0A8OJ8/400x0/filters:quality(85)/d/k/s/phpumxskd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Groupe A - Match 3 : Allemagne vs France
+francetv://1f0eed3b-551a-4893-83ab-397f16d46612
 #EXTINF:-1 tvg-id="francetv-94fbe804-9b30-11f1-ae5f-57a09c50f7ce" tvg-logo="https://medias.france.tv/x6xCMDY_gleHmE8QTg2ew1cu4lM/400x0/filters:quality(85)/b/i/b/phpti6bib.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cécifoot : Toussaint Akpweh, le mentor des Bleus
 francetv://94fbe804-9b30-11f1-ae5f-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-becacccc-7c3e-46fa-997d-4d4af04f7a6f" tvg-logo="https://medias.france.tv/q0dNDiFDbVTilTQvqE_0jbRc8EI/400x0/filters:quality(85)/b/r/j/phpsqdjrb.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",À corps perdus
@@ -3869,34 +3871,24 @@ francetv://program/franceinfo_le-16h-18h
 francetv://program/franceinfo_le-pour-et-le-contre
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_le-23h" tvg-logo="https://medias.france.tv/3eJSMRC952PL26Da9PnULNuzABA/400x0/filters:quality(85)/x/q/r/phpxhnrqx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - L'info en continu",Le 23h
 francetv://program/franceinfo_le-23h
-#EXTINF:-1 tvg-id="francetv-63e24c6a-774e-4a57-b7d5-36abccdecf30" tvg-logo="https://medias.france.tv/w5nqCg7m2keT3Hlrs97q8NSV2ck/400x0/filters:quality(85)/i/d/a/phpxcuadi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le 55e festival interceltique de Lorient - Le grand spectacle
-francetv://63e24c6a-774e-4a57-b7d5-36abccdecf30
 #EXTINF:-1 tvg-id="francetv-09432aa8-2f82-4ee2-8fe3-ce501626f90f" tvg-logo="https://medias.france.tv/ryWbcK9_HA5USyeYS-5ZaHb4_uU/400x0/filters:quality(85)/k/g/m/phpfoimgk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Emporte la nuit avec Camille Yembe
 francetv://09432aa8-2f82-4ee2-8fe3-ce501626f90f
-#EXTINF:-1 tvg-id="francetv-78220553-105f-48fd-9f1f-25a6101651aa" tvg-logo="https://medias.france.tv/WKZFISRzLHYd_M72l1BG1Y6gQ2k/400x0/filters:quality(85)/b/g/r/phpswurgb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le Pockemon Crew : #Hashtag Déclic à La Fenice
-francetv://78220553-105f-48fd-9f1f-25a6101651aa
-#EXTINF:-1 tvg-id="francetv-f3cb4a51-8c30-428f-818f-918da235847a" tvg-logo="https://medias.france.tv/kXnhZy69BcO4LI3PuAVlgo4QZpI/400x0/filters:quality(85)/c/4/7/54a277fea583456ba5a5f2f76128674c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Brême, 1974
-francetv://f3cb4a51-8c30-428f-818f-918da235847a
+#EXTINF:-1 tvg-id="francetv-63e24c6a-774e-4a57-b7d5-36abccdecf30" tvg-logo="https://medias.france.tv/w5nqCg7m2keT3Hlrs97q8NSV2ck/400x0/filters:quality(85)/i/d/a/phpxcuadi.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le 55e festival interceltique de Lorient - Le grand spectacle
+francetv://63e24c6a-774e-4a57-b7d5-36abccdecf30
 #EXTINF:-1 tvg-id="francetv-59c98528-2e01-47b8-a759-572e5514e2c3" tvg-logo="https://medias.france.tv/E5NqCkavu6J4CGgUd9OJ-gsEPow/400x0/filters:quality(85)/b/c/k/phpqaokcb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Le gala de l'humour - juste pour rire
 francetv://59c98528-2e01-47b8-a759-572e5514e2c3
 #EXTINF:-1 tvg-id="francetv-20d33f8b-8632-4b66-a550-dd12e6092bd9" tvg-logo="https://medias.france.tv/MTnuTzi5Mwi-TuGQvvSOAEpLovE/400x0/filters:quality(85)/e/f/8/977415e316ec4f7f865cae962d15a8fe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Twenty One Pilots
 francetv://20d33f8b-8632-4b66-a550-dd12e6092bd9
 #EXTINF:-1 tvg-id="francetv-071dac4e-96e7-4886-9a44-8129cad53d01" tvg-logo="https://medias.france.tv/8jGyC1AFZq-QVANYU7Zmu3nIiHw/400x0/filters:quality(85)/5/x/y/phpzawyx5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Zaz aux Francofolies de la Rochelle
 francetv://071dac4e-96e7-4886-9a44-8129cad53d01
+#EXTINF:-1 tvg-id="francetv-26328ccb-c670-45ff-bb80-1a6707708ad0" tvg-logo="https://medias.france.tv/OAfylrqvITIEIyxlt3dbweNdKfo/400x0/filters:quality(85)/d/i/l/phpwk7lid.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Sophye Soliveau - "Initiation" au Bozar de Bruxelles
+francetv://26328ccb-c670-45ff-bb80-1a6707708ad0
 #EXTINF:-1 tvg-id="francetv-3f700b20-abc8-4184-949d-d2a5dec02fa0" tvg-logo="https://medias.france.tv/HhZjYmgQ88oO3UbebDabRfgbqN8/400x0/filters:quality(85)/3/4/d/5355dff004ea409b90c8045636ad0d43.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Asaf Avidan
 francetv://3f700b20-abc8-4184-949d-d2a5dec02fa0
 #EXTINF:-1 tvg-id="francetv-c29cfbbb-500c-4e0d-9ae6-7c3ac268815c" tvg-logo="https://medias.france.tv/Fnd8qmOuV6zXyMn-NNUpLCrWKY8/400x0/filters:quality(85)/0/f/c/bbe6efd9e78f44139ab8c52c47c3acf0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Dua Lipa - Le futur de la pop
 francetv://c29cfbbb-500c-4e0d-9ae6-7c3ac268815c
-#EXTINF:-1 tvg-id="francetv-a66b2fe2-8f8d-4068-9b02-dcbc86b794c0" tvg-logo="https://medias.france.tv/e9KDHCoE8_gLqFHnW0pBbEhuFKo/400x0/filters:quality(85)/f/o/m/phpzklmof.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Riviera 76, le Woodstock oublié
-francetv://a66b2fe2-8f8d-4068-9b02-dcbc86b794c0
 #EXTINF:-1 tvg-id="francetv-97a7c0be-94e0-40da-9281-c70b6d787a21" tvg-logo="https://medias.france.tv/gQzyd02fyGPZF_8jj0MEcxvjwhY/400x0/filters:quality(85)/u/6/w/phpvecw6u.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Francofolies de La Rochelle — Le meilleur des Francofolies
 francetv://97a7c0be-94e0-40da-9281-c70b6d787a21
-#EXTINF:-1 tvg-id="francetv-52f32bae-06ed-42b6-8446-2a8a9f975580" tvg-logo="https://medias.france.tv/6Q0yQ_0im7M1x5WPOhv4uaRcysA/400x0/filters:quality(85)/3/c/d/b210eb4cd92649288b96ad629e3c5dc3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Chimère
-francetv://52f32bae-06ed-42b6-8446-2a8a9f975580
-#EXTINF:-1 tvg-id="francetv-3794a458-5db3-4822-809a-be36a01133e4" tvg-logo="https://medias.france.tv/vHG2yKaILUhGP6ImazrKZDPigEo/400x0/filters:quality(85)/y/h/c/phpaphchy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",1,2,3 Poquelin
-francetv://3794a458-5db3-4822-809a-be36a01133e4
-#EXTINF:-1 tvg-id="francetv-5c29e355-3873-4fac-b822-ab1d2314dd3b" tvg-logo="https://medias.france.tv/nhmmZ4AzxQ1yezpHmek_5r0b1jo/400x0/filters:quality(85)/e/7/e/phpirke7e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",La Vie parisienne
-francetv://5c29e355-3873-4fac-b822-ab1d2314dd3b
 #EXTINF:-1 tvg-id="francetv-d974671e-bc03-477e-a443-c938b434ed2e" tvg-logo="https://medias.france.tv/sucmjx4N8ObRRAmuQV7SL04fPz4/400x0/filters:quality(85)/5/d/a/85a476a863fa4b7f8a72e8d61a8d9ad5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Yardland Festival — RNBOI
 francetv://d974671e-bc03-477e-a443-c938b434ed2e
 #EXTINF:-1 tvg-id="francetv-fa1f4f6c-f4aa-4bec-9704-16cb9699286c" tvg-logo="https://medias.france.tv/1FLRt5zANlZQRXcO7acPNpNRMfE/400x0/filters:quality(85)/b/b/2/a711a46723724e1f95768acdefb3c2bb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Yardland Festival — Franglish
@@ -4433,6 +4425,8 @@ francetv://program/france-5_la-p-tite-librairie
 francetv://program/tv5-monde_dj-battle-africa
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
+#EXTINF:-1 tvg-id="francetv-1f0eed3b-551a-4893-83ab-397f16d46612" tvg-logo="https://medias.france.tv/7xhMJtmjPD2n4ufzSUgym0A8OJ8/400x0/filters:quality(85)/d/k/s/phpumxskd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Groupe A - Match 3 : Allemagne vs France
+francetv://1f0eed3b-551a-4893-83ab-397f16d46612
 #EXTINF:-1 tvg-id="francetv-94fbe804-9b30-11f1-ae5f-57a09c50f7ce" tvg-logo="https://medias.france.tv/x6xCMDY_gleHmE8QTg2ew1cu4lM/400x0/filters:quality(85)/b/i/b/phpti6bib.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 la quotidienne — Cécifoot : Toussaint Akpweh, le mentor des Bleus
 francetv://94fbe804-9b30-11f1-ae5f-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-becacccc-7c3e-46fa-997d-4d4af04f7a6f" tvg-logo="https://medias.france.tv/q0dNDiFDbVTilTQvqE_0jbRc8EI/400x0/filters:quality(85)/b/r/j/phpsqdjrb.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",À corps perdus
