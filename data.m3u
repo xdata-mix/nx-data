@@ -1997,7 +1997,7 @@ http://145.239.5.177/361/index.m3u8
 #EXTINF:-1 tvg-id="TV2.dz@SD" group-title="Généralistes",TV2 (1080p)
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" group-title="Généralistes",TV5Monde Europe (1080p)
-http://45.14.84.37/tv5monde/index.m3u8
+http://5.180.164.197:8080/TV5MONDE/index.m3u8
 
 # === Ajouts FR multi-sources : Nouveautés FR ===
 #EXTINF:-1 tvg-id="TV5MondeAfrica.fr@SD" group-title="Nouveautés FR",TV5Monde Africa (720p)
@@ -5226,7 +5226,7 @@ http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f5
 #EXTINF:-1 tvg-id="TV5MondeAfrica.fr@SD" group-title="France TV backup",TV5Monde Africa (720p) [iptv-org-fra]
 http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" group-title="France TV backup",TV5Monde Europe (1080p) [iptv-org-fra]
-http://45.14.84.37/tv5monde/index.m3u8
+http://5.180.164.197:8080/TV5MONDE/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Equidia.fr" group-title="France TV backup",ÉQUIDIA [schumijo]
