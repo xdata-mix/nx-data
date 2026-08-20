@@ -3135,10 +3135,20 @@ tf1plus://tf1/supercondriaque
 tf1plus://tfx/il-ne-faut-jurer-de-rien
 #EXTINF:-1 tvg-id="tf1plus-tmc-le-flic-de-belleville-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-905921-ad5692-0f7f25-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Le Flic de Belleville
 tf1plus://tmc/le-flic-de-belleville
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2-456-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-f948c1-16317b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Le Transporteur 2 456
-tf1plus://tf1/le-transporteur-2-456
-#EXTINF:-1 tvg-id="tf1plus-tf1-arthur-et-les-minimoys-423-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-80fcb6-c5e023-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Arthur et les Minimoys 423
-tf1plus://tf1/arthur-et-les-minimoys-423
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-175ec7-557e6f-74f66e-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Le Transporteur 2
+tf1plus://tf1/le-transporteur-2
+#EXTINF:-1 tvg-id="tf1plus-tfx-arthur-et-les-minimoys-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-80fcb6-a4693c-a98d80-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Arthur et les Minimoys
+tf1plus://tfx/arthur-et-les-minimoys
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-tres-tres-grande-classe-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-36475b-a3bf55-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",La Tres Tres Grande Classe
+tf1plus://tf1/la-tres-tres-grande-classe
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-la-monnaie-de-leur-piece-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-eb5e63-cd5f04-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",La Monnaie de Leur Piece
+tf1plus://tf1-series-films/la-monnaie-de-leur-piece
+#EXTINF:-1 tvg-id="tf1plus-tf1-creed-lheritage-de-rocky-balboa-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-211b3e-9647f1-ea5edf-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Creed Lheritage de Rocky Balboa
+tf1plus://tf1/creed-lheritage-de-rocky-balboa
+#EXTINF:-1 tvg-id="tf1plus-tf1-creed-ii-376-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-af557a-c075bb-2b4903-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Creed Ii 376
+tf1plus://tf1/creed-ii-376
+#EXTINF:-1 tvg-id="tf1plus-tf1-creed-3-derniers-jours-pour-voir" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-f9b1b3-1dbe54-cf7802-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Derniers jours pour voir",Creed 3
+tf1plus://tf1/creed-3
 #EXTINF:-1 tvg-id="tf1plus-tmc-christ-off-10-films-à-voir-cette-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-christ-off-fd616b-3a95e1-37250a-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - 10 films à voir cette semaine",Christ Off
 tf1plus://tmc/christ-off
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-reprise-en-main-10-films-à-voir-cette-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-c5a066-5bac64-fea6fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - 10 films à voir cette semaine",Reprise En Main
@@ -3891,6 +3901,8 @@ tf1plus://tf1/arthur-3-la-guerre-des-deux-mondes-805
 tf1plus://tf1/arthur-and-merlin-knights-of-camelot
 #EXTINF:-1 tvg-id="tf1plus-tf1-arthur-et-la-vengeance-de-maltazard-186-smx" tvg-logo="https://photos.tf1.fr/1200/720/arthur_et_la_vengeance_de_maltazard-e0479e-0f3bcf-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Arthur Et La Vengeance De Maltazard
 tf1plus://tf1/arthur-et-la-vengeance-de-maltazard-186
+#EXTINF:-1 tvg-id="tf1plus-tf1-arthur-et-les-minimoys-423-smx" tvg-logo="https://photos.tf1.fr/1200/720/arthur-et-les-minimoys-55619347-1759345412-239505-43e897-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Arthur Et Les Minimoys
+tf1plus://tf1/arthur-et-les-minimoys-423
 #EXTINF:-1 tvg-id="tf1plus-tf1-assassine-au-pied-de-lautel-smx" tvg-logo="https://photos.tf1.fr/1200/720/assassine-au-pied-de-lautel-27de7d-05c09b-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Assassine Au Pied De Lautel
 tf1plus://tf1/assassine-au-pied-de-lautel
 #EXTINF:-1 tvg-id="tf1plus-tf1-assaut-sur-lunite-33-smx" tvg-logo="https://photos.tf1.fr/1200/720/assaut-sur-lunite-33-68337780-1755628201-8972fb-7a6e7a-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Assaut Sur Lunite 33
@@ -5157,6 +5169,8 @@ tf1plus://tf1/le-temps-est-a-lorage
 tf1plus://tf1/le-terrible-secret-de-ma-mere
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-train-du-dernier-espoir-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-train-du-dernier-espoir-628cbd-a706a0-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Train Du Dernier Espoir
 tf1plus://tf1/le-train-du-dernier-espoir
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-2-456-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-transporteur-2-75290873-1759346891-8a6a05-70b505-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Transporteur 2
+tf1plus://tf1/le-transporteur-2-456
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-3-746-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-transporteur-iii-54492381-1754381097-bf4d22-550eef-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Transporteur 3
 tf1plus://tf1/le-transporteur-3-746
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-909-smx" tvg-logo="https://photos.tf1.fr/1200/720/vignette-16-9-2b30a1-a4fe27-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Transporteur
