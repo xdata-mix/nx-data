@@ -141,8 +141,6 @@ francetv://program/france-2_tout-le-monde-veut-prendre-sa-place
 francetv://program/france-2_n-oubliez-pas-les-paroles
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-enfants-de-la-tele" tvg-logo="https://medias.france.tv/3QsAo7ZiJ9NRMERZWm2DwZzOVZ4/400x0/filters:quality(85)/i/v/p/php0kgpvi.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les enfants de la télé
 francetv://program/france-2_les-enfants-de-la-tele
-#EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/7dBYfe3y45asp7ho0iNbAM_FyAY/400x0/filters:quality(85)/f/j/w/phpobgwjf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La Stagiaire
-francetv://program/france-3_la-stagiaire
 #EXTINF:-1 tvg-id="francetv-prog-france-3_l-heure-d" tvg-logo="https://medias.france.tv/HfhAnJ3gpR1FX2hnl1B3ZLzG8sk/400x0/filters:quality(85)/o/k/9/php4fr9ko.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",L'Heure D
 francetv://program/france-3_l-heure-d
 #EXTINF:-1 tvg-id="francetv-prog-france-3_crimes-parfaits" tvg-logo="https://medias.france.tv/X0r-C3jHZKc-aE7StDVtZwnkoIE/400x0/filters:quality(85)/o/7/1/phpyqr17o.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Crimes parfaits
@@ -253,6 +251,8 @@ francetv://program/france-3_le-voyageur
 francetv://program/france-3_face-a-face
 #EXTINF:-1 tvg-id="francetv-prog-france-3_alex-hugo" tvg-logo="https://medias.france.tv/uU_y82Z8ef6z7zChP3m759yBnRs/400x0/filters:quality(85)/l/o/s/phppxysol.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Alex Hugo
 francetv://program/france-3_alex-hugo
+#EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/7dBYfe3y45asp7ho0iNbAM_FyAY/400x0/filters:quality(85)/f/j/w/phpobgwjf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La Stagiaire
+francetv://program/france-3_la-stagiaire
 #EXTINF:-1 tvg-id="francetv-prog-france-3_meurtres-a" tvg-logo="https://medias.france.tv/o3H6Icogqoevrtgq05VNzKZdS8Q/400x0/filters:quality(85)/b/1/r/php29sr1b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Meurtres à...
 francetv://program/france-3_meurtres-a
 #EXTINF:-1 tvg-id="francetv-c73a49ca-65ec-4623-a43f-e8c06519405d" tvg-logo="https://medias.france.tv/eRWsNg6VWSYARvyYwVkj1gVDQZM/400x0/filters:quality(85)/c/o/u/phpgiwuoc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",Mégafeux, un été au combat
@@ -783,6 +783,10 @@ francetv://c84e9c52-6565-11f1-8728-19616fa871f9
 francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 #EXTINF:-1 tvg-id="francetv-07240417-4994-4398-af6b-660126b1fa66" tvg-logo="https://medias.france.tv/_M0f9a8Nw_BR9-4DvaERZL6nVTQ/400x0/filters:quality(85)/c/r/a/phpfl6arc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Hantavirus, la semaine de tous les dangers
 francetv://07240417-4994-4398-af6b-660126b1fa66
+#EXTINF:-1 tvg-id="francetv-6197ef15-a0ff-4457-843a-23ea1b537f26" tvg-logo="https://medias.france.tv/kPltweELPkR4Xyuz2kU6iD-D60Q/400x0/filters:quality(85)/7/9/4/084d051f30e84337b51f2ec8589d3497.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du jeudi 20 août 2026
+francetv://6197ef15-a0ff-4457-843a-23ea1b537f26
+#EXTINF:-1 tvg-id="francetv-e0b120bb-36d6-4ccc-a5af-6ae71438ffb6" tvg-logo="https://medias.france.tv/5hnTOxaVlOwbwtejqr_91Yj_xWw/400x0/filters:quality(85)/2/6/7/e2b429fb99244d18a25846d53b73b762.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
+francetv://e0b120bb-36d6-4ccc-a5af-6ae71438ffb6
 #EXTINF:-1 tvg-id="francetv-b4372bb4-4bb8-4ea5-b4ea-e50da17f18c6" tvg-logo="https://medias.france.tv/0cNNPDLNV1rCis42B5vAAYYFVNk/400x0/filters:quality(85)/a/b/1/5053e0fe88ec46388e275b61f80b81ba.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h — 23h
 francetv://b4372bb4-4bb8-4ea5-b4ea-e50da17f18c6
 #EXTINF:-1 tvg-id="francetv-77ced74d-e6f1-4396-91d4-b89dd4d24cf8" tvg-logo="https://medias.france.tv/_w7nbGt2-n-_WjQvF427N_GG_t0/400x0/filters:quality(85)/a/1/b/9c55a1892e094f2f96c78edc8e761b1a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
@@ -791,6 +795,8 @@ francetv://77ced74d-e6f1-4396-91d4-b89dd4d24cf8
 francetv://99b533c3-18f4-42f7-bc3a-eb227e1931b4
 #EXTINF:-1 tvg-id="francetv-2e12f232-d5e0-456b-8898-c05569e78d6c" tvg-logo="https://medias.france.tv/yveNk_cssG1yp4G6MrwSpmvubvA/400x0/filters:quality(85)/f/4/0/1a3d79aaf1104d008d83106fd7dfe04f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du mardi 18 août 2026
 francetv://2e12f232-d5e0-456b-8898-c05569e78d6c
+#EXTINF:-1 tvg-id="francetv-a907a7ea-432c-40f1-96c7-ffdf972eb370" tvg-logo="https://medias.france.tv/FCRc8eD2UZbuCdGVfRkA7_3MIsg/400x0/filters:quality(85)/c/d/b/f311ab765dee4b96a496372f1c482bdc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du mardi 18 août 2026
+francetv://a907a7ea-432c-40f1-96c7-ffdf972eb370
 #EXTINF:-1 tvg-id="francetv-3c7b16ba-9f31-415d-887c-6a7e311a5c62" tvg-logo="https://medias.france.tv/XK7ZcXNEPFmk_2WwJ18lzc74vp0/400x0/filters:quality(85)/f/8/c/cf84e3098ef54b4b8aab46f1e1163c8f.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
 francetv://3c7b16ba-9f31-415d-887c-6a7e311a5c62
 #EXTINF:-1 tvg-id="francetv-631acdcd-7df2-4a8f-9451-b0659936b0f9" tvg-logo="https://medias.france.tv/PUKA6zIYacx84UnigoY1lXOfo_4/400x0/filters:quality(85)/2/7/f/5037e65c355f42b9a3b9c4ff5dc0ef72.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du lundi 17 août 2026
@@ -817,12 +823,6 @@ francetv://d310e351-47d0-4456-b38a-751106f76a4f
 francetv://acbe21df-f32a-4d5b-90b8-0a2736b200f4
 #EXTINF:-1 tvg-id="francetv-9ac423b2-690a-4160-aa2f-df3b03115550" tvg-logo="https://medias.france.tv/U7-TWfO17RRhFQ9RqcOzo9ZGYkY/400x0/filters:quality(85)/5/4/1/26565da1a8fe4cf49f00d89053503145.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale
 francetv://9ac423b2-690a-4160-aa2f-df3b03115550
-#EXTINF:-1 tvg-id="francetv-a2f4c991-0b91-4ad8-8e52-d927ef5774f3" tvg-logo="https://medias.france.tv/WLY-WE-IMbsXbPml4lE6qpqNKkA/400x0/filters:quality(85)/c/8/3/cd075412a3aa4c8a99115e15034c838c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h info
-francetv://a2f4c991-0b91-4ad8-8e52-d927ef5774f3
-#EXTINF:-1 tvg-id="francetv-7c3a1c8e-96cc-4f57-bcbe-dee525daaf75" tvg-logo="https://medias.france.tv/9YQTHa7DLMr7o-iHq_PBKcOOR3A/400x0/filters:quality(85)/6/e/4/c6805e0d371e4c46a3c819e5b36a24e6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — Emission du 11 août 2026
-francetv://7c3a1c8e-96cc-4f57-bcbe-dee525daaf75
-#EXTINF:-1 tvg-id="francetv-e8be806f-663a-4203-b9e9-a1c2ad915819" tvg-logo="https://medias.france.tv/PvNWFa8RqRo7xr0xbZHSrWP3_ck/400x0/filters:quality(85)/a/4/b/1a9c34505c35444daab96397d9079b4a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h info
-francetv://e8be806f-663a-4203-b9e9-a1c2ad915819
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -4677,8 +4677,8 @@ francetv://f2f00731-7936-4fdc-970b-ee0e42410cce
 francetv://program/arte_monaco-la-grande-histoire-d-un-micro-etat
 #EXTINF:-1 tvg-id="francetv-17d55299-bc6e-493e-962d-5bebf6fc0cf0" tvg-logo="https://medias.france.tv/R3n04FIL9bv3hEwvcM13Xk07TqE/400x0/filters:quality(85)/4/5/p/phprqtp54.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Échappées belles — Tarn, fascinante découverte
 francetv://17d55299-bc6e-493e-962d-5bebf6fc0cf0
-#EXTINF:-1 tvg-id="francetv-8534071b-07c8-4bad-a960-6c3c0b2b344f" tvg-logo="https://medias.france.tv/gVSZjsB1riC8ILHa5H462nbH8PA/400x0/filters:quality(85)/k/u/2/phpa272uk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Échappées belles — Emilie-Romagne, le goût de l'Italie
-francetv://8534071b-07c8-4bad-a960-6c3c0b2b344f
+#EXTINF:-1 tvg-id="francetv-9083140f-d8ec-56c0-b2a0-ebe023d3eba1" tvg-logo="https://medias.france.tv/gVSZjsB1riC8ILHa5H462nbH8PA/400x0/filters:quality(85)/k/u/2/phpa272uk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Échappées belles — Emilie-Romagne, le goût de l'Italie
+francetv://9083140f-d8ec-56c0-b2a0-ebe023d3eba1
 #EXTINF:-1 tvg-id="francetv-prog-france-5_les-aventuriers-de-l-egypte-antique" tvg-logo="https://medias.france.tv/LEAJU9Fz8XLNHGTwiQqa-XSAq20/400x0/filters:quality(85)/1/i/u/phppxtui1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",Les aventuriers de l'Egypte antique
 francetv://program/france-5_les-aventuriers-de-l-egypte-antique
 #EXTINF:-1 tvg-id="francetv-prog-france-5_j-ai-un-colis-pour-vous" tvg-logo="https://medias.france.tv/q7jbgWLMyVHupWs_eOuOhZY_owE/400x0/filters:quality(85)/s/w/z/phpdp0zws.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Voyages et aventures",J'ai un colis pour vous !
