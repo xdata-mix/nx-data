@@ -30,7 +30,11 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TIMEOUT = 8
 CONCURRENCY = 8
 SKIP_HOSTS = ("185.160.192.14", "off20.lynxcontents.click",
-              "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv")
+              "47.237.205.89", "jmp2.uk", "filegear-sg.me", "pluto.tv",
+              # 2026-08-22 : Multi Live — ce sont des PAGES de lecteur,
+              #   pas des flux. Sans cette protection, le check les declare
+              #   mortes et remplace leur URL.
+              "cartelive.club")
 # 2026-06-16 : live.aab1.top RETIRE de SKIP_HOSTS car ~90% de ses URLs sont
 # mortes (testees 6/60 vivantes). Mais on veut garder M6 (1059) + W9 (1083)
 # pour TNT France. Donc on les protege individuellement via SKIP_URLS.
