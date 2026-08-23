@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="francetv-prog-france-2_le-rouge-et-le-noir" tvg-logo="https://medias.france.tv/uG1pGJa2dHhnjDwbHxz9kVCmHgU/400x0/filters:quality(85)/v/z/1/phpmfs1zv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le Rouge et le Noir
 francetv://program/france-2_le-rouge-et-le-noir
+#EXTINF:-1 tvg-id="francetv-6061509a-e1a8-46ed-b44e-34772c18f525" tvg-logo="https://medias.france.tv/Fwms19hhkq-VrNmn6KBT8IniiQk/400x0/filters:quality(85)/x/l/e/phpweyelx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Comme un prince
+francetv://6061509a-e1a8-46ed-b44e-34772c18f525
 #EXTINF:-1 tvg-id="francetv-f2fea0b1-f499-4085-8506-29208328dedb" tvg-logo="https://medias.france.tv/6a_iq3CZDxTSPnOe1oHwCb2hJQg/400x0/filters:quality(85)/h/u/4/phpu2y4uh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — L'association KCNQ2
 francetv://f2fea0b1-f499-4085-8506-29208328dedb
 #EXTINF:-1 tvg-id="francetv-f0ad08f1-abd2-492c-870e-f5a4fb08953f" tvg-logo="https://medias.france.tv/Kdq9U60-VKLX_jCJdrEFCZ1rIRc/400x0/filters:quality(85)/9/0/b/8548845221c1406eae355cea94e27b09.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Roast, the Wedding of Daphné and Loïc
@@ -1085,10 +1087,10 @@ francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 francetv://5d6c7d1c-9d8e-11f1-9525-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d9ae93e0-9d8b-11f1-875d-19616fa871f9" tvg-logo="https://medias.france.tv/xJLOFJQZovuEF9ODYoCEk7nuIoI/400x0/filters:quality(85)/v/w/n/phpyn9nwv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : Julian Alaphilippe tire sa révérence
 francetv://d9ae93e0-9d8b-11f1-875d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-22be7e2a-9f25-11f1-84b9-957ddefc544d" tvg-logo="https://medias.france.tv/NBYlPC7WbSskxDxnLf-j3aEWi5Q/400x0/filters:quality(85)/e/h/9/php4lr9he.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand format : Laura Pineau, première de cordée
+francetv://22be7e2a-9f25-11f1-84b9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
-#EXTINF:-1 tvg-id="francetv-97ceae57-476e-43f3-a212-4e4b338a11ad" tvg-logo="https://medias.france.tv/QNAup811ysdW3MRT_RUm5Q22GE0/400x0/filters:quality(85)/n/r/9/phpzsi9rn.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",L'esprit Coubertin
-francetv://97ceae57-476e-43f3-a212-4e4b338a11ad
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-e3e3aa9c-9d42-11f1-849d-957ddefc544d" tvg-logo="https://medias.france.tv/ZKrumXdlCC89ZQzQ3CqOPR9SrJo/400x0/filters:quality(85)/3/e/3/9ea4eb7f14884f2e82c6071fda6103e3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",La bande-annonce du Red Bull Bowl Rippers 2026
@@ -2539,6 +2541,8 @@ francetv://program/france-2_laissez-vous-guider
 francetv://program/france-2_13h15-le-samedi
 #EXTINF:-1 tvg-id="francetv-prog-france-2_13h15-le-dimanche" tvg-logo="https://medias.france.tv/s4KJ21fhiSv0T5vQF4pcxxhvgLI/400x0/filters:quality(85)/g/4/s/phpo1ys4g.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Documentaires - Nos émissions",13h15, le dimanche
 francetv://program/france-2_13h15-le-dimanche
+#EXTINF:-1 tvg-id="francetv-6061509a-e1a8-46ed-b44e-34772c18f525" tvg-logo="https://medias.france.tv/Fwms19hhkq-VrNmn6KBT8IniiQk/400x0/filters:quality(85)/x/l/e/phpweyelx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Comme un prince
+francetv://6061509a-e1a8-46ed-b44e-34772c18f525
 #EXTINF:-1 tvg-id="francetv-69eaeaa0-9a1a-458d-bbfc-1056defd6790" tvg-logo="https://medias.france.tv/mFn1nA9gSPmowYTSo2GsR2J7ysI/400x0/filters:quality(85)/5/1/2/b22c39c6bb0044858daf25c8245cc215.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Melancholia
 francetv://69eaeaa0-9a1a-458d-bbfc-1056defd6790
 #EXTINF:-1 tvg-id="francetv-3d1e6226-e615-41a1-a788-28f356b1e2ff" tvg-logo="https://medias.france.tv/QRvR71yXxTduk-IQWPAGkXpEM7s/400x0/filters:quality(85)/f/4/p/phpfwkp4f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Crash Test Aglaé
@@ -2815,6 +2819,8 @@ francetv://159fd246-703e-40f4-9d5f-1148210c255b
 francetv://8833ebf6-7f18-4d32-a6ef-5625ff4cf23d
 #EXTINF:-1 tvg-id="francetv-96dca55e-dc56-4bd4-b8f2-59588a17d074" tvg-logo="https://medias.france.tv/2z1B3jLdXFHdmtbLw_SN4ORJv_8/400x0/filters:quality(85)/8/f/b/d33038e998794e859c46ba74bf8c9bf8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les films d'Arte",La lune s'est levée
 francetv://96dca55e-dc56-4bd4-b8f2-59588a17d074
+#EXTINF:-1 tvg-id="francetv-6061509a-e1a8-46ed-b44e-34772c18f525" tvg-logo="https://medias.france.tv/Fwms19hhkq-VrNmn6KBT8IniiQk/400x0/filters:quality(85)/x/l/e/phpweyelx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Comme un prince
+francetv://6061509a-e1a8-46ed-b44e-34772c18f525
 #EXTINF:-1 tvg-id="francetv-3d1e6226-e615-41a1-a788-28f356b1e2ff" tvg-logo="https://medias.france.tv/QRvR71yXxTduk-IQWPAGkXpEM7s/400x0/filters:quality(85)/f/4/p/phpfwkp4f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Crash Test Aglaé
 francetv://3d1e6226-e615-41a1-a788-28f356b1e2ff
 #EXTINF:-1 tvg-id="francetv-774c4de3-d701-4545-ad50-e3f28c8a2b2b" tvg-logo="https://medias.france.tv/734kam6oFo7Gk9UTweywb-w695A/400x0/filters:quality(85)/j/p/j/phpa4djpj.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Des films pour se détendre",Toni en famille
@@ -4483,10 +4489,10 @@ francetv://33a20612-120a-4e60-bd96-225146e4cf0c
 francetv://5d6c7d1c-9d8e-11f1-9525-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-d9ae93e0-9d8b-11f1-875d-19616fa871f9" tvg-logo="https://medias.france.tv/xJLOFJQZovuEF9ODYoCEk7nuIoI/400x0/filters:quality(85)/v/w/n/phpyn9nwv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 la quotidienne — Cyclisme : Julian Alaphilippe tire sa révérence
 francetv://d9ae93e0-9d8b-11f1-875d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-22be7e2a-9f25-11f1-84b9-957ddefc544d" tvg-logo="https://medias.france.tv/NBYlPC7WbSskxDxnLf-j3aEWi5Q/400x0/filters:quality(85)/e/h/9/php4lr9he.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Grand format : Laura Pineau, première de cordée
+francetv://22be7e2a-9f25-11f1-84b9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
-#EXTINF:-1 tvg-id="francetv-97ceae57-476e-43f3-a212-4e4b338a11ad" tvg-logo="https://medias.france.tv/QNAup811ysdW3MRT_RUm5Q22GE0/400x0/filters:quality(85)/n/r/9/phpzsi9rn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",L'esprit Coubertin
-francetv://97ceae57-476e-43f3-a212-4e4b338a11ad
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
 #EXTINF:-1 tvg-id="francetv-e3e3aa9c-9d42-11f1-849d-957ddefc544d" tvg-logo="https://medias.france.tv/ZKrumXdlCC89ZQzQ3CqOPR9SrJo/400x0/filters:quality(85)/3/e/3/9ea4eb7f14884f2e82c6071fda6103e3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",La bande-annonce du Red Bull Bowl Rippers 2026
