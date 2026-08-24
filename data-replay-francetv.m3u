@@ -789,6 +789,8 @@ francetv://c84e9c52-6565-11f1-8728-19616fa871f9
 francetv://fd0a2511-cc76-43fb-8bb9-845f600167e4
 #EXTINF:-1 tvg-id="francetv-07240417-4994-4398-af6b-660126b1fa66" tvg-logo="https://medias.france.tv/_M0f9a8Nw_BR9-4DvaERZL6nVTQ/400x0/filters:quality(85)/c/r/a/phpfl6arc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Hantavirus, la semaine de tous les dangers
 francetv://07240417-4994-4398-af6b-660126b1fa66
+#EXTINF:-1 tvg-id="francetv-174474ea-28be-4283-b7de-523f39b98182" tvg-logo="https://medias.france.tv/SYGtMxOaIk4Q6ZzEQfcPZY7ohrg/400x0/filters:quality(85)/b/9/b/b148416e5f7f4616b1411b18430edb9b.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h — 23h
+francetv://174474ea-28be-4283-b7de-523f39b98182
 #EXTINF:-1 tvg-id="francetv-8258ab71-6289-4e7f-a41d-665d505c5b04" tvg-logo="https://medias.france.tv/TjkOrcKJcN7I9GHFEFaQco8Z8b8/400x0/filters:quality(85)/3/3/a/2184685db10249d7909457280f6f9a33.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du dimanche 23 août 2026
 francetv://8258ab71-6289-4e7f-a41d-665d505c5b04
 #EXTINF:-1 tvg-id="francetv-d20c1bb6-46f5-40d6-9a6f-fc5131c06d42" tvg-logo="https://medias.france.tv/Afvn25lvZkEZGS2Rt20d2v2nHIg/400x0/filters:quality(85)/8/0/d/6d8012192d874b1f9a45676f4b1e0d08.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",L'invité politique — Émission du dimanche 23 août 2026
@@ -827,8 +829,6 @@ francetv://631acdcd-7df2-4a8f-9451-b0659936b0f9
 francetv://cb7d51d9-b1d0-4584-959d-fa9da924233c
 #EXTINF:-1 tvg-id="francetv-964b82f1-326e-49cb-a7e4-3490927ce03e" tvg-logo="https://medias.france.tv/9tKbVZFJWW_uAgSDuBV1r5xgm1E/400x0/filters:quality(85)/d/b/1/5056fcc118854d8083e4815d7e6081bd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Le 23h — 23h
 francetv://964b82f1-326e-49cb-a7e4-3490927ce03e
-#EXTINF:-1 tvg-id="francetv-e4e17d60-e283-408f-86c4-a31b9a47c6f3" tvg-logo="https://medias.france.tv/jm2Xkw6m-FN82_6wA0YInVPoeek/400x0/filters:quality(85)/9/c/a/d996656fb1754a9bb73a25f3eecc3ac9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",La Matinale Franceinfo — La matinale week-end du dimanche 16 août 2026
-francetv://e4e17d60-e283-408f-86c4-a31b9a47c6f3
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_11-13-info" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",11/13 info
 francetv://program/franceinfo_11-13-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_12-13-info" tvg-logo="https://medias.france.tv/4suFsoieqrYYtVBAey55NsXR7aM/400x0/filters:quality(85)/j/k/e/phpwjhekj.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",12/13 info
@@ -2523,10 +2523,10 @@ francetv://program/france-2_13h15-le-samedi
 francetv://program/france-2_13h15-le-dimanche
 #EXTINF:-1 tvg-id="francetv-6061509a-e1a8-46ed-b44e-34772c18f525" tvg-logo="https://medias.france.tv/Fwms19hhkq-VrNmn6KBT8IniiQk/400x0/filters:quality(85)/x/l/e/phpweyelx.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Comme un prince
 francetv://6061509a-e1a8-46ed-b44e-34772c18f525
-#EXTINF:-1 tvg-id="francetv-69eaeaa0-9a1a-458d-bbfc-1056defd6790" tvg-logo="https://medias.france.tv/mFn1nA9gSPmowYTSo2GsR2J7ysI/400x0/filters:quality(85)/5/1/2/b22c39c6bb0044858daf25c8245cc215.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Melancholia
-francetv://69eaeaa0-9a1a-458d-bbfc-1056defd6790
 #EXTINF:-1 tvg-id="francetv-e0f8bb57-237c-4f16-a2a4-feed682490ea" tvg-logo="https://medias.france.tv/ZR33zrT9RaU87lKrb4TQGUquOiM/400x0/filters:quality(85)/u/v/3/phpwya3vu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Première affaire
 francetv://e0f8bb57-237c-4f16-a2a4-feed682490ea
+#EXTINF:-1 tvg-id="francetv-69eaeaa0-9a1a-458d-bbfc-1056defd6790" tvg-logo="https://medias.france.tv/mFn1nA9gSPmowYTSo2GsR2J7ysI/400x0/filters:quality(85)/5/1/2/b22c39c6bb0044858daf25c8245cc215.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Melancholia
+francetv://69eaeaa0-9a1a-458d-bbfc-1056defd6790
 #EXTINF:-1 tvg-id="francetv-3d1e6226-e615-41a1-a788-28f356b1e2ff" tvg-logo="https://medias.france.tv/QRvR71yXxTduk-IQWPAGkXpEM7s/400x0/filters:quality(85)/f/4/p/phpfwkp4f.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Crash Test Aglaé
 francetv://3d1e6226-e615-41a1-a788-28f356b1e2ff
 #EXTINF:-1 tvg-id="francetv-8d87d2dd-3b9f-497a-9d4d-ec252fc5ac77" tvg-logo="https://medias.france.tv/WfvcSrWrrw67bHCPuucccjzskvw/400x0/filters:quality(85)/v/j/u/phpaiwujv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - La sélection cinéma",Les secrets de la princesse de Cadignan
