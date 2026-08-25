@@ -2625,6 +2625,8 @@ tf1plus://tfx/mamans-et-celebres-fetent-noel
 tf1plus://tmc/les-20-ans-de-la-telerealite
 #EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
 tf1plus://tf1/house-of-ho
+#EXTINF:-1 tvg-id="tf1plus-tf1-ma-mere-ton-pere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Mere Ton Pere
+tf1plus://tf1/ma-mere-ton-pere
 #EXTINF:-1 tvg-id="tf1plus-lci-podcast-guillaume-farde-interieur-crime" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Podcast Guillaume Farde Interieur Crime
 tf1plus://lci/podcast-guillaume-farde-interieur-crime
 #EXTINF:-1 tvg-id="tf1plus-lci-aura" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Aura
@@ -3629,8 +3631,6 @@ tf1plus://lci/le-grand-dossier
 tf1plus://tf1/longs-formats
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-reportages-de-francois-xavier-menage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Reportages de Francois Xavier Menage
 tf1plus://tf1/les-reportages-de-francois-xavier-menage
-#EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",18h Darius Rochebin
-tf1plus://lci/18h-darius-rochebin
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
 #EXTINF:-1 tvg-id="tf1plus-lci-on-ne-plaisante-pas-avec-linfo" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",On Ne Plaisante Pas Avec Linfo
@@ -3641,6 +3641,8 @@ tf1plus://tf1/defile-du-14-juillet
 tf1plus://lci/face-a-darius-rochebin
 #EXTINF:-1 tvg-id="tf1plus-lci-lci-midi" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Lci Midi
 tf1plus://lci/lci-midi
+#EXTINF:-1 tvg-id="tf1plus-lci-22h" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",22h
+tf1plus://lci/22h
 #EXTINF:-1 tvg-id="tf1plus-tmc-martin-weill-comment-trump-a-casse-lamerique" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Martin Weill Comment Trump A Casse Lamerique
 tf1plus://tmc/martin-weill-comment-trump-a-casse-lamerique
 #EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
@@ -3661,12 +3663,12 @@ tf1plus://lci/elections
 tf1plus://lci/objectif-2027
 #EXTINF:-1 tvg-id="tf1plus-lci-brunet-sans-filtre" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Brunet Sans Filtre
 tf1plus://lci/brunet-sans-filtre
-#EXTINF:-1 tvg-id="tf1plus-lci-22h" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",22h
-tf1plus://lci/22h
 #EXTINF:-1 tvg-id="tf1plus-lci-histoires-criminelles" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Histoires Criminelles
 tf1plus://lci/histoires-criminelles
 #EXTINF:-1 tvg-id="tf1plus-lci-lci-direct" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Lci Direct
 tf1plus://lci/lci-direct
+#EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin-smx" tvg-logo="https://photos.tf1.fr/1200/720/18h-darius-rochebin-du-dimanche-9-aout-2026-9d6f78-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - LCI",18h Darius Rochebin
+tf1plus://lci/18h-darius-rochebin
 #EXTINF:-1 tvg-id="tf1plus-lci-18h-yves-calvi-smx" tvg-logo="https://photos.tf1.fr/1200/720/18h-yves-calvi-du-dimanche-16-aout-2026-12c1c8-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - LCI",18h Yves Calvi
 tf1plus://lci/18h-yves-calvi
 #EXTINF:-1 tvg-id="tf1plus-lci-cartes-sur-table-smx" tvg-logo="https://photos.tf1.fr/1200/720/orages-enfin-de-la-pluie-mais-pas-la-bonne-1-93b0e4-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - LCI",Cartes Sur Table
