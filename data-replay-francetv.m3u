@@ -1,16 +1,18 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="francetv-prog-france-2_le-rouge-et-le-noir" tvg-logo="https://medias.france.tv/uG1pGJa2dHhnjDwbHxz9kVCmHgU/400x0/filters:quality(85)/v/z/1/phpmfs1zv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le Rouge et le Noir
 francetv://program/france-2_le-rouge-et-le-noir
-#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
-francetv://program/france-2_enquetes-au-paradis
+#EXTINF:-1 tvg-id="francetv-1c687e53-7e92-4526-8e30-aaad20a80ece" tvg-logo="https://medias.france.tv/MZx-7Mr6HiCZNGeKwKPluijToO4/400x0/filters:quality(85)/g/w/x/phpsshxwg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Mon jour de chance
+francetv://1c687e53-7e92-4526-8e30-aaad20a80ece
 #EXTINF:-1 tvg-id="francetv-6061509a-e1a8-46ed-b44e-34772c18f525" tvg-logo="https://medias.france.tv/Fwms19hhkq-VrNmn6KBT8IniiQk/400x0/filters:quality(85)/x/l/e/phpweyelx.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Comme un prince
 francetv://6061509a-e1a8-46ed-b44e-34772c18f525
-#EXTINF:-1 tvg-id="francetv-f0ad08f1-abd2-492c-870e-f5a4fb08953f" tvg-logo="https://medias.france.tv/Kdq9U60-VKLX_jCJdrEFCZ1rIRc/400x0/filters:quality(85)/9/0/b/8548845221c1406eae355cea94e27b09.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Roast, the Wedding of Daphné and Loïc
-francetv://f0ad08f1-abd2-492c-870e-f5a4fb08953f
 #EXTINF:-1 tvg-id="francetv-prog-france-2_telematin" tvg-logo="https://medias.france.tv/LuwNKrC_Y4sm3y6hOiehhq9QccM/400x0/filters:quality(85)/a/c/k/phptbikca.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Télématin
 francetv://program/france-2_telematin
 #EXTINF:-1 tvg-id="francetv-prog-france-2_ca-commence-aujourd-hui" tvg-logo="https://medias.france.tv/Zw2eo_IxSxq54UQgSiGT8gxw7BY/400x0/filters:quality(85)/s/r/l/phpwo5lrs.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Ça commence aujourd'hui
 francetv://program/france-2_ca-commence-aujourd-hui
+#EXTINF:-1 tvg-id="francetv-f0ad08f1-abd2-492c-870e-f5a4fb08953f" tvg-logo="https://medias.france.tv/Kdq9U60-VKLX_jCJdrEFCZ1rIRc/400x0/filters:quality(85)/9/0/b/8548845221c1406eae355cea94e27b09.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Drag Race France — Roast, the Wedding of Daphné and Loïc
+francetv://f0ad08f1-abd2-492c-870e-f5a4fb08953f
+#EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Enquêtes au paradis
+francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-e0f8bb57-237c-4f16-a2a4-feed682490ea" tvg-logo="https://medias.france.tv/ZR33zrT9RaU87lKrb4TQGUquOiM/400x0/filters:quality(85)/u/v/3/phpwya3vu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Première affaire
 francetv://e0f8bb57-237c-4f16-a2a4-feed682490ea
 #EXTINF:-1 tvg-id="francetv-f2fea0b1-f499-4085-8506-29208328dedb" tvg-logo="https://medias.france.tv/6a_iq3CZDxTSPnOe1oHwCb2hJQg/400x0/filters:quality(85)/h/u/4/phpu2y4uh.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Fort Boyard  — L'association KCNQ2
@@ -1305,28 +1307,26 @@ francetv://program/france-3_les-temoins-d-outre-mer
 francetv://program/france-o_passion-outre-mer
 #EXTINF:-1 tvg-id="francetv-prog-france-2_le-rouge-et-le-noir" tvg-logo="https://medias.france.tv/uG1pGJa2dHhnjDwbHxz9kVCmHgU/400x0/filters:quality(85)/v/z/1/phpmfs1zv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Le Rouge et le Noir
 francetv://program/france-2_le-rouge-et-le-noir
+#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
+francetv://program/france-3_opj
 #EXTINF:-1 tvg-id="francetv-prog-france-2_enquetes-au-paradis" tvg-logo="https://medias.france.tv/9zM2SILHqwzRQevvgSojYBP5v2s/400x0/filters:quality(85)/v/l/3/phpb503lv.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Enquêtes au paradis
 francetv://program/france-2_enquetes-au-paradis
 #EXTINF:-1 tvg-id="francetv-prog-france-2_code-rouge" tvg-logo="https://medias.france.tv/cu-5k3VUk2VB6g2OSYRPSw0CFuo/400x0/filters:quality(85)/m/w/9/phpmsl9wm.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Code Rouge
 francetv://program/france-2_code-rouge
-#EXTINF:-1 tvg-id="francetv-prog-france-3_les-enquetes-de-morse" tvg-logo="https://medias.france.tv/cWccV8eowdO1--3FNH2VNVoNJqQ/400x0/filters:quality(85)/6/u/z/phplnvzu6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les enquêtes de Morse
-francetv://program/france-3_les-enquetes-de-morse
 #EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/7dBYfe3y45asp7ho0iNbAM_FyAY/400x0/filters:quality(85)/f/j/w/phpobgwjf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",La Stagiaire
 francetv://program/france-3_la-stagiaire
-#EXTINF:-1 tvg-id="francetv-d1ef2740-88a3-4e09-9acf-1d34cfc5b6da" tvg-logo="https://medias.france.tv/gXPoVMiaAy5uyJTQb2WN2olYkB0/400x0/filters:quality(85)/w/h/i/phpl6yihw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Meurtres à... — Meurtres dans le Cantal
-francetv://d1ef2740-88a3-4e09-9acf-1d34cfc5b6da
+#EXTINF:-1 tvg-id="francetv-prog-france-3_les-enquetes-de-morse" tvg-logo="https://medias.france.tv/cWccV8eowdO1--3FNH2VNVoNJqQ/400x0/filters:quality(85)/6/u/z/phplnvzu6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les enquêtes de Morse
+francetv://program/france-3_les-enquetes-de-morse
 #EXTINF:-1 tvg-id="francetv-prog-france-2_la-mere-et-l-assassin" tvg-logo="https://medias.france.tv/AprRPikHSywCNRdTU4EpEf36rPY/400x0/filters:quality(85)/u/v/z/phptvqzvu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",La mère et l'assassin
 francetv://program/france-2_la-mere-et-l-assassin
-#EXTINF:-1 tvg-id="francetv-prog-arte_please-like-me" tvg-logo="https://medias.france.tv/0POf0Or0SmqUx_ZQGC_49xvWiUY/400x0/filters:quality(85)/4/1/p/phpik9p14.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Please Like Me
-francetv://program/arte_please-like-me
-#EXTINF:-1 tvg-id="francetv-prog-france-3_opj" tvg-logo="https://medias.france.tv/7GNgDEI5rVD8GhMqC3biPuhN6bk/400x0/filters:quality(85)/i/5/s/phpqcxs5i.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",OPJ
-francetv://program/france-3_opj
-#EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",À l'instinct
-francetv://program/france-2_a-l-instinct
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-invisibles" tvg-logo="https://medias.france.tv/d0B-S869_mtgVHU2rOE-yYZJobk/400x0/filters:quality(85)/w/z/s/phph9mszw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Les invisibles
 francetv://program/france-2_les-invisibles
-#EXTINF:-1 tvg-id="francetv-prog-france-2_capitaine-marleau" tvg-logo="https://medias.france.tv/bwk1s3phUi825JlXc2FMoL22cjQ/400x0/filters:quality(85)/z/m/n/phpp5unmz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Capitaine Marleau
-francetv://program/france-2_capitaine-marleau
+#EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",À l'instinct
+francetv://program/france-2_a-l-instinct
+#EXTINF:-1 tvg-id="francetv-d1ef2740-88a3-4e09-9acf-1d34cfc5b6da" tvg-logo="https://medias.france.tv/gXPoVMiaAy5uyJTQb2WN2olYkB0/400x0/filters:quality(85)/w/h/i/phpl6yihw.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Meurtres à... — Meurtres dans le Cantal
+francetv://d1ef2740-88a3-4e09-9acf-1d34cfc5b6da
+#EXTINF:-1 tvg-id="francetv-prog-arte_please-like-me" tvg-logo="https://medias.france.tv/0POf0Or0SmqUx_ZQGC_49xvWiUY/400x0/filters:quality(85)/4/1/p/phpik9p14.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Notre sélection",Please Like Me
+francetv://program/arte_please-like-me
 #EXTINF:-1 tvg-id="francetv-prog-france-3_un-si-grand-soleil" tvg-logo="https://medias.france.tv/5nb736Bd7Q7thWIICQtZ89PoqGk/400x0/filters:quality(85)/8/j/v/phpfgxvj8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil
 francetv://program/france-3_un-si-grand-soleil
 #EXTINF:-1 tvg-id="francetv-034c4b9d-a205-4f18-a4de-7acf19c2a629" tvg-logo="https://medias.france.tv/OuJ-qfJZzduZU_n28vN8cGbIloE/400x0/filters:quality(85)/h/j/g/phpvndgjh.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du lundi 24 août 2026
