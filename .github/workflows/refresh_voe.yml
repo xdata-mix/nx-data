@@ -9,12 +9,12 @@
 # Secret VOE_KEYS : "perso:CLE1,ami:CLE2" (libelle:cle, separes par des virgules).
 #   Ajouter un contributeur = editer le secret, rien d'autre.
 #
-# Cadence : une bibliotheque de films bouge de quelques titres par semaine —
-#   inutile de copier le rythme des replays (*/6h). Une fois par jour suffit.
+# Cadence : declenchee par cron-job.org, comme les autres jobs nx-data (decision
+#   user 2026-08-28 : un seul tableau de bord, et cron-job.org remonte les echecs,
+#   ce que le schedule natif de GitHub ne fait pas). PAS de schedule: ici, sinon le
+#   job partirait deux fois par jour.
 name: refresh-voe
 on:
-  schedule:
-    - cron: '40 4 * * *'
   workflow_dispatch:
 permissions:
   contents: write
