@@ -1,0 +1,53 @@
+# Index des bibliotheques VOE -> data/voe.json
+#
+# 2026-08-28 (decision user) : la cle API VOE ne doit PAS etre en dur dans l'APK.
+#   Elle autorise /api/file/delete sans autre garde-fou, et un APK est
+#   decompressable. Elle vit donc ici, en secret de depot, et seule la table
+#   titre -> filecode est publiee. Les fichiers ne bougent pas : la lecture se
+#   fait sur https://voe.sx/e/{filecode}, lien public sans authentification.
+#
+# Secret VOE_KEYS : "perso:CLE1,ami:CLE2" (libelle:cle, separes par des virgules).
+#   Ajouter un contributeur = editer le secret, rien d'autre.
+#
+# Cadence : une bibliotheque de films bouge de quelques titres par semaine —
+#   inutile de copier le rythme des replays (*/6h). Une fois par jour suffit.
+name: refresh-voe
+on:
+  schedule:
+    - cron: '40 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: refresh-voe-only
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run refresh_voe.py
+        env:
+          VOE_KEYS: ${{ secrets.VOE_KEYS }}
+        run: python scripts/refresh_voe.py
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/voe.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "auto: refresh index VOE"
+            git pull --rebase origin main || git rebase --abort
+            git push
+          fi
