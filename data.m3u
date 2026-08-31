@@ -6848,7 +6848,7 @@ https://trace-brazuca-lg-fr.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
@@ -6906,3 +6906,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/jvJyhqTisRd/rE
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/jvJyhqTisRd/rEbJUgEE5SYIs5vd.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 tvg-id="Gong.fr" group-title="France TV backup",GONG [schumijo]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
