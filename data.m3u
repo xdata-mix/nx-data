@@ -6914,3 +6914,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/p
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="TF1.fr@SD" group-title="France TV backup",TF1 (576p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/UANOLBCLACIF/tX4sJ5AFzPOQnMZT.m3u8
+
+# === France TV backup (URLs alternatives — auto-multi-sources) ===
+#EXTINF:-1 group-title="France TV backup",TRACE BRASIL [schumijo]
+https://trace-brazuca-lg-fr.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-lg-fr/CDN/master.m3u8
