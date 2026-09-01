@@ -7,6 +7,10 @@ tf1live://L_FAST_v2l-ad-baby-boom-88288927
 tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-comedie-fiction-25247701" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Comedie Fiction
+tf1live://L_FAST_v2l-ad-comedie-fiction-25247701
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-danse-avec-les-stars-00457635" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Danse Avec Les Stars
+tf1live://L_FAST_v2l-ad-danse-avec-les-stars-00457635
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-demain-nous-appartient-38296145" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Demain Nous Appartient
 tf1live://L_FAST_v2l-ad-demain-nous-appartient-38296145
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
@@ -27,6 +31,8 @@ tf1live://L_FAST_v2l-ad-les-enfoires-35654015
 tf1live://L_FAST_v2l-ad-les-mysteres-de-lamour-99639599
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-les-restos-du-coeur-59894021" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Les Restos Du Coeur
 tf1live://L_FAST_v2l-ad-les-restos-du-coeur-59894021
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-lolywood-16739451" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Lolywood
+tf1live://L_FAST_v2l-ad-lolywood-16739451
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mamans-and-celebres-08240458" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mamans & Celebres
 tf1live://L_FAST_v2l-ad-mamans-and-celebres-08240458
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-mighty-express-44092248" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Mighty Express
@@ -967,6 +973,8 @@ tf1plus://tf1/meurtres-a-nordholm
 tf1plus://tf1/crossfire
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-mysteres-de-londres-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-4e98b7-a626bd-97df78-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Les Mysteres de Londres
 tf1plus://tf1/les-mysteres-de-londres
+#EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
+tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-family-secrets-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-3a432d-317909-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Family Secrets
 tf1plus://tf1/family-secrets
 #EXTINF:-1 tvg-id="tf1plus-tf1-indefendable-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-345a6d-0b6ae8-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Indefendable
@@ -983,8 +991,6 @@ tf1plus://tf1/une-famille-pas-si-parfaite
 tf1plus://tf1/camping-paradis
 #EXTINF:-1 tvg-id="tf1plus-tf1-mentalist-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2e0a17-90e636-62ca35-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Mentalist
 tf1plus://tf1/mentalist
-#EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
-tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tfx-sisbro-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-sisbro-910f53-300606-423c65-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Sisbro
 tf1plus://tfx/sisbro
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-unite-speciale-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-04aa55-eee648-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Unite Speciale
@@ -2555,10 +2561,10 @@ tf1plus://tfx/jlc-family-lincroyable-ete-de-jazz-et-laurent
 tf1plus://tfx/la-bataille-des-clans
 #EXTINF:-1 tvg-id="tf1plus-tf1-ma-mere-ton-pere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Mere Ton Pere
 tf1plus://tf1/ma-mere-ton-pere
-#EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
-tf1plus://tfx/time-to-love
 #EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres
 tf1plus://tfx/mamans-et-celebres
+#EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
+tf1plus://tfx/time-to-love
 #EXTINF:-1 tvg-id="tf1plus-tf1-million-dollar-weekend" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Million Dollar Weekend
 tf1plus://tf1/million-dollar-weekend
 #EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
@@ -2893,6 +2899,8 @@ tf1plus://tf1/the-voice
 tf1plus://tmc/lagence-nouvelles-destinations
 #EXTINF:-1 tvg-id="tf1plus-tmc-burger-quiz" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Burger Quiz
 tf1plus://tmc/burger-quiz
+#EXTINF:-1 tvg-id="tf1plus-tfx-le-grand-betisier" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Le Grand Betisier
+tf1plus://tfx/le-grand-betisier
 #EXTINF:-1 tvg-id="tf1plus-tf1-ma-maison-de-a-a-z" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Maison de A A Z
 tf1plus://tf1/ma-maison-de-a-a-z
 #EXTINF:-1 tvg-id="tf1plus-tf1-sell-this-house" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sell This House
@@ -6577,8 +6585,6 @@ tf1plus://tf1-series-films/tous-en-salles
 tf1plus://tfx/10-couples-parfaits
 #EXTINF:-1 tvg-id="tf1plus-tfx-hypnose-de-rue-smx" tvg-logo="https://photos.tf1.fr/1200/720/hypnosederuee10-0095cb-bd3e4d-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Hypnose De Rue
 tf1plus://tfx/hypnose-de-rue
-#EXTINF:-1 tvg-id="tf1plus-tfx-le-grand-betisier-smx" tvg-logo="https://photos.tf1.fr/1200/720/episode-1-partie-2-1-ac12c0-b1e186-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Le Grand Betisier
-tf1plus://tfx/le-grand-betisier
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-filles-d-a-cote-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-filles-da-cote-s01-e20-sauvetage-amer-77b6ec-209c53-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Les Filles D A Cote
 tf1plus://tfx/les-filles-d-a-cote
 #EXTINF:-1 tvg-id="tf1plus-tfx-lolywood-smx" tvg-logo="https://photos.tf1.fr/1200/720/thumbnail_thumbnail_dtryt-a8bff7-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Lolywood
