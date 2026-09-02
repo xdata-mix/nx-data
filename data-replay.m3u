@@ -11829,16 +11829,18 @@ tf1plus://tf1/intervention
 tf1plus://tf1/lhopital
 #EXTINF:-1 tvg-id="tf1plus-tf1-greys-anatomy-séries-médicales" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-411404-b69e73-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries médicales",Greys Anatomy
 tf1plus://tf1/greys-anatomy
+#EXTINF:-1 tvg-id="tf1plus-tf1-maison-de-retraite-la-serie-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-maison-de-retraite-la-serie-03-508d28-a180ac-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Maison de Retraite la Serie
+tf1plus://tf1/maison-de-retraite-la-serie
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-croisiere-950-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-1f7087-1140e4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",La Croisiere 950
 tf1plus://tf1/la-croisiere-950
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-daron-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-afa8d8-bf07a4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Le Daron
+tf1plus://tf1/le-daron
 #EXTINF:-1 tvg-id="tf1plus-tf1-doc-martin-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-doc-martin-74373d-ed6e9d-08b69f-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Doc Martin
 tf1plus://tf1/doc-martin
 #EXTINF:-1 tvg-id="tf1plus-tf1-nos-chers-voisins-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-nos-chers-voisins-75d947-923a0d-8fe093-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Nos Chers Voisins
 tf1plus://tf1/nos-chers-voisins
 #EXTINF:-1 tvg-id="tf1plus-tfx-sisbro-comédies" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-sisbro-20af9b-a25402-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Sisbro
 tf1plus://tfx/sisbro
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-daron-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-afa8d8-bf07a4-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Le Daron
-tf1plus://tf1/le-daron
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-nounou-comédies" tvg-logo="https://photos.tf1.fr/217/289/immersif5-20d2e2-a0d2c1-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Le Nounou
 tf1plus://tf1/le-nounou
 #EXTINF:-1 tvg-id="tf1plus-tf1-ghosts-fantomes-a-la-maison-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-baa82c-331729-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Ghosts Fantomes A la Maison
@@ -11861,8 +11863,6 @@ tf1plus://tf1/camping-paradis
 tf1plus://tf1/mercato
 #EXTINF:-1 tvg-id="tf1plus-tf1-sam-comédies" tvg-logo="https://photos.tf1.fr/217/289/vignette-portrait-2-978d31-de4e55-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Sam
 tf1plus://tf1/sam
-#EXTINF:-1 tvg-id="tf1plus-tf1-maison-de-retraite-la-serie-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-maison-de-retraite-la-serie-03-508d28-a180ac-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Maison de Retraite la Serie
-tf1plus://tf1/maison-de-retraite-la-serie
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-remplacant-comédies" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-2-png-5f9730-026fcf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Le Remplacant
 tf1plus://tf1/le-remplacant
 #EXTINF:-1 tvg-id="tf1plus-tf1-panda-comédies" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ba0c52-ba0195-9b18ba-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Comédies",Panda
@@ -13643,10 +13643,10 @@ tf1plus://tf1/le-grand-concours
 tf1plus://tf1/le-dernier-cercle
 #EXTINF:-1 tvg-id="tf1plus-tmc-ahmed-sylla-different" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Ahmed Sylla Different
 tf1plus://tmc/ahmed-sylla-different
-#EXTINF:-1 tvg-id="tf1plus-tf1-camille-and-images" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Camille And Images
-tf1plus://tf1/camille-and-images
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-voice-comeback" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Voice Comeback
 tf1plus://tf1/the-voice-comeback
+#EXTINF:-1 tvg-id="tf1plus-tf1-camille-and-images" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Camille And Images
+tf1plus://tf1/camille-and-images
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-plus-belles-vacances" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Plus Belles Vacances
 tf1plus://tf1/les-plus-belles-vacances
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-chanson-secrete" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Chanson Secrete
@@ -13657,18 +13657,18 @@ tf1plus://tfx/tattoo-cover
 tf1plus://tf1/mask-singer
 #EXTINF:-1 tvg-id="tf1plus-tf1-danse-avec-les-stars" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Danse Avec les Stars
 tf1plus://tf1/danse-avec-les-stars
+#EXTINF:-1 tvg-id="tf1plus-tf1-baby-boom" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Baby Boom
+tf1plus://tf1/baby-boom
 #EXTINF:-1 tvg-id="tf1plus-tf1-10-sur-10-combien-tu-te-mets" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",10 Sur 10 Combien Tu Te Mets
 tf1plus://tf1/10-sur-10-combien-tu-te-mets
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-quiz" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Quiz
 tf1plus://tf1/le-grand-quiz
 #EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
 tf1plus://tf1/qui-veut-gagner-des-millions
-#EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tf1 50 Ans Ensemble
-tf1plus://tf1/tf1-50-ans-ensemble
-#EXTINF:-1 tvg-id="tf1plus-tf1-bataille-navale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bataille Navale
-tf1plus://tf1/bataille-navale
 #EXTINF:-1 tvg-id="tf1plus-tmc-q-dor" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Q Dor
 tf1plus://tmc/q-dor
+#EXTINF:-1 tvg-id="tf1plus-tf1-bataille-navale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bataille Navale
+tf1plus://tf1/bataille-navale
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
 tf1plus://tf1-series-films/clap
 #EXTINF:-1 tvg-id="tf1plus-tf1-2025-le-grand-feu-dartifice" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",2025 le Grand Feu Dartifice
@@ -13755,12 +13755,12 @@ tf1plus://tf1/cannes-comedy-show
 tf1plus://tmc/eric-et-quentin
 #EXTINF:-1 tvg-id="tf1plus-tf1-etam-live-show" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Etam Live Show
 tf1plus://tf1/etam-live-show
-#EXTINF:-1 tvg-id="tf1plus-tf1-baby-boom" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Baby Boom
-tf1plus://tf1/baby-boom
 #EXTINF:-1 tvg-id="tf1plus-tf1-mamans-ados-le-defi-de-leur-vie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Mamans Ados le Defi de Leur Vie
 tf1plus://tf1/mamans-ados-le-defi-de-leur-vie
 #EXTINF:-1 tvg-id="tf1plus-tfx-super-nanny" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Super Nanny
 tf1plus://tfx/super-nanny
+#EXTINF:-1 tvg-id="tf1plus-tfx-vacances-a-chacun-son-style" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Vacances A Chacun Son Style
+tf1plus://tfx/vacances-a-chacun-son-style
 #EXTINF:-1 tvg-id="tf1plus-tf1-spider-man-far-from-home-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-8654ca-7bd046-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Spider Man Far From Home
 tf1plus://tf1/spider-man-far-from-home
 #EXTINF:-1 tvg-id="tf1plus-tfx-limitless-le-film-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-841481-875785-0bbc92-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Limitless le Film
@@ -16911,6 +16911,8 @@ tf1plus://tf1/templeton
 tf1plus://tf1/terrain-mortel
 #EXTINF:-1 tvg-id="tf1plus-tf1-terreur-sur-le-lac-smx" tvg-logo="https://photos.tf1.fr/1200/720/terreur-sur-le-lac-73382869-1706291582-3fe92c-8791c1-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Terreur Sur Le Lac
 tf1plus://tf1/terreur-sur-le-lac
+#EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble-smx" tvg-logo="https://photos.tf1.fr/1200/720/decouvrez-la-bande-annonce-evenement-46fdc5-0089ce-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Tf1 50 Ans Ensemble
+tf1plus://tf1/tf1-50-ans-ensemble
 #EXTINF:-1 tvg-id="tf1plus-tf1-thanksgiving-smx" tvg-logo="https://photos.tf1.fr/1200/720/thanksgiving-s01-e01-92245079-1744791929-48a187-b0aac4-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Thanksgiving
 tf1plus://tf1/thanksgiving
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-age-of-adaline-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-143741-dbb3ba-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",The Age Of Adaline
@@ -17349,8 +17351,6 @@ tf1plus://tfx/maman-a-tout-prix
 tf1plus://tfx/pierre-garnier-le-concert-evenement
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-le-magazine-des-pratiques-culturelles-des-15-35-ans-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-ea72e5-e36fd4-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Pop Le Magazine Des Pratiques Culturelles Des 15 35 Ans
 tf1plus://tfx/pop-le-magazine-des-pratiques-culturelles-des-15-35-ans
-#EXTINF:-1 tvg-id="tf1plus-tfx-vacances-a-chacun-son-style-smx" tvg-logo="https://photos.tf1.fr/1200/720/camping-geant-ou-familial-a-chacun-son-camping-bc2ac6-17031d-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Vacances A Chacun Son Style
-tf1plus://tfx/vacances-a-chacun-son-style
 #EXTINF:-1 tvg-id="tf1plus-tmc-betisiers-smx" tvg-logo="https://photos.tf1.fr/1200/720/2107345-_betisier-de-noel2025-f38801-07e69c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Betisiers
 tf1plus://tmc/betisiers
 #EXTINF:-1 tvg-id="tf1plus-tmc-covid-19-un-ete-sous-surveillance-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-masques-rendent-malades-en-allemagne-les-manifestations-anti-regles-sanitaires-se-multiplient-66438-cd4d68-916fac-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Covid 19 Un Ete Sous Surveillance
