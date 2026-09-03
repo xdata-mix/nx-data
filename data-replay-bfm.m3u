@@ -659,6 +659,10 @@ bfmplay://NEUF_BFMTV_BFM1021025456686
 bfmplay://NEUF_BFMTV_BFM1021025456673
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021080916505" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/5/0/5/e80b76ded34d62d0f7e57d630c2473e4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Le violeur d'Antibes : les victimes témoignent
 bfmplay://NEUF_BFMTV_BFM1021080916505
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000800" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/0/8/1323c96b9ae07e3f73c016b87c1e5ffe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 1er septembre 2026
+bfmplay://NEUF_BFMRADIO_BRA50000000000800
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000789" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/8/7/d2e82ec0671644e5a7f161229db5da79_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 31 août 2026
+bfmplay://NEUF_BFMRADIO_BRA50000000000789
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000810" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/1/8/675883a262a75378dae7c6eafe019fca_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Bruno Satin, Agent de footballeurs - Partie 2
 bfmplay://NEUF_BFMRADIO_BRA50000000000810
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000809" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/0/8/cc80b545e3bc018b7480b35b8b251d30_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",After Foot - Invité : Bruno Satin, Agent de footballeurs - Partie 1
@@ -865,10 +869,6 @@ bfmplay://NEUF_BFMBUSINESS_BUM60000000000713
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000700
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000690" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/0/9/6/d3d8e14b82bcaf2e4790620d22150428_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Good Morning Business - Émission du 27 août 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000690
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000800" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/0/0/8/1323c96b9ae07e3f73c016b87c1e5ffe_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 1er septembre 2026
-bfmplay://NEUF_BFMRADIO_BRA50000000000800
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000789" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/9/8/7/d2e82ec0671644e5a7f161229db5da79_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Les nuits du Cazarre enchaîné - Émission du 31 août 2026
-bfmplay://NEUF_BFMRADIO_BRA50000000000789
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000733" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/3/3/7/749435b3019a4522d997474a8092504e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Tech&Co Business - Émission du 1er septembre 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000733
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000679" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/9/7/6/89a5e0521f4c71ca1cc4d8a91c12f795_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Tech&Co Business - Émission du 25 août 2026
@@ -4343,12 +4343,12 @@ bfmplay://NEUF_RMCDEC_RMC1020931968831
 bfmplay://NEUF_RMCDEC_RMC1020931968844
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020931968857" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/5/8/7942b1fd8808f7cdc638b3aa5b8c83f7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Top Mecanic : 5 jours pour restaurer une épave - S5E60 - La Finale - Vince Contre Les Frères Bretons
 bfmplay://NEUF_RMCDEC_RMC1020931968857
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC984147808527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/041e96c5272c3821f420bae63840d262_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S6E1 - Le point de non-retour
-bfmplay://NEUF_RMCDEC_RMC984147808527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213474527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/54bfec630902e647ee964b34437d834f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E16 - L'heure du bilan
-bfmplay://NEUF_RMCDEC_RMC980213474527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213465527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/3c68b4ab9eb845a3ae20c55134a9b126_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E15 - Épreuve de force
-bfmplay://NEUF_RMCDEC_RMC980213465527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055136527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8e90ac38fa10bbfbabcaf86f5d1d1745_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E8 - Cadence infernale
+bfmplay://NEUF_RMCDEC_RMC980055136527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055116527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/657600b48094cb292724d7da9eab3716_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E6 - L'enfer blanc
+bfmplay://NEUF_RMCDEC_RMC980055116527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055096527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/1d04a543ef3d61ad489e15893ac8c30b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E4 - Dangereux prédateurs
+bfmplay://NEUF_RMCDEC_RMC980055096527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213384527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2a8572a99b0dac4b2d7b8ea4ee6c7082_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E6 - Tenter l'impensable
 bfmplay://NEUF_RMCDEC_RMC980213384527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213375527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c3d1da7f2dd583c7040bddbc92c2dc79_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E5 - La chance tourne
@@ -4555,8 +4555,6 @@ bfmplay://NEUF_RMCDEC_RMC979306736527
 bfmplay://NEUF_RMCDEC_RMC979306606527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC979306716527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c16af46c5f1c622e5b71db33f22dc7b2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S3E13 - Lutter pour sa survie
 bfmplay://NEUF_RMCDEC_RMC979306716527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055136527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/8e90ac38fa10bbfbabcaf86f5d1d1745_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E8 - Cadence infernale
-bfmplay://NEUF_RMCDEC_RMC980055136527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055216527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/626a9edc99c35f70d0edfcbd9a7842b5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E16 - Fonte des glaces
 bfmplay://NEUF_RMCDEC_RMC980055216527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055226527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c8757a185978cba158b368a1fe7155b0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E17 - Épreuve de force
@@ -4567,22 +4565,14 @@ bfmplay://NEUF_RMCDEC_RMC980055186527
 bfmplay://NEUF_RMCDEC_RMC980055166527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055176527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/f1d35f5e84516890fb81813611e759e1_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E12 - Des erreurs à répétition
 bfmplay://NEUF_RMCDEC_RMC980055176527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055116527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/657600b48094cb292724d7da9eab3716_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E6 - L'enfer blanc
-bfmplay://NEUF_RMCDEC_RMC980055116527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055066527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/7f1790b1ab34a669048a8f76dc4a9b12_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E1 - S'adapter ou mourir
 bfmplay://NEUF_RMCDEC_RMC980055066527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055206527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/31b3a07a74d32e88d96204472002b3f9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E15 - Une faim de loup
 bfmplay://NEUF_RMCDEC_RMC980055206527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055096527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/1d04a543ef3d61ad489e15893ac8c30b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E4 - Dangereux prédateurs
-bfmplay://NEUF_RMCDEC_RMC980055096527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980055196527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/cfae4c0ba0ea7d0d91d95829a0ef29ca_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S4E14 - On a rien sans rien
 bfmplay://NEUF_RMCDEC_RMC980055196527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213456527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/258f7b55f8233ce7da232cf0ef61ae56_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E14 - Face aux prédateurs
 bfmplay://NEUF_RMCDEC_RMC980213456527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213483527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/9be606b164f086a5e373fcb16d9a5c7b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E17 - L'hiver : une bataille sans fin
-bfmplay://NEUF_RMCDEC_RMC980213483527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC980213447527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/2aabe698c6f6f5dffbf5dca8783d91a4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S5E13 - Coup fatal
-bfmplay://NEUF_RMCDEC_RMC980213447527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020979098565" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/5/6/5/6fbeb411580c9b8b006005ad6fbdfaf6_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S14E9 - Cap sur l'inconnu
 bfmplay://NEUF_RMCDEC_RMC1020979098565
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020979098516" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/1/5/6214267af00b6ef8e4e15dc20ac76014_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Vous aimerez aussi",Seuls face à l'Alaska - S14E2 - Tradition familiale
@@ -7403,10 +7393,10 @@ bfmplay://NEUF_BFMAVOD_BAV809215831527
 bfmplay://NEUF_BFMAVOD_BAV_15120
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00235677" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/7/6/61a1737da3fc38c4c3ad4dd353084741_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Sauver Notre-Dame
 bfmplay://NEUF_BFMAVOD_BAV00235677
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
-bfmplay://NEUF_BFMAVOD_BAV00200621
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00228372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/2/7/3/e10f845b29cdc4036e110a6d47a1a8c5_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",Marseille: l'effondrement de la rue d'Aubagne
 bfmplay://NEUF_BFMAVOD_BAV00228372
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV00200621" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/1/2/6/d4a8e28114213793a87e226c4c09640d_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - A ne pas manquer",L'énigme des lignes de Nazca
+bfmplay://NEUF_BFMAVOD_BAV00200621
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMAVOD_BAV_933530904527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMAVOD/7/2/5/BAV_933530904527_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay Exclus BFM Play - Les plus vus en streaming",Vintage mecanic
 bfmplay://NEUF_BFMAVOD_BAV_933530904527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020937232172" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/2/7/1/bc3485acdedc1512ed00e605aeda91f2_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Exclus BFM Play - Les titans de l'ingénierie",Alerte sur la planète ! - S1E1 - Apocalypse : le jour où un volcan va assombrir le ciel de la planète
