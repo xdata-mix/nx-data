@@ -83,8 +83,16 @@ def read_existing_m3u(path):
     return entries
 
 
-# ---------- Samsung TV+ (JSON) ----------
+# ---------- Samsung TV+ (JSON historique OU M3U depuis 2026-09) ----------
 def parse_samsung(body):
+    # 2026-09-03 : la source textup.fr est passee de JSON a M3U (#EXTM3U,
+    #   group-title "Cinema"/"Divertissement"/... et URLs html.bet/jmp2.uk).
+    #   json.loads() plantait alors -> 0 chaine -> dossier Samsung vide dans
+    #   l'app. On delegue donc au parseur M3U generique avec le service
+    #   "Samsung TV+" (=> groupes "Samsung TV+ - Cinema", format attendu par
+    #   l'app). Chemin JSON conserve en repli si la source repasse a l'ancien.
+    if body.lstrip()[:7] == "#EXTM3U" or "#EXTINF" in body[:4000]:
+        return parse_m3u(body, "Samsung TV+")
     entries = []
     try:
         data = json.loads(body)
