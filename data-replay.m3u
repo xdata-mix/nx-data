@@ -577,6 +577,8 @@ bfmplay://NEUF_BFMTV_BFM1021025456699
 bfmplay://NEUF_BFMTV_BFM1021025456686
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021025456673" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/3/7/6/3f9e7b9f3c61f310bd7fc5f4f9f1596e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",Histoire du 36 : racontée en images par son ancien patron
 bfmplay://NEUF_BFMTV_BFM1021025456673
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000823" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/2/8/7debecff4db88ee5e0f07341e282f21a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - La Ligue 1 est-elle jouée d'avance ?
+bfmplay://NEUF_BFMRADIO_BRA50000000000823
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000822" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/2/8/44a08ba4d4399c833886b00fc65040bd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - UBB : est-ce la bonne année ?
 bfmplay://NEUF_BFMRADIO_BRA50000000000822
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000821" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/2/8/8573cdfb9ddea9ff6d36fba50827da40_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - La magie Erasmus va-t-elle se poursuivre ?
@@ -797,8 +799,6 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000786
 bfmplay://NEUF_BFMRADIO_BRA50000000000785
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000704" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/4/0/7/8e3967aa5f3c9f290a925f8b50cb2fd0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Génération After Foot - La course au podium en Ligue 1 est-elle plus ouverte que jamais ? - Partie 2
 bfmplay://NEUF_BFMRADIO_BRA50000000000704
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000703" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/0/7/24db4fe579a35991d1961a17befd73c3_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Génération After Foot - Lyon est-il à l’abri d’un raté façon Fonseca ? - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000703
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000742" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/2/4/7/b96821148039570321514fbd8bf62698_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Le 18h éco - Émission du 2 septembre 2026
 bfmplay://NEUF_BFMBUSINESS_BUM60000000000742
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMBUSINESS_BUM60000000000731" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMBUSINESS/1/3/7/1fe222310d9759115300d7d94796f123_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Le 18h éco - Émission du 1er septembre 2026
@@ -2627,22 +2627,22 @@ bfmplay://NEUF_NUM23_N231021138407365
 bfmplay://NEUF_NUM23_N231021138407357
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422031" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/3/0/74ae813a977a0278626d4ddec2cb4b27_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E3 - Le coeur
 bfmplay://NEUF_NUM23_N231021138422031
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422018" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/0/9f0aca116943d1e2a0104d30352a5e60_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E2 - Les chants
-bfmplay://NEUF_NUM23_N231021138422018
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423686" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/8/6/2514f47f643894186883991a518e9e8b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E6 - Mariage
-bfmplay://NEUF_NUM23_N231021138423686
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423678" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/7/6/5d81c3353d5b72ae4328404c77d4ac87_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E5 - Pénitence
-bfmplay://NEUF_NUM23_N231021138423678
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422070" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/7/0/cf25acfc881ec559b66eebbda5d9c40d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E6 - Le baptême
 bfmplay://NEUF_NUM23_N231021138422070
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422057" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/5/0/295a36d0337b7e250aa75837cd320bbd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E5 - La communion
 bfmplay://NEUF_NUM23_N231021138422057
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422018" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/1/0/9f0aca116943d1e2a0104d30352a5e60_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E2 - Les chants
+bfmplay://NEUF_NUM23_N231021138422018
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423686" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/8/6/2514f47f643894186883991a518e9e8b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E6 - Mariage
+bfmplay://NEUF_NUM23_N231021138423686
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423654" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/5/6/11288a693b59e7df61a2fa558964985a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E2 - Le faspa
+bfmplay://NEUF_NUM23_N231021138423654
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423678" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/7/6/5d81c3353d5b72ae4328404c77d4ac87_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E5 - Pénitence
+bfmplay://NEUF_NUM23_N231021138423678
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422044" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/4/0/85fc2575511887780534739a74dd5704_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E4 - Les funérailles
 bfmplay://NEUF_NUM23_N231021138422044
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138422005" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/0/0/3e79cf8ce7ef32d913a4f302198d464c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S1E1 - Ordination
 bfmplay://NEUF_NUM23_N231021138422005
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423654" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/5/6/11288a693b59e7df61a2fa558964985a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E2 - Le faspa
-bfmplay://NEUF_NUM23_N231021138423654
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423670" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/7/6/e5e80769a0d60a51dd722ba5d26d3ec8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E4 - Demandes en mariage
 bfmplay://NEUF_NUM23_N231021138423670
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021138423662" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/2/6/6/4c7e12ae323663b4c867ea84e5622917_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Seulement en streaming",Pure - S2E3 - Le retour de l'agneau
@@ -5949,8 +5949,6 @@ bfmplay://NEUF_RMCDEC_RMC950100076527
 bfmplay://NEUF_RMCDEC_RMC950100067527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC950100058527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/ee6a47a5a977040c0de896857fda1ede_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",Mecanos express - S9E3 - Le convoi du chaos
 bfmplay://NEUF_RMCDEC_RMC950100058527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC950100049527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/16c6cf325c96db779b4cdbf5cf22f97b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",Mecanos express - S9E2 - Véhicules de collection
-bfmplay://NEUF_RMCDEC_RMC950100049527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020991127686" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/6/8/6/6d352b09fce152361f25479f08716580_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",SOS Garage - S1E12 - Oyonnax
 bfmplay://NEUF_RMCDEC_RMC1020991127686
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1020991127651" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/1/5/6/f19edb7bbea0eb0c50861350c0c9f767_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",SOS Garage - S1E7 - La Bonneville-sur-Iton
@@ -6603,6 +6601,12 @@ bfmplay://NEUF_BFMTV_BFM983084407527
 bfmplay://NEUF_BFMTV_BFM1021017370992
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020983238872" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/7/8/2a8f55eb8271ae042a35bfadd47eb209_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les grands reportages BFM TV",Chine, le nouvel empire de la tech
 bfmplay://NEUF_BFMTV_BFM1020983238872
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504394" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/4/9/3/de254245267756126241b94a81ff817c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E36 - Gardent un bébé
+bfmplay://NEUF_RMC_LIFE_RIF1020943504394
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504383" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/3/8/3/6397d3f60113620a074f56af1c1d8537_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E35 - Dans la cuisine (5)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504383
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504372" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/2/7/3/f60cf984f0fea35ca920aac08ed5621d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E34 - En voiture (5)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504372
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504361" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/1/6/3/19e6261b3cf419f41980335fba1a3e6e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E33 - En bateau-mouche
 bfmplay://NEUF_RMC_LIFE_RIF1020943504361
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504350" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/0/5/3/1b469da4f88392b0d92398cf38c66ae5_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E32 - Chez Jeannette et Roger (1)
@@ -7441,8 +7445,6 @@ bfmplay://NEUF_RMC_LIFE_RIF1009782505527
 bfmplay://NEUF_RMC_LIFE_RIF1021130887789
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1021130040947" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/4/9/6e12e3c10bce8c2bf3ae2547c211ca18_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Life - Les docs du moment",Patinage : les championnes brisent la glace
 bfmplay://NEUF_RMC_LIFE_RIF1021130040947
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000823" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/2/8/7debecff4db88ee5e0f07341e282f21a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Carrousel",La Ligue 1 est-elle jouée d'avance ?
-bfmplay://NEUF_BFMRADIO_BRA50000000000823
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000746" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/6/4/7/6d5ea9c8e4bce18a2579df9eb1d2a790_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les Grandes Gueules du sport - La difficulté de se reposer dans le sport de haut niveau
 bfmplay://NEUF_BFMRADIO_BRA50000000000746
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000745" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/5/4/7/35acd9ceebe295c2218d63306010c202_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les Grandes Gueules du sport - Invitée : Blandine L'Hirondel, vainqueure de l'UTMB 2026
