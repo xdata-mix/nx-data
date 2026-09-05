@@ -10,3 +10,11 @@
 # - Une ligne sans nom (« https://... » seul) tombe dans le dossier « Playlist ».
 # - Une ligne commencant par # est ignoree.
 
+
+# ================= DOSSIER « 18@ » (Mix FR) =================
+# Colle tes liens M3U ci-dessous, UN PAR LIGNE, toujours avec le meme nom devant :
+#     18@ | https://exemple.com/playlist1.m3u
+#     18@ | https://exemple.com/playlist2.m3u
+# Plusieurs liens = un seul dossier « 18@ » dans l'appli (les playlists s'additionnent).
+# Retire une ligne pour retirer ses chaines. Rien d'autre a toucher.
+
