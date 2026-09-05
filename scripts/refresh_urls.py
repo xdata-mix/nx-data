@@ -324,6 +324,12 @@ async def _telecharger_dossier(session, nom: str, url: str) -> str:
     # Fins de ligne normalisees + lignes vides retirees : le parseur de l'appli
     #   (parseMixFrM3u) oublie l'EXTINF en cours des qu'il rencontre une ligne vide.
     text = text.replace('\r\n', '\n').replace('\r', '\n')
+    # L'appli (LiveHubFolderDialog.displayAggregatedCategories) range dans le
+    #   fourre-tout « Programmes » tout groupe SANS « - » dans son nom, et
+    #   affiche la partie APRES « - » comme nom de dossier. Pour obtenir un
+    #   dossier « Zone 18@ » a part entiere, le group-title devient
+    #   « Zone 18@ - Zone 18@ ».
+    gt = nom if ' - ' in nom else f"{nom} - {nom}"
     sortie, n = [], 0
     for b in re.split(r'(?=#EXTINF)', text):
         if not b.startswith('#EXTINF'):
@@ -333,9 +339,9 @@ async def _telecharger_dossier(session, nom: str, url: str) -> str:
             continue
         premiere, _, reste = b.partition('\n')
         if 'group-title=' in premiere:
-            premiere = re.sub(r'group-title="[^"]*"', f'group-title="{nom}"', premiere)
+            premiere = re.sub(r'group-title="[^"]*"', f'group-title="{gt}"', premiere)
         else:
-            premiere = re.sub(r'^#EXTINF:(-?\d+)', rf'#EXTINF:\1 group-title="{nom}"', premiere, count=1)
+            premiere = re.sub(r'^#EXTINF:(-?\d+)', rf'#EXTINF:\1 group-title="{gt}"', premiere, count=1)
         sortie.append(premiere + '\n' + reste + '\n')
         n += 1
     print(f"  [dossier {nom}] {n} chaines importees")
