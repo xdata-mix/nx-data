@@ -1,0 +1,402 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+refresh_vegeta_vod.py — index VOD (films + séries FR) des serveurs Vegeta.
+
+Pourquoi ici et pas dans l'app : depuis un réseau français, `player_api.php` et
+`get.php` des panels Xtream sont coupés (connexion fermée) alors que les FLUX
+(/movie/…, /series/…) passent. Les proxies CORS de l'app renvoient 522. Le
+runner GitHub, lui, atteint les panels → on construit tout ici, l'app ne
+télécharge que du JSON.
+
+Sorties :
+  data/vegetatv/vegeta-vod-fr.json       films + séries (1 entrée par œuvre,
+                                          jusqu'à 3 serveurs par entrée)
+  data/vegetatv/vod-ep/<00..3f>.json      épisodes des séries, 64 shards,
+                                          clé "<serveur>:<series_id>"
+Format (compact) :
+  servers : { "<pos>": {"b": base, "u": user, "p": pass} }
+  films   : [ {"t": titre, "y": année, "tmdb": id|0, "img": affiche, "c": catégorie,
+               "l": "VF"|"VOSTFR"|"", "s": [[pos, stream_id, ext], …]} ]
+  series  : [ {"t", "y", "tmdb", "img", "c", "k": clé normalisée, "s": [[pos, series_id], …]} ]
+  shard   : { "<pos>:<series_id>": { "<saison>": [[num, id, ext, titre], …] } }
+"""
+import os, re, sys, json, time, hashlib, unicodedata, threading
+from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import requests
+
+SERVERS_URL = "http://vegetatv.duckdns.org/data/server_status.json"
+OUT_INDEX   = os.environ.get("VEGETA_VOD_OUT", "data/vegetatv/vegeta-vod-fr.json")
+OUT_EP_DIR  = os.environ.get("VEGETA_VOD_EP_DIR", "data/vegetatv/vod-ep")
+MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
+MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "3"))     # serveurs par film
+MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
+EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "12"))
+API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "120"))
+NB_SHARDS   = 64
+UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36")
+H = {"User-Agent": UA}
+
+def log(*a):
+    print(*a, file=sys.stderr, flush=True)
+
+# ─────────────────────────────────────────────── filtres FR / catégories
+RE_CAT_FR = re.compile(r"(?i)(^|[^a-z])(FR|FRA|FRANCE|FRENCH|FRANCAIS|FRANÇAIS|VF|VOSTFR|QUEBEC|QC)([^a-z]|$)")
+RE_CAT_ADULT = re.compile(r"(?i)adult|xxx|\+18|18\+|porn|erotic|hot\b")
+# Titres : préfixe langue et décorations
+RE_PREFIX = re.compile(r"^\s*(?:FR|VF|VFF|FRENCH|FRA|QC|AF)\s*[\-|:–]+\s*", re.I)
+RE_YEAR   = re.compile(r"[\(\[]?\b((?:19|20)\d{2})\b[\)\]]?")
+RE_LANG   = re.compile(r"(?i)[\(\[]\s*(VOSTFR|VOST|VO|MULTI|FRENCH|VFF|VF|TRUEFRENCH|SUBFRENCH|FRENCH MULTI SUB)[^\)\]]*[\)\]]")
+RE_QUAL   = re.compile(r"(?i)\b(4K|UHD|FHD|HDR|HEVC|H265|x265|1080p|720p|CAM|TS|R5|WEBRIP|BLURAY|DOLBY VISION|\(FR\))\b")
+RE_SPACES = re.compile(r"\s+")
+
+def norm(s):
+    s = unicodedata.normalize("NFD", s or "")
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
+    return re.sub(r"[^a-z0-9]", "", s)
+
+def clean_title(raw):
+    """« FR - Les Anges (2011) (FR) » → (« Les Anges », 2011, lang)."""
+    s = raw or ""
+    s = RE_PREFIX.sub("", s)
+    lang = ""
+    m = RE_LANG.search(s)
+    if m:
+        tag = m.group(1).upper()
+        lang = "VOSTFR" if tag in ("VOSTFR", "VOST", "VO", "SUBFRENCH") else "VF"
+        s = RE_LANG.sub(" ", s)
+    year = 0
+    ym = None
+    for ym_ in RE_YEAR.finditer(s):
+        ym = ym_
+    if ym:
+        year = int(ym.group(1))
+        s = s[:ym.start()] + " " + s[ym.end():]
+    s = RE_QUAL.sub(" ", s)
+    s = re.sub(r"[\(\[]\s*[\)\]]", " ", s)
+    s = re.sub(r"\s*[\-–|:]\s*$", "", s)
+    s = RE_SPACES.sub(" ", s).strip(" -–|:_")
+    return s, year, lang
+
+FILM_CATS = [
+    (re.compile(r"(?i)2026|nouveaut|latest|dernier|recent|nouveau"), "Nouveautés"),
+    (re.compile(r"(?i)\b2025\b"), "Films 2025"),
+    (re.compile(r"(?i)\b2024\b"), "Films 2024"),
+    (re.compile(r"(?i)\b2023\b"), "Films 2023"),
+    (re.compile(r"(?i)netflix"), "Netflix"),
+    (re.compile(r"(?i)disney|marvel|\bdc\b|pixar"), "Disney+ / Marvel"),
+    (re.compile(r"(?i)prime|amazon"), "Prime Video"),
+    (re.compile(r"(?i)apple"), "Apple TV+"),
+    (re.compile(r"(?i)canal|ocs|paramount|mytf1|tf1\+"), "Canal+ / MyTF1"),
+    (re.compile(r"(?i)anim|jeunesse|kids|enfant|famil|cartoon|manga|anime"), "Animation & Jeunesse"),
+    (re.compile(r"(?i)horreur|horror|thriller|crime|mafia|gangster|policier"), "Thriller & Horreur"),
+    (re.compile(r"(?i)action|guerre|war|arts?.?martiaux|western|aventure|adventure"), "Action & Aventure"),
+    (re.compile(r"(?i)com[eé]die|comedy|humour"), "Comédie"),
+    (re.compile(r"(?i)drame|drama|romance"), "Drame & Romance"),
+    (re.compile(r"(?i)sci|fantas|fantasy|sf\b"), "Science-fiction & Fantastique"),
+    (re.compile(r"(?i)docu"), "Documentaires"),
+    (re.compile(r"(?i)spectacle|concert|stand|humour|theatre|théâtre|show"), "Spectacles & Concerts"),
+    (re.compile(r"(?i)noel|noël|christmas"), "Noël"),
+    (re.compile(r"(?i)classique|1980|1990|ancien|old|vintage|retro"), "Classiques"),
+    (re.compile(r"(?i)afrique|african|bollywood|asiat|asia|cor[eé]e|kor"), "Monde"),
+    (re.compile(r"(?i)4k|uhd|dolby|light"), "Films 4K"),
+]
+SERIE_CATS = [
+    (re.compile(r"(?i)my ?tf1|tf1"), "MyTF1"),
+    (re.compile(r"(?i)t[eé]l[eé].?r[eé]alit|reality|realite"), "Télé-réalité"),
+    (re.compile(r"(?i)2026|nouveaut|latest|dernier|recent|nouveau"), "Nouveautés"),
+    (re.compile(r"(?i)\b2025\b"), "Séries 2025"),
+    (re.compile(r"(?i)\b2024\b"), "Séries 2024"),
+    (re.compile(r"(?i)netflix"), "Netflix"),
+    (re.compile(r"(?i)disney|marvel|pixar"), "Disney+ / Marvel"),
+    (re.compile(r"(?i)prime|amazon"), "Prime Video"),
+    (re.compile(r"(?i)apple"), "Apple TV+"),
+    (re.compile(r"(?i)canal|ocs|paramount|hbo|max\b|starz|showtime"), "Canal+ / HBO"),
+    (re.compile(r"(?i)anim|jeunesse|kids|enfant|famil|cartoon"), "Animation & Jeunesse"),
+    (re.compile(r"(?i)manga|anime"), "Anime & Manga"),
+    (re.compile(r"(?i)docu"), "Documentaires"),
+    (re.compile(r"(?i)asiat|asia|cor[eé]e|kor|turc|turk|novela|telenovela"), "Monde"),
+    (re.compile(r"(?i)com[eé]die|comedy"), "Comédie"),
+    (re.compile(r"(?i)drame|drama|romance"), "Drame & Romance"),
+    (re.compile(r"(?i)action|thriller|crime|policier|sci|fantas"), "Action & Thriller"),
+    (re.compile(r"(?i)ancien|old|classique|vintage"), "Classiques"),
+    (re.compile(r"(?i)vost|vo\b"), "VOSTFR"),
+]
+
+RE_TMDB_IMG = re.compile(r"^https?://image\.tmdb\.org/t/p/[^/]+(/[A-Za-z0-9_\-]+\.(?:jpg|png|webp))$")
+
+def img(url):
+    """Affiche : on ne garde que le chemin TMDB (« /abc.jpg ») quand c'en est un —
+    l'app reconstruit https://image.tmdb.org/t/p/w342<chemin>. Sinon l'URL entière."""
+    u = str(url or "").strip()
+    if not u:
+        return ""
+    m = RE_TMDB_IMG.match(u)
+    return m.group(1) if m else u[:200]
+
+def map_cat(name, table, default):
+    for rx, lbl in table:
+        if rx.search(name or ""):
+            return lbl
+    return default
+
+# ─────────────────────────────────────────────── serveurs
+def creds(url):
+    from urllib.parse import urlparse, parse_qs
+    u = urlparse(url); q = parse_qs(u.query)
+    return "%s://%s" % (u.scheme, u.netloc), q.get("username", [""])[0], q.get("password", [""])[0]
+
+def api(srv, action, **kw):
+    url = "%s/player_api.php?username=%s&password=%s&action=%s" % (srv["b"], srv["u"], srv["p"], action)
+    for k, v in kw.items():
+        url += "&%s=%s" % (k, v)
+    r = requests.get(url, headers=H, timeout=(15, API_TIMEOUT))
+    r.raise_for_status()
+    return r.json()
+
+def fetch_servers():
+    r = requests.get(SERVERS_URL, headers=H, timeout=30)
+    r.raise_for_status()
+    lst = (r.json() or {}).get("list") or []
+    out = []
+    for i, o in enumerate(lst):
+        if not (o.get("up") or o.get("status") == "up"):
+            continue
+        url = o.get("url", "") or ""
+        if not url.startswith("http"):
+            continue
+        base, user, pw = creds(url)
+        if not user or not pw:
+            continue
+        flag = o.get("flag", "") or ""
+        out.append({"pos": i + 1, "b": base, "u": user, "p": pw,
+                    "fr": "\U0001F1EB\U0001F1F7" in flag,
+                    "ping": int(o.get("response_time_ms", 9999) or 9999)})
+    return out
+
+def probe_server(srv):
+    """Compte les catégories FR ; renvoie None si le panel ne répond pas."""
+    try:
+        info = api(srv, "get_vod_categories")
+        vod_fr = [c for c in info if RE_CAT_FR.search(str(c.get("category_name", "")))]
+        sinfo = api(srv, "get_series_categories")
+        ser_fr = [c for c in sinfo if RE_CAT_FR.search(str(c.get("category_name", "")))]
+        srv["vod_cats"] = {str(c["category_id"]): c["category_name"] for c in vod_fr
+                           if not RE_CAT_ADULT.search(str(c.get("category_name", "")))}
+        srv["ser_cats"] = {str(c["category_id"]): c["category_name"] for c in ser_fr
+                           if not RE_CAT_ADULT.search(str(c.get("category_name", "")))}
+        srv["score"] = len(srv["vod_cats"]) + len(srv["ser_cats"])
+        log("[%2d] %s : %d cat films FR, %d cat séries FR" % (srv["pos"], srv["b"], len(vod_fr), len(ser_fr)))
+        return srv
+    except Exception as e:
+        log("[%2d] %s : KO %s" % (srv["pos"], srv["b"], str(e)[:80]))
+        return None
+
+# ─────────────────────────────────────────────── catalogue
+def ingest(srv, films, series, lock):
+    nf = ns = 0
+    try:
+        vod = api(srv, "get_vod_streams")
+    except Exception as e:
+        log("[%2d] films KO %s" % (srv["pos"], str(e)[:80])); vod = []
+    sig_vod = len(vod)
+    for v in vod:
+        cid = str(v.get("category_id", ""))
+        cname = srv["vod_cats"].get(cid)
+        if cname is None:
+            continue
+        if str(v.get("is_adult", "0")) in ("1", "true"):
+            continue
+        title, year, lang = clean_title(str(v.get("name", "")))
+        if len(title) < 2:
+            continue
+        tmdb = str(v.get("tmdb", "") or "").strip()
+        tmdb = int(tmdb) if tmdb.isdigit() else 0
+        key = ("m%d" % tmdb) if tmdb else "m_%s_%d" % (norm(title)[:40], year)
+        ext = str(v.get("container_extension", "") or "mp4")
+        sid = v.get("stream_id")
+        if sid is None:
+            continue
+        with lock:
+            e = films.get(key)
+            if e is None:
+                e = films[key] = {"id": key, "t": title, "y": year, "tmdb": tmdb,
+                                  "img": img(v.get("stream_icon")),
+                                  "c": map_cat(cname, FILM_CATS, "Films"),
+                                  "l": lang, "s": []}
+                nf += 1
+            if not e["img"] and v.get("stream_icon"):
+                e["img"] = img(v["stream_icon"])
+            if len(e["s"]) < MAX_SRC and all(x[0] != srv["pos"] for x in e["s"]):
+                e["s"].append([srv["pos"], int(sid), ext])
+    try:
+        ser = api(srv, "get_series")
+    except Exception as e:
+        log("[%2d] séries KO %s" % (srv["pos"], str(e)[:80])); ser = []
+    for s in ser:
+        cid = str(s.get("category_id", ""))
+        cname = srv["ser_cats"].get(cid)
+        if cname is None:
+            continue
+        title, year, lang = clean_title(str(s.get("name", "")))
+        if len(title) < 2:
+            continue
+        tmdb = str(s.get("tmdb", "") or "").strip()
+        tmdb = int(tmdb) if tmdb.isdigit() else 0
+        k = norm(title)
+        key = ("t%d" % tmdb) if tmdb else "t_" + k[:40]
+        sid = s.get("series_id")
+        if sid is None:
+            continue
+        with lock:
+            e = series.get(key)
+            if e is None:
+                e = series[key] = {"id": key, "t": title, "y": year, "tmdb": tmdb,
+                                   "img": img(s.get("cover")),
+                                   "c": map_cat(cname, SERIE_CATS, "Séries"),
+                                   "k": k, "s": []}
+                ns += 1
+            if not e["img"] and s.get("cover"):
+                e["img"] = img(s["cover"])
+            if len(e["s"]) < MAX_SRC_SER and all(x[0] != srv["pos"] for x in e["s"]):
+                e["s"].append([srv["pos"], int(sid)])
+    log("[%2d] +%d films, +%d séries (brut %d films)" % (srv["pos"], nf, ns, sig_vod))
+    return sig_vod
+
+# ─────────────────────────────────────────────── épisodes
+RE_EP_TITLE = re.compile(r"(?i)^.*?s\d{1,3}\s*e\d{1,4}\s*[\-–:]?\s*")
+
+def short_ep_title(title, serie_title):
+    t = str(title or "")
+    t2 = RE_EP_TITLE.sub("", t).strip(" -–:")
+    if not t2:
+        return ""
+    if serie_title and norm(t2) == norm(serie_title):
+        return ""
+    if re.match(r"(?i)^(episode|épisode)\s*\d+$", t2):
+        return ""
+    return t2[:60]
+
+def fetch_episodes(srv_by_pos, pos, series_id, serie_title):
+    srv = srv_by_pos[pos]
+    try:
+        info = api(srv, "get_series_info", series_id=series_id)
+    except Exception as e:
+        return None
+    eps = info.get("episodes") or {}
+    if isinstance(eps, list):   # certains panels rendent une liste de listes
+        eps = {str(i + 1): v for i, v in enumerate(eps)}
+    out = {}
+    for season, lst in eps.items():
+        if not isinstance(lst, list):
+            continue
+        arr = []
+        for e in lst:
+            try:
+                eid = int(e.get("id"))
+            except Exception:
+                continue
+            num = e.get("episode_num", 0)
+            try:
+                num = int(num)
+            except Exception:
+                num = 0
+            ext = str(e.get("container_extension", "") or "mp4")
+            arr.append([num, eid, ext, short_ep_title(e.get("title", ""), serie_title)])
+        if arr:
+            arr.sort(key=lambda x: x[0])
+            out[str(season)] = arr
+    return out
+
+def shard_of(key):
+    return int(hashlib.md5(key.encode("utf-8")).hexdigest()[:2], 16) % NB_SHARDS
+
+# ─────────────────────────────────────────────── main
+def main():
+    t0 = time.time()
+    servers = fetch_servers()
+    log("%d serveurs up" % len(servers))
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        probed = [s for s in ex.map(probe_server, servers) if s]
+    # ne garder que ceux qui ont un vrai catalogue FR
+    probed = [s for s in probed if len(s["vod_cats"]) >= 5 or len(s["ser_cats"]) >= 3]
+    # FR d'abord, puis catalogue le plus riche, puis ping
+    probed.sort(key=lambda s: (0 if s["fr"] else 1, -s["score"], s["ping"]))
+    log("candidats : %s" % [(s["pos"], s["score"]) for s in probed])
+
+    films, series, lock = OrderedDict(), OrderedDict(), threading.Lock()
+    kept = []
+    seen_sig = set()
+    # Ingestion séquentielle par serveur pour pouvoir écarter les miroirs
+    #   (même catalogue = même nombre brut de films) sans les compter 2 fois.
+    for s in probed:
+        if len(kept) >= MAX_SERVERS:
+            break
+        sig = ingest(s, films, series, lock)
+        if sig == 0:
+            continue
+        if sig in seen_sig:
+            log("[%2d] miroir (signature %d) → conservé comme source alternative seulement" % (s["pos"], sig))
+        seen_sig.add(sig)
+        kept.append(s)
+    log("%d serveurs retenus, %d films, %d séries uniques (%.0fs)" %
+        (len(kept), len(films), len(series), time.time() - t0))
+
+    # Épisodes : pour chaque (serveur, série) retenu.
+    srv_by_pos = {s["pos"]: s for s in kept}
+    jobs = []
+    for key, e in series.items():
+        for pos, sid in e["s"]:
+            jobs.append((key, pos, sid, e["t"]))
+    log("%d fiches séries à récupérer" % len(jobs))
+    shards = [dict() for _ in range(NB_SHARDS)]
+    done = fail = 0
+    # Limite par serveur pour ne pas se faire bannir : 4 requêtes simultanées / panel.
+    sem = {pos: threading.Semaphore(4) for pos in srv_by_pos}
+    def run(job):
+        key, pos, sid, title = job
+        with sem[pos]:
+            return job, fetch_episodes(srv_by_pos, pos, sid, title)
+    with ThreadPoolExecutor(max_workers=EP_WORKERS) as ex:
+        for fut in as_completed([ex.submit(run, j) for j in jobs]):
+            (key, pos, sid, title), eps = fut.result()
+            if eps:
+                sk = "%d:%d" % (pos, sid)
+                shards[shard_of(sk)][sk] = eps
+                done += 1
+            else:
+                fail += 1
+            if (done + fail) % 500 == 0:
+                log("  épisodes : %d ok, %d KO (%.0fs)" % (done, fail, time.time() - t0))
+    log("épisodes : %d fiches ok, %d KO" % (done, fail))
+    # Une série sans AUCUNE fiche d'épisodes ne sert à rien : on l'enlève.
+    ok_keys = set()
+    for sh in shards:
+        ok_keys.update(sh.keys())
+    for key in list(series.keys()):
+        e = series[key]
+        e["s"] = [x for x in e["s"] if ("%d:%d" % (x[0], x[1])) in ok_keys]
+        if not e["s"]:
+            del series[key]
+
+    payload = {
+        "savedAt": int(time.time() * 1000),
+        "generatedBy": "nx-data cron (refresh_vegeta_vod.py)",
+        "servers": {str(s["pos"]): {"b": s["b"], "u": s["u"], "p": s["p"]} for s in kept},
+        "films": list(films.values()),
+        "series": list(series.values()),
+    }
+    os.makedirs(os.path.dirname(OUT_INDEX), exist_ok=True)
+    with open(OUT_INDEX, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
+    os.makedirs(OUT_EP_DIR, exist_ok=True)
+    for i, sh in enumerate(shards):
+        with open(os.path.join(OUT_EP_DIR, "%02x.json" % i), "w", encoding="utf-8") as fh:
+            json.dump(sh, fh, ensure_ascii=False, separators=(",", ":"))
+    log("OK : %d films, %d séries, %d fiches épisodes → %s (%.0f Ko) en %.0fs" %
+        (len(films), len(series), done, OUT_INDEX, os.path.getsize(OUT_INDEX) / 1024, time.time() - t0))
+
+if __name__ == "__main__":
+    main()
