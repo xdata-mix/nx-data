@@ -255,6 +255,121 @@ async def fetch_external_source(session, label: str, url: str) -> list:
     return result
 
 
+# === DOSSIERS MIX FR : liens M3U colles par l'utilisateur (fichier mixfr-dossiers.txt) ===
+# 2026-09-05 (user « je veux ajouter une playlist M3U dans Mix FR, en un dossier ») :
+#   chaque ligne « Nom du dossier | https://lien.m3u » du fichier mixfr-dossiers.txt
+#   (racine du depot) est importee EN ENTIER dans data.m3u sous un seul
+#   group-title = le nom du dossier -> un dossier dans « Autres Replays > Mix FR ».
+#   La section est reconstruite a chaque refresh (entre les deux marqueurs), donc
+#   toujours a jour ; si un lien ne repond pas, son ancien contenu est conserve.
+DOSSIERS_FICHIER = os.path.join(os.path.dirname(LOCAL_M3U) or ".", "mixfr-dossiers.txt")
+DOSSIERS_DEBUT = "# ===== DOSSIERS MIX FR (import automatique de mixfr-dossiers.txt, ne pas editer ici) ====="
+DOSSIERS_FIN = "# ===== FIN DOSSIERS MIX FR ====="
+
+
+def lire_dossiers_m3u() -> list:
+    """Retourne [(nom_dossier, url)] depuis mixfr-dossiers.txt (lignes « Nom | URL »)."""
+    out = []
+    if not os.path.exists(DOSSIERS_FICHIER):
+        return out
+    with open(DOSSIERS_FICHIER, encoding='utf-8') as f:
+        for ligne in f:
+            l = ligne.strip()
+            if not l or l.startswith('#'):
+                continue
+            if '|' in l:
+                nom, _, url = l.partition('|')
+            else:
+                nom, url = "", l
+            nom, url = nom.strip(), url.strip()
+            if not url.startswith(('http://', 'https://')):
+                continue
+            out.append((nom or "Playlist", url))
+    return out
+
+
+def _section_dossiers(content: str) -> str:
+    """Contenu actuel de la section (entre marqueurs), '' si absente."""
+    i = content.find(DOSSIERS_DEBUT)
+    j = content.find(DOSSIERS_FIN)
+    if i < 0 or j < 0 or j < i:
+        return ""
+    return content[i:j + len(DOSSIERS_FIN)]
+
+
+def _blocs_dossier(section: str, nom: str) -> str:
+    """Sous-partie de la section pour un dossier donne (ancien contenu de secours)."""
+    marque = f"# --- dossier: {nom} ---\n"
+    i = section.find(marque)
+    if i < 0:
+        return ""
+    j = section.find("# --- dossier: ", i + len(marque))
+    if j < 0:
+        j = section.find(DOSSIERS_FIN, i)
+    return section[i:j] if j > i else ""
+
+
+async def _telecharger_dossier(session, nom: str, url: str) -> str:
+    """Telecharge une playlist et rend ses blocs, tous sous group-title=nom."""
+    try:
+        async with session.get(url, headers={"User-Agent": UA},
+                               timeout=aiohttp.ClientTimeout(total=max(TIMEOUT, 20))) as r:
+            text = await r.text()
+    except Exception as e:
+        print(f"  [dossier {nom}] fetch error: {e}")
+        return ""
+    if '#EXTINF' not in text:
+        print(f"  [dossier {nom}] pas une playlist M3U")
+        return ""
+    # Fins de ligne normalisees + lignes vides retirees : le parseur de l'appli
+    #   (parseMixFrM3u) oublie l'EXTINF en cours des qu'il rencontre une ligne vide.
+    text = text.replace('\r\n', '\n').replace('\r', '\n')
+    sortie, n = [], 0
+    for b in re.split(r'(?=#EXTINF)', text):
+        if not b.startswith('#EXTINF'):
+            continue
+        b = '\n'.join(l.strip() for l in b.split('\n') if l.strip())
+        if not re.search(r'\n(https?://\S+)', b):
+            continue
+        premiere, _, reste = b.partition('\n')
+        if 'group-title=' in premiere:
+            premiere = re.sub(r'group-title="[^"]*"', f'group-title="{nom}"', premiere)
+        else:
+            premiere = re.sub(r'^#EXTINF:(-?\d+)', rf'#EXTINF:\1 group-title="{nom}"', premiere, count=1)
+        sortie.append(premiere + '\n' + reste + '\n')
+        n += 1
+    print(f"  [dossier {nom}] {n} chaines importees")
+    return ''.join(sortie)
+
+
+async def importer_dossiers_m3u(content: str, ancienne: str = None) -> str:
+    """Reconstruit la section DOSSIERS MIX FR de data.m3u depuis mixfr-dossiers.txt.
+    `ancienne` = section precedente (secours si un lien ne repond pas)."""
+    dossiers = lire_dossiers_m3u()
+    if ancienne is None:
+        ancienne = _section_dossiers(content)
+    elif ancienne and ancienne not in content:
+        content = content.rstrip() + "\n\n" + ancienne + "\n"
+    sans = content.replace(ancienne, "").rstrip() + "\n" if ancienne else content
+    if not dossiers:
+        return sans if ancienne else content
+    print(f"\n=== Phase 5 : dossiers Mix FR ({len(dossiers)} lien(s) dans mixfr-dossiers.txt) ===")
+    parties = [DOSSIERS_DEBUT + "\n"]
+    conn = aiohttp.TCPConnector(limit=4, ssl=False)
+    async with aiohttp.ClientSession(connector=conn) as session:
+        for nom, url in dossiers:
+            blocs = await _telecharger_dossier(session, nom, url)
+            if not blocs:
+                secours = _blocs_dossier(ancienne, nom)
+                if secours:
+                    print(f"  [dossier {nom}] lien injoignable -> ancien contenu conserve")
+                    parties.append(secours)
+                continue
+            parties.append(f"# --- dossier: {nom} ---\n" + blocs)
+    parties.append(DOSSIERS_FIN + "\n")
+    return sans.rstrip() + "\n\n" + ''.join(parties)
+
+
 def skip_url(url: str) -> bool:
     if url in SKIP_URLS:
         return True
@@ -383,7 +498,13 @@ async def main_async():
         with open(LOCAL_M3U, encoding='utf-8') as f:
             content = f.read()
 
-        blocks = re.split(r'(?=#EXTINF)', content)
+        # Dossiers Mix FR (liens colles par l'utilisateur) : SORTIS du traitement
+        #   ci-dessous (pas de test « mort », pas de remplacement ParaTV, pas de
+        #   suppression) ; la section est reconstruite telle quelle en Phase 5.
+        section_dossiers = _section_dossiers(content)
+        contenu_travail = content.replace(section_dossiers, "").rstrip() + "\n" if section_dossiers else content
+
+        blocks = re.split(r'(?=#EXTINF)', contenu_travail)
         entries = []
         for i, b in enumerate(blocks[1:], 1):
             if not b.startswith('#EXTINF'):
@@ -603,6 +724,14 @@ async def main_async():
     print(f"\n=== Stats ===")
     print(f"Checked: {len(entries)}  Alive: {n_alive}  Dead: {len(dead_entries)}  Replaced: {n_replaced}")
     print(f"ParaTV ajoutes: {n_added}  | FR backup: {n_backup_added}  | FR nouveaux: {n_new_added}")
+
+    # === Phase 5 : dossiers Mix FR (mixfr-dossiers.txt), re-importes tels quels ===
+    try:
+        new_content = await importer_dossiers_m3u(new_content, section_dossiers)
+    except Exception as e:
+        print(f"  Phase 5 KO ({e}) -> ancienne section conservee")
+        if section_dossiers:
+            new_content = new_content.rstrip() + "\n\n" + section_dossiers + "\n"
 
     if new_content == content:
         print("\n-> No change, exiting.")

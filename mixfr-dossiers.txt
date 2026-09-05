@@ -1,0 +1,12 @@
+# DOSSIERS MIX FR — colle ici tes liens M3U, un par ligne :
+#
+#     Nom du dossier | https://exemple.com/playlist.m3u
+#
+# - Le nom devient un dossier dans l'appli : Autres Replays > Mix FR > « Nom du dossier ».
+# - Toute la playlist du lien est importee dans data.m3u sous ce dossier (section
+#   « DOSSIERS MIX FR » en fin de fichier), a chaque passage du refresh (20 min).
+# - Ces chaines ne sont JAMAIS testees, remplacees ni supprimees par le refresh :
+#   c'est le contenu du lien, tel quel. Si le lien ne repond pas, l'ancien contenu reste.
+# - Une ligne sans nom (« https://... » seul) tombe dans le dossier « Playlist ».
+# - Une ligne commencant par # est ignoree.
+
