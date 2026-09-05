@@ -148,7 +148,7 @@ def creds(url):
     u = urlparse(url); q = parse_qs(u.query)
     return "%s://%s" % (u.scheme, u.netloc), q.get("username", [""])[0], q.get("password", [""])[0]
 
-def api(srv, action, retries=2, **kw):
+def api(srv, action, retries=2, timeout=None, **kw):
     """Appel player_api avec 2 nouvelles tentatives : les gros catalogues (150 000 films)
     tombent parfois en 5xx/timeout au premier essai."""
     url = "%s/player_api.php?username=%s&password=%s&action=%s" % (srv["b"], srv["u"], srv["p"], action)
@@ -157,7 +157,7 @@ def api(srv, action, retries=2, **kw):
     last = None
     for i in range(retries + 1):
         try:
-            r = requests.get(url, headers=H, timeout=(15, API_TIMEOUT))
+            r = requests.get(url, headers=H, timeout=(15, timeout or API_TIMEOUT))
             r.raise_for_status()
             return r.json()
         except Exception as e:
@@ -292,7 +292,9 @@ def short_ep_title(title, serie_title):
 def fetch_episodes(srv_by_pos, pos, series_id, serie_title):
     srv = srv_by_pos[pos]
     try:
-        info = api(srv, "get_series_info", retries=1, series_id=series_id)
+        # Fiche = petite réponse : 45 s max, sinon un serveur lent bloque la fin du run
+        #   (1er run : les 1 500 dernières fiches à 0,75/s avec le timeout de 240 s).
+        info = api(srv, "get_series_info", retries=1, timeout=45, series_id=series_id)
     except Exception as e:
         return None
     eps = info.get("episodes") or {}
