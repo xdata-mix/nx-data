@@ -32,7 +32,7 @@ OUT_EP_DIR  = os.environ.get("VEGETA_VOD_EP_DIR", "data/vegetatv/vod-ep")
 MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
 MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "3"))     # serveurs par film
 MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
-EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "12"))
+EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "24"))
 API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "240"))
 NB_SHARDS   = 64
 UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
@@ -359,15 +359,12 @@ def main():
     #   être connu ici (1er run : un serveur dont la liste de films avait échoué mais qui avait
     #   fourni des séries manquait → KeyError sur 25 000 jobs).
     srv_by_pos = {s["pos"]: s for s in probed}
-    jobs = []
-    for key, e in series.items():
-        for pos, sid in e["s"]:
-            jobs.append((key, pos, sid, e["t"]))
-    log("%d fiches séries à récupérer" % len(jobs))
+    # 2 passes (1er run sur le runner : 3,7 fiches/s → 2 h pour 25 800 fiches) :
+    #   passe 1 = source PRINCIPALE de chaque série ; passe 2 = source de secours
+    #   UNIQUEMENT pour les séries dont la principale a échoué. ~moitié moins d'appels.
     shards = [dict() for _ in range(NB_SHARDS)]
-    done = fail = 0
-    # Limite par serveur pour ne pas se faire bannir : 4 requêtes simultanées / panel.
-    sem = {pos: threading.Semaphore(4) for pos in srv_by_pos}
+    # Limite par serveur pour ne pas se faire bannir : 6 requêtes simultanées / panel.
+    sem = {pos: threading.Semaphore(6) for pos in srv_by_pos}
     def run(job):
         key, pos, sid, title = job
         try:
@@ -376,17 +373,30 @@ def main():
         except Exception as e:      # jamais laisser une fiche tuer le run entier
             log("  fiche %s:%s KO %s" % (pos, sid, str(e)[:60]))
             return job, None
-    with ThreadPoolExecutor(max_workers=EP_WORKERS) as ex:
-        for fut in as_completed([ex.submit(run, j) for j in jobs]):
-            (key, pos, sid, title), eps = fut.result()
-            if eps:
-                sk = "%d:%d" % (pos, sid)
-                shards[shard_of(sk)][sk] = eps
-                done += 1
-            else:
-                fail += 1
-            if (done + fail) % 250 == 0:
-                log("  épisodes : %d ok, %d KO (%.0fs)" % (done, fail, time.time() - t0))
+    done = fail = 0
+    def passe(jobs, libelle):
+        nonlocal done, fail
+        rates = set()
+        log("%s : %d fiches séries à récupérer" % (libelle, len(jobs)))
+        with ThreadPoolExecutor(max_workers=EP_WORKERS) as ex:
+            for fut in as_completed([ex.submit(run, j) for j in jobs]):
+                (key, pos, sid, title), eps = fut.result()
+                if eps:
+                    sk = "%d:%d" % (pos, sid)
+                    shards[shard_of(sk)][sk] = eps
+                    done += 1
+                else:
+                    fail += 1
+                    rates.add(key)
+                if (done + fail) % 250 == 0:
+                    log("  épisodes : %d ok, %d KO (%.0fs)" % (done, fail, time.time() - t0))
+        return rates
+    principales = [(key, e["s"][0][0], e["s"][0][1], e["t"]) for key, e in series.items()]
+    rates = passe(principales, "passe 1 (source principale)")
+    secours = [(key, e["s"][1][0], e["s"][1][1], e["t"])
+               for key, e in series.items() if key in rates and len(e["s"]) > 1]
+    if secours:
+        passe(secours, "passe 2 (source de secours des échecs)")
     log("épisodes : %d fiches ok, %d KO" % (done, fail))
     # Une série sans AUCUNE fiche d'épisodes ne sert à rien : on l'enlève.
     ok_keys = set()
