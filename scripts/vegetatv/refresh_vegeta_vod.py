@@ -33,7 +33,7 @@ MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
 MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "3"))     # serveurs par film
 MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
 EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "12"))
-API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "120"))
+API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "240"))
 NB_SHARDS   = 64
 UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36")
@@ -148,13 +148,23 @@ def creds(url):
     u = urlparse(url); q = parse_qs(u.query)
     return "%s://%s" % (u.scheme, u.netloc), q.get("username", [""])[0], q.get("password", [""])[0]
 
-def api(srv, action, **kw):
+def api(srv, action, retries=2, **kw):
+    """Appel player_api avec 2 nouvelles tentatives : les gros catalogues (150 000 films)
+    tombent parfois en 5xx/timeout au premier essai."""
     url = "%s/player_api.php?username=%s&password=%s&action=%s" % (srv["b"], srv["u"], srv["p"], action)
     for k, v in kw.items():
         url += "&%s=%s" % (k, v)
-    r = requests.get(url, headers=H, timeout=(15, API_TIMEOUT))
-    r.raise_for_status()
-    return r.json()
+    last = None
+    for i in range(retries + 1):
+        try:
+            r = requests.get(url, headers=H, timeout=(15, API_TIMEOUT))
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            last = e
+            if i < retries:
+                time.sleep(3 + 5 * i)
+    raise last
 
 def fetch_servers():
     r = requests.get(SERVERS_URL, headers=H, timeout=30)
@@ -263,7 +273,7 @@ def ingest(srv, films, series, lock):
             if len(e["s"]) < MAX_SRC_SER and all(x[0] != srv["pos"] for x in e["s"]):
                 e["s"].append([srv["pos"], int(sid)])
     log("[%2d] +%d films, +%d séries (brut %d films)" % (srv["pos"], nf, ns, sig_vod))
-    return sig_vod
+    return sig_vod, nf + ns
 
 # ─────────────────────────────────────────────── épisodes
 RE_EP_TITLE = re.compile(r"(?i)^.*?s\d{1,3}\s*e\d{1,4}\s*[\-–:]?\s*")
@@ -282,7 +292,7 @@ def short_ep_title(title, serie_title):
 def fetch_episodes(srv_by_pos, pos, series_id, serie_title):
     srv = srv_by_pos[pos]
     try:
-        info = api(srv, "get_series_info", series_id=series_id)
+        info = api(srv, "get_series_info", retries=1, series_id=series_id)
     except Exception as e:
         return None
     eps = info.get("episodes") or {}
@@ -334,18 +344,21 @@ def main():
     for s in probed:
         if len(kept) >= MAX_SERVERS:
             break
-        sig = ingest(s, films, series, lock)
-        if sig == 0:
+        sig, ajoutes = ingest(s, films, series, lock)
+        if ajoutes == 0:
             continue
-        if sig in seen_sig:
+        if sig and sig in seen_sig:
             log("[%2d] miroir (signature %d) → conservé comme source alternative seulement" % (s["pos"], sig))
-        seen_sig.add(sig)
+        if sig:
+            seen_sig.add(sig)
         kept.append(s)
     log("%d serveurs retenus, %d films, %d séries uniques (%.0fs)" %
         (len(kept), len(films), len(series), time.time() - t0))
 
-    # Épisodes : pour chaque (serveur, série) retenu.
-    srv_by_pos = {s["pos"]: s for s in kept}
+    # Épisodes : pour chaque (serveur, série) retenu. ⚠ Tout serveur cité par une source doit
+    #   être connu ici (1er run : un serveur dont la liste de films avait échoué mais qui avait
+    #   fourni des séries manquait → KeyError sur 25 000 jobs).
+    srv_by_pos = {s["pos"]: s for s in probed}
     jobs = []
     for key, e in series.items():
         for pos, sid in e["s"]:
@@ -357,8 +370,12 @@ def main():
     sem = {pos: threading.Semaphore(4) for pos in srv_by_pos}
     def run(job):
         key, pos, sid, title = job
-        with sem[pos]:
-            return job, fetch_episodes(srv_by_pos, pos, sid, title)
+        try:
+            with sem[pos]:
+                return job, fetch_episodes(srv_by_pos, pos, sid, title)
+        except Exception as e:      # jamais laisser une fiche tuer le run entier
+            log("  fiche %s:%s KO %s" % (pos, sid, str(e)[:60]))
+            return job, None
     with ThreadPoolExecutor(max_workers=EP_WORKERS) as ex:
         for fut in as_completed([ex.submit(run, j) for j in jobs]):
             (key, pos, sid, title), eps = fut.result()
@@ -368,7 +385,7 @@ def main():
                 done += 1
             else:
                 fail += 1
-            if (done + fail) % 500 == 0:
+            if (done + fail) % 250 == 0:
                 log("  épisodes : %d ok, %d KO (%.0fs)" % (done, fail, time.time() - t0))
     log("épisodes : %d fiches ok, %d KO" % (done, fail))
     # Une série sans AUCUNE fiche d'épisodes ne sert à rien : on l'enlève.
@@ -384,7 +401,10 @@ def main():
     payload = {
         "savedAt": int(time.time() * 1000),
         "generatedBy": "nx-data cron (refresh_vegeta_vod.py)",
-        "servers": {str(s["pos"]): {"b": s["b"], "u": s["u"], "p": s["p"]} for s in kept},
+        "servers": {str(p): {"b": srv_by_pos[p]["b"], "u": srv_by_pos[p]["u"], "p": srv_by_pos[p]["p"]}
+                    for p in sorted(set([x[0] for e in films.values() for x in e["s"]] +
+                                        [x[0] for e in series.values() for x in e["s"]]))
+                    if p in srv_by_pos},
         "films": list(films.values()),
         "series": list(series.values()),
     }
