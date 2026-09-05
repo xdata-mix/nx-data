@@ -376,6 +376,80 @@ async def importer_dossiers_m3u(content: str, ancienne: str = None) -> str:
     return sans.rstrip() + "\n\n" + ''.join(parties)
 
 
+# === DOSSIERS D'AFFICHAGE MIX FR (Phase 6) ===
+# 2026-09-05 (user « Programmes a 1468 chaines, les autres dossiers sont a moitie
+#   vides, trie tout ca ; ce que tu ne sais pas trier va dans Autre ») :
+#   l'appli (LiveHubFolderDialog.displayAggregatedCategories) construit les
+#   sous-dossiers de Mix FR a partir de la partie APRES « - » du group-title,
+#   et jette dans « Programmes » tout groupe SANS « - ». Ici on donne a chaque
+#   groupe une forme « <origine> - <Dossier> » avec un nom de dossier canonique
+#   (Sport/Sports/Sports & Auto -> Sport, Cinema/Cinéma/Films -> Films...).
+#   Groupe sans « - » inconnu -> « Autres ». Les groupes speciaux (Multi Live,
+#   Live MIX) et la section DOSSIERS MIX FR ne sont pas touches.
+DOSSIERS_AFFICHAGE = {
+    'sport': 'Sport', 'sports': 'Sport', 'sports & auto': 'Sport',
+    'info': 'Info', 'news': 'Info', 'actualites': 'Info', 'actualités': 'Info', 'bfm / rmc': 'Info',
+    'business': 'Info', 'legislative': 'Info', 'politique': 'Info',
+    'jeunesse': 'Jeunesse', 'kids': 'Jeunesse', 'animation': 'Jeunesse', 'anime': 'Jeunesse',
+    'cinema': 'Films', 'cinéma': 'Films', 'films': 'Films', 'vod': 'Films',
+    'action & thriller': 'Action & Thriller', 'comedie': 'Comédie', 'comédie': 'Comédie',
+    'crime': 'Crime & Mystère', 'crime & mystere': 'Crime & Mystère', 'drame & romance': 'Drame & Romance',
+    'séries': 'Séries', 'series': 'Séries', 'series tv': 'Séries', 'séries fr': 'Séries FR',
+    'series policieres': 'Séries policières', 'a binge-watch': 'A Binge-Watch',
+    'documentaire': 'Documentaires', 'documentaires': 'Documentaires', 'culture': 'Documentaires',
+    'nature & animaux': 'Nature & Animaux', 'voyages et gastronomie': 'Voyages et Gastronomie',
+    'lifestyle': 'Lifestyle',
+    'tele realite': 'Télé-réalité', 'tv realite': 'Télé-réalité',
+    'divertissement': 'Divertissement', 'emissions cultes': 'Émissions cultes',
+    'musique': 'Musique', 'radio fr': 'Radio',
+    '100% francais': '100% Français', 'généralistes': '100% Français', 'generalistes': '100% Français',
+    'tnt france': '100% Français', 'live tf1+': '100% Français', 'live canal': '100% Français',
+    'canal+': '100% Français', 'france': '100% Français', 'locale': '100% Français',
+    'nouveautes paratv': 'Nouveautés', 'nouveautés paratv': 'Nouveautés', 'nouveautés fr': 'Nouveautés',
+    'nouveau sur pluto tv': 'Nouveautés',
+    'pluto tv': 'Pluto TV', 'rakuten tv': 'Rakuten TV', 'sony one': 'Sony One',
+    'autres': 'Autres', 'religion': 'Autres', 'netplus': 'Autres', 'suisse': 'Autres', 'belgique': 'Autres',
+    'education': 'Autres', 'france tv backup': 'Autres', 'internationale': 'Autres', 'replay': 'Autres',
+}
+GROUPES_PROTEGES = ('multi live', 'live mix')
+
+
+def dossier_affichage(group: str) -> str:
+    """Rend le group-title a ecrire pour un groupe donne (voir DOSSIERS_AFFICHAGE)."""
+    g = (group or '').strip()
+    gl = g.lower()
+    if not g or gl.startswith(GROUPES_PROTEGES):
+        return g
+    if ' - ' in g:
+        origine, sous = g.split(' - ', 1)
+        sous = sous.strip()
+        # Deja de la forme « Nom - Nom » (dossiers colles par l'utilisateur) : inchange.
+        if sous == origine.strip():
+            return g
+        cible = DOSSIERS_AFFICHAGE.get(sous.lower(), sous)
+        return f"{origine.strip()} - {cible}"
+    cible = DOSSIERS_AFFICHAGE.get(gl, 'Autres')
+    return f"{g} - {cible}"
+
+
+def appliquer_dossiers_affichage(content: str) -> str:
+    """Phase 6 : reecrit tous les group-title (hors section DOSSIERS MIX FR)."""
+    stats = {}
+    def remplacer(m):
+        avant = m.group(1)
+        apres = dossier_affichage(avant)
+        if apres != avant:
+            stats[apres.split(' - ', 1)[1] if ' - ' in apres else apres] = \
+                stats.get(apres.split(' - ', 1)[1] if ' - ' in apres else apres, 0) + 1
+        return f'group-title="{apres}"'
+    out = re.sub(r'group-title="([^"]*)"', remplacer, content)
+    if stats:
+        print("\n=== Phase 6 : dossiers d'affichage Mix FR ===")
+        for k, v in sorted(stats.items(), key=lambda kv: -kv[1]):
+            print(f"  -> {k:24s} {v} chaine(s) reclassee(s)")
+    return out
+
+
 def skip_url(url: str) -> bool:
     if url in SKIP_URLS:
         return True
@@ -578,7 +652,7 @@ async def main_async():
                 continue
             block = blocks[i]
             # Test si c'est dans "Live Canal" et URL aab1.top morte
-            if 'group-title="Live Canal"' in block:
+            if 'group-title="Live Canal' in block:   # « Live Canal » ou « Live Canal - ... » (Phase 6)
                 # Toute URL morte du groupe Live Canal est supprimée (pas juste aab1)
                 # car ce groupe doit rester PROPRE : que des chaines qui marchent
                 to_remove_indices.add(i)
@@ -730,6 +804,9 @@ async def main_async():
     print(f"\n=== Stats ===")
     print(f"Checked: {len(entries)}  Alive: {n_alive}  Dead: {len(dead_entries)}  Replaced: {n_replaced}")
     print(f"ParaTV ajoutes: {n_added}  | FR backup: {n_backup_added}  | FR nouveaux: {n_new_added}")
+
+    # === Phase 6 : dossiers d'affichage Mix FR (noms canoniques, plus de « Programmes ») ===
+    new_content = appliquer_dossiers_affichage(new_content)
 
     # === Phase 5 : dossiers Mix FR (mixfr-dossiers.txt), re-importes tels quels ===
     try:
