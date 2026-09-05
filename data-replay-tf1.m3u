@@ -2825,8 +2825,6 @@ tf1plus://tf1/vip-pets
 tf1plus://tf1/petit-spirou
 #EXTINF:-1 tvg-id="tf1plus-tf1-the-voice-kids" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Voice Kids
 tf1plus://tf1/the-voice-kids
-#EXTINF:-1 tvg-id="tf1plus-tf1-lhumour-a-la-plage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lhumour A la Plage
-tf1plus://tf1/lhumour-a-la-plage
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-familles-nombreuses-la-vie-en-xxl" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Familles Nombreuses la Vie En Xxl
 tf1plus://tf1/les-familles-nombreuses-la-vie-en-xxl
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
@@ -2845,6 +2843,8 @@ tf1plus://tmc/les-chevaliers-du-fiel-croisiere-denfer
 tf1plus://tmc/municipaux-2-pointzero
 #EXTINF:-1 tvg-id="tf1plus-tf1-une-famille-en-or" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Une Famille En Or
 tf1plus://tf1/une-famille-en-or
+#EXTINF:-1 tvg-id="tf1plus-tf1-lhumour-a-la-plage" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Lhumour A la Plage
+tf1plus://tf1/lhumour-a-la-plage
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-concours" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Concours
 tf1plus://tf1/le-grand-concours
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-dernier-cercle" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Dernier Cercle
@@ -2975,12 +2975,12 @@ tf1plus://tfx/super-nanny
 tf1plus://tf1/mamans-ados-le-defi-de-leur-vie
 #EXTINF:-1 tvg-id="tf1plus-tf1-spider-man-far-from-home-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-8654ca-7bd046-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Spider Man Far From Home
 tf1plus://tf1/spider-man-far-from-home
+#EXTINF:-1 tvg-id="tf1plus-tmc-wonder-woman-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-68ac1f-1ed487-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Wonder Woman
+tf1plus://tmc/wonder-woman
 #EXTINF:-1 tvg-id="tf1plus-tmc-camping-3-963-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-flux-program-card-portrait-1-copie-8e1046-7a4e9a-9ccf63-66ba2b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Camping 3 963
 tf1plus://tmc/camping-3-963
 #EXTINF:-1 tvg-id="tf1plus-tmc-world-war-z-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-png-500ea2-1c310a-8bf3a4-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",World War Z
 tf1plus://tmc/world-war-z
-#EXTINF:-1 tvg-id="tf1plus-tfx-limitless-le-film-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-841481-875785-0bbc92-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Limitless le Film
-tf1plus://tfx/limitless-le-film
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-elysium-top-10" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-elysium-0ff58b-ffdc4e-1b0e79-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Elysium
 tf1plus://tf1-series-films/elysium
 #EXTINF:-1 tvg-id="tf1plus-tf1-spider-man-homecoming-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-6f4e0b-3412a0-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Spider Man Homecoming
