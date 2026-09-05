@@ -21,6 +21,19 @@ BFM_LIVE_CHANNELS = [
     ("bfmbusiness",   "BFM Business",    f"{BFM_LOGO_BASE}/bfm-business-fr.png"),
     ("rmclife",       "RMC Life",        f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
     ("techco",        "Tech & Co",       f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
+    # 2026-09-05 : RMC BFM Play est devenu RMC+ (www.rmcplus.fr). Les clés ci-dessus sont
+    # traduites par l'app (BfmResolver.CHAINES) ; celles ci-dessous sont DIRECTEMENT les ids
+    # RMC+ (page_id de /api/bff/v1/page?page_type=direct), relevés sur l'accueil du site.
+    ("rmc",                     "RMC (Intégrale Sport)",     f"{BFM_LOGO_BASE}/rmc-story-fr.png"),
+    ("bfm_2",                   "BFM2",                      f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
+    ("brut",                    "Brut",                      f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
+    ("after_foot_tv",           "L'After Foot TV",           f"{BFM_LOGO_BASE}/rmc-story-fr.png"),
+    ("bfm_grands_reportages",   "BFM Grands Reportages",     f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
+    ("j_irai_dormir_chez_vous", "J'irai dormir chez vous",   f"{BFM_LOGO_BASE}/rmc-decouverte-fr.png"),
+    ("rmc_mystere",             "RMC Mystère",               f"{BFM_LOGO_BASE}/rmc-story-fr.png"),
+    ("rmc_mecanic",             "RMC Mécanic",               f"{BFM_LOGO_BASE}/rmc-decouverte-fr.png"),
+    ("rmc_wow",                 "RMC Wow",                   f"{BFM_LOGO_BASE}/rmc-decouverte-fr.png"),
+    ("rmc_alerte_secours",      "RMC Alerte Secours",        f"{BFM_LOGO_BASE}/rmc-decouverte-fr.png"),
 ]
 BFM_REPLAY_CHANNELS = [
     ("rmcgo_home_bfmtv",         "bfmtv",         "BFM TV",          f"{BFM_LOGO_BASE}/bfm-tv-fr.png"),
