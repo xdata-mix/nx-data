@@ -11,6 +11,26 @@ bfmlive://bfmbusiness
 bfmlive://rmclife
 #EXTINF:-1 tvg-id="bfmlive-techco" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfm-tv-fr.png" tvg-country="FR" group-title="Live BFM Play",Tech & Co Direct
 bfmlive://techco
+#EXTINF:-1 tvg-id="bfmlive-rmc" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-story-fr.png" tvg-country="FR" group-title="Live BFM Play",RMC (Intégrale Sport) Direct
+bfmlive://rmc
+#EXTINF:-1 tvg-id="bfmlive-bfm_2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfm-tv-fr.png" tvg-country="FR" group-title="Live BFM Play",BFM2 Direct
+bfmlive://bfm_2
+#EXTINF:-1 tvg-id="bfmlive-brut" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfm-tv-fr.png" tvg-country="FR" group-title="Live BFM Play",Brut Direct
+bfmlive://brut
+#EXTINF:-1 tvg-id="bfmlive-after_foot_tv" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-story-fr.png" tvg-country="FR" group-title="Live BFM Play",L'After Foot TV Direct
+bfmlive://after_foot_tv
+#EXTINF:-1 tvg-id="bfmlive-bfm_grands_reportages" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfm-tv-fr.png" tvg-country="FR" group-title="Live BFM Play",BFM Grands Reportages Direct
+bfmlive://bfm_grands_reportages
+#EXTINF:-1 tvg-id="bfmlive-j_irai_dormir_chez_vous" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-decouverte-fr.png" tvg-country="FR" group-title="Live BFM Play",J'irai dormir chez vous Direct
+bfmlive://j_irai_dormir_chez_vous
+#EXTINF:-1 tvg-id="bfmlive-rmc_mystere" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-story-fr.png" tvg-country="FR" group-title="Live BFM Play",RMC Mystère Direct
+bfmlive://rmc_mystere
+#EXTINF:-1 tvg-id="bfmlive-rmc_mecanic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-decouverte-fr.png" tvg-country="FR" group-title="Live BFM Play",RMC Mécanic Direct
+bfmlive://rmc_mecanic
+#EXTINF:-1 tvg-id="bfmlive-rmc_wow" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-decouverte-fr.png" tvg-country="FR" group-title="Live BFM Play",RMC Wow Direct
+bfmlive://rmc_wow
+#EXTINF:-1 tvg-id="bfmlive-rmc_alerte_secours" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/rmc-decouverte-fr.png" tvg-country="FR" group-title="Live BFM Play",RMC Alerte Secours Direct
+bfmlive://rmc_alerte_secours
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021143163386" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/8/3/de7bdde73c40a8cd6517358e61a10ea1_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Jubillar, l’heure de la vérité
 bfmplay://NEUF_BFMTV_BFM1021143163386
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021145198702" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/0/7/440ff35afe168bb8bffb1b44c9857355_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM TV - CARROUSSEL A LA UNE",Incendie: la bataille de Fontainebleau
@@ -105,6 +125,14 @@ bfmplay://NEUF_BFMTV_BFM1020926916391
 bfmplay://NEUF_BFMTV_BFM1020926916389
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916388" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/8/3/1e8536652659f4c17a460a6a47e21090_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Météo - Prévisions du 2 septembre 2026
 bfmplay://NEUF_BFMTV_BFM1020926916388
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151272679" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/7/6/bdd3fdb87e56a895ff53df695666807d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 4 septembre 2026
+bfmplay://NEUF_BFMTV_BFM1021151272679
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151272301" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/0/3/6e0aa89eacd02f5ec0426fbe84a08dfd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 30 août 2026
+bfmplay://NEUF_BFMTV_BFM1021151272301
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021147634752" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/7/e05d4ef0099908d75fefb4a9536f726d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 29 août 2026
+bfmplay://NEUF_BFMTV_BFM1021147634752
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021147634788" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/8/7/86320b8e39f771e157ead0d1439633c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 28 août 2026
+bfmplay://NEUF_BFMTV_BFM1021147634788
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926916381" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/8/3/097b1dec0659ceda3166145a39afa5fa_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Ligne Rouge - Émission du 29 août 2026 - Céline Dion, la dame de fer
 bfmplay://NEUF_BFMTV_BFM1020926916381
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020926915919A" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/A/9/1/475c435425d5d204b86601ef8814d209_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Ligne Rouge - Iran, le plan secret des forces spéciales
@@ -323,14 +351,6 @@ bfmplay://NEUF_BFMTV_BFM1021148981298
 bfmplay://NEUF_BFMTV_BFM1021148981292
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021148981262" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/6/2/974f50cbe11526f8c3a378169681e154_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Grand soir - Émission du 24 août 2026
 bfmplay://NEUF_BFMTV_BFM1021148981262
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151272679" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/9/7/6/bdd3fdb87e56a895ff53df695666807d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 4 septembre 2026
-bfmplay://NEUF_BFMTV_BFM1021151272679
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151272301" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/1/0/3/6e0aa89eacd02f5ec0426fbe84a08dfd_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 30 août 2026
-bfmplay://NEUF_BFMTV_BFM1021151272301
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021147634752" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/5/7/e05d4ef0099908d75fefb4a9536f726d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 29 août 2026
-bfmplay://NEUF_BFMTV_BFM1021147634752
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021147634788" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/8/8/7/86320b8e39f771e157ead0d1439633c9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",BFM Non Stop week-end - Émission du 28 août 2026
-bfmplay://NEUF_BFMTV_BFM1021147634788
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151251316" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/1/3/1f8a337f28f642ac068f1504857a1bc4_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Midi BFM - Émission du 4 septembre 2026
 bfmplay://NEUF_BFMTV_BFM1021151251316
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021151251154" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/4/5/1/bf2df0a7f94f00cedf09d361ea6273a0_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Tous les replays",Midi BFM - Émission du 3 septembre 2026
@@ -2027,10 +2047,10 @@ bfmplay://NEUF_NUM23_N23989702577527
 bfmplay://NEUF_NUM23_N23989702571527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23989702375527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/32d63fb9d45a596acf5505a70317be96_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",Le Bigdil - S1E1 - Episode 1 - spéciale le grand retour
 bfmplay://NEUF_NUM23_N23989702375527
+#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927246738" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/8/3/7/75efb47eb4fdf274f2a0fddfb655cc74_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",The Big Bang Theory - S1E9 - La polarisation Cooper-Hofstadter
+bfmplay://NEUF_NUM23_N231020927246738
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927246731" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/1/3/7/ebe7e90b945c09daa7448bf7aad304b9_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",The Big Bang Theory - S1E8 - L'effet sauterelle
 bfmplay://NEUF_NUM23_N231020927246731
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927246724" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/4/2/7/f13e90fa334fcd82096630d2bf6b9dfa_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",The Big Bang Theory - S1E7 - Le paradoxe du ravioli chinois
-bfmplay://NEUF_NUM23_N231020927246724
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927246717" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/1/7/546d846206c2e7def4026c3e5493987b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",The Big Bang Theory - S1E6 - Les allumés d'Halloween
 bfmplay://NEUF_NUM23_N231020927246717
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231020927246710" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/0/1/7/4a6c13663823ddf771363c5dedd670c7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - CARROUSSEL A LA UNE - RMCS",The Big Bang Theory - S1E5 - Le postulat du hamburger
@@ -2149,8 +2169,6 @@ bfmplay://NEUF_NUM23_N2356529
 bfmplay://NEUF_NUM23_N2356528
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N2343477" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/7/4/2873b25a3d3ee9768953f61cb0a8de4e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",River monsters - S8E6 - Le secret du monde marin
 bfmplay://NEUF_NUM23_N2343477
-#EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N2343475" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/5/7/4/e3a019eb114d061a9a8c16ce798899ad_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",River monsters - S8E4 - Le démon des abysses
-bfmplay://NEUF_NUM23_N2343475
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N231021074333796" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/6/9/7/f1de3bb2ee3ee06d21b4b19c92a71712_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Guerre des voisins : ma vie est un enfer - S1E5 - Paradis perdus
 bfmplay://NEUF_NUM23_N231021074333796
 #EXTINF:-1 tvg-id="bfmplay-NEUF_NUM23_N23960136852527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_NUM23/7/2/5/2d7ff2b58b298dac8c031f3d1d9a5742_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Story - Top tendances",Guerre des voisins : ma vie est un enfer - S1E1 - Droit de passage
@@ -6299,8 +6317,6 @@ bfmplay://NEUF_RMCDEC_RMC950100121527
 bfmplay://NEUF_RMCDEC_RMC950100112527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC950100103527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/c7d80445e164cc55e5483f0226667102_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",Mecanos express - S9E8 - L'or vert
 bfmplay://NEUF_RMCDEC_RMC950100103527
-#EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC950100094527" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/2/5/1508257201ec1e45f23b63393ed2173f_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Découverte - Moteur et Mécanique",Mecanos express - S9E7 - Escale aux Bahamas
-bfmplay://NEUF_RMCDEC_RMC950100094527
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021020687867" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/7/6/8/31be3c70f0d0e2655f05e13f0e739423_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Moteur et Mécanique",Duel 2 mecaniques : Lagaf' VS Gérard Vives, épisode 2
 bfmplay://NEUF_RMCDEC_RMC1021020687867
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMCDEC_RMC1021111035288" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMCDEC/8/8/2/f126903c32fe3cd16c271206b2cdb689_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Découverte - Moteur et Mécanique",La techno de la voiture du futur : de la fiction à la réalité
@@ -6755,6 +6771,12 @@ bfmplay://NEUF_BFMTV_BFM983084407527
 bfmplay://NEUF_BFMTV_BFM1021017370992
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020983238872" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/7/8/2a8f55eb8271ae042a35bfadd47eb209_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les grands reportages BFM TV",Chine, le nouvel empire de la tech
 bfmplay://NEUF_BFMTV_BFM1020983238872
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504636" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/6/3/6/bd4a7c13d1a2071bc9b1dcf5b65ee846_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E58 - Au tennis avec Jeannette et Roger
+bfmplay://NEUF_RMC_LIFE_RIF1020943504636
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504625" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/5/2/6/60e2c607874d5591f076d8db0ca15b8d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E57 - Chez les nouveaux riches
+bfmplay://NEUF_RMC_LIFE_RIF1020943504625
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504614" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/4/1/6/c30c58440864673e69b9fdc639ec96f7_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E56 - Répondent à la porte (3)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504614
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504603" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/3/0/6/e5e3c30132a527acc4cc54743181559a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E55 - Journée beauté
 bfmplay://NEUF_RMC_LIFE_RIF1020943504603
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504592" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/2/9/5/71671fbe29539b83a05c32ad4e1d3230_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E54 - Font de la gym
