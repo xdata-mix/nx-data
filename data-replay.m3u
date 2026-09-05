@@ -23175,6 +23175,8 @@ m6play://m6replay/21381
 m6play://m6replay/9651
 #EXTINF:-1 tvg-id="m6plus-10015" tvg-logo="https://images.6play.fr/v1/images/4261296/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Le Journal Inattendu
 m6play://m6replay/10015
+#EXTINF:-1 tvg-id="francetv-a39df93d-4e46-40a3-9799-d2e4965d1107" tvg-logo="https://medias.france.tv/4D8CGrTrKuJDMsC4ZFHxVNepai8/400x0/filters:quality(85)/x/e/c/phppllcex.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Versailles en fête
+francetv://a39df93d-4e46-40a3-9799-d2e4965d1107
 #EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",À l'instinct
 francetv://program/france-2_a-l-instinct
 #EXTINF:-1 tvg-id="francetv-b4b694a5-bc6b-42ac-8230-da296f020b9d" tvg-logo="https://medias.france.tv/HY1vUOoFzvXEegVAtk6951PUEpU/400x0/filters:quality(85)/s/l/v/phps5kvls.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un dimanche de chasse
@@ -23319,8 +23321,8 @@ francetv://program/france-2_les-enfants-de-la-tele
 francetv://db40fdd6-2bb8-450a-898d-7331251cfd68
 #EXTINF:-1 tvg-id="francetv-f651d7d5-e03e-428b-ad0b-6a3cfa8fc0c3" tvg-logo="https://medias.france.tv/Eq9_iuhK3ztMwTU50qiFYxENnHM/400x0/filters:quality(85)/t/8/w/phpcsuw8t.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La carte aux trésors — Val de Cher
 francetv://f651d7d5-e03e-428b-ad0b-6a3cfa8fc0c3
-#EXTINF:-1 tvg-id="francetv-cf5d56a3-4f8a-4ef5-8bd3-e8dd6a7eec0a" tvg-logo="https://medias.france.tv/95nnOwnkRMdaCpNKKbkoHbojbc8/400x0/filters:quality(85)/g/x/8/phpt4b8xg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La braderie cherche son hymne
-francetv://cf5d56a3-4f8a-4ef5-8bd3-e8dd6a7eec0a
+#EXTINF:-1 tvg-id="francetv-8e5ad753-5f75-4b0d-a340-ed8739132db7" tvg-logo="https://medias.france.tv/95nnOwnkRMdaCpNKKbkoHbojbc8/400x0/filters:quality(85)/g/x/8/phpt4b8xg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La braderie cherche son hymne
+francetv://8e5ad753-5f75-4b0d-a340-ed8739132db7
 #EXTINF:-1 tvg-id="francetv-prog-france-3_la-france-des-villages" tvg-logo="https://medias.france.tv/kNnhPY5a7mzRqrUp_LCQRY5rDVw/400x0/filters:quality(85)/y/t/x/phpz1wxty.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La France des villages
 francetv://program/france-3_la-france-des-villages
 #EXTINF:-1 tvg-id="francetv-prog-france-3_la-stagiaire" tvg-logo="https://medias.france.tv/7dBYfe3y45asp7ho0iNbAM_FyAY/400x0/filters:quality(85)/f/j/w/phpobgwjf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 3",La Stagiaire
@@ -24261,6 +24263,18 @@ francetv://12516648-a4a6-11f1-84c9-957ddefc544d
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-f315807b-980f-4aec-b3b7-095eaf83bae3" tvg-logo="https://medias.france.tv/WFWde5jHz412Co0Y2W9IsMvXQCs/400x0/filters:quality(85)/5/9/1/f89166f9a1ea479b860a57b5911f21432fc8ee7d6f0b681aafa041ca40780195.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Surf, le feu sacré
 francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
+#EXTINF:-1 tvg-id="francetv-f5a66aa6-a956-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/Qa6avq-ts4oPEAXE_KJUEO1uB9U/400x0/filters:quality(85)/3/1/a/5c44e7a7f4b743faa02e5b0bf4e2ea13.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Route du Rhum : Gitana 18, le géant des mers
+francetv://f5a66aa6-a956-11f1-878d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-24de23e6-a956-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/CIDXMWMZ_Xk11u7iG4Lp_a28Jqw/400x0/filters:quality(85)/a/7/c/842973428ad14a5586d3f30daf21ec7a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Karting : Les non-voyants au volant
+francetv://24de23e6-a956-11f1-9559-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-25fc9052-a954-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/clQx7cQ-bsLoFivWSz2-YrtYp08/400x0/filters:quality(85)/2/7/a/df1ce644f9bb4de28ca362ed7492fa72.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Coupe du monde de kayak cross : Une victoire et un doublé
+francetv://25fc9052-a954-11f1-9559-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-9e8988a8-a955-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/9_ymovNig2OhUbTbH4Yhez2jgR0/400x0/filters:quality(85)/3/d/9/edac3e2d87ac4f068082588cd38459d3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Coupe du monde féminine de basket : Victoire facile
+francetv://9e8988a8-a955-11f1-878d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-4429e268-a955-11f1-ae8b-57a09c50f7ce" tvg-logo="https://medias.france.tv/JBa9_GF4yjzkyS9DTVL8R0ndX74/400x0/filters:quality(85)/a/c/f/7255e46f85314de3af1a2b582b28efca.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Top 14 : Les enjeux de la saison
+francetv://4429e268-a955-11f1-ae8b-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-a89cf9de-a954-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/lP4AhJPn8u_lUq1buR6Yh_U7XtA/400x0/filters:quality(85)/0/a/a/e2c23787631c4e23a596d2253cc75aa0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — US Open : Un public pas comme les autres
+francetv://a89cf9de-a954-11f1-878d-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-c1b65380-a890-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/6oJvY6NNADICRPNrLFKMjTYRwFQ/400x0/filters:quality(85)/8/7/1/76e5987ece9541bfb16e7bbc08baa178.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 Ligue 1 — Girondins de Bordeaux : un avenir sombre
 francetv://c1b65380-a890-11f1-877b-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-ca4ebd30-a88f-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/xKXmRtBMIxkzq_szA-W_Uk_3sK8/400x0/filters:quality(85)/e/1/4/4cb240d7dc484e1f9393a297edeba41e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 Ligue 1 — LOSC : Berke Özer, un gardien en or
@@ -26033,6 +26047,8 @@ francetv://d585d779-ca25-4dfc-9231-535c1a310979
 francetv://8b5d4e90-29d8-4002-8357-fc9e63cc2de5
 #EXTINF:-1 tvg-id="francetv-639511f7-65e6-4328-9026-f01b792120a8" tvg-logo="https://medias.france.tv/V4dbH8yA8ns5d1UYffjsV80l03s/400x0/filters:quality(85)/5/a/a/73c44fabf5a44f5ba2b02c37799f9aa5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les grandes émotions du cinéma",La place d'une autre
 francetv://639511f7-65e6-4328-9026-f01b792120a8
+#EXTINF:-1 tvg-id="francetv-a837f5e3-8ee0-489d-93e7-8975436f1e89" tvg-logo="https://medias.france.tv/35djeNHcgvQNUddc4sjMynnkEys/400x0/filters:quality(85)/d/n/t/phpcihtnd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Entre ses mains
+francetv://a837f5e3-8ee0-489d-93e7-8975436f1e89
 #EXTINF:-1 tvg-id="francetv-2a7204ba-5621-4241-8e84-7e90fbc44a3c" tvg-logo="https://medias.france.tv/xp-RydLkQJn7H1NR6IezDtyLH_I/400x0/filters:quality(85)/r/r/w/phplbpwrr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Nikita
 francetv://2a7204ba-5621-4241-8e84-7e90fbc44a3c
 #EXTINF:-1 tvg-id="francetv-29b77474-5c26-45b8-8a06-087535d6c8a6" tvg-logo="https://medias.france.tv/jMiHtDHoO0LZb589yQgbFjVpD3Q/400x0/filters:quality(85)/2/8/7/484d550db80d433285fcaff20b86c782.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Misery
@@ -27625,6 +27641,18 @@ francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 francetv://20109742-9bd0-11f1-8499-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-e3f5a708-a546-11f1-84cb-957ddefc544d" tvg-logo="https://medias.france.tv/glJ5M2OfQh8blygHoCTx8I4YA4s/400x0/filters:quality(85)/8/1/6/f74929ae2c614ee682c37700bf965618.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Bande-annonce du Stuttgart Cerro Abajo
 francetv://e3f5a708-a546-11f1-84cb-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-f5a66aa6-a956-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/Qa6avq-ts4oPEAXE_KJUEO1uB9U/400x0/filters:quality(85)/3/1/a/5c44e7a7f4b743faa02e5b0bf4e2ea13.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Route du Rhum : Gitana 18, le géant des mers
+francetv://f5a66aa6-a956-11f1-878d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-24de23e6-a956-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/CIDXMWMZ_Xk11u7iG4Lp_a28Jqw/400x0/filters:quality(85)/a/7/c/842973428ad14a5586d3f30daf21ec7a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Karting : Les non-voyants au volant
+francetv://24de23e6-a956-11f1-9559-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-25fc9052-a954-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/clQx7cQ-bsLoFivWSz2-YrtYp08/400x0/filters:quality(85)/2/7/a/df1ce644f9bb4de28ca362ed7492fa72.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Coupe du monde de kayak cross : Une victoire et un doublé
+francetv://25fc9052-a954-11f1-9559-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-9e8988a8-a955-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/9_ymovNig2OhUbTbH4Yhez2jgR0/400x0/filters:quality(85)/3/d/9/edac3e2d87ac4f068082588cd38459d3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Coupe du monde féminine de basket : Victoire facile
+francetv://9e8988a8-a955-11f1-878d-19616fa871f9
+#EXTINF:-1 tvg-id="francetv-4429e268-a955-11f1-ae8b-57a09c50f7ce" tvg-logo="https://medias.france.tv/JBa9_GF4yjzkyS9DTVL8R0ndX74/400x0/filters:quality(85)/a/c/f/7255e46f85314de3af1a2b582b28efca.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Top 14 : Les enjeux de la saison
+francetv://4429e268-a955-11f1-ae8b-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-a89cf9de-a954-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/lP4AhJPn8u_lUq1buR6Yh_U7XtA/400x0/filters:quality(85)/0/a/a/e2c23787631c4e23a596d2253cc75aa0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — US Open : Un public pas comme les autres
+francetv://a89cf9de-a954-11f1-878d-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-c1b65380-a890-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/6oJvY6NNADICRPNrLFKMjTYRwFQ/400x0/filters:quality(85)/8/7/1/76e5987ece9541bfb16e7bbc08baa178.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 Ligue 1 — Girondins de Bordeaux : un avenir sombre
 francetv://c1b65380-a890-11f1-877b-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-ca4ebd30-a88f-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/xKXmRtBMIxkzq_szA-W_Uk_3sK8/400x0/filters:quality(85)/e/1/4/4cb240d7dc484e1f9393a297edeba41e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 Ligue 1 — LOSC : Berke Özer, un gardien en or
