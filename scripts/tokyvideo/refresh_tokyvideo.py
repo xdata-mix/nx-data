@@ -291,10 +291,20 @@ def construire(slug, titre_liste):
             #   uploadeurs numérotent EN CONTINU (Columbo : S02.E10…E17, S03.E18…). Une saison
             #   qui ne commence pas à 1 est renumérotée à partir de 1 (numéro d'origine conservé
             #   en 5e position, pour information).
-            mn = min(it[0] for it in liste) if liste else 1
-            if mn > 1:
-                liste = [[it[0] - mn + 1, it[1], it[2], it[3], it[0]] for it in liste]
             eps[s] = liste
+        # Renumérotation SEULEMENT si la saison enchaîne exactement sur la précédente (Columbo :
+        #   S1 = 1..9, S2 = 10..17, S3 = 18..24). Une saison bien numérotée mais incomplète
+        #   (épisodes 3..10 parce que 1 et 2 manquent) reste telle quelle — vérifié par le user
+        #   sur Code Quantum, numérotée proprement par saison.
+        fin_orig = {s: max(it[0] for it in l) for s, l in eps.items() if l}   # bornes AVANT renumérotation
+        for s in sorted(eps, key=lambda x: int(x)):
+            liste = eps[s]
+            fin_prec = fin_orig.get(str(int(s) - 1))
+            if fin_prec is None or not liste:
+                continue
+            mn = min(it[0] for it in liste)
+            if mn > 1 and mn == fin_prec + 1:
+                eps[s] = [[it[0] - mn + 1, it[1], it[2], it[3], it[0]] for it in liste]
         img = ""
         for v in videos:
             if v.get("thumb"):
