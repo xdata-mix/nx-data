@@ -49,8 +49,9 @@ RE_CAT_ADULT = re.compile(r"(?i)adult|xxx|\+18|18\+|porn|erotic|hot\b")
 RE_PREFIX = re.compile(r"^\s*(?:FR|VF|VFF|FRENCH|FRA|QC|AF)\s*[\-|:–]+\s*", re.I)
 RE_YEAR   = re.compile(r"[\(\[]?\b((?:19|20)\d{2})\b[\)\]]?")
 RE_LANG   = re.compile(r"(?i)[\(\[]\s*(VOSTFR|VOST|VO|MULTI|FRENCH|VFF|VF|TRUEFRENCH|SUBFRENCH|FRENCH MULTI SUB)[^\)\]]*[\)\]]")
-RE_QUAL   = re.compile(r"(?i)\b(4K|UHD|FHD|HDR|HEVC|H265|x265|1080p|720p|CAM|TS|R5|WEBRIP|BLURAY|DOLBY VISION|\(FR\))\b")
+RE_QUAL   = re.compile(r"(?i)\b(4K|UHD|FHD|HDR|HEVC|H265|x265|1080p|720p|CAM|TS|R5|WEBRIP|BLURAY|DOLBY VISION)\b|\((?:FR|VF|VFF|FRENCH)\)")
 RE_SPACES = re.compile(r"\s+")
+RE_SUFFIX_LANG = re.compile(r"(?i)[\s_\-]+(fr|vf|vff|vost|vostfr|vo|french|multi)\s*$")
 
 def norm(s):
     s = unicodedata.normalize("NFD", s or "")
@@ -76,6 +77,15 @@ def clean_title(raw):
         s = s[:ym.start()] + " " + s[ym.end():]
     s = RE_QUAL.sub(" ", s)
     s = re.sub(r"[\(\[]\s*[\)\]]", " ", s)
+    # Suffixes de langue collés au titre : « Desi Bling FR », « Age of Attraction _fr »,
+    #   « Funny AF vost », « Parenthood FR », « ...-fr » (cf. capture Oppo 2026-09-06).
+    for _ in range(2):
+        m2 = RE_SUFFIX_LANG.search(s)
+        if not m2:
+            break
+        if m2.group(1).lower() in ("vost", "vostfr", "vo"):
+            lang = "VOSTFR"
+        s = s[:m2.start()]
     s = re.sub(r"\s*[\-–|:]\s*$", "", s)
     s = RE_SPACES.sub(" ", s).strip(" -–|:_")
     return s, year, lang
