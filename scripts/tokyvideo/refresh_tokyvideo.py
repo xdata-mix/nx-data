@@ -167,12 +167,23 @@ def nettoyer_nom_serie(nom):
     saison_seule = re.search(r"saison\s*(\d{1,2})", brut, re.I)
     saison_defaut = int(saison_seule.group(1)) if saison_seule and not nb else 0
     t = RE_ANNEE.sub(" ", partie)
+    t = t.replace('"', " ").replace("_", " ").replace("«", " ").replace("»", " ")
     t = re.sub(r"\(\s*\)", " ", t)
-    t = re.sub(r"saisons?\s*\d{1,2}(\s*(?:a|à|-|et)\s*\d{1,2})?", " ", t, flags=re.I)
+    t = re.sub(r"\(\s*archives?\s*\)", " ", t, flags=re.I)
+    # « Saison II », « Saison III » (chiffres romains) ; « Saison 2 d'Au-delà du réel » → reste « Au-delà du réel »
+    t = re.sub(r"saisons?\s+[ivx]+\b", " ", t, flags=re.I)
+    t = re.sub(r"[&]\s*\d+", " ", t)
+    t = re.sub(r"\b(vostvf|vostfr|vf|mini|complète|complete|version longue)\b", " ", t, flags=re.I)
+    t = re.sub(r"saisons?\s*\d{1,2}(\s*(?:de|a|à|-|et)\s*\d{1,2}){0,2}", " ", t, flags=re.I)
     t = re.sub(r"\d{1,2}\s*sai\w*", " ", t, flags=re.I)          # « 6 saisons », « 6 saiaons » (coquille vue)
+    # « Saison 2 d'Au-delà du réel » → une fois « Saison 2 » retiré, on enlève le « de / d' » de tête
+    t = re.sub(r"^[\s.\-–:]*(?:de\s+|d')", "", t, flags=re.I)
+    # ⚠ pas de mots de genre courants ici (« aventure », « action »… font partie de vrais titres) ;
+    #   les genres du site sont après le « ‧ », déjà coupés plus haut.
     t = re.sub(r"\b(serie tv|série tv|la serie|la série|série|serie|episodes?|complet|complete|vf|integrale|intégrale"
-               r"|sitcom|drame|policier|action|aventure|sf|science-fiction|comédie|comedie|mystère|mystere|western|animation)\b", " ", t, flags=re.I)
-    t = re.sub(r"[\s.\-–,:]+$", "", t)
+               r"|sitcom|science-fiction)\b", " ", t, flags=re.I)
+    t = re.sub(r"[\s.\-–,:;|]+$", "", t)
+    t = re.sub(r"^[\s.\-–,:;|]+", "", t)
     t = re.sub(r"\s{2,}", " ", t).strip(" .-–:")
     return t, annee, nb_saisons, saison_defaut
 
