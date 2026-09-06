@@ -286,6 +286,13 @@ def construire(slug, titre_liste):
                     continue
                 vus.add(it[0])
                 liste.append(it)
+            # 2026-09-06 (user : « saison 2 épisode 1, le serveur n'est pas apparu ») : certains
+            #   uploadeurs numérotent EN CONTINU (Columbo : S02.E10…E17, S03.E18…). Une saison
+            #   qui ne commence pas à 1 est renumérotée à partir de 1 (numéro d'origine conservé
+            #   en 5e position, pour information).
+            mn = min(it[0] for it in liste) if liste else 1
+            if mn > 1:
+                liste = [[it[0] - mn + 1, it[1], it[2], it[3], it[0]] for it in liste]
             eps[s] = liste
         img = ""
         for v in videos:
@@ -336,6 +343,29 @@ def main():
         vus.add(cle)
         fm["k"] = cle[0]
         films_u.append(fm)
+    # Fusion des playlists homonymes (« Mercredi saison 01 » + « Mercredi saison 2 », ou deux
+    #   uploadeurs pour la même série) : même clé + même année (ou année inconnue d'un côté)
+    #   → une seule série, saisons réunies, épisodes déjà présents conservés.
+    fusion = {}
+    for sr in series:
+        cible = None
+        for cle, ex in fusion.items():
+            if cle[0] == sr["k"] and (cle[1] == sr["y"] or not cle[1] or not sr["y"]):
+                cible = ex
+                break
+        if cible is None:
+            fusion[(sr["k"], sr["y"])] = sr
+            continue
+        for sn, liste in sr["s"].items():
+            deja = {e[0] for e in cible["s"].get(sn, [])}
+            cible["s"].setdefault(sn, []).extend(e for e in liste if e[0] not in deja)
+            cible["s"][sn].sort(key=lambda e: e[0])
+        cible["n"] = sum(len(l) for l in cible["s"].values())
+        if not cible["y"] and sr["y"]:
+            cible["y"] = sr["y"]
+        if not cible["img"] and sr["img"]:
+            cible["img"] = sr["img"]
+    series = list(fusion.values())
     series.sort(key=lambda s: s["t"].lower())
     films_u.sort(key=lambda f: f["t"].lower())
     payload = {"updated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
