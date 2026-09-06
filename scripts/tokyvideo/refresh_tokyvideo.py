@@ -122,8 +122,11 @@ def lister_playlists():
             if not titre or slug in vus:
                 continue
             vus.add(slug)
-            out.append((slug, titre))
             nouveaux += 1
+            # « Vidéos tendances » et consorts : playlists automatiques du site, fourre-tout.
+            if slug.startswith("trends") or titre.lower().startswith("vidéos tendances"):
+                continue
+            out.append((slug, titre))
         print(f"  liste page {p}: +{nouveaux} (total {len(out)})", flush=True)
         if nouveaux == 0:
             break
