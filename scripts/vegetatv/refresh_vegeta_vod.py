@@ -30,7 +30,7 @@ SERVERS_URL = "http://vegetatv.duckdns.org/data/server_status.json"
 OUT_INDEX   = os.environ.get("VEGETA_VOD_OUT", "data/vegetatv/vegeta-vod-fr.json")
 OUT_EP_DIR  = os.environ.get("VEGETA_VOD_EP_DIR", "data/vegetatv/vod-ep")
 MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
-MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "3"))     # serveurs par film
+MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "5"))     # serveurs par film (tous gardés : si un panel tombe, les autres restent)
 MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
 EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "24"))
 API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "240"))
@@ -366,6 +366,36 @@ def main():
         kept.append(s)
     log("%d serveurs retenus, %d films, %d séries uniques (%.0fs)" %
         (len(kept), len(films), len(series), time.time() - t0))
+    # ── 2026-09-06 (user : « des doublons dans plusieurs catégories ») — FUSION titre+année.
+    #   Le serveur 25 ne donne pas d'identifiant TMDB alors que 53/54 (même catalogue) le
+    #   donnent → le même film sortait 2 fois (clé « m<tmdb> » et clé « m_<titre>_<année> »),
+    #   parfois dans 2 catégories. On fusionne : on GARDE l'entrée avec TMDB et on lui AJOUTE
+    #   tous les serveurs de l'autre — aucun serveur n'est perdu (jusqu'à MAX_SRC=5), au
+    #   contraire chaque film gagne les serveurs de ses doublons. Catégorie : la plus précise
+    #   (tout sauf « Films » / « Séries » / « Nouveautés » quand une autre existe).
+    def fusionner(table, cle_de, cap):
+        par = {}
+        for key, e in list(table.items()):
+            k2 = cle_de(e)
+            if k2 not in par:
+                par[k2] = key; continue
+            k1 = par[k2]; a = table[k1]; b = e
+            garde, autre = (a, b) if (a["tmdb"] or not b["tmdb"]) else (b, a)
+            gk = k1 if garde is a else key
+            for src in autre["s"]:
+                if len(garde["s"]) < cap and all(x[0] != src[0] for x in garde["s"]):
+                    garde["s"].append(src)
+            if not garde["img"] and autre["img"]: garde["img"] = autre["img"]
+            if not garde["y"] and autre["y"]: garde["y"] = autre["y"]
+            generiques = ("Films", "Séries", "Nouveautés")
+            if garde["c"] in generiques and autre["c"] not in generiques: garde["c"] = autre["c"]
+            if garde.get("l") == "" and autre.get("l"): garde["l"] = autre["l"]
+            del table[key if garde is a else k1]
+            par[k2] = gk
+    nf0, ns0 = len(films), len(series)
+    fusionner(films, lambda e: (norm(e["t"]), e["y"]), MAX_SRC)
+    fusionner(series, lambda e: (norm(e["t"]), e["y"]), MAX_SRC_SER)
+    log("fusion titre+année : films %d → %d, séries %d → %d" % (nf0, len(films), ns0, len(series)))
 
     # Épisodes : pour chaque (serveur, série) retenu. ⚠ Tout serveur cité par une source doit
     #   être connu ici (1er run : un serveur dont la liste de films avait échoué mais qui avait
