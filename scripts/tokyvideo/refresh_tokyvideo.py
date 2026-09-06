@@ -192,16 +192,18 @@ def nettoyer_titre_film(titre):
     t = html.unescape(titre)
     y = RE_ANNEE.search(t)
     annee = int(y.group(1)) if y else 0
+    t = t.split("‧")[0].split("·")[0]                        # « Pale Rider ‧ Western ‧ 1h 56m »
     t = re.sub(r"[\(\[][^\)\]]*[\)\]]", " ", t)          # (1968) [VF]
     t = RE_ANNEE.sub(" ", t)
     t = RE_QUAL.sub(" ", t)
-    t = t.replace(".", " ").replace("_", " ")
+    t = re.sub(r"\b(streaming|en fran[cç]ais|film complet|film entier|en vost(?:fr)?|vost(?:fr)?|film en|en entier|fr)\b", " ", t, flags=re.I)
+    t = t.replace(".", " ").replace("_", " ").replace('"', " ").replace("«", " ").replace("»", " ")
     t = re.sub(r"\s*[-–|;]\s*(film complet|complet|vf|en francais|en français).*$", " ", t, flags=re.I)
     # « Carambolages - Louis de Funès NB » : on coupe le suffixe acteur/qualité quand il reste un vrai titre devant
     for sep in (" - ", " – ", " ; ", " | "):
         if sep in t and len(t.split(sep)[0].strip()) >= 3:
             t = t.split(sep)[0]
-    t = re.sub(r"\b(louis de fun[eè]s|fernandel|bourvil|de fun[eè]s|nb|noir et blanc|colori[sz][ée]e?|collor)\b.*$", " ", t, flags=re.I)
+    t = re.sub(r"\b(louis de fun[eéè]s|fernandel|bourvil|de fun[eéè]s|nb|noir et blanc|colori[sz][ée]e?|collor)\b.*$", " ", t, flags=re.I)
     t = re.sub(r"\s{2,}", " ", t).strip(" .-–:|;,")
     return t, annee
 
