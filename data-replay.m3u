@@ -23195,6 +23195,8 @@ m6play://m6replay/21381
 m6play://m6replay/10015
 #EXTINF:-1 tvg-id="m6plus-9651" tvg-logo="https://images.6play.fr/v1/images/4261241/raw" tvg-country="FR" tvg-type="series" group-title="Thématique M6+ - Podcasts",Lheure du Crime
 m6play://m6replay/9651
+#EXTINF:-1 tvg-id="francetv-d4cc8db5-b998-40b7-ba3a-1ee24982fb3f" tvg-logo="https://medias.france.tv/3lJavzp2gDSlDGPHu2ks2vs85ZA/400x0/filters:quality(85)/k/t/y/phpfx6ytk.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Boîte noire
+francetv://d4cc8db5-b998-40b7-ba3a-1ee24982fb3f
 #EXTINF:-1 tvg-id="francetv-a39df93d-4e46-40a3-9799-d2e4965d1107" tvg-logo="https://medias.france.tv/4D8CGrTrKuJDMsC4ZFHxVNepai8/400x0/filters:quality(85)/x/e/c/phppllcex.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Versailles en fête
 francetv://a39df93d-4e46-40a3-9799-d2e4965d1107
 #EXTINF:-1 tvg-id="francetv-2e1b43d8-8920-483a-872c-3e0495f1242a" tvg-logo="https://medias.france.tv/wZV8xcgNs9TK_4FL-R9Et-8aYkE/400x0/filters:quality(85)/u/i/7/phpm0m7iu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un dimanche à la campagne — Émission du dimanche 6 septembre 2026
@@ -24265,6 +24267,8 @@ francetv://program/france-4_basique-les-sessions
 francetv://program/spectacles-et-culture_musique-pop-rock-electro_encore
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
+#EXTINF:-1 tvg-id="francetv-cc267e02-aa26-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/kLKFq9owZe-gUebTUQWli1Nt794/400x0/filters:quality(85)/d/4/5/29d54af07fab40e0ad36ec3d0488554d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand Format : 0 à 100, le défi de leur vie (épisode 2)
+francetv://cc267e02-aa26-11f1-850a-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-110d1a02-58a1-46d5-ba71-be786a6327fa" tvg-logo="https://medias.france.tv/PGMGSGL6EWlhbEOzwIkwEtniOrw/400x0/filters:quality(85)/e/h/h/phpyjihhe.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Ultra-trail du Mont-Blanc, la course de leur vie
 francetv://110d1a02-58a1-46d5-ba71-be786a6327fa
 #EXTINF:-1 tvg-id="francetv-1b18cfd8-a243-11f1-953e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/rSQSB4c-XrOAr1D3ozC4eNUTXPg/400x0/filters:quality(85)/s/p/w/phpayywps.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Trail - UTMB : l'incroyable défi de Julien Veysseyre
@@ -24279,12 +24283,18 @@ francetv://ae44e07a-a488-11f1-9540-6dcd43e8ddfd
 francetv://54735aba-a4a4-11f1-84c9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
-#EXTINF:-1 tvg-id="francetv-12516648-a4a6-11f1-84c9-957ddefc544d" tvg-logo="https://medias.france.tv/IvSY5lHjlyWCF5wy-haKJuJWDSg/400x0/filters:quality(85)/2/d/7/24422cd8db1c49b68e87e34ac84e67d2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Grand format : Tristan Gac, le spectacle au bout du pied
-francetv://12516648-a4a6-11f1-84c9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-f315807b-980f-4aec-b3b7-095eaf83bae3" tvg-logo="https://medias.france.tv/WFWde5jHz412Co0Y2W9IsMvXQCs/400x0/filters:quality(85)/5/9/1/f89166f9a1ea479b860a57b5911f21432fc8ee7d6f0b681aafa041ca40780195.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Surf, le feu sacré
 francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
+#EXTINF:-1 tvg-id="francetv-a8798c76-aa1f-11f1-956d-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/Qm5lYrHtBbRHpgHe8PF-NReaSw8/400x0/filters:quality(85)/9/5/1/60937af61e5e4a7e92d2fe2f979fb159.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Tennis : Arthur Gea à pas de géant
+francetv://a8798c76-aa1f-11f1-956d-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-c508ac1c-aa21-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/KHPAuI0tCvfy5BCbWgb4MXt11pY/400x0/filters:quality(85)/c/2/4/907c389147504d2a88118f8d7b34842c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Rugby : rentrée de classe pour l’UBB
+francetv://c508ac1c-aa21-11f1-850a-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-f9311ac6-aa1f-11f1-aea6-57a09c50f7ce" tvg-logo="https://medias.france.tv/kLZULRfbaHgMoGp4pwfVL5O_JJ8/400x0/filters:quality(85)/d/5/1/d1687c9f346d4a8db167cc482a9c615d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Basket : le retour du roi Wemby en France
+francetv://f9311ac6-aa1f-11f1-aea6-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-2d5d5200-aa21-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/7JoTd5Q3Z1wSr-4ieqzHlBIzMwg/400x0/filters:quality(85)/6/4/5/5ff59485b1684c8e9549d330157c6546.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 — Boxe : Flora Pili, le combat de sa vie
+francetv://2d5d5200-aa21-11f1-850a-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-f5a66aa6-a956-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/Qa6avq-ts4oPEAXE_KJUEO1uB9U/400x0/filters:quality(85)/3/1/a/5c44e7a7f4b743faa02e5b0bf4e2ea13.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Voile - Route du Rhum : Gitana 18, le géant des mers
 francetv://f5a66aa6-a956-11f1-878d-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-24de23e6-a956-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/CIDXMWMZ_Xk11u7iG4Lp_a28Jqw/400x0/filters:quality(85)/a/7/c/842973428ad14a5586d3f30daf21ec7a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Karting : les non-voyants au volant
@@ -24297,34 +24307,6 @@ francetv://9e8988a8-a955-11f1-878d-19616fa871f9
 francetv://4429e268-a955-11f1-ae8b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-a89cf9de-a954-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/lP4AhJPn8u_lUq1buR6Yh_U7XtA/400x0/filters:quality(85)/0/a/a/e2c23787631c4e23a596d2253cc75aa0.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis : US Open, un public pas comme les autres
 francetv://a89cf9de-a954-11f1-878d-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-c1b65380-a890-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/6oJvY6NNADICRPNrLFKMjTYRwFQ/400x0/filters:quality(85)/8/7/1/76e5987ece9541bfb16e7bbc08baa178.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 Ligue 1 — Girondins de Bordeaux : un avenir sombre
-francetv://c1b65380-a890-11f1-877b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-ca4ebd30-a88f-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/xKXmRtBMIxkzq_szA-W_Uk_3sK8/400x0/filters:quality(85)/e/1/4/4cb240d7dc484e1f9393a297edeba41e.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 Ligue 1 — LOSC : Berke Özer, un gardien en or
-francetv://ca4ebd30-a88f-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-d7acd64e-a88d-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/w2t0PTB6x4tuStsciPXbup72NyQ/400x0/filters:quality(85)/f/b/e/bbfc0f6f50fb4d96a8c641354bfe1ebf.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Basketball - Coupe du monde : préparation express pour les Bleues
-francetv://d7acd64e-a88d-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-4caf63e6-a88c-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/7zJpMdAgl8FaEl9egs_dzDRP4A4/400x0/filters:quality(85)/5/1/2/bd39b0b948c546e981fd282124bec215.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - US Open : clap de fin en Grand Chelem pour Gaël Monfils
-francetv://4caf63e6-a88c-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-0407dd32-a7c2-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/cTCk1v1w14FLPkoiRe7jLhECR4k/400x0/filters:quality(85)/1/4/8/0293bdd8911a444191ebbd5ddaec9841.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : coup de fil à Emilien Jacquelin
-francetv://0407dd32-a7c2-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-b9090ddc-a7c2-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/XnWwsAfOdkpzp664aOFhuaHF07Y/400x0/filters:quality(85)/8/1/7/ae07692d5f3e45afb8a3d56aa5161718.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Kayak : Titouan Castryck, un air de Paris 2024
-francetv://b9090ddc-a7c2-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-27bff40c-a7c3-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/-EWBm-Ocryc9axUU22aXayZrH98/400x0/filters:quality(85)/2/c/b/7e85678927d141229d8817d882208bc2.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 Ligue 1 — Jens Berthel Askou, le pari danois du Toulouse FC
-francetv://27bff40c-a7c3-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-9d18681c-a7c1-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/1kDLoDJa7PTU8-RFHGpWvkqSCIw/400x0/filters:quality(85)/6/4/b/7f5e365c66ac49f792a0696f50ae6b46.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - US Open : retour sur la journée de mercredi
-francetv://9d18681c-a7c1-11f1-877b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-804ddaaa-a6f9-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/0MDxBiWYXFquDMB0-UNysIGGRSA/400x0/filters:quality(85)/6/2/9/4074884e566a4203be66b841bf2da926.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Canoë : Nicolas Gestin présente son terrain de jeu
-francetv://804ddaaa-a6f9-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-0e678d32-a6f9-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/WXEI8yCvlOWl_L7H_dPSL57E8YQ/400x0/filters:quality(85)/6/5/d/64f3205073344c979c883e0645da4d56.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Rugby - Top 14 : le Stade toulousain en quête d'un nouveau Brennus
-francetv://0e678d32-a6f9-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-8817717a-a6f8-11f1-9542-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PFJNlb0ZqC0ucdNkhxCA1LWfpY4/400x0/filters:quality(85)/e/f/f/5a1dd2b409964d8d9c0e154e81253ffe.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - US Open : Gaël Monfils assure le show
-francetv://8817717a-a6f8-11f1-9542-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-6a607402-a62f-11f1-8778-19616fa871f9" tvg-logo="https://medias.france.tv/ADKi8VOLKkPFi5rd8yGD9EYDkkQ/400x0/filters:quality(85)/2/0/3/14b02044eece43afa2a7ad7c98e0d302.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - US Open : la désillusion Arthur Fils
-francetv://6a607402-a62f-11f1-8778-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-f3b6d354-a62f-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/ryBxwEbTFsRI0BHHlhXucRwoeUg/400x0/filters:quality(85)/a/4/6/0db6c1457eba4892801373c3ad37364a.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Cyclisme : Tadej Pogacar, une absence qui change la donne
-francetv://f3b6d354-a62f-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-f87c0622-a56a-11f1-9540-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/eVmrYxND7DZlaevR-N4jyXEv-so/400x0/filters:quality(85)/b/a/7/95797f864708477dbf81f6b84d96a7ab.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Tennis - US Open : Novak Djokovic craque d'entrée
-francetv://f87c0622-a56a-11f1-9540-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-80555410-a2e4-11f1-953e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/UMO3lLUydCe5OZswbcj0xvj3_HA/400x0/filters:quality(85)/f/f/4/ce88479f5a384d259f04d9bd4d70e4ff.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Les meilleurs moments du Cerro Abajo 2026 de Gênes
 francetv://80555410-a2e4-11f1-953e-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-5e6e0012-2284-433f-ae59-a15f30e2c981" tvg-logo="https://medias.france.tv/KrKkTPz-Y0dt0itOD8_PkYoFIqU/400x0/filters:quality(85)/t/x/r/phpffbrxt.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Riding Zone, sports extrêmes et culture glisse — Au coeur de la course de VTT urbaine la plus extrême : Valparaíso Cerro Abajo
@@ -24343,10 +24325,6 @@ francetv://57b0b63b-08f2-4272-9318-3c21c98e5fab
 francetv://8b6a1022-7930-11f0-92d3-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-e76b2654-bc7f-11ef-899d-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/xq8TA5wC-9fkKUWM-8upFH_L2TI/400x0/filters:quality(85)/7/5/4/369ad9036377423a96571e2f74357d191274adc00fdb565e506b5abbfac07457.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Yannis Pelé, le miraculé
 francetv://e76b2654-bc7f-11ef-899d-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-c5ac1000-a486-11f1-ae77-57a09c50f7ce" tvg-logo="https://medias.france.tv/P7zDI9NnJ3D3gSe2R4JzYJDiCqY/400x0/filters:quality(85)/1/1/b/f399554fd53e47689eb0b572ba04ab11.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de la Bretagne Classic CIC 2026
-francetv://c5ac1000-a486-11f1-ae77-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-ecd134d8-a3bb-11f1-84c7-957ddefc544d" tvg-logo="https://medias.france.tv/_mVLymb3JKcYYPCTBZmKxK6CtlA/400x0/filters:quality(85)/3/c/0/e922dd3b1979437ea0773fe91718e0c3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Le résumé de la Classic Lorient Agglomération - Ceratizit 2026
-francetv://ecd134d8-a3bb-11f1-84c7-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/5Bhb8wWocbQNmsPjyxm-XFM-pWI/400x0/filters:quality(85)/o/f/d/phpwfhdfo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne
@@ -25791,6 +25769,8 @@ francetv://10eafbc3-ee9d-41a6-82b7-a9b06178a672
 francetv://252f707e-9da0-4156-9ec7-2b77cec238ed
 #EXTINF:-1 tvg-id="francetv-0250b8d4-2f23-417f-ac7c-b4b3e9de473d" tvg-logo="https://medias.france.tv/uQaa47llfe5Fkj0Golsxv1DZ0lA/400x0/filters:quality(85)/d/7/d/fb6cdeb60da4484e85932aadac2a1d7d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Volver
 francetv://0250b8d4-2f23-417f-ac7c-b4b3e9de473d
+#EXTINF:-1 tvg-id="francetv-d4cc8db5-b998-40b7-ba3a-1ee24982fb3f" tvg-logo="https://medias.france.tv/3lJavzp2gDSlDGPHu2ks2vs85ZA/400x0/filters:quality(85)/k/t/y/phpfx6ytk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Boîte noire
+francetv://d4cc8db5-b998-40b7-ba3a-1ee24982fb3f
 #EXTINF:-1 tvg-id="francetv-22eb30ee-831c-4ae6-b02e-040621dc1b78" tvg-logo="https://medias.france.tv/ZW7DBuLhgE52-yyR26_jGZEa-kE/400x0/filters:quality(85)/d/u/k/php1gckud.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",La belle et la belle
 francetv://22eb30ee-831c-4ae6-b02e-040621dc1b78
 #EXTINF:-1 tvg-id="francetv-f487d5ad-0b24-490a-8a25-11a841d5dd22" tvg-logo="https://medias.france.tv/2cEiySQlyBJ-CEsDoX-BiY-G9HM/400x0/filters:quality(85)/0/4/a/2b3450e428ed4838b170ed5486bd4a40.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Casting 5 étoiles",Two Lovers
@@ -25847,6 +25827,8 @@ francetv://5a585ee5-8854-443d-a4c4-3d6617483280
 francetv://2ca29dfb-0bd5-4aeb-9cfb-c34cbea943ef
 #EXTINF:-1 tvg-id="francetv-a6da3e8c-abc9-485e-bc0b-2cc95c7626f2" tvg-logo="https://medias.france.tv/swHWjql3KlnnLio1IEKP5WgxakQ/400x0/filters:quality(85)/9/2/2/175a1d5b3ac846f694986c03edc0c229.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Cinéma primé",Eldorado
 francetv://a6da3e8c-abc9-485e-bc0b-2cc95c7626f2
+#EXTINF:-1 tvg-id="francetv-d4cc8db5-b998-40b7-ba3a-1ee24982fb3f" tvg-logo="https://medias.france.tv/3lJavzp2gDSlDGPHu2ks2vs85ZA/400x0/filters:quality(85)/k/t/y/phpfx6ytk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Cinéma primé",Boîte noire
+francetv://d4cc8db5-b998-40b7-ba3a-1ee24982fb3f
 #EXTINF:-1 tvg-id="francetv-0250b8d4-2f23-417f-ac7c-b4b3e9de473d" tvg-logo="https://medias.france.tv/uQaa47llfe5Fkj0Golsxv1DZ0lA/400x0/filters:quality(85)/d/7/d/fb6cdeb60da4484e85932aadac2a1d7d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Cinéma primé",Volver
 francetv://0250b8d4-2f23-417f-ac7c-b4b3e9de473d
 #EXTINF:-1 tvg-id="francetv-69eaeaa0-9a1a-458d-bbfc-1056defd6790" tvg-logo="https://medias.france.tv/mFn1nA9gSPmowYTSo2GsR2J7ysI/400x0/filters:quality(85)/5/1/2/b22c39c6bb0044858daf25c8245cc215.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Cinéma primé",Melancholia
@@ -26051,6 +26033,8 @@ francetv://d585d779-ca25-4dfc-9231-535c1a310979
 francetv://8b5d4e90-29d8-4002-8357-fc9e63cc2de5
 #EXTINF:-1 tvg-id="francetv-639511f7-65e6-4328-9026-f01b792120a8" tvg-logo="https://medias.france.tv/V4dbH8yA8ns5d1UYffjsV80l03s/400x0/filters:quality(85)/5/a/a/73c44fabf5a44f5ba2b02c37799f9aa5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Les grandes émotions du cinéma",La place d'une autre
 francetv://639511f7-65e6-4328-9026-f01b792120a8
+#EXTINF:-1 tvg-id="francetv-d4cc8db5-b998-40b7-ba3a-1ee24982fb3f" tvg-logo="https://medias.france.tv/3lJavzp2gDSlDGPHu2ks2vs85ZA/400x0/filters:quality(85)/k/t/y/phpfx6ytk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Boîte noire
+francetv://d4cc8db5-b998-40b7-ba3a-1ee24982fb3f
 #EXTINF:-1 tvg-id="francetv-a837f5e3-8ee0-489d-93e7-8975436f1e89" tvg-logo="https://medias.france.tv/35djeNHcgvQNUddc4sjMynnkEys/400x0/filters:quality(85)/d/n/t/phpcihtnd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Entre ses mains
 francetv://a837f5e3-8ee0-489d-93e7-8975436f1e89
 #EXTINF:-1 tvg-id="francetv-2a7204ba-5621-4241-8e84-7e90fbc44a3c" tvg-logo="https://medias.france.tv/xp-RydLkQJn7H1NR6IezDtyLH_I/400x0/filters:quality(85)/r/r/w/phplbpwrr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Jusqu'au bout du suspense",Nikita
@@ -26193,8 +26177,8 @@ francetv://3f8fd01a-2207-4dec-835a-e39156d5f866
 francetv://26d44e0d-2ecf-44ba-91c2-d644a1cddea5
 #EXTINF:-1 tvg-id="francetv-5712fc6e-8b44-48ca-b744-b24a4026b0b6" tvg-logo="https://medias.france.tv/rLS3iR_1id-oO3xsQ_0mrqi5qVg/400x0/filters:quality(85)/4/a/1/803681f140204820b78b0fe34ee171a4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Macadam Cowboy
 francetv://5712fc6e-8b44-48ca-b744-b24a4026b0b6
-#EXTINF:-1 tvg-id="francetv-7e74a254-f11c-45b3-9cc3-f128b7734c8d" tvg-logo="https://medias.france.tv/IGiO1pxiDSzHsWIbJOXrk7_NUpU/400x0/filters:quality(85)/8/9/9/ef28ee7f1cc24a7584158098e0cf9998.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Bon voyage
-francetv://7e74a254-f11c-45b3-9cc3-f128b7734c8d
+#EXTINF:-1 tvg-id="francetv-4316d49d-cf87-43c0-a2f7-11a6f9beb613" tvg-logo="https://medias.france.tv/IGiO1pxiDSzHsWIbJOXrk7_NUpU/400x0/filters:quality(85)/8/9/9/ef28ee7f1cc24a7584158098e0cf9998.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Bon voyage
+francetv://4316d49d-cf87-43c0-a2f7-11a6f9beb613
 #EXTINF:-1 tvg-id="francetv-d5c7ebbe-005b-4624-9e94-28b598ef7423" tvg-logo="https://medias.france.tv/22gEcnqv-OGXa4sm0noEBpXeOqE/400x0/filters:quality(85)/3/8/3/156015d50f7348c6baeac51cff8ff383.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",La menace
 francetv://d5c7ebbe-005b-4624-9e94-28b598ef7423
 #EXTINF:-1 tvg-id="francetv-8ce9bcb7-38b5-49f0-b411-75994520f806" tvg-logo="https://medias.france.tv/cngh6rs_tr1SN2lpiSmVQfnWqdk/400x0/filters:quality(85)/8/2/a/e0a43a4145bc44838e27f10e8016aa28.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Le vieux fusil
@@ -27609,6 +27593,8 @@ francetv://program/france-5_la-p-tite-librairie
 francetv://program/tv5-monde_dj-battle-africa
 #EXTINF:-1 tvg-id="francetv-33a20612-120a-4e60-bd96-225146e4cf0c" tvg-logo="https://medias.france.tv/uxCWhNpWRTR3qrJyU4VqVib1Yeg/400x0/filters:quality(85)/r/s/x/phpuwbxsr.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Chaîne sport
 francetv://33a20612-120a-4e60-bd96-225146e4cf0c
+#EXTINF:-1 tvg-id="francetv-cc267e02-aa26-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/kLKFq9owZe-gUebTUQWli1Nt794/400x0/filters:quality(85)/d/4/5/29d54af07fab40e0ad36ec3d0488554d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Grand Format : 0 à 100, le défi de leur vie (épisode 2)
+francetv://cc267e02-aa26-11f1-850a-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-110d1a02-58a1-46d5-ba71-be786a6327fa" tvg-logo="https://medias.france.tv/PGMGSGL6EWlhbEOzwIkwEtniOrw/400x0/filters:quality(85)/e/h/h/phpyjihhe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Ultra-trail du Mont-Blanc, la course de leur vie
 francetv://110d1a02-58a1-46d5-ba71-be786a6327fa
 #EXTINF:-1 tvg-id="francetv-1b18cfd8-a243-11f1-953e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/rSQSB4c-XrOAr1D3ozC4eNUTXPg/400x0/filters:quality(85)/s/p/w/phpayywps.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 la quotidienne — Trail - UTMB : l'incroyable défi de Julien Veysseyre
@@ -27623,14 +27609,20 @@ francetv://ae44e07a-a488-11f1-9540-6dcd43e8ddfd
 francetv://54735aba-a4a4-11f1-84c9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Léon, au-delà de l'or
 francetv://program/france-2_leon-au-dela-de-l-or
-#EXTINF:-1 tvg-id="francetv-12516648-a4a6-11f1-84c9-957ddefc544d" tvg-logo="https://medias.france.tv/IvSY5lHjlyWCF5wy-haKJuJWDSg/400x0/filters:quality(85)/2/d/7/24422cd8db1c49b68e87e34ac84e67d2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Stade 2 — Grand format : Tristan Gac, le spectacle au bout du pied
-francetv://12516648-a4a6-11f1-84c9-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-ca618f3b-cd20-4e82-975d-a9e602c48240" tvg-logo="https://medias.france.tv/CozKQifszCfoDLQ7DX4BsG6bEmk/400x0/filters:quality(85)/d/r/d/phpqwsdrd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Ce qui nous tient debout
 francetv://ca618f3b-cd20-4e82-975d-a9e602c48240
 #EXTINF:-1 tvg-id="francetv-f315807b-980f-4aec-b3b7-095eaf83bae3" tvg-logo="https://medias.france.tv/WFWde5jHz412Co0Y2W9IsMvXQCs/400x0/filters:quality(85)/5/9/1/f89166f9a1ea479b860a57b5911f21432fc8ee7d6f0b681aafa041ca40780195.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Notre sélection",Surf, le feu sacré
 francetv://f315807b-980f-4aec-b3b7-095eaf83bae3
 #EXTINF:-1 tvg-id="francetv-20109742-9bd0-11f1-8499-957ddefc544d" tvg-logo="https://medias.france.tv/TIauH5s2Xpc0vMf-f0uvytKhrr4/400x0/filters:quality(85)/3/2/0/phpsxz023.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos directs à venir",Les événements sport de septembre et octobre
 francetv://20109742-9bd0-11f1-8499-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-a8798c76-aa1f-11f1-956d-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/Qm5lYrHtBbRHpgHe8PF-NReaSw8/400x0/filters:quality(85)/9/5/1/60937af61e5e4a7e92d2fe2f979fb159.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Tennis : Arthur Gea à pas de géant
+francetv://a8798c76-aa1f-11f1-956d-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-c508ac1c-aa21-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/KHPAuI0tCvfy5BCbWgb4MXt11pY/400x0/filters:quality(85)/c/2/4/907c389147504d2a88118f8d7b34842c.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Rugby : rentrée de classe pour l’UBB
+francetv://c508ac1c-aa21-11f1-850a-957ddefc544d
+#EXTINF:-1 tvg-id="francetv-f9311ac6-aa1f-11f1-aea6-57a09c50f7ce" tvg-logo="https://medias.france.tv/kLZULRfbaHgMoGp4pwfVL5O_JJ8/400x0/filters:quality(85)/d/5/1/d1687c9f346d4a8db167cc482a9c615d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Basket : le retour du roi Wemby en France
+francetv://f9311ac6-aa1f-11f1-aea6-57a09c50f7ce
+#EXTINF:-1 tvg-id="francetv-2d5d5200-aa21-11f1-850a-957ddefc544d" tvg-logo="https://medias.france.tv/7JoTd5Q3Z1wSr-4ieqzHlBIzMwg/400x0/filters:quality(85)/6/4/5/5ff59485b1684c8e9549d330157c6546.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 — Boxe : Flora Pili, le combat de sa vie
+francetv://2d5d5200-aa21-11f1-850a-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-f5a66aa6-a956-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/Qa6avq-ts4oPEAXE_KJUEO1uB9U/400x0/filters:quality(85)/3/1/a/5c44e7a7f4b743faa02e5b0bf4e2ea13.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Voile - Route du Rhum : Gitana 18, le géant des mers
 francetv://f5a66aa6-a956-11f1-878d-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-24de23e6-a956-11f1-9559-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/CIDXMWMZ_Xk11u7iG4Lp_a28Jqw/400x0/filters:quality(85)/a/7/c/842973428ad14a5586d3f30daf21ec7a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Karting : les non-voyants au volant
@@ -27643,34 +27635,6 @@ francetv://9e8988a8-a955-11f1-878d-19616fa871f9
 francetv://4429e268-a955-11f1-ae8b-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-a89cf9de-a954-11f1-878d-19616fa871f9" tvg-logo="https://medias.france.tv/lP4AhJPn8u_lUq1buR6Yh_U7XtA/400x0/filters:quality(85)/0/a/a/e2c23787631c4e23a596d2253cc75aa0.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis : US Open, un public pas comme les autres
 francetv://a89cf9de-a954-11f1-878d-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-c1b65380-a890-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/6oJvY6NNADICRPNrLFKMjTYRwFQ/400x0/filters:quality(85)/8/7/1/76e5987ece9541bfb16e7bbc08baa178.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 Ligue 1 — Girondins de Bordeaux : un avenir sombre
-francetv://c1b65380-a890-11f1-877b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-ca4ebd30-a88f-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/xKXmRtBMIxkzq_szA-W_Uk_3sK8/400x0/filters:quality(85)/e/1/4/4cb240d7dc484e1f9393a297edeba41e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 Ligue 1 — LOSC : Berke Özer, un gardien en or
-francetv://ca4ebd30-a88f-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-d7acd64e-a88d-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/w2t0PTB6x4tuStsciPXbup72NyQ/400x0/filters:quality(85)/f/b/e/bbfc0f6f50fb4d96a8c641354bfe1ebf.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Basketball - Coupe du monde : préparation express pour les Bleues
-francetv://d7acd64e-a88d-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-4caf63e6-a88c-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/7zJpMdAgl8FaEl9egs_dzDRP4A4/400x0/filters:quality(85)/5/1/2/bd39b0b948c546e981fd282124bec215.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - US Open : clap de fin en Grand Chelem pour Gaël Monfils
-francetv://4caf63e6-a88c-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-0407dd32-a7c2-11f1-84cc-957ddefc544d" tvg-logo="https://medias.france.tv/cTCk1v1w14FLPkoiRe7jLhECR4k/400x0/filters:quality(85)/1/4/8/0293bdd8911a444191ebbd5ddaec9841.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme : coup de fil à Emilien Jacquelin
-francetv://0407dd32-a7c2-11f1-84cc-957ddefc544d
-#EXTINF:-1 tvg-id="francetv-b9090ddc-a7c2-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/XnWwsAfOdkpzp664aOFhuaHF07Y/400x0/filters:quality(85)/8/1/7/ae07692d5f3e45afb8a3d56aa5161718.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Kayak : Titouan Castryck, un air de Paris 2024
-francetv://b9090ddc-a7c2-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-27bff40c-a7c3-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/-EWBm-Ocryc9axUU22aXayZrH98/400x0/filters:quality(85)/2/c/b/7e85678927d141229d8817d882208bc2.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 Ligue 1 — Jens Berthel Askou, le pari danois du Toulouse FC
-francetv://27bff40c-a7c3-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-9d18681c-a7c1-11f1-877b-19616fa871f9" tvg-logo="https://medias.france.tv/1kDLoDJa7PTU8-RFHGpWvkqSCIw/400x0/filters:quality(85)/6/4/b/7f5e365c66ac49f792a0696f50ae6b46.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - US Open : retour sur la journée de mercredi
-francetv://9d18681c-a7c1-11f1-877b-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-804ddaaa-a6f9-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/0MDxBiWYXFquDMB0-UNysIGGRSA/400x0/filters:quality(85)/6/2/9/4074884e566a4203be66b841bf2da926.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Canoë : Nicolas Gestin présente son terrain de jeu
-francetv://804ddaaa-a6f9-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-0e678d32-a6f9-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/WXEI8yCvlOWl_L7H_dPSL57E8YQ/400x0/filters:quality(85)/6/5/d/64f3205073344c979c883e0645da4d56.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Rugby - Top 14 : le Stade toulousain en quête d'un nouveau Brennus
-francetv://0e678d32-a6f9-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-8817717a-a6f8-11f1-9542-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/PFJNlb0ZqC0ucdNkhxCA1LWfpY4/400x0/filters:quality(85)/e/f/f/5a1dd2b409964d8d9c0e154e81253ffe.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - US Open : Gaël Monfils assure le show
-francetv://8817717a-a6f8-11f1-9542-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-6a607402-a62f-11f1-8778-19616fa871f9" tvg-logo="https://medias.france.tv/ADKi8VOLKkPFi5rd8yGD9EYDkkQ/400x0/filters:quality(85)/2/0/3/14b02044eece43afa2a7ad7c98e0d302.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - US Open : la désillusion Arthur Fils
-francetv://6a607402-a62f-11f1-8778-19616fa871f9
-#EXTINF:-1 tvg-id="francetv-f3b6d354-a62f-11f1-ae7b-57a09c50f7ce" tvg-logo="https://medias.france.tv/ryBxwEbTFsRI0BHHlhXucRwoeUg/400x0/filters:quality(85)/a/4/6/0db6c1457eba4892801373c3ad37364a.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Cyclisme : Tadej Pogacar, une absence qui change la donne
-francetv://f3b6d354-a62f-11f1-ae7b-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-f87c0622-a56a-11f1-9540-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/eVmrYxND7DZlaevR-N4jyXEv-so/400x0/filters:quality(85)/b/a/7/95797f864708477dbf81f6b84d96a7ab.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Tennis - US Open : Novak Djokovic craque d'entrée
-francetv://f87c0622-a56a-11f1-9540-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-80555410-a2e4-11f1-953e-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/UMO3lLUydCe5OZswbcj0xvj3_HA/400x0/filters:quality(85)/f/f/4/ce88479f5a384d259f04d9bd4d70e4ff.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - VTT à pleine balle !",Les meilleurs moments du Cerro Abajo 2026 de Gênes
 francetv://80555410-a2e4-11f1-953e-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-5e6e0012-2284-433f-ae59-a15f30e2c981" tvg-logo="https://medias.france.tv/KrKkTPz-Y0dt0itOD8_PkYoFIqU/400x0/filters:quality(85)/t/x/r/phpffbrxt.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - VTT à pleine balle !",Riding Zone, sports extrêmes et culture glisse — Au coeur de la course de VTT urbaine la plus extrême : Valparaíso Cerro Abajo
@@ -27689,10 +27653,6 @@ francetv://57b0b63b-08f2-4272-9318-3c21c98e5fab
 francetv://8b6a1022-7930-11f0-92d3-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-e76b2654-bc7f-11ef-899d-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/xq8TA5wC-9fkKUWM-8upFH_L2TI/400x0/filters:quality(85)/7/5/4/369ad9036377423a96571e2f74357d191274adc00fdb565e506b5abbfac07457.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - VTT à pleine balle !",Yannis Pelé, le miraculé
 francetv://e76b2654-bc7f-11ef-899d-6dcd43e8ddfd
-#EXTINF:-1 tvg-id="francetv-c5ac1000-a486-11f1-ae77-57a09c50f7ce" tvg-logo="https://medias.france.tv/P7zDI9NnJ3D3gSe2R4JzYJDiCqY/400x0/filters:quality(85)/1/1/b/f399554fd53e47689eb0b572ba04ab11.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de la Bretagne Classic CIC 2026
-francetv://c5ac1000-a486-11f1-ae77-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-ecd134d8-a3bb-11f1-84c7-957ddefc544d" tvg-logo="https://medias.france.tv/_mVLymb3JKcYYPCTBZmKxK6CtlA/400x0/filters:quality(85)/3/c/0/e922dd3b1979437ea0773fe91718e0c3.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Le résumé de la Classic Lorient Agglomération - Ceratizit 2026
-francetv://ecd134d8-a3bb-11f1-84c7-957ddefc544d
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/5Bhb8wWocbQNmsPjyxm-XFM-pWI/400x0/filters:quality(85)/o/f/d/phpwfhdfo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2 la quotidienne
