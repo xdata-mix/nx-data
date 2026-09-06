@@ -32,7 +32,7 @@ API = "https://api.tokyvideo.com"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 OUT = os.environ.get("TOKY_OUT", "data/tokyvideo/index.json")
 LIMIT = int(os.environ.get("TOKY_LIMIT", "0"))  # 0 = toutes les playlists (test : ex. 5)
-WORKERS = int(os.environ.get("TOKY_WORKERS", "3"))
+WORKERS = int(os.environ.get("TOKY_WORKERS", "2"))
 MAX_PAGES_LIST = 40
 
 S = requests.Session()
@@ -43,15 +43,22 @@ S.headers.update({"User-Agent": UA, "Accept-Language": "fr-FR,fr;q=0.9"})
 #   sérialise à ~2 requêtes/s au total et on patiente franchement sur un 429.
 _verrou_debit = __import__("threading").Lock()
 _dernier = [0.0]
-DELAI_MIN = float(os.environ.get("TOKY_DELAI", "0.5"))
+DELAI = [float(os.environ.get("TOKY_DELAI", "1.5"))]   # s entre deux requêtes, ADAPTATIF (×1.5 à chaque 429, max 8 s)
 
 
 def _cadence():
     with _verrou_debit:
-        attente = _dernier[0] + DELAI_MIN - time.time()
+        attente = _dernier[0] + DELAI[0] - time.time()
         if attente > 0:
             time.sleep(attente)
         _dernier[0] = time.time()
+
+
+def _ralentir():
+    with _verrou_debit:
+        if DELAI[0] < 8:
+            DELAI[0] = min(8.0, DELAI[0] * 1.5)
+            print(f"  cadence ralentie → {DELAI[0]:.1f} s entre requêtes", flush=True)
 
 
 def get(url, retries=6, **kw):
@@ -64,7 +71,8 @@ def get(url, retries=6, **kw):
             if r.status_code in (404, 410):
                 return None
             if r.status_code == 429:
-                pause = 20 * (i + 1)
+                _ralentir()
+                pause = 15 * (i + 1)
                 print(f"  429 sur {url[-60:]} → pause {pause}s", flush=True)
                 time.sleep(pause)
                 continue
