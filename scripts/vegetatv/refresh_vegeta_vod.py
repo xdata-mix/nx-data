@@ -435,10 +435,14 @@ def main():
         return rates
     principales = [(key, e["s"][0][0], e["s"][0][1], e["t"]) for key, e in series.items()]
     rates = passe(principales, "passe 1 (source principale)")
+    # 2026-09-06 (user : « si un serveur est coupé, on perd le film ») : la passe 2 récupère
+    #   la fiche de la 2e source pour TOUTES les séries qui en ont une (pas seulement les échecs),
+    #   sinon le nettoyage ci-dessous la supprimait et chaque série n'avait plus qu'un serveur.
+    #   Coût mesuré : ~14 000 fiches en 21 min → ~40 min pour les deux passes, sous la limite.
     secours = [(key, e["s"][1][0], e["s"][1][1], e["t"])
-               for key, e in series.items() if key in rates and len(e["s"]) > 1]
+               for key, e in series.items() if len(e["s"]) > 1]
     if secours:
-        passe(secours, "passe 2 (source de secours des échecs)")
+        passe(secours, "passe 2 (2e source de chaque série)")
     log("épisodes : %d fiches ok, %d KO" % (done, fail))
     # Une série sans AUCUNE fiche d'épisodes ne sert à rien : on l'enlève.
     ok_keys = set()
