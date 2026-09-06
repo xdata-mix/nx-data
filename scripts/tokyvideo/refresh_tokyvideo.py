@@ -169,8 +169,9 @@ def nettoyer_nom_serie(nom):
     t = RE_ANNEE.sub(" ", partie)
     t = re.sub(r"\(\s*\)", " ", t)
     t = re.sub(r"saisons?\s*\d{1,2}(\s*(?:a|à|-|et)\s*\d{1,2})?", " ", t, flags=re.I)
-    t = re.sub(r"\d{1,2}\s*saisons?", " ", t, flags=re.I)
-    t = re.sub(r"\b(serie tv|série tv|la serie|la série|série|serie|episodes?|complet|complete|vf|integrale|intégrale)\b", " ", t, flags=re.I)
+    t = re.sub(r"\d{1,2}\s*sai\w*", " ", t, flags=re.I)          # « 6 saisons », « 6 saiaons » (coquille vue)
+    t = re.sub(r"\b(serie tv|série tv|la serie|la série|série|serie|episodes?|complet|complete|vf|integrale|intégrale"
+               r"|sitcom|drame|policier|action|aventure|sf|science-fiction|comédie|comedie|mystère|mystere|western|animation)\b", " ", t, flags=re.I)
     t = re.sub(r"[\s.\-–,:]+$", "", t)
     t = re.sub(r"\s{2,}", " ", t).strip(" .-–:")
     return t, annee, nb_saisons, saison_defaut
