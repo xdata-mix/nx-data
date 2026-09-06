@@ -54,11 +54,26 @@ def _cadence():
         _dernier[0] = time.time()
 
 
+DELAI_BASE = DELAI[0]
+_succes = [0]
+
+
 def _ralentir():
     with _verrou_debit:
+        _succes[0] = 0
         if DELAI[0] < 8:
             DELAI[0] = min(8.0, DELAI[0] * 1.5)
             print(f"  cadence ralentie → {DELAI[0]:.1f} s entre requêtes", flush=True)
+
+
+def _accelerer():
+    """Après 25 requêtes sans 429, on resserre doucement vers la cadence de base."""
+    with _verrou_debit:
+        _succes[0] += 1
+        if _succes[0] >= 25 and DELAI[0] > DELAI_BASE:
+            _succes[0] = 0
+            DELAI[0] = max(DELAI_BASE, DELAI[0] * 0.8)
+            print(f"  cadence resserrée → {DELAI[0]:.1f} s", flush=True)
 
 
 def get(url, retries=6, **kw):
@@ -67,6 +82,7 @@ def get(url, retries=6, **kw):
         try:
             r = S.get(url, timeout=40, **kw)
             if r.status_code == 200:
+                _accelerer()
                 return r
             if r.status_code in (404, 410):
                 return None
