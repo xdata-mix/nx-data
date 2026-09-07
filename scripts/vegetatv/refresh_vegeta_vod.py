@@ -30,6 +30,11 @@ SERVERS_URL = "http://vegetatv.duckdns.org/data/server_status.json"
 OUT_INDEX   = os.environ.get("VEGETA_VOD_OUT", "data/vegetatv/vegeta-vod-fr.json")
 OUT_EP_DIR  = os.environ.get("VEGETA_VOD_EP_DIR", "data/vegetatv/vod-ep")
 MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
+# 2026-09-07 : panels qui refusent les flux DEPUIS LA FRANCE (HTTP 458) alors qu'ils
+#   répondent au runner GitHub (hors France) — le test de flux ci-dessous ne peut pas
+#   les voir. Mesuré sur PC + Oppo (FR) : 000006708.xyz → 458 systématique, matin et soir.
+#   Hôte seul, sans port. À compléter si un autre panel se comporte pareil.
+PANELS_EXCLUS_FR = {"000006708.xyz"}
 MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "5"))     # serveurs par film (tous gardés : si un panel tombe, les autres restent)
 MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
 EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "24"))
@@ -189,6 +194,10 @@ def fetch_servers():
             continue
         base, user, pw = creds(url)
         if not user or not pw:
+            continue
+        hote = re.sub(r"^https?://", "", base).split("/")[0].split(":")[0].lower()
+        if hote in PANELS_EXCLUS_FR:
+            log("[%2d] %s : exclu (refuse les flux depuis la France)" % (i + 1, base))
             continue
         flag = o.get("flag", "") or ""
         out.append({"pos": i + 1, "b": base, "u": user, "p": pw,
