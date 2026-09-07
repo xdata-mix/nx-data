@@ -37,7 +37,7 @@ MAX_SERVERS = int(os.environ.get("VEGETA_VOD_MAX_SERVERS", "6"))
 PANELS_EXCLUS_FR = {"000006708.xyz"}
 MAX_SRC     = int(os.environ.get("VEGETA_VOD_MAX_SRC", "5"))     # serveurs par film (tous gardés : si un panel tombe, les autres restent)
 MAX_SRC_SER = int(os.environ.get("VEGETA_VOD_MAX_SRC_SER", "2")) # serveurs par série (1 fiche épisodes chacun)
-EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "24"))
+EP_WORKERS  = int(os.environ.get("VEGETA_VOD_EP_WORKERS", "32"))
 API_TIMEOUT = int(os.environ.get("VEGETA_VOD_API_TIMEOUT", "240"))
 NB_SHARDS   = 64
 UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
@@ -460,14 +460,34 @@ def main():
     shards = [dict() for _ in range(NB_SHARDS)]
     # Limite par serveur pour ne pas se faire bannir : 6 requêtes simultanées / panel.
     sem = {pos: threading.Semaphore(6) for pos in srv_by_pos}
+    # 2026-09-07 : DISJONCTEUR par panel. Le run du soir a été annulé à 120 min : un panel
+    #   qui ne répond plus fait attendre 45 s par fiche, 6 fiches à la fois, sur des
+    #   milliers de fiches (2 451 KO au run précédent) — c'est lui qui mange le budget.
+    #   Après SEUIL_MORT échecs consécutifs sur un panel, ses fiches restantes sont
+    #   marquées KO sans requête ; une réussite remet le compteur à zéro.
+    SEUIL_MORT = 40
+    echecs_suite = {pos: 0 for pos in srv_by_pos}
+    morts = set()
+    verrou_morts = threading.Lock()
     def run(job):
         key, pos, sid, title = job
+        if pos in morts:
+            return job, None
         try:
             with sem[pos]:
-                return job, fetch_episodes(srv_by_pos, pos, sid, title)
+                eps = fetch_episodes(srv_by_pos, pos, sid, title)
         except Exception as e:      # jamais laisser une fiche tuer le run entier
             log("  fiche %s:%s KO %s" % (pos, sid, str(e)[:60]))
-            return job, None
+            eps = None
+        with verrou_morts:
+            if eps:
+                echecs_suite[pos] = 0
+            else:
+                echecs_suite[pos] += 1
+                if echecs_suite[pos] >= SEUIL_MORT and pos not in morts:
+                    morts.add(pos)
+                    log("  panel %d : %d fiches KO d'affilée → on n'insiste plus" % (pos, SEUIL_MORT))
+        return job, eps
     done = fail = 0
     def passe(jobs, libelle):
         nonlocal done, fail
