@@ -196,6 +196,39 @@ def fetch_servers():
                     "ping": int(o.get("response_time_ms", 9999) or 9999)})
     return out
 
+REFUS_FLUX = (401, 403, 456, 458)
+
+def flux_refuse(srv):
+    """Lit les 100 premiers octets d'UN film du panel. Renvoie le code HTTP si le panel
+    refuse franchement (deux essais à 20 s d'écart), sinon None. Sans film testable ou
+    sur erreur réseau → None (on ne condamne pas sur un doute)."""
+    try:
+        cat = next(iter(srv["vod_cats"]), None)
+        vod = api(srv, "get_vod_streams", category_id=cat) if cat else api(srv, "get_vod_streams")
+        st = next((v for v in vod if v.get("stream_id")), None)
+        if not st:
+            return None
+        url = "%s/movie/%s/%s/%s.%s" % (srv["b"], srv["u"], srv["p"], st["stream_id"],
+                                        st.get("container_extension") or "mp4")
+    except Exception:
+        return None
+    hdr = dict(H)
+    hdr["Range"] = "bytes=0-100"
+    dernier = None
+    for essai in range(2):
+        try:
+            r = requests.get(url, headers=hdr, timeout=(15, 20), stream=True, allow_redirects=True)
+            code = r.status_code
+            r.close()
+        except Exception:
+            return None
+        if code not in REFUS_FLUX:
+            return None
+        dernier = code
+        if essai == 0:
+            time.sleep(20)
+    return dernier
+
 def probe_server(srv):
     """Compte les catégories FR ; renvoie None si le panel ne répond pas."""
     try:
@@ -209,6 +242,17 @@ def probe_server(srv):
                            if not RE_CAT_ADULT.search(str(c.get("category_name", "")))}
         srv["score"] = len(srv["vod_cats"]) + len(srv["ser_cats"])
         log("[%2d] %s : %d cat films FR, %d cat séries FR" % (srv["pos"], srv["b"], len(vod_fr), len(ser_fr)))
+        # 2026-09-07 (user : « une série avec un seul serveur qui ne marche pas, et ça arrive
+        #   sur plein de séries ») : un panel peut répondre à l'API et REFUSER tous ses flux
+        #   (mesuré : 000006708.xyz → 458 depuis la France, 456 depuis le runner ; nasadigitaltv
+        #   et vismawe → 401 partout). Ses films/séries étaient publiés quand même = entrées
+        #   mortes dans Ciné Films. On lit UN flux réel avant de retenir le panel : refus franc
+        #   (401/403/456/458) deux fois de suite → panel écarté. Une page « FAILED TO CONNECT »
+        #   en 200 ou un 404 sur ce film précis ne condamne pas le panel (c'est propre au film).
+        refus = flux_refuse(srv)
+        if refus:
+            log("[%2d] %s : flux refusés (HTTP %s) → panel écarté" % (srv["pos"], srv["b"], refus))
+            return None
         return srv
     except Exception as e:
         log("[%2d] %s : KO %s" % (srv["pos"], srv["b"], str(e)[:80]))
