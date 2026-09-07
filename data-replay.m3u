@@ -11049,6 +11049,8 @@ tf1plus://tf1/mentalist
 tf1plus://tf1-series-films/cuisine-interne
 #EXTINF:-1 tvg-id="tf1plus-tf1-innocente-nouveautés-séries-de-la-rentrée" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-17cdc2-eed6de-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveautés séries de la rentrée",Innocente
 tf1plus://tf1/innocente
+#EXTINF:-1 tvg-id="tf1plus-tf1-ghosts-fantomes-a-la-maison-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-ghosts-fantomes-a-la-maison-png-a85dfd-8109b8-64736e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Ghosts Fantomes A la Maison
+tf1plus://tf1/ghosts-fantomes-a-la-maison
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Les Freres Scott
 tf1plus://tf1/les-freres-scott
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-remplacant-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-2b90cf-f7a85f-aadbb5-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Le Remplacant
@@ -11077,8 +11079,6 @@ tf1plus://tf1/adresse-inconnue
 tf1plus://tf1/esprits-criminels
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-section-criminelle-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-afd805-ef8cb0-f8e99c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",New York Section Criminelle
 tf1plus://tf1/new-york-section-criminelle
-#EXTINF:-1 tvg-id="tf1plus-tf1-ghosts-fantomes-a-la-maison-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-ghosts-fantomes-a-la-maison-png-a85dfd-8109b8-64736e-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Ghosts Fantomes A la Maison
-tf1plus://tf1/ghosts-fantomes-a-la-maison
 #EXTINF:-1 tvg-id="tf1plus-tf1-balthazar-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-balthazar-saison-5-8aeab8-079a14-495747-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Balthazar
 tf1plus://tf1/balthazar
 #EXTINF:-1 tvg-id="tf1plus-tf1-panda-sélection-de-la-semaine" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-ba0c52-ba0195-9b18ba-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Sélection de la semaine",Panda
@@ -13825,20 +13825,20 @@ tf1plus://tf1/la-chanson-secrete
 tf1plus://tf1/mask-singer
 #EXTINF:-1 tvg-id="tf1plus-tf1-10-sur-10-combien-tu-te-mets" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",10 Sur 10 Combien Tu Te Mets
 tf1plus://tf1/10-sur-10-combien-tu-te-mets
-#EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
-tf1plus://tf1/qui-veut-gagner-des-millions
 #EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tf1 50 Ans Ensemble
 tf1plus://tf1/tf1-50-ans-ensemble
+#EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
+tf1plus://tf1/qui-veut-gagner-des-millions
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-quiz" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Quiz
 tf1plus://tf1/le-grand-quiz
 #EXTINF:-1 tvg-id="tf1plus-tf1-bataille-navale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bataille Navale
 tf1plus://tf1/bataille-navale
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
-tf1plus://tf1-series-films/clap
 #EXTINF:-1 tvg-id="tf1plus-tf1-2025-le-grand-feu-dartifice" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",2025 le Grand Feu Dartifice
 tf1plus://tf1/2025-le-grand-feu-dartifice
 #EXTINF:-1 tvg-id="tf1plus-tmc-q-dor" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Q Dor
 tf1plus://tmc/q-dor
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
+tf1plus://tf1-series-films/clap
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-maitre-du-jeu" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Maitre du Jeu
 tf1plus://tf1/le-maitre-du-jeu
 #EXTINF:-1 tvg-id="tf1plus-tf1-podcast-tf1" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Podcast Tf1
@@ -13921,6 +13921,8 @@ tf1plus://tf1/etam-live-show
 tf1plus://tf1/mamans-ados-le-defi-de-leur-vie
 #EXTINF:-1 tvg-id="tf1plus-tfx-super-nanny" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Super Nanny
 tf1plus://tfx/super-nanny
+#EXTINF:-1 tvg-id="tf1plus-tfx-maman-a-tout-prix" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Maman A Tout Prix
+tf1plus://tfx/maman-a-tout-prix
 #EXTINF:-1 tvg-id="tf1plus-tf1-santa-le-concert-evenement" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Santa le Concert Evenement
 tf1plus://tf1/santa-le-concert-evenement
 #EXTINF:-1 tvg-id="tf1plus-tf1-spider-man-no-way-home-top-10" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-f9e65b-ab11d3-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Top 10",Spider Man No Way Home
@@ -17557,8 +17559,6 @@ tf1plus://tfx/les-filles-d-a-cote
 tf1plus://tfx/les-trois-visages-d-ana
 #EXTINF:-1 tvg-id="tf1plus-tfx-lolywood-smx" tvg-logo="https://photos.tf1.fr/1200/720/nego32-89eb22-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Lolywood
 tf1plus://tfx/lolywood
-#EXTINF:-1 tvg-id="tf1plus-tfx-maman-a-tout-prix-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-docs-du-week-end-encore-ados-et-deja-mamans-leur-nouvelle-vie-41282971-1737173387-ae8d52-a72e4e-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Maman A Tout Prix
-tf1plus://tfx/maman-a-tout-prix
 #EXTINF:-1 tvg-id="tf1plus-tfx-pierre-garnier-le-concert-evenement-smx" tvg-logo="https://photos.tf1.fr/1200/720/pierre-garnier-le-concert-evenement-31a89f-415427-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Pierre Garnier Le Concert Evenement
 tf1plus://tfx/pierre-garnier-le-concert-evenement
 #EXTINF:-1 tvg-id="tf1plus-tfx-pop-le-magazine-des-pratiques-culturelles-des-15-35-ans-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-ea72e5-e36fd4-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Pop Le Magazine Des Pratiques Culturelles Des 15 35 Ans
