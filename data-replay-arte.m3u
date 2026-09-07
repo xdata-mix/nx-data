@@ -421,6 +421,8 @@ arte://117679-031-A
 arte://118149-017-A
 #EXTINF:-1 tvg-id="arte-RC-024574" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Wdfts8NhCwT99SLzQN9PYn/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",De grâce — Une famille, les docks, leur malédiction
 arte://RC-024574
+#EXTINF:-1 tvg-id="arte-RC-028079" tvg-logo="https://api-cdn.arte.tv/img/v2/image/7xzJotU9WUUTS9EovBcxo/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",La dernière heure — Un huit-clos quasi en temps réel
+arte://RC-028079
 #EXTINF:-1 tvg-id="arte-RC-021279" tvg-logo="https://api-cdn.arte.tv/img/v2/image/XmaYwXaHrSqzPg59fKFXGb/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Happiness — Après le road-trip, l'arrivée en France
 arte://RC-021279
 #EXTINF:-1 tvg-id="arte-RC-022404" tvg-logo="https://api-cdn.arte.tv/img/v2/image/W8tWvJzCduqHTeFNRAuKfR/400x225?type=TEXT" tvg-country="FR" tvg-type="series" group-title="Arte Séries et fictions",Brigade Mobile — Drôles de flics en avant-poste
@@ -587,8 +589,6 @@ arte://127454-004-A
 arte://127454-002-A
 #EXTINF:-1 tvg-id="arte-123428-014-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ekZFBaYSkWci3A67F7QMoj/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",L'esclavage — Qu’est-ce qui est vraiment à l'origine de l’effondrement de ce système ?
 arte://123428-014-A
-#EXTINF:-1 tvg-id="arte-120412-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/bLAwxuerv2qjQ6Nmgx7k3X/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Exclus du web — La discrimination numérique
-arte://120412-000-A
 #EXTINF:-1 tvg-id="arte-132779-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/rzvFcPMf4CK2BBcbtdtk5V/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Faut-il interdire les réseaux sociaux aux ados ? — Comment souhaite se positionner l'Europe ?
 arte://132779-002-A
 #EXTINF:-1 tvg-id="arte-120879-004-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/3pwQtnneAum8hGoSRavBv4/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Documentaires et reportages",Bulgarie — Le super prof de physique
@@ -755,10 +755,10 @@ arte://112907-178-A
 arte://074505-025-A
 #EXTINF:-1 tvg-id="arte-RC-014085" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qiZv3KSnSSp6esFa6VrA56/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Journal — Le JT de l'actualité internationale
 arte://RC-014085
-#EXTINF:-1 tvg-id="arte-121620-152-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/SWQXS3kHdWvbw5MnESpwUX/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Ukraine : Zelensky sous pression — Première visite à Kiev des envoyés spéciaux de Donald Trump
-arte://121620-152-A
-#EXTINF:-1 tvg-id="arte-129995-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/esuW8tWPdckhzrz3VxuPYG/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Gaza : à la recherche des disparus — Funérailles pour une centaine de victimes retrouvées sous les décombres
-arte://129995-000-A
+#EXTINF:-1 tvg-id="arte-117239-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/cYifz9j2sPTmJuWfWTgKx6/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",White Power - Au cœur de l'extrême droite européenne — Procès à Paris de deux militants d'ultradroite pour "assassinat"
+arte://117239-000-A
+#EXTINF:-1 tvg-id="arte-125533-026-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/VPUUDPF3EtpyDEcaiQLynR/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",De Bolsonaro à Lula : quel Brésil ? — Jour de l'Indépendance en pleine campagne électorale
+arte://125533-026-A
 #EXTINF:-1 tvg-id="arte-125614-280-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/vhRYohmaNugQTMoC8S7XXB/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société","Lac d'Amérique" : Trump rebaptise le lac Ontario
 arte://125614-280-A
 #EXTINF:-1 tvg-id="arte-121619-100-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/V8XK2rQA9J3CAyxpKvkw7H/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Virus du Nil occidental : quels dangers ?
@@ -809,8 +809,6 @@ arte://124239-074-A
 arte://126925-111-A
 #EXTINF:-1 tvg-id="arte-126925-110-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/riVbnkvTnuumhyaGBqWrS5/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des cartes - L'essentiel — La Russie affaiblie contre-attaque
 arte://126925-110-A
-#EXTINF:-1 tvg-id="arte-117239-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tdnxVYXCKJaCMYSFPyMJsJ/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",White Power - Au cœur de l'extrême droite européenne
-arte://117239-000-A
 #EXTINF:-1 tvg-id="arte-121271-020-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Jm2UWbsGzRTmpAYn7qNjJb/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",Le dessous des images — Allemagne : les "allers simples" de l’extrême droite
 arte://121271-020-A
 #EXTINF:-1 tvg-id="arte-130194-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/j6dcNXt5fRxDYUS2kDFF4K/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Info et société",ARTE Regards — France : génération "no kids"
@@ -1019,8 +1017,6 @@ arte://121399-010-A
 arte://121399-009-A
 #EXTINF:-1 tvg-id="arte-121402-009-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tHDYo97KuKGYmpVGzktjch/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Culture et pop",Twist — En finir avec la dépression !
 arte://121402-009-A
-#EXTINF:-1 tvg-id="arte-121403-005-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kqpYSN3wva8YDRH2AiXE23/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Culture et pop",Twist — Heureux, sans honte ?
-arte://121403-005-A
 #EXTINF:-1 tvg-id="arte-123395-010-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Hg73KzwmhtoFwm7MxgQ9Lf/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Culture et pop",Unhappy — On s'expatrie !
 arte://123395-010-A
 #EXTINF:-1 tvg-id="arte-123395-009-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/5T2zNiAx88Xdsk6Ssdmpyn/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Culture et pop",Unhappy — Sentir et toucher
@@ -1379,8 +1375,6 @@ arte://092983-015-A
 arte://092983-012-A
 #EXTINF:-1 tvg-id="arte-111684-022-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/qS3pqGjTPsPdVXuBMU2ay7/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — L’or blanc de Noirmoutier
 arte://111684-022-F
-#EXTINF:-1 tvg-id="arte-092983-006-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/G2iWJnQBUunrpL4gUGJAt4/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Curcuma, une épice en or
-arte://092983-006-A
 #EXTINF:-1 tvg-id="arte-092983-025-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/tmgMwDUfmpVcRQLSnFEDQb/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Australie, le street art s'invite sur les silos
 arte://092983-025-A
 #EXTINF:-1 tvg-id="arte-111684-020-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/gtSBTXHnEeaQMFen6n7gEH/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — Cotentin, des marais entre terre et mer
@@ -1393,6 +1387,8 @@ arte://111684-019-F
 arte://101139-009-F
 #EXTINF:-1 tvg-id="arte-111684-012-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/Uq39yAj2QNaDcVr9anHHAQ/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — Les pinisis d'Indonésie, l'art de construire des bateaux
 arte://111684-012-F
+#EXTINF:-1 tvg-id="arte-111684-004-F" tvg-logo="https://api-cdn.arte.tv/img/v2/image/x37zDJRR49oZG6L2C3oiWm/400x225" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",360° Reportage — New York et ses food trucks
+arte://111684-004-F
 #EXTINF:-1 tvg-id="arte-121298-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/pfTB5MC6jGdJckPGD8Mfyn/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Guyane française - Le paradis tropical des oiseaux — Les merveilles de la biodiversité amazonienne
 arte://121298-000-A
 #EXTINF:-1 tvg-id="arte-117728-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/ySVB8Z6Xgyhc5MKKCM4MzU/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Le Kintoa, roi des cochons basques — Le retour d'une race locale autrefois menacée d’extinction
@@ -1421,6 +1417,8 @@ arte://125689-000-A
 arte://089963-000-A
 #EXTINF:-1 tvg-id="arte-106241-001-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/YTZk7uSctVYS9gW2tNfGff/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Le royaume de Jordanie — Au sud
 arte://106241-001-A
+#EXTINF:-1 tvg-id="arte-092983-006-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/G2iWJnQBUunrpL4gUGJAt4/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",GEO Reportage — Curcuma, une épice en or
+arte://092983-006-A
 #EXTINF:-1 tvg-id="arte-107083-000-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/kebHJmH7SHMPFbw7P57c8Q/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Inde - La côte de Coromandel — Offrandes et divinités
 arte://107083-000-A
 #EXTINF:-1 tvg-id="arte-106241-002-A" tvg-logo="https://api-cdn.arte.tv/img/v2/image/PxLrFPqdYMXqhrZgCgdovD/400x225?type=TEXT" tvg-country="FR" tvg-type="movie" group-title="Arte Voyages et découvertes",Le royaume de Jordanie — Au nord
