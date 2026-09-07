@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-alice-nevers-78424271" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Alice Nevers
 tf1live://L_FAST_v2l-ad-alice-nevers-78424271
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-baby-boom-88288927" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Baby Boom
+tf1live://L_FAST_v2l-ad-baby-boom-88288927
+#EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-camping-paradis-42908515" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Camping Paradis
+tf1live://L_FAST_v2l-ad-camping-paradis-42908515
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-chante-69061019" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Chante
 tf1live://L_FAST_v2l-ad-chante-69061019
 #EXTINF:-1 tvg-id="tf1live-L_FAST_v2l-ad-foudre-27131861" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png" tvg-country="FR" group-title="Live TF1+",Foudre
@@ -2535,32 +2539,32 @@ tf1plus://tfx/que-sont-ils-devenus
 tf1plus://tfx/les-anges
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-la-malediction-de-lile" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille la Malediction de Lile
 tf1plus://tfx/la-bataille-la-malediction-de-lile
-#EXTINF:-1 tvg-id="tf1plus-tfx-tricheurs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Tricheurs
-tf1plus://tfx/tricheurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-ma-mere-ton-pere" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ma Mere Ton Pere
 tf1plus://tf1/ma-mere-ton-pere
-#EXTINF:-1 tvg-id="tf1plus-tfx-les-vacances-des-anges" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Les Vacances des Anges
-tf1plus://tfx/les-vacances-des-anges
+#EXTINF:-1 tvg-id="tf1plus-tfx-tricheurs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Tricheurs
+tf1plus://tfx/tricheurs
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-couples" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Couples
 tf1plus://tfx/la-bataille-des-couples
-#EXTINF:-1 tvg-id="tf1plus-tfx-jlc-family-lincroyable-ete-de-jazz-et-laurent" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Jlc Family Lincroyable Ete de Jazz et Laurent
-tf1plus://tfx/jlc-family-lincroyable-ete-de-jazz-et-laurent
 #EXTINF:-1 tvg-id="tf1plus-tfx-excape-island-coinces-avec-nos-exs" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Excape Island Coinces Avec Nos Exs
 tf1plus://tfx/excape-island-coinces-avec-nos-exs
+#EXTINF:-1 tvg-id="tf1plus-tfx-les-vacances-des-anges" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Les Vacances des Anges
+tf1plus://tfx/les-vacances-des-anges
+#EXTINF:-1 tvg-id="tf1plus-tfx-jlc-family-lincroyable-ete-de-jazz-et-laurent" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Jlc Family Lincroyable Ete de Jazz et Laurent
+tf1plus://tfx/jlc-family-lincroyable-ete-de-jazz-et-laurent
 #EXTINF:-1 tvg-id="tf1plus-tfx-la-bataille-des-clans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",La Bataille des Clans
 tf1plus://tfx/la-bataille-des-clans
 #EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres
 tf1plus://tfx/mamans-et-celebres
 #EXTINF:-1 tvg-id="tf1plus-tfx-time-to-love" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Time To Love
 tf1plus://tfx/time-to-love
-#EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres-fetent-noel" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres Fetent Noel
-tf1plus://tfx/mamans-et-celebres-fetent-noel
-#EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
-tf1plus://tf1/house-of-ho
 #EXTINF:-1 tvg-id="tf1plus-tf1-million-dollar-weekend" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Million Dollar Weekend
 tf1plus://tf1/million-dollar-weekend
+#EXTINF:-1 tvg-id="tf1plus-tf1-house-of-ho" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",House Of Ho
+tf1plus://tf1/house-of-ho
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-20-ans-de-la-telerealite" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les 20 Ans de la Telerealite
 tf1plus://tmc/les-20-ans-de-la-telerealite
+#EXTINF:-1 tvg-id="tf1plus-tfx-mamans-et-celebres-fetent-noel" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Mamans et Celebres Fetent Noel
+tf1plus://tfx/mamans-et-celebres-fetent-noel
 #EXTINF:-1 tvg-id="tf1plus-lci-podcast-guillaume-farde-interieur-crime" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Podcast Guillaume Farde Interieur Crime
 tf1plus://lci/podcast-guillaume-farde-interieur-crime
 #EXTINF:-1 tvg-id="tf1plus-lci-aura" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Aura
@@ -2861,16 +2865,18 @@ tf1plus://tf1/la-chanson-secrete
 tf1plus://tf1/mask-singer
 #EXTINF:-1 tvg-id="tf1plus-tf1-10-sur-10-combien-tu-te-mets" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",10 Sur 10 Combien Tu Te Mets
 tf1plus://tf1/10-sur-10-combien-tu-te-mets
-#EXTINF:-1 tvg-id="tf1plus-tf1-bataille-navale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bataille Navale
-tf1plus://tf1/bataille-navale
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
-tf1plus://tf1-series-films/clap
-#EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tf1 50 Ans Ensemble
-tf1plus://tf1/tf1-50-ans-ensemble
+#EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
+tf1plus://tf1/qui-veut-gagner-des-millions
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-grand-quiz" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Grand Quiz
 tf1plus://tf1/le-grand-quiz
+#EXTINF:-1 tvg-id="tf1plus-tf1-bataille-navale" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Bataille Navale
+tf1plus://tf1/bataille-navale
+#EXTINF:-1 tvg-id="tf1plus-tf1-tf1-50-ans-ensemble" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Tf1 50 Ans Ensemble
+tf1plus://tf1/tf1-50-ans-ensemble
 #EXTINF:-1 tvg-id="tf1plus-tmc-q-dor" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Q Dor
 tf1plus://tmc/q-dor
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-clap" tvg-logo="https://i.imgur.com/3OZdMb9.png" tvg-country="FR" tvg-type="movie" group-title="Replay TF1 Séries Films",Clap
+tf1plus://tf1-series-films/clap
 #EXTINF:-1 tvg-id="tf1plus-tf1-2025-le-grand-feu-dartifice" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",2025 le Grand Feu Dartifice
 tf1plus://tf1/2025-le-grand-feu-dartifice
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-maitre-du-jeu" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Le Maitre du Jeu
@@ -2881,8 +2887,6 @@ tf1plus://tf1/podcast-tf1
 tf1plus://tmc/lagence-nouvelles-destinations
 #EXTINF:-1 tvg-id="tf1plus-tmc-burger-quiz" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Burger Quiz
 tf1plus://tmc/burger-quiz
-#EXTINF:-1 tvg-id="tf1plus-tfx-le-grand-betisier" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Le Grand Betisier
-tf1plus://tfx/le-grand-betisier
 #EXTINF:-1 tvg-id="tf1plus-tmc-mahaut-drama-queen" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Mahaut Drama Queen
 tf1plus://tmc/mahaut-drama-queen
 #EXTINF:-1 tvg-id="tf1plus-tmc-la-promesse-dun-soir-alison-wheeler" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",La Promesse Dun Soir Alison Wheeler
@@ -2943,8 +2947,6 @@ tf1plus://tf1/the-voice-comeback
 tf1plus://tf1/dream-team
 #EXTINF:-1 tvg-id="tf1plus-tf1-santa-le-concert-evenement" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Santa le Concert Evenement
 tf1plus://tf1/santa-le-concert-evenement
-#EXTINF:-1 tvg-id="tf1plus-tf1-qui-veut-gagner-des-millions" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Qui Veut Gagner des Millions
-tf1plus://tf1/qui-veut-gagner-des-millions
 #EXTINF:-1 tvg-id="tf1plus-tf1-30-ans-demissions-cultes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",30 Ans Demissions Cultes
 tf1plus://tf1/30-ans-demissions-cultes
 #EXTINF:-1 tvg-id="tf1plus-tf1-c-est-canteloup" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",C Est Canteloup
@@ -6547,6 +6549,8 @@ tf1plus://tfx/10-couples-parfaits
 tf1plus://tfx/challengers
 #EXTINF:-1 tvg-id="tf1plus-tfx-hypnose-de-rue-smx" tvg-logo="https://photos.tf1.fr/1200/720/hypnosederuee01-1d2dbb-9eeb17-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Hypnose De Rue
 tf1plus://tfx/hypnose-de-rue
+#EXTINF:-1 tvg-id="tf1plus-tfx-le-grand-betisier-smx" tvg-logo="https://photos.tf1.fr/1200/720/episode-1-partie-2-1c24ab-75726e-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Le Grand Betisier
+tf1plus://tfx/le-grand-betisier
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-filles-d-a-cote-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-filles-da-cote-s03-e06-la-petite-28d64e-2c9928-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Les Filles D A Cote
 tf1plus://tfx/les-filles-d-a-cote
 #EXTINF:-1 tvg-id="tf1plus-tfx-les-trois-visages-d-ana-smx" tvg-logo="https://photos.tf1.fr/1200/720/les-trois-visages-dana-s01-e71-1-1-1-1-a3e7cc-c6b1c4-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Les Trois Visages D Ana
