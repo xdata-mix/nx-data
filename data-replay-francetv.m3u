@@ -847,14 +847,14 @@ francetv://program/franceinfo_8h30-politique
 francetv://program/france-2_a-l-origine
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_a-suivre-avec-claire-elisabeth-beaufort" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",A suivre avec Claire-Elisabeth Beaufort
 francetv://program/franceinfo_a-suivre-avec-claire-elisabeth-beaufort
-#EXTINF:-1 tvg-id="francetv-prog-franceinfo_a-suivre-avec-loic-de-la-mornais" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",A suivre avec Loïc de la Mornais
-francetv://program/franceinfo_a-suivre-avec-loic-de-la-mornais
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_alors-on-pense" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Alors, on pense !
 francetv://program/franceinfo_alors-on-pense
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_arret-sur-info" tvg-logo="https://medias.france.tv/6l-YWQC_tkqtZVSI1EzLTzei50M/400x0/filters:quality(85)/o/3/o/phpmgmo3o.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Arrêt sur info
 francetv://program/franceinfo_arret-sur-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_au-coeur-de-l-info" tvg-logo="https://medias.france.tv/PEZyNXHjTjJtMnatp5cAR08PIIs/400x0/filters:quality(85)/q/p/g/php7kygpq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Au cœur de l'info
 francetv://program/franceinfo_au-coeur-de-l-info
+#EXTINF:-1 tvg-id="francetv-prog-franceinfo_au-coeur-de-l-info-week-end" tvg-logo="https://medias.france.tv/rNTXmjqJDmNTr0ZHhJCsJ2fovzg/400x0/filters:quality(85)/w/l/l/phptj2llw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Au cœur de l'info week-end
+francetv://program/franceinfo_au-coeur-de-l-info-week-end
 #EXTINF:-1 tvg-id="francetv-prog-slash_ballroom-danser-pour-exister" tvg-logo="https://medias.france.tv/YpNWvLaqidL0sietH5fLYymHtt0/400x0/filters:quality(85)/k/i/z/phpvzhzik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Ballroom, danser pour exister
 francetv://program/slash_ballroom-danser-pour-exister
 #EXTINF:-1 tvg-id="francetv-prog-france-2_drag-race-france" tvg-logo="https://medias.france.tv/MlYuKGsIqXceFhBYnQxJCXvglD8/400x0/filters:quality(85)/l/y/4/php5hz4yl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Drag Race France
@@ -2971,6 +2971,8 @@ francetv://b84613ae-dcad-4eb7-877d-3cb3ac12ff94
 francetv://8f2b2b3a-fb9b-4ac8-a7de-256ff3b2db1a
 #EXTINF:-1 tvg-id="francetv-8c17900d-969a-49af-bdb0-58b084a3cca3" tvg-logo="https://medias.france.tv/1hNAK01L7s_1RfqCnJQ6Ro6MS-0/400x0/filters:quality(85)/9/w/x/phpzjgxw9.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Le sauvage
 francetv://8c17900d-969a-49af-bdb0-58b084a3cca3
+#EXTINF:-1 tvg-id="francetv-7b364424-06ac-4f00-b935-11b007f20de1" tvg-logo="https://medias.france.tv/ZXFAoxCjCNbwWYERN0MuII4KSGY/400x0/filters:quality(85)/4/b/c/ca4d24dd94bd4e1297b2bc76dd87bcb4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Darling chérie
+francetv://7b364424-06ac-4f00-b935-11b007f20de1
 #EXTINF:-1 tvg-id="francetv-cc312b68-4d97-4564-a13e-5001b25b67e0" tvg-logo="https://medias.france.tv/7A3LFbqQtBw2lIVBH3ykohADHGM/400x0/filters:quality(85)/l/4/l/phpct3l4l.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",Le bon, la brute et le truand
 francetv://cc312b68-4d97-4564-a13e-5001b25b67e0
 #EXTINF:-1 tvg-id="francetv-662af21c-57f8-4a20-a68e-02c545d943dd" tvg-logo="https://medias.france.tv/uK8js_xgN78Cbg54lsNkA14Ui_w/400x0/filters:quality(85)/z/b/n/phpqnfnbz.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Cinéma - Classiques du cinéma",La grande évasion
