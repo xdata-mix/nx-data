@@ -12421,14 +12421,10 @@ tf1plus://tf1/secret-story
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
 #EXTINF:-1 tvg-id="tf1plus-tmc-je-suis-paul-walker" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Je Suis Paul Walker
 tf1plus://tmc/je-suis-paul-walker
-#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
-tf1plus://tf1/sept-a-huit
-#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
-tf1plus://tf1/chroniques-criminelles
-#EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
-tf1plus://tf1/50-mn-inside
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-kebab-canon-francais-quinoa-la-cuisine-identitaire" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill Kebab Canon Francais Quinoa la Cuisine Identitaire
 tf1plus://tmc/les-reportages-de-martin-weill-kebab-canon-francais-quinoa-la-cuisine-identitaire
+#EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
+tf1plus://tf1/chroniques-criminelles
 #EXTINF:-1 tvg-id="tf1plus-tf1-rise-le-secret-des-mangroves-de-madagascar" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Rise le Secret des Mangroves de Madagascar
 tf1plus://tf1/rise-le-secret-des-mangroves-de-madagascar
 #EXTINF:-1 tvg-id="tf1plus-tfx-appels-urgence" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Appels Urgence
@@ -12483,6 +12479,10 @@ tf1plus://tf1/les-dossiers-cold-case
 tf1plus://tf1/affaires-classees-le-crime-dans-les-genes
 #EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
 tf1plus://tf1/grands-reportages
+#EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
+tf1plus://tf1/sept-a-huit
+#EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
+tf1plus://tf1/50-mn-inside
 #EXTINF:-1 tvg-id="tf1plus-tfx-incroyables-mariages-gitans" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Incroyables Mariages Gitans
 tf1plus://tfx/incroyables-mariages-gitans
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-documentaires-de-tatiana-silva" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Documentaires de Tatiana Silva
@@ -12707,10 +12707,12 @@ tf1plus://tf1/une-romance-royale
 tf1plus://tf1/le-pacte-de-fidelite
 #EXTINF:-1 tvg-id="tf1plus-tf1-maries-a-une-polygame" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Maries A une Polygame
 tf1plus://tf1/maries-a-une-polygame
-#EXTINF:-1 tvg-id="tf1plus-tf1-alina-thompson-lhistoire-vraie-dune-survivante" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alina Thompson Lhistoire Vraie Dune Survivante
-tf1plus://tf1/alina-thompson-lhistoire-vraie-dune-survivante
+#EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-dune-orpheline" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",La Vengeance Dune Orpheline
+tf1plus://tf1/la-vengeance-dune-orpheline
 #EXTINF:-1 tvg-id="tf1plus-tf1-fiancee-a-un-polygame" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Fiancee A un Polygame
 tf1plus://tf1/fiancee-a-un-polygame
+#EXTINF:-1 tvg-id="tf1plus-tf1-alina-thompson-lhistoire-vraie-dune-survivante" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Alina Thompson Lhistoire Vraie Dune Survivante
+tf1plus://tf1/alina-thompson-lhistoire-vraie-dune-survivante
 #EXTINF:-1 tvg-id="tf1plus-tf1-serment-mortel-sur-le-campus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Serment Mortel Sur le Campus
 tf1plus://tf1/serment-mortel-sur-le-campus
 #EXTINF:-1 tvg-id="tf1plus-tf1-trois-femmes-et-un-secret" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Trois Femmes et un Secret
@@ -14739,8 +14741,6 @@ tf1plus://tf1/ado-a-coacher-pere-a-seduire
 tf1plus://tf1/ado-rebelle-ou-criminelle
 #EXTINF:-1 tvg-id="tf1plus-tf1-adolescence-volee-smx" tvg-logo="https://photos.tf1.fr/1200/720/adolescence-volee-83622526-1747971579-16ed52-977cbf-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Adolescence Volee
 tf1plus://tf1/adolescence-volee
-#EXTINF:-1 tvg-id="tf1plus-tf1-adopte-moi-ou-je-te-tuerai-smx" tvg-logo="https://photos.tf1.fr/1200/720/adopte-moi-ou-je-te-tuerai-45547552-1709288765-48508d-67cfd3-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Adopte Moi Ou Je Te Tuerai
-tf1plus://tf1/adopte-moi-ou-je-te-tuerai
 #EXTINF:-1 tvg-id="tf1plus-tf1-ados-les-toutes-premieres-fois-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-94cf03-9c76ed-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Ados Les Toutes Premieres Fois
 tf1plus://tf1/ados-les-toutes-premieres-fois
 #EXTINF:-1 tvg-id="tf1plus-tf1-ados-sans-limites-smx" tvg-logo="https://photos.tf1.fr/1200/720/ados-sans-limites-71513538-1737952687-dfdf6b-25d23c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Ados Sans Limites
@@ -15855,8 +15855,6 @@ tf1plus://tf1/la-vengeance-dune-maitresse
 tf1plus://tf1/la-vengeance-dune-mere
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-dune-mythomane-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-vengeance-dune-mythomane-07548725-1717983571-057b30-b30e40-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Vengeance Dune Mythomane
 tf1plus://tf1/la-vengeance-dune-mythomane
-#EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-dune-orpheline-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-vengeance-dune-orpheline-88746684-1719562198-402e03-f9ae5e-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Vengeance Dune Orpheline
-tf1plus://tf1/la-vengeance-dune-orpheline
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-vengeance-sous-la-peau-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-vengeance-dans-le-corps-40111442-1760376870-8a8817-2a2a52-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Vengeance Sous La Peau
 tf1plus://tf1/la-vengeance-sous-la-peau
 #EXTINF:-1 tvg-id="tf1plus-tf1-la-verite-sur-alice-smx" tvg-logo="https://photos.tf1.fr/1200/720/la-verite-sur-alice-5677e8-832fa7-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",La Verite Sur Alice
@@ -16863,6 +16861,8 @@ tf1plus://tf1/plus-jamais-victime
 tf1plus://tf1/podcast-tf1
 #EXTINF:-1 tvg-id="tf1plus-tf1-possession-smx" tvg-logo="https://photos.tf1.fr/1200/720/possession-96890445-1724397066-402530-d5c32c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Possession
 tf1plus://tf1/possession
+#EXTINF:-1 tvg-id="tf1plus-tf1-pour-le-plaisir-smx" tvg-logo="https://photos.tf1.fr/1200/720/pour-le-plaisir-411b29-cfd1fa-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Pour Le Plaisir
+tf1plus://tf1/pour-le-plaisir
 #EXTINF:-1 tvg-id="tf1plus-tf1-pourris-gates-625-smx" tvg-logo="https://photos.tf1.fr/1200/720/program-card-landscape-91c367-1412b6-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Pourris Gates
 tf1plus://tf1/pourris-gates-625
 #EXTINF:-1 tvg-id="tf1plus-tf1-presque-legal-258-smx" tvg-logo="https://photos.tf1.fr/1200/720/presque-legal-80970521-1755281255-f17f27-be9935-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Presque Legal
@@ -17089,8 +17089,6 @@ tf1plus://tf1/sleepwalker
 tf1plus://tf1/slumdog-millionaire
 #EXTINF:-1 tvg-id="tf1plus-tf1-sniper-le-corbeau-blanc-smx" tvg-logo="https://photos.tf1.fr/1200/720/sniper-le-corbeau-blanc-f2f4ba-fdd99c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Sniper Le Corbeau Blanc
 tf1plus://tf1/sniper-le-corbeau-blanc
-#EXTINF:-1 tvg-id="tf1plus-tf1-soeurs-jumelles-soeurs-ennemies-smx" tvg-logo="https://photos.tf1.fr/1200/720/soeurs-jumelles-soeurs-ennemies-15194636-1708550986-3ae332-6fdd53-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Soeurs Jumelles Soeurs Ennemies
-tf1plus://tf1/soeurs-jumelles-soeurs-ennemies
 #EXTINF:-1 tvg-id="tf1plus-tf1-sofia-seule-face-aux-mensonges-smx" tvg-logo="https://photos.tf1.fr/1200/720/sofia-seule-face-aux-mensonges-73060383-1725933212-263e21-57bf3b-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Sofia Seule Face Aux Mensonges
 tf1plus://tf1/sofia-seule-face-aux-mensonges
 #EXTINF:-1 tvg-id="tf1plus-tf1-son-ex-mon-obsession-smx" tvg-logo="https://photos.tf1.fr/1200/720/son-ex-mon-obsession-77362259-1710961555-09d074-976c6f-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Son Ex Mon Obsession
