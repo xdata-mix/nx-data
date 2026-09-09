@@ -6304,6 +6304,10 @@ http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
 brightcove://6150020952001/R35LpOeJ4/6391088380112
 #EXTINF:-1 tvg-id="telequebec-jeunesse" group-title="Live MIX",Télé-Québec Jeunesse
 brightcove://6150020952001/R35LpOeJ4/6391090845112
+#EXTINF:-1 tvg-id="next-tv" tvg-logo="https://nexttvgroup.com/api/media/file/ChatGPT%20Image%2010%20juil.%202026%2C%2003_44_53.png" group-title="Live MIX",NEXT TV
+https://video1.getstreamhosting.com:1936/8312/8312/playlist.m3u8
+#EXTINF:-1 tvg-id="starnovelas" tvg-logo="https://nexttvgroup.com/api/media/file/WhatsApp%20Image%202026-06-21%20at%2005.10.11.jpeg" group-title="Live MIX",STAR+NOVELAS
+https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup - Autres",LCI HD (1080p) [iptv-org-fr]
