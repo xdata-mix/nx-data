@@ -977,12 +977,12 @@ tf1plus://tmc/walker-texas-ranger
 tf1plus://tf1/alerte-cobra
 #EXTINF:-1 tvg-id="tf1plus-tf1-rick-hunter-séries-policières-étrangères" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-d208ee-fd5996-17f2bf-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Séries policières étrangères",Rick Hunter
 tf1plus://tf1/rick-hunter
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-mystere-de-la-chambre-jaune-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-le-mystere-de-la-chambre-jaune_08-216d76-9b35f0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Le Mystere de la Chambre Jaune
-tf1plus://tf1/le-mystere-de-la-chambre-jaune
-#EXTINF:-1 tvg-id="tf1plus-tf1-un-monstre-dans-notre-maison-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-17d700-9ce80a-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Un Monstre Dans Notre Maison
-tf1plus://tf1/un-monstre-dans-notre-maison
 #EXTINF:-1 tvg-id="tf1plus-tf1-new-york-section-criminelle-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-afd805-ef8cb0-f8e99c-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",New York Section Criminelle
 tf1plus://tf1/new-york-section-criminelle
+#EXTINF:-1 tvg-id="tf1plus-tf1-un-monstre-dans-notre-maison-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-jpg-17d700-9ce80a-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Un Monstre Dans Notre Maison
+tf1plus://tf1/un-monstre-dans-notre-maison
+#EXTINF:-1 tvg-id="tf1plus-tf1-le-mystere-de-la-chambre-jaune-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-le-mystere-de-la-chambre-jaune_08-216d76-9b35f0-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Le Mystere de la Chambre Jaune
+tf1plus://tf1/le-mystere-de-la-chambre-jaune
 #EXTINF:-1 tvg-id="tf1plus-tf1-mentalist-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-2e0a17-90e636-62ca35-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Mentalist
 tf1plus://tf1/mentalist
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-freres-scott-nouveaux-épisodes" tvg-logo="https://photos.tf1.fr/217/289/flux-les-freres-scott-saison-7-56188f-374ef0-801080-0@1x.avif" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Séries - Nouveaux épisodes",Les Freres Scott
@@ -5131,8 +5131,6 @@ tf1plus://tf1/le-transporteur-2-456
 tf1plus://tf1/le-transporteur-3-746
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-909-smx" tvg-logo="https://photos.tf1.fr/1200/720/vignette-16-9-2b30a1-a4fe27-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Transporteur
 tf1plus://tf1/le-transporteur-909
-#EXTINF:-1 tvg-id="tf1plus-tf1-le-transporteur-heritage-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-transporteur-heritage-3710a1-43eee9-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Transporteur Heritage
-tf1plus://tf1/le-transporteur-heritage
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-tresor-perdu-de-tom-sawyer-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-tresor-perdu-de-tom-sawyer-10927269-1759424073-c74ebf-48fa0b-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Tresor Perdu De Tom Sawyer
 tf1plus://tf1/le-tresor-perdu-de-tom-sawyer
 #EXTINF:-1 tvg-id="tf1plus-tf1-le-tueur-du-dernier-etage-smx" tvg-logo="https://photos.tf1.fr/1200/720/le-tueur-du-dernier-etage-67848335-1717174325-87ba5b-e78ff9-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1",Le Tueur Du Dernier Etage
@@ -6613,8 +6611,6 @@ tf1plus://tf1-series-films/retour-vers-le-futur
 tf1plus://tf1-series-films/tous-en-salles
 #EXTINF:-1 tvg-id="tf1plus-tfx-10-couples-parfaits-smx" tvg-logo="https://photos.tf1.fr/1200/720/raw-spoiler-romane-manque-de-respect-a-giovanni-95672944-1642598802-390fb5-2d4920-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",10 Couples Parfaits
 tf1plus://tfx/10-couples-parfaits
-#EXTINF:-1 tvg-id="tf1plus-tfx-arthur-3-la-guerre-des-deux-mondes-smx" tvg-logo="https://photos.tf1.fr/1200/720/arthur-3-la-guerre-des-deux-mondes-4d00bd-db3de3-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Arthur 3 La Guerre Des Deux Mondes
-tf1plus://tfx/arthur-3-la-guerre-des-deux-mondes
 #EXTINF:-1 tvg-id="tf1plus-tfx-hypnose-de-rue-smx" tvg-logo="https://photos.tf1.fr/1200/720/hypnosederuee01-1d2dbb-9eeb17-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Hypnose De Rue
 tf1plus://tfx/hypnose-de-rue
 #EXTINF:-1 tvg-id="tf1plus-tfx-le-grand-betisier-smx" tvg-logo="https://photos.tf1.fr/1200/720/episode-1-partie-2-1c24ab-75726e-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TFX",Le Grand Betisier
@@ -6715,7 +6711,5 @@ tf1plus://tmc/rivalite-meurtriere
 tf1plus://tmc/soiree-transpi-ete-2025-au-camping
 #EXTINF:-1 tvg-id="tf1plus-tmc-sous-soleil-st-tropez-smx" tvg-logo="https://photos.tf1.fr/1200/720/raw-sous-le-soleil-de-st-tropez-la-disparition-93554687-1676282841-6b3a9b-f9a08c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Sous Soleil St Tropez
 tf1plus://tmc/sous-soleil-st-tropez
-#EXTINF:-1 tvg-id="tf1plus-tmc-taxi-smx" tvg-logo="https://photos.tf1.fr/1200/720/taxi-669b88-0dff93-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Taxi
-tf1plus://tmc/taxi
 #EXTINF:-1 tvg-id="tf1plus-tmc-vincent-dedienne-smx" tvg-logo="https://photos.tf1.fr/1200/720/vlcsnap-2019-01-09-19h24m37s507-45d82c-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TMC",Vincent Dedienne
 tf1plus://tmc/vincent-dedienne
