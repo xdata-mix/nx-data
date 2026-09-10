@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="francetv-e2189cc6-0dbe-4158-8a49-e9a4ba2b2fb9" tvg-logo="https://medias.france.tv/YGL9opRahh3W9JkfgxqOkkC7cLM/400x0/filters:quality(85)/c/9/e/phpry4e9c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Capitaine Marleau — Port d'attache
+francetv://e2189cc6-0dbe-4158-8a49-e9a4ba2b2fb9
 #EXTINF:-1 tvg-id="francetv-b4755fab-dda0-495d-ab7e-217d1b14704f" tvg-logo="https://medias.france.tv/YM8k5SvpllWA7rGuW6I1-CgCxzA/400x0/filters:quality(85)/d/1/n/phppjen1d.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Il était une voix... Céline Dion
 francetv://b4755fab-dda0-495d-ab7e-217d1b14704f
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-evapores" tvg-logo="https://medias.france.tv/CPtl-k9gmiloFzdiFr9FkeNc4LQ/400x0/filters:quality(85)/8/m/o/phpcpnom8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les évaporés
@@ -9,12 +11,8 @@ francetv://d4cc8db5-b998-40b7-ba3a-1ee24982fb3f
 francetv://program/france-2_le-rouge-et-le-noir
 #EXTINF:-1 tvg-id="francetv-a39df93d-4e46-40a3-9799-d2e4965d1107" tvg-logo="https://medias.france.tv/4D8CGrTrKuJDMsC4ZFHxVNepai8/400x0/filters:quality(85)/x/e/c/phppllcex.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Versailles en fête
 francetv://a39df93d-4e46-40a3-9799-d2e4965d1107
-#EXTINF:-1 tvg-id="francetv-prog-societe_le-mag-de-la-sante" tvg-logo="https://medias.france.tv/V3x_DTKnZKJZ93dbCkLmpWrc5BE/400x0/filters:quality(85)/6/v/w/phpraxwv6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le Mag de la santé
-francetv://program/societe_le-mag-de-la-sante
 #EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",À l'instinct
 francetv://program/france-2_a-l-instinct
-#EXTINF:-1 tvg-id="francetv-2e1b43d8-8920-483a-872c-3e0495f1242a" tvg-logo="https://medias.france.tv/wZV8xcgNs9TK_4FL-R9Et-8aYkE/400x0/filters:quality(85)/u/i/7/phpm0m7iu.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un dimanche à la campagne — Émission du dimanche 6 septembre 2026
-francetv://2e1b43d8-8920-483a-872c-3e0495f1242a
 #EXTINF:-1 tvg-id="francetv-b4b694a5-bc6b-42ac-8230-da296f020b9d" tvg-logo="https://medias.france.tv/HY1vUOoFzvXEegVAtk6951PUEpU/400x0/filters:quality(85)/s/l/v/phps5kvls.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Un dimanche de chasse
 francetv://b4b694a5-bc6b-42ac-8230-da296f020b9d
 #EXTINF:-1 tvg-id="francetv-prog-france-2_leon-au-dela-de-l-or" tvg-logo="https://medias.france.tv/oCMmwgabbqRI6XI3rKEyh1B4FQs/400x0/filters:quality(85)/c/4/b/phpjjnb4c.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Léon, au-delà de l'or
@@ -55,6 +53,8 @@ francetv://program/france-2_capitaine-marleau
 francetv://program/france-2_ca-commence-aujourd-hui
 #EXTINF:-1 tvg-id="francetv-prog-societe_la-maison-des-maternelles" tvg-logo="https://medias.france.tv/U9zvNz7xrRtwq6llrc3SE5ouYCE/400x0/filters:quality(85)/c/k/m/phppvkmkc.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",La maison des Maternelles
 francetv://program/societe_la-maison-des-maternelles
+#EXTINF:-1 tvg-id="francetv-prog-societe_le-mag-de-la-sante" tvg-logo="https://medias.france.tv/V3x_DTKnZKJZ93dbCkLmpWrc5BE/400x0/filters:quality(85)/6/v/w/phpraxwv6.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Le Mag de la santé
+francetv://program/societe_le-mag-de-la-sante
 #EXTINF:-1 tvg-id="francetv-prog-france-2_bel-et-bien" tvg-logo="https://medias.france.tv/h6PSaZA7HNBHSxNFhxKBxjVMzS4/400x0/filters:quality(85)/i/h/x/phpfjgxhi.png" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Bel & bien
 francetv://program/france-2_bel-et-bien
 #EXTINF:-1 tvg-id="francetv-prog-france-2_affaire-conclue-tout-le-monde-a-quelque-chose-a-vendre" tvg-logo="https://medias.france.tv/MKJ-xiVD9kRMJ81z7v8pxvnCiLo/400x0/filters:quality(85)/l/o/a/phpxg2aol.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Affaire conclue, tout le monde a quelque chose à vendre
@@ -531,6 +531,8 @@ francetv://program/spectacles-et-culture_musique-hip-hop-et-rap_yardland-festiva
 francetv://program/spectacles-et-culture_jazz-a-vienne
 #EXTINF:-1 tvg-id="francetv-prog-spectacles-et-culture_musique-hip-hop-et-rap_golden-coast-festival" tvg-logo="https://medias.france.tv/BVoLGIPZImlbwb4PpeajseBJCtg/400x0/filters:quality(85)/2/7/x/phpkmqx72.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 4",Golden Coast Festival
 francetv://program/spectacles-et-culture_musique-hip-hop-et-rap_golden-coast-festival
+#EXTINF:-1 tvg-id="francetv-7e971e4b-ce9a-45fb-b87e-13985c63e9f1" tvg-logo="https://medias.france.tv/d4gJ8L2d5W6OXyV1RxNwGHngAWs/400x0/filters:quality(85)/g/k/f/phph6cfkg.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Mystères du système solaire — Les mondes de l'étrange
+francetv://7e971e4b-ce9a-45fb-b87e-13985c63e9f1
 #EXTINF:-1 tvg-id="francetv-04455044-d2f8-43bf-8b41-a70b1d55a335" tvg-logo="https://medias.france.tv/iZe3quUhMnQsl1JwZ2gqz9cpHpg/400x0/filters:quality(85)/3/e/0/php2vg0e3.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",La grande librairie — Émission du mercredi 9 septembre 2026
 francetv://04455044-d2f8-43bf-8b41-a70b1d55a335
 #EXTINF:-1 tvg-id="francetv-prog-france-5_mecaniques-du-journalisme" tvg-logo="https://medias.france.tv/Q2S73vlUleTMhibWI4lEj5Kvcbk/400x0/filters:quality(85)/k/o/e/phplngeok.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 5",Mécaniques du journalisme
@@ -3903,6 +3905,8 @@ francetv://4b54151d-7aea-4aaf-9edd-20f86b562815
 francetv://71a6fc41-0184-4ba9-855c-7ce124ede24f
 #EXTINF:-1 tvg-id="francetv-12a14ecb-2c90-4702-8db6-630f7fd1906e" tvg-logo="https://medias.france.tv/zXoYQhmb-O8rh_rL-4VcWIDv5v4/400x0/filters:quality(85)/6/r/w/php0giwr6.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Info - Loi intégrale : lutte contre les violences sexistes et sexuelles",La France en vrai — Violences sexuelles à l'école : silence dans les rangs
 francetv://12a14ecb-2c90-4702-8db6-630f7fd1906e
+#EXTINF:-1 tvg-id="francetv-a25b2d81-7579-4576-addc-d5b3fd037771" tvg-logo="https://medias.france.tv/me5-GzwOqm-pCke_ssRgEwU0nl4/400x0/filters:quality(85)/8/0/8/b848eb82640d46e1912e39ed2ccee808.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Jazz à Vienne — Erik Truffaz avec l’Orchestre des Alpes & du Léman
+francetv://a25b2d81-7579-4576-addc-d5b3fd037771
 #EXTINF:-1 tvg-id="francetv-b4755fab-dda0-495d-ab7e-217d1b14704f" tvg-logo="https://medias.france.tv/YM8k5SvpllWA7rGuW6I1-CgCxzA/400x0/filters:quality(85)/d/1/n/phppjen1d.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Il était une voix... Céline Dion
 francetv://b4755fab-dda0-495d-ab7e-217d1b14704f
 #EXTINF:-1 tvg-id="francetv-874fe9f7-052d-4ec2-b35f-664efad59f2b" tvg-logo="https://medias.france.tv/nlsyXLW6TJiD2lN63pFN6Lg_zhY/400x0/filters:quality(85)/4/5/7/b14261c1405f476097abf1533dc78754.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Notre sélection",Djo
@@ -4239,6 +4243,12 @@ francetv://program/spectacles-et-culture_theatre-et-danse_cypher
 francetv://program/spectacles-et-culture_theatre-et-danse_la-ville-dansee
 #EXTINF:-1 tvg-id="francetv-749f5260-a987-4476-a116-0b4b04113210" tvg-logo="https://medias.france.tv/6lxXm4xoT2f7CXQ0HrNXegwsCbM/400x0/filters:quality(85)/k/2/w/phpgktw2k.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Alors, on danse ?",Le 47e Festival international du cirque de Monte-Carlo
 francetv://749f5260-a987-4476-a116-0b4b04113210
+#EXTINF:-1 tvg-id="francetv-40274c31-714d-4f10-8cb1-776ce0ddb467" tvg-logo="https://medias.france.tv/juLr7l4OCA8vjhHWrPpMsKjosqw/400x0/filters:quality(85)/e/e/a/5cfef45c0d284430930ec1b57664daee.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Ça jazz pour moi !",Jazz à Vienne — Vincent Peirani « Living Being IV : Time Reflections »
+francetv://40274c31-714d-4f10-8cb1-776ce0ddb467
+#EXTINF:-1 tvg-id="francetv-8723ce06-f7c8-4bd6-84c9-f3e18b0feea8" tvg-logo="https://medias.france.tv/PP6Nf_a_cnxcRzOT5pdcZy78FWw/400x0/filters:quality(85)/b/a/e/0689ad501c1b47bdb14e08d125f5beab.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Ça jazz pour moi !",Jazz à Vienne — Stefano Di Battista « La Dolce Vita »
+francetv://8723ce06-f7c8-4bd6-84c9-f3e18b0feea8
+#EXTINF:-1 tvg-id="francetv-a25b2d81-7579-4576-addc-d5b3fd037771" tvg-logo="https://medias.france.tv/me5-GzwOqm-pCke_ssRgEwU0nl4/400x0/filters:quality(85)/8/0/8/b848eb82640d46e1912e39ed2ccee808.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Ça jazz pour moi !",Jazz à Vienne — Erik Truffaz avec l’Orchestre des Alpes & du Léman
+francetv://a25b2d81-7579-4576-addc-d5b3fd037771
 #EXTINF:-1 tvg-id="francetv-a72bcbbc-1702-4af2-8e17-0b1f64022279" tvg-logo="https://medias.france.tv/R6WmZOHiitcu18mA8al1Z-jpQho/400x0/filters:quality(85)/d/f/2/31a03a22fef7401d97e73d43297d52fd.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Ça jazz pour moi !",Sade : live in California
 francetv://a72bcbbc-1702-4af2-8e17-0b1f64022279
 #EXTINF:-1 tvg-id="francetv-c6a5a0f0-7cf1-47f1-aacf-5c4f1baa3f4b" tvg-logo="https://medias.france.tv/U1PeLy_vcOux21ub-rLdO2v6-Qw/400x0/filters:quality(85)/7/9/2/2539766954ca43e78ccc0b84466f786c6f238ba84f8351da067f9c7acfdc0297.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Arts et spectacles - Ça jazz pour moi !",Festival de jazz de Leverkusen 2025
@@ -5135,26 +5145,24 @@ francetv://e73c1b6e-10a9-11f1-858c-19616fa871f9
 francetv://fb9c098a-0040-11f1-936c-6dcd43e8ddfd
 #EXTINF:-1 tvg-id="francetv-3c1fecea-0020-11f1-ac9e-57a09c50f7ce" tvg-logo="https://medias.france.tv/6M0shn1JXimWJVeo7H30qO4K7rM/400x0/filters:quality(85)/1/a/a/cc6dd2ad9f7d4156bd2f13c4ca613aa1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Divertissement - Anecdotes et confidences",Les rencontres du Papotin — Pourquoi Orelsan aime le rap ?
 francetv://3c1fecea-0020-11f1-ac9e-57a09c50f7ce
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_capitaine-jim" tvg-logo="https://medias.france.tv/EQnZwZ4b3lN_g6Td2ntPF672qa0/400x0/filters:quality(85)/7/h/v/php0ybvh7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Capitaine Jim
-francetv://program/enfants_six-huit-ans_capitaine-jim
 #EXTINF:-1 tvg-id="francetv-prog-france-3_lego-ninjago" tvg-logo="https://medias.france.tv/GmMdxp06NW10n_BcuEwmczEKXFs/400x0/filters:quality(85)/4/z/a/php5pwaz4.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Ninjago
 francetv://program/france-3_lego-ninjago
+#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_capitaine-jim" tvg-logo="https://medias.france.tv/EQnZwZ4b3lN_g6Td2ntPF672qa0/400x0/filters:quality(85)/7/h/v/php0ybvh7.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Capitaine Jim
+francetv://program/enfants_six-huit-ans_capitaine-jim
 #EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_okoo-koo" tvg-logo="https://medias.france.tv/45pqN78K7SEc33WSPNyEwlmqxcM/400x0/filters:quality(85)/e/e/t/phpud4tee.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Okoo-koo
 francetv://program/enfants_six-huit-ans_okoo-koo
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_la-bande-de-coccoloba" tvg-logo="https://medias.france.tv/624Stfm_H4PVu7ySTEH8rHkXKYc/400x0/filters:quality(85)/n/j/p/phpnispjn.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",La bande de Coccoloba
 francetv://program/enfants_trois-cinq-ans_la-bande-de-coccoloba
 #EXTINF:-1 tvg-id="francetv-26c19ec1-492d-46e5-bae2-3b21a9f4b866" tvg-logo="https://medias.france.tv/H7pdNFqT2ns4Oo8Npe4tnA1nmx8/400x0/filters:quality(85)/i/x/6/phpdql6xi.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Peppa Pig — L'examen auditif
 francetv://26c19ec1-492d-46e5-bae2-3b21a9f4b866
-#EXTINF:-1 tvg-id="francetv-prog-enfants_six-huit-ans_au-galop" tvg-logo="https://medias.france.tv/4JhjSfkj1HS1TL4THnaO7iIyCHc/400x0/filters:quality(85)/e/9/g/phpfbzg9e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Au galop !
-francetv://program/enfants_six-huit-ans_au-galop
+#EXTINF:-1 tvg-id="francetv-e60432e2-57ce-48de-9a72-3d305ad907f4" tvg-logo="https://medias.france.tv/XKroTRdCKIh8deowQV1bRXmpiL8/400x0/filters:quality(85)/h/z/9/phpk5h9zh.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Drôles d'oiseaux
+francetv://e60432e2-57ce-48de-9a72-3d305ad907f4
 #EXTINF:-1 tvg-id="francetv-prog-france-4_mission-info" tvg-logo="https://medias.france.tv/g50CYL4raEOl1sVlBGV8eGOkb9I/400x0/filters:quality(85)/5/m/y/phpcasym5.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Mission info
 francetv://program/france-4_mission-info
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_askip-le-college-se-la-raconte" tvg-logo="https://medias.france.tv/kv-3rtpPjYhCTGqX0gZ32xW0Yuw/400x0/filters:quality(85)/c/r/k/phpluskrc.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",ASKIP
 francetv://program/enfants_neuf-douze-ans_askip-le-college-se-la-raconte
 #EXTINF:-1 tvg-id="francetv-prog-enfants_neuf-douze-ans_le-vol-du-scarabee" tvg-logo="https://medias.france.tv/5lXJdyIR_nDld6XGR-venBaPbIA/400x0/filters:quality(85)/t/h/c/phpz9ucht.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Le vol du Scarabée
 francetv://program/enfants_neuf-douze-ans_le-vol-du-scarabee
-#EXTINF:-1 tvg-id="francetv-e60432e2-57ce-48de-9a72-3d305ad907f4" tvg-logo="https://medias.france.tv/XKroTRdCKIh8deowQV1bRXmpiL8/400x0/filters:quality(85)/h/z/9/phpk5h9zh.png" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - Sélection",Drôles d'oiseaux
-francetv://e60432e2-57ce-48de-9a72-3d305ad907f4
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_trotro-zaza" tvg-logo="https://medias.france.tv/D4q24kXD4Q_UjeBDKIN8hKpEHpc/400x0/filters:quality(85)/j/6/n/phprvsn6j.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - 3-5 ans",Trotro et Zaza
 francetv://program/enfants_trois-cinq-ans_trotro-zaza
 #EXTINF:-1 tvg-id="francetv-prog-enfants_trois-cinq-ans_animanimals" tvg-logo="https://medias.france.tv/Pb8MqxcH_Fnh90SV8tJMhuzbnlM/400x0/filters:quality(85)/u/z/6/phpjkl6zu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Enfants - 3-5 ans",Animanimals
