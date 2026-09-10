@@ -24229,14 +24229,14 @@ francetv://program/franceinfo_8h30-politique
 francetv://program/france-2_a-l-origine
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_a-suivre-avec-claire-elisabeth-beaufort" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",A suivre avec Claire-Elisabeth Beaufort
 francetv://program/franceinfo_a-suivre-avec-claire-elisabeth-beaufort
-#EXTINF:-1 tvg-id="francetv-prog-franceinfo_a-suivre-avec-loic-de-la-mornais" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",A suivre avec Loïc de la Mornais
-francetv://program/franceinfo_a-suivre-avec-loic-de-la-mornais
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_alors-on-pense" tvg-logo="https://i.imgur.com/eITXz6A.png" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Alors, on pense !
 francetv://program/franceinfo_alors-on-pense
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_arret-sur-info" tvg-logo="https://medias.france.tv/6l-YWQC_tkqtZVSI1EzLTzei50M/400x0/filters:quality(85)/o/3/o/phpmgmo3o.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Arrêt sur info
 francetv://program/franceinfo_arret-sur-info
 #EXTINF:-1 tvg-id="francetv-prog-franceinfo_au-coeur-de-l-info" tvg-logo="https://medias.france.tv/PEZyNXHjTjJtMnatp5cAR08PIIs/400x0/filters:quality(85)/q/p/g/php7kygpq.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Au cœur de l'info
 francetv://program/franceinfo_au-coeur-de-l-info
+#EXTINF:-1 tvg-id="francetv-prog-franceinfo_au-coeur-de-l-info-week-end" tvg-logo="https://medias.france.tv/rNTXmjqJDmNTr0ZHhJCsJ2fovzg/400x0/filters:quality(85)/w/l/l/phptj2llw.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Franceinfo",Au cœur de l'info week-end
+francetv://program/franceinfo_au-coeur-de-l-info-week-end
 #EXTINF:-1 tvg-id="francetv-prog-slash_ballroom-danser-pour-exister" tvg-logo="https://medias.france.tv/YpNWvLaqidL0sietH5fLYymHtt0/400x0/filters:quality(85)/k/i/z/phpvzhzik.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Ballroom, danser pour exister
 francetv://program/slash_ballroom-danser-pour-exister
 #EXTINF:-1 tvg-id="francetv-prog-france-2_drag-race-france" tvg-logo="https://medias.france.tv/MlYuKGsIqXceFhBYnQxJCXvglD8/400x0/filters:quality(85)/l/y/4/php5hz4yl.jpg" tvg-country="FR" tvg-type="series" group-title="Replay Slash",Drag Race France
@@ -24727,6 +24727,10 @@ francetv://8727fb6a-f760-4ca4-957e-517c6377ae1c
 francetv://4e790def-c1ac-41fb-bedf-787601150035
 #EXTINF:-1 tvg-id="francetv-ca7a4ecb-01d8-41db-b442-b3d91d9e966f" tvg-logo="https://medias.france.tv/F8SZTKGk_d7tgRNH2A5hrSDPIzk/400x0/filters:quality(85)/e/z/e/phpsjheze.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Une si longue avance",Un si grand soleil — Épisode du vendredi 11 septembre 2026
 francetv://ca7a4ecb-01d8-41db-b442-b3d91d9e966f
+#EXTINF:-1 tvg-id="francetv-prog-france-2_les-evapores" tvg-logo="https://medias.france.tv/CPtl-k9gmiloFzdiFr9FkeNc4LQ/400x0/filters:quality(85)/8/m/o/phpcpnom8.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Les évaporés
+francetv://program/france-2_les-evapores
+#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_cerebrum" tvg-logo="https://medias.france.tv/eysj8fOKlpqhqX1JQkLxrDPFViE/400x0/filters:quality(85)/1/9/3/9343933f594d493ead5a81fb7cf16391.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Cerebrum
+francetv://program/tv5-monde_cerebrum
 #EXTINF:-1 tvg-id="francetv-prog-france-2_la-mere-et-l-assassin" tvg-logo="https://medias.france.tv/AprRPikHSywCNRdTU4EpEf36rPY/400x0/filters:quality(85)/u/v/z/phptvqzvu.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",La mère et l'assassin
 francetv://program/france-2_la-mere-et-l-assassin
 #EXTINF:-1 tvg-id="francetv-2b32e3a9-8176-4108-ad8f-ac716f357e16" tvg-logo="https://medias.france.tv/GLiHLndVrcgSY7Kpnz9wZzRYHsg/400x0/filters:quality(85)/e/3/4/phper843e.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Les mystères des majorettes
@@ -24745,8 +24749,6 @@ francetv://program/france-2_la-disparue-de-compostelle
 francetv://program/france-2_les-rescapes-de-l-ariana
 #EXTINF:-1 tvg-id="francetv-prog-france-2_cette-nuit-la" tvg-logo="https://medias.france.tv/MxfQiQGrMnLl_gFG7ziFNQs8ysg/400x0/filters:quality(85)/p/h/e/phpz9uehp.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Cette nuit-là
 francetv://program/france-2_cette-nuit-la
-#EXTINF:-1 tvg-id="francetv-prog-tv5-monde_cerebrum" tvg-logo="https://medias.france.tv/eysj8fOKlpqhqX1JQkLxrDPFViE/400x0/filters:quality(85)/1/9/3/9343933f594d493ead5a81fb7cf16391.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Cerebrum
-francetv://program/tv5-monde_cerebrum
 #EXTINF:-1 tvg-id="francetv-prog-france-2_rivages" tvg-logo="https://medias.france.tv/ClopxP3XGuGYv2xonD_B_2lryHc/400x0/filters:quality(85)/s/s/k/phpnbgkss.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Portés disparus",Rivages
 francetv://program/france-2_rivages
 #EXTINF:-1 tvg-id="francetv-prog-arte_quelqu-un-devrait-interdire-les-dimanches-apres-midi" tvg-logo="https://medias.france.tv/WB93B-ZDYlYdhMj1x4l_wcgqbpI/400x0/filters:quality(85)/k/y/h/php1qchyk.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Séries et fictions - Plus que quelques jours...",Quelqu'un devrait interdire les dimanches après-midi
