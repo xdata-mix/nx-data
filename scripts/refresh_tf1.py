@@ -126,18 +126,46 @@ def tf1_category_sections(category_slug, max_items=MAX_ITEMS_PER_CHAN):
                  .replace('&amp;', '&').replace('&#x2F;', '/').strip())
     sections_pos = [(p, decode_sec(n)) for p, n in sections_pos]
     SKIP_SECTIONS = {"Tout l'univers", "Tous les films avec", "Sagas à prix doux"}
+
+    # 2026-09-11 (user : « fais en sorte qu'on n'ait pas de doublons ») —
+    #   TF1+ ne classe pas ses films par genre mais par rayons éditoriaux qui se
+    #   recoupent : mesuré sur la page live, 340 liens pour 159 films distincts,
+    #   Wonder Woman présente 10 fois, Spider-Man Homecoming 10 fois. On dédoublonne
+    #   donc d'une section à l'autre : chaque film n'apparaît qu'une seule fois.
+    #   On ne JETTE aucun rayon : les rayons de genre passent simplement EN
+    #   PREMIER, donc un film y est rangé en priorité, et les rayons marketing
+    #   (Top 10, Les films populaires en ce moment, Vos séances ciné à prix mini,
+    #   Derniers jours pour voir, Cinéma XXL prix XXS, Entre potes, Entre filles,
+    #   Ados, Casting de stars…) ne gardent que ce qu'aucun genre n'a pris. Un
+    #   film qui ne vit QUE dans un rayon marketing reste donc au catalogue.
+    GENRES_FILMS = {
+        "Action", "Comédies", "Aventure", "Thrillers", "Drames", "Romance",
+        "Science-fiction", "Policiers", "Cinéma français", "Les courts-métrages",
+        "Des films pour toute la famille",
+    }
+    prioritaires = GENRES_FILMS if category_slug == "films" else set()
     href_re = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
     # 2026-06-23 : extract poster from <picture><source srcSet="..."> near each
     # <article> card → utilisé comme jaquette dans l'app au lieu du logo chaîne.
     poster_re = re.compile(r'srcSet="(https://photos\.tf1\.fr/[^"]+?\.(?:avif|webp|jpg))')
     excluded = {"replay", "direct", "news", "videos", "programmes-tv", "a-la-carte"}
-    out = []
+
+    # Bornes de chaque rayon, puis passage des rayons de genre en tête. L'ordre
+    #   d'affichage dans l'app reste celui du site (cf. tri côté Kotlin), seul
+    #   l'ordre de REMPLISSAGE change.
+    bornes = []
     for i, (start, name) in enumerate(sections_pos):
         if name in SKIP_SECTIONS:
             continue
-        end = sections_pos[i+1][0] if i+1 < len(sections_pos) else len(raw)
+        end = sections_pos[i+1][0] if i + 1 < len(sections_pos) else len(raw)
+        bornes.append((name, start, end))
+    bornes.sort(key=lambda b: 0 if b[0] in prioritaires else 1)
+
+    out = []
+    vus_global = set()   # un film ne sort qu'une fois, toutes sections confondues
+    for name, start, end in bornes:
         chunk = raw[start:end]
-        seen = set()
+        seen = vus_global
         items = []
         # Split par <article : chaque card a 1 poster + 1 href
         for part in chunk.split('<article')[1:]:
