@@ -805,6 +805,8 @@ bfmplay://NEUF_BFMTV_BFM1021080916531
 bfmplay://NEUF_BFMTV_BFM1021025456699
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1021025456686" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/6/8/6/867ebcb055fc72a2a9980dc2d119f435_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Affaire suivante",L'accident de la caravelle Ajaccio-Nice
 bfmplay://NEUF_BFMTV_BFM1021025456686
+#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000867" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/6/8/a675d7ad05825763ac5b81b4c36af945_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - Le RC Lens peut-il vous faire chavirer ?
+bfmplay://NEUF_BFMRADIO_BRA50000000000867
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000866" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/6/6/8/ed3913f403d4a64d16e1711204162152_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - Les ambitions françaises aux Mondiaux de cyclisme
 bfmplay://NEUF_BFMRADIO_BRA50000000000866
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000861" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/6/8/c2eeefd85102d80621b0938e4e46aa26_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Super Moscato Show - Spécial Rugby : pour ou contre le principe du Salary Cap ?
@@ -1013,8 +1015,6 @@ bfmplay://NEUF_BFMRADIO_BRA50000000000808
 bfmplay://NEUF_BFMRADIO_BRA50000000000807
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000797" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/9/7/44618b3a53607692fb82dfbd4b478211_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Génération After Foot - Avec ce mercato, le Lyon de Fonseca a la pression - Partie 2
 bfmplay://NEUF_BFMRADIO_BRA50000000000797
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000796" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/6/9/7/25ba8aadbd73f404346e8f42bb9e8f5e_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Génération After Foot - Qui a fait le meilleur mercato en Ligue 1 ? - Partie 1
-bfmplay://NEUF_BFMRADIO_BRA50000000000796
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000863" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/3/6/8/db77cd420b1b697e56f18e77d0c5d318_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Rothen s'enflamme - Jérôme : "Pour moi, la carrière de Benzema est sous-cotée"
 bfmplay://NEUF_BFMRADIO_BRA50000000000863
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000862" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/6/8/bfa441575065cece8dc6f526c118484c_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay BFM TV - Plus d'infos et de débats",Rothen s'enflamme - Y aura-t-il une concurrence en attaque au PSG ?
@@ -6871,6 +6871,14 @@ bfmplay://NEUF_BFMTV_BFM983084407527
 bfmplay://NEUF_BFMTV_BFM1021017370992
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMTV_BFM1020983238872" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMTV/2/7/8/2a8f55eb8271ae042a35bfadd47eb209_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay BFM Business - Les grands reportages BFM TV",Chine, le nouvel empire de la tech
 bfmplay://NEUF_BFMTV_BFM1020983238872
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943505010" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/0/1/0/7fff7c1988772f4cb0db4612e99afed8_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E92 - Font du bricolage (2)
+bfmplay://NEUF_RMC_LIFE_RIF1020943505010
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504999" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/9/9/9/10a55bf1efbea48cf80adafe9b13268a_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E91 - Répondent à la porte (5)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504999
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504988" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/8/8/9/ac2c11195ed78892e3b2904d9f82cb5b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E90 - Au cinéma (2)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504988
+#EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504977" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/7/9/4acae1ef360cd53d27fca4c251355056_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E89 - Dans la cuisine (7)
+bfmplay://NEUF_RMC_LIFE_RIF1020943504977
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504966" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/6/6/9/e5ca2d5083a86e42f0de9c676cc4bd6b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E88 - Jeux de société (1)
 bfmplay://NEUF_RMC_LIFE_RIF1020943504966
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1020943504955" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/5/5/9/bd62af1b1c77d55ba1b0c668f9a4764b_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Life - CARROUSEL A LA UNE - RMCL",Un gars, une fille - S3E87 - Dans le salon (5)
@@ -7729,8 +7737,6 @@ bfmplay://NEUF_RMC_LIFE_RIF853900257527
 bfmplay://NEUF_RMC_LIFE_RIF1021130887789
 #EXTINF:-1 tvg-id="bfmplay-NEUF_RMC_LIFE_RIF1021130040947" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_RMC_LIFE/7/4/9/6e12e3c10bce8c2bf3ae2547c211ca18_src_16p9.jpg" tvg-country="FR" tvg-type="movie" group-title="Replay RMC Life - Les docs du moment",Patinage : les championnes brisent la glace
 bfmplay://NEUF_RMC_LIFE_RIF1021130040947
-#EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000867" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/7/6/8/a675d7ad05825763ac5b81b4c36af945_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Carrousel",Le RC Lens peut-il vous faire chavirer ?
-bfmplay://NEUF_BFMRADIO_BRA50000000000867
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000832" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/2/3/8/da4c64ce54088fdd28c21523f2f5c20d_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les Grandes Gueules du sport - La difficulté de prendre le leadership
 bfmplay://NEUF_BFMRADIO_BRA50000000000832
 #EXTINF:-1 tvg-id="bfmplay-NEUF_BFMRADIO_BRA50000000000831" tvg-logo="http://static-cdn.tv.sfr.net/data/img/wcsstore/NEUF_BFMRADIO/1/3/8/01f513eaf12af9bc7f16d30e0d3c78fc_src_16p9.jpg" tvg-country="FR" tvg-type="series" group-title="Replay RMC Radio - Tous les replays",Les Grandes Gueules du sport - Gasly en pole ! Peut-il refaire le coup à Monza ?
