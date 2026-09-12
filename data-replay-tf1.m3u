@@ -2095,10 +2095,10 @@ tf1plus://tf1/belle-et-sebastien
 tf1plus://tf1/vip-pets
 #EXTINF:-1 tvg-id="tf1plus-tf1-petit-spirou" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Petit Spirou
 tf1plus://tf1/petit-spirou
-#EXTINF:-1 tvg-id="tf1plus-tf1-the-voice-kids" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Voice Kids
-tf1plus://tf1/the-voice-kids
 #EXTINF:-1 tvg-id="tf1plus-tfx-cleaners-les-experts-du-menage-821" tvg-logo="https://i.imgur.com/JJVZJqL.png" tvg-country="FR" tvg-type="series" group-title="Replay TFX",Cleaners les Experts du Menage 821
 tf1plus://tfx/cleaners-les-experts-du-menage-821
+#EXTINF:-1 tvg-id="tf1plus-tf1-the-voice-kids" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",The Voice Kids
+tf1plus://tf1/the-voice-kids
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-familles-nombreuses-la-vie-en-xxl" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Familles Nombreuses la Vie En Xxl
 tf1plus://tf1/les-familles-nombreuses-la-vie-en-xxl
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-douze-coups-de-midi" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Douze Coups de Midi
@@ -2361,8 +2361,6 @@ tf1plus://tf1/le-cavalier-de-laube
 tf1plus://tf1/tom-le-heros
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-house-of-gucci-440-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-10a36a-b9107c-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Drames",House Of Gucci 440
 tf1plus://tf1-series-films/house-of-gucci-440
-#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-reprise-en-main-drames" tvg-logo="https://photos.tf1.fr/217/289/flux-program-card-portrait-1-c5a066-5bac64-fea6fa-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Drames",Reprise En Main
-tf1plus://tf1-series-films/reprise-en-main
 #EXTINF:-1 tvg-id="tf1plus-tf1-et-jaime-a-la-fureur-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-329eec-c937af-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Drames",Et Jaime A la Fureur
 tf1plus://tf1/et-jaime-a-la-fureur
 #EXTINF:-1 tvg-id="tf1plus-tf1-american-dreamer-drames" tvg-logo="https://photos.tf1.fr/217/289/program-card-portrait-1-5bc371-851f73-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Drames",American Dreamer
@@ -5527,6 +5525,8 @@ tf1plus://tf1-series-films/le-mec-de-la-tombe-da-cote
 tf1plus://tf1-series-films/mission-pays-basque
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-piege-blanc-smx" tvg-logo="https://photos.tf1.fr/1200/720/piege-blanc-90751207-1701335676-19a84c-5e2f1d-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1-SERIES-FILMS",Piege Blanc
 tf1plus://tf1-series-films/piege-blanc
+#EXTINF:-1 tvg-id="tf1plus-tf1-series-films-reprise-en-main-smx" tvg-logo="https://photos.tf1.fr/1200/720/reprise-en-main-114ca6-5cbe94-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1-SERIES-FILMS",Reprise En Main
+tf1plus://tf1-series-films/reprise-en-main
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-retour-vers-le-futur-smx" tvg-logo="https://photos.tf1.fr/1200/720/retour-vers-le-futur-0b31e3-fff5f3-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1-SERIES-FILMS",Retour Vers Le Futur
 tf1plus://tf1-series-films/retour-vers-le-futur
 #EXTINF:-1 tvg-id="tf1plus-tf1-series-films-tous-en-salles-smx" tvg-logo="https://photos.tf1.fr/1200/720/tous-en-salles-episode-16-1-15a2c5-25b238-0@1x.jpg" tvg-country="FR" tvg-type="series" group-title="Replay TF1+ Complement - TF1-SERIES-FILMS",Tous En Salles
