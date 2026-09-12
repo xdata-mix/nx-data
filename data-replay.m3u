@@ -11895,14 +11895,16 @@ tf1plus://tf1/koh-lanta
 tf1plus://tf1/secret-story
 #EXTINF:-1 tvg-id="tf1plus-tf1-jeux-concours-nos-bons-plans-de-la-semaine" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Jeux Concours Nos Bons Plans de la Semaine
 tf1plus://tf1/jeux-concours-nos-bons-plans-de-la-semaine
-#EXTINF:-1 tvg-id="tf1plus-tmc-celine-dion" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Celine Dion
-tf1plus://tmc/celine-dion
-#EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-11-septembre-2001" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le 11 Septembre 2001
-tf1plus://tmc/21h-medias-le-11-septembre-2001
-#EXTINF:-1 tvg-id="tf1plus-tmc-je-suis-paul-walker" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Je Suis Paul Walker
-tf1plus://tmc/je-suis-paul-walker
+#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
+tf1plus://tf1/grands-reportages
+#EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-sommes-nous-de-plus-en-plus-cons" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill Sommes Nous de Plus En Plus Cons
+tf1plus://tmc/les-reportages-de-martin-weill-sommes-nous-de-plus-en-plus-cons
+#EXTINF:-1 tvg-id="tf1plus-tmc-michael-jackson-autopsie-du-roi-de-la-pop" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Michael Jackson Autopsie du Roi de la Pop
+tf1plus://tmc/michael-jackson-autopsie-du-roi-de-la-pop
 #EXTINF:-1 tvg-id="tf1plus-tf1-chroniques-criminelles" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Chroniques Criminelles
 tf1plus://tf1/chroniques-criminelles
+#EXTINF:-1 tvg-id="tf1plus-tmc-je-suis-paul-walker" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Je Suis Paul Walker
+tf1plus://tmc/je-suis-paul-walker
 #EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-kebab-canon-francais-quinoa-la-cuisine-identitaire" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill Kebab Canon Francais Quinoa la Cuisine Identitaire
 tf1plus://tmc/les-reportages-de-martin-weill-kebab-canon-francais-quinoa-la-cuisine-identitaire
 #EXTINF:-1 tvg-id="tf1plus-tf1-rise-le-secret-des-mangroves-de-madagascar" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Rise le Secret des Mangroves de Madagascar
@@ -11913,6 +11915,8 @@ tf1plus://tfx/appels-urgence
 tf1plus://tmc/90-enquetes
 #EXTINF:-1 tvg-id="tf1plus-tf1-un-monstre-dans-notre-maison" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Un Monstre Dans Notre Maison
 tf1plus://tf1/un-monstre-dans-notre-maison
+#EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-le-11-septembre-2001" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias le 11 Septembre 2001
+tf1plus://tmc/21h-medias-le-11-septembre-2001
 #EXTINF:-1 tvg-id="tf1plus-tmc-21h-medias-qui-peut-arreter-elon-musk" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",21h Medias Qui Peut Arreter Elon Musk
 tf1plus://tmc/21h-medias-qui-peut-arreter-elon-musk
 #EXTINF:-1 tvg-id="tf1plus-tmc-mefiez-vous-de-zuckerberg" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Mefiez Vous de Zuckerberg
@@ -11953,8 +11957,6 @@ tf1plus://tmc/qui-veut-tuer-la-democratie
 tf1plus://tf1/les-dossiers-cold-case
 #EXTINF:-1 tvg-id="tf1plus-tf1-affaires-classees-le-crime-dans-les-genes" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Affaires Classees le Crime Dans les Genes
 tf1plus://tf1/affaires-classees-le-crime-dans-les-genes
-#EXTINF:-1 tvg-id="tf1plus-tf1-grands-reportages" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Grands Reportages
-tf1plus://tf1/grands-reportages
 #EXTINF:-1 tvg-id="tf1plus-tf1-sept-a-huit" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Sept A Huit
 tf1plus://tf1/sept-a-huit
 #EXTINF:-1 tvg-id="tf1plus-tf1-50-mn-inside" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",50 Mn Inside
@@ -11971,8 +11973,6 @@ tf1plus://tf1/les-reportages-de-francois-xavier-menage
 tf1plus://lci/histoires-criminelles-lenquete
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-grands-reportages-de-la-redaction" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Grands Reportages de la Redaction
 tf1plus://tf1/les-grands-reportages-de-la-redaction
-#EXTINF:-1 tvg-id="tf1plus-tmc-les-reportages-de-martin-weill-sommes-nous-de-plus-en-plus-cons" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Les Reportages de Martin Weill Sommes Nous de Plus En Plus Cons
-tf1plus://tmc/les-reportages-de-martin-weill-sommes-nous-de-plus-en-plus-cons
 #EXTINF:-1 tvg-id="tf1plus-tmc-cowboy-danse-et-festival-la-country-envahit-la-france" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Cowboy Danse et Festival la Country Envahit la France
 tf1plus://tmc/cowboy-danse-et-festival-la-country-envahit-la-france
 #EXTINF:-1 tvg-id="tf1plus-tmc-disneyland-paris-les-secrets-du-ndeg1-des-parcs-dattractions" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Disneyland Paris les Secrets du Ndeg1 des Parcs Dattractions
@@ -11995,8 +11995,6 @@ tf1plus://tmc/bohemian-rhapsody-la-veritable-histoire-de-queen
 tf1plus://tf1/star-academy-le-phenomene
 #EXTINF:-1 tvg-id="tf1plus-tf1-star-academy-apres-la-vie-de-chateau" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Star Academy Apres la Vie de Chateau
 tf1plus://tf1/star-academy-apres-la-vie-de-chateau
-#EXTINF:-1 tvg-id="tf1plus-tmc-michael-jackson-autopsie-du-roi-de-la-pop" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Michael Jackson Autopsie du Roi de la Pop
-tf1plus://tmc/michael-jackson-autopsie-du-roi-de-la-pop
 #EXTINF:-1 tvg-id="tf1plus-tmc-fifi-juju-tarek-lhistoire-dune-bande" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Fifi Juju Tarek Lhistoire Dune Bande
 tf1plus://tmc/fifi-juju-tarek-lhistoire-dune-bande
 #EXTINF:-1 tvg-id="tf1plus-tmc-booder-le-nounou-prefere-des-francais" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Booder le Nounou Prefere des Francais
@@ -12099,6 +12097,8 @@ tf1plus://tmc/romy-schneider
 tf1plus://tmc/21h-medias-les-scandales-depardieu
 #EXTINF:-1 tvg-id="tf1plus-tf1-kev-adams-de-lautre-cote-du-miroir" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Kev Adams de Lautre Cote du Miroir
 tf1plus://tf1/kev-adams-de-lautre-cote-du-miroir
+#EXTINF:-1 tvg-id="tf1plus-tmc-celine-dion" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Celine Dion
+tf1plus://tmc/celine-dion
 #EXTINF:-1 tvg-id="tf1plus-tmc-le-destin-brise-de-whitney-houston-la-chute-dune-etoile" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Le Destin Brise de Whitney Houston la Chute Dune Etoile
 tf1plus://tmc/le-destin-brise-de-whitney-houston-la-chute-dune-etoile
 #EXTINF:-1 tvg-id="tf1plus-tmc-taylor-swift-iconique-et-politique" tvg-logo="https://i.imgur.com/RY3iEMb.png" tvg-country="FR" tvg-type="series" group-title="Replay TMC",Taylor Swift Iconique et Politique
@@ -13723,8 +13723,6 @@ tf1plus://tf1/jiu-jitsu
 tf1plus://tf1/chloe-and-theo
 #EXTINF:-1 tvg-id="tf1plus-tf1-good-kids-ados" tvg-logo="https://photos.tf1.fr/217/289/flux-vignette-portrait-317ce4-ba4dd1-4edd2b-0@1x.avif" tvg-country="FR" tvg-type="movie" group-title="Replay TF1+ Films - Ados",Good Kids
 tf1plus://tf1/good-kids
-#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
-tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-lci-la-grande-confrontation" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Grande Confrontation
 tf1plus://lci/la-grande-confrontation
 #EXTINF:-1 tvg-id="tf1plus-lci-le-grand-entretien" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Le Grand Entretien
@@ -13741,6 +13739,8 @@ tf1plus://lci/24h-pujadas-l-info-en-questions
 tf1plus://lci/le-grand-dossier
 #EXTINF:-1 tvg-id="tf1plus-tf1-longs-formats" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Longs Formats
 tf1plus://tf1/longs-formats
+#EXTINF:-1 tvg-id="tf1plus-tf1-top-info" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Top Info
+tf1plus://tf1/top-info
 #EXTINF:-1 tvg-id="tf1plus-lci-linterview-damelie-carrouer" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Linterview Damelie Carrouer
 tf1plus://lci/linterview-damelie-carrouer
 #EXTINF:-1 tvg-id="tf1plus-lci-la-matinale-618" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",La Matinale 618
