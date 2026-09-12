@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="francetv-prog-france-2_a-l-instinct" tvg-logo="https://medias.france.tv/k-bBlL7uTbn004wqm486r8vCe6g/400x0/filters:quality(85)/y/c/l/phpp4hlcy.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",À l'instinct
 francetv://program/france-2_a-l-instinct
-#EXTINF:-1 tvg-id="francetv-cd11d1e4-5708-4062-9c1e-96076ec35361" tvg-logo="https://medias.france.tv/1nYfpr4B28bJ11d0xOIl2EswWWw/400x0/filters:quality(85)/t/w/z/phppkbzwt.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Manipulations, une histoire française — Journée 1 : France vs Nouvelle-Zélande
-francetv://cd11d1e4-5708-4062-9c1e-96076ec35361
 #EXTINF:-1 tvg-id="francetv-prog-france-2_les-evapores" tvg-logo="https://medias.france.tv/CPtl-k9gmiloFzdiFr9FkeNc4LQ/400x0/filters:quality(85)/8/m/o/phpcpnom8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Les évaporés
 francetv://program/france-2_les-evapores
 #EXTINF:-1 tvg-id="francetv-1346b804-acbe-4a00-8e03-41d99f5083d5" tvg-logo="https://medias.france.tv/vSRSoG6E2tOHXrhBL1jtwcvnOVM/400x0/filters:quality(85)/8/d/f/phpnhafd8.jpg" tvg-country="FR" tvg-type="series" group-title="Replay France 2",Cash Investigation — Cyber-arnaques : État et entreprises nous protègent-ils vraiment ?
@@ -1123,6 +1121,8 @@ francetv://15c39198-ae0b-11f1-851d-957ddefc544d
 francetv://64118076-ad43-11f1-aeaf-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-469d8aa4-ad42-11f1-9584-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/GE_vE7Jm1ta1Gykc3rrYWPUff-Q/400x0/filters:quality(85)/1/b/3/e332bdec02764275bdc8ed3d39a9b3b1.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne — Basketball - Coupe du monde féminine : une qualification historique pour les Bleues
 francetv://469d8aa4-ad42-11f1-9584-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-484b75e2-aed1-11f1-87bb-19616fa871f9" tvg-logo="https://medias.france.tv/W9NkCCArxSRw9JxqdfIsqrIilUs/400x0/filters:quality(85)/a/c/b/122a375911454659a030e6f3db92abca.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Journée 1 : le résumé de France vs Nouvelle-Zélande
+francetv://484b75e2-aed1-11f1-87bb-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/5Bhb8wWocbQNmsPjyxm-XFM-pWI/400x0/filters:quality(85)/o/f/d/phpwfhdfo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Replay FranceTV Sport",Stade 2 la quotidienne
@@ -4527,6 +4527,8 @@ francetv://15c39198-ae0b-11f1-851d-957ddefc544d
 francetv://64118076-ad43-11f1-aeaf-57a09c50f7ce
 #EXTINF:-1 tvg-id="francetv-469d8aa4-ad42-11f1-9584-6dcd43e8ddfd" tvg-logo="https://medias.france.tv/GE_vE7Jm1ta1Gykc3rrYWPUff-Q/400x0/filters:quality(85)/1/b/3/e332bdec02764275bdc8ed3d39a9b3b1.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - L'actu de la semaine",Stade 2 la quotidienne — Basketball - Coupe du monde féminine : une qualification historique pour les Bleues
 francetv://469d8aa4-ad42-11f1-9584-6dcd43e8ddfd
+#EXTINF:-1 tvg-id="francetv-484b75e2-aed1-11f1-87bb-19616fa871f9" tvg-logo="https://medias.france.tv/W9NkCCArxSRw9JxqdfIsqrIilUs/400x0/filters:quality(85)/a/c/b/122a375911454659a030e6f3db92abca.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos résumés",Journée 1 : le résumé de France vs Nouvelle-Zélande
+francetv://484b75e2-aed1-11f1-87bb-19616fa871f9
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2" tvg-logo="https://medias.france.tv/5Bhb8wWocbQNmsPjyxm-XFM-pWI/400x0/filters:quality(85)/o/f/d/phpwfhdfo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2
 francetv://program/france-3_stade-2
 #EXTINF:-1 tvg-id="francetv-prog-france-3_stade-2-la-quotidienne" tvg-logo="https://medias.france.tv/067j13r05AkvcVVFKxci_QxuZz4/400x0/filters:quality(85)/o/f/g/php9regfo.jpg" tvg-country="FR" tvg-type="series" group-title="Thématique France TV - Sport - Nos émissions",Stade 2 la quotidienne
