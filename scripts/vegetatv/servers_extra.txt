@@ -1,0 +1,15 @@
+# Serveurs SUPPLEMENTAIRES pour Vegeta TV (lus par scripts/vegetatv/refresh_vegetatv.py).
+# Ils s'ajoutent aux serveurs de vegetatv.duckdns.org/data/server_status.json, en DERNIER
+# dans le round-robin : ils ne prennent une place que si les serveurs Vegeta n'en ont pas
+# assez, mais ils sauvent les chaines qui n'ont AUCUN serveur (Canal+/Cine+ hors serveur 52).
+#
+# Une ligne par serveur, au choix :
+#   http://host:port/get.php?username=USER&password=PASS&type=m3u_plus&output=m3u8
+#   host:port USER PASS          (l'URL est construite ; si get.php repond 404 -> player_api.php)
+# Lignes vides et lignes commencant par # ignorees. Un compte mort ne produit aucun flux :
+# il disparait du JSON au cron suivant, pas besoin de le retirer d'urgence.
+# serverIdx dans l'app = 100 pour la 1re ligne, 101 pour la 2e, etc.
+
+# 2026-09-13 — compte Telegram (fichier "EU _ FR _ 24_7 FRANCAIS.html"), expire 2027-01-11,
+#   max_connections = 1 : souvent occupe, secours uniquement.
+# (colle ici la ligne "host:port USER PASS" du compte, une par ligne)
