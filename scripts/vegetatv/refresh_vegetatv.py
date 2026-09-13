@@ -25,6 +25,12 @@ MAX_STREAMS   = int(os.environ.get("VEGETA_MAX_STREAMS", "4"))   # par chaine
 EXTRA_PATH    = os.environ.get("VEGETA_EXTRA",
                 os.path.join(os.path.dirname(os.path.abspath(__file__)), "servers_extra.txt"))
 EXTRA_BASE_IDX = 100   # serverIdx 100, 101, ... : jamais en collision avec les "pos" Vegeta (1-56)
+# 2026-09-13 quinquies (user « il ne devrait pas y avoir de limite, le reste suit apres ») :
+#   second registre SANS plafond. Il n'est PAS ecrit dans le depot (l'historique git garderait
+#   chaque version : le depot pesait deja 315 Mo pour 44 Mo de fichiers) mais publie comme
+#   fichier de release, remplace a chaque passage. L'app le charge en arriere-plan, apres le
+#   registre leger, quand l'utilisateur entre dans Vegeta TV.
+OUT_FULL      = os.environ.get("VEGETA_OUT_FULL", "")
 UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36")
 
@@ -282,6 +288,48 @@ def m3u_from_player_api(xt):
         lines.append("%s/live/%s/%s/%s.m3u8" % (host, user, pw, sid))
     return "\n".join(lines), bool(fr_cats)
 
+def repartir(streams, plafond):
+    """Round-robin par serveur : 1er flux de chaque serveur (FR d'abord, puis global, puis
+       etranger, puis extra), puis 2e flux de chacun, etc., jusqu'a `plafond`.
+       Ne modifie pas `streams` (les listes internes sont des copies)."""
+    tries = sorted(streams, key=lambda s: s.get("_rank", 2))   # stable : rang puis ordre d'arrivee
+    par_srv = {}
+    for st in tries:
+        par_srv.setdefault(st["serverIdx"], []).append(st)     # insertion = ordre de rang
+    out = []
+    while len(out) < plafond and any(par_srv.values()):
+        for lst in par_srv.values():
+            if lst:
+                out.append(lst.pop(0))
+                if len(out) >= plafond:
+                    break
+    return out
+
+def sans_rang(st):
+    return {k: v for k, v in st.items() if k != "_rank"}
+
+def ecrire(chemin, registry, plafond, etiquette):
+    """Serialise le registre avec un plafond de flux par chaine. Rend (nb chaines, nb flux, octets)."""
+    canaux, total = {}, 0
+    for cle, info in registry.items():
+        flux = [sans_rang(st) for st in repartir(info["streams"], plafond)]
+        if not flux:
+            continue
+        canaux[cle] = {"displayName": info["displayName"], "category": info["category"],
+                       "logo": info["logo"], "streams": flux}
+        total += len(flux)
+    payload = {
+        "savedAt": int(time.time() * 1000),
+        "generatedBy": "nx-data cron (refresh_vegetatv.py)%s" % etiquette,
+        "channels": canaux,
+    }
+    dossier = os.path.dirname(chemin)
+    if dossier:
+        os.makedirs(dossier, exist_ok=True)
+    with open(chemin, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
+    return len(canaux), total, os.path.getsize(chemin)
+
 def main():
     try:
         servers = fetch_servers()
@@ -304,45 +352,22 @@ def main():
         futs = [ex.submit(ingest_server, s, registry, lock) for s in servers]
         for f in as_completed(futs):
             total += f.result() or 0
-    # 2026-09-13 : tri des flux par rang de serveur (FR -> global -> etranger) PUIS
-    #   plafond MAX_STREAMS. Garantit que les flux FR fiables restent en tete et ne
-    #   sont jamais evinces par un serveur etranger plus rapide a repondre.
-    #   2026-09-13 ter (user "TF1 : que le 29, pareil France 2") : un serveur FR qui publie
-    #   4 variantes (HD/FHD/UHD...) remplissait a lui seul les 4 places -> aucun repli si ce
-    #   serveur tombe. On fait un ROUND-ROBIN par serveur : 1er flux de chaque serveur (FR
-    #   d'abord, puis global, puis etranger), puis 2e flux de chacun, etc. -> diversite max.
-    total = 0
-    for info in registry.values():
-        tries = sorted(info["streams"], key=lambda s: s.get("_rank", 2))  # stable : rang (0 FR,1 global,2 etranger,3 extra) puis ordre
-        par_srv = {}
-        for st in tries:
-            par_srv.setdefault(st["serverIdx"], []).append(st)   # insertion = ordre de rang
-        streams = []
-        while len(streams) < MAX_STREAMS and any(par_srv.values()):
-            for lst in par_srv.values():
-                if lst:
-                    streams.append(lst.pop(0))
-                    if len(streams) >= MAX_STREAMS:
-                        break
-        for st in streams:
-            st.pop("_rank", None)
-        info["streams"] = streams
-        total += len(streams)
-    # 2026-09-13 quater : garde-fou. Si (presque) rien n'a ete ingere (Vegeta HS + extra HS),
+    # 2026-09-13 : garde-fou. Si (presque) rien n'a ete ingere (Vegeta HS + extra HS),
     #   on NE reecrit PAS le JSON : mieux vaut garder le registre precedent (l'app accepte
     #   un JSON de 24h) que publier un fichier vide. Exit 1 -> le job echoue, rien n'est commite.
     if len(registry) < 30:
         print("ABANDON : seulement %d chaines ingerees (< 30) -> JSON precedent conserve" % len(registry), file=sys.stderr)
         sys.exit(1)
-    payload = {
-        "savedAt": int(time.time() * 1000),
-        "generatedBy": "nx-data cron (refresh_vegetatv.py)",
-        "channels": registry,
-    }
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
-    print("OK: %d chaines, %d flux -> %s" % (len(registry), total, OUT_PATH), file=sys.stderr)
+
+    # Registre LEGER (plafond MAX_STREAMS) : celui que l'app charge au demarrage du provider.
+    nb, total, octets = ecrire(OUT_PATH, registry, MAX_STREAMS, "")
+    print("OK: %d chaines, %d flux, %.1f Mo -> %s" % (nb, total, octets / 1048576.0, OUT_PATH), file=sys.stderr)
+
+    # Registre COMPLET (aucun plafond) : publie en release par le workflow, jamais commite.
+    if OUT_FULL:
+        nbf, totalf, octetsf = ecrire(OUT_FULL, registry, 10 ** 9, " - complet, sans plafond")
+        print("COMPLET: %d chaines, %d flux, %.1f Mo -> %s" % (
+            nbf, totalf, octetsf / 1048576.0, OUT_FULL), file=sys.stderr)
 
 if __name__ == "__main__":
     main()
