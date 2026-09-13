@@ -6,6 +6,12 @@
 # Une ligne par serveur, au choix :
 #   http://host:port/get.php?username=USER&password=PASS&type=m3u_plus&output=m3u8
 #   host:port USER PASS          (l'URL est construite ; si get.php repond 404 -> player_api.php)
+#   - soit un lien M3U direct : n'importe quelle adresse qui renvoie une playlist
+#     (.m3u, .m3u8, ou une page qui en sert une). Elle est telechargee telle quelle,
+#     sans identifiants ; il n'y a donc pas de repli player_api si elle tombe.
+#     Exemple : https://exemple.fr/ma-playlist.m3u
+#     Seules les chaines francaises reconnues y sont retenues (TF1, M6, Canal+,
+#     France 2, BFM, Arte...), le reste de la playlist est ignore.
 # Lignes vides et lignes commencant par # ignorees. Un compte mort ne produit aucun flux :
 # il disparait du JSON au cron suivant, pas besoin de le retirer d'urgence.
 # serverIdx dans l'app = 100 pour la 1re ligne, 101 pour la 2e, etc.
