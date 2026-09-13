@@ -1,3 +1,15 @@
+# MESURE DU 2026-09-13 — pourquoi des lignes sont commentees ci-dessous.
+#   Chaque compte a ete mis a l'epreuve deux fois : une lecture continue de 75 s
+#   depuis un PC, et surtout une lecture reelle dans l'application sur telephone,
+#   serveur par serveur, en comptant ce que le lecteur constate.
+#   Resultat sur CANAL+ : quatre des cinq premiers serveurs ne demarraient JAMAIS
+#   (401 identifiants refuses, 403 interdit, ou hote muet). Le lecteur passait donc
+#   son temps a essayer des comptes morts — d'ou les coupures et les changements de
+#   serveur constates par l'utilisateur, sur une chaine qui a pourtant vingt sources.
+#   Les comptes morts sont commentes, pas supprimes : si l'un d'eux redevient valide,
+#   il suffit de retirer le prefixe. Un compte commente ne prend aucune place dans le
+#   round-robin et ne decale donc plus les comptes qui fonctionnent.
+#
 # Serveurs SUPPLEMENTAIRES pour Vegeta TV (lus par scripts/vegetatv/refresh_vegetatv.py).
 # Ils s'ajoutent aux serveurs de vegetatv.duckdns.org/data/server_status.json, en DERNIER
 # dans le round-robin : ils ne prennent une place que si les serveurs Vegeta n'en ont pas
@@ -17,20 +29,20 @@ rudytv123.xyz:80 4VHK8UYX3Y8PU2Z AnOF4aVPXs
 # 2026-09-13 - panels extraits des flux Bowd (balayage des 2000 chaines FR de leur API,
 #   champ streams[].direct.url). Bowd accumule ces comptes et bascule dessus selon la
 #   charge : on ingere les memes. Nombre de chaines vu chez Bowd en commentaire.
-goldtnsbs.xyz:80 MAGJLJQ9K6 meD83tYkUw          # 878
+# MORT 2026-09-13 (identifiants refuses (401) + aucune lecture sur le telephone) : goldtnsbs.xyz:80 MAGJLJQ9K6 meD83tYkUw          # 878
 stap2025.me:80 javimaiz55678UIJ k5iqjr2t24      # 821
-main.light-ott.net:80 17FYL8 HJCVES             # 603
-4kip55.xyz:80 9708891FD378123 do0mz0gFVc        # 587
+# MORT 2026-09-13 (panneau refuse la connexion) : main.light-ott.net:80 17FYL8 HJCVES             # 603
+# MORT 2026-09-13 (identifiants refuses (401) + aucune lecture sur le telephone) : 4kip55.xyz:80 9708891FD378123 do0mz0gFVc        # 587
 best-8k.org:80 1ur27u5s11 bou39ej3wh            # 326
 blkntv.com:2095 dragan dragan                   # 103
-goldenpro.top:80 576038F963805CD HSyAb9YCDO     # 101
+# MORT 2026-09-13 (identifiants refuses (401) + aucune lecture sur le telephone) : goldenpro.top:80 576038F963805CD HSyAb9YCDO     # 101
 bntvs.com:2052 gagilupic 8xKEWuy2fc             # 98
 portal4k.vip:80 nawalfouziafrfr gyfueblw5w      # 66
-tare2025.me:8080 n0c2aweubi v6b3oqtlid          # 43
+# MORT 2026-09-13 (hote injoignable) : tare2025.me:8080 n0c2aweubi v6b3oqtlid          # 43
 flixigo-iptvpremium.com:80 fatoubeye beyefatou  # 35
-fr3d0m.tebasya.work:8080 Ivanjulio23 qBPW2XIZYr # 19
+# MORT 2026-09-13 (identifiants refuses (401)) : fr3d0m.tebasya.work:8080 Ivanjulio23 qBPW2XIZYr # 19
 play-plus.net:80 HilijjiElmehdi 3bae8shv0m      # 7
-goldtnsbs.xyz:80 ARSS1YY3W3FRFMJ M2F7nYArCp     # 4 (2e compte du meme panel)
+# MORT 2026-09-13 (identifiants refuses (401) + aucune lecture sur le telephone) : goldtnsbs.xyz:80 ARSS1YY3W3FRFMJ M2F7nYArCp     # 4 (2e compte du meme panel)
 
 # Deja presents dans la liste Vegeta (52 et 26), inutile de les redoubler :
 #   july.misekran.xyz:8080 (= Vegeta 52)  /  8923828.maxnow.cx (= Vegeta 26)
