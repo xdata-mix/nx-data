@@ -64,14 +64,19 @@ def fetch_servers():
         pos = int(o.get("pos", i + 1))
         is_fr = ("\U0001F1EB\U0001F1F7" in flag) or (32 <= pos <= 37)
         is_global = "\U0001F310" in flag
-        if not is_fr and not is_global:
-            continue
+        # 2026-09-13 : on ne jette PLUS les serveurs a drapeau etranger (MX/ES/TR/IT...).
+        #   Avant : `if not is_fr and not is_global: continue` ecartait 32 des 46 serveurs
+        #   UP. Or ces panels sont des revendeurs multi-pays qui diffusent aussi du FR :
+        #   resultat, tf1/m6 etaient dans le JSON mais TOUT Canal+/Cine+ manquait.
+        #   FR_NAME_RE en aval ne retient de toute facon que les marques FR, quel que
+        #   soit le serveur. rank : FR=0, global=1, etranger=2 (cf. tri final dans main).
+        rank = 0 if is_fr else (1 if is_global else 2)
         url = o.get("url", "") or ""
         if not url.startswith("http"):
             continue
-        out.append({"pos": pos, "url": url, "isFr": is_fr,
+        out.append({"pos": pos, "url": url, "isFr": is_fr, "rank": rank,
                     "ping": int(o.get("response_time_ms", 9999))})
-    out.sort(key=lambda s: (0 if s["isFr"] else 1, s["ping"]))
+    out.sort(key=lambda s: (s["rank"], s["ping"]))
     return out
 
 def ingest_server(srv, registry, lock):
@@ -119,11 +124,17 @@ def ingest_server(srv, registry, lock):
                 info = registry.setdefault(key, {
                     "displayName": base_display(cleaned), "category": "", "logo": "", "streams": []
                 })
-                if all(s["url"] != line for s in info["streams"]) and len(info["streams"]) < MAX_STREAMS:
+                # 2026-09-13 : le plafond MAX_STREAMS n'est PLUS applique ici (ordre
+                #   d'arrivee des threads = un serveur etranger rapide pouvait remplir les
+                #   4 places avant les serveurs FR). On collecte tout avec le rang du
+                #   serveur ("_rank", champ TEMPORAIRE retire avant ecriture) ; le tri +
+                #   plafond se font dans main(), FR d'abord.
+                if all(s["url"] != line for s in info["streams"]):
                     info["streams"].append({
                         "serverIdx": srv["pos"],
                         "label": variant_label(cleaned) or ("Server %s" % srv["pos"]),
                         "url": line,
+                        "_rank": srv["rank"],
                     })
                     added += 1
     print("[Server %s] +%d flux (isFr=%s)" % (srv["pos"], added, srv["isFr"]), file=sys.stderr)
@@ -131,12 +142,26 @@ def ingest_server(srv, registry, lock):
 
 def main():
     servers = fetch_servers()
-    print("%d serveurs FR/GLOBAL a scanner" % len(servers), file=sys.stderr)
+    print("%d serveurs a scanner (FR=%d, global=%d, etranger=%d)" % (
+        len(servers),
+        sum(1 for s in servers if s["rank"] == 0),
+        sum(1 for s in servers if s["rank"] == 1),
+        sum(1 for s in servers if s["rank"] == 2)), file=sys.stderr)
     registry, lock, total = {}, threading.Lock(), 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         futs = [ex.submit(ingest_server, s, registry, lock) for s in servers]
         for f in as_completed(futs):
             total += f.result() or 0
+    # 2026-09-13 : tri des flux par rang de serveur (FR -> global -> etranger) PUIS
+    #   plafond MAX_STREAMS. Garantit que les flux FR fiables restent en tete et ne
+    #   sont jamais evinces par un serveur etranger plus rapide a repondre.
+    total = 0
+    for info in registry.values():
+        streams = sorted(info["streams"], key=lambda s: s.get("_rank", 2))[:MAX_STREAMS]
+        for st in streams:
+            st.pop("_rank", None)
+        info["streams"] = streams
+        total += len(streams)
     payload = {
         "savedAt": int(time.time() * 1000),
         "generatedBy": "nx-data cron (refresh_vegetatv.py)",
