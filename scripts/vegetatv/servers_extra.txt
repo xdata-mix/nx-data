@@ -10,7 +10,27 @@
 # il disparait du JSON au cron suivant, pas besoin de le retirer d'urgence.
 # serverIdx dans l'app = 100 pour la 1re ligne, 101 pour la 2e, etc.
 
-# 2026-09-13 — compte Telegram (fichier "EU _ FR _ 24_7 FRANCAIS.html"), expire 2027-01-11,
+# 2026-09-13 - compte Telegram (fichier "EU _ FR _ 24_7 FRANCAIS.html"), expire 2027-01-11,
 #   max_connections = 1 : souvent occupe, secours uniquement.
-# (colle ici la ligne "host:port USER PASS" du compte, une par ligne)
 rudytv123.xyz:80 4VHK8UYX3Y8PU2Z AnOF4aVPXs
+
+# 2026-09-13 - panels extraits des flux Bowd (balayage des 2000 chaines FR de leur API,
+#   champ streams[].direct.url). Bowd accumule ces comptes et bascule dessus selon la
+#   charge : on ingere les memes. Nombre de chaines vu chez Bowd en commentaire.
+goldtnsbs.xyz:80 MAGJLJQ9K6 meD83tYkUw          # 878
+stap2025.me:80 javimaiz55678UIJ k5iqjr2t24      # 821
+main.light-ott.net:80 17FYL8 HJCVES             # 603
+4kip55.xyz:80 9708891FD378123 do0mz0gFVc        # 587
+best-8k.org:80 1ur27u5s11 bou39ej3wh            # 326
+blkntv.com:2095 dragan dragan                   # 103
+goldenpro.top:80 576038F963805CD HSyAb9YCDO     # 101
+bntvs.com:2052 gagilupic 8xKEWuy2fc             # 98
+portal4k.vip:80 nawalfouziafrfr gyfueblw5w      # 66
+tare2025.me:8080 n0c2aweubi v6b3oqtlid          # 43
+flixigo-iptvpremium.com:80 fatoubeye beyefatou  # 35
+fr3d0m.tebasya.work:8080 Ivanjulio23 qBPW2XIZYr # 19
+play-plus.net:80 HilijjiElmehdi 3bae8shv0m      # 7
+goldtnsbs.xyz:80 ARSS1YY3W3FRFMJ M2F7nYArCp     # 4 (2e compte du meme panel)
+
+# Deja presents dans la liste Vegeta (52 et 26), inutile de les redoubler :
+#   july.misekran.xyz:8080 (= Vegeta 52)  /  8923828.maxnow.cx (= Vegeta 26)
