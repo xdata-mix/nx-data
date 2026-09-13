@@ -36,11 +36,38 @@ FR_NAME_RE = re.compile(
 NON_FR_TAG = re.compile(r"(?i)(^|[|\[\(\s])(AR|TR|DE|ES|IT|PT|NL|PL|RO|EN|UK|US|RU|"
                         r"AL|GR|IN|PK|BR|MX|SE|NO|FI|DK|CZ|HU|BG|HR|SRB?|MK)([|\]\)\s]|$)")
 
+# 2026-09-13 : PORT FIDELE de VegetaTvProvider.norm() (Kotlin). L'ancienne version
+#   supprimait le "+" au lieu de le convertir en "plus" : "Canal+ Cinema" donnait la cle
+#   "canalcinema" alors que l'app cherche "canalpluscinema" -> TOUT Canal+/Cine+ etait
+#   bien dans le JSON mais introuvable pour l'app. Toute divergence entre les deux norm()
+#   = chaine invisible : ne modifier celle-ci qu'en meme temps que le Kotlin.
+_NORM_MID = re.compile(
+    r"\b(hd|sd|fhd|uhd|4k|raw|hevc|h\.?265|ppv|ott|test|backup|fhdr|sdr|multi|vip|full ?hd)\b"
+    r"|\blive\b(?!\s*\d)|(?:\+\s?1)|(?:1080p|720p|480p|360p)")
+_NORM_END = re.compile(r"\s+(fr|french|francais|belgique|be|suisse|ch|lux)\s*$")
+
 def norm(name):
-    s = unicodedata.normalize("NFD", name)
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
-    s = re.sub(r"\b(fhd|uhd|4k|hd|sd|hevc|h265|multi|vip|backup|full ?hd)\b", " ", s)
-    return re.sub(r"[^a-z0-9]", "", s)
+    s = name.lower()
+    s = re.sub(r"[\u00e9\u00e8\u00ea\u00eb]", "e", s)
+    s = re.sub(r"[\u00e0\u00e2\u00e4]", "a", s)
+    s = re.sub(r"[\u00f9\u00fb\u00fc]", "u", s)
+    s = re.sub(r"[\u00ee\u00ef]", "i", s)
+    s = re.sub(r"[\u00f4\u00f6]", "o", s)
+    s = s.replace("\u00e7", "c")
+    s = re.sub(r"\[.*?\]", " ", s)
+    s = re.sub(r"\(.*?\)", " ", s)
+    s = re.sub(r"^\s*(fr|france)\s*[:|\-]\s*", "", s)
+    while True:
+        n = _NORM_MID.sub(" ", s)
+        n = _NORM_END.sub("", n)
+        n = re.sub(r"\.fr\b", "", n)
+        n = re.sub(r"\s+", " ", n).strip()
+        if n == s:
+            break
+        s = n
+    s = s.replace("+", "plus").replace("&", "and")
+    s = re.sub(r"[^a-z0-9]", "", s)
+    return s.replace("sports", "sport")
 
 def base_display(name):
     return re.sub(r"\s+", " ", re.sub(r"(?i)\b(fhd|uhd|4k|hd|sd|hevc|h265|vip)\b", "", name)).strip() or name
