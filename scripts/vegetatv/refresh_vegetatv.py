@@ -46,8 +46,34 @@ _NORM_MID = re.compile(
     r"|\blive\b(?!\s*\d)|(?:\+\s?1)|(?:1080p|720p|480p|360p)")
 _NORM_END = re.compile(r"\s+(fr|french|francais|belgique|be|suisse|ch|lux)\s*$")
 
+_PREFIXE_PAYS = re.compile(
+    r"^[\s|\-\u2022\u2502\u2503\u258C\u258E\u258F\u2590\u2588]*"
+    r"(BE-FR|FRA|FR|ES|PT|EN|DE|IT|AR|TR|NL|PL|RO|US|UK|BE|CH)"
+    r"[|:\s\-\u2502\u2503\u258C\u258E\u258F\u2590\u2588]+", re.IGNORECASE)
+
+# 2026-09-13 bis : tags qualite en EXPOSANT ("ᴴᴰ", "ᵁᴴᴰ", "ᶠᴴᴰ", "⁴ᴷ") — bloc Unicode des
+#   petites capitales/exposants (U+1D2C-U+1D6A) + chiffres en exposant (U+2070-U+209F).
+#   Aucun vrai nom de chaine n'en contient : on les efface avant normalisation.
+_EXPOSANTS = re.compile(r"[\u1D2C-\u1D6A\u2070-\u209F]+")
+
+# 2026-09-13 bis : ALIAS EXPLICITES (pas de regle generale, trop risquee : "CANAL J" n'est pas
+#   "CANAL+ J", "CANAL ALPHA" est une chaine suisse). Sur le serveur 52, les chaines Canal+/Cine+
+#   existent en double, avec et sans "+" ("CANAL FAMILY" = "CANAL+ FAMILY") ; on les rapproche
+#   de la cle curatee de l'app. Polar+ apparait comme "CINE POLAR" / "CINE+ POLAR+".
+_ALIAS = {
+    "canalcinema": "canalpluscinema", "canalseries": "canalplusseries",
+    "canalfamily": "canalplusfamily", "canaldocs": "canalplusdocs",
+    "canaldecale": "canalplusdecale", "canalsport": "canalplussport",
+    "canalfoot": "canalplusfoot", "canalkids": "canalpluskids",
+    "canalgrandecran": "canalplusgrandecran", "canalboxoffice": "canalplusboxoffice",
+    "cinepremier": "cinepluspremier", "cinefrisson": "cineplusfrisson",
+    "cineemotion": "cineplusemotion", "cinefamiz": "cineplusfamiz",
+    "cineclub": "cineplusclub", "cineclassic": "cineplusclassic",
+    "cinepolar": "polarplus", "cinepluspolar": "polarplus", "cinepluspolarplus": "polarplus",
+}
+
 def norm(name):
-    s = name.lower()
+    s = _EXPOSANTS.sub(" ", name).lower()
     s = re.sub(r"[\u00e9\u00e8\u00ea\u00eb]", "e", s)
     s = re.sub(r"[\u00e0\u00e2\u00e4]", "a", s)
     s = re.sub(r"[\u00f9\u00fb\u00fc]", "u", s)
@@ -66,8 +92,8 @@ def norm(name):
             break
         s = n
     s = s.replace("+", "plus").replace("&", "and")
-    s = re.sub(r"[^a-z0-9]", "", s)
-    return s.replace("sports", "sport")
+    s = re.sub(r"[^a-z0-9]", "", s).replace("sports", "sport")
+    return _ALIAS.get(s, s)
 
 def base_display(name):
     return re.sub(r"\s+", " ", re.sub(r"(?i)\b(fhd|uhd|4k|hd|sd|hevc|h265|vip)\b", "", name)).strip() or name
@@ -138,8 +164,12 @@ def ingest_server(srv, registry, lock):
             # RESTREINT aux chaines FR de MARQUE (regex) partout (cf. entete).
             if not FR_NAME_RE.search(raw_name) or not is_fr_compatible(raw_name):
                 continue
-            cleaned = re.sub(r"^(FR|ES|PT|EN|DE|IT|AR|TR|NL|PL|RO|US|UK|BE|CH)[|:\s]+", "",
-                             raw_name, flags=re.IGNORECASE)
+            # 2026-09-13 bis : le code pays peut etre ENCADRE ("|FR| CANAL+DOCS", "▎FR▎ TF1")
+            #   et s'ecrire FRA: ou BE-FR: (serveurs 13 et 52). L'ancien motif exigeait le
+            #   code en tout debut et ne connaissait que FR -> cles polluees "frcanalplusdocs",
+            #   "fracanalplusboxoffice" jamais retrouvees par l'app. Le code doit RESTER suivi
+            #   d'un separateur : c'est ce qui protege "BEIN", "CHERIE 25", "FRANCE 2".
+            cleaned = _PREFIXE_PAYS.sub("", raw_name)
             cleaned = re.sub(r"^[\-•●○▪►‣›»]+\s*", "", cleaned)
             cleaned = re.sub(r"\s+", " ", cleaned).strip()
             if not cleaned:
@@ -182,9 +212,23 @@ def main():
     # 2026-09-13 : tri des flux par rang de serveur (FR -> global -> etranger) PUIS
     #   plafond MAX_STREAMS. Garantit que les flux FR fiables restent en tete et ne
     #   sont jamais evinces par un serveur etranger plus rapide a repondre.
+    #   2026-09-13 ter (user "TF1 : que le 29, pareil France 2") : un serveur FR qui publie
+    #   4 variantes (HD/FHD/UHD...) remplissait a lui seul les 4 places -> aucun repli si ce
+    #   serveur tombe. On fait un ROUND-ROBIN par serveur : 1er flux de chaque serveur (FR
+    #   d'abord, puis global, puis etranger), puis 2e flux de chacun, etc. -> diversite max.
     total = 0
     for info in registry.values():
-        streams = sorted(info["streams"], key=lambda s: s.get("_rank", 2))[:MAX_STREAMS]
+        tries = sorted(info["streams"], key=lambda s: s.get("_rank", 2))  # stable : rang puis ordre
+        par_srv = {}
+        for st in tries:
+            par_srv.setdefault(st["serverIdx"], []).append(st)   # insertion = ordre de rang
+        streams = []
+        while len(streams) < MAX_STREAMS and any(par_srv.values()):
+            for lst in par_srv.values():
+                if lst:
+                    streams.append(lst.pop(0))
+                    if len(streams) >= MAX_STREAMS:
+                        break
         for st in streams:
             st.pop("_rank", None)
         info["streams"] = streams
