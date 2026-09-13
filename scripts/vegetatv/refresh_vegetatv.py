@@ -19,6 +19,12 @@ WORKERS       = int(os.environ.get("VEGETA_WORKERS", "8"))
 M3U_TIMEOUT   = int(os.environ.get("VEGETA_M3U_TIMEOUT", "40"))
 API_TIMEOUT   = int(os.environ.get("VEGETA_API_TIMEOUT", "25"))
 MAX_STREAMS   = int(os.environ.get("VEGETA_MAX_STREAMS", "4"))   # par chaine
+# 2026-09-13 quater : serveurs SUPPLEMENTAIRES hors liste Vegeta (comptes Xtream trouves sur
+#   Telegram etc.). Un fichier texte a cote du script, une ligne par serveur. Voir
+#   load_extra_servers(). Rien a changer dans l'app : ils arrivent dans le JSON comme les autres.
+EXTRA_PATH    = os.environ.get("VEGETA_EXTRA",
+                os.path.join(os.path.dirname(os.path.abspath(__file__)), "servers_extra.txt"))
+EXTRA_BASE_IDX = 100   # serverIdx 100, 101, ... : jamais en collision avec les "pos" Vegeta (1-56)
 UA = ("Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36")
 
@@ -139,7 +145,17 @@ def ingest_server(srv, registry, lock):
         m3u = r.text
     except Exception as e:
         print("[Server %s] m3u KO: %s" % (srv["pos"], e), file=sys.stderr)
-        return 0
+        m3u = ""
+    if "#EXTINF" not in m3u and srv.get("xt"):
+        # 2026-09-13 quater : get.php absent/404 -> on passe par player_api (serveurs extra).
+        try:
+            m3u, fr_only = m3u_from_player_api(srv["xt"])
+            if fr_only:
+                srv["trustedFr"] = True   # categories FR du panel -> pas de filtre de marque
+            print("[Server %s] get.php KO -> player_api OK (categories FR: %s)" % (srv["pos"], fr_only), file=sys.stderr)
+        except Exception as e:
+            print("[Server %s] player_api KO: %s" % (srv["pos"], e), file=sys.stderr)
+            return 0
     if "#EXTINF" not in m3u:
         return 0
     pending = None
@@ -162,7 +178,9 @@ def ingest_server(srv, registry, lock):
             if not raw_name:
                 continue
             # RESTREINT aux chaines FR de MARQUE (regex) partout (cf. entete).
-            if not FR_NAME_RE.search(raw_name) or not is_fr_compatible(raw_name):
+            if not is_fr_compatible(raw_name):
+                continue
+            if not srv.get("trustedFr") and not FR_NAME_RE.search(raw_name):
                 continue
             # 2026-09-13 bis : le code pays peut etre ENCADRE ("|FR| CANAL+DOCS", "▎FR▎ TF1")
             #   et s'ecrire FRA: ou BE-FR: (serveurs 13 et 52). L'ancien motif exigeait le
@@ -197,13 +215,90 @@ def ingest_server(srv, registry, lock):
     print("[Server %s] +%d flux (isFr=%s)" % (srv["pos"], added, srv["isFr"]), file=sys.stderr)
     return added
 
+def load_extra_servers():
+    """Serveurs extra (servers_extra.txt). Une ligne par serveur :
+         - soit l'URL complete du get.php du panel
+         - soit "host user pass" (separes par espaces ou |) -> l'URL get.php est construite.
+       Lignes vides et lignes commencant par # ignorees.
+       rank 3 = DERNIERS dans le round-robin de main() : ils ne prennent une place qu'apres
+       tous les serveurs Vegeta, mais SAUVENT les chaines qui n'ont aucun serveur (Canal+/Cine+
+       quand le 52 tombe). Un compte mort ne renvoie aucun flux -> il disparait tout seul du JSON."""
+    if not os.path.exists(EXTRA_PATH):
+        return []
+    out = []
+    with open(EXTRA_PATH, encoding="utf-8") as fh:
+        for ln in fh:
+            ln = ln.strip()
+            if not ln or ln.startswith("#"):
+                continue
+            xt = None   # (host, user, pass) pour le repli player_api
+            if ln.startswith("http"):
+                url = ln
+                m = re.match(r"(https?://[^/]+)/get\.php\?.*?username=([^&\s]+).*?password=([^&\s]+)", ln)
+                if m:
+                    xt = (m.group(1), m.group(2), m.group(3))
+            else:
+                parts = [p for p in re.split(r"[\s|]+", ln) if p]
+                if len(parts) < 3:
+                    print("[extra] ligne ignoree (attendu: URL ou 'host user pass'): %r" % ln, file=sys.stderr)
+                    continue
+                host = parts[0] if parts[0].startswith("http") else "http://" + parts[0]
+                xt = (host.rstrip("/"), parts[1], parts[2])
+                url = "%s/get.php?username=%s&password=%s&type=m3u_plus&output=m3u8" % xt
+            out.append({"pos": EXTRA_BASE_IDX + len(out), "url": url, "xt": xt,
+                        "isFr": True, "rank": 3, "ping": 0})
+    return out
+
+def m3u_from_player_api(xt):
+    """Certains panels renvoient 404 sur get.php mais servent player_api.php.
+       On reconstruit alors un M3U minimal depuis action=get_live_streams :
+       URL de lecture = host/live/user/pass/<stream_id>.m3u8 (format Xtream standard)."""
+    host, user, pw = xt
+    api = "%s/player_api.php?username=%s&password=%s&action=" % (host, user, pw)
+    # Categories FR du panel ("EU | FR | CINEMA", "FR: SPORT", "FRANCE HD"...). Si on en trouve,
+    # on ne garde QUE leurs chaines, et on saute le filtre de marque FR_NAME_RE (cf. ingest_server) :
+    # ces categories sont deja 100 % FR et contiennent des chaines sans marque dans le regex
+    # (Polar+, Serie Club, TCM, Warner TV, Action, Comedy Central...).
+    fr_cats = set()
+    try:
+        r = requests.get(api + "get_live_categories", headers={"User-Agent": UA}, timeout=API_TIMEOUT)
+        for c in r.json() or []:
+            cname = (c.get("category_name") or "")
+            if re.search(r"(?i)(^|[|\s\[(])(FR|FRA|FRANCE|FRENCH|FRANCAIS|FRAN\u00c7AIS)($|[|:\s\])])", cname):
+                fr_cats.add(str(c.get("category_id")))
+    except Exception as e:
+        print("[extra] get_live_categories KO (%s) -> pas de filtre categorie" % e, file=sys.stderr)
+    r = requests.get(api + "get_live_streams", headers={"User-Agent": UA}, timeout=M3U_TIMEOUT)
+    r.raise_for_status()
+    lines = ["#EXTM3U"]
+    for o in r.json() or []:
+        name = (o.get("name") or "").strip()
+        sid = o.get("stream_id")
+        if not name or sid is None or name.startswith("#"):   # "##### FRANCE CINEMA #####" = separateur
+            continue
+        if fr_cats and str(o.get("category_id")) not in fr_cats:
+            continue
+        lines.append("#EXTINF:-1,%s" % name)
+        lines.append("%s/live/%s/%s/%s.m3u8" % (host, user, pw, sid))
+    return "\n".join(lines), bool(fr_cats)
+
 def main():
-    servers = fetch_servers()
-    print("%d serveurs a scanner (FR=%d, global=%d, etranger=%d)" % (
+    try:
+        servers = fetch_servers()
+    except Exception as e:
+        # 2026-09-13 quater : si vegetatv.duckdns.org est HS, on continue avec les extra
+        #   plutot que de laisser le JSON precedent pourrir sans rien.
+        print("fetch_servers KO (%s) -> on continue avec les serveurs extra seuls" % e, file=sys.stderr)
+        servers = []
+    extra = load_extra_servers()
+    print("%d serveur(s) extra (servers_extra.txt)" % len(extra), file=sys.stderr)
+    servers = servers + extra
+    print("%d serveurs a scanner (FR=%d, global=%d, etranger=%d, extra=%d)" % (
         len(servers),
         sum(1 for s in servers if s["rank"] == 0),
         sum(1 for s in servers if s["rank"] == 1),
-        sum(1 for s in servers if s["rank"] == 2)), file=sys.stderr)
+        sum(1 for s in servers if s["rank"] == 2),
+        sum(1 for s in servers if s["rank"] == 3)), file=sys.stderr)
     registry, lock, total = {}, threading.Lock(), 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         futs = [ex.submit(ingest_server, s, registry, lock) for s in servers]
@@ -218,7 +313,7 @@ def main():
     #   d'abord, puis global, puis etranger), puis 2e flux de chacun, etc. -> diversite max.
     total = 0
     for info in registry.values():
-        tries = sorted(info["streams"], key=lambda s: s.get("_rank", 2))  # stable : rang puis ordre
+        tries = sorted(info["streams"], key=lambda s: s.get("_rank", 2))  # stable : rang (0 FR,1 global,2 etranger,3 extra) puis ordre
         par_srv = {}
         for st in tries:
             par_srv.setdefault(st["serverIdx"], []).append(st)   # insertion = ordre de rang
@@ -233,6 +328,12 @@ def main():
             st.pop("_rank", None)
         info["streams"] = streams
         total += len(streams)
+    # 2026-09-13 quater : garde-fou. Si (presque) rien n'a ete ingere (Vegeta HS + extra HS),
+    #   on NE reecrit PAS le JSON : mieux vaut garder le registre precedent (l'app accepte
+    #   un JSON de 24h) que publier un fichier vide. Exit 1 -> le job echoue, rien n'est commite.
+    if len(registry) < 30:
+        print("ABANDON : seulement %d chaines ingerees (< 30) -> JSON precedent conserve" % len(registry), file=sys.stderr)
+        sys.exit(1)
     payload = {
         "savedAt": int(time.time() * 1000),
         "generatedBy": "nx-data cron (refresh_vegetatv.py)",
