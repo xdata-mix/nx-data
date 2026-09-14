@@ -13167,6 +13167,8 @@ tf1plus://tf1/kallys-mashup-la-voix-de-la-pop-835
 tf1plus://tf1/les-schtroumpfs
 #EXTINF:-1 tvg-id="tf1plus-tf1-winx-club" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Winx Club
 tf1plus://tf1/winx-club
+#EXTINF:-1 tvg-id="tf1plus-tf1-molang" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Molang
+tf1plus://tf1/molang
 #EXTINF:-1 tvg-id="tf1plus-tf1-les-chapardeurs" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Les Chapardeurs
 tf1plus://tf1/les-chapardeurs
 #EXTINF:-1 tvg-id="tf1plus-tf1-gus-le-chevalier-minus" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Gus le Chevalier Minus
@@ -13175,8 +13177,6 @@ tf1plus://tf1/gus-le-chevalier-minus
 tf1plus://tf1/azuro
 #EXTINF:-1 tvg-id="tf1plus-tf1-ruben-and-compagnie" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Ruben And Compagnie
 tf1plus://tf1/ruben-and-compagnie
-#EXTINF:-1 tvg-id="tf1plus-tf1-molang" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Molang
-tf1plus://tf1/molang
 #EXTINF:-1 tvg-id="tf1plus-tf1-hello-kitty-super-style" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Hello Kitty Super Style
 tf1plus://tf1/hello-kitty-super-style
 #EXTINF:-1 tvg-id="tf1plus-tf1-santiago-des-mers" tvg-logo="https://i.imgur.com/qkOSt0o.png" tvg-country="FR" tvg-type="series" group-title="Replay TF1",Santiago des Mers
@@ -13745,14 +13745,12 @@ tf1plus://lci/linterview-damelie-carrouer
 tf1plus://lci/la-matinale-618
 #EXTINF:-1 tvg-id="tf1plus-lci-20h-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",20h Rochebin
 tf1plus://lci/20h-rochebin
-#EXTINF:-1 tvg-id="tf1plus-lci-nivat-soir" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Nivat Soir
-tf1plus://lci/nivat-soir
-#EXTINF:-1 tvg-id="tf1plus-lci-edition-speciale-lci" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Edition Speciale Lci
-tf1plus://lci/edition-speciale-lci
 #EXTINF:-1 tvg-id="tf1plus-lci-20h-haddad" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",20h Haddad
 tf1plus://lci/20h-haddad
 #EXTINF:-1 tvg-id="tf1plus-lci-rochebin-soir" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Rochebin Soir
 tf1plus://lci/rochebin-soir
+#EXTINF:-1 tvg-id="tf1plus-lci-nivat-soir" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Nivat Soir
+tf1plus://lci/nivat-soir
 #EXTINF:-1 tvg-id="tf1plus-lci-histoires-criminelles" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Histoires Criminelles
 tf1plus://lci/histoires-criminelles
 #EXTINF:-1 tvg-id="tf1plus-lci-lci-direct" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Lci Direct
@@ -13771,6 +13769,8 @@ tf1plus://tf1/les-disparues-de-la-gare-de-perpignan
 tf1plus://lci/objectif-2027
 #EXTINF:-1 tvg-id="tf1plus-lci-elections" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Elections
 tf1plus://lci/elections
+#EXTINF:-1 tvg-id="tf1plus-lci-edition-speciale-lci" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Edition Speciale Lci
+tf1plus://lci/edition-speciale-lci
 #EXTINF:-1 tvg-id="tf1plus-lci-brunet-sans-filtre" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",Brunet Sans Filtre
 tf1plus://lci/brunet-sans-filtre
 #EXTINF:-1 tvg-id="tf1plus-lci-18h-darius-rochebin" tvg-logo="https://i.imgur.com/jVxzNHL.png" tvg-country="FR" tvg-type="series" group-title="Replay LCI",18h Darius Rochebin
