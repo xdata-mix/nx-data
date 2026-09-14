@@ -30,6 +30,17 @@ TF1_CATEGORIES = [
     ("films",                "Films"),
     ("info",                 "Info"),
 ]
+
+# 2026-09-14 (user « tu peux les mettre dans films » pour les téléfilms) :
+#   toutes les catégories NON-fiction passent par le scrape par rails et
+#   atterrissent sous "Replay TF1+ Émissions" (3e axe du dossier Replay TF1+).
+#   Avant, elles étaient versées en vrac dans "Replay <chaîne>" et leurs
+#   catégories étaient donc invisibles côté app.
+TF1_EMISSIONS = (
+    "divertissement", "jeunesse", "reportages", "sport",
+    "info", "people-43944072", "podcasts-70045207", "impact",
+)
+
 TF1_REPLAY_URL = "https://www.tf1.fr/{slug}/replay"
 TF1_CAT_HREF_RE = re.compile(r'href="/(tf1|tmc|tfx|tf1-series-films|lci)/([a-z0-9-]+)"')
 
@@ -268,13 +279,14 @@ def generate(output_path):
         #   lui aussi par le scrape par rails, sous le préfixe "Replay TF1+ Émissions"
         #   → 3e axe à côté de Films/Séries dans le dossier Replay TF1+ de l'app
         #   (cf. LiveHubFolderDialog.themedPrefix + LiveTvHubProvider).
-        if cat_slug in ("films", "series", "divertissement"):
+        # telefilms rejoint l'axe Films (choix user 2026-09-14).
+        if cat_slug in ("films", "series", "telefilms") or cat_slug in TF1_EMISSIONS:
             sections = tf1_category_sections(cat_slug)
-            group_prefix = {
-                "films": "Replay TF1+ Films",
-                "series": "Replay TF1+ Séries",
-                "divertissement": "Replay TF1+ Émissions",
-            }[cat_slug]
+            group_prefix = (
+                "Replay TF1+ Films" if cat_slug in ("films", "telefilms")
+                else "Replay TF1+ Séries" if cat_slug == "series"
+                else "Replay TF1+ Émissions"
+            )
             section_added = 0
             for sec_name, items in sections:
                 for p in items:
@@ -288,8 +300,8 @@ def generate(output_path):
                     si_path = (p.get("si_id") or "").lower()
                     # 2026-09-14 : une émission dont le slug contient « film » ne doit
                     #   pas être typée movie → on exclut divertissement du test.
-                    is_film = cat_slug == "films" or (
-                        cat_slug != "divertissement"
+                    is_film = cat_slug in ("films", "telefilms") or (
+                        cat_slug not in TF1_EMISSIONS
                         and ("film" in si_path or "/cinema/" in si_path)
                     )
                     tvg_type = "movie" if is_film else "series"
