@@ -263,9 +263,18 @@ def generate(output_path):
     chan_meta = {c[0]: (c[1], c[2]) for c in TF1_CHANNELS}
     for cat_slug, cat_label in TF1_CATEGORIES:
         # 2026-06-23 : Films et Séries → scrape par SECTIONS thématiques
-        if cat_slug in ("films", "series"):
+        # 2026-09-14 (user « ramener les émissions dans le bon dossier, en faisant
+        #   un 3e dossier avec les catégories, pour TF1 et M6 ») : divertissement passe
+        #   lui aussi par le scrape par rails, sous le préfixe "Replay TF1+ Émissions"
+        #   → 3e axe à côté de Films/Séries dans le dossier Replay TF1+ de l'app
+        #   (cf. LiveHubFolderDialog.themedPrefix + LiveTvHubProvider).
+        if cat_slug in ("films", "series", "divertissement"):
             sections = tf1_category_sections(cat_slug)
-            group_prefix = "Replay TF1+ Films" if cat_slug == "films" else "Replay TF1+ Séries"
+            group_prefix = {
+                "films": "Replay TF1+ Films",
+                "series": "Replay TF1+ Séries",
+                "divertissement": "Replay TF1+ Émissions",
+            }[cat_slug]
             section_added = 0
             for sec_name, items in sections:
                 for p in items:
@@ -277,7 +286,12 @@ def generate(output_path):
                     # 2026-06-23 : utilise le poster du film si extracté (jaquettes), sinon logo chaîne
                     poster = p.get("logo") or chan_logo_sec
                     si_path = (p.get("si_id") or "").lower()
-                    is_film = "film" in si_path or "/cinema/" in si_path or cat_slug == "films"
+                    # 2026-09-14 : une émission dont le slug contient « film » ne doit
+                    #   pas être typée movie → on exclut divertissement du test.
+                    is_film = cat_slug == "films" or (
+                        cat_slug != "divertissement"
+                        and ("film" in si_path or "/cinema/" in si_path)
+                    )
                     tvg_type = "movie" if is_film else "series"
                     lines.append(
                         f'#EXTINF:-1 tvg-id="tf1plus-{p["si_id"].replace(chr(47), chr(45))}-{sec_name.replace(chr(32), chr(45)).lower()}" '
