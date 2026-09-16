@@ -127,7 +127,7 @@ def fetch_servers():
             continue
         flag = o.get("flag", "") or ""
         pos = int(o.get("pos", i + 1))
-        is_fr = ("\U0001F1EB\U0001F1F7" in flag) or (32 <= pos <= 37)
+        is_fr = ("\U0001F1EB\U0001F1F7" in flag)  # 2026-09-16 : fenetre 32-37 retiree (le JSON n a pas de champ pos, c etait l ordre d apparition, plus les FR)
         is_global = "\U0001F310" in flag
         # 2026-09-13 : on ne jette PLUS les serveurs a drapeau etranger (MX/ES/TR/IT...).
         #   Avant : `if not is_fr and not is_global: continue` ecartait 32 des 46 serveurs
