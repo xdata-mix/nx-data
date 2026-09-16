@@ -873,7 +873,7 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/tv5-m
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="Généralistes - 100% Français",20 Minutes TV (1080p)
 https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="Généralistes - 100% Français",Alpe d’Huez TV (720p) 
-https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+https://edge.vedge.infomaniak.com/livecast/ik:adhtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="AngersTele.fr@SD" tvg-logo="https://i.imgur.com/CMKKbaP.png" group-title="Généralistes - 100% Français",Angers Tele (180p)
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="Généralistes - 100% Français",Antenne Réunion (720p) 
@@ -1963,7 +1963,7 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="CGTNFrench.cn@SD" group-title="France TV backup - Autres",CGTN Français (1080p) [iptv-org-fra]
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" group-title="France TV backup - Autres",Madras FM TV (1080p) [iptv-org-fra]
-https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+https://edge17.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="RadioContact.be@SD" group-title="France TV backup - Autres",Radio Contact (1080p) [iptv-org-fra]
 https://live-radiocontact.digiteka.com/1564284079/index.m3u8
 #EXTINF:-1 tvg-id="TNTV.pf@SD" group-title="France TV backup - Autres",TNTV (1080p) [iptv-org-fra]
