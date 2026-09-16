@@ -255,7 +255,7 @@ def generate(output_path):
         time.sleep(0.3)
 
     print("\n=== M6+ Thématiques transverses (9 catégories) ===")
-m6_themes_seen = set(); m6_service_par_pid = {}  # 2026-09-16 : pid -> service reel
+    m6_themes_seen = set(); m6_service_par_pid = {}  # 2026-09-16 : pid -> service reel
     for line in lines:
         if line.startswith('m6play://'):
             try:
