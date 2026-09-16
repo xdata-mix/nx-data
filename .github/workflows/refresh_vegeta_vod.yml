@@ -51,7 +51,7 @@ jobs:
           else
             git commit -m "chore(vegetatv): refresh vegeta-vod-fr.json + vod-ep"
             for i in 1 2 3 4 5; do
-              git pull --rebase origin main && git push && exit 0
+              git fetch origin main && git reset --hard origin/main && git checkout ORIG_HEAD -- data/vegetatv/vegeta-vod-fr.json data/vegetatv/vod-ep && { git diff --cached --quiet && echo "deja identique a origin" && exit 0 || git commit -m "chore(vegetatv): rafraichir vegeta-vod-fr.json + vod-ep"; } && git push && exit 0
               echo "push rejete, retry $i..."; sleep 6
             done
             echo "push echoue"; exit 1
