@@ -255,11 +255,11 @@ def generate(output_path):
         time.sleep(0.3)
 
     print("\n=== M6+ Thématiques transverses (9 catégories) ===")
-    m6_themes_seen = set()
+m6_themes_seen = set(); m6_service_par_pid = {}  # 2026-09-16 : pid -> service reel
     for line in lines:
         if line.startswith('m6play://'):
             try:
-                m6_themes_seen.add(line.split('/')[-1])
+                m6_themes_seen.add(line.split('/')[-1]); m6_service_par_pid[line.split('/')[-1]] = (line[len('m6play://'):].split('/')[0] if line.count('/') >= 3 else 'm6replay')
             except Exception:
                 pass
     for folder_id, folder_label in M6_FOLDERS:
@@ -280,7 +280,7 @@ def generate(output_path):
                 f'tvg-type="{p.get("tvg_type", "series")}" '
                 f'group-title="{group}",{p["title"]}'
             )
-            lines.append(f'm6play://m6replay/{pid}')
+            lines.append(f"m6play://{m6_service_par_pid.get(str(pid), 'm6replay')}/{pid}")  # 2026-09-16 : service reel, plus m6replay en dur
             total += 1
             added += 1
         print(f"  Théma {folder_label}: {len(progs)} → {added} nouveaux (dedup)")
