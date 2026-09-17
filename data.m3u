@@ -7092,6 +7092,10 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-gulli/cmaf_q2hyb21h/hls-s
 #EXTINF:-1 tvg-id="Gulli.fr@SD" group-title="France TV backup - Autres",Gulli [iptv-org-fr]
 http://99.27.51.147:8080/Gulli/index.m3u8
 
+# === Ajouts FR multi-sources : Généralistes ===
+#EXTINF:-1 tvg-id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD" group-title="Généralistes - 100% Français",TV5Monde France Belgium Switzerland Monaco
+http://5.78.65.164/TV5Monde/index.m3u8
+
 # ===== DOSSIERS MIX FR (import automatique de mixfr-dossiers.txt, ne pas editer ici) =====
 # --- dossier: Zone 18@ ---
 #EXTINF:0 group-title="Zone 18@ - Zone 18@",MyCamTV Teen Girls
