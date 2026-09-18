@@ -1706,7 +1706,7 @@ http://livevideo.infomaniak.com/streaming/livecast/naxoo/playlist.m3u8
 https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
 #EXTINF:-1 tvg-chno="1685" tvg-logo="https://picserve.netplus.ch/channels/maxtv.png" tvg-country="FR" group-title="NetPlus - Autres",MAX TV [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
-https://viamotionhsi.netplus.ch/live/eds/maxtv/browser-HLS8/maxtv.m3u8
+https://cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8
 #EXTINF:-1 tvg-chno="1686" tvg-country="FR" group-title="NetPlus - Autres",NOVO 19 [FR]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 https://viamotionhsi.netplus.ch/live/eds/novo19/browser-HLS8/novo19.m3u8
@@ -4412,7 +4412,7 @@ https://jmp2.uk/plu-5f8ed9461b35690007a0bc3a.m3u8
 #EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" group-title="LG Channels - Crime & Mystère",Crime Scene TV France
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99994448&ads.xumo_streamId=99994448&ads.channelId=99994448&ads.ad_tag_id=140648&ads.csid=lgchannels_fr_indigeniuscrimescenetv_ssai&ads.channelName=indigeniuscrimescenetv_fr&ads.xumo_contentName=IndigeniusFrance&ads.xumo_contentId=4231&ads.xumo_providerName=IndigeniusFrance&ads.xumo_providerId=4231&ads.content_category=IAB1-7&ads.content_genre=television&ads.content_language=fr&ads.content_rating=tv-14&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
 #EXTINF:-1 tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/intocrime_logo%20.png" group-title="LG Channels - Crime & Mystère",Into Crime
-https://amg00711-zylo-amg00711c10-lg-fr-8023.playouts.now.amagi.tv/playlist/amg00711-zylofast-intocrime-lgfr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.coppa=0&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
+https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtd7pgq2rf4m4.cloudfront.net/Homicide_LOGO.png" group-title="LG Channels - Autres",Homicide
 https://jmp2.uk/stvp-FRBB49000033R
 #EXTINF:-1 tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/Images/1_Logo_Crime_History_800x200.png" group-title="LG Channels - Crime & Mystère",Love Crime & History
