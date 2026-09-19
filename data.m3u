@@ -1454,6 +1454,8 @@ https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist
 https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8
 #EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="Musique - Musique",Trace Latina (1080p)
 https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/trace-latina-fr.png" group-title="Musique - Musique",Trace Latina (Trace+)
+https://channels.trace.plus/Traceprod/LATINA.m3u8
 #EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Musique - Musique",Trace Urban (Australia) (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TZiK.fr@SD" tvg-logo="https://i.imgur.com/TAagRkn.png" group-title="Musique - Musique",TZiK 
@@ -6013,7 +6015,7 @@ https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-1/lci1.m
 #EXTINF:-1 group-title="Live MIX",Canal 4 TV
 https://vdo3.pro-fhi.net:3173/live/cwnxpjnjlive.m3u8
 
-#EXTINF:-1 group-title="Live MIX",Fox Kids TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FOX_Kids_logo.svg/500px-FOX_Kids_logo.svg.png" group-title="Live MIX",Fox Kids TV
 https://foxkidstv.be:3369/stream/play.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
@@ -6294,26 +6296,22 @@ https://jmp2.uk/stvp-FRBC3900004DS
 #EXTINF:-1 tvg-id="TMC.fr@SD" group-title="France TV backup - Autres",TMC (1080p) [iptv-org-fr]
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/LoCCMIWDEX6/w5hDZxX4WI8oQ7r.m3u8
 
-#EXTINF:-1 tvg-id="gong-anime" group-title="Live MIX",GONG Anime
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Logo_GONG.jpg" tvg-id="gong-anime" group-title="Live MIX",GONG Anime
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 #EXTINF:-1 tvg-id="plextv-connectik" group-title="Live MIX",PlexTV (Connectik)
 http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="mytvchannel-connectik" group-title="Live MIX",MyTVChannel (Connectik)
 http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="telequebec" group-title="Live MIX",Télé-Québec
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg/500px-T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg.png" tvg-id="telequebec" group-title="Live MIX",Télé-Québec
 brightcove://6150020952001/R35LpOeJ4/6391088380112
-#EXTINF:-1 tvg-id="telequebec-jeunesse" group-title="Live MIX",Télé-Québec Jeunesse
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg/500px-T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg.png" tvg-id="telequebec-jeunesse" group-title="Live MIX",Télé-Québec Jeunesse
 brightcove://6150020952001/R35LpOeJ4/6391090845112
 #EXTINF:-1 tvg-id="next-tv" tvg-logo="https://nexttvgroup.com/api/media/file/ChatGPT%20Image%2010%20juil.%202026%2C%2003_44_53.png" group-title="Live MIX",NEXT TV
 https://video1.getstreamhosting.com:1936/8312/8312/playlist.m3u8
 #EXTINF:-1 tvg-id="starnovelas" tvg-logo="https://nexttvgroup.com/api/media/file/WhatsApp%20Image%202026-06-21%20at%2005.10.11.jpeg" group-title="Live MIX",STAR+NOVELAS
 https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8
-#EXTINF:-1 group-title="Live MIX",Noovo Cinéma
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noovo_logo.svg/500px-Noovo_logo.svg.png" group-title="Live MIX",Noovo Cinéma
 https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/trace-latina-fr.png" group-title="Live MIX",Trace Latina
-https://channels.trace.plus/Traceprod/LATINA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/trace-urban-fr.png" group-title="Live MIX",Trace Urban
-https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 
 # === France TV backup (URLs alternatives — auto-multi-sources) ===
 #EXTINF:-1 tvg-id="LCI.fr@HD" group-title="France TV backup - Autres",LCI HD (1080p) [iptv-org-fr]
